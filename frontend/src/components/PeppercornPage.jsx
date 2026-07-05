@@ -54,20 +54,7 @@ function CarouselCard({ card, isActive, onClick }) {
 
 // ── Section shell (open/close controlled by parent) ───────────────────────
 
-// Small painted watercolor accent per section (reuses the existing /icons set),
-// keyed by section id, so the informational sections get a little warmth.
-const PP_ICON_BASE = `${import.meta.env.BASE_URL}icons/`
-const SECTION_ICON = {
-  'artist-statement': 'ic_editorial',
-  'career-goals':     'ic_award',
-  'submission-log':   'ic_books',
-  'exhibition-log':   'ic_gallery',
-  'venue-log':        'ic_cafe',
-  'contacts':         'ic_people',
-}
-
 function SectionShell({ id, title, subtitle, synopsis, isOpen, onToggle, sectionRef, children }) {
-  const icon = SECTION_ICON[id]
   return (
     <section
       id={id}
@@ -1584,6 +1571,11 @@ const EVENT_TYPES = [
   { type: 'featured',     icon: '★' },
 ]
 
+// TODO(product decision, 2026-07-06): complete, backend-wired feature (posts to
+// the live /api/career_events endpoint) that is not currently mounted anywhere
+// in the page tree. Kept intact pending Scott's surface-or-delete call; not dead
+// code. See project_system_audit_jul2026 memory.
+// eslint-disable-next-line no-unused-vars
 function CareerEventWidget() {
   const { t } = useLanguage()
   const [editType,  setEditType]  = useState(null)

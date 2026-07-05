@@ -5,7 +5,6 @@ import HeroSection from './components/HeroSection'
 import Nav, { QuickNav } from './components/Nav'
 import TodaysFocus from './components/TodaysFocus'
 import OpportunitiesSection from './components/OpportunitiesSection'
-import DeadlineCalendar from './components/DeadlineCalendar'
 import RelationshipTargets from './components/RelationshipTargets'
 import TrackerSection from './components/TrackerSection'
 import StatusBar from './components/StatusBar'
@@ -25,26 +24,6 @@ function PageFallback({ page }) {
     <p className="page-loading" style={{ minHeight: '80vh', display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center', fontStyle: 'italic', padding: '3rem 1rem', color: 'var(--muted)' }}>
       {t(key)}
     </p>
-  )
-}
-
-function ViewToggle({ view, setView }) {
-  const { t } = useLanguage()
-  return (
-    <div className={`view-toggle${view === 'calendar' ? ' view-toggle--sticky' : ''}`}>
-      <button
-        className={`view-toggle-btn${view === 'cards' ? ' active' : ''}`}
-        onClick={() => setView('cards')}
-      >
-        {t('view.cards')}
-      </button>
-      <button
-        className={`view-toggle-btn${view === 'calendar' ? ' active' : ''}`}
-        onClick={() => setView('calendar')}
-      >
-        📅 {t('view.calendar')}
-      </button>
-    </div>
   )
 }
 
@@ -93,7 +72,6 @@ function AtelierFooter({ page }) {
 
 export default function App() {
   const [page, setPage] = useState('discover')
-  const [view, setView] = useState('cards')
 
   // UX-research beacon: report the opening page and each page change so they
   // show up live in Discord. Best-effort; never blocks or breaks the UI.
@@ -167,22 +145,22 @@ export default function App() {
       <div className="app">
         {page === 'discover' && <HeroSection />}
         {page === 'discover' && nav}
-        {page === 'discover' && view === 'cards' && <QuickNav />}
+        {page === 'discover' && <QuickNav />}
         {page === 'discover' && <MochiIntro />}
         {page === 'discover' && <TrackedSection section="today_focus"><TodaysFocus /></TrackedSection>}
-        {page === 'discover' && view === 'cards'    && <TrackedSection section="open_calls"><OpportunitiesSection /></TrackedSection>}
+        {page === 'discover' && <TrackedSection section="open_calls"><OpportunitiesSection /></TrackedSection>}
         {/* People (RelationshipTargets) mounts INSIDE the same padded .opps-root
             container the opportunity cards use, so its .rt-section inherits the
             normal max-width + 28px gutter instead of going edge-to-edge (the
             section's own max-width:1400px never engaged below 1400px). */}
-        {page === 'discover' && view === 'cards'    && (
+        {page === 'discover' && (
           <TrackedSection section="people">
             <div className="opps-root">
               <RelationshipTargets />
             </div>
           </TrackedSection>
         )}
-        {page === 'discover' && view === 'cards'    && <TrackedSection section="tracker"><TrackerSection /></TrackedSection>}
+        {page === 'discover' && <TrackedSection section="tracker"><TrackerSection /></TrackedSection>}
         {page === 'discover' && <AtelierFooter page="discover" />}
         {(page === 'observe' || page === 'refine') && (
           <Suspense fallback={<PageFallback page={page} />}>

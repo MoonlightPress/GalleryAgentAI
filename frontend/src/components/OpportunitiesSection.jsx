@@ -21,41 +21,9 @@ const SECTION_ORDER = [
   'watch_list',
 ]
 
-// Hand-made watercolor section icons (public/icons/*.webp, served under Vite's
-// /mochi/ base). Values prefixed "ic_" are image icons; any non-"ic_" value is
-// treated as a literal emoji fallback. <SectionIcon> below renders the right element.
+// Press-card icon path helper (public/icons/*.webp under Vite's /mochi/ base).
 const ICON_BASE = `${import.meta.env.BASE_URL}icons/`
 const iconUrl = (name) => `${ICON_BASE}${name}.webp`
-
-const SECTION_ICONS = {
-  immediate_best_moves:  'ic_mouse',     // watercolor toy mouse — Mochi's "best moves"
-  open_calls:            'ic_opencall',
-  publication_editorial: 'ic_editorial',
-  competitions_awards:   'ic_award',
-  zines_and_print:       'ic_books',
-  relationship_targets:  'ic_people',
-  watch_list:            'ic_camera',    // watercolor camera — the "watch list" (keeping an eye out)
-}
-
-// Render a section/header icon: a watercolor <img> for "ic_*" values, otherwise
-// the literal emoji string. Falls back to a neutral dot if nothing is supplied.
-function SectionIcon({ icon, className = 'opp-section-icon' }) {
-  const value = icon || '•'
-  if (typeof value === 'string' && value.startsWith('ic_')) {
-    return (
-      <img
-        className={`${className} ${className}--img`}
-        src={iconUrl(value)}
-        alt=""
-        aria-hidden="true"
-        loading="lazy"
-        width="24"
-        height="24"
-      />
-    )
-  }
-  return <span className={className} aria-hidden="true">{value}</span>
-}
 
 const PAGE_SIZE = cardsPerBatch()   // 6 on desktop (3 cols), 4 on smaller screens (2/1 cols)
 
@@ -147,7 +115,6 @@ export default function OpportunitiesSection() {
             sectionKey={key}
             label={m.label || key}
             description={m.description || ''}
-            icon={SECTION_ICONS[key] || '•'}
             items={items}
             feedbackSignals={feedbackSignals}
             onFeedback={handleFeedback}
@@ -346,7 +313,7 @@ function PressSection({ items }) {
 
 // ── Opportunity section ───────────────────────────────────────────────────────
 
-function OppSection({ sectionKey, label, description, icon, items, feedbackSignals, onFeedback }) {
+function OppSection({ sectionKey, label, description, items, feedbackSignals, onFeedback }) {
   const [shown, setShown]           = useState(PAGE_SIZE)
   const [activeId, setActiveId]     = useState(null)
   const [suppressed, setSuppressed] = useState(new Set())
