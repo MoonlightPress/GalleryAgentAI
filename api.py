@@ -3788,7 +3788,7 @@ def get_today():
             x for x in items
             if x.get("category") in _RELATIONSHIP_CATS
             and x.get("contact") and "@" in str(x.get("contact", ""))
-            and not _deadline_past(x)
+            and not x.get("deadline_past")
             and (high_impact_raw is None or _opp_id(x) != _opp_id(high_impact_raw))
         ]
     qw_candidates.sort(key=_ranked_score, reverse=True)
@@ -3823,7 +3823,7 @@ def get_today():
             if x.get("exclusive_primary_bucket") == "stretch_targets"
             and _opp_id(x) not in used_ids
             and not _is_tier4(x)
-            and not _deadline_past(x)
+            and not x.get("deadline_past")
         ],
         key=_overall_score, reverse=True,
     )
@@ -3831,7 +3831,7 @@ def get_today():
     if not stretch_candidates:
         stretch_candidates = sorted(
             [x for x in items if x.get("exclusive_primary_bucket") == "stretch_targets"
-             and _opp_id(x) not in used_ids and not _deadline_past(x)],
+             and _opp_id(x) not in used_ids and not x.get("deadline_past")],
             key=_overall_score, reverse=True,
         )
     # Fallback 2: highest-scoring watch-list item (non-Tier-4 preferred)
@@ -3841,14 +3841,14 @@ def get_today():
             if x.get("exclusive_primary_bucket") in {"watch_list", "research_needed"}
             and _opp_id(x) not in used_ids
             and not _is_tier4(x)
-            and not _deadline_past(x)
+            and not x.get("deadline_past")
         ]
         stretch_candidates = sorted(watch_items, key=_overall_score, reverse=True)
     # Final fallback: any remaining non-Tier-4 item
     if not stretch_candidates:
         stretch_candidates = sorted(
             [x for x in items if _opp_id(x) not in used_ids and not _is_tier4(x)
-             and not _deadline_past(x)],
+             and not x.get("deadline_past")],
             key=_overall_score, reverse=True,
         )
     stretch_raw = _pick(stretch_candidates)
