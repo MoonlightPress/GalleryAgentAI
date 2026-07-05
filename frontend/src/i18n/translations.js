@@ -82,6 +82,7 @@ const zh = {
 
   // ── Opportunities section ─────────────────────────────────────────────────
   'opps.loading':            '让麻薯帮你找点好东西…',
+  'newOpps.found':           '麻薯这周发现了 {n} 个新机会',
   'opps.error':              '麻薯暂时连不上，请稍后再试一次。',
   'opps.showMore':           '显示更多',
   'opps.moreCount':          '还有{n}个',
@@ -1306,6 +1307,7 @@ const ja = {
 
   // ── Opportunities ─────────────────────────────────────────────────────────
   'opps.loading':            'モチが機会を整理しています…',
+  'newOpps.found':           'モチが今週 {n} 件の新しい機会を見つけました',
   'opps.error':              'Mochiに接続できません。少し時間をおいて再度お試しください。',
   'opps.showMore':           'もっと見る',
   'opps.moreCount':          'あと{n}件',
@@ -2351,6 +2353,7 @@ const en = {
   'sf.gap.tracked':          'tracked',
 
   'opps.loading':            'Let\'s find you something good…',
+  'newOpps.found':           'Mochi found {n} new things this week',
   'opps.error':              'Mochi is having a quiet moment. Please try again in a little while.',
   'opps.showMore':           'Show more',
   'opps.moreCount':          '{n} more',

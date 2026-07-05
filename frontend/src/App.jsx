@@ -8,6 +8,7 @@ import OpportunitiesSection from './components/OpportunitiesSection'
 import RelationshipTargets from './components/RelationshipTargets'
 import TrackerSection from './components/TrackerSection'
 import StatusBar from './components/StatusBar'
+import NewOpportunitiesBanner from './components/NewOpportunitiesBanner'
 import TrackedSection from './components/TrackedSection'
 import { track } from './utils/track'
 import { setCache, getCache } from './utils/apiCache'
@@ -146,6 +147,7 @@ export default function App() {
         {page === 'discover' && <HeroSection />}
         {page === 'discover' && nav}
         {page === 'discover' && <QuickNav />}
+        {page === 'discover' && <NewOpportunitiesBanner />}
         {page === 'discover' && <MochiIntro />}
         {page === 'discover' && <TrackedSection section="today_focus"><TodaysFocus /></TrackedSection>}
         {page === 'discover' && <TrackedSection section="open_calls"><OpportunitiesSection /></TrackedSection>}
