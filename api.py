@@ -3807,6 +3807,23 @@ def get_today():
         top = lst[:k]
         return top[_day % len(top)]
 
+    # Tier 4 (RWS, ACC, Cité, Printed Matter…) must never appear in Today's
+    # Focus — those are stretch-tracking only. Defined here so every slot below
+    # can exclude them.
+    _TIER4_KEYWORDS = frozenset({
+        "royal watercolour society", "rws open", "american watercolor society",
+        "cite internationale des arts", "cité internationale des arts",
+        "asian cultural council", "acc 20", "printed matter", "offprint",
+    })
+
+    def _is_tier4(opp: dict) -> bool:
+        name_lower = (opp.get("name") or opp.get("title") or "").lower()
+        if any(kw in name_lower for kw in _TIER4_KEYWORDS):
+            return True
+        if opp.get("career_tier") == 4 or str(opp.get("tier", "")) == "4":
+            return True
+        return False
+
     # ── High Impact Move: highest-scoring IBM-eligible ────────────────────────
     ibm = [
         x for x in sorted(items, key=_ranked_score, reverse=True)
@@ -3814,6 +3831,22 @@ def get_today():
         and _ibm_eligible(x)
     ]
     high_impact_raw = _pick(ibm)
+
+    # Fallback: the immediate_best_moves bucket is structurally near-unreachable
+    # (its gate chain filters ~653 entries to ~0), which left this slot empty and
+    # Today's Focus showing only 2 items instead of 3. When it's empty, fill from
+    # the strongest genuinely-actionable, currently-open, non-Tier-4 open call —
+    # excluding evergreen relationship venues (those are Quick Win's job) so the
+    # two top slots stay distinct. Same daily rotation as every other slot.
+    if high_impact_raw is None:
+        hi_fallback = [
+            x for x in sorted(items, key=_ranked_score, reverse=True)
+            if x.get("category") not in _RELATIONSHIP_CATS
+            and not _is_tier4(x)
+            and not x.get("deadline_past")
+            and _ibm_eligible(x)
+        ]
+        high_impact_raw = _pick(hi_fallback)
 
     # ── Quick Win: IBM-eligible relationship-type with confirmed contact/email ─
     qw_candidates = [
@@ -3839,23 +3872,7 @@ def get_today():
     used_ids = {_opp_id(x) for x in [high_impact_raw, quick_win_raw] if x}
 
     # ── Stretch Goal: highest-scoring stretch_target that is NOT Tier 4 ─────────
-    # Tier 4 items (RWS, ACC, Cité Internationale, Printed Matter…) must never appear
-    # in Today's Focus. The stretch slot is for "one step toward a future target",
-    # not for acting on a Tier 4 opportunity directly.
-    _TIER4_KEYWORDS = frozenset({
-        "royal watercolour society", "rws open", "american watercolor society",
-        "cite internationale des arts", "cité internationale des arts",
-        "asian cultural council", "acc 20", "printed matter", "offprint",
-    })
-
-    def _is_tier4(opp: dict) -> bool:
-        name_lower = (opp.get("name") or opp.get("title") or "").lower()
-        if any(kw in name_lower for kw in _TIER4_KEYWORDS):
-            return True
-        if opp.get("career_tier") == 4 or str(opp.get("tier", "")) == "4":
-            return True
-        return False
-
+    # (Tier-4 exclusion helper _is_tier4 defined above, shared with High Impact.)
     # All stretch slots share the staleness gate: a fellowship whose deadline
     # passed seven months ago is not "one step toward a future target" — it's
     # noise that erodes trust in the whole Focus panel.
