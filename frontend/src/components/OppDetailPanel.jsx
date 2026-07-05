@@ -82,10 +82,10 @@ export default function OppDetailPanel({ opp, onClose }) {
               💴 {opp.fees.toLowerCase().includes('check') ? t('detail.fees.verify') : opp.fees}
             </span>
           )}
-          {opp.official_website && (
+          {(opp.official_website || opp.source_url) && (
             <a
               className="detail-chip detail-chip-link"
-              href={opp.official_website}
+              href={opp.official_website || opp.source_url}
               target="_blank"
               rel="noreferrer"
             >

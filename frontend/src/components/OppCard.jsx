@@ -275,10 +275,10 @@ export default function OppCard({ opp, isOpen, onDetails, onSuppressed, onFeedba
           >
             {isOpen ? t('card.close') : t('card.details')}
           </button>
-          {(opp.submission_page || opp.official_website) && (
+          {(opp.submission_page || opp.official_website || opp.source_url) && (
             <a
               className="opp-btn-open"
-              href={opp.submission_page || opp.official_website}
+              href={opp.submission_page || opp.official_website || opp.source_url}
               target="_blank"
               rel="noreferrer"
               onClick={() => track({ type: 'action', action: 'external_link_click', category: opp.category, name: opp.name || opp.title })}
