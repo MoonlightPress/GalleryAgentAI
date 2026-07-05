@@ -26,6 +26,23 @@
   z-index: 2;
 }
 
+/* "New" badge — recently-imported opportunities (is_new), left of the conf dot */
+.opp-new-badge {
+  position: absolute;
+  top: 12px;
+  right: 30px;
+  font-size: 9px;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--gold, #a07c2e);
+  background: var(--gold-faint, #fdf5e0);
+  border: 1px solid var(--gold, #c49a3e);
+  border-radius: 999px;
+  padding: 2px 7px;
+  z-index: 2;
+}
+
 .opp-card:hover {
   box-shadow: 0 6px 22px rgba(80, 55, 30, 0.13), 0 2px 5px rgba(80, 55, 30, 0.06);
   transform: translateY(-2px);

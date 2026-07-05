@@ -181,6 +181,7 @@ export default function OppCard({ opp, isOpen, onDetails, onSuppressed, onFeedba
   return (
     <div className={cardClass}>
       <span className="opp-conf-dot" style={{ background: confColor }} title={t(`card.conf.${confLevel}`)} aria-hidden="true" />
+      {opp.is_new && <span className="opp-new-badge">{t('card.new')}</span>}
 
       <div className="opp-card-body">
 

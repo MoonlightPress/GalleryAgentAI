@@ -97,6 +97,7 @@ const zh = {
   // ── OppCard ───────────────────────────────────────────────────────────────
   'card.details':            '详情',
   'card.close':              '关闭',
+  'card.new':                '新',
   'card.conf.strong':        '高度契合',
   'card.conf.medium':        '值得一看',
   'card.conf.low':           '把握较低',
@@ -1312,6 +1313,7 @@ const ja = {
   // ── OppCard ───────────────────────────────────────────────────────────────
   'card.details':            '詳細',
   'card.close':              '閉じる',
+  'card.new':                '新着',
   'card.feedback.follow':    'フォロー',
   'card.feedback.applied':   '申請済み',
   'tracker.title':     'トラッカー',
@@ -2362,6 +2364,7 @@ const en = {
 
   'card.details':            'Details',
   'card.close':              'Close',
+  'card.new':                'New',
   'card.conf.strong':        'Strong fit',
   'card.conf.medium':        'Worth a look',
   'card.conf.low':           'Lower confidence',
