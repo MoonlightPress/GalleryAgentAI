@@ -119,6 +119,25 @@ ssh $SSH_OPTS "$SERVER" bash <<'REMOTE'
   # set), not her interaction data — force-update it too, or --ignore-existing keeps
   # the stale old peer list live (Pip, 2026-06-26).
   sudo rsync -a /tmp/mochi-app-stage/memory/peer_artists.json /opt/mochi/memory/
+  # suppressed_opportunities.json: UNION-merge local (curated suppressions we
+  # maintain, e.g. Scott's "no overseas relocation" pulls) with the server's
+  # copy (which the in-app "not for me" button also writes to). --ignore-existing
+  # would drop our new suppressions; a plain overwrite would wipe her in-app
+  # hides. Union does both jobs and loses neither.
+  if [ -f /tmp/mochi-app-stage/memory/suppressed_opportunities.json ]; then
+    sudo python3 - <<'PYMERGE'
+import json
+srv = "/opt/mochi/memory/suppressed_opportunities.json"
+inc = "/tmp/mochi-app-stage/memory/suppressed_opportunities.json"
+def load(p):
+    try:
+        with open(p) as f: return json.load(f)
+    except Exception: return []
+merged = sorted(set(load(srv)) | set(load(inc)))
+with open(srv, "w") as f: json.dump(merged, f, indent=2)
+print(f"  suppressed_opportunities: merged -> {len(merged)} ids")
+PYMERGE
+  fi
   sudo chown -R ubuntu:ubuntu /opt/mochi/api.py /opt/mochi/deploy_data /opt/mochi/memory /opt/mochi/engines
   # Regenerate the career-strategy report with the freshly-deployed engine code.
   # deploy preserves her memory (--ignore-existing), so the report file itself is

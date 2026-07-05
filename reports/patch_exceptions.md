@@ -6,6 +6,26 @@ Goal restated: deleting all JSON and running the pipeline from scratch should pr
 
 ---
 
+## 2026-07-06 — Overseas-study program suppression (Scott: "no leaving the country")
+
+**Patch:** Added 10 opp_ids to `memory/suppressed_opportunities.json` — every variant of the
+Bunka-chō 新進芸術家海外研修制度 / Emerging Artists Overseas Training Program (1-year, 2-year,
+special short-term, per-fiscal-year labels, plus the Japanese-cultural-promotion sub-program).
+
+**Why:** Scott's standing preference that she not be shown opportunities requiring relocation
+abroad. These are legit, high-scoring Tier-3 programs, so nothing else filters them — they kept
+surfacing in the Stretch slot.
+
+**Why not (yet) an engine rule:** suppression is a user-preference decision, so it lives in
+app-state (`suppressed_opportunities.json`, honored by `load_opportunities()` at serve time and
+union-merged on deploy). It survives pipeline runs while the titles are stable. It is NOT fully
+regeneration-proof: a *future* pipeline pass could discover the program under a new title (e.g.
+令和10年度…) with a new opp_id that isn't in the list. The eventual engine rule that should own
+this: a keyword/relocation classifier that flags opportunities requiring overseas physical
+residency (海外研修 / overseas study/training / overseas residency) as suppressed-by-preference —
+being careful to NOT catch international *open calls* she can enter remotely from Tokyo, which are
+good for her. Not built yet; pending a decision on the broader "no relocation" policy scope.
+
 ## 1. `exclusive_primary_bucket` edits on compact opportunities — RESOLVED (2026-06-10)
 - **Commits:** `97315944` (shashasha → `publication_targets`), `9b26df47` (one entry).
 - **File:** `deploy_data/compact_opportunities.json`
