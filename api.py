@@ -879,7 +879,12 @@ def shape_card(opp: dict) -> dict:
         "fit_band":        _fit_band(opp),
         "deadline_past":   _deadline_past(opp),
         "closed_this_cycle": opp.get("status") == "closed_this_cycle",
-        "is_new":          is_new_opportunity(opp.get("imported_at")),
+        # "added_at" is what the active discovery engines (japanese_chinese_
+        # discovery_engine, grant_discovery_engine, global_opportunity_expander)
+        # actually stamp on new entries; "imported_at" is only set by older
+        # one-off conversion scripts outside the main pipeline. Check both so
+        # opportunities from a real pipeline run are actually flagged new.
+        "is_new":          is_new_opportunity(opp.get("added_at") or opp.get("imported_at")),
         # Email drafts — prefer per-entry drafts from data, fall back to templates
         "email_zh": opp.get("email_zh") or email_zh(org, category),
         "email_ja": opp.get("email_ja") or email_ja(org, category),

@@ -1,6 +1,7 @@
 
 import json
 import os
+from datetime import date
 from pathlib import Path
 
 OPP_PATH = "deploy_data/compact_opportunities.json"
@@ -40,6 +41,7 @@ def main():
         if key(candidate) in existing:
             continue
 
+        candidate.setdefault("added_at", date.today().isoformat())
         opps.append(candidate)
         existing.add(key(candidate))
         added += 1
