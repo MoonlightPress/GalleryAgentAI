@@ -93,7 +93,16 @@ ssh $SSH_OPTS "$SERVER" bash <<'REMOTE'
     sudo mkdir -p "/opt/mochi/memory_backups/$TS"
     sudo rsync -a /opt/mochi/memory/ "/opt/mochi/memory_backups/$TS/"
     echo "  backed up server memory -> /opt/mochi/memory_backups/$TS/"
+    # Prune backups older than 30 days so this dir doesn't grow unbounded and
+    # fill the disk (one snapshot per deploy). Mirrors the log-prune pattern in
+    # deploy/mochi-pipeline.sh. Keeps ~a month of rollback points.
+    sudo find /opt/mochi/memory_backups -maxdepth 1 -type d -name '20*' -mtime +30 -exec rm -rf {} + 2>/dev/null || true
   fi
+  # NOTE: runtime-written logs (usage_events.jsonl, usage_state.json,
+  # visit_log.json, user_reported_issues.json) are deliberately NOT in the
+  # memory manifest above. api.py creates them on first write (append mode);
+  # they are server-owned live state (real visitor data). Shipping local copies
+  # would risk clobbering that. Do not "fix" their absence by adding them.
   # Update code + data, but DO NOT overwrite the artist's edited memory files.
   sudo rsync -a --checksum --exclude 'memory/' /tmp/mochi-app-stage/ /opt/mochi/
   # Seed only memory files that don't exist yet on the server (never clobber).
