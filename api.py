@@ -486,6 +486,32 @@ def _opp_name(opp: dict) -> str:
     return opp.get("title") or opp.get("name") or ""
 
 
+# ── Field accessors — one concept, one reader ─────────────────────────────────
+# Discovery engines from different eras wrote the same concept under different
+# keys (contact/contact_email, fees/fee, submission_page/submission_url). A
+# reader that checks only one silently drops entries carrying the other — the
+# exact bug class behind added_at/imported_at. Every consumer goes through these.
+
+def _contact_value(opp: dict) -> str:
+    return str(opp.get("contact") or opp.get("contact_email") or "").strip()
+
+
+def _has_email_contact(opp: dict) -> bool:
+    """True if either contact field holds an '@'-style reachable handle — an
+    email OR an Instagram handle. For the relationship venues this gates (cafés,
+    zine shops), an IG DM is a legitimate reach channel, often the only one, so
+    '@' presence (not a strict email regex) is the intended, pre-existing bar."""
+    return "@" in _contact_value(opp)
+
+
+def _fees_value(opp: dict) -> str:
+    return str(opp.get("fees") or opp.get("fee") or "").strip()
+
+
+def _submission_url(opp: dict) -> str:
+    return str(opp.get("submission_page") or opp.get("submission_url") or "").strip()
+
+
 def _dedup_key(name: str) -> str:
     """Normalized key for collapsing the same opportunity listed under variant
     titles. Beyond stripping punctuation/spaces it also folds away the things
@@ -817,7 +843,7 @@ def _build_checklist(opp: dict) -> list:
     sub_ok = bool(opp.get("submission_page")) and opp.get("url_verification_status") == "ok"
     if sub_ok:
         items.append(_ci("Submission path", "ready", "Link confirmed live"))
-    elif opp.get("contact") and "@" in str(opp.get("contact", "")):
+    elif _has_email_contact(opp):
         items.append(_ci("Submission path", "ready", "Email contact available"))
     else:
         items.append(_ci("Submission path", "check", "Find submission page or contact"))
@@ -868,13 +894,13 @@ def shape_card(opp: dict) -> dict:
         "city":            opp.get("city", ""),
         "country":         opp.get("country", ""),
         "deadline":        opp.get("deadline", ""),
-        "fees":            opp.get("fees", ""),
+        "fees":            _fees_value(opp),
         "score":           score,
         "overall_score":   score,
         "official_website": opp.get("official_website", ""),
         "source_url":      opp.get("source_url", ""),
-        "submission_page": opp.get("submission_page", ""),
-        "contact":         opp.get("contact") or opp.get("contact_email") or "",
+        "submission_page": _submission_url(opp),
+        "contact":         _contact_value(opp),
         "contact_url":     opp.get("contact_url", ""),
         "contact_note":    opp.get("contact_note", ""),
         "action_type":     opp.get("action_type", ""),
@@ -3793,10 +3819,7 @@ def get_today():
     qw_candidates = [
         x for x in ibm
         if x.get("category") in _RELATIONSHIP_CATS
-        and (
-            (x.get("contact") and "@" in str(x.get("contact", "")))
-            or x.get("contact_verified")
-        )
+        and (_has_email_contact(x) or x.get("contact_verified"))
         and (high_impact_raw is None or _opp_id(x) != _opp_id(high_impact_raw))
     ]
     # If no relationship IBM, widen to any low-effort verified contact.
@@ -3806,7 +3829,7 @@ def get_today():
         qw_candidates = [
             x for x in items
             if x.get("category") in _RELATIONSHIP_CATS
-            and x.get("contact") and "@" in str(x.get("contact", ""))
+            and _has_email_contact(x)
             and not x.get("deadline_past")
             and (high_impact_raw is None or _opp_id(x) != _opp_id(high_impact_raw))
         ]
