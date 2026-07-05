@@ -4,7 +4,36 @@
 covers the volatile *what's true right now*. When the two disagree, this file wins —
 and whoever notices the drift should fix it here. Keep this file short.
 
-_Last updated: 2026-06-24_
+_Last updated: 2026-07-06_
+
+## Most recent work (2026-07-06 — committed on `main`, NOT yet deployed)
+
+A weekend of tracking/analytics work, a full pipeline run, a 4-agent system audit,
+and an audit-driven fix batch. All committed and pushed to `origin/main`; **the live
+site is still the 2026-07-05 deploy** — a deliberate hold pending a confidence pass
+before deploying the fix batch. Highlights, newest first:
+- **Scoring integrity:** `truth_aligned_score` is now a cap, not a shadow (it was
+  silently overriding fresher scores on 566/653 entries); dropped a false
+  "artist is a photographer" exemption that let photography-only calls escape capping.
+- **Deadline logic unified:** `shape_card` now serves the strict `_deadline_passed`
+  value (was serving a lenient 7-day-grace flag that contradicted the actionability
+  verdict); lenient fn renamed `_deadline_date_in_past` and confined to display-blanking.
+- **Field accessors:** `_contact_value`/`_has_email_contact`/`_fees_value`/`_submission_url`
+  — fixed 8 relationship venues invisible to Quick Win (address in `contact_email` only)
+  and 54 blank fees (value under singular `fee`).
+- **Today's Focus shows 3 again:** added a High Impact fallback (the
+  `immediate_best_moves` bucket is structurally near-unreachable, so that slot was
+  always empty → only 2 items rendered).
+- **Frontend:** all 8 lint errors cleared (dead calendar-toggle + section-icon code);
+  `CareerEventWidget` kept as a documented unmounted-feature TODO.
+- **Ops:** `deploy.sh` prunes `memory_backups` >30d; documented why runtime logs
+  aren't shipped.
+- **Full audit findings + ranked backlog:** see `project_system_audit_jul2026` memory.
+  Still open: pipeline resume/checkpointing, api.py monolith split, IBM-bucket rethink,
+  StatusBar new-banner placement (bottom → near top), `memory/` vs `Memory/` casing.
+- **The "Mochi found N new things" banner IS live and working** (99 new opps) but
+  renders at the *bottom* of the page — easy to miss; relocation is queued UI work.
+
 
 ## The live app
 

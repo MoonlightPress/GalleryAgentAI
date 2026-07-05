@@ -89,7 +89,7 @@ The architecture is a sequence of failures corrected. Each layer exists because 
 
 ### Active Pipeline
 
-`run_full_mochi_pipeline.py` is the current pipeline (74 steps, 72 present). It uses `smart_pipeline_runner.py` to resolve scripts across: root → `engines/` → `ui/` → `scripts/runners` → `scripts/patches`.
+`run_full_mochi_pipeline.py` is the current pipeline (~101 steps in the `PIPELINE` list). It uses `smart_pipeline_runner.py` to resolve scripts across: root → `engines/` → `ui/` → `scripts/runners` → `scripts/patches`. Note: `smart_pipeline_runner.py` has no checkpoint/resume — a killed run leaves no ledger; see `project_system_audit_jul2026` memory for the resume workaround.
 
 `council_pipeline_agent.py` is the legacy 11-step pipeline — still functional, now superseded.
 
@@ -145,7 +145,7 @@ The system has three pages, each anchored by a companion animal. **The animals a
 | **Peppercorn** (mouse) | Input | Artist goals, statement, preferences, feedback | "Is this system understanding me correctly?" |
 | **Saffron** (bird) | Observatory | Market view, statistics, comparable artists, context | "What does the bigger picture look like?" |
 
-**Mochi's status bar** ("Mochi is happy and full") persists across all three pages — she is the emotional anchor of the whole system.
+**Mochi's status bar** persists across all three pages as the intended emotional anchor. **Current reality (2026-07-06):** the original mood panel ("Mochi is happy and full", buddy stats, sticky note) was removed as not earning its space; `StatusBar.jsx` now renders a thin accent plus a dismissable "🐾 Mochi found N new things this week" banner. Two open notes: the persistent-mood anchor described below no longer exists in code (restore-or-retire is an open product decision), and the new-opportunities banner currently sits at the *bottom* of the page where it's easy to miss — moving it near Today's Focus is queued UI work.
 
 ### Mochi — The Cat (Page 1: Action)
 
@@ -205,16 +205,16 @@ Warm watercolor atelier overall. The CSS design tokens from `mochi_app.py` (arch
 
 ## Career Strategy Framework
 
-GEGYjiji's career is structured in four tiers. **She is currently in Tier 1-2.** All opportunity scoring, bucketing, and recommendations must reflect this.
+GEGYjiji's career is structured in four tiers. **Her current phase is computed dynamically** from her real record and lives in `memory/career_strategy_report.json` (`current_phase`, `readiness_scores`) — as of 2026-07-06 that is **Tier 3 established, building toward Tier 4** (evidence: 8 confirmed group shows, 2 solo shows, an institutional show, an international show, 2 publications; tier_3_readiness = 1.0, tier_4_readiness = 0.85). **Do not hardcode her tier** — engines that surface "what to do today" should read the report so scoring tracks her real progress. (This corrects an earlier hardcoded "Tier 1-2" that predated her exhibition record being entered.)
 
-| Tier | Label | What It Is | Current Phase |
+| Tier | Label | What It Is | Status (computed) |
 |---|---|---|---|
-| **1** | Ambient Visibility | Zine shops, bookshop consignment, café prints, art book fairs, self-publishing. Low-barrier presence-building — work enters circulation without requiring pitching. | **Yes** |
-| **2** | Networking | Group shows, artist-run spaces, open calls at accessible Tokyo galleries, community events. Active relationship-building with the people who will matter in 3-5 years. | **Yes** |
-| **3** | Credibility | Small institutional shows (TOKAS, BankART1929, Youkobo), juried open calls (Jinny Street, Belladonna, Shoto Museum), Japan Watercolor Society. CV weight. | Not yet |
-| **4** | Prestige Targets | Royal Watercolour Society, American Watercolor Society, Cité Internationale des Arts, Asian Cultural Council, Printed Matter, Offprint. For the deep-work year at 30 and beyond. | Not yet |
+| **1** | Ambient Visibility | Zine shops, bookshop consignment, café prints, art book fairs, self-publishing. Low-barrier presence-building — work enters circulation without requiring pitching. | **Established** |
+| **2** | Networking | Group shows, artist-run spaces, open calls at accessible Tokyo galleries, community events. Active relationship-building with the people who will matter in 3-5 years. | **Established** |
+| **3** | Credibility | Small institutional shows (TOKAS, BankART1929, Youkobo), juried open calls (Jinny Street, Belladonna, Shoto Museum), Japan Watercolor Society. CV weight. | **Established (100% readiness)** |
+| **4** | Prestige Targets | Royal Watercolour Society, American Watercolor Society, Cité Internationale des Arts, Asian Cultural Council, Printed Matter, Offprint. For the deep-work year at 30 and beyond. | Building toward (85% readiness) |
 
-**Scoring rule:** Tier 1-2 opportunities score at ×1.3–1.4 weight for immediate recommendations. Tier 4 entries are always routed to `stretch_targets` — they must **never** appear in Immediate Best Moves. Tier 4 exists to be tracked and prepared for, not acted on now.
+**Scoring rule:** opportunity fit to her current level is a gentle re-rank term, not a hard multiplier. Tiers 1-2 are always fully in reach (level-fit 1.0); Tier 3/4 fit *rises* with her readiness — `_level_fit` in `api.py` maps to roughly **[0.85, 1.15]×** (0.85 + 0.30·fit), so level-appropriate opportunities lift and stretch ones sink without hiding anything. (This replaced an older hard ×1.3–1.4 multiplier — the "Saffron hybrid reframe.") Tier 4 entries are always routed to `stretch_targets` — they must **never** appear in Immediate Best Moves / Today's Focus. Tier 4 exists to be tracked and prepared for, not acted on now.
 
 **Why this matters for code:** Any engine that surfaces "what to do today" must respect the current phase. Recommending an RWS open exhibition to a 26-year-old building her first exhibition history is worse than useless — it sets the wrong expectation and wastes attention. The tier framework is the primary guard against this.
 
