@@ -450,6 +450,31 @@ def is_new_opportunity(imported_at, now=None, window_days: int = NEW_WINDOW_DAYS
     return 0 <= delta_days <= window_days
 
 
+# Ordered (specific-first) substring rules mapping a legacy "source_type" to a
+# real category, for the older batch of entries that never got one written.
+_SOURCE_TYPE_CATEGORY_RULES = (
+    ("watercolor", "global_watercolor_open_call"),
+    ("society", "institutional"),
+    ("gallery", "gallery"),
+    ("residency", "global_residency"),
+    ("grant", "global_grant_fellowship"),
+    ("fellowship", "global_grant_fellowship"),
+)
+_SOURCE_TYPE_CATEGORY_DEFAULT = "global_open_call"
+
+
+def _fallback_category_from_source_type(source_type) -> str:
+    """Best-effort category for an entry whose category field is empty, using
+    its legacy source_type (e.g. "watercolor_open_exhibition",
+    "illustration_gallery"). Never raises; unmatched/missing source_type
+    degrades to a generic open-call category rather than staying blank."""
+    s = str(source_type or "").lower()
+    for hint, category in _SOURCE_TYPE_CATEGORY_RULES:
+        if hint in s:
+            return category
+    return _SOURCE_TYPE_CATEGORY_DEFAULT
+
+
 def _opp_name(opp: dict) -> str:
     return opp.get("title") or opp.get("name") or ""
 
@@ -1203,6 +1228,15 @@ def load_opportunities() -> list:
     # "Past deadline" badge on venues you can pitch anytime, without a pipeline run.
     for x in items:
         x["deadline_past"] = _deadline_passed(x)
+
+    # Backfill a missing category from the legacy "source_type" field at serve
+    # time. A batch of older entries (added_by is unset — predates the current
+    # discovery engines) never got a "category" written, only "source_type"
+    # (e.g. "watercolor_open_exhibition", "illustration_gallery"). Cosmetic
+    # only — affects which card icon shows, not correctness or actionability.
+    for x in items:
+        if not str(x.get("category") or "").strip():
+            x["category"] = _fallback_category_from_source_type(x.get("source_type"))
 
     # Truth-pass rule 4: the same call can enter twice from different sources
     # (e.g. NIKA S20 listed under two titles). Dedup by normalized name,
