@@ -117,8 +117,12 @@ def truth_check(opp):
         verdict = "capped_negative_explanation"
         reasons.append("negative explanation: " + ", ".join(negative_hits[:4]))
 
-    # Photography cap exempts native_medium=photography — Nin is a photographer
-    if photo_hits and not watercolor_hits and opp.get("native_medium") != "photography":
+    # Photography-only opportunities are capped, no exemptions. (An earlier
+    # version exempted native_medium=="photography" with a comment claiming
+    # the artist is a photographer — she is a watercolor painter, and Scott's
+    # 2026-06-19 decision explicitly BLOCKS photography opportunities. The
+    # exemption let exactly the wrong entries escape the cap.)
+    if photo_hits and not watercolor_hits:
         cap = min(cap, 5.8)
         verdict = "capped_wrong_medium"
         reasons.append("photography-only risk: " + ", ".join(photo_hits[:4]))

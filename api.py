@@ -553,12 +553,24 @@ def _extract_english_name(name: str, name_zh: str = "") -> str:
 
 
 def _overall_score(opp: dict) -> float:
-    for key in ("truth_aligned_score", "overall_score", "differentiated_score",
+    """Fresh score chain as the base; truth_aligned_score only ever CAPS it.
+
+    truth_aligned_score is written by the truth checker from a snapshot of the
+    other score fields — when those are later recomputed, the old truth value
+    goes stale. Letting it win outright silently replaced the fresh score on
+    ~97% of live entries (audit 2026-07-06). min() keeps every intentional
+    cap (hidden/reject/negative-explanation) while discarding stale inflation."""
+    base = None
+    for key in ("overall_score", "differentiated_score",
                 "watercolor_adjusted_score", "dna_adjusted_score"):
         v = opp.get(key)
         if v is not None:
-            return float(v)
-    return 0.0
+            base = float(v)
+            break
+    truth = opp.get("truth_aligned_score")
+    if truth is not None:
+        return min(base, float(truth)) if base is not None else float(truth)
+    return base if base is not None else 0.0
 
 
 def _email_category(category: str) -> str:
