@@ -385,8 +385,15 @@ def _parse_deadline_date(opp: dict):
     return None
 
 
-def _deadline_past(opp: dict) -> bool:
-    """Return True if a parseable deadline is more than 7 days in the past."""
+def _deadline_date_in_past(opp: dict) -> bool:
+    """Raw 'the date in the deadline field is in the past' check, with NO
+    category exemptions — used ONLY to blank stale residue dates on evergreen
+    relationship venues for display (a café/gallery whose deadline field holds
+    a past event note). For the actionability verdict — 'is this call closed'
+    — use _deadline_passed(), which exempts evergreen/recurring venues and has
+    no grace period. Keeping these separate is deliberate: this one must fire
+    ON relationship venues (to blank their display date); the other must never
+    mark them closed."""
     dt = _parse_deadline_date(opp)
     if dt is None:
         return False
@@ -415,7 +422,7 @@ def _ibm_eligible(opp: dict) -> bool:
     # Relationship/proposal venues are evergreen — stale deadline fields don't close them
     if opp.get("category") in _RELATIONSHIP_CATS and opp.get("contact_verified"):
         return True
-    if _deadline_past(opp):
+    if _deadline_passed(opp):
         return False
     if _confirmed_deadline(opp):
         return True
@@ -843,7 +850,7 @@ def shape_card(opp: dict) -> dict:
     # Truth-pass rule 3: evergreen relationship venues (consignment shops,
     # cafés, artist spaces) carry stale one-off event dates as residue.
     # A past date on such a venue is never an action date — serve "rolling".
-    if category in _RELATIONSHIP_CATS and _deadline_past(opp):
+    if category in _RELATIONSHIP_CATS and _deadline_date_in_past(opp):
         opp = {**opp, "deadline": "", "status": opp.get("status", "")}
 
     why = opp.get("why_this_fits_short", "")
@@ -914,7 +921,7 @@ def shape_card(opp: dict) -> dict:
         "native_medium":   opp.get("native_medium", "unknown"),
         "career_tier":     _opp_tier(opp),
         "fit_band":        _fit_band(opp),
-        "deadline_past":   _deadline_past(opp),
+        "deadline_past":   _deadline_passed(opp),
         "closed_this_cycle": opp.get("status") == "closed_this_cycle",
         # "added_at" is what the active discovery engines (japanese_chinese_
         # discovery_engine, grant_discovery_engine, global_opportunity_expander)

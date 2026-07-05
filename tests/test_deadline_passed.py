@@ -1,10 +1,29 @@
 import unittest
 from datetime import date
 
-from api import _deadline_passed
+from api import _deadline_passed, shape_card
 from recommendation_readiness import RELATIONSHIP_CATEGORIES
 
 TODAY = date(2026, 6, 25)
+
+
+class ShapeCardServesStrictDeadlineTests(unittest.TestCase):
+    """Regression (audit 2026-07-06): shape_card used to recompute its served
+    deadline_past with the lenient _deadline_past (7-day grace, no evergreen
+    exemption), silently discarding the strict value load_opportunities()
+    stamps. Now it uses the same strict _deadline_passed everywhere."""
+
+    def test_served_deadline_past_matches_strict_check(self):
+        # A hard-past dated open call: served flag must be True.
+        card = shape_card({"title": "X", "category": "grant", "deadline": "2020-01-01"})
+        self.assertTrue(card["deadline_past"])
+
+    def test_evergreen_venue_never_served_as_past(self):
+        # A café gallery with an old date is evergreen — must NOT be flagged
+        # past (the strict check exempts relationship categories).
+        cat = next(iter(RELATIONSHIP_CATEGORIES))
+        card = shape_card({"title": "Y", "category": cat, "deadline": "2020-01-01"})
+        self.assertFalse(card["deadline_past"])
 
 
 class DeadlinePassedTests(unittest.TestCase):
