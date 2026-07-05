@@ -1016,6 +1016,17 @@ _RECURRING_HINTS = (
     "seasonal", "proposal", "evergreen", "tbd", "unknown", "varies",
 )
 
+# Unambiguous "this call is over" phrases with no attached date - only checked
+# for an item that already passed the _RECURRING_HINTS check (so it never
+# overrides an annual/rolling exemption) and has no parseable date at all.
+# Deliberately narrow: something like rumor-mill finding "submissions now
+# closed" for a one-time call should count as past, not silently stay open.
+_EXPLICIT_CLOSURE_PHRASES = (
+    "now closed", "submissions closed", "submissions are closed",
+    "applications closed", "applications are closed", "no longer accepting",
+    "deadline has passed", "deadline passed", "closed for submissions",
+)
+
 
 _NTH_EDITION_RE = re.compile(r"第\s*\d+\s*[回届]")
 _JP_RECUR_MARKERS = ("祭典", "コンクール", "公募展", "公募", "年次", "毎年", "恒例", "隔年")
@@ -1171,6 +1182,14 @@ def _deadline_passed(item: dict, today=None) -> bool:
         except Exception: pass
     if months:
         return max(months) < (today.year, today.month)
+    # No parseable date at all (e.g. a rumor-mill-found deadline field that's
+    # pure prose, not a date). Only unambiguous closure language flags this as
+    # past — anything already caught by _RECURRING_HINTS above never reaches
+    # here, so this never overrides an annual/rolling exemption; it only
+    # catches a genuinely one-time call whose deadline field says it's closed
+    # with no date attached at all.
+    if any(p in low for p in _EXPLICIT_CLOSURE_PHRASES):
+        return True
     return False
 
 

@@ -42,6 +42,44 @@ class DeadlinePassedTests(unittest.TestCase):
     def test_empty_deadline_is_not_past(self):
         self.assertFalse(_deadline_passed({"deadline": ""}, today=TODAY))
 
+    def test_explicit_closure_phrase_with_no_date_is_past(self):
+        # A one-time call whose deadline field is pure prose ("Submissions now
+        # closed", as rumor-mill sometimes finds) with no attached date at all.
+        self.assertTrue(
+            _deadline_passed({"deadline": "Submissions now closed"}, today=TODAY)
+        )
+        self.assertTrue(
+            _deadline_passed({"deadline": "Applications closed"}, today=TODAY)
+        )
+
+    def test_closure_phrase_does_not_override_recurring_exemption(self):
+        # "annual" already exempts this via _RECURRING_HINTS - the closure
+        # phrase must never override that (a recurring call's THIS cycle being
+        # closed doesn't mean the opportunity itself is dead).
+        self.assertFalse(
+            _deadline_passed(
+                {"deadline": "Annual — 2026 cycle closed May 22. Watch January 2027."},
+                today=TODAY,
+            )
+        )
+
+    def test_closure_phrase_does_not_override_relationship_category_exemption(self):
+        cat = next(iter(RELATIONSHIP_CATEGORIES))
+        self.assertFalse(
+            _deadline_passed(
+                {"category": cat, "deadline": "Submissions now closed"}, today=TODAY
+            )
+        )
+
+    def test_closure_phrase_with_a_parseable_date_uses_the_date(self):
+        # A real date takes precedence over the closure phrase entirely
+        # (dates are checked first) - a future date still means open.
+        self.assertFalse(
+            _deadline_passed(
+                {"deadline": "Submissions closed, reopens 12/31/2099"}, today=TODAY
+            )
+        )
+
 
 if __name__ == "__main__":
     unittest.main()
