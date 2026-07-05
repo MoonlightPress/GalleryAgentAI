@@ -431,6 +431,25 @@ def _opp_id(opp: dict) -> str:
     return hashlib.md5(raw.encode()).hexdigest()[:12]
 
 
+NEW_WINDOW_DAYS = 7  # how long an opportunity stays flagged "new" after import
+
+
+def is_new_opportunity(imported_at, now=None, window_days: int = NEW_WINDOW_DAYS) -> bool:
+    """True if imported_at (a "YYYY-MM-DD" string) falls within window_days of
+    now (inclusive both ends). Missing/malformed input, or an imported_at in
+    the future (a data glitch), degrades to False rather than raising —
+    this must never break the opportunities feed over a bad date string."""
+    if not imported_at:
+        return False
+    try:
+        imported_date = datetime.strptime(str(imported_at)[:10], "%Y-%m-%d").date()
+    except (ValueError, TypeError):
+        return False
+    now = now or datetime.now(timezone.utc)
+    delta_days = (now.date() - imported_date).days
+    return 0 <= delta_days <= window_days
+
+
 def _opp_name(opp: dict) -> str:
     return opp.get("title") or opp.get("name") or ""
 
@@ -860,6 +879,7 @@ def shape_card(opp: dict) -> dict:
         "fit_band":        _fit_band(opp),
         "deadline_past":   _deadline_past(opp),
         "closed_this_cycle": opp.get("status") == "closed_this_cycle",
+        "is_new":          is_new_opportunity(opp.get("imported_at")),
         # Email drafts — prefer per-entry drafts from data, fall back to templates
         "email_zh": opp.get("email_zh") or email_zh(org, category),
         "email_ja": opp.get("email_ja") or email_ja(org, category),
