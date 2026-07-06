@@ -326,19 +326,19 @@ def _confirmed_deadline(opp: dict) -> bool:
     return True
 
 
-_ISO_DATE_RE  = re.compile(r'(\d{4})-(\d{2})-(\d{2})')
+_ISO_DATE_RE  = re.compile(r'(\d{4})[-/.](\d{1,2})[-/.](\d{1,2})')
 _JP_DATE_RE   = re.compile(r'(\d{4})年(\d{1,2})月(\d{1,2})日')
 _EN_MONTH_RE  = re.compile(
     r'(?:jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|jun(?:e)?|'
     r'jul(?:y)?|aug(?:ust)?|sep(?:tember)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)'
-    r'\s+(\d{1,2})(?:st|nd|rd|th)?,?\s+(\d{4})',
+    r'\.?[\s-]+(\d{1,2})(?:st|nd|rd|th)?,?[\s-]+(\d{4})',
     re.IGNORECASE,
 )
 _EN_DAY_MON_RE = re.compile(
-    r'(\d{1,2})\s+'
+    r'(\d{1,2})(?:st|nd|rd|th)?[\s-]+'
     r'(jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|jun(?:e)?|'
     r'jul(?:y)?|aug(?:ust)?|sep(?:tember)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)'
-    r'\s+(\d{4})',
+    r'\.?,?[\s-]+(\d{4})',
     re.IGNORECASE,
 )
 _MONTH_NUM = {
@@ -1138,17 +1138,18 @@ def _deadline_max_date(item: dict):
     for y, mo, d in re.findall(r"(20\d{2})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日", raw):
         try: dates.append(datetime(int(y), int(mo), int(d)).date())
         except Exception: pass
-    for mon, d, y in re.findall(r"([A-Za-z]{3,9})\.?\s+(\d{1,2}),?\s+(20\d{2})", raw):
+    for mon, d, y in re.findall(r"([A-Za-z]{3,9})\.?[\s-]+(\d{1,2})(?:st|nd|rd|th)?,?[\s-]+(20\d{2})", raw):
         if mon[:3].lower() in _MONTHS_EN:
             try: dates.append(datetime(int(y), _MONTHS_EN[mon[:3].lower()], int(d)).date())
             except Exception: pass
-    for d, mon, y in re.findall(r"(\d{1,2})\s+([A-Za-z]{3,9})\.?\s+(20\d{2})", raw):
+    for d, mon, y in re.findall(r"(\d{1,2})(?:st|nd|rd|th)?[\s-]+([A-Za-z]{3,9})\.?,?[\s-]+(20\d{2})", raw):
         if mon[:3].lower() in _MONTHS_EN:
             try: dates.append(datetime(int(y), _MONTHS_EN[mon[:3].lower()], int(d)).date())
             except Exception: pass
-    for mo, d, y in re.findall(r"\b(\d{1,2})/(\d{1,2})/(20\d{2})\b", raw):
-        try: dates.append(datetime(int(y), int(mo), int(d)).date())
-        except Exception: pass
+    for a, b, y in re.findall(r"\b(\d{1,2})/(\d{1,2})/(20\d{2})\b", raw):
+        for mo, d in ((int(a), int(b)), (int(b), int(a))):
+            try: dates.append(datetime(int(y), mo, d).date())
+            except Exception: pass
     for y, mo in re.findall(r"(20\d{2})\s*年\s*(\d{1,2})\s*月", raw):
         try: dates.append(datetime(int(y), int(mo), 28).date())
         except Exception: pass
@@ -1208,20 +1209,25 @@ def _deadline_passed(item: dict, today=None) -> bool:
     for y, mo, d in re.findall(r"(20\d{2})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日", raw):  # 2026年6月8日
         try: dates.append(datetime(int(y), int(mo), int(d)).date())
         except Exception: pass
-    for mon, d, y in re.findall(r"([A-Za-z]{3,9})\.?\s+(\d{1,2}),?\s+(20\d{2})", raw):  # March 31, 2026
+    for mon, d, y in re.findall(r"([A-Za-z]{3,9})\.?[\s-]+(\d{1,2})(?:st|nd|rd|th)?,?[\s-]+(20\d{2})", raw):  # March 31, 2026 / Jun-29-2026
         if mon[:3].lower() in _MONTHS_EN:
             try: dates.append(datetime(int(y), _MONTHS_EN[mon[:3].lower()], int(d)).date())
             except Exception: pass
-    for d, mon, y in re.findall(r"(\d{1,2})\s+([A-Za-z]{3,9})\.?\s+(20\d{2})", raw):    # 15 September 2025
+    for d, mon, y in re.findall(r"(\d{1,2})(?:st|nd|rd|th)?[\s-]+([A-Za-z]{3,9})\.?,?[\s-]+(20\d{2})", raw):  # 15 September 2025 / 29-Jun-2026 / 19th December 2025
         if mon[:3].lower() in _MONTHS_EN:
             try: dates.append(datetime(int(y), _MONTHS_EN[mon[:3].lower()], int(d)).date())
             except Exception: pass
-    for mo, d, y in re.findall(r"\b(\d{1,2})/(\d{1,2})/(20\d{2})\b", raw):              # 5/26/2026 (m/d/y)
-        try: dates.append(datetime(int(y), int(mo), int(d)).date())
-        except Exception: pass
-    for mo, d, yy in re.findall(r"\b(\d{1,2})/(\d{1,2})/(\d{2})\b", raw):               # 5/26/26 (2-digit year)
-        try: dates.append(datetime(2000 + int(yy), int(mo), int(d)).date())
-        except Exception: pass
+    # Slash dates: try m/d/y AND d/m/y — an ambiguous date ("4/5/2026") appends
+    # both readings and max() below keeps the later one, per the rule that
+    # wrongly hiding a still-open call is the worse error.
+    for a, b, y in re.findall(r"\b(\d{1,2})/(\d{1,2})/(20\d{2})\b", raw):               # 5/26/2026 (m/d/y) or 31/3/2026 (d/m/y)
+        for mo, d in ((int(a), int(b)), (int(b), int(a))):
+            try: dates.append(datetime(int(y), mo, d).date())
+            except Exception: pass
+    for a, b, yy in re.findall(r"\b(\d{1,2})/(\d{1,2})/(\d{2})\b", raw):                # 5/26/26 (2-digit year)
+        for mo, d in ((int(a), int(b)), (int(b), int(a))):
+            try: dates.append(datetime(2000 + int(yy), mo, d).date())
+            except Exception: pass
     if dates:
         return max(dates) < today
     # Day-less month-year (no concrete day): lenient — not past until the month is over.
@@ -1229,8 +1235,44 @@ def _deadline_passed(item: dict, today=None) -> bool:
     for y, mo in re.findall(r"(20\d{2})\s*年\s*(\d{1,2})\s*月", raw):                  # 2026年6月
         try: months.append((int(y), int(mo)))
         except Exception: pass
+    for mon, y in re.findall(r"([A-Za-z]{3,9})\.?,?\s+(20\d{2})", raw):                # April 2025 / December 2026
+        if mon[:3].lower() in _MONTHS_EN:
+            try: months.append((int(y), _MONTHS_EN[mon[:3].lower()]))
+            except Exception: pass
     if months:
         return max(months) < (today.year, today.month)
+    # Year-less concrete dates ("5/25 – 6/29", "6月29日"): scrapers capture the
+    # CURRENT cycle, so resolve the year to whichever candidate lies closest to
+    # when the entry was discovered (added_at / last_verified) — a June date
+    # scraped in July means last month, a January date scraped in December
+    # means next month. Only when the field contains no 4-digit year at all:
+    # if a year is present but every dated pattern above failed, we can't
+    # attribute the m/d to a cycle, so keep the old leniency (never hide a
+    # possibly-open call on a guess).
+    if not re.search(r"20\d{2}", raw):
+        ref = today
+        for key in ("added_at", "last_verified"):
+            m = re.match(r"(\d{4})-(\d{1,2})-(\d{1,2})", str(item.get(key) or "").strip())
+            if m:
+                try:
+                    ref = datetime(int(m.group(1)), int(m.group(2)), int(m.group(3))).date()
+                    break
+                except ValueError:
+                    pass
+        pairs = re.findall(r"\b(\d{1,2})/(\d{1,2})\b", raw)
+        pairs += re.findall(r"(\d{1,2})\s*月\s*(\d{1,2})\s*日", raw)
+        yearless = []
+        for a, b in pairs:
+            for mo, d in ((int(a), int(b)), (int(b), int(a))):  # m/d, then d/m
+                cands = []
+                for y in (ref.year - 1, ref.year, ref.year + 1):
+                    try: cands.append(datetime(y, mo, d).date())
+                    except ValueError: pass
+                if cands:
+                    yearless.append(min(cands, key=lambda c: abs((c - ref).days)))
+                    break
+        if yearless:
+            return max(yearless) < today
     # No parseable date at all (e.g. a rumor-mill-found deadline field that's
     # pure prose, not a date). Only unambiguous closure language flags this as
     # past — anything already caught by _RECURRING_HINTS above never reaches
