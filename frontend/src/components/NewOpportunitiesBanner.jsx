@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import './NewOpportunitiesBanner.css'
 import { useLanguage } from '../i18n/LanguageContext'
 import { getCache, setCache } from '../utils/apiCache'
-import { allNewIds, countUndismissed, pruneDismissed } from '../utils/newOpportunities'
+import { bannerWorthyIds, countUndismissed, pruneDismissed } from '../utils/newOpportunities'
 
 const DISMISSED_KEY = 'mochi_new_dismissed'
 
@@ -52,7 +52,7 @@ export default function NewOpportunitiesBanner() {
   if (count < 1) return null
 
   function dismiss() {
-    const next = new Set([...prunedDismissed, ...allNewIds(sections)])
+    const next = new Set([...prunedDismissed, ...bannerWorthyIds(sections)])
     setDismissed(next)
     writeDismissed(next)
   }
