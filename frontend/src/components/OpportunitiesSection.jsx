@@ -3,6 +3,7 @@ import OppCard from './OppCard'
 import OppDetailPanel from './OppDetailPanel'
 import { cardsPerBatch } from '../utils/layout'
 import { getCache, setCache } from '../utils/apiCache'
+import { freshToHer } from '../utils/newOpportunities'
 import './OpportunitiesSection.css'
 import { useLanguage } from '../i18n/LanguageContext'
 import {
@@ -75,6 +76,9 @@ export default function OpportunitiesSection() {
   )
 
   const { sections, meta } = data
+  // Seed/compute the "new to her" set once, here at the parent, before any
+  // OppCard renders — so each card's isFresh(opp.id) badge check is populated.
+  freshToHer(sections)
   const feedbackSignals = feedbackSignalsFromActions(feedbackActions)
 
   // Collect press targets from all sections

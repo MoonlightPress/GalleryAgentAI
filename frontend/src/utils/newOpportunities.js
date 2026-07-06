@@ -1,51 +1,109 @@
-// Pure helpers backing the "Mochi found something new" banner. The is_new flag
-// itself (from /api/opportunities) is stateless and identical on every device;
-// only the banner's dismissal is per-device, tracked here.
+// "New to her" tracking for the banner + card badges. Per-device, and — unlike a
+// fixed time window — it survives any length of absence: an opportunity stays
+// "new" until she actually returns and sees it, then clears on her NEXT visit.
 //
-// The banner HEADLINE deliberately counts fewer things than carry the per-card
-// "New" badge. A pipeline run can add 100+ opportunities at once; announcing
-// "found 103 new things" is just "the pipeline ran" and earns an eye-roll. So
-// the banner counts only ones worth stopping for — newly added, still open, and
-// a genuinely ready/good-fit pick. The passive per-card badge (OppCard reads
-// opp.is_new directly) still shows on everything recent.
+// Model: a per-device "seen" set of opp-ids (localStorage). "New to her" = served
+// now, not yet seen. On the first ever load we seed the seen-set with everything
+// EXCEPT the current server-"new" batch, so a returning user sees the recent
+// batch but isn't flooded with the entire catalog. After that it's pure
+// set-difference — no time gate. She sees new things her whole visit; on
+// session end (or dismiss) they're marked seen and are gone next visit.
 
-export function isBannerWorthy(opp) {
-  return !!(
-    opp &&
-    opp.is_new &&
-    !opp.deadline_past &&
-    opp.actionability_status === 'ready'
-  )
-}
+const SEEN_KEY = 'mochi_seen_opps'
+const SEEDED_KEY = 'mochi_new_seeded'
 
-// Ids of the banner-worthy opportunities, across all sections.
-export function bannerWorthyIds(sections) {
-  const ids = new Set()
+// ── Pure helpers (no storage) ────────────────────────────────────────────────
+
+export function collectIds(sections, pred) {
+  const out = new Set()
   for (const items of Object.values(sections || {})) {
-    for (const opp of items || []) {
-      if (isBannerWorthy(opp) && opp.id) ids.add(opp.id)
+    for (const o of items || []) {
+      if (o && o.id && (!pred || pred(o))) out.add(o.id)
     }
   }
-  return ids
+  return out
 }
 
-// How many banner-worthy ids haven't been dismissed yet.
-export function countUndismissed(sections, dismissedIds) {
-  const dismissed = dismissedIds || new Set()
-  let count = 0
-  for (const id of bannerWorthyIds(sections)) {
-    if (!dismissed.has(id)) count++
-  }
-  return count
+// First-load seed: all served ids EXCEPT the current server-is_new batch.
+export function initialSeen(sections) {
+  const serverNew = collectIds(sections, o => o.is_new)
+  const seen = new Set()
+  for (const id of collectIds(sections)) if (!serverNew.has(id)) seen.add(id)
+  return seen
 }
 
-// Drop dismissed ids that are no longer banner-worthy (aged out, closed, or
-// gone from the feed) — keeps localStorage small and self-cleaning.
-export function pruneDismissed(sections, dismissedIds) {
-  const current = bannerWorthyIds(sections)
-  const pruned = new Set()
-  for (const id of (dismissedIds || [])) {
-    if (current.has(id)) pruned.add(id)
-  }
-  return pruned
+// New to this device = served now, not in the seen set.
+export function freshIds(sections, seen) {
+  const s = seen || new Set()
+  const fresh = new Set()
+  for (const id of collectIds(sections)) if (!s.has(id)) fresh.add(id)
+  return fresh
 }
+
+// Banner headline is stricter than the badge: still open AND a ready pick.
+export function isBannerWorthy(opp) {
+  return !!(opp && !opp.deadline_past && opp.actionability_status === 'ready')
+}
+
+// How many fresh-to-her opps are also banner-worthy.
+export function bannerCount(sections, fresh) {
+  let n = 0
+  for (const items of Object.values(sections || {})) {
+    for (const o of items || []) {
+      if (o && o.id && fresh.has(o.id) && isBannerWorthy(o)) n++
+    }
+  }
+  return n
+}
+
+// ── localStorage orchestration ───────────────────────────────────────────────
+
+function readSeen() {
+  try {
+    const raw = localStorage.getItem(SEEN_KEY)
+    return raw ? new Set(JSON.parse(raw)) : new Set()
+  } catch { return new Set() }
+}
+
+function writeSeen(s) {
+  try { localStorage.setItem(SEEN_KEY, JSON.stringify([...s])) } catch { /* best-effort */ }
+}
+
+let _fresh = null   // per-session cache so banner + every card agree
+
+// Compute (and cache for the session) the fresh-to-her set, seeding on the first
+// ever load. Returns empty until real data arrives — never seeds on an empty
+// payload (which would permanently mark the seed done with nothing seen).
+export function freshToHer(sections) {
+  if (_fresh) return _fresh
+  const all = collectIds(sections)
+  if (all.size === 0) return new Set()
+  let seen = readSeen()
+  try {
+    if (localStorage.getItem(SEEDED_KEY) !== '1') {
+      seen = initialSeen(sections)
+      writeSeen(seen)
+      localStorage.setItem(SEEDED_KEY, '1')
+    }
+  } catch { /* best-effort — no seeding, treat all as fresh */ }
+  _fresh = freshIds(sections, seen)
+  return _fresh
+}
+
+export function isFresh(id) {
+  return !!(_fresh && _fresh.has(id))
+}
+
+// Mark the current fresh set as seen so it clears next visit. Called on session
+// end (pagehide) and on manual dismiss. Also empties the session cache so a
+// dismissed/left banner doesn't reappear on in-session re-navigation.
+export function markFreshSeen() {
+  if (!_fresh || _fresh.size === 0) return
+  const seen = readSeen()
+  for (const id of _fresh) seen.add(id)
+  writeSeen(seen)
+  _fresh = new Set()
+}
+
+// Test-only: reset the session cache between cases.
+export function _resetForTest() { _fresh = null }

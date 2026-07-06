@@ -438,7 +438,11 @@ def _opp_id(opp: dict) -> str:
     return hashlib.md5(raw.encode()).hexdigest()[:12]
 
 
-NEW_WINDOW_DAYS = 7  # how long an opportunity stays flagged "new" after import
+NEW_WINDOW_DAYS = 30  # bootstrap window for "recently added" — the frontend's
+# per-device "new to her" tracking uses is_new only to seed what counts as the
+# recent batch on a returning visitor's FIRST load; after that it's set-difference
+# with no time gate. 30d (not 7) so a visitor returning within a month still gets
+# the current batch highlighted on that first return.
 
 
 def is_new_opportunity(imported_at, now=None, window_days: int = NEW_WINDOW_DAYS) -> bool:

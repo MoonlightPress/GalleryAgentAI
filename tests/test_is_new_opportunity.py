@@ -11,11 +11,17 @@ class IsNewOpportunityTests(unittest.TestCase):
     def test_fresh_date_is_new(self):
         self.assertTrue(is_new_opportunity("2026-07-05", now=self.now))
 
-    def test_eight_days_old_is_not_new(self):
-        self.assertFalse(is_new_opportunity("2026-06-27", now=self.now))
+    def test_within_window_is_new(self):
+        # 20 days old, inside the 30-day bootstrap window.
+        self.assertTrue(is_new_opportunity("2026-06-15", now=self.now))
 
-    def test_exactly_seven_days_old_is_new(self):
-        self.assertTrue(is_new_opportunity("2026-06-28", now=self.now))
+    def test_past_window_is_not_new(self):
+        # 31 days old, just outside the window.
+        self.assertFalse(is_new_opportunity("2026-06-04", now=self.now))
+
+    def test_exact_window_boundary_is_new(self):
+        # Exactly 30 days old — inclusive boundary.
+        self.assertTrue(is_new_opportunity("2026-06-05", now=self.now))
 
     def test_missing_imported_at_is_not_new(self):
         self.assertFalse(is_new_opportunity(None, now=self.now))
@@ -29,8 +35,8 @@ class IsNewOpportunityTests(unittest.TestCase):
         # A data glitch (imported_at after "now") must never be flagged new.
         self.assertFalse(is_new_opportunity("2026-07-10", now=self.now))
 
-    def test_default_window_constant_is_seven(self):
-        self.assertEqual(NEW_WINDOW_DAYS, 7)
+    def test_default_window_constant_is_thirty(self):
+        self.assertEqual(NEW_WINDOW_DAYS, 30)
 
 
 class ShapeCardIsNewFieldTests(unittest.TestCase):

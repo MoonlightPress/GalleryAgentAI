@@ -9,6 +9,7 @@ import RelationshipTargets from './components/RelationshipTargets'
 import TrackerSection from './components/TrackerSection'
 import StatusBar from './components/StatusBar'
 import NewOpportunitiesBanner from './components/NewOpportunitiesBanner'
+import { markFreshSeen } from './utils/newOpportunities'
 import TrackedSection from './components/TrackedSection'
 import { track } from './utils/track'
 import { setCache, getCache } from './utils/apiCache'
@@ -103,6 +104,9 @@ export default function App() {
       if (leaveSentRef.current) return
       leaveSentRef.current = true
       track({ type: 'leave', page, dwell_ms: Date.now() - pageEnteredAt.current })
+      // Session's ending: mark the "new to her" items seen so they clear next
+      // visit (she's had this whole visit to see them). Best-effort.
+      markFreshSeen()
     }
     function onVisibilityChange() {
       if (document.visibilityState === 'hidden') {

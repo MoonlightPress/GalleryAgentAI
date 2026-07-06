@@ -7,6 +7,7 @@ import { isDistinct } from '../utils/textGuards.js'
 import { locF, localizeDeadline, isUrgentDeadline } from '../utils/localize.js'
 import { oppKey } from '../utils/oppKey.js'
 import { track } from '../utils/track'
+import { isFresh } from '../utils/newOpportunities'
 
 const CAT_LABELS = {
   gallery:           'Gallery',
@@ -181,7 +182,7 @@ export default function OppCard({ opp, isOpen, onDetails, onSuppressed, onFeedba
   return (
     <div className={cardClass}>
       <span className="opp-conf-dot" style={{ background: confColor }} title={t(`card.conf.${confLevel}`)} aria-hidden="true" />
-      {opp.is_new && <span className="opp-new-badge">{t('card.new')}</span>}
+      {isFresh(opp.id) && <span className="opp-new-badge">{t('card.new')}</span>}
 
       <div className="opp-card-body">
 
