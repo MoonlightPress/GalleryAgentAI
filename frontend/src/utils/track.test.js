@@ -1,6 +1,6 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
-import { track } from './track.js'
+import { track, actionPayload } from './track.js'
 
 function withStubs(seed, run) {
   const store = { ...seed }
@@ -33,4 +33,32 @@ test('swallows fetch errors (best-effort)', () => {
     globalThis.fetch = () => { throw new Error('network down') }
     assert.doesNotThrow(() => track({ type: 'nav', page: 'observe' }))
   })
+})
+
+// --- actionPayload: an action event must say WHICH opportunity, on WHICH surface ---
+
+test('actionPayload names the opportunity and the surface it was clicked on', () => {
+  const p = actionPayload('open_link', { name: 'Mograg Gallery', category: 'cafe_gallery' },
+                          { surface: 'today_focus', role: 'quick_win' })
+  assert.equal(p.type, 'action')
+  assert.equal(p.action, 'open_link')
+  assert.equal(p.name, 'Mograg Gallery')
+  assert.equal(p.category, 'cafe_gallery')
+  assert.equal(p.surface, 'today_focus')
+  assert.equal(p.role, 'quick_win')
+})
+
+test('actionPayload falls back to title when the opp has no name', () => {
+  const p = actionPayload('open_card', { title: 'Untitled Open Call' })
+  assert.equal(p.name, 'Untitled Open Call')
+})
+
+test('actionPayload omits empty/undefined fields rather than logging nulls', () => {
+  const p = actionPayload('open_card', {}, { surface: undefined, role: null, page: '' })
+  assert.deepEqual(Object.keys(p).sort(), ['action', 'type'])
+})
+
+test('actionPayload never throws on a missing opp', () => {
+  assert.doesNotThrow(() => actionPayload('open_card'))
+  assert.equal(actionPayload('open_card').action, 'open_card')
 })

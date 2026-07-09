@@ -6,7 +6,7 @@ import { feedbackToastKey, shouldRemoveAfterFeedback } from '../utils/feedbackBe
 import { isDistinct } from '../utils/textGuards.js'
 import { locF, localizeDeadline, isUrgentDeadline } from '../utils/localize.js'
 import { oppKey } from '../utils/oppKey.js'
-import { track } from '../utils/track'
+import { track, trackAction } from '../utils/track'
 import { isFresh } from '../utils/newOpportunities'
 
 const CAT_LABELS = {
@@ -131,7 +131,8 @@ async function saveFeedback(opp, action) {
   }
 }
 
-export default function OppCard({ opp, isOpen, onDetails, onSuppressed, onFeedback }) {
+export default function OppCard({ opp, isOpen, onDetails, onSuppressed, onFeedback,
+                                 surface = 'opportunity_card' }) {
   const key = oppKey(opp)
   // Hydrate triage state from persisted store so her choices don't vanish on reload.
   const [feedback, setFeedback] = useState(() => readFeedbackStore()[key] || null)
@@ -159,7 +160,7 @@ export default function OppCard({ opp, isOpen, onDetails, onSuppressed, onFeedba
     writeFeedbackForKey(key, next)
     onFeedback?.(opp, next)
     if (next) {
-      track({ type: 'action', action: next, category: opp.category, name: opp.name || opp.title })
+      trackAction(next, opp, { surface })
       await saveFeedback(opp, next)
       if (shouldRemoveAfterFeedback(next) && onSuppressed) onSuppressed(oppKey(opp))
       setToastKey(feedbackToastKey(next))
@@ -270,7 +271,7 @@ export default function OppCard({ opp, isOpen, onDetails, onSuppressed, onFeedba
           <button
             className={`opp-btn-details${isOpen ? ' opp-btn-details--active' : ''}`}
             onClick={() => {
-              if (!isOpen) track({ type: 'action', action: 'open_card', category: opp.category, name: opp.name || opp.title })
+              if (!isOpen) trackAction('open_card', opp, { surface })
               onDetails()
             }}
           >
@@ -282,7 +283,8 @@ export default function OppCard({ opp, isOpen, onDetails, onSuppressed, onFeedba
               href={opp.submission_page || opp.official_website || opp.source_url}
               target="_blank"
               rel="noreferrer"
-              onClick={() => track({ type: 'action', action: 'external_link_click', category: opp.category, name: opp.name || opp.title })}
+              onClick={() => trackAction('external_link_click', opp, { surface,
+                link_type: opp.submission_page ? 'submission_page' : opp.official_website ? 'official_website' : 'source_url' })}
             >
               {t('tf.open')}
             </a>

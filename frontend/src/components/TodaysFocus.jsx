@@ -3,6 +3,7 @@ import { useLanguage } from '../i18n/LanguageContext'
 import OppDetailPanel from './OppDetailPanel'
 import { locF, localizeDeadline, daysUntilDeadline } from '../utils/localize.js'
 import { getCache, setCache } from '../utils/apiCache'
+import { trackAction } from '../utils/track'
 import './TodaysFocus.css'
 
 const ROLE_CONFIG = {
@@ -68,7 +69,10 @@ function TodayCard({ card, role, isOpen, onDetails }) {
         )}
         <button
           className={`tf-details-btn${isOpen ? ' tf-details-btn--active' : ''}`}
-          onClick={onDetails}
+          onClick={() => {
+            if (!isOpen) trackAction('open_card', card, { surface: 'today_focus', role })
+            onDetails()
+          }}
         >
           {isOpen ? tFn('card.close') : tFn('card.details')}
         </button>
@@ -78,6 +82,8 @@ function TodayCard({ card, role, isOpen, onDetails }) {
             href={card.submission_page}
             target="_blank"
             rel="noreferrer"
+            onClick={() => trackAction('external_link_click', card,
+              { surface: 'today_focus', role, link_type: 'submission_page' })}
           >
             {tFn('tf.open')}
           </a>
@@ -88,6 +94,8 @@ function TodayCard({ card, role, isOpen, onDetails }) {
             href={card.official_website}
             target="_blank"
             rel="noreferrer"
+            onClick={() => trackAction('external_link_click', card,
+              { surface: 'today_focus', role, link_type: 'official_website' })}
           >
             {tFn('tf.visit')}
           </a>

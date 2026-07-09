@@ -125,7 +125,62 @@ def describe_event(event: dict, day: int | None = None,
         where = f"{label} · {_section_label(section)}" if section else label
         return f"↩ left {where} · {_format_dwell(event.get('dwell_ms'))}", "info"
 
+    if etype == "return":
+        # Pairs with `leave`. Its absence is what made the log unreadable: two
+        # leaves in a row with no open between them looked like a bug.
+        label = _page_label(event.get("page"))
+        return f"↪ back on {label} · away {_format_dwell(event.get('away_ms'))}", "info"
+
     return "👀 activity", "info"
+
+
+_SURFACE_LABELS = {
+    "today_focus": "Today's Focus",
+    "strongest_picks": "Immediate Best Moves",
+    "deadline_calendar": "Deadline Calendar",
+    "relationship_targets": "Relationship Targets",
+    "opportunity_card": "",
+}
+
+_ROLE_LABELS = {
+    "quick_win": "Quick Win",
+    "high_impact": "High Impact",
+    "stretch_goal": "Stretch Goal",
+}
+
+
+def _surface_label(surface) -> str:
+    """'today_focus' -> "Today's Focus"; 'browse:institutional' -> 'browse · institutional'."""
+    s = str(surface or "")
+    if not s:
+        return ""
+    if s.startswith("browse:"):
+        return f"browse · {s.split(':', 1)[1]}"
+    return _SURFACE_LABELS.get(s, s.replace("_", " "))
+
+
+def action_detail(event: dict) -> str:
+    """The part of a click line after the action verb: which opportunity, its
+    category, and the surface she clicked it on. Surface is the field that was
+    missing — an ``open_card`` from Today's Focus and one from the browse list
+    were byte-identical in the feed. Never raises; unknown shapes shrink."""
+    event = event or {}
+    name = event.get("name")
+    ctx = event.get("category") or event.get("section") or ""
+    where = _surface_label(event.get("surface"))
+    role = _ROLE_LABELS.get(str(event.get("role") or ""), "")
+    link = event.get("link_type")
+
+    parts = []
+    if name and ctx:
+        parts.append(f"{name} ({ctx})")
+    elif name or ctx:
+        parts.append(str(name or ctx))
+    if where:
+        parts.append(f"{where} / {role}" if role else where)
+    if link:
+        parts.append(str(link))
+    return " · ".join(parts)
 
 
 def _as_int(value, default=0) -> int:

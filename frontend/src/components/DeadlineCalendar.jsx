@@ -188,6 +188,7 @@ export default function DeadlineCalendar() {
                   {opps.map(opp => (
                     <OppCard
                       key={opp.id}
+                      surface="deadline_calendar"
                       opp={opp}
                       isOpen={opp.id === activeId}
                       onDetails={() => handleDetails(opp)}

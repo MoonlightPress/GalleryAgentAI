@@ -16,7 +16,8 @@ from recommendation_readiness import assess_actionability, RELATIONSHIP_CATEGORI
 from engines.profile_sync import apply_peppercorn_edits
 from engines.regen import spawn_draft_regen
 from engines.notify import notify_discord
-from engines.visit_tracking import register_visit, describe_event, mark_visitor, visitor_label
+from engines.visit_tracking import (register_visit, describe_event, mark_visitor,
+                                    visitor_label, action_detail)
 from engines.geoip import geo_label, geo_hosting
 from engines.backups import snapshot
 
@@ -3675,21 +3676,15 @@ async def track_event(request: Request):
         # opportunity/contact when the frontend sends one (Scott, 2026-07-05:
         # dropped the earlier category-only privacy line).
         act = event.get("action", "?")
-        name = event.get("name")
-        ctx = event.get("category") or event.get("section") or ""
-        if name and ctx:
-            detail = f" · {name} ({ctx})"
-        elif name:
-            detail = f" · {name}"
-        elif ctx:
-            detail = f" · {ctx}"
-        else:
-            detail = ""
+        detail = action_detail(event)
+        detail = f" · {detail}" if detail else ""
         notify_discord(f"👆 {act}" + detail + suffix, status="info")
 
-    elif etype == "leave":
+    elif etype in ("leave", "return"):
         # Real, client-measured dwell time — including the final page before
         # she closes the tab, which the idle-gap inference can't see at all.
+        # `return` closes the loop: it makes an orphaned `leave` legible as a
+        # backgrounded tab rather than an impossible second exit.
         text, status = describe_event(event)
         notify_discord(text + suffix, status=status)
 

@@ -159,6 +159,7 @@ function StrongestPicksSection({ items, feedbackSignals, onFeedback }) {
         {visible.map(opp => (
           <OppCard
             key={opp.id}
+            surface="strongest_picks"
             opp={{ ...opp, _section: opp.recommendation.sourceSection }}
             isOpen={opp.id === activeId}
             onDetails={() => setActiveId(prev => prev === opp.id ? null : opp.id)}
@@ -383,6 +384,7 @@ function OppSection({ sectionKey, label, description, items, feedbackSignals, on
         {visible.map(opp => (
           <OppCard
             key={opp.id}
+            surface={`browse:${sectionKey}`}
             opp={{ ...opp, _section: sectionKey }}
             isOpen={opp.id === activeId}
             onDetails={() => handleDetails(opp)}

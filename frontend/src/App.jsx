@@ -95,6 +95,7 @@ export default function App() {
   // eslint-disable-next-line react-hooks/purity -- one-time initial timestamp; the mount effect below overwrites it before any listener can read it
   const pageEnteredAt = useRef(Date.now())
   const leaveSentRef = useRef(false)
+  const hiddenAt = useRef(null)
   useEffect(() => {
     pageEnteredAt.current = Date.now()
     leaveSentRef.current = false
@@ -103,7 +104,8 @@ export default function App() {
     function sendLeave() {
       if (leaveSentRef.current) return
       leaveSentRef.current = true
-      track({ type: 'leave', page, dwell_ms: Date.now() - pageEnteredAt.current })
+      hiddenAt.current = Date.now()
+      track({ type: 'leave', page, dwell_ms: hiddenAt.current - pageEnteredAt.current })
       // Session's ending: mark the "new to her" items seen so they clear next
       // visit (she's had this whole visit to see them). Best-effort.
       markFreshSeen()
@@ -113,7 +115,17 @@ export default function App() {
         sendLeave()
       } else if (document.visibilityState === 'visible') {
         // Coming back to the tab starts a fresh dwell window on the same page.
-        pageEnteredAt.current = Date.now()
+        // This has to be logged: without it the tab-return is invisible and the
+        // NEXT leave reads as a second leave with no open in between — which is
+        // most of why the log looked like she was doing impossible things.
+        // `away_ms` is how long the tab sat hidden, so a 98-minute "dwell" can
+        // be recognised as a buried window rather than 98 minutes of reading.
+        const now = Date.now()
+        if (leaveSentRef.current && hiddenAt.current != null) {
+          track({ type: 'return', page, away_ms: now - hiddenAt.current })
+        }
+        pageEnteredAt.current = now
+        hiddenAt.current = null
         leaveSentRef.current = false
       }
     }
