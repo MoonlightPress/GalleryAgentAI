@@ -54,5 +54,26 @@ class ActionDetailTests(unittest.TestCase):
         self.assertEqual(action_detail({}), "")
 
 
+class GlanceTests(unittest.TestCase):
+    """A 1-2s window after a long absence is the phone waking with the tab
+    still open — it must not read as 'she left the page'."""
+
+    def test_glance_reads_as_a_glance_not_a_departure(self):
+        text, _ = describe_event({"type": "leave", "page": "discover",
+                                  "dwell_ms": 1500, "glance": True})
+        self.assertNotIn("left", text)
+        self.assertIn("glance", text.lower())
+
+    def test_real_leave_still_reads_as_leaving(self):
+        text, _ = describe_event({"type": "leave", "page": "discover",
+                                  "dwell_ms": 31000, "glance": False})
+        self.assertIn("left", text)
+        self.assertIn("31s", text)
+
+    def test_missing_glance_field_behaves_as_before(self):
+        text, _ = describe_event({"type": "leave", "page": "discover", "dwell_ms": 31000})
+        self.assertIn("left", text)
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -123,7 +123,11 @@ def describe_event(event: dict, day: int | None = None,
         label = _page_label(event.get("page"))
         section = event.get("section")
         where = f"{label} · {_section_label(section)}" if section else label
-        return f"↩ left {where} · {_format_dwell(event.get('dwell_ms'))}", "info"
+        dwell = _format_dwell(event.get("dwell_ms"))
+        if event.get("glance"):
+            # Shown, not used — a woken phone with the tab still open.
+            return f"👁 glance at {where} · {dwell}", "info"
+        return f"↩ left {where} · {dwell}", "info"
 
     if etype == "return":
         # Pairs with `leave`. Its absence is what made the log unreadable: two

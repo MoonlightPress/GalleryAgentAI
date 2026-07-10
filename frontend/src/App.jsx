@@ -12,6 +12,7 @@ import NewOpportunitiesBanner from './components/NewOpportunitiesBanner'
 import { markFreshSeen } from './utils/newOpportunities'
 import TrackedSection from './components/TrackedSection'
 import { track } from './utils/track'
+import { createVisibilityTracker } from './utils/dwell'
 import { setCache, getCache } from './utils/apiCache'
 
 const SaffronPage = lazy(() => import('./components/SaffronPage'))
@@ -86,56 +87,48 @@ export default function App() {
     track(from === null ? { type: 'open', page } : { type: 'nav', page, from })
   }, [page])
 
-  // Real, client-measured dwell time on the current companion page — the
-  // server can only ever infer dwell from gaps between events, and has no
-  // way to know how long she was on the LAST page before closing the tab.
-  // A leave beacon fires on tab-hide (covers alt-tab and actual close on
-  // every modern browser) and again on pagehide as a fallback; a guard
-  // avoids double-posting the same dwell window when both fire back to back.
-  // eslint-disable-next-line react-hooks/purity -- one-time initial timestamp; the mount effect below overwrites it before any listener can read it
-  const pageEnteredAt = useRef(Date.now())
-  const leaveSentRef = useRef(false)
-  const hiddenAt = useRef(null)
+  // Real, client-measured foreground time on the current companion page. The
+  // server can only infer dwell from gaps between events, and cannot see how
+  // long she was on the LAST page before closing the tab.
+  //
+  // The bookkeeping lives in utils/dwell.js, which debounces Safari's
+  // visibility churn — without that, a 200ms hidden/visible flap read as a
+  // whole extra 1-3 second visit, and most of her recorded "sessions" were
+  // that artefact rather than her.
+  const pageRef = useRef(page)
+  const trackerRef = useRef(null)
+
   useEffect(() => {
-    pageEnteredAt.current = Date.now()
-    leaveSentRef.current = false
+    pageRef.current = page
+    trackerRef.current?.onPageChange()
   }, [page])
+
   useEffect(() => {
-    function sendLeave() {
-      if (leaveSentRef.current) return
-      leaveSentRef.current = true
-      hiddenAt.current = Date.now()
-      track({ type: 'leave', page, dwell_ms: hiddenAt.current - pageEnteredAt.current })
-      // Session's ending: mark the "new to her" items seen so they clear next
-      // visit (she's had this whole visit to see them). Best-effort.
-      markFreshSeen()
-    }
-    function onVisibilityChange() {
-      if (document.visibilityState === 'hidden') {
-        sendLeave()
-      } else if (document.visibilityState === 'visible') {
-        // Coming back to the tab starts a fresh dwell window on the same page.
-        // This has to be logged: without it the tab-return is invisible and the
-        // NEXT leave reads as a second leave with no open in between — which is
-        // most of why the log looked like she was doing impossible things.
-        // `away_ms` is how long the tab sat hidden, so a 98-minute "dwell" can
-        // be recognised as a buried window rather than 98 minutes of reading.
-        const now = Date.now()
-        if (leaveSentRef.current && hiddenAt.current != null) {
-          track({ type: 'return', page, away_ms: now - hiddenAt.current })
+    const tracker = createVisibilityTracker({
+      emit: (event) => {
+        track({ ...event, page: pageRef.current })
+        if (event.type === 'leave') {
+          // Session's ending: mark the "new to her" items seen so they clear
+          // next visit (she's had this whole visit to see them). Best-effort.
+          markFreshSeen()
         }
-        pageEnteredAt.current = now
-        hiddenAt.current = null
-        leaveSentRef.current = false
-      }
+      },
+    })
+    trackerRef.current = tracker
+
+    function onVisibilityChange() {
+      if (document.visibilityState === 'hidden') tracker.onHidden()
+      else if (document.visibilityState === 'visible') tracker.onVisible()
     }
+    function onPageHide() { tracker.onPageHide() }
     document.addEventListener('visibilitychange', onVisibilityChange)
-    window.addEventListener('pagehide', sendLeave)
+    window.addEventListener('pagehide', onPageHide)
     return () => {
       document.removeEventListener('visibilitychange', onVisibilityChange)
-      window.removeEventListener('pagehide', sendLeave)
+      window.removeEventListener('pagehide', onPageHide)
+      trackerRef.current = null
     }
-  }, [page])
+  }, [])
 
   // Once Discover is up, warm the other companions in the background — both their
   // code chunks AND their data into the shared cache — so switching is instant

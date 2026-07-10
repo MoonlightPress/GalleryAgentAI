@@ -6,7 +6,7 @@ import { feedbackToastKey, shouldRemoveAfterFeedback } from '../utils/feedbackBe
 import { isDistinct } from '../utils/textGuards.js'
 import { locF, localizeDeadline, isUrgentDeadline } from '../utils/localize.js'
 import { oppKey } from '../utils/oppKey.js'
-import { track, trackAction } from '../utils/track'
+import { trackAction } from '../utils/track'
 import { isFresh } from '../utils/newOpportunities'
 
 const CAT_LABELS = {
