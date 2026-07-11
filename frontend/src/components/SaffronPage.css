@@ -64,9 +64,13 @@
   justify-content: center;
   gap: 2px;
   padding: 12px 16px;
-  /* Content-width (full 100vw added the scrollbar's width and caused a page-wide
-     horizontal scroll on classic-scrollbar systems). */
-  width: 100%;
+  /* Full-bleed: span the viewport even though the parent .sf-content is a 960px
+     centered column. The parent's padding cancels out of this calc, so the bar
+     lands exactly edge-to-edge; .app's overflow-x:clip contains the 100vw so there's
+     no page scroll (which is why an earlier bare-100vw attempt scrolled but this
+     doesn't). Tabs stay centered via justify-content:center. */
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
   margin-bottom: 8px;
   background: #FAF4E6;   /* match the opportunity cards (Scott) */
   border-bottom: 1px solid #e8d5a8;
@@ -2427,3 +2431,17 @@ a.sf-readiness-col-name:hover { color: #c47a35; text-decoration: underline; }
   margin-top: 8px;
 }
 
+
+/* ── Saffron at night ─────────────────────────────────────────────
+   Saffron keeps its tan page and daytime colors; ONLY the navigation goes blue
+   (Scott). The shared companion nav (.site-nav) is already themed by Nav.css under
+   .app--night (present on every page at night); here we take the Saffron sub-tab
+   bar to match. Tokens come from .app--night on the app wrapper. */
+.app--night .sf-tabs {
+  background: var(--n-surface);
+  border-bottom-color: var(--n-border);
+  box-shadow: 0 3px 8px rgba(6, 10, 24, 0.35);
+}
+.app--night .sf-tab { color: var(--n-ink-muted); }
+.app--night .sf-tab:hover { color: var(--n-ink); }
+.app--night .sf-tab--active { color: var(--n-ink); border-bottom-color: var(--n-accent); }

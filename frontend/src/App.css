@@ -9,6 +9,27 @@
   overflow-x: clip;
 }
 
+/* ── Night theme ──────────────────────────────────────────────────
+   Deliberately light-touch: at night, only the NAVIGATION goes blue — the shared
+   companion nav and each page's sub-nav (Mochi's QuickNav, Saffron's sf-tabs). The
+   page background, cards, and content stay in their normal daytime palette on every
+   page. `.app--night` is present on all pages at night and just (a) exposes the
+   token palette below and (b) is the hook the nav stylesheets key off. The blue
+   nav rules live in Nav.css and SaffronPage.css; this file only defines the tokens. */
+.app--night {
+  --n-surface:    #2b3350;   /* blue nav bar surface */
+  --n-surface-2:  #333c5c;   /* nav hover */
+  --n-surface-hi: #3c4770;
+  --n-border:     #3f4a6e;
+  --n-border-soft:#333b58;
+  --n-ink:        #eaedf6;    /* light nav text */
+  --n-ink-med:    #bcc3d8;
+  --n-ink-muted:  #8d95af;
+  --n-accent:     #d8b25a;    /* warm gold accent (active tab underline, etc.) */
+  --n-leaf:       #8fb59a;
+  --n-rose:       #d99a8c;
+}
+
 /* ── Atelier footer ──────────────────────────────────────────────
    A quiet watercolor band that closes every page (Mochi / Saffron /
    Peppercorn) with breathing room, so the last control never sits flush

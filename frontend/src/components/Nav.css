@@ -219,3 +219,84 @@
   .quick-nav-row::-webkit-scrollbar { display: none; }
   .quick-nav-item { font-size: 14px; padding: 6px 10px; }
 }
+
+/* ────────────────────────────────────────────────────────────────
+   NIGHT MODE — colour-only overrides (activated by ancestor .app--night)
+   Layout / size / font / position are never touched here.
+   ──────────────────────────────────────────────────────────────── */
+
+/* Top companion nav bar */
+.app--night .site-nav {
+  background: var(--n-surface);
+  border-top: 1px solid var(--n-border);
+  border-bottom: 1px solid var(--n-border);
+  box-shadow: 0 2px 6px rgba(6, 10, 24, 0.35);
+}
+
+.app--night .site-nav--sticky {
+  box-shadow: 0 3px 8px rgba(6, 10, 24, 0.35);
+}
+
+/* Companion labels */
+.app--night .companion-btn {
+  color: var(--n-ink-muted);
+}
+.app--night .companion-btn:hover {
+  color: var(--n-ink);
+}
+.app--night .companion-btn-name {
+  color: var(--n-ink-muted);
+}
+.app--night .companion-btn-sep {
+  color: var(--n-border);
+}
+.app--night .companion-btn--active .companion-btn-name {
+  color: var(--n-ink);
+}
+
+/* Active label — keep the warm gold wash, brightened to the night accent */
+.app--night .companion-btn--active {
+  color: var(--n-ink);
+  background: radial-gradient(
+    ellipse 90% 55% at 50% 85%,
+    rgba(216, 178, 90, 0.20) 0%,
+    transparent 100%
+  );
+}
+.app--night .companion-btn--active::after {
+  background: rgba(216, 178, 90, 0.50);
+}
+
+/* Discover section / quick-nav bar */
+.app--night .quick-nav-bar {
+  background: var(--n-surface);
+  border-bottom: 1px solid var(--n-border);
+  box-shadow: 0 3px 8px rgba(6, 10, 24, 0.35);
+}
+
+.app--night .quick-nav-item {
+  color: var(--n-ink-muted);
+}
+.app--night .quick-nav-item:hover {
+  color: var(--n-ink);
+  background: var(--n-surface-2);
+}
+.app--night .quick-nav-sep {
+  color: var(--n-border);
+}
+
+/* Language toggle */
+.app--night .lang-btn {
+  color: var(--n-ink-muted);
+}
+.app--night .lang-btn:hover {
+  color: var(--n-ink);
+  background: var(--n-surface-2);
+}
+.app--night .lang-btn--active {
+  color: var(--n-ink);
+  background: rgba(216, 178, 90, 0.18);
+}
+.app--night .lang-sep {
+  color: var(--n-border);
+}

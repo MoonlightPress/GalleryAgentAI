@@ -14,6 +14,7 @@ import TrackedSection from './components/TrackedSection'
 import { track } from './utils/track'
 import { createVisibilityTracker } from './utils/dwell'
 import { setCache, getCache } from './utils/apiCache'
+import { isNightNow } from './utils/timeOfDay'
 
 const SaffronPage = lazy(() => import('./components/SaffronPage'))
 const PeppercornPage = lazy(() => import('./components/PeppercornPage'))
@@ -152,7 +153,10 @@ export default function App() {
 
   return (
     <LanguageProvider>
-      <div className="app">
+      {/* Night: `app--night` on every page turns just the navigation blue (shared
+          companion nav + each page's sub-nav). Page background and content stay in
+          their daytime palette everywhere — the light-touch theme. */}
+      <div className={`app${isNightNow() ? ' app--night' : ''}`}>
         {page === 'discover' && <HeroSection />}
         {page === 'discover' && nav}
         {page === 'discover' && <QuickNav />}
