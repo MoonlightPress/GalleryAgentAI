@@ -24,6 +24,11 @@
   min-height: 340px;
   overflow: hidden;
   flex-shrink: 0;
+  /* Same lift as the Mochi/Saffron heroes: a soft drop shadow + a gold-tan stroke
+     underneath so the hero sits off the content below it (matches the footer's top). */
+  z-index: 41;
+  box-shadow: 0 5px 14px rgba(80, 55, 30, 0.12);
+  border-bottom: 2px solid rgba(150, 112, 56, 0.55);
 }
 
 .pp-mouse-img {
