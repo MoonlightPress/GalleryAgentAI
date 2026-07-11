@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import './HeroSection.css'
-import { mochiHeroSources } from '../utils/heroImages'
+import { mochiHeroSources, mochiHeroNightSources } from '../utils/heroImages'
+import { isNightNow } from '../utils/timeOfDay'
 import { useLanguage } from '../i18n/LanguageContext'
 import { POEM_COUNT } from '../i18n/translations'
 
@@ -8,6 +9,10 @@ export default function HeroSection() {
   const { t, lang } = useLanguage()
   const [poem, setPoem]   = useState(() => Math.floor(Math.random() * POEM_COUNT))
   const [shown, setShown] = useState(true)
+  // Evening → Mochi's fireworks illustration; the darker wall behind the poem
+  // needs the light-text treatment (.hero--night), so pick both together at mount.
+  const [night] = useState(() => isNightNow())
+  const hero = night ? mochiHeroNightSources : mochiHeroSources
 
   // Gently rotate the poem.
   useEffect(() => {
@@ -28,18 +33,18 @@ export default function HeroSection() {
   const poemLang = lang === 'zh' ? 'zh-Hans' : lang === 'ja' ? 'ja' : 'en'
 
   return (
-    <section className="hero">
+    <section className={`hero${night ? ' hero--night' : ''}`}>
       {/* WebP (≈0.12 MB) preferred, PNG (≈1.9 MB) fallback. Intrinsic dims reserve
           the box so the poem/layout doesn't shift in (CLS); high priority since
           it's the above-the-fold hero on her phone. */}
       <picture>
-        <source srcSet={mochiHeroSources.webp} type="image/webp" />
+        <source srcSet={hero.webp} type="image/webp" />
         <img
-          src={mochiHeroSources.png}
-          alt="Mochi's watercolor atelier"
+          src={hero.png}
+          alt={night ? "Mochi's atelier at night, watching the fireworks" : "Mochi's watercolor atelier"}
           className="hero-img"
-          width={mochiHeroSources.width}
-          height={mochiHeroSources.height}
+          width={hero.width}
+          height={hero.height}
           fetchPriority="high"
           decoding="async"
         />

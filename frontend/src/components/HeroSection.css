@@ -92,6 +92,14 @@
 }
 .hero-poem--out { opacity: 0; }
 
+/* Night hero: the left wall is a warm, dim brown (luminance ~90), so the dark
+   daytime ink loses contrast. Switch the verse to a soft cream with a low shadow
+   so it reads cleanly against the fireworks-lit wall. */
+.hero--night .hero-poem {
+  color: #f6ead2;
+  text-shadow: 0 1px 6px rgba(20, 12, 8, 0.55);
+}
+
 /* English translations run much longer than a Chinese couplet — scale them down
    so they fit the same wall box (Japanese sits between the two). */
 .hero-poem--en {

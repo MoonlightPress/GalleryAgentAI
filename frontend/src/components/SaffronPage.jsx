@@ -3,7 +3,8 @@ import './SaffronPage.css'
 import { CalendarMonth } from './DeadlineCalendar'
 import { parseDeadline, keyOf } from '../utils/calendarDates'
 import './DeadlineCalendar.css'
-import { saffronHero } from '../utils/heroImages'
+import { saffronHero, saffronHeroNight } from '../utils/heroImages'
+import { isNightNow } from '../utils/timeOfDay'
 import { getCache, setCache } from '../utils/apiCache'
 import { track } from '../utils/track'
 import TrackedSection from './TrackedSection'
@@ -2392,7 +2393,7 @@ export default function SaffronPage({ nav }) {
   return (
     <div className="saffron-page">
       <section className="saffron-hero">
-        <img src={saffronHero} alt="Saffron's wide view" className="saffron-hero-img" />
+        <img src={isNightNow() ? saffronHeroNight : saffronHero} alt="Saffron's wide view" className="saffron-hero-img" />
       </section>
       {nav}
 
