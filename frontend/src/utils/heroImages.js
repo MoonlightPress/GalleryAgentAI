@@ -22,6 +22,9 @@ import mochiHeroNightPngUrl from '../assets/heroes/mochi/mochi_hero_night.png'
 import mochiHeroNightWebpUrl from '../assets/heroes/mochi/mochi_hero_night.webp'
 // Night-time Saffron (robin over the town, hanabi in the sky) — webp only, like the daytime one.
 import saffronHeroNightWebpUrl from '../assets/heroes/saffron/saffron_hero_night.webp'
+// Night-time Peppercorn (mouse in a teacup, lantern + fireworks) — webp only. Kept out of the
+// daytime random pool by pickRandom's `_night` filter above.
+import peppercornHeroNightWebpUrl from '../assets/heroes/peppercorn/peppercorn_hero_night.webp'
 
 export const mochiHeroSources = {
   webp:   mochiHeroWebpUrl,
@@ -39,5 +42,6 @@ export const mochiHeroNightSources = {
 export const mochiHero = mochiHeroPngUrl
 
 export const peppercornHero = pickRandom(peppercornGlob)
+export const peppercornHeroNight = peppercornHeroNightWebpUrl
 export const saffronHero = pickRandom(saffronGlob)
 export const saffronHeroNight = saffronHeroNightWebpUrl

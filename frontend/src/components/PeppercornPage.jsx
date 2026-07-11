@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef, Component } from 'react'
 import './PeppercornPage.css'
-import { peppercornHero } from '../utils/heroImages'
+import { peppercornHero, peppercornHeroNight } from '../utils/heroImages'
+import { isNightNow } from '../utils/timeOfDay'
 import { getCache, setCache } from '../utils/apiCache'
 import { useLanguage } from '../i18n/LanguageContext'
 import { tfb } from '../i18n/translations'
@@ -2051,7 +2052,7 @@ export default function PeppercornPage({ nav }) {
 
       {/* Ambient mouse illustration */}
       <div className="pp-mouse-ambient">
-        <img src={peppercornHero} alt="Peppercorn" className="pp-mouse-img" />
+        <img src={isNightNow() ? peppercornHeroNight : peppercornHero} alt="Peppercorn" className="pp-mouse-img" />
       </div>
 
       {nav}
