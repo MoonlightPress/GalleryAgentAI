@@ -51,6 +51,39 @@ class AmountBoundaryTests(unittest.TestCase):
         self.assertEqual(fee, "$35")
 
 
+class AdmissionIsNotAFeeTests(unittest.TestCase):
+    """Second live case found 2026-07-28, same class as the prize bug: listing
+    pages for 公募展 quote the VISITOR admission price, and it was stored as her
+    entry fee. 第110回二科美術展覧会 was served as "一般 1,400円" — that is a
+    ticket to walk in and look at the show. Real submission fees for these
+    society exhibitions run 10,000 yen and up, so the number is not merely
+    wrong, it is wrong in the direction that makes her under-budget."""
+
+    def test_general_admission_price_is_not_an_entry_fee(self):
+        for text in ("一般 1,400円", "一般 1,500円 / 学生 800円", "大人 700円"):
+            fee, matched = extract_fee(text)
+            self.assertFalse(matched, f"read admission {fee!r} as an entry fee from: {text}")
+
+    def test_explicit_admission_labels_are_not_entry_fees(self):
+        for text in ("入場料 500円", "観覧料 700円", "当日 1,000円 前売 800円"):
+            fee, matched = extract_fee(text)
+            self.assertFalse(matched, f"read {fee!r} as an entry fee from: {text}")
+
+    def test_english_admission_is_not_an_entry_fee(self):
+        fee, matched = extract_fee("Admission: 700 yen (adults)")
+        self.assertFalse(matched, f"read {fee!r} as an entry fee")
+
+    def test_a_real_submission_fee_still_survives(self):
+        """Must not over-correct — 出品料/参加費 are genuine costs to her."""
+        self.assertEqual(extract_fee("出品料 10,000円")[0], "10,000円")
+        self.assertEqual(extract_fee("参加費 3,000円")[0], "3,000円")
+
+    def test_real_entry_fee_quoted_alongside_admission(self):
+        fee, matched = extract_fee("一般 1,400円（入場）。出品料 12,000円。")
+        self.assertTrue(matched)
+        self.assertEqual(fee, "12,000円")
+
+
 class PrizeIsNotAFeeTests(unittest.TestCase):
 
     def test_prize_amount_in_title_is_not_reported_as_a_fee(self):

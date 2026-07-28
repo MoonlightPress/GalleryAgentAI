@@ -32,6 +32,17 @@ PRIZE_CONTEXT = re.compile(
     re.IGNORECASE
 )
 
+# Money named near these words is what a VISITOR pays to walk in, not what she
+# pays to submit. Listing pages for 公募展 quote admission prominently:
+# 第110回二科美術展覧会 was stored as "一般 1,400円" when the real submission fee
+# is an order of magnitude higher. Wrong in the direction that makes her
+# under-budget, so it must not reach the card.
+ADMISSION_CONTEXT = re.compile(
+    r'入場料|観覧料|入館料|当日券?|前売|一般\s*[\d¥]|大人\s*[\d¥]|学生\s*[\d¥]'
+    r'|admission|adults?\)|ticket|entry\s+to\s+(?:the\s+)?(?:show|exhibition)',
+    re.IGNORECASE
+)
+
 # How far either side of a matched amount to look for that context.
 PRIZE_WINDOW = 50
 
@@ -99,6 +110,11 @@ def extract_fee(text: str):
                 window = text[max(0, m.start() - PRIZE_WINDOW):m.end() + PRIZE_WINDOW]
                 if PRIZE_CONTEXT.search(window):
                     continue  # a prize/grant, not a cost — keep looking for a real fee
+                # Admission is checked on a tighter leading window: the ticket
+                # price sits right after its label ("一般 1,400円"), whereas a
+                # submission fee quoted later in the same sentence must survive.
+                if ADMISSION_CONTEXT.search(text[max(0, m.start() - 12):m.end() + 8]):
+                    continue  # visitor admission, not her cost to submit
             return m.group(0).strip(), True
 
     return None, False
