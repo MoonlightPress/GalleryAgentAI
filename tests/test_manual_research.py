@@ -143,6 +143,120 @@ class ApplyRecordsTests(unittest.TestCase):
         self.assertEqual(opps[0]["manual_research_at"], "2026-07-27")
 
 
+RETRACT = {
+    "title": "第110回記念 二科美術展覧会",
+    "source_url": "https://www.nact.jp/exhibition_public",
+    "verified_at": "2026-07-28",
+    "retract": {"fee": "一般 1,400円"},
+    "reason": "stored fee is the visitor admission price, not the 出品料",
+}
+
+
+class RetractionTests(unittest.TestCase):
+    """A record may WITHDRAW a wrong value as well as assert a right one.
+    Found 2026-07-28: seven entries store the visitor admission price as her
+    entry fee. The extractor only writes when the fee is missing, so it can
+    never correct them; assert-only records can't either (the validator
+    rightly refuses empty values). Retraction is the designed way to remove
+    misinformation — and it must name the exact bad value it is removing, so
+    a stale retraction can't delete a value that was since corrected."""
+
+    def test_retraction_clears_the_named_wrong_value(self):
+        opps = [{"name": RETRACT["title"], "fee": "一般 1,400円"}]
+        applied, skipped = apply_records(opps, [RETRACT])
+        self.assertEqual(opps[0]["fee"], "")
+        self.assertEqual(len(applied), 1)
+
+    def test_retraction_requires_the_current_value_to_match(self):
+        """If the pipeline has since found a different (presumably real) fee,
+        the stale retraction must not delete it."""
+        opps = [{"name": RETRACT["title"], "fee": "出品料 12,000円"}]
+        applied, skipped = apply_records(opps, [RETRACT])
+        self.assertEqual(opps[0]["fee"], "出品料 12,000円")
+        self.assertEqual(len(applied), 0)
+        self.assertIn("no longer matches", skipped[0][1])
+
+    def test_retraction_requires_provenance_and_reason(self):
+        rec = {k: v for k, v in RETRACT.items() if k != "reason"}
+        ok, why = validate_record(rec)
+        self.assertFalse(ok)
+        self.assertIn("reason", why)
+
+    def test_retraction_of_unknown_field_is_rejected(self):
+        rec = {**RETRACT, "retract": {"admision": "x"}}
+        ok, why = validate_record(rec)
+        self.assertFalse(ok)
+        self.assertIn("admision", why)
+
+    def test_record_may_retract_and_assert_together(self):
+        """The common correction shape: remove the admission price AND supply
+        the real submission fee in one auditable record."""
+        rec = {**RETRACT, "found": {"fee": "出品料 12,000円"}}
+        opps = [{"name": RETRACT["title"], "fee": "一般 1,400円"}]
+        applied, skipped = apply_records(opps, [rec])
+        self.assertEqual(opps[0]["fee"], "出品料 12,000円")
+
+    def test_pure_retraction_passes_validation(self):
+        ok, why = validate_record(RETRACT)
+        self.assertTrue(ok, why)
+
+    def test_completed_retraction_reports_itself_honestly_on_rerun(self):
+        """Second run after a successful retraction: the field is empty, so the
+        skip reason must say the retraction is done — not claim the field is
+        'already populated', which is the opposite of the truth."""
+        opps = [{"name": RETRACT["title"], "fee": ""}]
+        applied, skipped = apply_records(opps, [RETRACT])
+        self.assertEqual(len(applied), 0)
+        self.assertIn("already retracted", skipped[0][1])
+
+
+class FeeAliasTests(unittest.TestCase):
+    """fee/fees is a split-field pair (audit 2026-07-06): different-era engines
+    write different keys, and the serving accessor _fees_value prefers "fees"
+    even when it holds the placeholder "Unknown". Records speak of "fee"; the
+    engine must handle whichever spelling the entry actually carries — 5 of the
+    7 admission-price entries store the bad value in "fees", where a fee-only
+    retraction would silently miss it."""
+
+    def test_retraction_clears_a_fees_side_bad_value(self):
+        rec = {"title": "X", "source_url": "https://nact.jp/e", "verified_at": "2026-07-28",
+               "retract": {"fee": "一般 1,400円"}, "reason": "visitor admission"}
+        opps = [{"name": "X", "fees": "一般 1,400円"}]
+        applied, _ = apply_records(opps, [rec])
+        self.assertEqual(opps[0]["fees"], "")
+        self.assertEqual(len(applied), 1)
+
+    def test_retraction_also_clears_placeholder_siblings(self):
+        """COMITIA: fee holds the bad value, fees holds "Unknown". After the
+        retraction neither field may keep feeding the serving accessor junk."""
+        rec = {"title": "X", "source_url": "https://c.jp/", "verified_at": "2026-07-28",
+               "retract": {"fee": "1,000 yen (visitor)"}, "reason": "visitor ticket"}
+        opps = [{"name": "X", "fee": "1,000 yen (visitor)", "fees": "Unknown"}]
+        apply_records(opps, [rec])
+        self.assertEqual(opps[0]["fee"], "")
+        self.assertEqual(opps[0]["fees"], "")
+
+    def test_assertion_writes_both_spellings(self):
+        """_fees_value prefers "fees"; rumor_mill writes "fee". Writing one
+        spelling leaves some reader seeing stale data — write the pair."""
+        opps = [{"name": GOOD["title"], "fee": "", "fees": ""}]
+        apply_records(opps, [GOOD])
+        self.assertEqual(opps[0]["fee"], "$35")
+        self.assertEqual(opps[0]["fees"], "$35")
+
+    def test_placeholder_fees_does_not_block_a_fill(self):
+        opps = [{"name": GOOD["title"], "fees": "Unknown"}]
+        applied, _ = apply_records(opps, [GOOD])
+        self.assertEqual(opps[0]["fees"], "$35")
+
+    def test_real_fees_value_still_blocks_a_fill_without_override(self):
+        rec = {**GOOD, "found": {"fee": "$35"}}
+        opps = [{"name": GOOD["title"], "fees": "$30 early bird"}]
+        applied, _ = apply_records(opps, [rec])
+        self.assertEqual(opps[0]["fees"], "$30 early bird")
+        self.assertEqual(len(applied), 0)
+
+
 class RunFileTests(unittest.TestCase):
     """The engine runs as a pipeline step, so a missing or malformed source file
     must degrade to a no-op — never abort a 101-step run."""

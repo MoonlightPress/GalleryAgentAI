@@ -43,6 +43,20 @@ from engines.deadline_normaliser import parse_deadline_date
 # so unknown names are rejected loudly rather than ignored.
 ALLOWED_FIELDS = ("deadline", "fee", "contact_email", "submission_url")
 
+# Split-field pairs (audit 2026-07-06): different-era engines write different
+# spellings of one concept, and readers prefer different sides — _fees_value
+# in api.py prefers "fees" even when it holds a placeholder. Records speak the
+# canonical name; the engine reads and writes every spelling the entry carries.
+FIELD_ALIASES = {"fee": ("fee", "fees")}
+
+
+def _aliases(key: str):
+    return FIELD_ALIASES.get(key, (key,))
+
+
+def _is_placeholder(value) -> bool:
+    return str(value or "").strip().lower() in PLACEHOLDERS
+
 # How a model says "I don't know". None of these may reach a card as a fact.
 PLACEHOLDERS = {"", "unknown", "n/a", "na", "tbd", "none", "null", "-", "--", "?", "tba"}
 
@@ -72,9 +86,12 @@ def validate_record(rec: dict):
     if not rec.get("verified_at"):
         return False, "missing verified_at"
 
-    found = rec.get("found")
-    if not isinstance(found, dict) or not found:
-        return False, "no facts in 'found'"
+    found = rec.get("found") or {}
+    retract = rec.get("retract") or {}
+    if not isinstance(found, dict) or not isinstance(retract, dict):
+        return False, "'found'/'retract' must be objects"
+    if not found and not retract:
+        return False, "no facts in 'found' and nothing in 'retract'"
 
     for key, value in found.items():
         if key not in ALLOWED_FIELDS:
@@ -88,6 +105,17 @@ def validate_record(rec: dict):
 
         if key == "submission_url" and not _is_http_url(value):
             return False, f"submission_url is not an http(s) URL: {value!r}"
+
+    if retract:
+        # Retraction withdraws misinformation, so it carries a higher burden:
+        # it must name the exact bad value it removes and say why.
+        for key, value in retract.items():
+            if key not in ALLOWED_FIELDS:
+                return False, f"unknown retract field {key!r} (allowed: {', '.join(ALLOWED_FIELDS)})"
+            if not str(value).strip():
+                return False, f"retract.{key} must name the exact wrong value being removed"
+        if not str(rec.get("reason") or "").strip():
+            return False, "retraction requires a reason"
 
     return True, "ok"
 
@@ -122,15 +150,45 @@ def apply_records(opps: list, records: list):
 
         override = bool(rec.get("override"))
         wrote = []
-        for key, value in rec["found"].items():
-            existing = str(opp.get(key) or "").strip()
+        stale = []
+
+        # Retractions first, so a record that retracts AND asserts the same
+        # field ends with the asserted value. A retraction only fires when the
+        # stored value still equals the named bad value — if the pipeline has
+        # since found something different, the stale retraction must not
+        # delete it.
+        for key, bad_value in (rec.get("retract") or {}).items():
+            matched = any(str(opp.get(a) or "").strip() == str(bad_value).strip()
+                          for a in _aliases(key))
+            if matched:
+                # Clear the matched spelling AND any placeholder siblings —
+                # "fees": "Unknown" must not keep feeding the serving accessor
+                # junk after the misinformation next to it is withdrawn.
+                for a in _aliases(key):
+                    cur = str(opp.get(a) or "").strip()
+                    if cur == str(bad_value).strip() or _is_placeholder(opp.get(a)):
+                        opp[a] = ""
+                wrote.append(f"retracted {key}")
+            elif any(str(opp.get(a) or "").strip() for a in _aliases(key)):
+                stale.append(key)
+
+        for key, value in (rec.get("found") or {}).items():
+            existing = any(not _is_placeholder(opp.get(a)) and str(opp.get(a) or "").strip()
+                           for a in _aliases(key))
             if existing and not override:
                 continue
-            opp[key] = value
+            for a in _aliases(key):
+                opp[a] = value
             wrote.append(key)
 
         if not wrote:
-            skipped.append((title, "all fields already populated (no override)"))
+            if stale:
+                skipped.append((title, f"stored value no longer matches retraction "
+                                       f"({', '.join(stale)}) — not deleting"))
+            elif rec.get("retract") and not rec.get("found"):
+                skipped.append((title, "already retracted — nothing to do"))
+            else:
+                skipped.append((title, "all fields already populated (no override)"))
             continue
 
         opp["manual_research_source"] = rec["source_url"]
