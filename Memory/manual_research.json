@@ -1,0 +1,191 @@
+{
+  "_comment": "SOURCE file (hand-maintained, like artist_master_profile.json) — NOT pipeline-generated. Facts here were read off each opportunity's real page, not a search snippet. Applied by engines/manual_research_engine.py, which validates every record before it can touch opportunity data. Fill-only by default: an existing value is never overwritten unless a record sets \"override\": true. Allowed fields: deadline, fee, contact_email, submission_url.",
+  "records": [
+    {
+      "title": "The Homiens Art Prize ($12,000 Annually)",
+      "source_url": "https://homiens.com/homiens-art-prize/",
+      "verified_at": "2026-07-27",
+      "override": true,
+      "_note": "Stored fee was $12 — a misread of the $12,000 PRIZE in the title. Real entry fee is $35 ($30 early bird, expired). Root cause fixed in fee_text_extractor.py; this record corrects the already-stored value.",
+      "found": {
+        "fee": "$35",
+        "submission_url": "https://homiens.com/homiens-art-prize/"
+      }
+    },
+    {
+      "title": "BOOK MEETS NEXT 11月1日「本の日」記念 ブックカバー大賞",
+      "source_url": "https://compe.japandesign.ne.jp/honnohi-bookcover-2026",
+      "verified_at": "2026-07-27",
+      "_note": "Free, open to anyone who loves books — no age or nationality restriction. Bunko cover 15.2x38.5cm, 350dpi JPEG or hi-res PDF. Original painted/watercolour work accepted; stock and AI-generated art prohibited. Strong Tier 1-2 fit.",
+      "found": {
+        "fee": "Free",
+        "submission_url": "https://www.jpic.or.jp/bookmeetsnext/#a-755",
+        "contact_email": "bookcover@nippan.co.jp"
+      }
+    },
+    {
+      "title": "2026年度 東京芸術文化創造発信助成 カテゴリーI（芸術創造活動）",
+      "source_url": "https://www.artscouncil-tokyo.jp/grants/tokyo-grant-program/28201/",
+      "verified_at": "2026-07-27",
+      "_note": "Category I [single-year] IS open to individual Tokyo residents — no age or nationality limit. Visual art covered. Max 500,000 yen at 50% of eligible expenses. Online application only. This is the Tokyo grant she can actually apply to.",
+      "found": {
+        "submission_url": "https://tokyo-arts-grants-apply.artscouncil-tokyo.jp/"
+      }
+    },
+    {
+      "title": "2026年度 第2期 東京芸術文化創造発信助成 カテゴリーI［単年助成］芸術創造活動",
+      "source_url": "https://www.artscouncil-tokyo.jp/grants/tokyo-grant-program/28201/",
+      "verified_at": "2026-07-27",
+      "_note": "Duplicate of the Category I entry above under a different title spelling — same grant, same portal.",
+      "found": {
+        "submission_url": "https://tokyo-arts-grants-apply.artscouncil-tokyo.jp/"
+      }
+    },
+    {
+      "title": "2026年　平泉会選抜展（Heisen-kai Selection Exhibition 2026）",
+      "source_url": "https://www.tobikan.jp/media/pdf/2026/citizens_calendar_202606.pdf",
+      "verified_at": "2026-07-28",
+      "retract": {
+        "fee": "一般500円入場料（出品料未記載）"
+      },
+      "reason": "visitor admission price; the value itself says 出品料未記載 (submission fee not listed)"
+    },
+    {
+      "title": "第92回 東光展",
+      "source_url": "https://www.tobikan.jp/media/pdf/2026/citizens_calendar_202605.pdf",
+      "verified_at": "2026-07-28",
+      "retract": {
+        "fee": "一般1,000円（500円団体料金）"
+      },
+      "reason": "visitor admission with group discount — a ticket price, not the 出品料"
+    },
+    {
+      "title": "The 89th SHINSEISAKU Art Exhibition",
+      "source_url": "https://www.nact.jp/english/exhibition_public",
+      "verified_at": "2026-07-28",
+      "retract": {
+        "fee": "700 yen (adults)"
+      },
+      "reason": "cross-contaminated from a different exhibition on the same NACT index page (新槐樹社展 ¥700); NACT lists SHINSEISAKU admission as ¥1,000 — and either way it is a visitor ticket, not the 出品料"
+    },
+    {
+      "title": "第110回記念 二科美術展覧会",
+      "source_url": "https://www.nact.jp/exhibition_public",
+      "verified_at": "2026-07-28",
+      "retract": {
+        "fee": "一般 1,400円"
+      },
+      "reason": "visitor admission per NACT listing; society 出品料 runs an order of magnitude higher"
+    },
+    {
+      "title": "第90回 自由美術展",
+      "source_url": "https://www.nact.jp/exhibition_public",
+      "verified_at": "2026-07-28",
+      "retract": {
+        "fee": "一般 1,500円"
+      },
+      "reason": "visitor admission per NACT listing, not the cost to submit"
+    },
+    {
+      "title": "COMITIA",
+      "source_url": "https://www.comitia.co.jp/",
+      "verified_at": "2026-07-28",
+      "retract": {
+        "fee": "1,000 yen (Event booklet purchase required on-site. Advance sales of a General Admission Ticket [catalog fee / estimated price: 800 yen])"
+      },
+      "reason": "visitor catalog/ticket, not the circle participation fee she would pay to exhibit; circle fee unverified (COMITIA 157 applications already closed as of 2026-07-28)"
+    },
+    {
+      "title": "HandMade In Japan Fes",
+      "source_url": "https://hmj-fes.jp/",
+      "verified_at": "2026-07-28",
+      "retract": {
+        "fee": "Advance Ticket: 1,300 yen (1-day) / 2,000 yen (2-day); Standard Ticket: 1,500 yen (1-day) / 2,500 yen (2-day)"
+      },
+      "reason": "visitor ticket prices, not the exhibitor booth fee; booth fee unverified (exhibitor page 404s)"
+    },
+    {
+      "title": "2026年度 東京芸術文化創造発信助成 カテゴリーII（長期助成）芸術創造活動",
+      "source_url": "https://www.artscouncil-tokyo.jp/grants/tokyo-grant-program/28206",
+      "verified_at": "2026-07-28",
+      "_note": "Category II [long-term] verified 団体-only on the official page: applicants must be organizations based in Tokyo; individual Tokyo residents are ineligible. Category I (28201) is her individual track.",
+      "found": {
+        "eligibility": "団体のみ — applicants must be organizations based in Tokyo; individuals are ineligible"
+      }
+    },
+    {
+      "title": "2026年度 東京芸術文化創造発信助成 カテゴリーII［長期助成］芸術創造活動",
+      "source_url": "https://www.artscouncil-tokyo.jp/grants/tokyo-grant-program/28206",
+      "verified_at": "2026-07-28",
+      "_note": "Category II [long-term] verified 団体-only on the official page: applicants must be organizations based in Tokyo; individual Tokyo residents are ineligible. Category I (28201) is her individual track.",
+      "found": {
+        "eligibility": "団体のみ — applicants must be organizations based in Tokyo; individuals are ineligible"
+      }
+    },
+    {
+      "title": "2026年度 東京芸術文化創造発信助成 カテゴリーII（芸術創造活動）",
+      "source_url": "https://www.artscouncil-tokyo.jp/grants/tokyo-grant-program/28206",
+      "verified_at": "2026-07-28",
+      "_note": "Category II [long-term] verified 団体-only on the official page: applicants must be organizations based in Tokyo; individual Tokyo residents are ineligible. Category I (28201) is her individual track.",
+      "found": {
+        "eligibility": "団体のみ — applicants must be organizations based in Tokyo; individuals are ineligible"
+      }
+    },
+    {
+      "title": "TOKAS-Emerging 2027",
+      "source_url": "https://www.tokyoartsandspace.jp/en/application/index.html",
+      "verified_at": "2026-07-28",
+      "_note": "CONFIRMED open on TOKAS's own site: deadline Jul 31 2026, open-call exhibition for Japan-based artists under 35. She is 26, Tokyo-based — eligible. Tier-3 credibility target (Bible).",
+      "found": {
+        "submission_url": "https://www.tokyoartsandspace.jp/en/archive/application/2026/20260616-329.html"
+      }
+    },
+    {
+      "title": "Art on Climate インターナショナル・イラストレーション・コンテスト 2026",
+      "source_url": "https://www.artonclimate.com/en/register",
+      "verified_at": "2026-07-28",
+      "_note": "Confirmed open, deadline Jul 31 2026, no entry fee, 18+, submission as 300dpi JPG (scanned watercolour fine).",
+      "found": {
+        "fee": "Free",
+        "submission_url": "https://www.artonclimate.com/en/register"
+      }
+    },
+    {
+      "title": "2027年度「アーティスト・イン・レジデンス プログラム」",
+      "source_url": "https://www.tokyoartsandspace.jp/en/application/index.html",
+      "verified_at": "2026-07-28",
+      "retract": {
+        "deadline": "2026-07-31"
+      },
+      "reason": "TOKAS's own application page (checked 2026-07-28) lists the 2027 Residency Program as CLOSED — the stored Jul 31 deadline is wrong and was making the digest promote a closed call as '3 days left'"
+    },
+    {
+      "title": "OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery",
+      "source_url": "https://www.jinnystreetgallery.com/open-call",
+      "verified_at": "2026-07-28",
+      "retract": {
+        "deadline": "July 31"
+      },
+      "reason": "the gallery's open-call page states no deadline at all — the call appears ongoing/rolling; the stored yearless 'July 31' was driving a false '3 days left' promotion"
+    },
+    {
+      "title": "SHIBUYA AWARDS 2026-27",
+      "source_url": "https://compe.japandesign.ne.jp/shibuya-awards-2026-27",
+      "verified_at": "2026-07-28",
+      "_note": "Verified open, deadline Jul 31 2026. Flat art within 120x120x30cm accepted — watercolour fits. General ¥9,900 but STUDENT rate ¥6,600 (she is a student). Grand prize ¥300,000 + exhibitions.",
+      "found": {
+        "fee": "¥9,900 general / ¥6,600 students (+¥3,300 per extra piece)",
+        "submission_url": "https://shibuyaawards.com/open-call/"
+      }
+    },
+    {
+      "title": "submissions — porkbelly press",
+      "source_url": "https://porkbellypress.submittable.com/submit",
+      "verified_at": "2026-07-28",
+      "_note": "Jul 1-31 reading window confirmed real and open. Caveat: current categories are TEXT micro-chapbooks (.doc/.rtf, poetry/fiction/hybrid) — relevant to her zine practice only via the Hybrid category.",
+      "found": {
+        "submission_url": "https://porkbellypress.submittable.com/submit"
+      }
+    }
+  ]
+}

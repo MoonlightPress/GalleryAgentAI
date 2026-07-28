@@ -1,0 +1,42 @@
+{
+  "venue_name": "410Gallery",
+  "venue_slug": "410gallery",
+  "venue_type": "gallery",
+  "city": "Tokyo",
+  "country": "",
+  "website": "https://en.410gallery.org/exhibition-open-call",
+  "source_links": [
+    "https://en.410gallery.org/exhibition-open-call"
+  ],
+  "categories_seen": [
+    "Galleries / Exhibition Calls"
+  ],
+  "accepts_unsolicited_work": "unknown",
+  "submission_style": "unknown",
+  "typical_artists": [],
+  "typical_mediums": [],
+  "known_aesthetic": [],
+  "price_level": "unknown",
+  "risk_notes": [],
+  "fit_notes": [],
+  "verification_notes": [
+    "Automatically created from opportunity data.",
+    "Needs manual/web research before being treated as verified."
+  ],
+  "missing_information": [
+    "contact",
+    "fees"
+  ],
+  "opportunity_titles": [
+    "Artworks You'll Want to Display in Your Room #7",
+    "Flower exhibition #6",
+    "Kawaii ART Exhibition #1",
+    "Umi Exhibition #1",
+    "Sora Exhibition #1",
+    "Guruguru Exhibition #1",
+    "Striped Exhibition #1"
+  ],
+  "last_researched": "",
+  "created_at": "2026-07-27",
+  "updated_at": "2026-07-27"
+}

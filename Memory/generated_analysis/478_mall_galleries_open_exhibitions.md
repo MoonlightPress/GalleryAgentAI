@@ -1,10 +1,10 @@
 
-REPORT GENERATED: 2026-06-24
+REPORT GENERATED: 2026-07-03
 
 # Mall Galleries Open Exhibitions
 
 ## 1. Quick Judgment
-**Fit score:** 3.8/10  
+**Fit score:** 3.4/10  
 **Fit band:** Low priority  
 **Confidence:** Medium  
 **Type:** Other  
@@ -50,5 +50,5 @@ Verify current submission, exhibition, or contact details before recommending.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-24_
+_Last generated: 2026-07-03_
 

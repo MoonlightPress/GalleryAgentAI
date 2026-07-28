@@ -2,14 +2,16 @@
   "venue_name": "Asian Cultural Council",
   "venue_slug": "asian_cultural_council",
   "venue_type": "artist opportunity venue",
-  "city": "New York / Global",
+  "city": "New York, New York / Global",
   "country": "",
-  "website": "https://www.asianculturalcouncil.org/",
+  "website": "https://www.asianculturalcouncil.org/ja/grant-opportunities",
   "source_links": [
+    "https://www.asianculturalcouncil.org/ja/grant-opportunities",
     "https://www.asianculturalcouncil.org/"
   ],
   "categories_seen": [
-    "Global Grant Fellowship"
+    "Global Grant Fellowship",
+    "Grant"
   ],
   "accepts_unsolicited_work": "unknown",
   "submission_style": "unknown",
@@ -29,9 +31,10 @@
     "submission process"
   ],
   "opportunity_titles": [
+    "ACC Fellowship and Grant Programs",
     "Asian Cultural Council Fellowship"
   ],
   "last_researched": "",
-  "created_at": "2026-06-24",
-  "updated_at": "2026-06-24"
+  "created_at": "2026-07-27",
+  "updated_at": "2026-07-27"
 }

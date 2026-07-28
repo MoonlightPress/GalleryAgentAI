@@ -2,35 +2,35 @@
   "dominant_countries": [
     [
       "Japan",
-      60
+      63
     ],
     [
       "Global",
-      7
+      9
     ],
     [
       "USA",
-      6
+      7
     ],
     [
       "International",
-      5
+      6
     ],
     [
       "Canada",
-      4
-    ],
-    [
-      "Tokyo",
-      2
+      3
     ],
     [
       "UK",
       2
     ],
     [
-      "China",
+      "Tokyo",
       2
+    ],
+    [
+      "UK / Global",
+      1
     ],
     [
       "Spain",
@@ -41,19 +41,11 @@
       1
     ],
     [
+      "China",
+      1
+    ],
+    [
       "Singapore",
-      1
-    ],
-    [
-      "Taiwan",
-      1
-    ],
-    [
-      "United States",
-      1
-    ],
-    [
-      "Yokohama",
       1
     ]
   ],
@@ -63,15 +55,15 @@
       13
     ],
     [
+      "japan_watercolor_open_call",
+      12
+    ],
+    [
       "bookstore_gallery",
       9
     ],
     [
-      "japan_watercolor_open_call",
-      9
-    ],
-    [
-      "cafe_gallery",
+      "gallery",
       9
     ],
     [
@@ -79,19 +71,23 @@
       8
     ],
     [
-      "gallery",
-      8
+      "zine_print",
+      7
+    ],
+    [
+      "global_open_call",
+      6
+    ],
+    [
+      "watercolor_competition",
+      6
     ],
     [
       "press_target",
       5
     ],
     [
-      "global_open_call",
-      5
-    ],
-    [
-      "zine_print",
+      "global_watercolor_open_call",
       5
     ],
     [
@@ -99,11 +95,7 @@
       5
     ],
     [
-      "zine_fair_booth",
-      4
-    ],
-    [
-      "global_watercolor_open_call",
+      "cafe_gallery",
       4
     ],
     [
@@ -111,7 +103,11 @@
       3
     ],
     [
-      "residency",
+      "zine_fair_booth",
+      3
+    ],
+    [
+      "illustration_prize",
       3
     ],
     [
@@ -127,46 +123,38 @@
       2
     ],
     [
-      "watercolor_competition",
-      2
-    ],
-    [
-      "illustration_prize",
-      2
-    ],
-    [
       "artist_space",
       2
+    ],
+    [
+      "bookstore_event",
+      1
     ]
   ],
   "dominant_tags": [
     [
       "japanese_source",
-      35
+      42
     ],
     [
       "japan",
-      32
+      41
     ],
     [
       "has_submission_url",
-      30
+      37
     ],
     [
       "has_deadline",
-      27
+      30
     ],
     [
       "jp",
-      22
-    ],
-    [
-      "tokyo",
-      15
+      26
     ],
     [
       "watercolor_ok",
-      14
+      20
     ],
     [
       "grant",
@@ -177,8 +165,8 @@
       13
     ],
     [
-      "tier_1",
-      12
+      "tokyo",
+      11
     ],
     [
       "diaspora",
@@ -189,28 +177,28 @@
       9
     ],
     [
-      "relationship",
-      9
+      "tier_1",
+      8
     ],
     [
       "secondary",
-      8
-    ],
-    [
-      "",
-      8
-    ],
-    [
-      "cafe_gallery",
-      8
-    ],
-    [
-      "chinese_source",
       7
     ],
     [
-      "consignment",
-      5
+      "",
+      7
+    ],
+    [
+      "global",
+      6
+    ],
+    [
+      "chinese_source",
+      6
+    ],
+    [
+      "jp_competition",
+      6
     ],
     [
       "press",
@@ -221,23 +209,35 @@
       5
     ],
     [
-      "Tier1",
-      4
+      "consignment",
+      5
+    ],
+    [
+      "open_call",
+      5
+    ],
+    [
+      "relationship",
+      5
     ],
     [
       "international",
       4
     ],
     [
-      "global",
+      "Tier1",
       4
     ],
     [
-      "jp_competition",
+      "cafe_gallery",
       4
     ],
     [
-      "low",
+      "watercolor",
+      4
+    ],
+    [
+      "publication",
       3
     ],
     [
@@ -249,23 +249,15 @@
       3
     ],
     [
-      "publication",
-      3
-    ],
-    [
-      "residency",
-      3
-    ],
-    [
       "lifestyle",
       3
     ],
     [
-      "bookstore_gallery",
+      "prestige",
       3
     ],
     [
-      "cn",
+      "bookstore_gallery",
       3
     ],
     [
@@ -277,8 +269,12 @@
       3
     ],
     [
-      "tokyo_metro",
-      3
+      "emerging_artist",
+      2
+    ],
+    [
+      "low",
+      2
     ],
     [
       "shimokitazawa",
@@ -289,15 +285,11 @@
       2
     ],
     [
-      "prestige",
+      "residency",
       2
     ],
     [
-      "koenji",
-      2
-    ],
-    [
-      "bunka_cho",
+      "cn",
       2
     ]
   ]

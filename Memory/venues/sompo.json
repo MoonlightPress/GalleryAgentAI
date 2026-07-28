@@ -6,9 +6,11 @@
   "country": "",
   "website": "https://bijutsutecho.com/magazine/news/exhibition/32221?page=8",
   "source_links": [
-    "https://bijutsutecho.com/magazine/news/exhibition/32221?page=8"
+    "https://bijutsutecho.com/magazine/news/exhibition/32221?page=8",
+    "https://bijutsutecho.com/exhibitions/9279"
   ],
   "categories_seen": [
+    "Competition Award",
     "Institutional / Grants"
   ],
   "accepts_unsolicited_work": "unknown",
@@ -25,13 +27,15 @@
   ],
   "missing_information": [
     "contact",
+    "deadline",
     "fees",
     "submission process"
   ],
   "opportunity_titles": [
-    "FACE展2026"
+    "FACE展2026",
+    "FACE（公募コンクール）"
   ],
   "last_researched": "",
-  "created_at": "2026-06-24",
-  "updated_at": "2026-06-24"
+  "created_at": "2026-07-27",
+  "updated_at": "2026-07-27"
 }

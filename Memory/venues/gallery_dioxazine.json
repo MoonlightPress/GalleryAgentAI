@@ -1,12 +1,13 @@
 {
-  "venue_name": "Gallery Dioxazine",
+  "venue_name": "ギャラリーディオキサジン (Gallery Dioxazine)",
   "venue_slug": "gallery_dioxazine",
-  "venue_type": "bookstore / print space",
-  "city": "Tokyo",
+  "venue_type": "gallery",
+  "city": "Unknown",
   "country": "",
   "website": "https://note.com/gallerydioxazine/n/nae41d746f93d",
   "source_links": [
-    "https://note.com/gallerydioxazine/n/nae41d746f93d"
+    "https://note.com/gallerydioxazine/n/nae41d746f93d",
+    "https://note.com/gallerydioxazine/n/n1ccedc4693a7"
   ],
   "categories_seen": [
     "Galleries / Exhibition Calls"
@@ -25,13 +26,18 @@
   ],
   "missing_information": [
     "contact",
+    "deadline",
     "fees",
     "submission process"
   ],
   "opportunity_titles": [
-    "Gallery Dioxazine Exhibition"
+    "咲き誇れ桜よ (Sakigahore Sakura yo)",
+    "りんごろごろごろ (Ringo Rogo Rogo)",
+    "スクエア・ワールド2026 (Square World 2026)",
+    "ローズ・ローズ・ローズ (Rose Rose Rose)",
+    "空色ターコイズ (Sorairo Turquoise)"
   ],
   "last_researched": "",
-  "created_at": "2026-06-24",
-  "updated_at": "2026-06-24"
+  "created_at": "2026-07-27",
+  "updated_at": "2026-07-27"
 }

@@ -1,22 +1,22 @@
 
-REPORT GENERATED: 2026-06-04
+REPORT GENERATED: 2026-07-05
 
 # Applied Arts 2026 Illustration Awards
 
 ## 1. Quick Judgment
-**Fit score:** 8.1/10  
+**Fit score:** 10/10  
 **Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Global Open Call  
 **City:** International  
 
 ## 2. Verification Status
-Verified: Official/source website, Submission process, Deadline. Needs checking: Fees, Contact.
+Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.
 
 - **Official/source website**: https://graphiccompetitions.com/illustration/applied-arts-2026-illustration-awards/zh (verified)
 - **Submission process**: https://graphiccompetitions.com/illustration/applied-arts-2026-illustration-awards/zh (verified)
-- **Deadline**: 2026年1月 (verified)
-- **Fees**: Not publicly listed (needs_inquiry)
+- **Deadline**: 2026-02-08 (verified)
+- **Fees**: $40 (verified)
 - **Contact**: Not publicly listed (needs_inquiry)
 
 ## 3. Why This May Fit the Artist
@@ -31,11 +31,13 @@ International illustration awards accepting single works, series, and animated w
 International illustration awards accepting single works, series, and animated work completed between January 2025 and January 2026.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter
+- Verify current status at the official site before investing time — websites change and open calls close early
+- Deadline: 2026年1月 — confirm on the official site before submitting
 
 ## 7. Submission / Logistics
-- **Deadline:** 2026年1月
-- **Fees:** Not publicly listed
+- **Deadline:** 2026-02-08
+- **Fees:** $40
 - **Submission page:** https://graphiccompetitions.com/illustration/applied-arts-2026-illustration-awards/zh
 - **Source:** https://graphiccompetitions.com/illustration/applied-arts-2026-illustration-awards/zh
 
@@ -48,5 +50,5 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-04_
+_Last generated: 2026-07-05_
 

@@ -1,30 +1,28 @@
 {
-  "date": "2026-06-24",
+  "date": "2026-07-29",
   "ibm_names": [
+    "The Homiens Art Prize ($12,000 Annually)",
+    "Creation Grant Category III (Tokyo Grant Program)",
     "アートオリンピア2026",
-    "Zine & Book フェス in 神保町 (Jimbocho)",
-    "Tokyo Art Book Fair",
-    "第113回 日本水彩展",
-    "CSPWC Annual Open Water International Exhibition",
-    "UTRECHT",
-    "MOUNT ZINE",
-    "Book and Sons",
-    "B&B Shimokitazawa",
-    "flotsam books",
-    "TOKYO ART BOOK FAIR 2026"
+    "SHIBUYA AWARDS 2026-27",
+    "submissions — porkbelly press",
+    "「アーティストの国際発信支援プログラム」2026（令和8）年度第II期",
+    "新進芸術家の海外研修",
+    "TOKAS-Emerging 2027",
+    "Art on Climate インターナショナル・イラストレーション・コンテスト 2026",
+    "CSPWC Annual Open Water International Exhibition"
   ],
   "ibm_scores": {
-    "アートオリンピア2026": 9.6,
-    "Zine & Book フェス in 神保町 (Jimbocho)": 6.3,
-    "Tokyo Art Book Fair": 9.6,
-    "第113回 日本水彩展": 9.6,
-    "CSPWC Annual Open Water International Exhibition": 9.6,
-    "UTRECHT": 9.2,
-    "MOUNT ZINE": 9.2,
-    "Book and Sons": 8.8,
-    "B&B Shimokitazawa": 8.3,
-    "flotsam books": 8.3,
-    "TOKYO ART BOOK FAIR 2026": 7.4
+    "The Homiens Art Prize ($12,000 Annually)": 8.47,
+    "Creation Grant Category III (Tokyo Grant Program)": 8.9,
+    "アートオリンピア2026": 10.0,
+    "SHIBUYA AWARDS 2026-27": 6.82,
+    "submissions — porkbelly press": 10.0,
+    "「アーティストの国際発信支援プログラム」2026（令和8）年度第II期": 8.6,
+    "新進芸術家の海外研修": 8.7,
+    "TOKAS-Emerging 2027": 7.0,
+    "Art on Climate インターナショナル・イラストレーション・コンテスト 2026": 5.4,
+    "CSPWC Annual Open Water International Exhibition": 10.0
   },
-  "opportunity_count": 522
+  "opportunity_count": 801
 }

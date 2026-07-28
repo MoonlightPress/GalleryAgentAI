@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-06-13
+REPORT GENERATED: 2026-07-27
 
 # flotsam books
 
@@ -50,5 +50,5 @@ Visit if in Tokyo to assess space and build relationship naturally; not worth co
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-13_
+_Last generated: 2026-07-27_
 

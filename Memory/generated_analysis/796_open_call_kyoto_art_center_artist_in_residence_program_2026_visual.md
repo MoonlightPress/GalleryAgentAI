@@ -1,0 +1,55 @@
+
+REPORT GENERATED: 2026-07-27
+
+# 【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...
+
+## 1. Quick Judgment
+**Fit score:** 1.4/10  
+**Fit band:** Low priority  
+**Confidence:** Medium  
+**Type:** Residencies / Longer Projects  
+**City:** Japan / Tokyo / Online  
+
+## 2. Verification Status
+Verified: Official/source website. Needs checking: Submission process, Deadline, Fees, Contact.
+
+- **Official/source website**: https://resartis.org/open-call/【open-call】-kyoto-art-center-artist-in-residence-program-2026-visual-arts/ (verified)
+- **Submission process**: Not publicly listed (needs_inquiry)
+- **Deadline**: Not publicly listed (needs_inquiry)
+- **Fees**: Not publicly listed (needs_inquiry)
+- **Contact**: Not publicly listed (needs_inquiry)
+
+## 3. Why This May Fit the Artist
+- Opportunity type: Residencies / Longer Projects.
+- Artist themes to compare against this venue: urban atmosphere, domestic stillness, cats, interior light, memory, quiet life.
+- Visual-language fit signals: still, intimate, atmospheric, nostalgic without sentimentality, attentive, quietly melancholic.
+
+## 4. Public Opportunity Summary
+Residencies (found through targeted research).
+
+## 5. Existing Fit Notes
+No stored fit explanation yet.
+
+## 6. Key Points
+- Source category: Residencies.
+- Search group: residencies.
+- First action: Confirm deadline, duration, cost, location, and whether visual artists are eligible.
+- Detected signals: deadline signal.
+
+## 7. Submission / Logistics
+- **Deadline:** Not publicly listed
+- **Fees:** Not publicly listed
+- **Submission page:** Not publicly listed
+- **Source:** https://resartis.org/open-call/【open-call】-kyoto-art-center-artist-in-residence-program-2026-visual-arts/
+
+## 8. Risk / Unknowns
+No hard dealbreaker recorded. Manual verification recommended.
+
+## 9. Recommended Next Step
+Confirm deadline, duration, cost, location, and whether visual artists are eligible.
+
+## 10. Inquiry Need
+If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
+
+_Last generated: 2026-07-27_
+

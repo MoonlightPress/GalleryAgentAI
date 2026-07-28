@@ -563,6 +563,17 @@
       "image": ""
     },
     {
+      "title": "call for artists | al-tiba9 magazine issue22",
+      "bucket": "global_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Online",
+      "country": "Global",
+      "image": ""
+    },
+    {
       "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
       "bucket": "global_targets",
       "score": 9.4,
@@ -593,6 +604,17 @@
       "category": "Press Target",
       "city": "Barcelona",
       "country": "Spain",
+      "image": ""
+    },
+    {
+      "title": "Still Life - 2026",
+      "bucket": "global_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Global Open Call",
+      "city": "International",
+      "country": "International",
       "image": ""
     },
     {
@@ -629,7 +651,18 @@
       "image": ""
     },
     {
-      "title": "Still Life - 2026",
+      "title": "Aesthetica Art Prize",
+      "bucket": "global_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Global Open Call",
+      "city": "York / Online",
+      "country": "UK / Global",
+      "image": ""
+    },
+    {
+      "title": "Aquarium - 2026",
       "bucket": "global_targets",
       "score": 9.4,
       "confidence": "High",
@@ -648,6 +681,17 @@
       "category": "Grant",
       "city": "New York",
       "country": "USA",
+      "image": ""
+    },
+    {
+      "title": "Jackson's Art Prize",
+      "bucket": "global_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Other",
+      "city": null,
+      "country": "Global",
       "image": ""
     },
     {
@@ -673,25 +717,14 @@
       "image": ""
     },
     {
-      "title": "Jackson's Art Prize",
+      "title": "DER GREIF",
       "bucket": "global_targets",
       "score": 9.4,
       "confidence": "High",
       "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Other",
-      "city": null,
+      "category": "Photo Open Call",
+      "city": "Online",
       "country": "Global",
-      "image": ""
-    },
-    {
-      "title": "The Artcomplex Center of Tokyo",
-      "bucket": "global_targets",
-      "score": 9.4,
-      "confidence": "High",
-      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Other",
-      "city": null,
-      "country": "Tokyo",
       "image": ""
     },
     {
@@ -706,62 +739,18 @@
       "image": ""
     },
     {
-      "title": "Cité Internationale des Arts Artist Residency",
+      "title": "ArtConnect Open Calls",
       "bucket": "global_targets",
       "score": 9.4,
       "confidence": "High",
       "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Global Residency",
-      "city": "Paris",
-      "country": "France",
-      "image": ""
-    },
-    {
-      "title": "MICRO/MACRO",
-      "bucket": "global_targets",
-      "score": 9.4,
-      "confidence": "High",
-      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Galleries / Exhibition Calls",
-      "city": "Vancouver",
-      "country": "Canada",
-      "image": ""
-    },
-    {
-      "title": "「国際創作者駐村計畫」",
-      "bucket": "global_targets",
-      "score": 9.4,
-      "confidence": "High",
-      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Global Residency",
-      "city": "Tokyo",
-      "country": "Japan",
-      "image": ""
-    },
-    {
-      "title": "KAMIHANGA国際プリント展2026",
-      "bucket": "global_targets",
-      "score": 9.4,
-      "confidence": "High",
-      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Global Open Call",
-      "city": "International",
-      "country": "International",
+      "category": "Other",
+      "city": null,
+      "country": "Global",
       "image": ""
     }
   ],
   "publication_targets": [
-    {
-      "title": "submissions — porkbelly press",
-      "bucket": "publication_targets",
-      "score": 9.4,
-      "confidence": "High",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Book Publishing",
-      "city": "Japan / Tokyo / Online",
-      "country": "",
-      "image": ""
-    },
     {
       "title": "UTRECHT",
       "bucket": "publication_targets",
@@ -770,6 +759,17 @@
       "reason": "Useful for photobook, zine, artist-book, or publication history.",
       "category": "Print / Zines / Bookstores",
       "city": "Tokyo",
+      "country": "",
+      "image": ""
+    },
+    {
+      "title": "submissions — porkbelly press",
+      "bucket": "publication_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Book Publishing",
+      "city": "Japan / Tokyo / Online",
       "country": "",
       "image": ""
     },
@@ -785,13 +785,13 @@
       "image": ""
     },
     {
-      "title": "本店・本屋の実験室",
+      "title": "Submissions — Clavis Publishing",
       "bucket": "publication_targets",
       "score": 9.4,
       "confidence": "High",
       "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Koenji, Tokyo",
+      "category": "Book Publishing",
+      "city": "Japan / Tokyo / Online",
       "country": "",
       "image": ""
     },
@@ -807,17 +807,6 @@
       "image": ""
     },
     {
-      "title": "B&B Shimokitazawa",
-      "bucket": "publication_targets",
-      "score": 9.4,
-      "confidence": "High",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Tokyo",
-      "country": "",
-      "image": ""
-    },
-    {
       "title": "TOKIO ART BOOK FAIR 2026",
       "bucket": "publication_targets",
       "score": 9.4,
@@ -826,6 +815,28 @@
       "category": "Zine Fair Booth",
       "city": "Tokyo",
       "country": "Japan",
+      "image": ""
+    },
+    {
+      "title": "call for artists | al-tiba9 magazine issue22",
+      "bucket": "publication_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Online",
+      "country": "Global",
+      "image": ""
+    },
+    {
+      "title": "B&B Shimokitazawa",
+      "bucket": "publication_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Tokyo",
+      "country": "",
       "image": ""
     },
     {
@@ -851,17 +862,6 @@
       "image": ""
     },
     {
-      "title": "Book and Sons",
-      "bucket": "publication_targets",
-      "score": 9.4,
-      "confidence": "High",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Tokyo",
-      "country": "",
-      "image": ""
-    },
-    {
       "title": "SUBMISSIONS - marblepress.com",
       "bucket": "publication_targets",
       "score": 9.4,
@@ -873,13 +873,13 @@
       "image": ""
     },
     {
-      "title": "flotsam books",
+      "title": "本店・本屋の実験室",
       "bucket": "publication_targets",
       "score": 9.4,
       "confidence": "High",
       "reason": "Useful for photobook, zine, artist-book, or publication history.",
       "category": "Print / Zines / Bookstores",
-      "city": "Tokyo",
+      "city": "Koenji, Tokyo",
       "country": "",
       "image": ""
     },
@@ -892,6 +892,17 @@
       "category": "Zine Fair Booth",
       "city": "Tokyo",
       "country": "Japan",
+      "image": ""
+    },
+    {
+      "title": "Book and Sons",
+      "bucket": "publication_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Tokyo",
+      "country": "",
       "image": ""
     },
     {
@@ -917,36 +928,25 @@
       "image": ""
     },
     {
-      "title": "Submissions — Clavis Publishing",
+      "title": "flotsam books",
       "bucket": "publication_targets",
-      "score": 8.8,
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Tokyo",
+      "country": "",
+      "image": ""
+    },
+    {
+      "title": "Clavis Publishing Submissions",
+      "bucket": "publication_targets",
+      "score": 8.9,
       "confidence": "High",
       "reason": "Useful for photobook, zine, artist-book, or publication history.",
       "category": "Book Publishing",
       "city": "Japan / Tokyo / Online",
       "country": "",
-      "image": ""
-    },
-    {
-      "title": "Antenna Books",
-      "bucket": "publication_targets",
-      "score": 8.8,
-      "confidence": "High",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Tokyo — Daikanyama, Shibuya",
-      "country": "Japan",
-      "image": ""
-    },
-    {
-      "title": "SPBS (Shibuya Publishing Booksellers)",
-      "bucket": "publication_targets",
-      "score": 8.8,
-      "confidence": "High",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Tokyo — Tomigaya, Shibuya",
-      "country": "Japan",
       "image": ""
     }
   ]

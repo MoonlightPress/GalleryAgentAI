@@ -2,7 +2,7 @@
   "venue_name": "PARK GALLERY",
   "venue_slug": "park_gallery",
   "venue_type": "gallery",
-  "city": "Tokyo",
+  "city": "Tokyo, Unknown",
   "country": "",
   "website": "https://note.com/park_diary/n/n928bba21a42f",
   "source_links": [
@@ -30,10 +30,12 @@
     "submission process"
   ],
   "opportunity_titles": [
-    "PARK GALLERY 海と山と展",
-    "PARK GALLERY 夏の公募企画展（3テーマ）"
+    "PARK GALLERY 企画展公募「海と山と展」",
+    "PARK GALLERY Summer Group Exhibitions (3 themes)",
+    "PARK GALLERY 夏の公募企画展（3テーマ）",
+    "PARK GALLERY 海と山と展"
   ],
   "last_researched": "",
-  "created_at": "2026-06-24",
-  "updated_at": "2026-06-24"
+  "created_at": "2026-07-27",
+  "updated_at": "2026-07-27"
 }

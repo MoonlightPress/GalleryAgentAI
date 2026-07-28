@@ -4,24 +4,6 @@
     "why_it_matters": "This is the strongest immediate ecosystem for her visual language: quiet photography, sequences, books, zines, and small-scale cultural visibility.",
     "matched_opportunities": [
       {
-        "title": "Tokyo Art Book Fair",
-        "score": 9.4,
-        "differentiated_score": 11.5,
-        "hit_nodes": [
-          "TOKYO ART BOOK FAIR"
-        ],
-        "why": "Tokyo Art Book Fair's focus on independent publishing and artist-authored work aligns directly with GEGYjiji's daily practice of documenting disappearing urban moments—a body of work that naturally translates into sequenced watercolor narratives or painterly/observational books about architectural memory. The fair's curated community of small presses and self-publishers offers direct access to an audience already invested in intimate, place-based storytelling rather than commercial gallery circuits."
-      },
-      {
-        "title": "UTRECHT",
-        "score": 9.4,
-        "differentiated_score": 11.5,
-        "hit_nodes": [
-          "UTRECHT"
-        ],
-        "why": "UTRECHT's focus on artist books and printed matter aligns naturally with your daily watercolor practice—the format removes pressure to scale up or conceptualize, and allows your quiet, observational studies of Tokyo's disappearing architecture to exist as intimate, collectable works. A bookstore gallery audience expects exactly the kind of sustained, understated visual documentation you're already making, without the institutional expectations of a traditional exhibition space."
-      },
-      {
         "title": "flotsam books",
         "score": 9.4,
         "differentiated_score": 11.39,
@@ -29,6 +11,24 @@
           "flotsam books"
         ],
         "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts"
+      },
+      {
+        "title": "UTRECHT",
+        "score": 9.4,
+        "differentiated_score": 11.24,
+        "hit_nodes": [
+          "UTRECHT"
+        ],
+        "why": "An independent bookstore/gallery built around artist books and printed matter, free and low-friction — a Tier-1 way to put work into circulation as a publication rather than a framed show. It fits if you want to move toward zines or small print editions; if you only make originals, it's a weaker match."
+      },
+      {
+        "title": "Tokyo Art Book Fair",
+        "score": 9.4,
+        "differentiated_score": 11.24,
+        "hit_nodes": [
+          "TOKYO ART BOOK FAIR"
+        ],
+        "why": "A major art-book fair with a curated small-press community and a printed-matter audience — a real route to that audience, but only if publishing is a direction you want. It requires finished publications and several days of staffing a booth, so weigh that cost honestly. Entry fee ¥1,000."
       },
       {
         "title": "TOKIO ART BOOK FAIR 2026",
@@ -46,25 +46,16 @@
         "hit_nodes": [
           "MOUNT ZINE"
         ],
-        "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens."
-      },
-      {
-        "title": "TOKYO ART BOOK FAIR 2026 Exhibitor Call",
-        "score": 8.6,
-        "differentiated_score": 10.1,
-        "hit_nodes": [
-          "TOKYO ART BOOK FAIR"
-        ],
-        "why": "Open call for art book and zine fair exhibitors; directly matches artist book and illustration submission needs."
+        "why": "A permanent zine shop (not a one-off fair) that accepts all genres with no fee and no screening, stocking 150+ titles — a clean ambient-visibility target for artist-book or print work. Recruitment opens twice yearly; the next window is autumn 2026."
       },
       {
         "title": "TOKYO ART BOOK FAIR 2026",
         "score": 8.6,
-        "differentiated_score": 9.98,
+        "differentiated_score": 10.25,
         "hit_nodes": [
           "TOKYO ART BOOK FAIR"
         ],
-        "why": "Art book and zine fair at contemporary art museum accepting artists and publishers; fits illustration and artist book categories."
+        "why": "TOKYO ART BOOK FAIR 2026 takes artist-published work and zines — your daily watercolor practice translates directly into a booklet or artist edition format, and the fair sits inside a contemporary art museum in your city, cutting out travel and setup costs. Check their submission deadline and guidelines for zine/artist book dimensions, then prepare 4–6 representative pages from your urban watercolor diary to propose as a small edition or consignment series."
       },
       {
         "title": "POST",
@@ -76,13 +67,40 @@
         "why": "Bookshop galleries attract culturally-engaged viewers who appreciate documentation and craft without demanding heavy conceptual frameworks. Your work's illustrative qualities are an asset here, not a liability."
       },
       {
+        "title": "Exhibition in Japan (October 16–19, 2026)",
+        "score": 8.4,
+        "differentiated_score": 9.0,
+        "hit_nodes": [
+          "POST"
+        ],
+        "why": "Open call for artists to exhibit work in Japan with explicit invitation on Instagram."
+      },
+      {
+        "title": "桜Exhibition2026",
+        "score": 7.4,
+        "differentiated_score": 8.6,
+        "hit_nodes": [
+          "POST"
+        ],
+        "why": "Group exhibition with merchandise sales including posters, acrylic illustration plates, and catalogs suitable for watercolor/illustration artists."
+      },
+      {
         "title": "shashasha",
         "score": 5.0,
         "differentiated_score": 5.96,
         "hit_nodes": [
           "Shashasha"
         ],
-        "why": "Useful if her watercolor / works on papers are arranged as a visual sequence with mood, place, and atmosphere."
+        "why": "Useful if your watercolor / works on papers are arranged as a visual sequence with mood, place, and atmosphere."
+      },
+      {
+        "title": "TOKYO ART BOOK FAIR 2026 Exhibitor Call",
+        "score": 4.2,
+        "differentiated_score": 5.7,
+        "hit_nodes": [
+          "TOKYO ART BOOK FAIR"
+        ],
+        "why": "Open call for art book and zine fair exhibitors; directly matches artist book and illustration submission needs."
       }
     ]
   },
@@ -92,17 +110,26 @@
     "matched_opportunities": [
       {
         "title": "tata bookshop/gallery",
-        "score": 8.6,
-        "differentiated_score": 9.85,
+        "score": 8.8,
+        "differentiated_score": 9.89,
         "hit_nodes": [
           "VOID"
         ],
-        "why": "tata's gallery-bookshop model aligns perfectly with GEGYjiji's daily watercolor practice of capturing quiet urban moments—her works on paper can exist as both intimate prints and gallery pieces, while the bookshop context legitimizes the meditative, observational quality of her Tokyo-focused practice. The venue's Koenji location and hybrid format create space for her to present architectural studies and memory-based work in a way that bridges fine art and the printed object, avoiding the scale demands of traditional galleries."
+        "why": "tata's gallery-bookshop model overlaps with your medium and your work capturing quiet urban moments—your works on paper can exist as both intimate prints and gallery pieces, while the bookshop context legitimizes the meditative, observational quality of your Tokyo-focused practice. The venue's Koenji location and hybrid format create space for you to present architectural studies and memory-based work in a way that bridges fine art and the printed object, avoiding the scale demands of traditional galleries."
+      },
+      {
+        "title": "Picaresque Gallery",
+        "score": 8.4,
+        "differentiated_score": 9.26,
+        "hit_nodes": [
+          "VOID"
+        ],
+        "why": "Geographic match and accessible atmosphere could work, but commercial framing may reinforce the illustrative/surface-level perception you're trying to avoid."
       },
       {
         "title": "Gallery Conceal Shibuya",
-        "score": 7.4,
-        "differentiated_score": 8.1,
+        "score": 7.5,
+        "differentiated_score": 8.2,
         "hit_nodes": [
           "VOID"
         ],
@@ -110,21 +137,12 @@
       },
       {
         "title": "Aperture | Photography",
-        "score": 6.0,
-        "differentiated_score": 7.89,
+        "score": 5.9,
+        "differentiated_score": 7.79,
         "hit_nodes": [
           "Aperture"
         ],
         "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
-      },
-      {
-        "title": "Picaresque Gallery",
-        "score": 7.0,
-        "differentiated_score": 7.86,
-        "hit_nodes": [
-          "VOID"
-        ],
-        "why": "Geographic match and accessible atmosphere could work, but commercial framing may reinforce the illustrative/surface-level perception you're trying to avoid."
       },
       {
         "title": "Self Publish, Be Happy",
@@ -133,7 +151,7 @@
         "hit_nodes": [
           "Self Publish, Be Happy"
         ],
-        "why": "Self Publish, Be Happy's focus on watercolor sequences and artist-led books aligns perfectly with GEGYjiji's daily practice of capturing fleeting urban moments—her work naturally reads as a serialized visual journal rather than discrete gallery pieces. The platform's emphasis on works on paper and quiet, introspective narratives creates space for her architectural observations and disappearing Tokyo scenes to reach collectors and peers who value contemplative, process-driven practices over conventional exhibition cycles."
+        "why": "Self Publish, Be Happy's focus on watercolor sequences and artist-led books is relevant with your daily practice of capturing fleeting urban moments—your work naturally reads as a serialized visual journal rather than discrete gallery pieces. The platform's emphasis on works on paper and quiet, introspective narratives creates space for your architectural observations and disappearing Tokyo scenes to reach collectors and peers who value contemplative, process-driven practices over conventional exhibition cycles."
       },
       {
         "title": "Offprint",
@@ -142,7 +160,7 @@
         "hit_nodes": [
           "Offprint"
         ],
-        "why": "Offprint's focus on artist-led publishing aligns with GEGYjiji's daily watercolor practice and atmospheric documentation of urban environments—her body of quiet architectural work translates naturally into intimate printed matter. The fair's experimental publishing ethos matches her approach to capturing fleeting moments of Tokyo's cityscape, where the page becomes an extension of her observational practice rather than a secondary format."
+        "why": "Offprint's focus on artist-led publishing overlaps with your daily watercolor practice and atmospheric documentation of urban environments—your body of quiet architectural work could translate into intimate printed matter. The fair's experimental publishing ethos matches your approach to capturing fleeting moments of Tokyo's cityscape, where the page becomes an extension of your observational practice rather than a secondary format."
       }
     ]
   },
@@ -156,22 +174,13 @@
     "why_it_matters": "These are useful for soft visibility and relationship-building before major applications.",
     "matched_opportunities": [
       {
-        "title": "UTRECHT",
-        "score": 9.4,
-        "differentiated_score": 11.5,
-        "hit_nodes": [
-          "UTRECHT"
-        ],
-        "why": "UTRECHT's focus on artist books and printed matter aligns naturally with your daily watercolor practice—the format removes pressure to scale up or conceptualize, and allows your quiet, observational studies of Tokyo's disappearing architecture to exist as intimate, collectable works. A bookstore gallery audience expects exactly the kind of sustained, understated visual documentation you're already making, without the institutional expectations of a traditional exhibition space."
-      },
-      {
         "title": "B&B Shimokitazawa",
         "score": 9.4,
         "differentiated_score": 11.39,
         "hit_nodes": [
           "B&B Shimokitazawa"
         ],
-        "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle"
+        "why": "Suited to low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle"
       },
       {
         "title": "flotsam books",
@@ -183,13 +192,22 @@
         "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts"
       },
       {
+        "title": "UTRECHT",
+        "score": 9.4,
+        "differentiated_score": 11.24,
+        "hit_nodes": [
+          "UTRECHT"
+        ],
+        "why": "An independent bookstore/gallery built around artist books and printed matter, free and low-friction — a Tier-1 way to put work into circulation as a publication rather than a framed show. It fits if you want to move toward zines or small print editions; if you only make originals, it's a weaker match."
+      },
+      {
         "title": "MOUNT ZINE",
         "score": 9.4,
         "differentiated_score": 10.71,
         "hit_nodes": [
           "MOUNT ZINE"
         ],
-        "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens."
+        "why": "A permanent zine shop (not a one-off fair) that accepts all genres with no fee and no screening, stocking 150+ titles — a clean ambient-visibility target for artist-book or print work. Recruitment opens twice yearly; the next window is autumn 2026."
       },
       {
         "title": "POST",
@@ -199,6 +217,24 @@
           "POST"
         ],
         "why": "Bookshop galleries attract culturally-engaged viewers who appreciate documentation and craft without demanding heavy conceptual frameworks. Your work's illustrative qualities are an asset here, not a liability."
+      },
+      {
+        "title": "Exhibition in Japan (October 16–19, 2026)",
+        "score": 8.4,
+        "differentiated_score": 9.0,
+        "hit_nodes": [
+          "POST"
+        ],
+        "why": "Open call for artists to exhibit work in Japan with explicit invitation on Instagram."
+      },
+      {
+        "title": "桜Exhibition2026",
+        "score": 7.4,
+        "differentiated_score": 8.6,
+        "hit_nodes": [
+          "POST"
+        ],
+        "why": "Group exhibition with merchandise sales including posters, acrylic illustration plates, and catalogs suitable for watercolor/illustration artists."
       }
     ]
   }

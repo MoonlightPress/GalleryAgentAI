@@ -1,54 +1,54 @@
 {
   "queries": {
     "grant_jp_joseikin_artist": {
-      "last_run": "2026-06-24T08:47:11.179610",
-      "found": 9,
-      "added": 7
-    },
-    "grant_jp_bunkasho": {
-      "last_run": "2026-06-24T08:47:28.233168",
-      "found": 10,
+      "last_run": "2026-07-27T09:01:13.465612",
+      "found": 6,
       "added": 5
     },
+    "grant_jp_bunkasho": {
+      "last_run": "2026-07-27T09:01:29.784360",
+      "found": 7,
+      "added": 3
+    },
     "grant_jp_bunka_shinko": {
-      "last_run": "2026-06-24T08:47:37.215618",
+      "last_run": "2026-07-27T09:01:40.001653",
       "found": 3,
       "added": 3
     },
     "grant_jp_tokyo_metro": {
-      "last_run": "2026-06-24T08:47:51.526431",
+      "last_run": "2026-07-27T09:01:53.138927",
+      "found": 5,
+      "added": 3
+    },
+    "grant_en_japan_foundation": {
+      "last_run": "2026-07-27T09:02:02.248339",
+      "found": 2,
+      "added": 2
+    },
+    "grant_en_acc": {
+      "last_run": "2026-07-27T09:02:11.442776",
+      "found": 2,
+      "added": 1
+    },
+    "grant_en_tokyo_arts": {
+      "last_run": "2026-07-27T09:02:24.435245",
       "found": 5,
       "added": 4
     },
-    "grant_en_japan_foundation": {
-      "last_run": "2026-06-24T08:47:59.266680",
-      "found": 2,
-      "added": 0
-    },
-    "grant_en_acc": {
-      "last_run": "2026-06-24T08:48:06.595230",
-      "found": 2,
-      "added": 2
-    },
-    "grant_en_tokyo_arts": {
-      "last_run": "2026-06-24T08:48:14.591374",
-      "found": 3,
-      "added": 2
-    },
     "grant_jp_shinjin_overseas": {
-      "last_run": "2026-06-24T08:48:22.681798",
+      "last_run": "2026-07-27T09:02:33.548068",
       "found": 2,
       "added": 2
     },
     "grant_zh_chinese_overseas": {
-      "last_run": "2026-06-24T08:48:34.203910",
-      "found": 4,
-      "added": 4
+      "last_run": "2026-07-27T09:02:43.333363",
+      "found": 3,
+      "added": 3
     },
     "grant_jp_asia_creative": {
-      "last_run": "2026-06-24T08:48:46.679484",
-      "found": 8,
-      "added": 1
+      "last_run": "2026-07-27T09:02:58.023953",
+      "found": 7,
+      "added": 3
     }
   },
   "runs": [
@@ -116,6 +116,18 @@
       "run_at": "2026-06-24T08:48:46.712621",
       "queries_run": 10,
       "new_grants": 30,
+      "quota_hit": false
+    },
+    {
+      "run_at": "2026-07-05T12:04:26.344120",
+      "queries_run": 10,
+      "new_grants": 33,
+      "quota_hit": false
+    },
+    {
+      "run_at": "2026-07-27T09:02:58.070380",
+      "queries_run": 10,
+      "new_grants": 29,
       "quota_hit": false
     }
   ]

@@ -2,7 +2,7 @@
   "venue_name": "British Council",
   "venue_slug": "british_council",
   "venue_type": "artist opportunity venue",
-  "city": "Beijing",
+  "city": "Beijing, London",
   "country": "",
   "website": "https://www.britishcouncil.cn/programmes/arts/connections-through-culture-2026",
   "source_links": [
@@ -24,12 +24,15 @@
     "Needs manual/web research before being treated as verified."
   ],
   "missing_information": [
-    "contact"
+    "contact",
+    "deadline"
   ],
   "opportunity_titles": [
-    "Connection Through Culture (CTC) 2026 / 文化连线基金"
+    "Connections Through Culture 2026 (文化连线基金)",
+    "Connection Through Culture (CTC) 2026 / 文化连线基金",
+    "Connection Through Culture (CTC)"
   ],
   "last_researched": "",
-  "created_at": "2026-06-24",
-  "updated_at": "2026-06-24"
+  "created_at": "2026-07-27",
+  "updated_at": "2026-07-27"
 }

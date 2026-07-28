@@ -3,10 +3,11 @@
   "venue_slug": "agency_for_cultural_affairs",
   "memory_version": 1,
   "summary": "Venue type: artist opportunity venue Venue still needs deeper aesthetic research.",
-  "last_updated": "2026-06-24",
+  "last_updated": "2026-07-27",
   "confidence": "low",
   "future_research": [
     "contact",
+    "deadline",
     "submission process"
   ],
   "curatorial_direction": [],

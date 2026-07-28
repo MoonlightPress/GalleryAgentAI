@@ -3,11 +3,10 @@
   "venue_slug": "illozoo",
   "memory_version": 1,
   "summary": "Venue type: artist opportunity venue Venue still needs deeper aesthetic research.",
-  "last_updated": "2026-06-24",
+  "last_updated": "2026-07-27",
   "confidence": "low",
   "future_research": [
     "contact",
-    "deadline",
     "fees"
   ],
   "curatorial_direction": [],

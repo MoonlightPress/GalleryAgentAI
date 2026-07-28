@@ -1,8 +1,8 @@
 {
-  "venue_name": "Joy in Art",
+  "venue_name": "Joy In Art",
   "venue_slug": "joy_in_art",
   "venue_type": "artist opportunity venue",
-  "city": "Online",
+  "city": "Toronto",
   "country": "",
   "website": "https://www.instagram.com/p/DUHzA7BEVp6",
   "source_links": [
@@ -25,12 +25,13 @@
   ],
   "missing_information": [
     "contact",
+    "deadline",
     "fees"
   ],
   "opportunity_titles": [
-    "Watercolor Open Call Exhibition"
+    "Joy In Art 2026 Watercolor Open Exhibition (第四屆水彩展招募)"
   ],
   "last_researched": "",
-  "created_at": "2026-06-24",
-  "updated_at": "2026-06-24"
+  "created_at": "2026-07-27",
+  "updated_at": "2026-07-27"
 }

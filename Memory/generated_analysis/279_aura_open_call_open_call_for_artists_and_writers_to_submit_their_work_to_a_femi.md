@@ -1,11 +1,11 @@
 
-REPORT GENERATED: 2026-06-08
+REPORT GENERATED: 2026-07-03
 
 # AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin
 
 ## 1. Quick Judgment
-**Fit score:** 6.7/10  
-**Fit band:** Promising  
+**Fit score:** 9.1/10  
+**Fit band:** Excellent fit  
 **Confidence:** Medium  
 **Type:** Print / Zines / Bookstores  
 **City:** Online  
@@ -50,5 +50,5 @@ Open and verify whether this is current and relevant.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-08_
+_Last generated: 2026-07-03_
 

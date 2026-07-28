@@ -1,23 +1,23 @@
 
-REPORT GENERATED: 2026-06-01
+REPORT GENERATED: 2026-07-05
 
 # NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW
 
 ## 1. Quick Judgment
-**Fit score:** 9.6/10  
+**Fit score:** 10/10  
 **Fit band:** Excellent fit  
-**Confidence:** Medium  
+**Confidence:** High  
 **Type:** Residencies / Longer Projects  
 **City:** Japan / Tokyo / Online  
 
 ## 2. Verification Status
-Verified: Official/source website, Deadline. Needs checking: Submission process, Fees, Contact.
+Core public information appears present.
 
 - **Official/source website**: https://artcenter-new.jp/en/event/new-air-2026-opencall/ (verified)
-- **Submission process**: Not publicly listed (needs_inquiry)
-- **Deadline**: Check source (verified)
-- **Fees**: Not publicly listed (needs_inquiry)
-- **Contact**: Not publicly listed (needs_inquiry)
+- **Submission process**: https://artcenter-new.jp/event/new-air-2026-opencall (verified)
+- **Deadline**: July 20, 2026 (verified)
+- **Fees**: Free (verified)
+- **Contact**: info@artcenter-new.jp (verified)
 
 ## 3. Why This May Fit the Artist
 - Opportunity type: Residencies / Longer Projects.
@@ -25,10 +25,10 @@ Verified: Official/source website, Deadline. Needs checking: Submission process,
 - Visual-language fit signals: still, intimate, atmospheric, nostalgic without sentimentality, attentive, quietly melancholic.
 
 ## 4. Public Opportunity Summary
-Residencies lead found through targeted research; useful if requirements and fit check out.
+Residencies (found through targeted research).
 
 ## 5. Existing Fit Notes
-Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+No stored fit explanation yet.
 
 ## 6. Key Points
 - Source category: Residencies.
@@ -37,9 +37,9 @@ Potential fit because it belongs to a structured opportunity category where requ
 - Detected signals: deadline signal.
 
 ## 7. Submission / Logistics
-- **Deadline:** Check source
-- **Fees:** Not publicly listed
-- **Submission page:** Not publicly listed
+- **Deadline:** July 20, 2026
+- **Fees:** Free
+- **Submission page:** https://artcenter-new.jp/event/new-air-2026-opencall
 - **Source:** https://artcenter-new.jp/en/event/new-air-2026-opencall/
 
 ## 8. Risk / Unknowns
@@ -51,5 +51,5 @@ Confirm deadline, duration, cost, location, and whether visual artists are eligi
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-01_
+_Last generated: 2026-07-05_
 

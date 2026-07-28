@@ -1,12 +1,14 @@
 {
-  "venue_name": "「公募－日本の絵画2026－」",
+  "venue_name": "【2026年】公募展の展覧会＆アートイベント一覧（開催中・開催 ...",
   "venue_slug": "2026",
   "memory_version": 1,
-  "summary": "Venue type: artist opportunity venue Venue still needs deeper aesthetic research.",
-  "last_updated": "2026-06-24",
+  "summary": "Venue type: gallery Venue still needs deeper aesthetic research.",
+  "last_updated": "2026-07-27",
   "confidence": "low",
   "future_research": [
     "contact",
+    "deadline",
+    "fees",
     "submission process"
   ],
   "curatorial_direction": [],

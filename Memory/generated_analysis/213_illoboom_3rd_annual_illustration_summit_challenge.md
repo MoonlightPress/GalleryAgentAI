@@ -1,21 +1,21 @@
 
-REPORT GENERATED: 2026-06-09
+REPORT GENERATED: 2026-07-03
 
 # IlloBoom! 3rd Annual Illustration Summit Challenge
 
 ## 1. Quick Judgment
-**Fit score:** 9.2/10  
+**Fit score:** 9.0/10  
 **Fit band:** Excellent fit  
-**Confidence:** Medium  
+**Confidence:** High  
 **Type:** Competition Award  
 **City:** International  
 
 ## 2. Verification Status
-Verified: Official/source website, Submission process. Needs checking: Deadline, Fees, Contact.
+Verified: Official/source website, Submission process, Deadline. Needs checking: Fees, Contact.
 
 - **Official/source website**: https://illoboom.com (verified)
 - **Submission process**: https://illoboom.com (verified)
-- **Deadline**: Not publicly listed (needs_inquiry)
+- **Deadline**: April 1, 2026 (verified)
 - **Fees**: Not publicly listed (needs_inquiry)
 - **Contact**: Not publicly listed (needs_inquiry)
 
@@ -31,10 +31,12 @@ International illustration competition judged by industry professionals from ill
 International illustration competition judged by industry professionals from illustration, design and publishing fields, with grand prize of one-year artist contract with top US illustration agency.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Review past winners before submitting — competitions have distinct aesthetic preferences that aren't always visible in the brief
+- Verify current status at the official site before investing time — websites change and open calls close early
+- Contact information or submission guidelines may require direct research
 
 ## 7. Submission / Logistics
-- **Deadline:** Not publicly listed
+- **Deadline:** April 1, 2026
 - **Fees:** Not publicly listed
 - **Submission page:** https://illoboom.com
 - **Source:** https://illoboom.com
@@ -48,5 +50,5 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-09_
+_Last generated: 2026-07-03_
 

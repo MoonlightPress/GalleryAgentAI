@@ -1,0 +1,15 @@
+{
+  "venue_name": "Arrival Gallery",
+  "venue_slug": "arrival_gallery",
+  "memory_version": 1,
+  "summary": "Venue type: gallery Venue still needs deeper aesthetic research.",
+  "last_updated": "2026-07-27",
+  "confidence": "low",
+  "future_research": [
+    "contact",
+    "fees"
+  ],
+  "curatorial_direction": [],
+  "artist_overlap_signals": [],
+  "notes": []
+}

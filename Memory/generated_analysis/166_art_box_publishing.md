@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-06-24
+REPORT GENERATED: 2026-07-03
 
 # ART BOX Publishing
 
@@ -25,10 +25,10 @@ Verified: Official/source website, Deadline. Needs checking: Submission process,
 - Visual-language fit signals: still, intimate, atmospheric, nostalgic without sentimentality, attentive, quietly melancholic.
 
 ## 4. Public Opportunity Summary
-Publishing / Small Press lead found through targeted research; useful if requirements and fit check out.
+Publishing / Small Press (found through targeted research).
 
 ## 5. Existing Fit Notes
-ART BOX Publishing's focus on visual narratives and artists' books aligns with GEGYjiji's sustained daily practice of capturing ephemeral urban moments through watercolor—work that translates naturally into a collected, sequential format. Her architectural studies and atmospheric observations of Tokyo's changing streets would resonate with a publisher invested in documenting place and memory through the printed page.
+ART BOX Publishing's focus on visual narratives and artists' books overlaps with your sustained daily practice of capturing ephemeral urban moments through watercolor—work that could translate into a collected, sequential format. Your architectural studies and atmospheric observations of Tokyo's changing streets would resonate with a publisher invested in documenting place and memory through the printed page.
 
 ## 6. Key Points
 - Source category: Publishing / Small Press.
@@ -50,5 +50,5 @@ Review recent titles and decide whether this is a publisher, distributor, bookst
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-24_
+_Last generated: 2026-07-03_
 

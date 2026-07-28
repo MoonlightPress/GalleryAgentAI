@@ -99,20 +99,6 @@
     ],
     "opportunity_targets": [
       {
-        "title": "Tokyo Art Book Fair",
-        "score": 9.4,
-        "differentiated_score": 11.5,
-        "hits": [
-          "zine",
-          "artist book",
-          "small press",
-          "book fair",
-          "memory",
-          "place"
-        ],
-        "why": "Tokyo Art Book Fair's focus on independent publishing and artist-authored work aligns directly with GEGYjiji's daily practice of documenting disappearing urban moments—a body of work that naturally translates into sequenced watercolor narratives or painterly/observational books about architectural memory. The fair's curated community of small presses and self-publishers offers direct access to an audience already invested in intimate, place-based storytelling rather than commercial gallery circuits."
-      },
-      {
         "title": "submissions — porkbelly press",
         "score": 9.4,
         "differentiated_score": 11.5,
@@ -121,27 +107,17 @@
           "small press",
           "place"
         ],
-        "why": "Porkbelly Press specializes in artist books and limited-edition publications that emphasize visual narratives and intimate observation—a natural home for GEGYjiji's daily watercolor studies of Tokyo's disappearing urban spaces and architectural moments. Her practice of sustained, quiet documentation of ephemeral cityscapes aligns with small press aesthetics that prioritize the book object itself as a vehicle for meditative, place-based work."
+        "why": "Porkbelly Press specializes in artist books and limited-edition publications that emphasize visual narratives and intimate observation—a possible outlet for your daily watercolor studies of Tokyo's disappearing urban spaces and architectural moments. Your practice of sustained, quiet documentation of ephemeral cityscapes aligns with small press aesthetics that prioritize the book object itself as a vehicle for meditative, place-based work."
       },
       {
-        "title": "UTRECHT",
+        "title": "Submissions — Clavis Publishing",
         "score": 9.4,
         "differentiated_score": 11.5,
         "hits": [
-          "zine",
           "artist book",
-          "printed matter"
+          "small press"
         ],
-        "why": "UTRECHT's focus on artist books and printed matter aligns naturally with your daily watercolor practice—the format removes pressure to scale up or conceptualize, and allows your quiet, observational studies of Tokyo's disappearing architecture to exist as intimate, collectable works. A bookstore gallery audience expects exactly the kind of sustained, understated visual documentation you're already making, without the institutional expectations of a traditional exhibition space."
-      },
-      {
-        "title": "B&B (Book & Beer)",
-        "score": 9.4,
-        "differentiated_score": 11.5,
-        "hits": [
-          "zine"
-        ],
-        "why": "Warm, literary atmosphere that matches the quiet observation tone of your work — not a white-cube gallery, which is correct for where you are right now."
+        "why": "Clavis Publishing's focus on visual narratives and artist books overlaps with your practice of documenting Tokyo's ephemeral urban landscapes through watercolor—work that benefits from the sustained, intimate format of a published collection. Your consistent daily practice and 26k following demonstrate the audience and discipline required for a successful artist publication."
       },
       {
         "title": "B&B Shimokitazawa",
@@ -150,7 +126,7 @@
         "hits": [
           "zine"
         ],
-        "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle"
+        "why": "Suited to low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle"
       },
       {
         "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
@@ -159,7 +135,7 @@
         "hits": [
           "zine"
         ],
-        "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies."
+        "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. you qualify."
       },
       {
         "title": "SUBMISSIONS - marblepress.com",
@@ -168,7 +144,7 @@
         "hits": [
           "small press"
         ],
-        "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified."
+        "why": "Publishing / Small Press (found through targeted research)."
       },
       {
         "title": "美術手帖 (Bijutsu Techo) — Artist Feature",
@@ -178,6 +154,28 @@
           "zine"
         ],
         "why": "Flagship fine art publication for the Japanese art world. An editorial feature here is a career-defining visibility event."
+      },
+      {
+        "title": "UTRECHT",
+        "score": 9.4,
+        "differentiated_score": 11.24,
+        "hits": [
+          "zine",
+          "artist book",
+          "printed matter"
+        ],
+        "why": "An independent bookstore/gallery built around artist books and printed matter, free and low-friction — a Tier-1 way to put work into circulation as a publication rather than a framed show. It fits if you want to move toward zines or small print editions; if you only make originals, it's a weaker match."
+      },
+      {
+        "title": "Tokyo Art Book Fair",
+        "score": 9.4,
+        "differentiated_score": 11.24,
+        "hits": [
+          "zine",
+          "artist book",
+          "book fair"
+        ],
+        "why": "A major art-book fair with a curated small-press community and a printed-matter audience — a real route to that audience, but only if publishing is a direction you want. It requires finished publications and several days of staffing a booth, so weigh that cost honestly. Entry fee ¥1,000."
       }
     ]
   },
@@ -225,33 +223,40 @@
     ],
     "opportunity_targets": [
       {
-        "title": "Tokyo Art Book Fair",
-        "score": 9.4,
-        "differentiated_score": 11.5,
-        "hits": [
-          "memory",
-          "artist book"
-        ],
-        "why": "Tokyo Art Book Fair's focus on independent publishing and artist-authored work aligns directly with GEGYjiji's daily practice of documenting disappearing urban moments—a body of work that naturally translates into sequenced watercolor narratives or painterly/observational books about architectural memory. The fair's curated community of small presses and self-publishers offers direct access to an audience already invested in intimate, place-based storytelling rather than commercial gallery circuits."
-      },
-      {
         "title": "submissions — porkbelly press",
         "score": 9.4,
         "differentiated_score": 11.5,
         "hits": [
           "artist book"
         ],
-        "why": "Porkbelly Press specializes in artist books and limited-edition publications that emphasize visual narratives and intimate observation—a natural home for GEGYjiji's daily watercolor studies of Tokyo's disappearing urban spaces and architectural moments. Her practice of sustained, quiet documentation of ephemeral cityscapes aligns with small press aesthetics that prioritize the book object itself as a vehicle for meditative, place-based work."
+        "why": "Porkbelly Press specializes in artist books and limited-edition publications that emphasize visual narratives and intimate observation—a possible outlet for your daily watercolor studies of Tokyo's disappearing urban spaces and architectural moments. Your practice of sustained, quiet documentation of ephemeral cityscapes aligns with small press aesthetics that prioritize the book object itself as a vehicle for meditative, place-based work."
+      },
+      {
+        "title": "Submissions — Clavis Publishing",
+        "score": 9.4,
+        "differentiated_score": 11.5,
+        "hits": [
+          "artist book"
+        ],
+        "why": "Clavis Publishing's focus on visual narratives and artist books overlaps with your practice of documenting Tokyo's ephemeral urban landscapes through watercolor—work that benefits from the sustained, intimate format of a published collection. Your consistent daily practice and 26k following demonstrate the audience and discipline required for a successful artist publication."
       },
       {
         "title": "UTRECHT",
         "score": 9.4,
-        "differentiated_score": 11.5,
+        "differentiated_score": 11.24,
         "hits": [
-          "architecture",
           "artist book"
         ],
-        "why": "UTRECHT's focus on artist books and printed matter aligns naturally with your daily watercolor practice—the format removes pressure to scale up or conceptualize, and allows your quiet, observational studies of Tokyo's disappearing architecture to exist as intimate, collectable works. A bookstore gallery audience expects exactly the kind of sustained, understated visual documentation you're already making, without the institutional expectations of a traditional exhibition space."
+        "why": "An independent bookstore/gallery built around artist books and printed matter, free and low-friction — a Tier-1 way to put work into circulation as a publication rather than a framed show. It fits if you want to move toward zines or small print editions; if you only make originals, it's a weaker match."
+      },
+      {
+        "title": "Tokyo Art Book Fair",
+        "score": 9.4,
+        "differentiated_score": 11.24,
+        "hits": [
+          "artist book"
+        ],
+        "why": "A major art-book fair with a curated small-press community and a printed-matter audience — a real route to that audience, but only if publishing is a direction you want. It requires finished publications and several days of staffing a booth, so weigh that cost honestly. Entry fee ¥1,000."
       },
       {
         "title": "Center for Book Arts Opportunities",
@@ -260,25 +265,16 @@
         "hits": [
           "artist book"
         ],
-        "why": "Potential fit if her work becomes more explicitly book-oriented or object/paper based."
+        "why": "Potential fit if your work becomes more explicitly book-oriented or object/paper based."
       },
       {
-        "title": "Submissions — Clavis Publishing",
-        "score": 8.8,
-        "differentiated_score": 10.9,
-        "hits": [
-          "artist book"
-        ],
-        "why": "Clavis Publishing's focus on visual narratives and artist books aligns with GEGYjiji's practice of documenting Tokyo's ephemeral urban landscapes through watercolor—work that benefits from the sustained, intimate format of a published collection. Her consistent daily practice and 26k following demonstrate the audience and discipline required for a successful artist publication."
-      },
-      {
-        "title": "本店・本屋の実験室",
+        "title": "call for artists | al-tiba9 magazine issue22",
         "score": 9.4,
         "differentiated_score": 10.87,
         "hits": [
           "memory"
         ],
-        "why": "本店・本屋の実験室's focus on experimental printed work and zine culture aligns naturally with GEGYjiji's daily watercolor practice—her quiet observations of Tokyo's disappearing urban moments translate directly into the intimate, serialized format that zine platforms demand. The Koenji location also positions her work within a neighborhood known for independent creative communities, where architectural and memory-based work on paper resonates with local curatorial values."
+        "why": "al-tiba9's focus on visual storytelling through print overlaps with your daily watercolor practice documenting ephemeral urban moments and architectural detail—your observational approach translates naturally to zine format where intimacy and immediacy are central to the medium. The magazine's curation of contemplative visual work is in the register of quiet atmosphere and memory embedded in disappearing Tokyo scenes."
       },
       {
         "title": "Pinpoint Gallery",
@@ -356,18 +352,6 @@
     ],
     "opportunity_targets": [
       {
-        "title": "Tokyo Art Book Fair",
-        "score": 9.4,
-        "differentiated_score": 11.5,
-        "hits": [
-          "zine",
-          "small press",
-          "book fair",
-          "artist book"
-        ],
-        "why": "Tokyo Art Book Fair's focus on independent publishing and artist-authored work aligns directly with GEGYjiji's daily practice of documenting disappearing urban moments—a body of work that naturally translates into sequenced watercolor narratives or painterly/observational books about architectural memory. The fair's curated community of small presses and self-publishers offers direct access to an audience already invested in intimate, place-based storytelling rather than commercial gallery circuits."
-      },
-      {
         "title": "submissions — porkbelly press",
         "score": 9.4,
         "differentiated_score": 11.5,
@@ -375,28 +359,17 @@
           "small press",
           "artist book"
         ],
-        "why": "Porkbelly Press specializes in artist books and limited-edition publications that emphasize visual narratives and intimate observation—a natural home for GEGYjiji's daily watercolor studies of Tokyo's disappearing urban spaces and architectural moments. Her practice of sustained, quiet documentation of ephemeral cityscapes aligns with small press aesthetics that prioritize the book object itself as a vehicle for meditative, place-based work."
+        "why": "Porkbelly Press specializes in artist books and limited-edition publications that emphasize visual narratives and intimate observation—a possible outlet for your daily watercolor studies of Tokyo's disappearing urban spaces and architectural moments. Your practice of sustained, quiet documentation of ephemeral cityscapes aligns with small press aesthetics that prioritize the book object itself as a vehicle for meditative, place-based work."
       },
       {
-        "title": "UTRECHT",
+        "title": "Submissions — Clavis Publishing",
         "score": 9.4,
         "differentiated_score": 11.5,
         "hits": [
-          "zine",
-          "bookstore",
+          "small press",
           "artist book"
         ],
-        "why": "UTRECHT's focus on artist books and printed matter aligns naturally with your daily watercolor practice—the format removes pressure to scale up or conceptualize, and allows your quiet, observational studies of Tokyo's disappearing architecture to exist as intimate, collectable works. A bookstore gallery audience expects exactly the kind of sustained, understated visual documentation you're already making, without the institutional expectations of a traditional exhibition space."
-      },
-      {
-        "title": "B&B (Book & Beer)",
-        "score": 9.4,
-        "differentiated_score": 11.5,
-        "hits": [
-          "zine",
-          "bookstore"
-        ],
-        "why": "Warm, literary atmosphere that matches the quiet observation tone of your work — not a white-cube gallery, which is correct for where you are right now."
+        "why": "Clavis Publishing's focus on visual narratives and artist books overlaps with your practice of documenting Tokyo's ephemeral urban landscapes through watercolor—work that benefits from the sustained, intimate format of a published collection. Your consistent daily practice and 26k following demonstrate the audience and discipline required for a successful artist publication."
       },
       {
         "title": "B&B Shimokitazawa",
@@ -406,7 +379,7 @@
           "zine",
           "bookstore"
         ],
-        "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle"
+        "why": "Suited to low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle"
       },
       {
         "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
@@ -415,7 +388,7 @@
         "hits": [
           "zine"
         ],
-        "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies."
+        "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. you qualify."
       },
       {
         "title": "SUBMISSIONS - marblepress.com",
@@ -424,7 +397,7 @@
         "hits": [
           "small press"
         ],
-        "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified."
+        "why": "Publishing / Small Press (found through targeted research)."
       },
       {
         "title": "flotsam books",
@@ -434,6 +407,26 @@
           "bookstore"
         ],
         "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts"
+      },
+      {
+        "title": "美術手帖 (Bijutsu Techo) — Artist Feature",
+        "score": 9.4,
+        "differentiated_score": 11.29,
+        "hits": [
+          "zine"
+        ],
+        "why": "Flagship fine art publication for the Japanese art world. An editorial feature here is a career-defining visibility event."
+      },
+      {
+        "title": "UTRECHT",
+        "score": 9.4,
+        "differentiated_score": 11.24,
+        "hits": [
+          "zine",
+          "bookstore",
+          "artist book"
+        ],
+        "why": "An independent bookstore/gallery built around artist books and printed matter, free and low-friction — a Tier-1 way to put work into circulation as a publication rather than a framed show. It fits if you want to move toward zines or small print editions; if you only make originals, it's a weaker match."
       }
     ]
   },
@@ -499,15 +492,6 @@
     ],
     "opportunity_targets": [
       {
-        "title": "UTRECHT",
-        "score": 9.4,
-        "differentiated_score": 11.5,
-        "hits": [
-          "architecture"
-        ],
-        "why": "UTRECHT's focus on artist books and printed matter aligns naturally with your daily watercolor practice—the format removes pressure to scale up or conceptualize, and allows your quiet, observational studies of Tokyo's disappearing architecture to exist as intimate, collectable works. A bookstore gallery audience expects exactly the kind of sustained, understated visual documentation you're already making, without the institutional expectations of a traditional exhibition space."
-      },
-      {
         "title": "DER GREIF",
         "score": 9.4,
         "differentiated_score": 10.94,
@@ -515,7 +499,25 @@
           "portfolio review",
           "open call"
         ],
-        "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper"
+        "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper"
+      },
+      {
+        "title": "ArtConnect Open Calls",
+        "score": 9.4,
+        "differentiated_score": 10.94,
+        "hits": [
+          "open call"
+        ],
+        "why": "Discovery source for watercolor / works on paper, drawing, residency, and works-on-paper opportunities. Use as a recurring research feed."
+      },
+      {
+        "title": "call for artists | al-tiba9 magazine issue22",
+        "score": 9.4,
+        "differentiated_score": 10.87,
+        "hits": [
+          "open call"
+        ],
+        "why": "al-tiba9's focus on visual storytelling through print overlaps with your daily watercolor practice documenting ephemeral urban moments and architectural detail—your observational approach translates naturally to zine format where intimacy and immediacy are central to the medium. The magazine's curation of contemplative visual work is in the register of quiet atmosphere and memory embedded in disappearing Tokyo scenes."
       },
       {
         "title": "水性繪畫展覽 (Watercolor Exhibition)",
@@ -524,7 +526,7 @@
         "hits": [
           "open call"
         ],
-        "why": "A watercolor-specific exhibition aligns directly with her medium and daily observational practice of capturing Tokyo's fleeting urban moments and architectural details. The December 2026 timeline gives her runway to develop a cohesive body of work while the international open call provides visibility beyond her current 26k Instagram following."
+        "why": "A watercolor-specific exhibition is in your medium and daily observational practice of capturing Tokyo's fleeting urban moments and architectural details. The December 2026 timeline gives your runway to develop a cohesive body of work while the international open call provides visibility beyond your current 26k Instagram following."
       },
       {
         "title": "水彩アートの祭典 (Watercolor Art Festival)",
@@ -533,7 +535,7 @@
         "hits": [
           "open call"
         ],
-        "why": "Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirements, matching her watercolor practice."
+        "why": "Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirements, matching your watercolor practice."
       },
       {
         "title": "Pen Magazine — Artist Spotlight",
@@ -551,7 +553,7 @@
         "hits": [
           "architecture"
         ],
-        "why": "Urban watercolor documenting Tokyo architecture is an exact fit for Casa Brutus's editorial coverage of space and design."
+        "why": "Urban watercolor documenting Tokyo architecture overlaps with Casa Brutus's editorial coverage of space and design."
       },
       {
         "title": "Publishers & Publishing Services in Japan - PublishersGlobal.com",
@@ -560,16 +562,7 @@
         "hits": [
           "architecture"
         ],
-        "why": "PublishersGlobal.com's focus on small press and independent publishing aligns with how GEGYjiji's daily watercolor practice—documenting Tokyo's ephemeral urban moments and architecture—naturally translates into a cohesive visual narrative suited to artist-led or artist-friendly books. Her 26k-follower community and established daily practice provide both the content depth and audience foundation that small publishers seek when developing monographs or artist publications."
-      },
-      {
-        "title": "Browse opportunities | CuratorSpace",
-        "score": 8.6,
-        "differentiated_score": 10.59,
-        "hits": [
-          "open call"
-        ],
-        "why": "Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition"
+        "why": "PublishersGlobal.com's focus on small press and independent publishing aligns with how your daily watercolor practice—documenting Tokyo's ephemeral urban moments and architecture—naturally translates into a cohesive visual narrative suited to artist-led or artist-friendly books. Your 26k-follower community and established daily practice provide both the content depth and audience foundation that small publishers seek when developing monographs or artist publications."
       }
     ]
   }

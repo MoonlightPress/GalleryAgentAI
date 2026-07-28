@@ -4,8 +4,9 @@
   "venue_type": "artist opportunity venue",
   "city": "International, Tokyo",
   "country": "",
-  "website": "https://weichuan.wjwebsite.com",
+  "website": "https://www.art-it.asia/opencall",
   "source_links": [
+    "https://www.art-it.asia/opencall",
     "https://weichuan.wjwebsite.com",
     "https://artnoto.jp/useful/support"
   ],
@@ -27,15 +28,15 @@
   ],
   "missing_information": [
     "contact",
-    "deadline",
     "fees",
     "submission process"
   ],
   "opportunity_titles": [
+    "2027年度 アーティスト・イン・レジデンス プログラム",
     "Chinese Culture in My Everyday Life / 我生活中的中華文化",
     "マイクロ・アート・ワーケーション（MAW）2026"
   ],
   "last_researched": "",
-  "created_at": "2026-06-24",
-  "updated_at": "2026-06-24"
+  "created_at": "2026-07-27",
+  "updated_at": "2026-07-27"
 }

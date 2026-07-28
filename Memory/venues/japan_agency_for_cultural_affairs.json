@@ -1,0 +1,39 @@
+{
+  "venue_name": "文化庁（Japan Agency for Cultural Affairs）",
+  "venue_slug": "japan_agency_for_cultural_affairs",
+  "venue_type": "artist opportunity venue",
+  "city": "Tokyo",
+  "country": "",
+  "website": "https://www.art-it.asia/top/admin_ed_news/288280",
+  "source_links": [
+    "https://www.art-it.asia/top/admin_ed_news/288280",
+    "https://www.bunka.go.jp/seisaku/geijutsubunka/shinshin/kenshu"
+  ],
+  "categories_seen": [
+    "Grant"
+  ],
+  "accepts_unsolicited_work": "unknown",
+  "submission_style": "unknown",
+  "typical_artists": [],
+  "typical_mediums": [],
+  "known_aesthetic": [],
+  "price_level": "unknown",
+  "risk_notes": [],
+  "fit_notes": [],
+  "verification_notes": [
+    "Automatically created from opportunity data.",
+    "Needs manual/web research before being treated as verified."
+  ],
+  "missing_information": [
+    "contact"
+  ],
+  "opportunity_titles": [
+    "日本文化発信・普及事業（令和8年度）",
+    "新進芸術家海外研修制度（長期・2年）",
+    "新進芸術家海外研修制度（1年）",
+    "新進芸術家海外研修制度（特別20日～80日間）"
+  ],
+  "last_researched": "",
+  "created_at": "2026-07-27",
+  "updated_at": "2026-07-27"
+}

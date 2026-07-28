@@ -4,11 +4,13 @@
   "venue_type": "artist opportunity venue",
   "city": "Tokyo",
   "country": "",
-  "website": "https://www.rumotan.com/curation/2384-japan-open-world-2026",
+  "website": "https://www.rumotan.com/curation/2384-japan-open-world-2026?showall=1",
   "source_links": [
+    "https://www.rumotan.com/curation/2384-japan-open-world-2026?showall=1",
     "https://www.rumotan.com/curation/2384-japan-open-world-2026"
   ],
   "categories_seen": [
+    "Artist Spaces",
     "Institutional / Grants"
   ],
   "accepts_unsolicited_work": "unknown",
@@ -30,9 +32,10 @@
     "submission process"
   ],
   "opportunity_titles": [
+    "OPEN World Exhibition 2026",
     "OPEN World Exhibition"
   ],
   "last_researched": "",
-  "created_at": "2026-06-24",
-  "updated_at": "2026-06-24"
+  "created_at": "2026-07-27",
+  "updated_at": "2026-07-27"
 }

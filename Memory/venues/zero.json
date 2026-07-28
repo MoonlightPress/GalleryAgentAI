@@ -1,15 +1,15 @@
 {
-  "venue_name": "ZERO展実行委員会",
+  "venue_name": "ニューアート・ZERO会",
   "venue_slug": "zero",
   "venue_type": "artist opportunity venue",
-  "city": "Tokyo",
+  "city": "Osaka",
   "country": "",
   "website": "https://newartzero.com",
   "source_links": [
     "https://newartzero.com"
   ],
   "categories_seen": [
-    "Institutional / Grants"
+    "Competition Award"
   ],
   "accepts_unsolicited_work": "unknown",
   "submission_style": "unknown",
@@ -24,14 +24,14 @@
     "Needs manual/web research before being treated as verified."
   ],
   "missing_information": [
-    "contact",
     "deadline",
-    "fees"
+    "fees",
+    "submission process"
   ],
   "opportunity_titles": [
-    "ZERO展 2026"
+    "2026・ZERO展"
   ],
   "last_researched": "",
-  "created_at": "2026-06-24",
-  "updated_at": "2026-06-24"
+  "created_at": "2026-07-27",
+  "updated_at": "2026-07-27"
 }

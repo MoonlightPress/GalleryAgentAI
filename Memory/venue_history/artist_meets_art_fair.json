@@ -1,0 +1,15 @@
+{
+  "venue_name": "Artist meets Art Fair",
+  "venue_slug": "artist_meets_art_fair",
+  "memory_version": 1,
+  "summary": "Venue type: market / popup / booth Venue still needs deeper aesthetic research.",
+  "last_updated": "2026-07-27",
+  "confidence": "low",
+  "future_research": [
+    "contact",
+    "submission process"
+  ],
+  "curatorial_direction": [],
+  "artist_overlap_signals": [],
+  "notes": []
+}

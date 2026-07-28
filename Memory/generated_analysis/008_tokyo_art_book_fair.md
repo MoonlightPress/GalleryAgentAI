@@ -1,23 +1,23 @@
 
-REPORT GENERATED: 2026-06-01
+REPORT GENERATED: 2026-07-27
 
 # Tokyo Art Book Fair
 
 ## 1. Quick Judgment
-**Fit score:** 9.2/10  
+**Fit score:** 10/10  
 **Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Markets / Popups / Booths  
 **City:** Tokyo  
 
 ## 2. Verification Status
-Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.
+Core public information appears present.
 
 - **Official/source website**: https://tokyoartbookfair.com/ (verified)
 - **Submission process**: https://tokyoartbookfair.com/application/ (verified)
-- **Deadline**: Not publicly listed (verified)
-- **Fees**: Not publicly listed (verified)
-- **Contact**: Not publicly listed (needs_inquiry)
+- **Deadline**: 2027年1月21日 (verified)
+- **Fees**: 1,000円 (verified)
+- **Contact**: info@tokyoartbookfair.com (verified)
 
 ## 3. Why This May Fit the Artist
 - Opportunity type: Markets / Popups / Booths.
@@ -25,19 +25,19 @@ Verified: Official/source website, Submission process, Deadline, Fees. Needs che
 - Visual-language fit signals: still, intimate, atmospheric, nostalgic without sentimentality, attentive, quietly melancholic.
 
 ## 4. Public Opportunity Summary
-Tokyo Art Book Fair is a respected independent publishing event that could work if you're developing artist books or zines documenting disappearing spaces, but requires finished publications and multi-day booth presence.
+Respected independent-publishing fair in Tokyo; relevant only if you're making artist books or zines — it needs finished publications and multi-day booth presence.
 
 ## 5. Existing Fit Notes
-Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
+A major art-book fair with a curated small-press community and a printed-matter audience — a real route to that audience, but only if publishing is a direction you want. It requires finished publications and several days of staffing a booth, so weigh that cost honestly. Entry fee ¥1,000.
 
 ## 6. Key Points
-- Requires printed publication material (artist books, zines, print editions) - not original watercolor / works on papers or reproductions
-- Involves booth setup, inventory management, sustained social interaction, and direct sales over multiple days
-- Strong Tokyo location fit and alternative scene access, but only relevant if publishing is an intentional direction for your practice
+- Needs finished printed publications (artist books, zines) — not originals or reproductions.
+- Multi-day booth: setup, inventory, in-person sales over several days.
+- Strong fit only if publishing is an intentional direction; entry ¥1,000.
 
 ## 7. Submission / Logistics
-- **Deadline:** Not publicly listed
-- **Fees:** Not publicly listed
+- **Deadline:** 2027年1月21日
+- **Fees:** 1,000円
 - **Submission page:** https://tokyoartbookfair.com/application/
 - **Source:** https://tokyoartbookfair.com/
 
@@ -45,10 +45,10 @@ Tokyo location and alternative art community access align well, and your documen
 No hard dealbreaker recorded. Manual verification recommended.
 
 ## 9. Recommended Next Step
-Ask yourself if creating an artist book or zine series about vernacular architecture genuinely interests you as a medium, separate from the appeal of the Tokyo location.
+Decide first whether making an artist book or zine genuinely interests you; if yes, read the application page at tokyoartbookfair.com/application for dates and booth requirements.
 
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-01_
+_Last generated: 2026-07-27_
 

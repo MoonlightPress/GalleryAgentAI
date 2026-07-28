@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-06-09
+REPORT GENERATED: 2026-07-27
 
 # B&B Shimokitazawa
 
@@ -15,8 +15,8 @@ Core public information appears present.
 
 - **Official/source website**: https://bookandbeer.com/ (verified)
 - **Submission process**: https://bookandbeer.com/ (verified)
-- **Deadline**: 2026年06月06日 (verified)
-- **Fees**: Not publicly listed (verified)
+- **Deadline**: 2026年07月27日 (verified)
+- **Fees**: Free (verified)
 - **Contact**: @books_and_beer_ (Instagram) / TEL: 03-6450-8272 (verified)
 
 ## 3. Why This May Fit the Artist
@@ -28,7 +28,7 @@ Core public information appears present.
 A Tokyo bookstore event space that hosts artist talks and zine releases, but requires substantial context-building to determine actual fit.
 
 ## 5. Existing Fit Notes
-Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
+Suited to low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
 
 ## 6. Key Points
 - Low-pressure cultural venue in Shimokitazawa neighborhood with book/beer format
@@ -36,8 +36,8 @@ Aligns with your comfort for low-key cultural spaces and Japan focus, but unclea
 - Better suited for artists with existing Japan presence or publication-based work
 
 ## 7. Submission / Logistics
-- **Deadline:** 2026年06月06日
-- **Fees:** Not publicly listed
+- **Deadline:** 2026年07月27日
+- **Fees:** Free
 - **Submission page:** https://bookandbeer.com/
 - **Source:** https://bookandbeer.com/
 
@@ -50,5 +50,5 @@ Research current programming to see if they feature visual artists or primarily 
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-09_
+_Last generated: 2026-07-27_
 

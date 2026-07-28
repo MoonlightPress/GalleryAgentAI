@@ -1,9 +1,9 @@
 {
-  "_generated_at": "2026-06-25T10:38:01.404057+00:00",
+  "_generated_at": "2026-07-27T04:55:24.250147+00:00",
   "_engine_version": "2.1",
   "current_phase": "Tier 3 established — building toward representation & prestige",
-  "phase_note": "An active multi-country exhibiting artist: solo shows, museum-group exhibitions, and an international showing are on record, alongside a first solo publication and ~26k Instagram. The foundation is built. The next levers are structural — gallery representation, stronger solo venues, art fairs, residencies, grants, critical press, and a second book — not more entry-level group shows.",
-  "phase_note_zh": "一位活跃的、跨国展出的艺术家：个展、美术馆联展与国际展出均已在册，另有首部个人出版物与约 2.6 万 Instagram 粉丝。根基已成。接下来的杠杆是结构性的——画廊代理、更高规格的个展场地、艺术博览会、驻地、奖助、评论性媒体，以及第二本书——而非更多入门级的联展。",
+  "phase_note": "An active multi-country exhibiting artist: solo shows, museum-group exhibitions, and an international showing are on record, alongside a first solo publication and an established, growing Instagram following. The foundation is built. The next levers are structural — gallery representation, stronger solo venues, art fairs, residencies, grants, critical press, and a second book — not more entry-level group shows.",
+  "phase_note_zh": "一位活跃的、跨国展出的艺术家：个展、美术馆联展与国际展出均已在册，另有首部个人出版物与稳固且持续增长的 Instagram 受众。根基已成。接下来的杠杆是结构性的——画廊代理、更高规格的个展场地、艺术博览会、驻地、奖助、评论性媒体，以及第二本书——而非更多入门级的联展。",
   "career_evidence": {
     "confirmed_group_shows": 8,
     "solo_shows": 2,
@@ -42,7 +42,7 @@
     {
       "title": "UTRECHT",
       "tier": 1,
-      "score": 10.0,
+      "score": 9.4,
       "category": "bookstore_gallery",
       "city": "Tokyo",
       "deadline": "1 July 2025",
@@ -50,19 +50,29 @@
       "website": "https://utrecht.jp/"
     },
     {
-      "title": "B&B (Book & Beer)",
+      "title": "Route Books",
       "tier": 1,
-      "score": 10.0,
+      "score": 9.4,
       "category": "bookstore_gallery",
-      "city": "Shimokitazawa, Tokyo",
-      "deadline": "2026年06月07日",
-      "summary": "Shimokitazawa bookshop-bar that stocks art books and zines and hosts author events — low-friction consignment, free.",
-      "website": "https://bookandbeer.com/"
+      "city": "Tokyo — Ueno / Taito",
+      "deadline": "ongoing — check rental availability",
+      "summary": "Ueno bookshop-cafe with a confirmed rental gallery wall — accessible East Tokyo arts venue in the cultural district near Ueno Park.",
+      "website": "https://route-books.com/"
+    },
+    {
+      "title": "Mograg Gallery",
+      "tier": 1,
+      "score": 9.4,
+      "category": "cafe_gallery",
+      "city": "Tokyo — Hatagaya (Shibuya area)",
+      "deadline": "ongoing — proposal-based",
+      "summary": "Tokyo gallery (Hatagaya) that shows un-repped emerging artists; contemporary/outsider-leaning, so judge the fit yourself — proposals go through Instagram DM.",
+      "website": "https://mograg.com/"
     },
     {
       "title": "TOKIO ART BOOK FAIR 2026",
       "tier": 1,
-      "score": 10.0,
+      "score": 9.4,
       "category": "zine_fair_booth",
       "city": "Tokyo",
       "deadline": "June 7, 2026",
@@ -70,83 +80,53 @@
       "website": "https://tokioartbookfair.com"
     },
     {
-      "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
+      "title": "Nui. Hostel Bar & Lounge Asakusa",
       "tier": 1,
-      "score": 10.0,
-      "category": "zine_fair_booth",
-      "city": "Tokyo",
-      "deadline": "2026年4月8日",
-      "summary": "Monthly Tokyo zine fair organized by BOOK CULTURE CLUB — 90cm half-table booth, ¥5,200-6,200 fee, applications open until about two weeks before each event. Next Tokyo date: July 11 2026.",
-      "website": "https://note.com/bookcultureclub/n/n053a24287fc2"
-    },
-    {
-      "title": "MOUNT ZINE",
-      "tier": 1,
-      "score": 10.0,
-      "category": "zine_shop_consignment",
-      "city": "Tokyo",
-      "deadline": "Twice-yearly (spring/autumn) — watch @mountzine for autumn 2026 recruitment window",
-      "summary": "Tokyo zine shop near Komazawa that takes submissions twice a year (spring/autumn) with no fee and no screening — work stays in stock.",
-      "website": "https://zine.mount.co.jp/"
+      "score": 9.4,
+      "category": "cafe_gallery",
+      "city": "Tokyo — Asakusa, Taito",
+      "deadline": "ongoing",
+      "summary": "Asakusa design-forward hostel bar with a strong international creative community and wall space for displaying artist work in its public lounge.",
+      "website": "https://backpackersjapan.co.jp/nui/"
     }
   ],
   "build_toward": [
     {
-      "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
+      "title": "Submissions — Clavis Publishing",
       "tier": 3,
-      "score": 10.0,
-      "category": "group_publication_open_call",
-      "city": "International",
-      "deadline": "June 10, 2026",
-      "summary": "International coffee-table print magazine for women artists — all mediums including watercolor, deadline June 10, $25 fee.",
-      "website": "https://www.womenunitedartmovement.com/"
-    },
-    {
-      "title": "SUBMISSIONS - marblepress.com",
-      "tier": 3,
-      "score": 10.0,
+      "score": 9.4,
       "category": "book_publishing",
       "city": "Japan / Tokyo / Online",
-      "deadline": "June 1st 2026",
+      "deadline": "April 2025",
       "summary": "Publishing / Small Press (found through targeted research).",
-      "website": "https://marblepress.com/submissions/"
+      "website": "https://www.clavis-publishing.com/submit"
     },
     {
-      "title": "美術手帖 (Bijutsu Techo) — Artist Feature",
+      "title": "Center for Book Arts Opportunities",
       "tier": 3,
-      "score": 10.0,
-      "category": "press_target",
-      "city": "Tokyo",
-      "deadline": "ongoing",
-      "summary": "Japan's leading fine art magazine. Artist features for emerging Tokyo-based painters. Discovers via Instagram + gallery shows.",
-      "website": "https://bijutsutecho.com/"
+      "score": 9.4,
+      "category": "global_book_arts",
+      "city": "New York",
+      "deadline": "September 15, 2024",
+      "summary": "Book arts institution with exhibitions, residencies, education, and opportunities connected to artist books and printed matter.",
+      "website": "https://centerforbookarts.org/"
+    },
+    {
+      "title": "call for artists | al-tiba9 magazine issue22",
+      "tier": 3,
+      "score": 9.4,
+      "category": "zine_print",
+      "city": "Online",
+      "deadline": "August 16th, 2026",
+      "summary": "Candidate link discovered from ArtConnect Open Calls.",
+      "website": "https://www.artconnect.com/opportunity/MSjnbbgX0O5uGlAJdbot1"
     }
   ],
   "watch_list": [
     {
-      "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
-      "tier": 4,
-      "score": 10.0,
-      "category": "global_watercolor_open_call",
-      "city": "Online / Seattle",
-      "deadline": "July 8, 2026 — 11:59 PM Pacific",
-      "summary": "Prestigious annual international watercolor exhibition open to all artists worldwide, $15,000+ in awards, juror Dongfeng Li (Chinese-American watercolor watercolor artist). Deadline July 8 2026.",
-      "website": "https://www.nwws.org/"
-    },
-    {
-      "title": "Cité Internationale des Arts Artist Residency",
-      "tier": 4,
-      "score": 9.3,
-      "category": "global_residency",
-      "city": "Paris",
-      "deadline": "August 30, 2026",
-      "summary": "Major international artist residency in Paris offering studio housing to artists from around the world, with strong track record for Asian artists.",
-      "website": "https://www.citedesartsparis.net/"
-    },
-    {
       "title": "Asian Cultural Council (ACC) 2026 Grant Program",
       "tier": 4,
-      "score": 9.1,
+      "score": 9.4,
       "category": "grant",
       "city": "New York",
       "deadline": "2025-11-19 (application deadline, EST 9:59 AM); recommendation letters due 2025-11-26",
@@ -154,34 +134,54 @@
       "website": "https://www.asianculturalcouncil.org/zh-hant/grant-opportunities"
     },
     {
+      "title": "Cité Internationale des Arts Artist Residency",
+      "tier": 4,
+      "score": 9.4,
+      "category": "global_residency",
+      "city": "Paris",
+      "deadline": "August 30, 2026",
+      "summary": "Major international artist residency in Paris offering studio housing to artists from around the world, with strong track record for Asian artists.",
+      "website": "https://www.citedesartsparis.net/"
+    },
+    {
       "title": "「国際創作者駐村計畫」",
       "tier": 4,
-      "score": 9.1,
+      "score": 9.4,
       "category": "global_residency",
       "city": "Tokyo",
-      "deadline": "June 10, 2026",
+      "deadline": "July 22, 2026",
       "summary": "International artist residency program inviting visual artists, filmmakers, designers and architects for 2026.",
       "website": "https://artres.moc.gov.tw/zh/calls/content/ff80818196c95f3b0196e675e523000f"
     },
     {
+      "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
+      "tier": 4,
+      "score": 9.4,
+      "category": "global_watercolor_open_call",
+      "city": "Online / Seattle",
+      "deadline": "August 12, 2026",
+      "summary": "Prestigious annual international watercolor exhibition open to all artists worldwide, $15,000+ in awards, juror Dongfeng Li (Chinese-American watercolor watercolor artist). Deadline July 8 2026.",
+      "website": "https://www.nwws.org/"
+    },
+    {
+      "title": "National Watercolor Society International Open Exhibition",
+      "tier": 4,
+      "score": 9.4,
+      "category": "global_watercolor_open_call",
+      "city": "California / Online",
+      "deadline": "Annual — 2026 cycle closed May 22. Watch January 2027.",
+      "summary": "Major annual international watercolor exhibition, $40,000+ in awards, open to non-members worldwide — 2026 cycle closed.",
+      "website": "https://nationalwatercolorsociety.org/exhibits"
+    },
+    {
       "title": "Asian Cultural Council (ACC) 2026 Award Program / 亞洲文化協會 2026 年獎助計畫",
       "tier": 4,
-      "score": 8.9,
+      "score": 9.4,
       "category": "grant",
       "city": "New York",
       "deadline": "2025-11-19",
       "summary": "ACC supports Asian artists including Chinese nationals with fellowships and grants for international cultural exchange and artistic development",
       "website": "https://www.asianculturalcouncil.org/zh-hant/grant-opportunities"
-    },
-    {
-      "title": "Asian Cultural Council 2026 Grants and Fellowships",
-      "tier": 4,
-      "score": 8.6,
-      "category": "grant",
-      "city": "New York",
-      "deadline": "October 1, 2025",
-      "summary": "ACC explicitly supports visual artists from China, Japan, and across Asia for research and cultural exchange between Asia and the US, making it directly applicable to a Tokyo-based Chinese watercolor ",
-      "website": "https://www.artasiapacific.com/now-open-for-applications-asian-cultural-council-2026-grants-and-fellowships"
     }
   ],
   "blocking_gaps": [
@@ -260,10 +260,10 @@
   "next_milestone_zh": "朝画廊代理迈进——一家替你销售、带你进入博览会、并培育藏家群体的画廊。你已有个展与美术馆联展的履历，这是当下杠杆最高的下一步。",
   "months_to_tier3": null,
   "pipeline_summary": {
-    "total_active": 428,
-    "tier_1_count": 35,
-    "tier_2_count": 94,
-    "tier_3_count": 284,
-    "tier_4_count": 15
+    "total_active": 699,
+    "tier_1_count": 44,
+    "tier_2_count": 230,
+    "tier_3_count": 406,
+    "tier_4_count": 19
   }
 }

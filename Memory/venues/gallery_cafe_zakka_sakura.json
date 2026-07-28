@@ -4,8 +4,9 @@
   "venue_type": "cafe wall / local exhibition space",
   "city": "Osaka",
   "country": "",
-  "website": "https://koubo.yumegazai.com/category/koubo/place/kinki",
+  "website": "https://koubo.yumegazai.com/category/koubo",
   "source_links": [
+    "https://koubo.yumegazai.com/category/koubo",
     "https://koubo.yumegazai.com/category/koubo/place/kinki"
   ],
   "categories_seen": [
@@ -29,9 +30,11 @@
     "submission process"
   ],
   "opportunity_titles": [
-    "gallery cafe & zakka SAKURA主催公募展"
+    "gallery cafe & zakka SAKURA主催展示募集",
+    "gallery cafe & zakka SAKURA主催公募展",
+    "gallery cafe & zakka SAKURA 公募展"
   ],
   "last_researched": "",
-  "created_at": "2026-06-24",
-  "updated_at": "2026-06-24"
+  "created_at": "2026-07-27",
+  "updated_at": "2026-07-27"
 }

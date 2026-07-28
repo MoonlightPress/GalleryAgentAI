@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-06-13
+REPORT GENERATED: 2026-07-27
 
 # 美術手帖 (Bijutsu Techo) — Artist Feature
 
@@ -50,5 +50,5 @@ Prepare press kit (bio, statement, 10–15 high-res images). Tag #美術手帖 o
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-13_
+_Last generated: 2026-07-27_
 
