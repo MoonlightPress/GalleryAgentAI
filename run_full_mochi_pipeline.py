@@ -155,4 +155,11 @@ PAID_STEPS = {
 }
 
 if __name__ == "__main__":
-    run_pipeline(PIPELINE)
+    import argparse
+    ap = argparse.ArgumentParser(description="Full Mochi pipeline")
+    ap.add_argument("--resume", action="store_true",
+                    help="Skip the steps the last INCOMPLETE run finished "
+                         "(per memory/pipeline_ledger.json) and continue from "
+                         "the failure. After a completed run this is a no-op "
+                         "flag: everything runs.")
+    run_pipeline(PIPELINE, resume=ap.parse_args().resume)

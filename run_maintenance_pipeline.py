@@ -15,6 +15,14 @@ from run_full_mochi_pipeline import PIPELINE, PAID_STEPS
 MAINTENANCE = [s for s in PIPELINE if parse_step(s)[0] not in PAID_STEPS]
 
 if __name__ == "__main__":
+    import argparse
+    from pathlib import Path
+    ap = argparse.ArgumentParser(description="Free maintenance pipeline")
+    ap.add_argument("--resume", action="store_true",
+                    help="Continue the last incomplete maintenance run")
     print(f"Maintenance pipeline: {len(MAINTENANCE)} free steps "
           f"({len(PIPELINE) - len(MAINTENANCE)} paid steps skipped)")
-    run_pipeline(MAINTENANCE)
+    # Own ledger file: the weekly scheduled maintenance run must never
+    # overwrite a failed FULL run's resume state.
+    run_pipeline(MAINTENANCE, resume=ap.parse_args().resume,
+                 ledger_path=Path("memory/pipeline_ledger_maintenance.json"))
