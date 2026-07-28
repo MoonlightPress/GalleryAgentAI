@@ -36,6 +36,9 @@ from json_repair import repair_json
 sys.stdout.reconfigure(encoding="utf-8")
 ROOT = Path(__file__).parent.parent
 load_dotenv(ROOT / ".env")
+# Engines run as scripts (python engines/x.py), where sys.path[0] is engines/,
+# not the repo root — required for `from engines.anthropic_batch import ...`.
+sys.path.insert(0, str(ROOT))
 
 COMPACT = ROOT / "deploy_data" / "compact_opportunities.json"
 MODEL = "claude-sonnet-4-6"
@@ -94,18 +97,18 @@ def collect_pending(opps) -> list:
     return sorted(pending)
 
 
-def translate_batch(client, strings):
-    prompt = (
+def _prompt(strings) -> str:
+    return (
         "Translate every string below into Simplified Chinese and Japanese. Return a "
         'JSON object whose keys are the EXACT input strings and whose values are '
         '{"zh": "…", "ja": "…"} objects.\n\n'
         + json.dumps(strings, ensure_ascii=False, indent=2)
     )
-    resp = client.messages.create(
-        model=MODEL, max_tokens=8000, system=SYSTEM,
-        messages=[{"role": "user", "content": prompt}],
-    )
-    raw = resp.content[0].text.strip()
+
+
+def parse_table_text(raw: str) -> dict:
+    """Model text -> {source_string: {zh, ja}}. Tolerates fences/prose/repair."""
+    raw = raw.strip()
     if raw.startswith("```"):
         lines = raw.split("\n")
         raw = "\n".join(lines[1:-1] if lines[-1] == "```" else lines[1:])
@@ -116,6 +119,32 @@ def translate_batch(client, strings):
         return json.loads(raw)
     except json.JSONDecodeError:
         return json.loads(repair_json(raw))
+
+
+def build_requests(strings: list, chunk_size: int = BATCH) -> list[dict]:
+    """Chunk pending strings into Message Batches requests. The table results
+    are applied by exact source string, so chunk composition never matters."""
+    requests = []
+    for start in range(0, len(strings), chunk_size):
+        chunk = strings[start:start + chunk_size]
+        requests.append({
+            "custom_id": f"strategy-chunk-{start // chunk_size:04d}",
+            "params": {
+                "model": MODEL,
+                "max_tokens": 8000,
+                "system": SYSTEM,
+                "messages": [{"role": "user", "content": _prompt(chunk)}],
+            },
+        })
+    return requests
+
+
+def translate_batch(client, strings):
+    resp = client.messages.create(
+        model=MODEL, max_tokens=8000, system=SYSTEM,
+        messages=[{"role": "user", "content": _prompt(strings)}],
+    )
+    return parse_table_text(resp.content[0].text)
 
 
 def apply_translations(opps, table):
@@ -131,6 +160,59 @@ def apply_translations(opps, table):
                 o[f + "_zh"] = tr["zh"].strip()
             if tr.get("ja"):
                 o[f + "_ja"] = tr["ja"].strip()
+
+
+PENDING_PATH = ROOT / "memory" / "pending_strategy_batch.json"
+
+
+def run_batched(client=None, compact_path=COMPACT, pending_path=PENDING_PATH,
+                poll_interval=60, max_wait=75 * 60):
+    """Batch-API pass (50% pricing). Same lifecycle as the content engine —
+    see engines/anthropic_batch.py. Applied by exact source string, so a
+    batch resumed on a later run lands correctly on shifted data."""
+    from engines.anthropic_batch import (
+        read_pending, submit_or_resume, wait_for_batch,
+        iter_succeeded_texts, clear_pending)
+
+    data = json.loads(Path(compact_path).read_text(encoding="utf-8"))
+    opps = data if isinstance(data, list) else data.get("items", data.get("opportunities", []))
+
+    pending = collect_pending(opps)
+    print(f"Opportunities: {len(opps)} | unique strategy strings to translate: {len(pending)}")
+
+    if not pending and not read_pending(pending_path):
+        print("All opportunity strategy prose already translated.")
+        return
+
+    if client is None:
+        client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+
+    batch_id = submit_or_resume(client, build_requests(pending), pending_path)
+    if not wait_for_batch(client, batch_id, pending_path, poll_interval, max_wait):
+        return  # timeout — pending file carries the batch to the next run
+
+    table: dict = {}
+    errored = 0
+    for custom_id, text in iter_succeeded_texts(client, batch_id):
+        try:
+            result = parse_table_text(text)
+        except (json.JSONDecodeError, ValueError) as exc:
+            errored += 1
+            print(f"  {custom_id}: unparseable response ({exc})")
+            continue
+        for en, v in result.items():
+            if isinstance(v, dict):
+                table[en] = v
+
+    apply_translations(opps, table)
+    out = opps if isinstance(data, list) else data
+    Path(compact_path).write_text(
+        json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    if errored == 0:
+        clear_pending(pending_path)
+
+    print(f"\nDone. {len(table)} strings translated, {errored} chunk errors. -> {compact_path}")
 
 
 def run():
@@ -167,4 +249,7 @@ def run():
 
 
 if __name__ == "__main__":
-    run()
+    if "--sync" in sys.argv:
+        run()  # old sequential path — full price; kept for debugging
+    else:
+        run_batched()

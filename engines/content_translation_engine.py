@@ -6,9 +6,22 @@ Adds name_zh, one_sentence_zh, why_it_fits_zh, three_bullets_zh (Chinese)
 and  name_ja, one_sentence_ja, why_it_fits_ja, three_bullets_ja (Japanese)
 to every entry in deploy_data/compact_opportunities.json.
 
-Uses claude-sonnet-4-6 in batches of 8 for quality.
-Saves progress after every batch — safe to re-run if interrupted.
+Uses claude-sonnet-4-6, chunks of 8 for quality.
 Skips entries that already have all eight _zh/_ja fields populated.
+
+2026-07-28: converted to the Message Batches API (50% of standard pricing).
+Translation is the dominant Claude spend of a full pipeline run and is
+perfectly latency-insensitive (it runs at the end of a monthly unattended
+pipeline), so the batch discount is free money. Mechanics:
+  - all chunks are submitted as ONE batch, then polled until it ends;
+  - the batch id is persisted to memory/pending_translation_batch.json
+    BEFORE polling, so a killed or timed-out run can fetch the already-
+    paid-for results on its next invocation instead of re-buying them;
+  - results are applied by ITEM id (apply_batch), never chunk position,
+    so fetching against a later, shifted opportunity list is safe;
+  - a poll timeout is a warning, not a failure — the pipeline's remaining
+    steps continue, and the pending file carries the batch forward.
+Run with --sync to use the old sequential path (full price; for debugging).
 """
 
 import sys
@@ -25,6 +38,9 @@ sys.stdout.reconfigure(encoding="utf-8")
 load_dotenv(Path(__file__).parent.parent / ".env")
 
 ROOT = Path(__file__).parent.parent
+# Engines run as scripts (python engines/x.py), where sys.path[0] is engines/,
+# not the repo root — required for `from engines.anthropic_batch import ...`.
+sys.path.insert(0, str(ROOT))
 COMPACT = ROOT / "deploy_data" / "compact_opportunities.json"
 
 ZH_FIELDS = ["name_zh", "one_sentence_zh", "why_it_fits_zh", "three_bullets_zh"]
@@ -49,8 +65,26 @@ SYSTEM = (
 )
 
 
+# Target field -> how its SOURCE value is read (mirrors build_prompt).
+_SOURCE_OF = {
+    "name":          lambda o: o.get("name") or o.get("title") or "",
+    "one_sentence":  lambda o: o.get("one_sentence") or "",
+    "why_it_fits":   lambda o: o.get("why_it_fits") or o.get("why_this_fits_short") or "",
+    "three_bullets": lambda o: o.get("three_bullets") or [],
+}
+
+
 def needs_translation(opp: dict) -> bool:
-    return not all(opp.get(f) for f in ALL_FIELDS)
+    """A field needs translation only if its SOURCE is non-empty. Requiring
+    all 8 target fields unconditionally made entries with empty source bullets
+    permanently 'pending' — 402 of 801 live entries were being re-submitted
+    (and re-paid) on every pipeline run with nothing left to translate."""
+    for base, source in _SOURCE_OF.items():
+        if not source(opp):
+            continue  # nothing to translate for this field
+        if not opp.get(base + "_zh") or not opp.get(base + "_ja"):
+            return True
+    return False
 
 
 def build_prompt(batch: list[dict]) -> str:
@@ -73,6 +107,41 @@ def build_prompt(batch: list[dict]) -> str:
     )
 
 
+def parse_response_text(raw: str) -> list[dict]:
+    """Model text -> list of translated records. Tolerates markdown fences,
+    surrounding prose, and mildly broken JSON (via json_repair)."""
+    raw = raw.strip()
+    if raw.startswith("```"):
+        lines = raw.split("\n")
+        raw = "\n".join(lines[1:-1] if lines[-1] == "```" else lines[1:])
+    start_idx = raw.find("[")
+    end_idx = raw.rfind("]")
+    if start_idx != -1 and end_idx != -1:
+        raw = raw[start_idx:end_idx + 1]
+    try:
+        return json.loads(raw)
+    except json.JSONDecodeError:
+        return json.loads(repair_json(raw))
+
+
+def build_requests(pending: list[dict], chunk_size: int = BATCH) -> list[dict]:
+    """Chunk the pending list into Message Batches requests. custom_ids are
+    positional labels for logging only — application is by item id."""
+    requests = []
+    for start in range(0, len(pending), chunk_size):
+        chunk = pending[start:start + chunk_size]
+        requests.append({
+            "custom_id": f"translate-chunk-{start // chunk_size:04d}",
+            "params": {
+                "model": MODEL,
+                "max_tokens": 6000,
+                "system": SYSTEM,
+                "messages": [{"role": "user", "content": build_prompt(chunk)}],
+            },
+        })
+    return requests
+
+
 def apply_batch(opps: list[dict], by_id: dict, results: list[dict]):
     for r in results:
         rid = r.get("id", "")
@@ -84,6 +153,61 @@ def apply_batch(opps: list[dict], by_id: dict, results: list[dict]):
             val = r.get(field)
             if val is not None and val != "" and val != []:
                 opp[field] = val
+
+
+PENDING_PATH = ROOT / "memory" / "pending_translation_batch.json"
+
+
+def run_batched(client=None, compact_path=COMPACT, pending_path=PENDING_PATH,
+                poll_interval=60, max_wait=75 * 60):
+    """Batch-API translation pass. See module docstring for the design."""
+    from engines.anthropic_batch import (
+        read_pending, submit_or_resume, wait_for_batch,
+        iter_succeeded_texts, clear_pending)
+
+    with open(compact_path, encoding="utf-8") as f:
+        opps = json.load(f)
+
+    by_id: dict = {}
+    for idx, o in enumerate(opps):
+        oid = o.get("id") or o.get("title") or o.get("name") or ""
+        if oid:
+            by_id[oid] = idx
+
+    pending = [o for o in opps if needs_translation(o)]
+    print(f"Entries needing translation: {len(pending)} of {len(opps)}")
+
+    if not pending and not read_pending(pending_path):
+        print("All entries already translated.")
+        return
+
+    if client is None:
+        client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+
+    batch_id = submit_or_resume(client, build_requests(pending), pending_path)
+    if not wait_for_batch(client, batch_id, pending_path, poll_interval, max_wait):
+        return  # timeout — pending file carries the batch to the next run
+
+    applied = 0
+    errored = 0
+    for custom_id, text in iter_succeeded_texts(client, batch_id):
+        try:
+            apply_batch(opps, by_id, parse_response_text(text))
+            applied += 1
+        except (json.JSONDecodeError, ValueError) as exc:
+            errored += 1
+            print(f"  {custom_id}: unparseable response ({exc})")
+
+    with open(compact_path, "w", encoding="utf-8") as f:
+        json.dump(opps, f, ensure_ascii=False, indent=2)
+
+    if errored == 0:
+        clear_pending(pending_path)
+
+    still = sum(1 for o in opps if needs_translation(o))
+    print(f"\nDone. {applied} chunk(s) applied, {errored} errored. "
+          f"{still} entries still untranslated.")
+    print(f"Saved to {compact_path}")
 
 
 def run():
@@ -123,20 +247,7 @@ def run():
                 system=SYSTEM,
                 messages=[{"role": "user", "content": prompt}],
             )
-            raw = resp.content[0].text.strip()
-            # Strip markdown fences if present
-            if raw.startswith("```"):
-                lines = raw.split("\n")
-                raw = "\n".join(lines[1:-1] if lines[-1] == "```" else lines[1:])
-            # Extract array portion and repair any JSON formatting issues
-            start_idx = raw.find("[")
-            end_idx = raw.rfind("]")
-            if start_idx != -1 and end_idx != -1:
-                raw = raw[start_idx:end_idx + 1]
-            try:
-                results = json.loads(raw)
-            except json.JSONDecodeError:
-                results = json.loads(repair_json(raw))
+            results = parse_response_text(resp.content[0].text)
             apply_batch(opps, by_id, results)
             done += len(batch)
             print(f"ok ({done}/{total})")
@@ -155,11 +266,7 @@ def run():
                     system=SYSTEM,
                     messages=[{"role": "user", "content": prompt}],
                 )
-                raw = resp.content[0].text.strip()
-                if raw.startswith("```"):
-                    lines = raw.split("\n")
-                    raw = "\n".join(lines[1:-1] if lines[-1] == "```" else lines[1:])
-                results = json.loads(raw)
+                results = parse_response_text(resp.content[0].text)
                 apply_batch(opps, by_id, results)
                 done += len(batch)
                 print(f"  retry ok ({done}/{total})")
@@ -180,4 +287,7 @@ def run():
 
 
 if __name__ == "__main__":
-    run()
+    if "--sync" in sys.argv:
+        run()  # old sequential path — full price; kept for debugging
+    else:
+        run_batched()
