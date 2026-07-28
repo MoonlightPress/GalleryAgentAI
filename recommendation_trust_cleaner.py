@@ -72,6 +72,24 @@ def clean_text(value):
     return text
 
 
+def backfill_identity(opp):
+    """Make `name` and `title` agree. 41 live entries (2026-07-28) carried only
+    `title` — real calls invisible to any consumer keying on `name`. Same
+    split-field class as added_at/imported_at and fee/fees: backfill both
+    spellings once here rather than teaching every reader the fallback.
+    Entries that already have both are left alone (they may legitimately
+    differ: short name vs long formal title). Returns True if changed."""
+    name = str(opp.get("name") or "").strip()
+    title = str(opp.get("title") or "").strip()
+    if name and not title:
+        opp["title"] = name
+        return True
+    if title and not name:
+        opp["name"] = title
+        return True
+    return False
+
+
 def is_junk(opp):
     title = str(opp.get("title") or opp.get("name") or "").lower()
     source = str(
@@ -91,8 +109,11 @@ def main():
 
     cleaned = 0
     rejected = 0
+    backfilled = 0
 
     for opp in opps:
+        if backfill_identity(opp):
+            backfilled += 1
         for field in TEXT_FIELDS:
             if field in opp:
                 old = opp[field]
@@ -137,6 +158,7 @@ def main():
 
     print(f"Cleaned text fields: {cleaned}")
     print(f"Hidden junk opportunities: {rejected}")
+    print(f"Backfilled name/title identity: {backfilled}")
     print(f"Wrote {OUT_PATH}")
 
 

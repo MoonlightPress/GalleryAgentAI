@@ -4760,7 +4760,8 @@
     "recommended_body_of_work_ja": "アーティストブック / 印刷物",
     "quick_action_zh": "推荐前请核实最新的投稿、展览或联系信息。",
     "quick_action_ja": "推薦する前に、最新の応募・展示・連絡先情報を確認してください。",
-    "site_http_code": 200
+    "site_http_code": 200,
+    "name": "ArtConnect Open Calls"
   },
   {
     "title": "call for artists | al-tiba9 magazine issue22",
@@ -4991,7 +4992,8 @@
     "contact_source": "harvested_from_submission_page",
     "deadline_source": "harvested_from_submission_page",
     "peppercorn_surface_nudge": 0.68,
-    "peppercorn_base_score": 6.8
+    "peppercorn_base_score": 6.8,
+    "name": "call for artists | al-tiba9 magazine issue22"
   },
   {
     "title": "Bologna Children's Book Fair Illustrators Exhibition",
@@ -8704,7 +8706,8 @@
     "submission_url": "https://www.kunstraumllc.com/single-post/open-call-for-artists-in-residence-2026-2027-deadline-june-30-2026",
     "deadline_type": "rolling",
     "peppercorn_surface_nudge": 0.68,
-    "peppercorn_base_score": 6.79
+    "peppercorn_base_score": 6.79,
+    "name": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at"
   },
   {
     "name": "Route Books",
@@ -15663,7 +15666,8 @@
     "contact_source": "harvested_from_submission_page",
     "site_http_code": 0,
     "peppercorn_surface_nudge": 0.73,
-    "peppercorn_base_score": 7.34
+    "peppercorn_base_score": 7.34,
+    "name": "National Watercolor Society International Open Exhibition"
   },
   {
     "name": "第19回プラチナアート大賞展２０２６",
@@ -17922,7 +17926,8 @@
     "submission_strategy_zh": "低调・高声誉",
     "submission_strategy_ja": "静かな高名声",
     "peppercorn_surface_nudge": 0.73,
-    "peppercorn_base_score": 7.26
+    "peppercorn_base_score": 7.26,
+    "name": "Japan International Watercolor Institute Online Exhibition"
   },
   {
     "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
@@ -33082,7 +33087,8 @@
     "quick_action_zh": "暂时跳过——优先考虑有明确申请流程的机会。",
     "quick_action_ja": "今は保留し、応募方法が明確な機会を優先してください。",
     "submission_strategy_zh": "低调・高声誉",
-    "submission_strategy_ja": "静かな高名声"
+    "submission_strategy_ja": "静かな高名声",
+    "name": "Spiral"
   },
   {
     "name": "Golden Pinwheel International Young Illustrators Competition 2026 / 金风车国际青年插画家大赛",
@@ -48124,7 +48130,8 @@
     "deadline_type": "passed",
     "deadline_past": true,
     "peppercorn_surface_nudge": 0.56,
-    "peppercorn_base_score": 5.63
+    "peppercorn_base_score": 5.63,
+    "name": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin"
   },
   {
     "title": "Jinny Street Gallery Open Call",
@@ -50997,7 +51004,8 @@
     "quick_action_zh": "在联系之前建议深入调查：回顾过往展览、艺术家阵容质量、销售与展览模式之别，以及相关费用结构。",
     "quick_action_ja": "連絡を取る前に十分に調査してください：過去の展示、アーティストラインナップの質、販売型か展示型か、および費用体系を確認してください。",
     "submission_strategy_zh": "低调・高声誉",
-    "submission_strategy_ja": "静かな高名声"
+    "submission_strategy_ja": "静かな高名声",
+    "name": "Picaresque Gallery"
   },
   {
     "name": "ローズ・ローズ・ローズ",
@@ -53041,7 +53049,8 @@
     "quick_action_zh": "2026年10月申请2027年度项目。将作品集图片发送至 shangyuanart@gmail.com。",
     "quick_action_ja": "2027年サイクルに向けて2026年10月に申し込んで。ポートフォリオ画像を shangyuanart@gmail.com に送って。",
     "submission_strategy_zh": "低调・高声誉",
-    "submission_strategy_ja": "静かな高名声"
+    "submission_strategy_ja": "静かな高名声",
+    "name": "Shangyuan International Residency Programme"
   },
   {
     "name": "石橋財団・国際交流基金 日本美術リサーチフェローシップ",
@@ -57248,7 +57257,8 @@
     "recommended_body_of_work_zh": "艺术家书籍 / 印刷品",
     "recommended_body_of_work_ja": "アーティストブック / 印刷物",
     "quick_action_zh": "推荐前请核实最新的投稿、展览或联系信息。",
-    "quick_action_ja": "推薦する前に、最新の応募・展示・連絡先情報を確認してください。"
+    "quick_action_ja": "推薦する前に、最新の応募・展示・連絡先情報を確認してください。",
+    "name": "CuratorSpace"
   },
   {
     "name": "第35届秋耕会小品展",
@@ -85250,7 +85260,8 @@
     "fee": "Free",
     "contact_email": "fairinfo@printedmatter.org",
     "peppercorn_surface_nudge": 0.32,
-    "peppercorn_base_score": 3.15
+    "peppercorn_base_score": 3.15,
+    "name": "Home - Printed Matter"
   },
   {
     "title": "3 Top Book Publishers in Tokyo in 2026",
@@ -86177,7 +86188,8 @@
     "quick_action_ja": "ソースを開き、現在の募集状況、応募プロセス、費用、締め切り、連絡先を確認してください。",
     "fee": "$25",
     "peppercorn_surface_nudge": 0.42,
-    "peppercorn_base_score": 4.24
+    "peppercorn_base_score": 4.24,
+    "name": "Aperture | Photography"
   },
   {
     "name": "IlloBoom 2026 Global Illustration Competition",
@@ -87243,7 +87255,8 @@
     "quick_action_zh": "请打开并确认此信息是否仍然有效且与你相关。",
     "quick_action_ja": "開いて、現在も有効で関連性があるか確認してください。",
     "peppercorn_surface_nudge": 0.57,
-    "peppercorn_base_score": 5.67
+    "peppercorn_base_score": 5.67,
+    "name": "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar"
   },
   {
     "title": "Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING",
@@ -87388,7 +87401,8 @@
     "quick_action_zh": "请打开并确认此信息是否仍然有效且与你相关。",
     "quick_action_ja": "開いて、現在も有効で関連性があるか確認してください。",
     "peppercorn_surface_nudge": 0.55,
-    "peppercorn_base_score": 5.49
+    "peppercorn_base_score": 5.49,
+    "name": "Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING"
   },
   {
     "name": "Venice International Watercolor Festival 2026 / 2026年威尼斯国际水彩节",
@@ -87891,7 +87905,8 @@
     "recommended_body_of_work_ja": "アーティストブック / 印刷物",
     "quick_action_zh": "推荐前请核实最新的投稿、展览或联系信息。",
     "quick_action_ja": "推薦する前に、最新の応募・展示・連絡先情報を確認してください。",
-    "contact_email": "competition@commarts.com"
+    "contact_email": "competition@commarts.com",
+    "name": "Communication Arts Illustration Competition"
   },
   {
     "name": "ART SG 2026",
@@ -89678,7 +89693,8 @@
     "quick_action_ja": "ソースを開き、現在の募集状況、応募プロセス、費用、締め切り、連絡先を確認してください。",
     "fee": "Free",
     "peppercorn_surface_nudge": 0.54,
-    "peppercorn_base_score": 5.44
+    "peppercorn_base_score": 5.44,
+    "name": "PhotoVogue"
   },
   {
     "name": "Youth ArtRich 2026 Call for Artists",
@@ -89974,7 +89990,8 @@
     "quick_action_zh": "请打开并确认此信息是否仍然有效且与你相关。",
     "quick_action_ja": "開いて、現在も有効で関連性があるか確認してください。",
     "peppercorn_surface_nudge": 0.49,
-    "peppercorn_base_score": 4.91
+    "peppercorn_base_score": 4.91,
+    "name": "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou"
   },
   {
     "name": "AOI Illustration Awards 2026",
@@ -92367,7 +92384,8 @@
     "quick_action_zh": "打开来源，核实当前机会、投稿流程、费用、截止日期及联系方式。",
     "quick_action_ja": "ソースを開き、現在の募集状況、応募プロセス、費用、締め切り、連絡先を確認してください。",
     "peppercorn_surface_nudge": 0.46,
-    "peppercorn_base_score": 4.63
+    "peppercorn_base_score": 4.63,
+    "name": "Top Artist Opportunities for 2026 | ArtConnect"
   },
   {
     "name": "OPEN World Exhibition 2026",
@@ -97252,7 +97270,8 @@
     "deadline": "Friday 24 July 2026, 12 noon",
     "fee": "£20 per work",
     "deadline_type": "passed",
-    "deadline_past": true
+    "deadline_past": true,
+    "name": "Mall Galleries Open Exhibitions"
   },
   {
     "title": "Pastel Society Open Exhibition",
@@ -97408,7 +97427,8 @@
     "fee": "£20 per work (or £14 per work for artists aged 35 or under)",
     "submission_url": "https://mallgalleries22.oess1.uk",
     "deadline_type": "passed",
-    "deadline_past": true
+    "deadline_past": true,
+    "name": "Pastel Society Open Exhibition"
   },
   {
     "name": "Art Vancouver Contemporary Art Fair 2027",
@@ -99427,7 +99447,8 @@
     "deadline": "2026-01-23",
     "fee": "£20 per work (£14 per work for artists aged 35 or under)",
     "deadline_type": "passed",
-    "deadline_past": true
+    "deadline_past": true,
+    "name": "Royal Institute of Painters in Water Colours"
   },
   {
     "name": "令和8年度芸術文化振興基金及び文化芸術振興費補助金",
@@ -103171,7 +103192,8 @@
     "quick_action_zh": "请打开并确认此信息是否仍然有效且与你相关。",
     "quick_action_ja": "開いて、現在も有効で関連性があるか確認してください。",
     "peppercorn_surface_nudge": 0.49,
-    "peppercorn_base_score": 4.9
+    "peppercorn_base_score": 4.9,
+    "name": "open call for photographers — visual poetry journal"
   },
   {
     "name": "2026 IlloBoom! 3rd Annual Illustration Summit Challenge",
@@ -104671,7 +104693,8 @@
       "キーワード該当：公募、レジデンシー"
     ],
     "quick_action_zh": "请打开并确认此信息是否仍然有效且与你相关。",
-    "quick_action_ja": "開いて、現在も有効で関連性があるか確認してください。"
+    "quick_action_ja": "開いて、現在も有効で関連性があるか確認してください。",
+    "name": "open call for lgbtq+ artist residency at nina idyllwild"
   },
   {
     "title": "residency open call for artists based in the philippines",
@@ -104808,7 +104831,8 @@
       "キーワード該当：公募、レジデンシー"
     ],
     "quick_action_zh": "请打开并确认此信息是否仍然有效且与你相关。",
-    "quick_action_ja": "開いて、現在も有効で関連性があるか確認してください。"
+    "quick_action_ja": "開いて、現在も有効で関連性があるか確認してください。",
+    "name": "residency open call for artists based in the philippines"
   },
   {
     "title": "open submissions for issue four",
@@ -104940,7 +104964,8 @@
     "quick_action_zh": "请打开并确认此信息是否仍然有效且与你相关。",
     "quick_action_ja": "開いて、現在も有効で関連性があるか確認してください。",
     "peppercorn_surface_nudge": 0.46,
-    "peppercorn_base_score": 4.61
+    "peppercorn_base_score": 4.61,
+    "name": "open submissions for issue four"
   },
   {
     "name": "Splash 27: The Best of Watercolor",
@@ -106508,7 +106533,8 @@
     "quick_action_zh": "请打开并确认此信息是否仍然有效且与你相关。",
     "quick_action_ja": "開いて、現在も有効で関連性があるか確認してください。",
     "peppercorn_surface_nudge": 0.37,
-    "peppercorn_base_score": 3.7
+    "peppercorn_base_score": 3.7,
+    "name": "submissions for the 2026 set film festival are now open"
   },
   {
     "name": "ハマカルアートプロジェクト2026",
@@ -108806,7 +108832,8 @@
       "キーワード一致：オープンコール、レジデンシー"
     ],
     "quick_action_zh": "请打开并确认此信息是否仍然有效且与你相关。",
-    "quick_action_ja": "開いて、現在も有効で関連性があるか確認してください。"
+    "quick_action_ja": "開いて、現在も有効で関連性があるか確認してください。",
+    "name": "open call for fall residency"
   },
   {
     "title": "NADiff a/p/a/r/t",
@@ -109021,7 +109048,8 @@
     "quick_action_zh": "仅作调研参考收藏——了解他们是否有艺术家书籍出版项目或策展展览。",
     "quick_action_ja": "調査目的のみでブックマーク。アーティストブックの出版プログラムやキュレーション展示があるか確認しよう。",
     "peppercorn_surface_nudge": 0.27,
-    "peppercorn_base_score": 2.7
+    "peppercorn_base_score": 2.7,
+    "name": "NADiff a/p/a/r/t"
   },
   {
     "name": "ERA Shimokitazawa",
@@ -110292,7 +110320,8 @@
     "quick_action_zh": "存档备查，除非你特别希望在东京另类艺术圈积累低风险的本地展览经验。",
     "quick_action_ja": "東京のオルタナティブシーンでリスクの低いローカル展示経験を特に求めているのでなければ、アーカイブしておいて。",
     "recommended_body_of_work_zh": "社区 / 本地曝光",
-    "recommended_body_of_work_ja": "コミュニティ / 地域での認知"
+    "recommended_body_of_work_ja": "コミュニティ / 地域での認知",
+    "name": "Cafe Gallery HATTIFNATT"
   },
   {
     "title": "Design Festa",
@@ -111224,7 +111253,8 @@
     "recommended_body_of_work_zh": "艺术家书籍 / 印刷品",
     "recommended_body_of_work_ja": "アーティストブック / 印刷物",
     "quick_action_zh": "推荐前请核实最新的投稿、展览或联系信息。",
-    "quick_action_ja": "推薦する前に、最新の応募・展示・連絡先情報を確認してください。"
+    "quick_action_ja": "推薦する前に、最新の応募・展示・連絡先情報を確認してください。",
+    "name": "Mall Galleries Open Exhibitions"
   },
   {
     "title": "Shoto Museum Open Call",
@@ -112917,7 +112947,8 @@
     ],
     "quick_action_zh": "请打开并确认此信息是否仍然有效且与你相关。",
     "quick_action_ja": "開いて、現在も有効で関連性があるか確認してください。",
-    "submission_url": "https://www.curatorspace.com/opportunities"
+    "submission_url": "https://www.curatorspace.com/opportunities",
+    "name": "www.curatorspace.com"
   },
   {
     "title": "Report this?",
@@ -113049,7 +113080,8 @@
       "キーワード一致：residency"
     ],
     "quick_action_zh": "请打开并确认此信息是否仍然有效且与你相关。",
-    "quick_action_ja": "開いて、現在も有効で関連性があるか確認してください。"
+    "quick_action_ja": "開いて、現在も有効で関連性があるか確認してください。",
+    "name": "Report this?"
   },
   {
     "name": "小須戸ARTプロジェクト2026参加アーティスト募集",
@@ -113856,7 +113888,8 @@
     "quick_action_zh": "请打开并确认此信息是否仍然有效且与你相关。",
     "quick_action_ja": "開いて、現在も有効で関連性があるか確認してください。",
     "peppercorn_surface_nudge": 0.3,
-    "peppercorn_base_score": 2.98
+    "peppercorn_base_score": 2.98,
+    "name": "Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod"
   },
   {
     "name": "りんごろごろごろ",
@@ -114823,7 +114856,8 @@
     "recommended_body_of_work_zh": "艺术家书籍 / 印刷品",
     "recommended_body_of_work_ja": "アーティストブック / 印刷物",
     "quick_action_zh": "推荐前请核实最新的投稿、展览或联系信息。",
-    "quick_action_ja": "推薦する前に、最新の応募・展示・連絡先情報を確認してください。"
+    "quick_action_ja": "推薦する前に、最新の応募・展示・連絡先情報を確認してください。",
+    "name": "Royal Institute of Painters in Water Colours"
   },
   {
     "title": "Royal Institute of Painters in Water Colours",
@@ -114998,7 +115032,8 @@
       "現在の応募ガイドラインと公募状況は公式サイトで確認すること。",
       "時間を費やす前に公式サイトで最新状況を確認すること——サイトは変更され、公募は早期終了することがある。",
       "締切：2026年1月23日——提出前に公式サイトで確認すること。"
-    ]
+    ],
+    "name": "Royal Institute of Painters in Water Colours"
   },
   {
     "name": "版畫雙年展",
@@ -115308,7 +115343,8 @@
     "recommended_body_of_work_ja": "アーティストブック / 印刷物",
     "quick_action_zh": "推荐前请核实最新的投稿、展览或联系信息。",
     "quick_action_ja": "推薦する前に、最新の応募・展示・連絡先情報を確認してください。",
-    "fee": "£20 per work (or £14 per work for artists aged 35 or under)"
+    "fee": "£20 per work (or £14 per work for artists aged 35 or under)",
+    "name": "Pastel Society Open Exhibition"
   },
   {
     "name": "第10屆溫哥華藝術博覽會 (Art Vancouver 2026)",
@@ -116428,7 +116464,8 @@
     "quick_action_zh": "请打开并确认此信息是否仍然有效且与你相关。",
     "quick_action_ja": "開いて、現在も有効で関連性があるか確認してください。",
     "peppercorn_surface_nudge": 0.25,
-    "peppercorn_base_score": 2.53
+    "peppercorn_base_score": 2.53,
+    "name": "The Light Frame Gallery | Open Call for Guest Writers (Museums, Photography & Community) S"
   },
   {
     "name": "Koenji SANAGI",
@@ -118071,7 +118108,8 @@
     "recommended_body_of_work_zh": "社区 / 本地曝光",
     "recommended_body_of_work_ja": "コミュニティ / 地域での認知",
     "quick_action_zh": "可访问官网确认形式，但与机构公信力目标可能不符——跳过也无妨。",
-    "quick_action_ja": "ウェブサイトでフォーマットを確認できますが、機関としての信頼性という目標とはズレがある可能性が高いため、スキップして問題ありません。"
+    "quick_action_ja": "ウェブサイトでフォーマットを確認できますが、機関としての信頼性という目標とはズレがある可能性が高いため、スキップして問題ありません。",
+    "name": "RAW TOKYO"
   },
   {
     "name": "2026 Kyoto Museum International Art Grand Exhibition",
@@ -118555,7 +118593,7 @@
     "quick_action": "Verify eligibility and current cycle at the official website before applying.",
     "verification_status": "partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": true,
@@ -118671,7 +118709,7 @@
     "deadline": "2026年2月15日 (February 15, 2026)",
     "fees": null,
     "contact": null,
-    "overall_score": 2.2,
+    "overall_score": 2.0,
     "differentiated_score": 2.0,
     "watercolor_adjusted_score": 8.28,
     "source_purity_score": 8.98,
@@ -118680,7 +118718,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "strong_partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -118800,7 +118838,7 @@
     "deadline": null,
     "fees": null,
     "contact": null,
-    "overall_score": 2.2,
+    "overall_score": 2.0,
     "differentiated_score": 2.0,
     "watercolor_adjusted_score": 8.38,
     "source_purity_score": 9.08,
@@ -118809,7 +118847,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -118947,7 +118985,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "strong_partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": true,
     "fees_verified": false,
@@ -119085,7 +119123,7 @@
     "deadline": null,
     "fees": null,
     "contact": null,
-    "overall_score": 2.2,
+    "overall_score": 2.0,
     "differentiated_score": 2.0,
     "watercolor_adjusted_score": 7.78,
     "source_purity_score": 8.48,
@@ -119094,7 +119132,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -119229,7 +119267,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": true,
     "fees_verified": false,
@@ -119363,7 +119401,7 @@
     "deadline": null,
     "fees": null,
     "contact": null,
-    "overall_score": 2.2,
+    "overall_score": 2.0,
     "differentiated_score": 2.0,
     "watercolor_adjusted_score": 7.78,
     "source_purity_score": 8.48,
@@ -119372,7 +119410,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -119500,7 +119538,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -119635,7 +119673,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "research_needed",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -119777,7 +119815,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "research_needed",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -119908,7 +119946,7 @@
     "deadline": "2026年1月31日（土）",
     "fees": "¥22,000 (税込 ¥24,200) - ¥44,000 (税込 ¥48,400) depending on booth type",
     "contact": "info@artbookosaka.com",
-    "overall_score": 2.2,
+    "overall_score": 2.0,
     "differentiated_score": 2.0,
     "watercolor_adjusted_score": 8.48,
     "source_purity_score": 2.5,
@@ -119917,7 +119955,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "verified",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": false,
     "deadline_verified": false,
     "fees_verified": true,
@@ -120113,7 +120151,7 @@
     "deadline": "6月9日 (June 9)",
     "fees": null,
     "contact": null,
-    "overall_score": 2.2,
+    "overall_score": 2.0,
     "differentiated_score": 2.0,
     "watercolor_adjusted_score": 8.66,
     "source_purity_score": 2.5,
@@ -120122,7 +120160,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "strong_partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": true,
     "fees_verified": false,
@@ -120314,7 +120352,7 @@
     "deadline": "2026-04-15",
     "fees": "€35 (2 works) for International; MYR 150 (2 works) for Malaysia",
     "contact": "ifamglobal@gmail.com",
-    "overall_score": 2.2,
+    "overall_score": 2.0,
     "differentiated_score": 2.0,
     "watercolor_adjusted_score": 8.1,
     "source_purity_score": 2.5,
@@ -120323,7 +120361,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "verified",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": false,
     "deadline_verified": false,
     "fees_verified": true,
@@ -120454,7 +120492,7 @@
     "deadline": null,
     "fees": null,
     "contact": null,
-    "overall_score": 2.2,
+    "overall_score": 2.0,
     "differentiated_score": 2.0,
     "watercolor_adjusted_score": 8.57,
     "source_purity_score": 2.5,
@@ -120463,7 +120501,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "strong_partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -120627,7 +120665,7 @@
     "quick_action": "Verify eligibility and current cycle at the official website before applying.",
     "verification_status": "strong_partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": true,
@@ -120764,7 +120802,7 @@
     "quick_action": "Verify eligibility and current cycle at the official website before applying.",
     "verification_status": "verified",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": false,
     "deadline_verified": false,
     "fees_verified": true,
@@ -120889,7 +120927,7 @@
     "deadline": "January 25, 2026",
     "fees": null,
     "contact": null,
-    "overall_score": 2.2,
+    "overall_score": 2.0,
     "differentiated_score": 2.0,
     "watercolor_adjusted_score": 8.35,
     "source_purity_score": 2.5,
@@ -120898,7 +120936,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -121075,7 +121113,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -121280,7 +121318,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "strong_partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": true,
     "fees_verified": false,
@@ -121479,7 +121517,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "strong_partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": true,
@@ -121878,7 +121916,7 @@
     "deadline": null,
     "fees": null,
     "contact": null,
-    "overall_score": 2.2,
+    "overall_score": 2.0,
     "differentiated_score": 2.0,
     "watercolor_adjusted_score": 7.58,
     "source_purity_score": 2.5,
@@ -121887,7 +121925,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -122074,7 +122112,7 @@
     "deadline": "2026-08-31",
     "fees": null,
     "contact": null,
-    "overall_score": 2.2,
+    "overall_score": 2.0,
     "differentiated_score": 2.0,
     "watercolor_adjusted_score": 6.75,
     "source_purity_score": 2.5,
@@ -122083,7 +122121,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "strong_partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": true,
     "fees_verified": false,
@@ -122237,7 +122275,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "strong_partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": true,
@@ -122398,7 +122436,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -122556,7 +122594,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "strong_partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": true,
@@ -122716,7 +122754,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "strong_partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -122881,7 +122919,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "strong_partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": true,
     "fees_verified": false,
@@ -123188,7 +123226,7 @@
     "curator_patterns": [],
     "pre_final_guard_score": 2.5,
     "final_score_guard_note": "Rescored 2.5 → 3.1 (verification_points=4, composite=3.35)",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "verification_bucket": "reject",
     "exclusive_primary_bucket": "reject",
     "contact_email": "expostmag@gmail.com",
@@ -123257,7 +123295,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "strong_partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": true,
     "fees_verified": false,
@@ -123419,7 +123457,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -123643,7 +123681,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -123844,7 +123882,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "strong_partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": true,
     "fees_verified": false,
@@ -124027,7 +124065,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "strong_partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": true,
     "fees_verified": true,
@@ -124180,7 +124218,7 @@
     "deadline": null,
     "fees": null,
     "contact": null,
-    "overall_score": 2.2,
+    "overall_score": 2.0,
     "differentiated_score": 2.0,
     "watercolor_adjusted_score": 7.57,
     "source_purity_score": 2.5,
@@ -124189,7 +124227,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -124498,7 +124536,7 @@
     "curator_patterns": [],
     "pre_final_guard_score": 5.9,
     "final_score_guard_note": "Rescored 5.9 → 2.8 (verification_points=3, composite=3.28)",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "verification_bucket": "reject",
     "exclusive_primary_bucket": "reject",
     "summary_zh": "[Sunny Boy Books] 学芸大学附近亲密型独立书店，拥有4000册藏书、自有出版社及定期艺术家活动——强一级寄售目标。",
@@ -124545,7 +124583,8 @@
     "relationship_note_zh": "位于学艺大学附近的独立书店。私信 @sunnyboybooks，可寄售艺术家书籍或版画。",
     "relationship_note_ja": "学芸大学近くのインディーズ書店。@sunnyboybooks にDMを。アーティストブックやプリントの委託販売が可能です。",
     "peppercorn_surface_nudge": 0.18,
-    "peppercorn_base_score": 1.8
+    "peppercorn_base_score": 1.8,
+    "name": "Sunny Boy Books"
   },
   {
     "name": "2026年1月〜3月展示募集",
@@ -124569,7 +124608,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -124719,7 +124758,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": true,
@@ -124859,7 +124898,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "research_needed",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -124986,7 +125025,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -125149,7 +125188,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -125321,7 +125360,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": true,
     "fees_verified": false,
@@ -125465,7 +125504,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "strong_partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": true,
@@ -125646,7 +125685,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "strong_partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": true,
@@ -125944,7 +125983,7 @@
     },
     "dominant_curator_personality": "quiet_poetic",
     "curator_patterns": [],
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "verification_bucket": "reject",
     "exclusive_primary_bucket": "reject",
     "pre_final_guard_score": 5.3,
@@ -125996,7 +126035,8 @@
     "quick_action_zh": "在 Instagram 上私信 @clouds_koenji，或亲自前往：东京都杉并区高円寺北 2-25-4。",
     "quick_action_ja": "Instagram で @clouds_koenji にDMするか、直接訪問してください：東京都杉並区高円寺北 2-25-4。",
     "relationship_note_zh": "高円寺咖啡画廊，定期轮换展览，欢迎新兴艺术家。可私信 @clouds_koenji 或亲自前往。",
-    "relationship_note_ja": "高円寺のカフェギャラリー。展示を定期的に入れ替えており、新進アーティストを歓迎しています。@clouds_koenji にDMするか、直接訪問してください。"
+    "relationship_note_ja": "高円寺のカフェギャラリー。展示を定期的に入れ替えており、新進アーティストを歓迎しています。@clouds_koenji にDMするか、直接訪問してください。",
+    "name": "Clouds Art + Coffee"
   },
   {
     "title": "Dig A Hole Zines",
@@ -126168,7 +126208,7 @@
     "curator_patterns": [],
     "pre_final_guard_score": 2.7,
     "final_score_guard_note": "Rescored 2.7 → 2.6 (verification_points=2, composite=3.21)",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "verification_bucket": "reject",
     "exclusive_primary_bucket": "reject",
     "fee": "No entrance fee",
@@ -126380,7 +126420,7 @@
     "curator_patterns": [],
     "pre_final_guard_score": 2.5,
     "final_score_guard_note": "Rescored 2.5 → 2.3 (verification_points=2, composite=2.84)",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "verification_bucket": "reject",
     "exclusive_primary_bucket": "reject",
     "summary_zh": "ZINE FARM TOKYO - 吉祥寺以自印书为中心的目标场地。评估呈现方式和潜在合作的理想位置。",
@@ -126446,7 +126486,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": true,
@@ -126622,7 +126662,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -126831,7 +126871,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": true,
@@ -126987,7 +127027,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -127146,7 +127186,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "research_needed",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -127294,7 +127334,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -127433,7 +127473,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": true,
@@ -127691,7 +127731,7 @@
     },
     "dominant_curator_personality": "institutional_formal",
     "curator_patterns": [],
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "verification_bucket": "reject",
     "exclusive_primary_bucket": "reject",
     "pre_final_guard_score": 5.1,
@@ -127738,7 +127778,8 @@
     "quick_action_ja": "Instagram の活動を確認して現在も営業中かチェックし、展示のクオリティや来場者層を把握しよう。",
     "recommended_body_of_work_zh": "社区 / 本地曝光",
     "recommended_body_of_work_ja": "コミュニティ / 地域での認知",
-    "contact_email": "hello@cafemadonyc.com"
+    "contact_email": "hello@cafemadonyc.com",
+    "name": "MADO Café"
   },
   {
     "name": "文章焕彩2026 (Radiant Colors 2026) — Teng Wen Chang Solo Exhibition",
@@ -127762,7 +127803,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -127918,7 +127959,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -128072,7 +128113,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -128223,7 +128264,7 @@
     "quick_action": "Verify eligibility and current cycle at the official website before applying.",
     "verification_status": "partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": true,
@@ -128372,7 +128413,7 @@
     "quick_action": "Verify eligibility and current cycle at the official website before applying.",
     "verification_status": "partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": true,
@@ -128524,7 +128565,7 @@
     "quick_action": "Verify eligibility and current cycle at the official website before applying.",
     "verification_status": "partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": true,
@@ -128653,7 +128694,7 @@
     "quick_action": "Verify eligibility and current cycle at the official website before applying.",
     "verification_status": "partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": true,
@@ -128803,7 +128844,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -128956,7 +128997,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "research_needed",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -129132,7 +129173,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -129285,7 +129326,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -129438,7 +129479,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -129562,7 +129603,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -129693,7 +129734,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -129825,7 +129866,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "research_needed",
     "verification_bucket": "reject",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
