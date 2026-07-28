@@ -33,7 +33,7 @@ MONTH_NAMES = (
 )
 CONFIRMED_DATE_RE = re.compile(
     r'(?:' + MONTH_NAMES + r')\s+\d{1,2}[,\s]+20\d{2}'   # "March 15, 2026"
-    r'|20\d{2}[\-/]\d{2}'                                   # "2026-06"
+    r'|20\d{2}[\-/.]\d{2}'                                  # "2026-06", "2026.02.15"
     r'|\d{1,2}[\-/]\d{1,2}[\-/]20\d{2}'                    # "06/15/2026"
     r'|(?:' + MONTH_NAMES + r')[,\s]+20\d{2}',              # "June 2026"
     re.IGNORECASE,
@@ -49,7 +49,10 @@ _MONTH_NUM = {m: i + 1 for i, m in enumerate(
 for _m, _n in list(_MONTH_NUM.items()):
     _MONTH_NUM[_m[:3]] = _n
 
-_ISO_FULL_RE      = re.compile(r'(20\d{2})[-/](\d{1,2})[-/](\d{1,2})')
+# Separator class includes '.' — six live entries carried "2026.03.03"-style
+# deadlines (common on Japanese sites) that parsed to None and were therefore
+# never flagged as past (regression test: DottedDateTests).
+_ISO_FULL_RE      = re.compile(r'(20\d{2})[-/.](\d{1,2})[-/.](\d{1,2})')
 _NUM_MDY_RE       = re.compile(r'\b(\d{1,2})[-/](\d{1,2})[-/](20\d{2})\b')
 # Two-digit-year dates: "5/26/26", "1/15/25". The trailing (?!\d) stops a
 # 2-digit year from matching the first two digits of a 4-digit year (those are
@@ -58,7 +61,7 @@ _NUM_MDY_RE       = re.compile(r'\b(\d{1,2})[-/](\d{1,2})[-/](20\d{2})\b')
 _NUM_MDY_2YR_RE   = re.compile(r'\b(\d{1,2})/(\d{1,2})/(\d{2})(?!\d)')
 _MONTH_DAY_YEAR_RE = re.compile(r'(' + MONTH_NAMES + r')[a-z]*\.?\s+(\d{1,2})(?:st|nd|rd|th)?[,\s]+(20\d{2})', re.IGNORECASE)
 _DAY_MONTH_YEAR_RE = re.compile(r'\b(\d{1,2})(?:st|nd|rd|th)?\s+(' + MONTH_NAMES + r')[a-z]*\.?[,\s]+(20\d{2})', re.IGNORECASE)
-_ISO_YM_RE        = re.compile(r'(20\d{2})[-/](\d{1,2})(?![-/\d])')
+_ISO_YM_RE        = re.compile(r'(20\d{2})[-/.](\d{1,2})(?![-/.\d])')
 _MONTH_YEAR_RE    = re.compile(r'(' + MONTH_NAMES + r')[a-z]*\.?[,\s]+(20\d{2})', re.IGNORECASE)
 # Japanese-format dates — her most relevant calls (JP watercolor exhibitions) use
 # these, and the Western regexes above can't read them. 令和 (Reiwa) era: western

@@ -117,3 +117,28 @@ class VenueExemptionTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class DottedDateTests(unittest.TestCase):
+    """Y.M.D dotted dates — regression 2026-07-28. Six live entries carried
+    deadlines like "2026.03.03" that parsed to None, so a March deadline was
+    still being served as open in late July. The アーツカウンシル東京 entry sat
+    unflagged in stretch_targets for four months past its deadline."""
+
+    def test_dotted_full_date_parses(self):
+        self.assertEqual(parse_deadline_date("2026.03.03"), date(2026, 3, 3))
+
+    def test_dotted_date_with_time_parses(self):
+        self.assertEqual(parse_deadline_date("2026.07.30 18:00"), date(2026, 7, 30))
+
+    def test_dotted_year_month_resolves_to_month_end(self):
+        # Consistent with "2026年9月" behavior: month-only means end of month.
+        self.assertEqual(parse_deadline_date("2026.09"), date(2026, 9, 30))
+
+    def test_past_dotted_date_is_flagged_passed(self):
+        result = classify_deadline("", "2026.03.03", today=TODAY)
+        self.assertEqual(result.get("deadline_type"), "passed")
+
+    def test_future_dotted_date_stays_confirmed(self):
+        result = classify_deadline("", "2027.02.15", today=TODAY)
+        self.assertEqual(result.get("deadline_type"), "confirmed_date")
