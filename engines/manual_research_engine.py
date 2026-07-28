@@ -41,7 +41,7 @@ from engines.deadline_normaliser import parse_deadline_date
 
 # The only fields a manual record may write. A typo'd key is a silent no-op,
 # so unknown names are rejected loudly rather than ignored.
-ALLOWED_FIELDS = ("deadline", "fee", "contact_email", "submission_url")
+ALLOWED_FIELDS = ("deadline", "fee", "contact_email", "submission_url", "eligibility")
 
 # Split-field pairs (audit 2026-07-06): different-era engines write different
 # spellings of one concept, and readers prefer different sides — _fees_value

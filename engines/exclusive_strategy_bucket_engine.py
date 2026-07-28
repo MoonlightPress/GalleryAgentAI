@@ -318,6 +318,16 @@ def choose_bucket(opp):
     if override in BUCKET_ORDER:
         return override
 
+    # Eligibility she cannot meet. organizations_only (prerequisite_detection)
+    # is structural — she is an individual artist; a 団体-only call is closed
+    # to her regardless of score or verification, so nothing below may rescue
+    # it. Meetable-in-time prerequisites (exhibition credits, publication
+    # history) deliberately keep their normal routing. Found 2026-07-27: Tokyo
+    # Grant Category II surfaced as a top item with 3 days on the clock.
+    _prereqs = set(opp.get("prerequisites") or [])
+    if _prereqs & {"organizations_only", "youth_only"}:
+        return "reject"
+
     # Grants are never filtered by photography or deadline in the usual way.
     # Only verified/strong_partial grants with high scores → stretch_targets.
     # Discovered but unverified grants → research_needed (don't flood stretch_targets).
@@ -349,6 +359,21 @@ def choose_bucket(opp):
         accepted = str(opp.get("accepted_media") or "").lower()
         if "watercolor" not in accepted and "painting" not in accepted:
             return "reject"
+
+    # Photography TITLE gate — 海と山と写真公募展 sat in competitions_awards
+    # (2026-07-28) because its native_medium was "unknown" and its category
+    # "competition_award": both gates above look past a title that literally
+    # says photo open call. An entry named as a photo call is rejected unless
+    # painting evidence appears alongside (mixed calls survive).
+    _PHOTO_TITLE_MARKERS = ("写真公募", "写真コン", "写真展", "photography contest",
+                            "photo contest", "photography competition",
+                            "photography open call", "photography award")
+    _PAINT_EVIDENCE = ("水彩", "絵画", "イラスト", "painting", "watercolor",
+                       "watercolour", "illustration")
+    _title_media = title + " " + str(opp.get("accepted_media") or "").lower()
+    if any(m in _title_media for m in _PHOTO_TITLE_MARKERS) and \
+       not any(p in _title_media for p in _PAINT_EVIDENCE):
+        return "reject"
 
     # Generic index listing pages and non-art calls: never surface to artist.
     # open_call_index = raw listing-page URLs scraped as link text, not real opportunities.

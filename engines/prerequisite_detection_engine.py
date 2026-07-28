@@ -71,6 +71,43 @@ SIGNAL_RULES = {
         "full cv required",
         "exhibition record required",
     ],
+    # Structural, not meetable-in-time: she is an individual artist. Found
+    # 2026-07-27 — Tokyo Grant Category II (deadline 3 days out) surfaced as
+    # actionable but is open to 団体 (organizations) only. The bucket engine
+    # routes this signal to reject; the others keep their normal routing.
+    "organizations_only": [
+        "団体のみ",
+        "団体に限る",
+        "団体が対象",
+        "個人は応募できません",
+        "個人での応募は不可",
+        "個人不可",
+        "must be organizations",
+        "organizations based in",
+        "organizations only",
+        "groups only",
+        "individuals are ineligible",
+        "individuals are not eligible",
+        "npo法人・実行委員会が対象",
+    ],
+    # Participant age restriction — she is 26 and will never be a minor again.
+    # NARROW on purpose: "children's illustration" is a GENRE she works in, not
+    # an age limit, and student calls are explicitly kept (she IS a student —
+    # Scott, 2026-06-19). Only phrasings that restrict WHO may enter match.
+    "youth_only": [
+        "青少年美术",
+        "青少年絵画",
+        "青少年アート",
+        "青少年美術",
+        "youth art competition",
+        "youth art contest",
+        "under 18",
+        "18歳以下",
+        "小中学生対象",
+        "高校生以下",
+        "ages 6-17",
+        "ages 5-17",
+    ],
 }
 
 # ---------------------------------------------------------------------------
@@ -106,6 +143,8 @@ def build_text_blob(opp):
         "one_sentence", "why_this_fits_short",
         "quick_action", "confirmation_gate_note",
         "relationship_note",
+        "eligibility",  # hand-verified restriction via manual_research — may
+                        # state a constraint the scraped prose never mentioned
     ]:
         val = opp.get(key)
         if val:
