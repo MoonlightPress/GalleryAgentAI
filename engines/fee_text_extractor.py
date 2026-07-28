@@ -7,17 +7,45 @@ from pathlib import Path
 
 COMPACT_PATH = Path("deploy_data/compact_opportunities.json")
 
+# A number that may carry thousands separators but never a trailing one:
+# matches "500", "13,200", "12,000" — but on "¥500, deadline" stops at "500".
+_NUM = r'\d{1,3}(?:,\d{3})*|\d+'
+
 # Patterns applied in order; first match wins
 FEE_PATTERNS = [
     # Yen range or single yen amount
-    (re.compile(r'¥[\d,]+(?:\s*[–\-~]\s*¥?[\d,]+)?'), "amount"),
+    (re.compile(rf'¥(?:{_NUM})(?:\s*[–\-~]\s*¥?(?:{_NUM}))?'), "amount"),
     # Japanese yen expressed with kanji/romaji
-    (re.compile(r'[\d,]+\s*(?:円|yen)', re.IGNORECASE), "amount"),
-    # USD
-    (re.compile(r'\$[\d]+(?:\.\d{2})?\s*(?:USD)?', re.IGNORECASE), "amount"),
+    (re.compile(rf'(?:{_NUM})\s*(?:円|yen)', re.IGNORECASE), "amount"),
+    # USD — grouped digits, else "$12,000" truncated to "$12" (live bug 2026-07-27)
+    (re.compile(rf'\$(?:{_NUM})(?:\.\d{{2}})?\s*(?:USD)?', re.IGNORECASE), "amount"),
     # Euro
-    (re.compile(r'€[\d]+(?:\.\d{2})?'), "amount"),
+    (re.compile(rf'€(?:{_NUM})(?:\.\d{{2}})?'), "amount"),
 ]
+
+# Money named near these words is what she WINS, not what she pays. Reading a
+# prize as an entry fee invents a cost the source never stated — worse than
+# leaving the fee blank, because she budgets against it.
+PRIZE_CONTEXT = re.compile(
+    r'prize|award|grant|winner|wins\b|receives?\b|cash|scholarship'
+    r'|stipend|honorarium|funding|賞金|助成|奨学金',
+    re.IGNORECASE
+)
+
+# How far either side of a matched amount to look for that context.
+PRIZE_WINDOW = 50
+
+# An explicit fee label immediately before the amount overrides prize context —
+# "$12,000 prize. Entry fee: $35" must still yield $35, not nothing.
+FEE_LABEL = re.compile(
+    r'(?:entry|submission|application|registration|handling)?\s*'
+    r'(?:fee|fees|cost|charge|price|参加費|申込料|出品料)\s*'
+    r'(?:is|of|:|：|=)?\s*$',
+    re.IGNORECASE
+)
+
+# How far back to look for that label.
+FEE_LABEL_WINDOW = 30
 
 FREE_PATTERN = re.compile(
     r'\bfree\b'
@@ -65,8 +93,12 @@ def extract_fee(text: str):
         return "Free", True
 
     for pattern, _ in FEE_PATTERNS:
-        m = pattern.search(text)
-        if m:
+        for m in pattern.finditer(text):
+            before = text[max(0, m.start() - FEE_LABEL_WINDOW):m.start()]
+            if not FEE_LABEL.search(before):
+                window = text[max(0, m.start() - PRIZE_WINDOW):m.end() + PRIZE_WINDOW]
+                if PRIZE_CONTEXT.search(window):
+                    continue  # a prize/grant, not a cost — keep looking for a real fee
             return m.group(0).strip(), True
 
     return None, False

@@ -33,11 +33,25 @@ def find_script(script):
     return None
 
 
+def parse_step(step):
+    """Split a PIPELINE entry into (script, args).
+
+    An entry may carry flags — "rumor_mill_engine.py --max 300" — so engine
+    options are reachable from inside the pipeline. Resolution and the
+    optional-script check always use the script name alone."""
+    parts = str(step).split()
+    if not parts:
+        return "", []
+    return parts[0], parts[1:]
+
+
 def run_pipeline(pipeline):
-    for script in pipeline:
+    for step in pipeline:
+        script, args = parse_step(step)
+
         print()
         print("=" * 70)
-        print("RUNNING:", script)
+        print("RUNNING:", step)
         print("=" * 70)
 
         resolved = find_script(script)
@@ -48,7 +62,7 @@ def run_pipeline(pipeline):
                 continue
             raise SystemExit(f"FAILED required missing script: {script}")
 
-        result = subprocess.run([sys.executable, str(resolved)])
+        result = subprocess.run([sys.executable, str(resolved), *args])
 
         if result.returncode != 0:
             raise SystemExit(f"FAILED: {script}")

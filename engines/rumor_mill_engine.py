@@ -19,8 +19,12 @@ import os
 import re
 import time
 import argparse
+from collections import Counter
 from pathlib import Path
 from datetime import datetime
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from engines.deadline_normaliser import parse_deadline_date
 
 try:
     sys.stdout.reconfigure(encoding="utf-8")
@@ -221,14 +225,87 @@ def save_json(path: Path, data) -> None:
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def is_fresh(title: str, log: dict) -> bool:
+# ── search gate ───────────────────────────────────────────────────────────────
+# A time-only cache re-asks every question every cycle. At a monthly cadence a
+# 7-day cache never helps at all, so a full run re-interrogates the entire
+# backlog — 3,042 Tavily credits on 2026-07-27, dying at item 558/577 before it
+# reached the newest discoveries. These two functions gate on what we KNOW
+# instead, and order the queue so new opportunities are searched first.
+
+# Facts that make an item "answered" — nothing further to look up.
+_COMPLETE_FIELDS = ("deadline", "submission_url")
+
+# After this many fruitless searches an item is presumed to have nothing
+# published, and is retried on a widening interval rather than every cycle.
+BARREN_ATTEMPTS = 3
+BARREN_BACKOFF_DAYS = 45   # multiplied by (attempts - BARREN_ATTEMPTS + 1)
+
+
+def _age_days(entry: dict, today: datetime):
+    ts = (entry or {}).get("searched_at")
+    if not ts:
+        return None
+    try:
+        return (today - datetime.fromisoformat(ts)).days
+    except (ValueError, TypeError):
+        return None
+
+
+def _deadline_has_passed(item: dict, today: datetime) -> bool:
+    parsed = parse_deadline_date(str(item.get("deadline") or ""))
+    return bool(parsed and parsed < today.date())
+
+
+def should_search(item: dict, entry, today: datetime = None, cache_days: int = CACHE_DAYS):
+    """Return (search_it, reason). Gates on known facts, not just elapsed time."""
+    today = today or datetime.now()
+
+    if not entry:
+        return True, "never searched"
+
+    age = _age_days(entry, today)
+    if age is None:
+        return True, "no usable searched_at"
+
+    # Already answered: we have the deadline and a way to apply. Only worth
+    # re-asking once that deadline passes and a next edition might be posted.
+    if all(str(item.get(f) or "").strip() for f in _COMPLETE_FIELDS):
+        if _deadline_has_passed(item, today):
+            return True, "deadline passed — checking for a next edition"
+        return False, "already answered (deadline + submission_url known)"
+
+    attempts = int(entry.get("attempts") or 1)
+    if not entry.get("data_found") and attempts >= BARREN_ATTEMPTS:
+        backoff = BARREN_BACKOFF_DAYS * (attempts - BARREN_ATTEMPTS + 1)
+        if age < backoff:
+            return False, f"barren after {attempts} attempts — retry in {backoff - age}d"
+        return True, f"barren retry after {age}d"
+
+    if age < cache_days:
+        return False, f"searched {age}d ago"
+
+    return True, f"stale ({age}d)"
+
+
+def search_priority(item: dict, entry) -> tuple:
+    """Sort key. Never-searched items first, then fewest past attempts, then
+    oldest. A run that dies on quota should die having spent its budget on new
+    opportunities rather than re-grinding the backlog."""
+    if not entry:
+        return (0, 0, 0)
+    attempts = int(entry.get("attempts") or 1)
+    ts = entry.get("searched_at") or ""
+    return (1, attempts, ts)
+
+
+def is_fresh(title: str, log: dict, cache_days: int = CACHE_DAYS) -> bool:
     entry = log.get(title, {})
     ts = entry.get("searched_at")
     if not ts:
         return False
     try:
         age = (datetime.now() - datetime.fromisoformat(ts)).days
-        return age < CACHE_DAYS
+        return age < cache_days
     except Exception:
         return False
 
@@ -241,6 +318,12 @@ def main() -> None:
                         help="Re-search all items, ignoring the 7-day cache")
     parser.add_argument("--max", type=int, default=0,
                         help="Maximum items to process this run (0 = unlimited)")
+    parser.add_argument("--cache-days", type=int, default=CACHE_DAYS,
+                        help=f"Treat a cached search as fresh for this many days "
+                             f"(default {CACHE_DAYS}). Raise it to RESUME a run that "
+                             f"died on quota without re-searching what already "
+                             f"succeeded — the default {CACHE_DAYS}d cache expires "
+                             f"before a monthly pipeline cadence comes back around.")
     args = parser.parse_args()
 
     print("=== Rumor Mill Engine ===")
@@ -250,6 +333,12 @@ def main() -> None:
     needs_research = list(all_buckets.get("needs_research", []))
     log            = load_json(LOG_PATH, {}).get("entries", {}) if LOG_PATH.exists() else {}
 
+    # Never-searched items first. If the run dies on quota (as on 2026-07-27,
+    # at item 558/577), it dies having spent its budget on NEW opportunities
+    # rather than on re-grinding items it has already asked about.
+    needs_research.sort(key=lambda it: search_priority(it, log.get(it.get("title", ""))))
+
+    skipped_reasons = Counter()
     total = len(needs_research)
     print(f"needs_research: {total} items")
     if args.force:
@@ -263,10 +352,12 @@ def main() -> None:
     for i, item in enumerate(needs_research):
         title = item.get("title", f"item_{i}")
 
-        if not args.force and is_fresh(title, log):
-            cached_date = log[title].get("searched_at", "?")[:10]
-            print(f"[{i+1:03d}/{total}] {title[:65]} — cached {cached_date}")
-            continue
+        if not args.force:
+            do_it, why = should_search(item, log.get(title), cache_days=args.cache_days)
+            if not do_it:
+                print(f"[{i+1:03d}/{total}] {title[:60]} — skip: {why}")
+                skipped_reasons[why.split("(")[0].split("—")[0].strip()] += 1
+                continue
 
         if args.max and searched >= args.max:
             print(f"\nLimit of {args.max} reached — stopping.")
@@ -294,9 +385,13 @@ def main() -> None:
         facts = extract_facts(title, all_text)
 
         today = datetime.now().strftime("%Y-%m-%d")
+        # Cumulative, not per-run: the barren back-off needs to know how many
+        # times we have asked this question and come away with nothing.
+        prior_attempts = int((log.get(title) or {}).get("attempts") or 0)
         log[title] = {
             "title":       title,
             "searched_at": datetime.now().isoformat(),
+            "attempts":    prior_attempts + 1,
             "data_found":  facts.get("data_found", False),
             "found":       {k: v for k, v in facts.items()
                             if k not in ("data_found",) and v is not None},
@@ -339,6 +434,10 @@ def main() -> None:
     remaining = len(all_buckets["needs_research"])
     print(f"=== Summary ===")
     print(f"Searched: {searched}  Moved out: {len(moved)}  Remaining in needs_research: {remaining}")
+    if skipped_reasons:
+        print(f"Skipped {sum(skipped_reasons.values())} without spending a search:")
+        for reason, n in skipped_reasons.most_common():
+            print(f"  {n:4}  {reason}")
     print(f"Saved {BUCKET_PATH}")
     print(f"Saved {LOG_PATH}")
     print("\nDone.")

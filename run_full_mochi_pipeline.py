@@ -46,12 +46,25 @@ PIPELINE = [
     "portfolio_match_engine.py",
     "submission_strategy_engine.py",
     "score_sanity_engine.py",
-    "rumor_mill_engine.py",
+    # Capped. Measured 2026-07-27: uncapped, this issued ~1,650 Tavily searches
+    # (2-4 per item x 577 items), consumed the bulk of a 3,042-credit run,
+    # exhausted the monthly quota at item 558/577 — and produced ZERO new
+    # opportunities, because it re-buckets known items rather than discovering.
+    # Discovery yields ~2.7 new opportunities per credit; this yields none.
+    # Items are searched never-seen-first (search_priority), so the cap always
+    # spends on new work rather than re-grinding the backlog.
+    "rumor_mill_engine.py --max 300",
     "rumor_mill_propagation_engine.py",
     "fee_text_extractor.py",
     "deadline_normaliser.py",
     "submission_page_harvester.py",
     "rumor_mill_expansion_runner.py",
+    # Offline fact source — applies hand-verified facts from the SOURCE file
+    # memory/manual_research.json. Costs nothing, so it also runs in the
+    # maintenance pipeline. Sits here so it backstops the two Tavily research
+    # steps above: when they run dry (or die on quota, as on 2026-07-27),
+    # verified facts still land. Fill-only unless a record opts into override.
+    "manual_research_engine.py",
     "verification_report_engine.py",
     "career_strategy_engine.py",
     "global_strategy_rebalance.py",
