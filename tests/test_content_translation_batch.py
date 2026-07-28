@@ -111,6 +111,23 @@ class NeedsTranslationTests(unittest.TestCase):
         self.assertTrue(needs_translation(opp))
 
 
+class DuplicateIdTests(unittest.TestCase):
+    """Live finding from the first real batch (2026-07-28): 'Gallery IRO'
+    exists twice with the same id; by_id kept only the LAST index, so the
+    batch's translations landed on one twin while the other stayed pending —
+    and would be re-submitted (re-paid) every future run, with its results
+    forever landing on the wrong twin. Translations must apply to EVERY entry
+    sharing the id."""
+
+    def test_translations_apply_to_all_duplicates(self):
+        from engines.content_translation_engine import apply_batch, build_id_index
+        opps = [{"id": "dup", "name": "Gallery IRO"},
+                {"id": "dup", "name": "Gallery IRO"}]
+        apply_batch(opps, build_id_index(opps), [dict(TR, id="dup")])
+        self.assertEqual(opps[0].get("name_zh"), "翻译名")
+        self.assertEqual(opps[1].get("name_zh"), "翻译名")
+
+
 class BuildRequestsTests(unittest.TestCase):
 
     def pending(self, n):

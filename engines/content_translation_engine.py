@@ -142,17 +142,27 @@ def build_requests(pending: list[dict], chunk_size: int = BATCH) -> list[dict]:
     return requests
 
 
+def build_id_index(opps: list[dict]) -> dict:
+    """id -> ALL indexes carrying it. Ids are not unique in the live data
+    ('Gallery IRO' twice); keeping only one index left the other twin
+    untranslated forever and re-submitted every run."""
+    by_id: dict = {}
+    for idx, o in enumerate(opps):
+        oid = o.get("id") or o.get("title") or o.get("name") or ""
+        if oid:
+            by_id.setdefault(oid, []).append(idx)
+    return by_id
+
+
 def apply_batch(opps: list[dict], by_id: dict, results: list[dict]):
     for r in results:
         rid = r.get("id", "")
-        idx = by_id.get(rid)
-        if idx is None:
-            continue
-        opp = opps[idx]
-        for field in ALL_FIELDS:
-            val = r.get(field)
-            if val is not None and val != "" and val != []:
-                opp[field] = val
+        for idx in by_id.get(rid, []):
+            opp = opps[idx]
+            for field in ALL_FIELDS:
+                val = r.get(field)
+                if val is not None and val != "" and val != []:
+                    opp[field] = val
 
 
 PENDING_PATH = ROOT / "memory" / "pending_translation_batch.json"
@@ -168,11 +178,7 @@ def run_batched(client=None, compact_path=COMPACT, pending_path=PENDING_PATH,
     with open(compact_path, encoding="utf-8") as f:
         opps = json.load(f)
 
-    by_id: dict = {}
-    for idx, o in enumerate(opps):
-        oid = o.get("id") or o.get("title") or o.get("name") or ""
-        if oid:
-            by_id[oid] = idx
+    by_id = build_id_index(opps)
 
     pending = [o for o in opps if needs_translation(o)]
     print(f"Entries needing translation: {len(pending)} of {len(opps)}")
@@ -215,11 +221,7 @@ def run():
         opps = json.load(f)
 
     # Build id lookup (id > title > name)
-    by_id: dict = {}
-    for idx, o in enumerate(opps):
-        oid = o.get("id") or o.get("title") or o.get("name") or ""
-        if oid:
-            by_id[oid] = idx
+    by_id = build_id_index(opps)
 
     pending = [o for o in opps if needs_translation(o)]
     total = len(pending)

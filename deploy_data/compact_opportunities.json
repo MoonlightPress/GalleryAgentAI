@@ -57853,9 +57853,9 @@
     "rumor_mill_sentiment": "no_data",
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "IRO画廊",
-    "one_sentence_zh": "吉祥寺画廊，商业模式不明确——可能为租赁型或混合型——在接触前需进一步调查。",
-    "why_it_fits_zh": "东京的地理位置符合日本市场定位，但商业模式的不确定性存在投资方向错位的风险。",
+    "name_zh": "Gallery IRO",
+    "one_sentence_zh": "位于吉祥寺的画廊，商业模式尚不明确（可能为租赁或混合型），联系前需进一步调查。",
+    "why_it_fits_zh": "东京的地理位置契合日本市场方向，但商业模式的不确定性带来投资错位的风险。",
     "source_type_weight": 1.0,
     "source_weight_reason": "type:gallery",
     "email_en": null,
@@ -57868,7 +57868,20 @@
     "deadline_type": "passed",
     "deadline_past": true,
     "contact_email": "iro@1-6.jp",
-    "score_base": 6.9
+    "score_base": 6.9,
+    "three_bullets_zh": [
+      "位于文化氛围浓厚的吉祥寺，具有真实的地域吸引力",
+      "关于投稿流程、代理模式或费用的信息不足",
+      "对具备一定日语基础者而言阻力适中；租赁画廊在东京较为普遍"
+    ],
+    "name_ja": "Gallery IRO",
+    "one_sentence_ja": "吉祥寺にあるギャラリーで、ビジネスモデルが不明確（レンタルまたはハイブリッド型の可能性）なため、コンタクト前に調査が必要。",
+    "why_it_fits_ja": "東京という立地は日本重視の方針と合致するが、ビジネスモデルの不透明さが投資の方向性にリスクをもたらす。",
+    "three_bullets_ja": [
+      "文化的に豊かな吉祥寺エリアに位置し、本物の魅力がある",
+      "応募プロセス、代理モデル、費用に関する情報が不十分",
+      "日本語に一定の自信がある場合は摩擦は中程度；レンタルギャラリーは東京では一般的"
+    ]
   },
   {
     "title": "Gallery HANA Shimokitazawa",
@@ -86229,20 +86242,20 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "Gallery IRO",
-    "one_sentence_zh": "吉祥寺画廊，运营模式尚不明确（可能为租赁或混合模式），联系前需进一步调查。",
-    "why_it_fits_zh": "东京的地理位置与日本创作重心相符，但运营模式不透明，存在投入错配的风险。",
+    "one_sentence_zh": "位于吉祥寺的画廊，商业模式尚不明确（可能为租赁或混合型），联系前需进一步调查。",
+    "why_it_fits_zh": "东京的地理位置契合日本市场方向，但商业模式的不确定性带来投资错位的风险。",
     "three_bullets_zh": [
-      "位于文化氛围浓厚的吉祥寺，地域吸引力真实",
-      "征集流程、合作模式及费用信息不足",
-      "对具备一定日语能力的艺术家而言摩擦适中；租赁画廊在东京较为普遍"
+      "位于文化氛围浓厚的吉祥寺，具有真实的地域吸引力",
+      "关于投稿流程、代理模式或费用的信息不足",
+      "对具备一定日语基础者而言阻力适中；租赁画廊在东京较为普遍"
     ],
     "name_ja": "Gallery IRO",
-    "one_sentence_ja": "吉祥寺のギャラリー。ビジネスモデルが不明瞭（レンタルまたはハイブリッドの可能性）であり、コンタクト前に要調査。",
-    "why_it_fits_ja": "東京という立地は日本重視の活動方針と合致するが、運営モデルの不透明さが投資ミスマッチのリスクを生む。",
+    "one_sentence_ja": "吉祥寺にあるギャラリーで、ビジネスモデルが不明確（レンタルまたはハイブリッド型の可能性）なため、コンタクト前に調査が必要。",
+    "why_it_fits_ja": "東京という立地は日本重視の方針と合致するが、ビジネスモデルの不透明さが投資の方向性にリスクをもたらす。",
     "three_bullets_ja": [
-      "文化的に豊かな吉祥寺という立地は本物の魅力がある",
-      "応募プロセス・契約モデル・費用に関する情報が不十分",
-      "日本語に一定の習熟がある場合の摩擦は中程度。東京ではレンタルギャラリーが一般的"
+      "文化的に豊かな吉祥寺エリアに位置し、本物の魅力がある",
+      "応募プロセス、代理モデル、費用に関する情報が不十分",
+      "日本語に一定の自信がある場合は摩擦は中程度；レンタルギャラリーは東京では一般的"
     ],
     "source_type_weight": 1.0,
     "source_weight_reason": "type:local_gallery",
@@ -88355,12 +88368,12 @@
     "site_http_code": 200,
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "英国水彩画家皇家学会",
-    "one_sentence_zh": "Mall Galleries公开展览是英国面向水彩及纸上作品研究的公开展览资源。",
-    "why_it_fits_zh": "水彩、纸上作品及素描领域的公开展览资源，适合直接核实的优质候选项目。",
+    "name_zh": "皇家水彩画家协会（Royal Institute of Painters in Water Colours）",
+    "one_sentence_zh": "Mall Galleries公开展览是英国针对水彩及纸上作品研究的公开征件来源。",
+    "why_it_fits_zh": "适用于水彩、纸上作品及素描的公开展览平台，适合直接核实信息。",
     "name_ja": "Royal Institute of Painters in Water Colours",
-    "one_sentence_ja": "Mall Galleries Open Exhibitionsは、英国における水彩・紙上作品のリサーチに適した公募展ソース。",
-    "why_it_fits_ja": "水彩、素描、紙上作品に関する公募展コンテキストとして有効。直接確認の有力候補。",
+    "one_sentence_ja": "Mall Galleries Open Exhibitionsは、英国における水彩・紙上作品のリサーチ向けオープン展覧会の公募情報源です。",
+    "why_it_fits_ja": "水彩・紙上作品・ドローイングを対象としたオープン展覧会として、直接確認するのに適した候補。",
     "source_type_weight": 1.0,
     "source_weight_reason": "type:open_exhibition",
     "three_bullets": [
@@ -88379,7 +88392,17 @@
     "recommended_body_of_work_ja": "アーティストブック / 印刷物",
     "quick_action_zh": "推荐前请核实最新的投稿、展览或联系信息。",
     "quick_action_ja": "推薦する前に、最新の応募・展示・連絡先情報を確認してください。",
-    "score_base": 5.6
+    "score_base": 5.6,
+    "three_bullets_zh": [
+      "请查阅官方网站了解当前投稿指南及公开征件状态",
+      "在投入时间前请先核实官方网站的最新状态——网站内容会变动，公开征件可能提前截止",
+      "截止日期：2025年1月8日——提交前请在官方网站确认"
+    ],
+    "three_bullets_ja": [
+      "現在の応募ガイドラインと公募状況は公式サイトで確認すること",
+      "時間を投資する前に公式サイトで最新状況を確認すること——サイトは変更され、公募は早期終了することがある",
+      "締め切り：2025年1月8日——応募前に公式サイトで確認すること"
+    ]
   },
   {
     "title": "The Container",
@@ -98101,9 +98124,9 @@
     "category_label": "Other",
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "英国水彩画家皇家学会",
-    "one_sentence_zh": "Mall Galleries公开展览是英国针对水彩/纸上作品研究的公开展览资源。",
-    "why_it_fits_zh": "适合水彩/纸上作品、素描或纸本创作的公开展览场合，适合直接核实参展资格。",
+    "name_zh": "皇家水彩画家协会（Royal Institute of Painters in Water Colours）",
+    "one_sentence_zh": "Mall Galleries公开展览是英国针对水彩及纸上作品研究的公开征件来源。",
+    "why_it_fits_zh": "适用于水彩、纸上作品及素描的公开展览平台，适合直接核实信息。",
     "source_type_weight": 1.0,
     "source_weight_reason": "type:open_exhibition",
     "three_bullets": [
@@ -98118,17 +98141,17 @@
     "email_zh": null,
     "deadline_past": true,
     "three_bullets_zh": [
-      "请查阅官方网站了解最新投稿须知及公开征集状态",
-      "投入时间前请先至官网核实当前状态——网站内容会变动，公开征集也可能提前截止",
-      "截止日期：2025年1月8日——提交前请在官网确认"
+      "请查阅官方网站了解当前投稿指南及公开征件状态",
+      "在投入时间前请先核实官方网站的最新状态——网站内容会变动，公开征件可能提前截止",
+      "截止日期：2025年1月8日——提交前请在官方网站确认"
     ],
-    "name_ja": "英国王立水彩画家協会（Royal Institute of Painters in Water Colours）",
-    "one_sentence_ja": "Mall Galleries Open Exhibitionsは、英国における水彩・紙作品のリサーチに活用できる公募展情報源です。",
-    "why_it_fits_ja": "水彩・紙作品、ドローイングなどに適した公募展の場。公式情報の直接確認に適した候補です。",
+    "name_ja": "Royal Institute of Painters in Water Colours",
+    "one_sentence_ja": "Mall Galleries Open Exhibitionsは、英国における水彩・紙上作品のリサーチ向けオープン展覧会の公募情報源です。",
+    "why_it_fits_ja": "水彩・紙上作品・ドローイングを対象としたオープン展覧会として、直接確認するのに適した候補。",
     "three_bullets_ja": [
-      "公式サイトで最新の応募要項と公募状況を確認してください",
-      "時間を投資する前に公式サイトで現在の状況を確認してください——サイト内容は変わり、公募が早期終了する場合があります",
-      "締切：2025年1月8日——応募前に公式サイトで必ず確認してください"
+      "現在の応募ガイドラインと公募状況は公式サイトで確認すること",
+      "時間を投資する前に公式サイトで最新状況を確認すること——サイトは変更され、公募は早期終了することがある",
+      "締め切り：2025年1月8日——応募前に公式サイトで確認すること"
     ],
     "recommended_body_of_work_zh": "艺术家书籍 / 印刷品",
     "recommended_body_of_work_ja": "アーティストブック / 印刷物",
@@ -103914,7 +103937,13 @@
     "quick_action_ja": "推薦する前に、最新の応募・展示・連絡先情報を確認してください。",
     "contact_email": "competition@commarts.com",
     "name": "Communication Arts Illustration Competition",
-    "score_base": 4.2
+    "score_base": 4.2,
+    "name_zh": "Communication Arts Illustration Competition",
+    "one_sentence_zh": "Communication Arts Illustration Competition 是一个面向全球的插画竞赛，适合水彩／纸上作品方向的研究。",
+    "why_it_fits_zh": "可能适合原创绘画或纸上作品，建议核实后再作推荐。",
+    "name_ja": "Communication Arts Illustration Competition",
+    "one_sentence_ja": "Communication Arts Illustration Competitionは、水彩・紙上作品のリサーチに向けたグローバルなイラスト公募コンペです。",
+    "why_it_fits_ja": "絵画や紙上作品の発表の場として可能性あり。推奨前に要確認。"
   },
   {
     "title": "Offprint",
@@ -110619,7 +110648,13 @@
     "deadline_type": "passed",
     "deadline_past": true,
     "name": "Pastel Society Open Exhibition",
-    "score_base": 3.8
+    "score_base": 3.8,
+    "name_zh": "Pastel Society Open Exhibition",
+    "one_sentence_zh": "Pastel Society Open Exhibition 是英国一个纸上作品公开展览来源，适合水彩／纸上作品方向的研究。",
+    "why_it_fits_zh": "面向绘画、素描及纸上作品的公开展览，值得直接核实。",
+    "name_ja": "Pastel Society Open Exhibition",
+    "one_sentence_ja": "Pastel Society Open Exhibitionは、水彩・紙上作品のリサーチに向けた英国の紙上作品オープン展覧会情報源です。",
+    "why_it_fits_ja": "絵画、素描、紙上作品を対象としたオープン展覧会。直接確認に適した候補。"
   },
   {
     "name": "全國插畫徵集-2026台灣VC文化賞",
@@ -114028,7 +114063,23 @@
     "deadline_type": "passed",
     "deadline_past": true,
     "name": "Mall Galleries Open Exhibitions",
-    "score_base": 3.8
+    "score_base": 3.8,
+    "name_zh": "皇家水彩画家协会（Royal Institute of Painters in Water Colours）",
+    "one_sentence_zh": "Mall Galleries公开展览是英国针对水彩及纸上作品研究的公开征件来源。",
+    "why_it_fits_zh": "适用于水彩、纸上作品及素描的公开展览平台，适合直接核实信息。",
+    "three_bullets_zh": [
+      "请查阅官方网站了解当前投稿指南及公开征件状态",
+      "在投入时间前请先核实官方网站的最新状态——网站内容会变动，公开征件可能提前截止",
+      "截止日期：2025年1月8日——提交前请在官方网站确认"
+    ],
+    "name_ja": "Royal Institute of Painters in Water Colours",
+    "one_sentence_ja": "Mall Galleries Open Exhibitionsは、英国における水彩・紙上作品のリサーチ向けオープン展覧会の公募情報源です。",
+    "why_it_fits_ja": "水彩・紙上作品・ドローイングを対象としたオープン展覧会として、直接確認するのに適した候補。",
+    "three_bullets_ja": [
+      "現在の応募ガイドラインと公募状況は公式サイトで確認すること",
+      "時間を投資する前に公式サイトで最新状況を確認すること——サイトは変更され、公募は早期終了することがある",
+      "締め切り：2025年1月8日——応募前に公式サイトで確認すること"
+    ]
   },
   {
     "name": "OPEN World Exhibition",
@@ -114335,7 +114386,13 @@
     "deadline_type": "passed",
     "deadline_past": true,
     "name": "Royal Institute of Painters in Water Colours",
-    "score_base": 3.7
+    "score_base": 3.7,
+    "name_zh": "Royal Institute of Painters in Water Colours",
+    "one_sentence_zh": "Royal Institute of Painters in Water Colours 是英国一个水彩公开展览来源，适合水彩／纸上作品方向的研究。",
+    "why_it_fits_zh": "专注水彩媒介，媒材契合度高；若要求与日期为最新信息，则为强力候选。",
+    "name_ja": "Royal Institute of Painters in Water Colours",
+    "one_sentence_ja": "Royal Institute of Painters in Water Coloursは、水彩・紙上作品のリサーチに向けた英国の水彩画オープン展覧会情報源です。",
+    "why_it_fits_ja": "水彩に特化した本格的な場。要件と日程が最新であれば、媒体適合性は高い。"
   },
   {
     "name": "Golden Key International Art Competition",
