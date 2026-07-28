@@ -6,17 +6,33 @@ from pathlib import Path
 OPP_PATH = "deploy_data/compact_opportunities.json"
 OUT_PATH = "reports/recommendation_trust_cleaner_report.md"
 
-BAD_TITLE_BITS = [
+# Junk by CONTENT — a title carrying these is garbage whatever the category.
+BAD_CONTENT_BITS = [
+    "continue reading",
+    "magazine subscription",
+    "magazine subscribers",
+    "login to view",
+]
+
+# Junk by SOURCE CHANNEL — social-scraped entries are usually noise. Grants
+# are exempt from these bits (2026-07-28): the gate was hiding ACC Hong Kong
+# Anniversary Fellowships and a Japan Foundation fellowship announced on the
+# orgs' OWN official accounts — ACC is a named Tier-4 prestige target. A
+# real-looking grant sourced from social media is unverified, not junk; the
+# bucket engine's grant gate routes unverified grants to research_needed.
+SOCIAL_SOURCE_BITS = [
     "facebook",
     "instagram",
     "pinterest",
     "tiktok",
-    "continue reading",
-    "magazine subscription",
-    "magazine subscribers",
     "www.facebook.com",
     "www.instagram.com",
 ]
+
+# Kept for any external importers of the old name.
+BAD_TITLE_BITS = BAD_CONTENT_BITS + SOCIAL_SOURCE_BITS
+
+_GRANT_CATEGORIES = {"grant", "global_grant_fellowship"}
 
 BAD_PHRASES = {
     # Remove photography framing from AI-generated descriptions.
@@ -101,7 +117,45 @@ def is_junk(opp):
 
     blob = title + " " + source
 
-    return any(bit in blob for bit in BAD_TITLE_BITS)
+    if any(bit in blob for bit in BAD_CONTENT_BITS):
+        return True
+
+    is_grant = (opp.get("category") in _GRANT_CATEGORIES
+                or opp.get("opportunity_type") == "grant")
+    if is_grant:
+        return False  # social-sourced grants are unverified, not junk
+
+    return any(bit in blob for bit in SOCIAL_SOURCE_BITS)
+
+
+def refresh_visibility(opp):
+    """Re-evaluate junk visibility from CURRENT rules. The old code only ever
+    set hidden (or setdefault'd show), so a stale hidden verdict outlived the
+    rule that produced it — ACC's fellowships stayed invisible after the
+    social-sourced-grant exemption landed. dead_url_pruner runs after this in
+    the pipeline and re-hides dead entries, so restoring show here cannot
+    resurrect a dead URL. Returns 'hidden', 'shown' or None (no change)."""
+    if is_junk(opp):
+        if opp.get("recommendation_visibility") != "hidden":
+            opp["recommendation_visibility"] = "hidden"
+        opp["primary_bucket"] = "reject"
+        opp["verification_bucket"] = "reject"
+        opp["overall_score"] = min(float(opp.get("overall_score", 0) or 0), 2.0)
+        opp["differentiated_score"] = min(float(opp.get("differentiated_score", 0) or 0), 2.0)
+        return "hidden"
+    if opp.get("recommendation_visibility") == "hidden":
+        opp["recommendation_visibility"] = "show"
+        # Clear the junk-gate's reject stamps too, or the freed entry stays
+        # rejected by choose_bucket's verification_bucket gate. The score
+        # crush (min'd to 2.0) is NOT undone — the pre-crush score is gone;
+        # upgraded_score compounds from the stored value, so these entries
+        # re-earn ranking only through fresh scoring passes.
+        for key in ("primary_bucket", "verification_bucket"):
+            if opp.get(key) == "reject":
+                del opp[key]
+        return "shown"
+    opp.setdefault("recommendation_visibility", "show")
+    return None
 
 
 def main():
@@ -110,6 +164,7 @@ def main():
     cleaned = 0
     rejected = 0
     backfilled = 0
+    unhidden = 0
 
     for opp in opps:
         if backfill_identity(opp):
@@ -129,15 +184,11 @@ def main():
                 opp["three_bullets"] = new_bullets
                 cleaned += 1
 
-        if is_junk(opp):
-            opp["recommendation_visibility"] = "hidden"
-            opp["primary_bucket"] = "reject"
-            opp["verification_bucket"] = "reject"
-            opp["overall_score"] = min(float(opp.get("overall_score", 0) or 0), 2.0)
-            opp["differentiated_score"] = min(float(opp.get("differentiated_score", 0) or 0), 2.0)
+        action = refresh_visibility(opp)
+        if action == "hidden":
             rejected += 1
-        else:
-            opp.setdefault("recommendation_visibility", "show")
+        elif action == "shown":
+            unhidden += 1
 
     opps.sort(
         key=lambda x: float(x.get("differentiated_score", x.get("overall_score", 0)) or 0),
@@ -159,6 +210,7 @@ def main():
     print(f"Cleaned text fields: {cleaned}")
     print(f"Hidden junk opportunities: {rejected}")
     print(f"Backfilled name/title identity: {backfilled}")
+    print(f"Un-hidden (no longer junk under current rules): {unhidden}")
     print(f"Wrote {OUT_PATH}")
 
 

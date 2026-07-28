@@ -67,14 +67,20 @@ def has_any(text, terms):
 
 
 def verification_score(opp):
+    # Each concept checks BOTH spellings of its split-field pair. rumor_mill
+    # writes `submission_url` and `fee`; older engines wrote `submission_page`
+    # and `fees`. Counting only one side meant an item rumor_mill had fully
+    # answered still scored <= 2 and was refiled into needs_research on the
+    # next pass — the root cause of the ever-growing research backlog
+    # (714 items by 2026-07-28).
     score = 0
     if opp.get("url_verification_status") == "ok":
         score += 2
-    if opp.get("submission_page"):
+    if opp.get("submission_page") or opp.get("submission_url"):
         score += 2
     if opp.get("deadline"):
         score += 1
-    if opp.get("fees"):
+    if opp.get("fees") or opp.get("fee"):
         score += 1
     if opp.get("contact") or opp.get("email") or opp.get("contact_url") or opp.get("contact_email"):
         score += 1

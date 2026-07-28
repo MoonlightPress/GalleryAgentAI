@@ -44,5 +44,56 @@ class BackfillIdentityTests(unittest.TestCase):
         self.assertEqual(opp["name"], "Real Title")
 
 
+from recommendation_trust_cleaner import is_junk, refresh_visibility
+
+
+class SocialSourcedGrantTests(unittest.TestCase):
+    """Found 2026-07-28: the junk gate hides any entry whose SOURCE is
+    instagram/facebook — which was hiding ACC Hong Kong Anniversary
+    Fellowships and a Japan Foundation fellowship, discovered via the orgs'
+    own official accounts. ACC is a named Tier-4 prestige target (CLAUDE.md).
+    A real-looking grant announced on social media is UNVERIFIED, not junk —
+    the bucket engine's grant gate already routes unverified grants to
+    research_needed, which is where these belong. Non-grant social scrapes
+    stay junk: that part of the gate exists for a reason."""
+
+    ACC = {"title": "ACC Hong Kong Anniversary Fellowships 2026",
+           "category": "grant",
+           "source_url": "https://www.facebook.com/asianculturalcouncil/posts/x"}
+
+    def test_social_sourced_grant_is_not_junk(self):
+        self.assertFalse(is_junk(self.ACC))
+
+    def test_social_sourced_non_grant_is_still_junk(self):
+        opp = {"title": "cool art reel", "category": "gallery_event",
+               "source_url": "https://www.instagram.com/reel/abc"}
+        self.assertTrue(is_junk(opp))
+
+    def test_grant_with_genuinely_junk_title_is_still_junk(self):
+        """The exemption is for the SOURCE bits only — a grant whose title
+        itself trips the junk list stays hidden."""
+        opp = {"title": "login to view this page", "category": "grant",
+               "source_url": "https://www.facebook.com/x"}
+        self.assertTrue(is_junk(opp))
+
+    def test_previously_hidden_entry_is_unhidden_once_no_longer_junk(self):
+        """Sticky-flag regression: after the is_junk fix, ACC's fellowships
+        stayed hidden because the old verdict was stamped on the data and the
+        cleaner only ever setdefault'd. The gate must re-evaluate: junk status
+        comes from the CURRENT rules, not from whatever an older rule decided.
+        (dead_url_pruner runs after this in the pipeline and re-hides dead
+        entries, so restoring show here cannot resurrect dead URLs.)"""
+        opp = {**self.ACC, "recommendation_visibility": "hidden"}
+        refresh_visibility(opp)
+        self.assertEqual(opp["recommendation_visibility"], "show")
+
+    def test_junk_entry_gets_hidden_by_refresh(self):
+        opp = {"title": "cool art reel", "category": "gallery_event",
+               "source_url": "https://www.instagram.com/reel/abc",
+               "recommendation_visibility": "show"}
+        refresh_visibility(opp)
+        self.assertEqual(opp["recommendation_visibility"], "hidden")
+
+
 if __name__ == "__main__":
     unittest.main()

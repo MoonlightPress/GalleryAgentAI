@@ -85,8 +85,19 @@ def verification_summary(opp):
         return "Core public information appears present."
     return f"Verified: {', '.join(verified) if verified else 'none'}. Needs checking: {', '.join(missing)}."
 
+def score_bump(opp, profile):
+    """The profile-fit adjustment upgraded_score adds to its base. Exposed
+    separately so enrichment can seed an idempotency anchor (score_base =
+    stored - bump) without re-deriving this arithmetic."""
+    return _bump(opp, profile)
+
+
 def upgraded_score(opp, profile):
     base = number(opp.get("overall_score"), 0)
+    return round(max(0, min(10, base + _bump(opp, profile))), 1)
+
+
+def _bump(opp, profile):
     category = category_label(opp.get("category")).lower()
     ideal = " ".join(profile.get("ideal_opportunity_types", [])).lower()
     bump = 0.0
@@ -94,18 +105,23 @@ def upgraded_score(opp, profile):
         bump += 0.8
     if get_source(opp):
         bump += 0.4
-    if opp.get("submission_page"):
+    # Both spellings of each split-field pair (rumor_mill writes
+    # submission_url/fee; older engines wrote submission_page/fees) — else a
+    # researched entry misses the bump AND eats the unknown-fee penalty,
+    # ranking below its unresearched twin.
+    if opp.get("submission_page") or opp.get("submission_url"):
         bump += 0.4
-    if not opp.get("fees") or str(opp.get("fees")).lower() in {"unknown", "none", "n/a"}:
+    _fee = opp.get("fees") or opp.get("fee")
+    if not _fee or str(_fee).lower() in {"unknown", "none", "n/a"}:
         bump -= 0.2
-    return round(max(0, min(10, base + bump)), 1)
+    return bump
 
 def confidence_level(opp):
     present = 0
     if get_source(opp): present += 1
-    if opp.get("submission_page"): present += 1
+    if opp.get("submission_page") or opp.get("submission_url"): present += 1
     if opp.get("deadline"): present += 1
-    if opp.get("fees"): present += 1
+    if opp.get("fees") or opp.get("fee"): present += 1
     if opp.get("why_this_fits_short") or opp.get("three_bullets"): present += 1
     if present >= 4: return "High"
     if present >= 2: return "Medium"
