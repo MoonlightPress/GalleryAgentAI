@@ -8,8 +8,14 @@ cd /d "%~dp0"
 if not exist logs\pipeline_runs mkdir logs\pipeline_runs
 rem Log hygiene: prune run logs older than 30 days (no-op if none match; errors suppressed)
 forfiles /p logs\pipeline_runs /m run_*.log /d -30 /c "cmd /c del @path" 2>nul
-set TS=%date:~10,4%-%date:~4,2%-%date:~7,2%_%time:~0,2%%time:~3,2%
-set TS=%TS: =0%
+rem Locale-proof timestamp. The old %date% slicing assumed "Tue 07/28/2026"
+rem (weekday first); this machine renders "07/28/2026 Tue", so TS came out as
+rem "0Tue-8/-02_..." — a path with "/" in it. The redirect below then failed
+rem before python ever started, every weekly run since 2026-07-14 died in
+rem under a second, and check_attention fired a Discord failure alert each
+rem time. Found 2026-07-28 after "a lot of errors on discord".
+for /f %%i in ('powershell -NoProfile -Command "Get-Date -Format yyyy-MM-dd_HHmm"') do set TS=%%i
+if "%TS%"=="" set TS=unknown_time
 python run_maintenance_pipeline.py > "logs\pipeline_runs\run_%TS%.log" 2>&1
 if %errorlevel%==0 (
   python -c "import json,datetime;json.dump({'last_run':datetime.datetime.now().isoformat(),'status':'ok'},open('memory/last_run.json','w'))"

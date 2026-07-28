@@ -95,3 +95,59 @@ class LedgerTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class LockTests(unittest.TestCase):
+    """Concurrency lock. Found 2026-07-28: the weekly scheduled task fires at
+    9:00 AM regardless of what else is running — the same morning it fired,
+    compact_opportunities.json turned up with a torn, interleaved write.
+    (That particular task died before touching data, but the collision class
+    is real: nothing prevented two pipelines writing the same JSON files.)
+    Staleness is age-based (12h), NOT pid-probing — os.kill(pid, 0) on
+    Windows TERMINATES the target process."""
+
+    def setUp(self):
+        self.tmp = Path(tempfile.mkdtemp())
+        self.ledger = self.tmp / "ledger.json"
+        self.lock = self.tmp / "pipeline.lock"
+        (self.tmp / "ok.py").write_text("pass\n", encoding="utf-8")
+        (self.tmp / "boom.py").write_text("import sys; sys.exit(1)\n", encoding="utf-8")
+
+    def tearDown(self):
+        shutil.rmtree(self.tmp, ignore_errors=True)
+
+    def go(self, steps):
+        return run_pipeline(steps, search_dirs=[self.tmp],
+                            ledger_path=self.ledger, lock_path=self.lock)
+
+    def test_lock_is_released_after_a_successful_run(self):
+        self.go(["ok.py"])
+        self.assertFalse(self.lock.exists())
+
+    def test_lock_is_released_after_a_failed_run(self):
+        with self.assertRaises(SystemExit):
+            self.go(["boom.py"])
+        self.assertFalse(self.lock.exists())
+
+    def test_fresh_lock_refuses_a_second_run(self):
+        import json as _json
+        from datetime import datetime as _dt
+        self.lock.write_text(_json.dumps(
+            {"pid": 99999, "started_at": _dt.now().isoformat()}), encoding="utf-8")
+        with self.assertRaises(SystemExit) as cm:
+            self.go(["ok.py"])
+        self.assertIn("already running", str(cm.exception))
+        self.assertTrue(self.lock.exists())  # not ours to delete
+
+    def test_stale_lock_is_replaced_and_the_run_proceeds(self):
+        import json as _json
+        from datetime import datetime as _dt, timedelta as _td
+        self.lock.write_text(_json.dumps(
+            {"pid": 99999,
+             "started_at": (_dt.now() - _td(hours=13)).isoformat()}), encoding="utf-8")
+        self.go(["ok.py"])  # must not raise
+        self.assertFalse(self.lock.exists())
+
+    def test_garbage_lock_file_is_treated_as_stale(self):
+        self.lock.write_text("{ not json", encoding="utf-8")
+        self.go(["ok.py"])  # must not raise
