@@ -186,6 +186,26 @@
       "found": {
         "submission_url": "https://porkbellypress.submittable.com/submit"
       }
+    },
+    {
+      "title": "New Power展",
+      "source_url": "https://x.com/gllyjiyugaoka",
+      "verified_at": "2026-07-29",
+      "override": true,
+      "_note": "Stored deadline '4/30' is yearless, so it could never be flagged past and the entry sat in the ready/new spotlight indefinitely. Scraped mid-2026 from the gallery's X account -> April 30, 2026, which has passed. Source is a login-walled social post (unverifiable directly); this record dates the deadline so the entry closes honestly. rumor_mill's passed-deadline rule will re-check for a next edition.",
+      "found": {
+        "deadline": "2026-04-30"
+      }
+    },
+    {
+      "title": "JIA 日本插畫大賞（Japan Illustration Award）",
+      "source_url": "https://www.threads.com/@ariya_illu/post/DWHLGLBiRXV/",
+      "verified_at": "2026-07-29",
+      "override": true,
+      "_note": "Stored deadline '4月-6月' (April-June window) is yearless and unparseable, keeping the entry 'open' forever. 2026 window has passed; dated to its end so the entry closes honestly and gets re-checked for the 2027 edition.",
+      "found": {
+        "deadline": "2026-06-30"
+      }
     }
   ]
 }
