@@ -93,3 +93,16 @@ test('empty payload never seeds (avoids locking in an all-seen state)', () => {
     assert.equal(store[ 'mochi_new_seeded' ], undefined)   // not seeded yet
   })
 })
+
+test('bannerCount ignores the watch list — those are next-edition reminders, not open calls', () => {
+  // Found 2026-07-29: passed recurring entries get moved to watch_list with
+  // deadline cleared and past reset for display, so they satisfied
+  // isBannerWorthy and inflated "Mochi found N new things" with items she
+  // cannot act on.
+  const s = {
+    todays_focus: [READY('a', { is_new: true })],
+    watch_list:   [READY('w1', { is_new: true }), READY('w2', { is_new: true })],
+  }
+  const fresh = new Set(['a', 'w1', 'w2'])
+  assert.equal(bannerCount(s, fresh), 1)
+})

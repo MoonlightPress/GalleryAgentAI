@@ -45,10 +45,14 @@ export function isBannerWorthy(opp) {
   return !!(opp && !opp.deadline_past && opp.actionability_status === 'ready')
 }
 
-// How many fresh-to-her opps are also banner-worthy.
+// How many fresh-to-her opps are also banner-worthy. The watch list is
+// excluded: passed recurring entries land there with deadline cleared and
+// past reset for display, so they'd pass isBannerWorthy while being
+// next-edition reminders she cannot act on — they inflated the banner count.
 export function bannerCount(sections, fresh) {
   let n = 0
-  for (const items of Object.values(sections || {})) {
+  for (const [key, items] of Object.entries(sections || {})) {
+    if (key === 'watch_list') continue
     for (const o of items || []) {
       if (o && o.id && fresh.has(o.id) && isBannerWorthy(o)) n++
     }

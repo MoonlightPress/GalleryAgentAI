@@ -526,9 +526,17 @@ def _dedup_key(name: str) -> str:
     different events never merge."""
     s = (name or "").lower()
     s = s.replace("tokio", "tokyo")                       # known spelling variant
+    # Unicode roman numerals -> ascii (カテゴリーⅢ vs カテゴリーIII split one
+    # grant into two cards; found 2026-07-29 in the Tokyo Grant family).
+    for uni, asc in (("ⅰ", "i"), ("ⅱ", "ii"), ("ⅲ", "iii"), ("ⅳ", "iv"), ("ⅴ", "v")):
+        s = s.replace(uni, asc)
     s = re.sub(r"20\d{2}", "", s)                         # drop edition year
     s = re.sub(r"\b(exhibitor|open)\s*call\b", "", s)     # drop call qualifiers
-    s = re.sub(r"[\s「」『』()（）+＋・/\-:：,.'’&]", "", s)
+    # Edition/qualifier tokens that split one grant into many cards: fiscal-
+    # year marker, application period (第1期/第2期), and duration qualifiers
+    # (単年助成/長期助成 — the カテゴリー number itself keeps categories apart).
+    s = re.sub(r"年度|第\d+期|単年助成|長期助成", "", s)
+    s = re.sub(r"[\s「」『』【】\[\]［］()（）+＋・/\-:：,.'’&]", "", s)
     return s[:40]
 
 
@@ -3625,7 +3633,11 @@ async def track_event(request: Request):
     phone' is distinguishable from a crawler or from Scott checking his own link.
     Names the specific opportunity/contact when the frontend sends one (Scott,
     2026-07-05: dropped the earlier category-only privacy line). Best-effort —
-    never fails the page over a tracking hiccup."""
+    never fails the page over a tracking hiccup.
+
+    Bot-classified traffic (crawlers, link-unfurlers, headless browsers) is still
+    logged to usage_events.jsonl for later analysis, but never posted live — a
+    scanner hit is not worth a phone ping."""
     try:
         event = await request.json()
     except Exception:
@@ -3663,30 +3675,34 @@ async def track_event(request: Request):
             _atomic_write_json(vpath, log)
         except Exception:
             pass
-        text, status = describe_event(event, day=day, returning=returning)
-        notify_discord(text + suffix, status=status)
+        if not is_bot:
+            text, status = describe_event(event, day=day, returning=returning)
+            notify_discord(text + suffix, status=status)
 
     elif etype == "nav":
         # Navigation streams live (companion moves + debounced section landings).
-        text, status = describe_event(event)
-        notify_discord(text + suffix, status=status)
+        if not is_bot:
+            text, status = describe_event(event)
+            notify_discord(text + suffix, status=status)
 
     elif etype == "action":
         # Streamed live so engagement shows in real time. Names the specific
         # opportunity/contact when the frontend sends one (Scott, 2026-07-05:
         # dropped the earlier category-only privacy line).
-        act = event.get("action", "?")
-        detail = action_detail(event)
-        detail = f" · {detail}" if detail else ""
-        notify_discord(f"👆 {act}" + detail + suffix, status="info")
+        if not is_bot:
+            act = event.get("action", "?")
+            detail = action_detail(event)
+            detail = f" · {detail}" if detail else ""
+            notify_discord(f"👆 {act}" + detail + suffix, status="info")
 
     elif etype in ("leave", "return"):
         # Real, client-measured dwell time — including the final page before
         # she closes the tab, which the idle-gap inference can't see at all.
         # `return` closes the loop: it makes an orphaned `leave` legible as a
         # backgrounded tab rather than an impossible second exit.
-        text, status = describe_event(event)
-        notify_discord(text + suffix, status=status)
+        if not is_bot:
+            text, status = describe_event(event)
+            notify_discord(text + suffix, status=status)
 
     return {"ok": True}
 

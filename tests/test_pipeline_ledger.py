@@ -43,8 +43,13 @@ class LedgerTests(unittest.TestCase):
         shutil.rmtree(self.tmp, ignore_errors=True)
 
     def run_steps(self, steps, **kw):
+        # Isolated lock too — using the default lock path made these tests
+        # contend with (and on success DELETE) a genuinely running pipeline's
+        # lock. Found when the maintenance rehearsal was running during a
+        # test pass and the real lock correctly refused the tests.
         return run_pipeline(steps, search_dirs=[self.tmp],
-                            ledger_path=self.ledger, **kw)
+                            ledger_path=self.ledger,
+                            lock_path=self.tmp / "lock", **kw)
 
     def runs(self):
         return self.marker.read_text(encoding="utf-8").splitlines() if self.marker.exists() else []
