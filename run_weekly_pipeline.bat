@@ -20,8 +20,13 @@ python run_maintenance_pipeline.py > "logs\pipeline_runs\run_%TS%.log" 2>&1
 if %errorlevel%==0 (
   python -c "import json,datetime;json.dump({'last_run':datetime.datetime.now().isoformat(),'status':'ok'},open('memory/last_run.json','w'))"
   rem ── Publish data to server (best-effort; skipped if key or network missing) ──
+  rem ATOMIC upload (2026-07-29): scp writes in place while the live API
+  rem hot-reloads the file on mtime change — an in-place scp let the API read
+  rem a half-written JSON and serve an EMPTY site (observed today). Upload to
+  rem a temp name, validate it parses on the server, then mv (atomic rename).
   if exist "Web\LightsailDefaultKey-us-east-1.pem" (
-    scp -i "Web\LightsailDefaultKey-us-east-1.pem" -o StrictHostKeyChecking=no -o ConnectTimeout=15 deploy_data\compact_opportunities.json ubuntu@18.206.62.200:/opt/mochi/deploy_data/ >> "logs\pipeline_runs\run_%TS%.log" 2>&1
+    scp -i "Web\LightsailDefaultKey-us-east-1.pem" -o StrictHostKeyChecking=no -o ConnectTimeout=15 deploy_data\compact_opportunities.json ubuntu@18.206.62.200:/opt/mochi/deploy_data/compact_opportunities.json.new >> "logs\pipeline_runs\run_%TS%.log" 2>&1
+    ssh -i "Web\LightsailDefaultKey-us-east-1.pem" -o StrictHostKeyChecking=no -o ConnectTimeout=15 ubuntu@18.206.62.200 "python3 -c 'import json; json.load(open(\"/opt/mochi/deploy_data/compact_opportunities.json.new\"))' && mv /opt/mochi/deploy_data/compact_opportunities.json.new /opt/mochi/deploy_data/compact_opportunities.json" >> "logs\pipeline_runs\run_%TS%.log" 2>&1
     scp -i "Web\LightsailDefaultKey-us-east-1.pem" -o StrictHostKeyChecking=no -o ConnectTimeout=15 memory\career_strategy_report.json memory\peer_artists.json ubuntu@18.206.62.200:/opt/mochi/memory/ >> "logs\pipeline_runs\run_%TS%.log" 2>&1
   )
 ) else (

@@ -3733,6 +3733,25 @@
       "draft_introduction_ja": "件名：水彩画作品のお取り扱いについてのご相談\n\nはじめまして。東京在住の水彩画家、GEGYjijiと申します。\n都市の静けさ、室内の光と影、猫といったテーマで水彩画を制作しており、アーティストブックやプリントとしての展開も行っております。\nUTRECHTさんのような空間で作品をお取り扱いいただける可能性について、ご相談できれば大変嬉しく思います。\nご検討のほど、どうぞよろしくお願いいたします。"
     },
     {
+      "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
+      "score": 9.24,
+      "differentiated_score": 11.04,
+      "visual_fit_score": 3.25,
+      "verification_bucket": "",
+      "verification_score": 10,
+      "why": "A recurring Tokyo zine fair with very accessible fees and rolling applications. The next Tokyo event is July 11 2026 (applications close around June 27). If that window is tight, there are more dates through the year — no rush.",
+      "source": "https://note.com/bookcultureclub/n/n053a24287fc2",
+      "visual_hits": [
+        "artist book",
+        "artist_book",
+        "zine"
+      ],
+      "opportunity_type": "open_call",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
       "title": "Book and Sons",
       "score": 8.71,
       "differentiated_score": 10.54,
@@ -5270,25 +5289,6 @@
         "artist_book"
       ],
       "opportunity_type": "grant",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
-    },
-    {
-      "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
-      "score": 9.24,
-      "differentiated_score": 11.04,
-      "visual_fit_score": 3.25,
-      "verification_bucket": "",
-      "verification_score": 10,
-      "why": "A recurring Tokyo zine fair with very accessible fees and rolling applications. The next Tokyo event is July 11 2026 (applications close around June 27). If that window is tight, there are more dates through the year — no rush.",
-      "source": "https://note.com/bookcultureclub/n/n053a24287fc2",
-      "visual_hits": [
-        "artist book",
-        "artist_book",
-        "zine"
-      ],
-      "opportunity_type": "open_call",
       "action_type": "apply",
       "relationship_note": "",
       "draft_introduction_ja": ""
