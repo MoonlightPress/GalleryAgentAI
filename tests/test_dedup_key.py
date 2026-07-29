@@ -75,5 +75,34 @@ class TokyoGrantVariantTests(unittest.TestCase):
         self.assertEqual(a, b)
 
 
+class DedupKeeperTests(unittest.TestCase):
+    """Which duplicate survives matters as much as collapsing them. Found
+    2026-07-29 live: the Tokyo Cat I variants collapsed correctly, but the
+    score-only keeper chose 第1期 (February deadline, PASSED) over 第2期
+    (August 4, open) because the dead edition happened to score higher — the
+    only actionable window disappeared from the site. Openness must outrank
+    score; score breaks ties among equally-open entries."""
+
+    def test_open_entry_beats_higher_scored_passed_entry(self):
+        passed = {"name": "第1期 東京芸術文化創造発信助成 カテゴリーI",
+                  "overall_score": 9.4, "deadline_past": True}
+        open_  = {"name": "第2期 東京芸術文化創造発信助成 カテゴリーI",
+                  "overall_score": 8.6, "deadline_past": False}
+        kept = api._dedup_keep([passed, open_])
+        self.assertEqual(len(kept), 1)
+        self.assertFalse(kept[0]["deadline_past"])
+
+    def test_score_still_breaks_ties_between_open_entries(self):
+        a = {"name": "Some Call A-Edition", "overall_score": 7.0, "deadline_past": False}
+        b = {"name": "Some Call B-Edition", "overall_score": 9.0, "deadline_past": False}
+        b["name"] = a["name"]  # same key
+        kept = api._dedup_keep([a, b])
+        self.assertEqual(kept[0]["overall_score"], 9.0)
+
+    def test_unkeyed_entries_are_never_merged(self):
+        kept = api._dedup_keep([{"name": ""}, {"name": ""}])
+        self.assertEqual(len(kept), 2)
+
+
 if __name__ == "__main__":
     unittest.main()

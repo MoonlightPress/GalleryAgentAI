@@ -1358,8 +1358,18 @@ def load_opportunities() -> list:
             x["category"] = _fallback_category_from_source_type(x.get("source_type"))
 
     # Truth-pass rule 4: the same call can enter twice from different sources
-    # (e.g. NIKA S20 listed under two titles). Dedup by normalized name,
-    # keeping the higher-scored entry.
+    # (e.g. NIKA S20 listed under two titles). Dedup by normalized name.
+    return _dedup_keep(items)
+
+
+def _dedup_keep(items: list) -> list:
+    """Collapse same-key duplicates, choosing the survivor by OPENNESS first,
+    score second. Score-only keeping let a passed edition (第1期, February)
+    outrank the open one (第2期, August 4) and the only actionable window
+    vanished from the site (found live 2026-07-29)."""
+    def rank(x):
+        return (0 if x.get("deadline_past") else 1, _overall_score(x))
+
     best: dict = {}
     for x in items:
         key = _dedup_key(_opp_name(x))
@@ -1367,7 +1377,7 @@ def load_opportunities() -> list:
             best[id(x)] = x
             continue
         cur = best.get(key)
-        if cur is None or _overall_score(x) > _overall_score(cur):
+        if cur is None or rank(x) > rank(cur):
             best[key] = x
     return list(best.values())
 
