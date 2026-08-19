@@ -4,10 +4,10 @@ Tone:
 gentle and curious
 
 Recommended Body of Work:
-Architecture / Memory / Place
+Community / Local Visibility
 
 Core Fit:
-Gallery EF's Meiji-era basement atmosphere resonates directly with GEGYjiji's themes of memory, old architecture, and quiet urban spaces. Asakusa's cultural density makes it the right neighborhood for Tokyo documentation work.
+An established Asakusa space in a century-old machiya that takes proposals and has shown emerging artists — accessible without a juried call. It's a rental/proposal model, so confirm cost and terms; the Meiji-era basement is a distinctive setting you can judge in person.
 
 Draft Structure:
 

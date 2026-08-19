@@ -11,11 +11,11 @@ This turns project concepts into concrete submission paths.
 - Delivery: PDF + Instagram/website link
 
 ### Best First Targets
-- Tokyo Art Book Fair
 - submissions — porkbelly press
+- Submissions — Clavis Publishing
+- Women United ART MAGAZINE Issue XIV Summer 2026
+- 美術手帖 (Bijutsu Techo) — Artist Feature
 - UTRECHT
-- B&B (Book & Beer)
-- B&B Shimokitazawa
 
 ### What To Prepare
 - 12–20 image edit
@@ -33,11 +33,11 @@ This turns project concepts into concrete submission paths.
 - Delivery: PDF + Instagram/website link
 
 ### Best First Targets
-- Tokyo Art Book Fair
 - submissions — porkbelly press
-- UTRECHT
-- Center for Book Arts Opportunities
 - Submissions — Clavis Publishing
+- UTRECHT
+- Tokyo Art Book Fair
+- Center for Book Arts Opportunities
 
 ### What To Prepare
 - 12–20 image edit
@@ -55,11 +55,11 @@ This turns project concepts into concrete submission paths.
 - Delivery: PDF + Instagram/website link
 
 ### Best First Targets
-- Tokyo Art Book Fair
 - submissions — porkbelly press
+- Submissions — Clavis Publishing
+- Women United ART MAGAZINE Issue XIV Summer 2026
+- 美術手帖 (Bijutsu Techo) — Artist Feature
 - UTRECHT
-- B&B (Book & Beer)
-- B&B Shimokitazawa
 
 ### What To Prepare
 - 12–20 image edit
@@ -77,11 +77,11 @@ This turns project concepts into concrete submission paths.
 - Delivery: PDF + Instagram/website link
 
 ### Best First Targets
-- UTRECHT
+- ArtConnect Open Calls
 - DER GREIF
 - 水性繪畫展覽 (Watercolor Exhibition)
 - 水彩アートの祭典 (Watercolor Art Festival)
-- Pen Magazine — Artist Spotlight
+- call for artists | al-tiba9 magazine issue22
 
 ### What To Prepare
 - 12–20 image edit

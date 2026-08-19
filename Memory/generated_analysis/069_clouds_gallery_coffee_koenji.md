@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-06-09
+REPORT GENERATED: 2026-08-11
 
 # CLOUDS Gallery+Coffee Koenji
 
@@ -31,7 +31,9 @@ Dedicated gallery + coffee in Koenji showing local and international artists in 
 Gallery-primary space with international artist program. Explicitly shows emerging and established artists from Japan and abroad. Best gallery-cafe match in Koenji.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Visit in Tokyo — Koenji, Japan to see the space and speak with the manager about upcoming exhibition slots
+- Based in Tokyo — Koenji, Japan — confirm this matches your geographic focus before investing preparation time
+- Deadline: No fixed deadline — rotating exhibitions ongoing — confirm on the official site before submitting
 
 ## 7. Submission / Logistics
 - **Deadline:** No fixed deadline — rotating exhibitions ongoing
@@ -48,5 +50,5 @@ Visit 13:00-19:00 any day except Monday to see current show. Then phone 03-5356-
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-09_
+_Last generated: 2026-08-11_
 

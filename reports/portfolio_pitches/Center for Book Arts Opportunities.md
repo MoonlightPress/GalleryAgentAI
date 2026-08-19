@@ -7,7 +7,7 @@ Artist Book / Printed Matter
 Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.
 
 ## Opportunity Fit
-Potential fit if her work becomes more explicitly book-oriented or object/paper based.
+Potential fit if your work becomes more explicitly book-oriented or object/paper based.
 
 ## Match Signals
 artist book, printed matter, publication, paper

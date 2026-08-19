@@ -7,10 +7,10 @@ Artist Book / Printed Matter
 Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.
 
 ## Opportunity Fit
-Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+Clavis Publishing's focus on visual narratives and artist books overlaps with your practice of documenting Tokyo's ephemeral urban landscapes through watercolor—work that benefits from the sustained, intimate format of a published collection. Your consistent daily practice and 26k following demonstrate the audience and discipline required for a successful artist publication.
 
 ## Match Signals
-small press
+artist book, publication, small press
 
 ## Suggested Submission Framing
 Present this not as a general portfolio, but as a focused body of work.

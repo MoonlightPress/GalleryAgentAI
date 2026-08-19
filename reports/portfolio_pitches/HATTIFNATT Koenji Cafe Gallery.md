@@ -7,7 +7,7 @@ Community / Local Visibility
 Approachable work suitable for cafes, artist-run rooms, small walls, local markets, and gentle public visibility.
 
 ## Opportunity Fit
-The warmth, intimacy, cats, and interior light of GEGYjiji's work maps directly onto HATTIFNATT's storybook sensibility. Highest visual fit score in cafe category.
+A cafe-gallery in Koenji that regularly hangs illustration and painting, books by proposal with no fixed deadline — a low-barrier Tier-1 venue you can reach by phone. The space has a strong storybook/cute aesthetic, so look at it and decide if that's a register you want to sit in.
 
 ## Match Signals
 cafe, local, wall, friendly

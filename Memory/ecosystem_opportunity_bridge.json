@@ -4,15 +4,6 @@
     "why_it_matters": "This is the strongest immediate ecosystem for her visual language: quiet photography, sequences, books, zines, and small-scale cultural visibility.",
     "matched_opportunities": [
       {
-        "title": "flotsam books",
-        "score": 9.4,
-        "differentiated_score": 11.39,
-        "hit_nodes": [
-          "flotsam books"
-        ],
-        "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts"
-      },
-      {
         "title": "UTRECHT",
         "score": 9.4,
         "differentiated_score": 11.24,
@@ -41,8 +32,8 @@
       },
       {
         "title": "MOUNT ZINE",
-        "score": 9.4,
-        "differentiated_score": 10.71,
+        "score": 9.2,
+        "differentiated_score": 10.51,
         "hit_nodes": [
           "MOUNT ZINE"
         ],
@@ -51,34 +42,34 @@
       {
         "title": "TOKYO ART BOOK FAIR 2026",
         "score": 8.6,
-        "differentiated_score": 10.25,
+        "differentiated_score": 10.49,
         "hit_nodes": [
           "TOKYO ART BOOK FAIR"
         ],
         "why": "TOKYO ART BOOK FAIR 2026 takes artist-published work and zines — your daily watercolor practice translates directly into a booklet or artist edition format, and the fair sits inside a contemporary art museum in your city, cutting out travel and setup costs. Check their submission deadline and guidelines for zine/artist book dimensions, then prepare 4–6 representative pages from your urban watercolor diary to propose as a small edition or consignment series."
       },
       {
+        "title": "flotsam books",
+        "score": 8.2,
+        "differentiated_score": 10.19,
+        "hit_nodes": [
+          "flotsam books"
+        ],
+        "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts"
+      },
+      {
         "title": "POST",
-        "score": 8.0,
-        "differentiated_score": 9.21,
+        "score": 7.3,
+        "differentiated_score": 8.51,
         "hit_nodes": [
           "POST"
         ],
         "why": "Bookshop galleries attract culturally-engaged viewers who appreciate documentation and craft without demanding heavy conceptual frameworks. Your work's illustrative qualities are an asset here, not a liability."
       },
       {
-        "title": "Exhibition in Japan (October 16–19, 2026)",
-        "score": 8.4,
-        "differentiated_score": 9.0,
-        "hit_nodes": [
-          "POST"
-        ],
-        "why": "Open call for artists to exhibit work in Japan with explicit invitation on Instagram."
-      },
-      {
         "title": "桜Exhibition2026",
-        "score": 7.4,
-        "differentiated_score": 8.6,
+        "score": 6.9,
+        "differentiated_score": 8.1,
         "hit_nodes": [
           "POST"
         ],
@@ -95,12 +86,21 @@
       },
       {
         "title": "TOKYO ART BOOK FAIR 2026 Exhibitor Call",
-        "score": 4.2,
-        "differentiated_score": 5.7,
+        "score": 3.2,
+        "differentiated_score": 4.94,
         "hit_nodes": [
           "TOKYO ART BOOK FAIR"
         ],
         "why": "Open call for art book and zine fair exhibitors; directly matches artist book and illustration submission needs."
+      },
+      {
+        "title": "Exhibition in Japan (October 16–19, 2026)",
+        "score": 2.0,
+        "differentiated_score": 2.6,
+        "hit_nodes": [
+          "POST"
+        ],
+        "why": "Open call for artists to exhibit work in Japan with explicit invitation on Instagram."
       }
     ]
   },
@@ -111,7 +111,7 @@
       {
         "title": "tata bookshop/gallery",
         "score": 8.8,
-        "differentiated_score": 9.89,
+        "differentiated_score": 10.01,
         "hit_nodes": [
           "VOID"
         ],
@@ -119,8 +119,8 @@
       },
       {
         "title": "Picaresque Gallery",
-        "score": 8.4,
-        "differentiated_score": 9.26,
+        "score": 8.6,
+        "differentiated_score": 9.46,
         "hit_nodes": [
           "VOID"
         ],
@@ -137,8 +137,8 @@
       },
       {
         "title": "Aperture | Photography",
-        "score": 5.9,
-        "differentiated_score": 7.79,
+        "score": 5.5,
+        "differentiated_score": 7.5,
         "hit_nodes": [
           "Aperture"
         ],
@@ -147,7 +147,7 @@
       {
         "title": "Self Publish, Be Happy",
         "score": 5.0,
-        "differentiated_score": 6.48,
+        "differentiated_score": 6.6,
         "hit_nodes": [
           "Self Publish, Be Happy"
         ],
@@ -156,7 +156,7 @@
       {
         "title": "Offprint",
         "score": 5.0,
-        "differentiated_score": 5.75,
+        "differentiated_score": 6.11,
         "hit_nodes": [
           "Offprint"
         ],
@@ -174,24 +174,6 @@
     "why_it_matters": "These are useful for soft visibility and relationship-building before major applications.",
     "matched_opportunities": [
       {
-        "title": "B&B Shimokitazawa",
-        "score": 9.4,
-        "differentiated_score": 11.39,
-        "hit_nodes": [
-          "B&B Shimokitazawa"
-        ],
-        "why": "Suited to low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle"
-      },
-      {
-        "title": "flotsam books",
-        "score": 9.4,
-        "differentiated_score": 11.39,
-        "hit_nodes": [
-          "flotsam books"
-        ],
-        "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts"
-      },
-      {
         "title": "UTRECHT",
         "score": 9.4,
         "differentiated_score": 11.24,
@@ -201,40 +183,58 @@
         "why": "An independent bookstore/gallery built around artist books and printed matter, free and low-friction — a Tier-1 way to put work into circulation as a publication rather than a framed show. It fits if you want to move toward zines or small print editions; if you only make originals, it's a weaker match."
       },
       {
+        "title": "B&B Shimokitazawa",
+        "score": 9.0,
+        "differentiated_score": 10.99,
+        "hit_nodes": [
+          "B&B Shimokitazawa"
+        ],
+        "why": "Suited to low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle"
+      },
+      {
         "title": "MOUNT ZINE",
-        "score": 9.4,
-        "differentiated_score": 10.71,
+        "score": 9.2,
+        "differentiated_score": 10.51,
         "hit_nodes": [
           "MOUNT ZINE"
         ],
         "why": "A permanent zine shop (not a one-off fair) that accepts all genres with no fee and no screening, stocking 150+ titles — a clean ambient-visibility target for artist-book or print work. Recruitment opens twice yearly; the next window is autumn 2026."
       },
       {
+        "title": "flotsam books",
+        "score": 8.2,
+        "differentiated_score": 10.19,
+        "hit_nodes": [
+          "flotsam books"
+        ],
+        "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts"
+      },
+      {
         "title": "POST",
-        "score": 8.0,
-        "differentiated_score": 9.21,
+        "score": 7.3,
+        "differentiated_score": 8.51,
         "hit_nodes": [
           "POST"
         ],
         "why": "Bookshop galleries attract culturally-engaged viewers who appreciate documentation and craft without demanding heavy conceptual frameworks. Your work's illustrative qualities are an asset here, not a liability."
       },
       {
-        "title": "Exhibition in Japan (October 16–19, 2026)",
-        "score": 8.4,
-        "differentiated_score": 9.0,
-        "hit_nodes": [
-          "POST"
-        ],
-        "why": "Open call for artists to exhibit work in Japan with explicit invitation on Instagram."
-      },
-      {
         "title": "桜Exhibition2026",
-        "score": 7.4,
-        "differentiated_score": 8.6,
+        "score": 6.9,
+        "differentiated_score": 8.1,
         "hit_nodes": [
           "POST"
         ],
         "why": "Group exhibition with merchandise sales including posters, acrylic illustration plates, and catalogs suitable for watercolor/illustration artists."
+      },
+      {
+        "title": "Exhibition in Japan (October 16–19, 2026)",
+        "score": 2.0,
+        "differentiated_score": 2.6,
+        "hit_nodes": [
+          "POST"
+        ],
+        "why": "Open call for artists to exhibit work in Japan with explicit invitation on Instagram."
       }
     ]
   }

@@ -4,10 +4,10 @@ Tone:
 gentle and curious
 
 Recommended Body of Work:
-Daily Poetic Photography
+Artist Book / Printed Matter
 
 Core Fit:
-Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to disappearing spaces aligns with this audience's sensibility.
+A design-led bookstore with exhibition space and rolling consignment, reachable directly via Instagram — a Tier-1 way to put printed work in front of a book-oriented Tokyo audience. The listing is thin on terms, so the first move is a direct inquiry, not preparation.
 
 Draft Structure:
 

@@ -22,10 +22,10 @@ Verified: Official/source website, Submission process, Deadline, Fees. Needs che
 - Visual-language fit signals: still, intimate, atmospheric, nostalgic without sentimentality, attentive, quietly melancholic.
 
 ## 4. Public Opportunity Summary
-Dedicated watercolor painting open call exhibition with booth display option matching her medium and practice.
+Dedicated watercolor painting open call exhibition with booth display option matching your medium and practice.
 
 ## 5. Existing Fit Notes
-Dedicated watercolor painting open call exhibition with booth display option matching her medium and practice.
+Dedicated watercolor painting open call exhibition with booth display option matching your medium and practice.
 
 ## 6. Key Points
 - Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter
@@ -47,4 +47,4 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-13_
+_Last generated: 2026-08-04_

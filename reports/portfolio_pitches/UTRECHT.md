@@ -1,16 +1,16 @@
 # Portfolio Pitch — UTRECHT
 
 ## Recommended Body of Work
-Architecture / Memory / Place
+Artist Book / Printed Matter
 
 ## Why This Body Fits
-Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.
+Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.
 
 ## Opportunity Fit
-UTRECHT's focus on artist books and printed matter aligns naturally with your daily watercolor practice—the format removes pressure to scale up or conceptualize, and allows your quiet, observational studies of Tokyo's disappearing architecture to exist as intimate, collectable works. A bookstore gallery audience expects exactly the kind of sustained, understated visual documentation you're already making, without the institutional expectations of a traditional exhibition space.
+An independent bookstore/gallery built around artist books and printed matter, free and low-friction — a Tier-1 way to put work into circulation as a publication rather than a framed show. It fits if you want to move toward zines or small print editions; if you only make originals, it's a weaker match.
 
 ## Match Signals
-architecture, urban, quiet, atmospheric
+artist book, zine, printed matter, publication, edition
 
 ## Suggested Submission Framing
 Present this not as a general portfolio, but as a focused body of work.

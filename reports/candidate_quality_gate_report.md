@@ -1,40 +1,42 @@
 # Candidate Quality Gate Report
 
-Approved: 8
-Rejected: 119
+Approved: 3
+Rejected: 114
 
 ## Rejected
 
-- Royal Watercolour Society — generic page without opportunity language
-- Phoebe Barnicoat Gabriella Painting Me Painting Her watercolour Unframed Artwork: 10.5 x 1 — generic page without opportunity language
+- Browse opportunities | CuratorSpace — junk title contains: browse opportunities
+- Royal Watercolour Society — strong: portfolio review, weak: exhibition, gallery, score too low: 4
 - Exhibition Chelsea Chang Yuchen: a dictionary, a loom, a manifesto, a note, a kite, a phon — strong: printed matter, weak: exhibition, gallery, score too low: 2
+- Event Exhibition New Openings Against Old Surfaces: On Gordon Matta-Clark’s Walls Paper Se — strong: printed matter, weak: exhibition, gallery, score too low: 2
 - Exhibitions — junk title: exhibitions
-- LONDON CALLING Bankside Gallery 5th - 21st June — generic page without opportunity language
+- SUMMER SALON RWS Gallery Tuesday - Saturday, 11am - 5pm — generic page without opportunity language
+- ARTIST PORTFOLIO REVIEWS Personal feedback on your work by an RWS artist NOW BOOKING — strong: portfolio review, weak: artist, book, score too low: 2
+- ARTIST PORTFOLIO REVIEWS — strong: portfolio review, weak: artist, score too low: 1
 - OUR ARTISTS The finest practitioners of water-based media on paper — generic page without opportunity language
-- Phoebe Barnicoat Three Sisters watercolour Unframed Artwork: 10.5 x 14.5cm — generic page without opportunity language
-- Phoebe Barnicoat Snake Meet watercolour Unframed Artwork: 14.5 x 10.5cm — generic page without opportunity language
-- Anne Marlow A Safe Place watercolour & pastel Unframed Artwork: 23.5 x 24cm — generic page without opportunity language
-- 【東京イラストレーターズ・ソサエティ（TIS）】Tokyo Illustrators Society — generic page without opportunity language
-- DESIGN FESTA GALLERY | 全てのアーティストのためのギャラリー — generic page without opportunity language
+- Exhibitions Summer Salon RWS Gallery 11 July - 31 December 2026 LEARN MORE — generic page without opportunity language
+- Exhibitions Summer at Bankside Gallery 2026 31 July - 6 September 2026 LEARN MORE — generic page without opportunity language
+- LEARN MORE — generic page without opportunity language
+- www.royalwatercoloursociety.co.uk — generic page without opportunity language
+- RuptureXIBIT Invitational Residency for Visual Artists & Writers RuptureXIBIT is an inclus — strong: residency, weak: artist, score too low: 1
+- 8.4 TUE 【企画展】『水彩画展』出展者募集中！ — generic page without opportunity language
 - Art Events and Exhibitions｜Tokyo Art Beat — generic page without opportunity language
 - TOKYO ART BOOK FAIR — strong: book fair, weak: book, score too low: 3
 - Jackson's Art Prize — generic page without opportunity language
-- Pinpoint Gallery | 東京都渋谷区渋谷区神宮前PinpointGalleryオフィシャルサイトです。 — generic page without opportunity language
+- 【東京イラストレーターズ・ソサエティ（TIS）】Tokyo Illustrators Society — generic page without opportunity language
+- DESIGN FESTA GALLERY | 全てのアーティストのためのギャラリー — generic page without opportunity language
 - Exhibitions — junk title: exhibitions
 - Requests to List Exhibitions and Events — generic page without opportunity language
-- Printed Matter, Inc. — strong: zine, printed matter, score too low: 2
-- Felix Burrichter PIN-UP Magazine Issue 40: The Independence Issue Periodicals $42.00 Recen — strong: zine, printed matter, score too low: 2
-- Zab Shavrick house zine Books $28.00 Featured at LAABF Recent Arrival — strong: zine, printed matter, weak: book, score too low: 3
-- Jana Zatvarnická The Silver Moon Limited Edition [Magazine + Print] Vol. 1 Editions $120.0 — strong: zine, printed matter, score too low: 2
-- Katelyn Calimag Moving Places and What We Carry Books $25.00 Recent Arrival — strong: printed matter, weak: book, score too low: 1
+- Printed Matter, Inc. — strong: printed matter, zine, score too low: 2
+- Liam Campbell and Elska Magazine Elska No. 60 Chicago Periodicals $22.00 Recent Arrival — strong: printed matter, zine, score too low: 2
 - See all exhibitions — junk title: see all exhibitions
 - Browse Printed Matter Editions — junk title: browse printed matter editions
-- www.jacksonsart.com — generic page without opportunity language
 - Skip to main content — generic page without opportunity language
 - Menu — generic page without opportunity language
 - Artists — generic page without opportunity language
 - EVENTS — generic page without opportunity language
-- Opportunities — generic page without opportunity language
+- Learning — generic page without opportunity language
+- Opportunities — junk title: opportunities
 - Visit — generic page without opportunity language
 - About — generic page without opportunity language
 - Galleries — generic page without opportunity language
@@ -44,79 +46,71 @@ Rejected: 119
 - Venue Hire — generic page without opportunity language
 - Sign up to our newsletter (function($) {window.fnames = new Array(); window.ftypes = new A — generic page without opportunity language
 - New Available Artworks — generic page without opportunity language
-- Lottie Cole Interior with Sunset at Sea watercolour & gouache Framed Artwork: 36 x 26cm Fr — generic page without opportunity language
-- View Detail Page — generic page without opportunity language
-- Caroline Cornelius Erica's Autumn Walk watercolour & colour pencil Unframed Artwork: 26 x  — generic page without opportunity language
-- View Detail Page — generic page without opportunity language
-- Caroline Cornelius Green Floral Sunlounger III watercolour & colour pencil Unframed Artwor — generic page without opportunity language
-- View Detail Page — generic page without opportunity language
-- Caroline Cornelius Someone Broke a Glass in the Guacamole watercolour & colour pencil Unfr — generic page without opportunity language
-- View Detail Page — generic page without opportunity language
-- View Detail Page — generic page without opportunity language
-- View Detail Page — generic page without opportunity language
-- View Detail Page — generic page without opportunity language
-- View Detail Page — generic page without opportunity language
-- View Detail Page — generic page without opportunity language
-- View Detail Page — generic page without opportunity language
-- View Detail Page — generic page without opportunity language
-- View Detail Page — generic page without opportunity language
-- View Detail Page — generic page without opportunity language
-- View Detail Page — generic page without opportunity language
-- Francis Bowyer Celebrating Low Tide watercolour Framed Artwork: 18 x 27cm Frame: 38 x 46cm — generic page without opportunity language
-- View Detail Page — generic page without opportunity language
-- Francis Bowyer Dusk watercolour Unframed with mount Artwork: 16 x 20cm Mount: 32 x 34cm — generic page without opportunity language
-- View Detail Page — generic page without opportunity language
-- Francis Bowyer Moonlit Night watercolour Unframed with mount Artwork: 18 x 21cm Mount: 30  — generic page without opportunity language
-- View Detail Page — generic page without opportunity language
-- Chloë Cheese Texture of an Afternoon watercolour & pencil Unframed Artwork: 19 x 23.5cm — generic page without opportunity language
-- View Detail Page — generic page without opportunity language
-- Jill Leman Butterflies & Tulips watercolour & acrylic Framed Artwork: 40 x 44cm Frame: 47  — generic page without opportunity language
-- View Detail Page — generic page without opportunity language
-- View Detail Page — generic page without opportunity language
-- View Detail Page — generic page without opportunity language
-- View Detail Page — generic page without opportunity language
-- View Detail Page — generic page without opportunity language
-- Akash Bhatt Eklo (Alone) watercolour Framed Artwork: 24 x 28cm Frame: 39 x 43cm — generic page without opportunity language
-- View Detail Page — generic page without opportunity language
-- Annie Williams The Blue Table watercolour Framed Artwork: 38 x 47cm Frame: 59 x 67cm — generic page without opportunity language
-- View Detail Page — generic page without opportunity language
-- Annie Williams Pots and Doodles watercolour Framed Artwork: 27 x 36cm Frame: 45 x 55cm — generic page without opportunity language
-- View Detail Page — generic page without opportunity language
-- Annie Williams Still Life with a Touch of Green watercolour & gouache Framed Artwork: 30 x — generic page without opportunity language
-- View Detail Page — generic page without opportunity language
-- Anne Marlow Seathrift watercolour & pastel Unframed Artwork: 24 x 26.5cm — generic page without opportunity language
-- View Detail Page — generic page without opportunity language
-- View Detail Page — generic page without opportunity language
-- Anne Marlow Waiting for the Ark watercolour & pastel Unframed Artwork: 20 x 20cm — generic page without opportunity language
-- View Detail Page — generic page without opportunity language
-- View Detail Page — generic page without opportunity language
-- Magazine — strong: zine, open call, score too low: 2
-- 2026 scovill sculpture park exhibition — strong: open call, weak: exhibition, gallery, score too low: 2
+- www.royalwatercoloursociety.co.uk — generic page without opportunity language
+- www.royalwatercoloursociety.co.uk — generic page without opportunity language
+- www.royalwatercoloursociety.co.uk — generic page without opportunity language
+- www.royalwatercoloursociety.co.uk — generic page without opportunity language
+- www.royalwatercoloursociety.co.uk — generic page without opportunity language
+- www.royalwatercoloursociety.co.uk — generic page without opportunity language
+- www.royalwatercoloursociety.co.uk — generic page without opportunity language
+- www.royalwatercoloursociety.co.uk — generic page without opportunity language
+- www.royalwatercoloursociety.co.uk — generic page without opportunity language
+- www.royalwatercoloursociety.co.uk — generic page without opportunity language
+- www.royalwatercoloursociety.co.uk — generic page without opportunity language
+- www.royalwatercoloursociety.co.uk — generic page without opportunity language
+- www.royalwatercoloursociety.co.uk — generic page without opportunity language
+- www.royalwatercoloursociety.co.uk — generic page without opportunity language
+- www.royalwatercoloursociety.co.uk — generic page without opportunity language
+- www.royalwatercoloursociety.co.uk — generic page without opportunity language
+- www.royalwatercoloursociety.co.uk — generic page without opportunity language
+- Visit — generic page without opportunity language
+- Venue Hire — generic page without opportunity language
+- Press — generic page without opportunity language
+- Copyright Notice — generic page without opportunity language
+- Privacy Policy — generic page without opportunity language
+- Sales Policy — generic page without opportunity language
+- Instagram , opens in a new tab. — junk title contains: instagram
+- Facebook , opens in a new tab. — junk title contains: facebook
+- Pinterest , opens in a new tab. — junk title contains: pinterest
+- Find Out More — generic page without opportunity language
+- Magazine — strong: open call, zine, score too low: 2
 - Open Call — strong: open call, has submission link, score too low: 3
-- residency programme for foreign choreographers — strong: residency, open call, score too low: 2
+- 2027 residency — strong: residency, open call, score too low: 2
 - Residency — strong: residency, open call, score too low: 2
-- Open Calls — strong: open call, has submission link, score too low: 3
-- www.curatorspace.com — generic page without opportunity language
+- kathmandu international artists in residency 2027 — strong: residency, open call, weak: artist, score too low: 3
+- Open Calls — junk title: open calls
+- www.curatorspace.com — junk title: www.curatorspace.com
+- Report this? — weak: artist, exhibition, gallery, has submission link, score too low: 4
+- www.curatorspace.com — junk title: www.curatorspace.com
+- Report this? — weak: exhibition, gallery, has submission link, score too low: 3
+- www.curatorspace.com — junk title: www.curatorspace.com
 - Report this? — generic page without opportunity language
+- Exhibition Elmswell Library is looking for artists to exhibit. We are a village library in — generic page without opportunity language
 - 展覧会 — bad/missing title
-- 2026.06.01 Tokyo Illustrators Society Presents Illustration Works in NAGAOKA 202人のイラストレーター — generic page without opportunity language
-- 展覧会 2025.08.04 Illustration Talks v — generic page without opportunity language
 - 展覧会 2025.08.04 Illustration Talks v — generic page without opportunity language
 - 展覧会 2025.05.16 Illustration Works 1 — generic page without opportunity language
+- 展覧会 2025.08.04 Illustration Talks v — generic page without opportunity language
 - 展覧会 2025.04.18 「110人のイラストレーターが描く 宮沢 — generic page without opportunity language
-- Memory Box 2026.06.19(金) - 2026.06.25(木) — generic page without opportunity language
 - これから開催の展示 — generic page without opportunity language
 - これまで開催の展示 — generic page without opportunity language
-- 『記憶の欠片』展 — generic page without opportunity language
 - 〒530-0015 — generic page without opportunity language
-- DFG MURAL PROJECT 2026 — generic page without opportunity language
+- DFG MURAL PROJECT 2026: Part 2 — generic page without opportunity language
 - ボタニカ展 — generic page without opportunity language
-- GuroKawa Exhibition2 — generic page without opportunity language
-- 原宿カワイイ展 〜キラキラフィーバー！〜 — generic page without opportunity language
-- 青空展 — bad/missing title
-- 2026年4月22日 【企画展】『GuroKawa Exhibition2』出展者募集中！🎨 — generic page without opportunity language
-- UES PLACE – TOKYO ROUND – — generic page without opportunity language
-- pinpointgallery.com — generic page without opportunity language
+- 幻想生物展 — generic page without opportunity language
+- 水彩画展 — generic page without opportunity language
+- Christmas Happiness — generic page without opportunity language
+- 版画展 — bad/missing title
+- 喫茶展 — bad/missing title
+- 呪い — bad/missing title
+- 0号展 — bad/missing title
+- 銭湯サウナ展2 — generic page without opportunity language
+- 原宿カワイイ展〜キラキラフィーバー！Again!〜 — generic page without opportunity language
+- MIZUIRO PINK — generic page without opportunity language
+- 8.8 SAT 【企画展】『喫茶展』出展者募集中☕️ NEW — generic page without opportunity language
+- 8.8 SAT 【企画展】『呪い』 🔮出展者募集中🕯️ — generic page without opportunity language
+- 8.16 SUN つみきの展示 — generic page without opportunity language
+- 8.16 SUN MELANCHOLY 2nd solo exhibition『Affogato』 — generic page without opportunity language
+- シュール展 — generic page without opportunity language
 - pinpointgallery.com — generic page without opportunity language
 - pinpointgallery.com — generic page without opportunity language
 - pinpointgallery.com — generic page without opportunity language
@@ -124,14 +118,10 @@ Rejected: 119
 - Gallery IYN｜大阪市北区中崎町｜ギャラリー — generic page without opportunity language
 - HB Galleryã®ãã¼ã ãã¼ã¸ã¸ãããã — generic page without opportunity language
 - OPA galleryã»shop — generic page without opportunity language
+- Pinpoint Gallery | 東京都渋谷区渋谷区神宮前PinpointGalleryオフィシャルサイトです。 — generic page without opportunity language
 
 ## Approved
 
-- Home - Printed Matter — strong: zine, printed matter, photobook, book fair, weak: book, exhibition
-- Browse opportunities | CuratorSpace — strong: submission, residency, open call, weak: exhibition
-- Top Artist Opportunities for 2026 | ArtConnect — strong: zine, submission, residency, open call, weak: exhibition, artist
-- Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod — strong: open call, weak: exhibition, artist, has submission link
-- open submissions for issue four — strong: submission, open call, has submission link
+- Home - Printed Matter — strong: printed matter, book fair, zine, photobook, weak: exhibition, book
+- Top Artist Opportunities for 2026 | ArtConnect — strong: submission, residency, open call, zine, weak: artist, exhibition
 - Art Submissions — strong: submission, open call, has submission link
-- www.curatorspace.com — strong: award, residency, weak: artist, has submission link
-- Report this? — strong: award, residency, weak: artist, has submission link

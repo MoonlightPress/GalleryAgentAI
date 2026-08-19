@@ -67,42 +67,6 @@
         "source": "https://www.womenunitedartmovement.com/artmagazine"
       },
       {
-        "title": "SUBMISSIONS - marblepress.com",
-        "score": 9.24,
-        "differentiated_score": 11.39,
-        "verification": "verified",
-        "hits": [
-          "artist book",
-          "small press"
-        ],
-        "why": "Publishing / Small Press (found through targeted research).",
-        "source": "https://marblepress.com/submissions/"
-      },
-      {
-        "title": "B&B Shimokitazawa",
-        "score": 8.22,
-        "differentiated_score": 11.39,
-        "verification": "verified",
-        "hits": [
-          "zine",
-          "artist book"
-        ],
-        "why": "Suited to low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle",
-        "source": "https://bookandbeer.com/"
-      },
-      {
-        "title": "flotsam books",
-        "score": 8.22,
-        "differentiated_score": 11.39,
-        "verification": "verified",
-        "hits": [
-          "zine",
-          "artist book"
-        ],
-        "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts",
-        "source": "https://www.flotsambooks.com/"
-      },
-      {
         "title": "美術手帖 (Bijutsu Techo) — Artist Feature",
         "score": 9.24,
         "differentiated_score": 11.29,
@@ -126,6 +90,43 @@
         ],
         "why": "A major art-book fair with a curated small-press community and a printed-matter audience — a real route to that audience, but only if publishing is a direction you want. It requires finished publications and several days of staffing a booth, so weigh that cost honestly. Entry fee ¥1,000.",
         "source": "https://tokyoartbookfair.com/"
+      },
+      {
+        "title": "TOKIO ART BOOK FAIR 2026",
+        "score": 10.0,
+        "differentiated_score": 11.24,
+        "verification": "needs_research",
+        "hits": [
+          "zine",
+          "artist book",
+          "book fair"
+        ],
+        "why": "Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors.",
+        "source": "https://tokioartbookfair.com"
+      },
+      {
+        "title": "本店・本屋の実験室",
+        "score": 10.0,
+        "differentiated_score": 11.24,
+        "verification": "verified",
+        "hits": [
+          "zine",
+          "artist book"
+        ],
+        "why": "An independent Koenji bookstore running zine events and experimental print, with an open submission form and a low ¥500 fee — a low-barrier route for printed/serialized work. Confirm exactly what the current call accepts before submitting.",
+        "source": "https://honnonagaya-honten.com/"
+      },
+      {
+        "title": "UTRECHT",
+        "score": 9.24,
+        "differentiated_score": 11.24,
+        "verification": "verified",
+        "hits": [
+          "zine",
+          "artist book"
+        ],
+        "why": "An independent bookstore/gallery built around artist books and printed matter, free and low-friction — a Tier-1 way to put work into circulation as a publication rather than a framed show. It fits if you want to move toward zines or small print editions; if you only make originals, it's a weaker match.",
+        "source": "https://utrecht.jp/"
       }
     ],
     "best_publisher_targets": [
@@ -273,39 +274,6 @@
         "source": "https://www.womenunitedartmovement.com/artmagazine"
       },
       {
-        "title": "SUBMISSIONS - marblepress.com",
-        "score": 9.24,
-        "differentiated_score": 11.39,
-        "verification": "verified",
-        "hits": [
-          "artist book"
-        ],
-        "why": "Publishing / Small Press (found through targeted research).",
-        "source": "https://marblepress.com/submissions/"
-      },
-      {
-        "title": "B&B Shimokitazawa",
-        "score": 8.22,
-        "differentiated_score": 11.39,
-        "verification": "verified",
-        "hits": [
-          "artist book"
-        ],
-        "why": "Suited to low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle",
-        "source": "https://bookandbeer.com/"
-      },
-      {
-        "title": "flotsam books",
-        "score": 8.22,
-        "differentiated_score": 11.39,
-        "verification": "verified",
-        "hits": [
-          "artist book"
-        ],
-        "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts",
-        "source": "https://www.flotsambooks.com/"
-      },
-      {
         "title": "美術手帖 (Bijutsu Techo) — Artist Feature",
         "score": 9.24,
         "differentiated_score": 11.29,
@@ -326,6 +294,39 @@
         ],
         "why": "A major art-book fair with a curated small-press community and a printed-matter audience — a real route to that audience, but only if publishing is a direction you want. It requires finished publications and several days of staffing a booth, so weigh that cost honestly. Entry fee ¥1,000.",
         "source": "https://tokyoartbookfair.com/"
+      },
+      {
+        "title": "TOKIO ART BOOK FAIR 2026",
+        "score": 10.0,
+        "differentiated_score": 11.24,
+        "verification": "needs_research",
+        "hits": [
+          "artist book"
+        ],
+        "why": "Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors.",
+        "source": "https://tokioartbookfair.com"
+      },
+      {
+        "title": "本店・本屋の実験室",
+        "score": 10.0,
+        "differentiated_score": 11.24,
+        "verification": "verified",
+        "hits": [
+          "artist book"
+        ],
+        "why": "An independent Koenji bookstore running zine events and experimental print, with an open submission form and a low ¥500 fee — a low-barrier route for printed/serialized work. Confirm exactly what the current call accepts before submitting.",
+        "source": "https://honnonagaya-honten.com/"
+      },
+      {
+        "title": "UTRECHT",
+        "score": 9.24,
+        "differentiated_score": 11.24,
+        "verification": "verified",
+        "hits": [
+          "artist book"
+        ],
+        "why": "An independent bookstore/gallery built around artist books and printed matter, free and low-friction — a Tier-1 way to put work into circulation as a publication rather than a framed show. It fits if you want to move toward zines or small print editions; if you only make originals, it's a weaker match.",
+        "source": "https://utrecht.jp/"
       }
     ],
     "best_publisher_targets": [
@@ -428,44 +429,6 @@
         "source": "https://www.womenunitedartmovement.com/artmagazine"
       },
       {
-        "title": "SUBMISSIONS - marblepress.com",
-        "score": 9.24,
-        "differentiated_score": 11.39,
-        "verification": "verified",
-        "hits": [
-          "small press",
-          "artist book"
-        ],
-        "why": "Publishing / Small Press (found through targeted research).",
-        "source": "https://marblepress.com/submissions/"
-      },
-      {
-        "title": "B&B Shimokitazawa",
-        "score": 8.22,
-        "differentiated_score": 11.39,
-        "verification": "verified",
-        "hits": [
-          "zine",
-          "bookstore",
-          "artist book"
-        ],
-        "why": "Suited to low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle",
-        "source": "https://bookandbeer.com/"
-      },
-      {
-        "title": "flotsam books",
-        "score": 8.22,
-        "differentiated_score": 11.39,
-        "verification": "verified",
-        "hits": [
-          "zine",
-          "bookstore",
-          "artist book"
-        ],
-        "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts",
-        "source": "https://www.flotsambooks.com/"
-      },
-      {
         "title": "美術手帖 (Bijutsu Techo) — Artist Feature",
         "score": 9.24,
         "differentiated_score": 11.29,
@@ -489,6 +452,45 @@
         ],
         "why": "A major art-book fair with a curated small-press community and a printed-matter audience — a real route to that audience, but only if publishing is a direction you want. It requires finished publications and several days of staffing a booth, so weigh that cost honestly. Entry fee ¥1,000.",
         "source": "https://tokyoartbookfair.com/"
+      },
+      {
+        "title": "TOKIO ART BOOK FAIR 2026",
+        "score": 10.0,
+        "differentiated_score": 11.24,
+        "verification": "needs_research",
+        "hits": [
+          "zine",
+          "book fair",
+          "artist book"
+        ],
+        "why": "Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors.",
+        "source": "https://tokioartbookfair.com"
+      },
+      {
+        "title": "本店・本屋の実験室",
+        "score": 10.0,
+        "differentiated_score": 11.24,
+        "verification": "verified",
+        "hits": [
+          "zine",
+          "bookstore",
+          "artist book"
+        ],
+        "why": "An independent Koenji bookstore running zine events and experimental print, with an open submission form and a low ¥500 fee — a low-barrier route for printed/serialized work. Confirm exactly what the current call accepts before submitting.",
+        "source": "https://honnonagaya-honten.com/"
+      },
+      {
+        "title": "UTRECHT",
+        "score": 9.24,
+        "differentiated_score": 11.24,
+        "verification": "verified",
+        "hits": [
+          "zine",
+          "bookstore",
+          "artist book"
+        ],
+        "why": "An independent bookstore/gallery built around artist books and printed matter, free and low-friction — a Tier-1 way to put work into circulation as a publication rather than a framed show. It fits if you want to move toward zines or small print editions; if you only make originals, it's a weaker match.",
+        "source": "https://utrecht.jp/"
       }
     ],
     "best_publisher_targets": [

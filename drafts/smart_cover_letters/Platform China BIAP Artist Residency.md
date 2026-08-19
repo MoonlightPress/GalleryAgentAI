@@ -7,7 +7,7 @@ Recommended Body of Work:
 General Portfolio
 
 Core Fit:
-Beijing open residency in Caochangdi — relevant for when GEGYjiji travels to China. Rolling applications, no fixed deadline. Exhibition opportunity included.
+Beijing open residency in Caochangdi — relevant for when you travel to China. Rolling applications, no fixed deadline. Exhibition opportunity included.
 
 Draft Structure:
 

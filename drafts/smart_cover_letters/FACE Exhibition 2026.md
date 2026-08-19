@@ -7,7 +7,7 @@ Recommended Body of Work:
 Daily Poetic Photography
 
 Core Fit:
-FACE Exhibition's embrace of diverse two-dimensional expressions aligns perfectly with GEGYjiji's daily watercolor practice documenting Tokyo's shifting urban landscapes and ephemeral architectural moments. As a Chinese diaspora artist working within Japan's visual culture, she brings the specific sensibility this nationwide platform seeks—intimate observation translated through works on paper that capture quiet, disappearing spaces.
+FACE Exhibition's embrace of diverse two-dimensional expressions overlaps with your medium and Tokyo subject matter documenting Tokyo's shifting urban landscapes and ephemeral architectural moments. As a Chinese diaspora artist working within Japan's visual culture, you bring the specific sensibility this nationwide platform seeks—intimate observation translated through works on paper that capture quiet, disappearing spaces.
 
 Draft Structure:
 

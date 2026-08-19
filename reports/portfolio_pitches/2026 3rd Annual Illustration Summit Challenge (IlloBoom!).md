@@ -7,7 +7,7 @@ General Portfolio
 A concise selection of her strongest current work.
 
 ## Opportunity Fit
-Global illustration competition accepting all art styles and themes from students, professionals, and enthusiasts; perfect fit for illustration artist.
+Global illustration competition accepting all art styles and themes from students, professionals, and enthusiasts.
 
 ## Match Signals
 No strong keyword match stored yet.

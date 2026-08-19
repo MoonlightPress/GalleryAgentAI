@@ -7,7 +7,7 @@ Recommended Body of Work:
 Community / Local Visibility
 
 Core Fit:
-SHIBUYA CAST. sits at the intersection of community and design in central Shibuya — a discerning audience open to contemporary accessible art. Urban Tokyo watercolors resonate with the community-oriented programming of this complex.
+A central-Shibuya venue with gallery space and event programming, reachable by proposal rather than a juried call. Location and foot traffic are the concrete draw; whether the space suits your work is something to check against their current shows.
 
 Draft Structure:
 

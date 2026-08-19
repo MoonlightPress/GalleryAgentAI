@@ -7,7 +7,7 @@ Recommended Body of Work:
 Architecture / Memory / Place
 
 Core Fit:
-芸術活動への助成 explicitly supports watercolor works in exhibitions, making it a direct match for GEGYjiji's daily practice of capturing Tokyo's disappearing urban moments through the medium. The grant's focus on visual art exhibitions provides ideal funding for her to develop and present the architectural and memory-driven work that defines her practice.
+芸術活動への助成 explicitly supports watercolor works in exhibitions, making it a direct match for your daily practice of capturing Tokyo's disappearing urban moments through the medium. The grant's focus on visual art exhibitions provides ideal funding for you to develop and present the architectural and memory-driven work that defines your practice.
 
 Draft Structure:
 

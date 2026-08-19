@@ -2,11 +2,11 @@
 
 Today's strategic tasks:
 
-- Research CSPWC Annual Open Water International Exhibition submission process.
-- Research 2026博洛尼亚国际插画大赛 submission process.
+- Research MICRO/MACRO submission process.
+- Research Cité Internationale des Arts Artist Residency submission process.
+- Research IlloBoom! 2026 第三屆插畫巔峰賽 submission process.
+- Research Asian Cultural Council (ACC) 2026 Award Program / 亞洲文化協會 2026 年獎助計畫 submission process.
 - Research Aesthetica Art Prize submission process.
-- Research 臺南市美術館 2026「TAM+展覽計畫」 submission process.
-- Research Jackson's Art Prize submission process.
-- Compare DER GREIF to similar institutions.
-- Compare Singapore International Art Contest (SIAC) 2026-7 to similar institutions.
-- Compare HB Gallery to similar institutions.
+- Compare 第九屆水主題國際評審藝術比賽 to similar institutions.
+- Compare 臺南市美術館 2026「TAM+展覽計畫」 to similar institutions.
+- Compare Apartamento — Artist Feature to similar institutions.

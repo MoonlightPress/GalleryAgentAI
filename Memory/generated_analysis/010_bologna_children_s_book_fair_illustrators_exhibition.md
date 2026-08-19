@@ -1,23 +1,23 @@
 
-REPORT GENERATED: 2026-06-04
+REPORT GENERATED: 2026-08-18
 
 # Bologna Children's Book Fair Illustrators Exhibition
 
 ## 1. Quick Judgment
-**Fit score:** 9.0/10  
+**Fit score:** 10/10  
 **Fit band:** Excellent fit  
-**Confidence:** Medium  
+**Confidence:** High  
 **Type:** Other  
 **City:** City not listed  
 
 ## 2. Verification Status
-Verified: Official/source website, Deadline. Needs checking: Submission process, Fees, Contact.
+Verified: Official/source website, Deadline, Fees, Contact. Needs checking: Submission process.
 
 - **Official/source website**: https://www.bolognachildrensbookfair.com/ (verified)
 - **Submission process**: Not publicly listed (needs_inquiry)
 - **Deadline**: Thursday, 6 November 2025, at 23:59 (GMT+1) (verified)
-- **Fees**: Not publicly listed (needs_inquiry)
-- **Contact**: Not publicly listed (needs_inquiry)
+- **Fees**: €22 (+ VAT if due), free for students (verified)
+- **Contact**: illustratori@bolognafiere.it (verified)
 
 ## 3. Why This May Fit the Artist
 - Opportunity type: Other.
@@ -28,14 +28,16 @@ Verified: Official/source website, Deadline. Needs checking: Submission process,
 Bologna Children's Book Fair Watercolor Artists Exhibition is a illustration exhibition source in Global for watercolor / works on paper research.
 
 ## 5. Existing Fit Notes
-Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+A possible place to show watercolor or works on paper.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Check the official website for current submission guidelines and open call status
+- Verify current status at the official site before investing time — websites change and open calls close early
+- Deadline: Thursday, 6 November 2025, at 23:59 (GMT+1) — confirm on the official site before submitting
 
 ## 7. Submission / Logistics
 - **Deadline:** Thursday, 6 November 2025, at 23:59 (GMT+1)
-- **Fees:** Not publicly listed
+- **Fees:** €22 (+ VAT if due), free for students
 - **Submission page:** Not publicly listed
 - **Source:** https://www.bolognachildrensbookfair.com/
 
@@ -48,5 +50,5 @@ Verify current submission, exhibition, or contact details before recommending.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-04_
+_Last generated: 2026-08-18_
 

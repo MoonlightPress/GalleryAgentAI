@@ -1,26 +1,26 @@
 # Verification Status Report
-Generated: 2026-06-24
+Generated: 2026-08-18
 
 ## Summary
 
 | Status | Count |
 |--------|-------|
-| Verified (score 8-10) | 119 |
-| Strong partial (5-7) | 197 |
-| Partial (3-4) | 158 |
-| Research needed (<3) | 48 |
-| **Total** | **522** |
+| Verified (score 8-10) | 173 |
+| Strong partial (5-7) | 343 |
+| Partial (3-4) | 236 |
+| Research needed (<3) | 51 |
+| **Total** | **803** |
 
 ### Field Coverage
 
 | Field | Verified count |
 |-------|----------------|
-| URL ok | 471 |
-| Deadline verified | 226 |
-| Contact verified | 150 |
-| Fees verified | 245 |
-| Submission process known | 258 |
-| Medium confirmed | 349 |
+| URL ok | 730 |
+| Deadline verified | 180 |
+| Contact verified | 292 |
+| Fees verified | 488 |
+| Submission process known | 490 |
+| Medium confirmed | 533 |
 
 ---
 
@@ -31,97 +31,97 @@ Generated: 2026-06-24
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 2. submissions — porkbelly press
+### 2. Tokyo Gendai 2026
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 3. Route Books
+### 3. Mograg Gallery
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 4. HATTIFNATT Koenji Cafe Gallery
+### 4. FY2026 Life with Art Grant
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 5. Mograg Gallery
+### 5. Nui. Hostel Bar & Lounge Asakusa
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 6. FY2026 Life with Art Grant
+### 6. HATTIFNATT Koenji Cafe Gallery
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 7. FACE Exhibition 2026
+### 7. 第九屆水主題國際評審藝術比賽
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 8. Nui. Hostel Bar & Lounge Asakusa
+### 8. B&B (Book & Beer)
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 9. B&B Shimokitazawa
+### 9. Still Life - 2026
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 10. 第九屆水主題國際評審藝術比賽
+### 10. 2026年度 ライフウィズアート助成 (2026 Life with Art Grant Program)
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 11. B&B (Book & Beer)
+### 11. 新進芸術家海外研修制度（Emerging Artists Overseas Training Program）
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 12. Kamome Roastery Tokyo
+### 12. 2026年度 第1期 東京芸術文化創造発信助成 カテゴリーI［単年助成］芸術創造活動
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 13. 2026年度 ライフウィズアート助成 (2026 Life with Art Grant Program)
+### 13. FACE Exhibition 2026
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 14. 新進芸術家海外研修制度（Emerging Artists Overseas Training Program）
+### 14. 水性繪畫展覽 (Watercolor Exhibition)
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 15. 2026年度 第1期 東京芸術文化創造発信助成 カテゴリーI［単年助成］芸術創造活動
+### 15. 本店・本屋の実験室
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 16. flotsam books
+### 16. 2026年度 第1期 地域芸術文化活動応援助成
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 17. 水性繪畫展覽 (Watercolor Exhibition)
+### 17. 【biscuit gallery】初の公募企画「grid next : Emerging ...
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 18. アートオリンピア2026
+### 18. グループ展参加アーティスト募集中 - Gallery and Links81
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 19. ZINEフェス東京 (ZINE Fest Tokyo)
+### 19. 公募企画「grid next : 2025 - Emerging Artists Showcase ...
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 20. Still Life - 2026
+### 20. ACC 2026年度フェローシップおよび助成
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
@@ -144,15 +144,15 @@ High-scored opportunities (overall_score >= 8) that are not yet fully verified.
 - **Overall score:** 9.4  |  **Verification score:** 7/10  |  **Status:** strong_partial
 - **Missing verification:** deadline, medium confirmation
 
-### 4. American Illustration
+### 4. 第113回 日本水彩展
+- **Overall score:** 9.4  |  **Verification score:** 7/10  |  **Status:** strong_partial
+- **Missing verification:** deadline, fees
+
+### 5. Jackson's Art Prize
 - **Overall score:** 9.4  |  **Verification score:** 6/10  |  **Status:** strong_partial
 - **Missing verification:** deadline, contact
 
-### 5. World Illustration Awards
-- **Overall score:** 9.4  |  **Verification score:** 6/10  |  **Status:** strong_partial
-- **Missing verification:** deadline, contact
-
-### 6. Jackson's Art Prize
+### 6. World Illustration Awards
 - **Overall score:** 9.4  |  **Verification score:** 6/10  |  **Status:** strong_partial
 - **Missing verification:** deadline, contact
 
@@ -160,13 +160,13 @@ High-scored opportunities (overall_score >= 8) that are not yet fully verified.
 - **Overall score:** 9.4  |  **Verification score:** 7/10  |  **Status:** strong_partial
 - **Missing verification:** deadline, medium confirmation
 
-### 8. 「国際創作者駐村計畫」
-- **Overall score:** 9.4  |  **Verification score:** 7/10  |  **Status:** strong_partial
-- **Missing verification:** contact, medium confirmation
+### 8. 不透明水彩イラスト公募展 ニッカー絵具賞
+- **Overall score:** 9.4  |  **Verification score:** 6/10  |  **Status:** strong_partial
+- **Missing verification:** deadline, contact
 
-### 9. Laugh & Peace Art Competition 2026
-- **Overall score:** 9.4  |  **Verification score:** 7/10  |  **Status:** strong_partial
-- **Missing verification:** deadline, fees
+### 9. New Power展
+- **Overall score:** 9.4  |  **Verification score:** 6/10  |  **Status:** strong_partial
+- **Missing verification:** deadline, contact
 
 ### 10. ギャラリーへ行こう2026
 - **Overall score:** 9.4  |  **Verification score:** 7/10  |  **Status:** strong_partial

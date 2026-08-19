@@ -7,7 +7,7 @@ Recommended Body of Work:
 Architecture / Memory / Place
 
 Core Fit:
-Her intimate urban interiors and everyday Tokyo documentation is perfectly on-brand for Apartamento's audience. The 'foreigner observing Tokyo' angle is strong.
+Your intimate urban interiors and everyday Tokyo documentation is perfectly on-brand for Apartamento's audience. The 'foreigner observing Tokyo' angle is strong.
 
 Draft Structure:
 

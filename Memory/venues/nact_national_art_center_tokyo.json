@@ -24,12 +24,13 @@
     "Needs manual/web research before being treated as verified."
   ],
   "missing_information": [
-    "contact"
+    "contact",
+    "fees"
   ],
   "opportunity_titles": [
     "The 89th SHINSEISAKU Art Exhibition"
   ],
   "last_researched": "",
-  "created_at": "2026-07-27",
-  "updated_at": "2026-07-27"
+  "created_at": "2026-08-18",
+  "updated_at": "2026-08-18"
 }

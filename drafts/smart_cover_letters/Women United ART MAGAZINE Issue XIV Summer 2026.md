@@ -7,7 +7,7 @@ Recommended Body of Work:
 Artist Book / Printed Matter
 
 Core Fit:
-Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
+Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. you qualify.
 
 Draft Structure:
 

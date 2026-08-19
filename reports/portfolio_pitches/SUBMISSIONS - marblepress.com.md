@@ -7,7 +7,7 @@ Artist Book / Printed Matter
 Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.
 
 ## Opportunity Fit
-Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+Publishing / Small Press (found through targeted research).
 
 ## Match Signals
 small press

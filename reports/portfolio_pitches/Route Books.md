@@ -7,7 +7,7 @@ Community / Local Visibility
 Approachable work suitable for cafes, artist-run rooms, small walls, local markets, and gentle public visibility.
 
 ## Opportunity Fit
-Route Books has a confirmed rental gallery and hosts craft markets — low barrier, real exhibition space. GEGYjiji's Tokyo architectural watercolors fit the local documentation aesthetic and Ueno's art-literate audience.
+Route Books has a confirmed rental gallery and hosts craft markets — low barrier, real exhibition space. your Tokyo architectural watercolors fit the local documentation aesthetic and Ueno's art-literate audience.
 
 ## Match Signals
 cafe, local, wall, market, accessible

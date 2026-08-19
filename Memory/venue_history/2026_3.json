@@ -1,13 +1,13 @@
 {
-  "venue_name": "南京插画艺术家展览 2026年3月",
+  "venue_name": "南京艺术展览 2026年3月",
   "venue_slug": "2026_3",
   "memory_version": 1,
   "summary": "Venue type: artist opportunity venue Venue still needs deeper aesthetic research.",
-  "last_updated": "2026-07-27",
+  "last_updated": "2026-08-18",
   "confidence": "low",
   "future_research": [
     "contact",
-    "submission process"
+    "fees"
   ],
   "curatorial_direction": [],
   "artist_overlap_signals": [],

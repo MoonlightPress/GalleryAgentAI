@@ -14,7 +14,7 @@ Core public information appears present.
 - **Submission process**: https://www.nwws.org/annual-international-open/ (verified)
 - **Deadline**: July 8, 2026 — 11:59 PM Pacific (verified)
 - **Fees**: Member reduced / non-member — check prospectus (verified)
-- **Contact**: https://www.nwws.org/contact-nwws (verified)
+- **Contact**: nwws.org contact form (verified)
 
 ## 3. Why This May Fit the Artist
 - Opportunity type: Global Watercolor Open Call.
@@ -25,7 +25,7 @@ Core public information appears present.
 Prestigious annual international watercolor exhibition open to all artists worldwide, $15,000+ in awards, juror Dongfeng Li (Chinese-American watercolor watercolor artist). Deadline July 8 2026.
 
 ## 5. Existing Fit Notes
-Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusually apt cultural fit for GEGYjiji.
+Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusually apt cultural fit for you.
 
 ## 6. Key Points
 - Currently open — deadline July 8, 2026.
@@ -47,4 +47,4 @@ Download 2026 prospectus from nwws.org, confirm entry fee and size requirements,
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-07_
+_Last generated: 2026-07-03_

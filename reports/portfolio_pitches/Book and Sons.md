@@ -1,16 +1,16 @@
 # Portfolio Pitch — Book and Sons
 
 ## Recommended Body of Work
-Daily Poetic Photography
+Artist Book / Printed Matter
 
 ## Why This Body Fits
-A quieter observational body of work built around daily life, light, domestic details, travel fragments, and subtle emotional atmosphere.
+Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.
 
 ## Opportunity Fit
-Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to disappearing spaces aligns with this audience's sensibility.
+A design-led bookstore with exhibition space and rolling consignment, reachable directly via Instagram — a Tier-1 way to put printed work in front of a book-oriented Tokyo audience. The listing is thin on terms, so the first move is a direct inquiry, not preparation.
 
 ## Match Signals
-observation, atmospheric
+zine
 
 ## Suggested Submission Framing
 Present this not as a general portfolio, but as a focused body of work.

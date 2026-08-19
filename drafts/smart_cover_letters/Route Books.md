@@ -7,7 +7,7 @@ Recommended Body of Work:
 Community / Local Visibility
 
 Core Fit:
-Route Books has a confirmed rental gallery and hosts craft markets — low barrier, real exhibition space. GEGYjiji's Tokyo architectural watercolors fit the local documentation aesthetic and Ueno's art-literate audience.
+Route Books has a confirmed rental gallery and hosts craft markets — low barrier, real exhibition space. your Tokyo architectural watercolors fit the local documentation aesthetic and Ueno's art-literate audience.
 
 Draft Structure:
 

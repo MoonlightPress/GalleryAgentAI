@@ -4,10 +4,10 @@
   "venue_type": "artist opportunity venue",
   "city": "Beijing",
   "country": "",
-  "website": "https://bibf-illustration.com/zh",
+  "website": "https://bibf-illustration.com/zh/about",
   "source_links": [
-    "https://bibf-illustration.com/zh",
-    "https://bibf-illustration.com/zh/about"
+    "https://bibf-illustration.com/zh/about",
+    "https://bibf-illustration.com/zh"
   ],
   "categories_seen": [
     "Competition Award",
@@ -31,11 +31,11 @@
     "fees"
   ],
   "opportunity_titles": [
-    "2026 BIBF International Illustration Competition",
     "BIBF International Illustration Competition",
-    "2025 BIBF International Illustration Competition"
+    "2025 BIBF International Illustration Competition",
+    "2026 BIBF International Illustration Competition"
   ],
   "last_researched": "",
-  "created_at": "2026-07-27",
-  "updated_at": "2026-07-27"
+  "created_at": "2026-08-18",
+  "updated_at": "2026-08-18"
 }

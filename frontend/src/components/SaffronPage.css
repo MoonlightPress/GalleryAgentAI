@@ -57,7 +57,9 @@
 /* ── Light category tabs ────────────────────────────────────────────── */
 .sf-tabs {
   position: sticky;
-  top: var(--nav-height, 54px);
+  /* -1px overlap absorbs subpixel rounding vs. the JS-measured --nav-height;
+     see the matching note on .quick-nav-bar in Nav.css. */
+  top: calc(var(--nav-height, 54px) - 1px);
   z-index: 30;
   display: flex;
   flex-wrap: wrap;

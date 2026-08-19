@@ -7,7 +7,7 @@ Recommended Body of Work:
 Artist Book / Printed Matter
 
 Core Fit:
-Biggest international platform for artists at her level. A feature here reaches the global illustration community and attracts licensing and commission inquiries.
+Biggest international platform for artists at your level. A feature here reaches the global illustration community and attracts licensing and commission inquiries.
 
 Draft Structure:
 

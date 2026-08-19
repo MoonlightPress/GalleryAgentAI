@@ -7,7 +7,7 @@ Recommended Body of Work:
 Architecture / Memory / Place
 
 Core Fit:
-SPBS curates art and design publications for a discerning Shibuya-adjacent audience — ideal for GEGYjiji's Tokyo urban watercolor prints and zines. Consignment here builds quiet, sustained visibility among design professionals.
+SPBS curates art and design publications for a discerning Shibuya-adjacent audience — ideal for your Tokyo urban watercolor prints and zines. Consignment here builds quiet, sustained visibility among design professionals.
 
 Draft Structure:
 

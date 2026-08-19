@@ -1,19 +1,19 @@
 # The Artcomplex Center of Tokyo
 
 ## 1. Quick Judgment
-**Fit score:** 8.8/10  
+**Fit score:** 10/10  
 **Fit band:** Excellent fit  
-**Confidence:** Medium  
+**Confidence:** High  
 **Type:** Other  
 **City:** City not listed  
 
 ## 2. Verification Status
-Verified: Official/source website, Deadline. Needs checking: Submission process, Fees, Contact.
+Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.
 
 - **Official/source website**: https://www.gallerycomplex.com/ (verified)
-- **Submission process**: Not publicly listed (needs_inquiry)
-- **Deadline**: March 17, 2026 (verified)
-- **Fees**: Not publicly listed (needs_inquiry)
+- **Submission process**: https://www.artworkarchive.com/call-for-entry/showcase-your-art-in-tokyo-japan-2025 (verified)
+- **Deadline**: August 20, 2025 (verified)
+- **Fees**: Free (verified)
 - **Contact**: Not publicly listed (needs_inquiry)
 
 ## 3. Why This May Fit the Artist
@@ -25,15 +25,17 @@ Verified: Official/source website, Deadline. Needs checking: Submission process,
 The Artcomplex Center of Tokyo is a gallery complex source in Tokyo for watercolor / works on paper research.
 
 ## 5. Existing Fit Notes
-Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+A possible place to show watercolor or works on paper.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Check the official website for current submission guidelines and open call status
+- Verify current status at the official site before investing time — websites change and open calls close early
+- Deadline: March 17, 2026 — confirm on the official site before submitting
 
 ## 7. Submission / Logistics
-- **Deadline:** March 17, 2026
-- **Fees:** Not publicly listed
-- **Submission page:** Not publicly listed
+- **Deadline:** August 20, 2025
+- **Fees:** Free
+- **Submission page:** https://www.artworkarchive.com/call-for-entry/showcase-your-art-in-tokyo-japan-2025
 - **Source:** https://www.gallerycomplex.com/
 
 ## 8. Risk / Unknowns
@@ -45,4 +47,4 @@ Verify current submission, exhibition, or contact details before recommending.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-04_
+_Last generated: 2026-07-03_

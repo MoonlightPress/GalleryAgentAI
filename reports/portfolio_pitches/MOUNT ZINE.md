@@ -7,7 +7,7 @@ Architecture / Memory / Place
 Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.
 
 ## Opportunity Fit
-Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.
+A permanent zine shop (not a one-off fair) that accepts all genres with no fee and no screening, stocking 150+ titles — a clean ambient-visibility target for artist-book or print work. Recruitment opens twice yearly; the next window is autumn 2026.
 
 ## Match Signals
 No strong keyword match stored yet.

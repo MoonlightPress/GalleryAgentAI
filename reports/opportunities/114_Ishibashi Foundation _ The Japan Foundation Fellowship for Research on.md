@@ -25,10 +25,12 @@ Verified: Official/source website, Submission process, Deadline, Fees. Needs che
 Japan Foundation fellowship supporting visual arts professionals; relevant for Tokyo-based artist studying Japanese art traditions.
 
 ## 5. Existing Fit Notes
-Japan Foundation fellowship supporting visual arts professionals; relevant for Tokyo-based artist studying Japanese art traditions.
+The Japan Foundation Fellowship directly supports visual artists deepening their engagement with Japanese aesthetic traditions—relevant to your watercolor practice rooted in Tokyo's urban landscapes and your study of quietness and impermanence. Your daily observational work capturing disappearing architectural moments aligns with the fellowship's emphasis on contemporary practice informed by Japanese art heritage.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Read the full eligibility criteria before investing time in an application — grants have specific career-stage requirements
+- Verify current status at the official site before investing time — websites change and open calls close early
+- Deadline: December (FY 2026) — confirm on the official site before submitting
 
 ## 7. Submission / Logistics
 - **Deadline:** December (FY 2026)
@@ -45,4 +47,4 @@ Verify eligibility and current cycle at the official website before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-09_
+_Last generated: 2026-07-03_

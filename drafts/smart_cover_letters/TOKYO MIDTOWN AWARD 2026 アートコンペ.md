@@ -7,7 +7,7 @@ Recommended Body of Work:
 General Portfolio
 
 Core Fit:
-Tokyo-based art award with production subsidy for site-specific art works; applicants must be 39 years old or under, matching GEGYjiji's age.
+Tokyo-based art award with production subsidy for site-specific art works; applicants must be 39 years old or under, matching your age.
 
 Draft Structure:
 

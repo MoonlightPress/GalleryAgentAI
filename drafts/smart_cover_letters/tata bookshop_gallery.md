@@ -4,10 +4,10 @@ Tone:
 gentle and curious
 
 Recommended Body of Work:
-Daily Poetic Photography
+Architecture / Memory / Place
 
 Core Fit:
-tata's gallery-bookshop model aligns perfectly with GEGYjiji's daily watercolor practice of capturing quiet urban moments—her works on paper can exist as both intimate prints and gallery pieces, while the bookshop context legitimizes the meditative, observational quality of her Tokyo-focused practice. The venue's Koenji location and hybrid format create space for her to present architectural studies and memory-based work in a way that bridges fine art and the printed object, avoiding the scale demands of traditional galleries.
+tata's gallery-bookshop model overlaps with your medium and your work capturing quiet urban moments—your works on paper can exist as both intimate prints and gallery pieces, while the bookshop context legitimizes the meditative, observational quality of your Tokyo-focused practice. The venue's Koenji location and hybrid format create space for you to present architectural studies and memory-based work in a way that bridges fine art and the printed object, avoiding the scale demands of traditional galleries.
 
 Draft Structure:
 

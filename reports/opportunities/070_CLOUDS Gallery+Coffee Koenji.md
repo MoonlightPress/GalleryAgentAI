@@ -47,4 +47,4 @@ Visit 13:00-19:00 any day except Monday to see current show. Then phone 03-5356-
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-13_
+_Last generated: 2026-08-18_

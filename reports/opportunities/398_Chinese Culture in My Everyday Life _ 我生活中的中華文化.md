@@ -1,0 +1,50 @@
+# Chinese Culture in My Everyday Life / 我生活中的中華文化
+
+## 1. Quick Judgment
+**Fit score:** 7.9/10  
+**Fit band:** Strong fit  
+**Confidence:** Medium  
+**Type:** Illustration Prize  
+**City:** International  
+
+## 2. Verification Status
+Verified: Official/source website, Deadline. Needs checking: Submission process, Fees, Contact.
+
+- **Official/source website**: https://weichuan.wjwebsite.com (verified)
+- **Submission process**: Not publicly listed (needs_inquiry)
+- **Deadline**: 2026年6月30日 (June 30, 2026) (verified)
+- **Fees**: Not publicly listed (needs_inquiry)
+- **Contact**: Not publicly listed (needs_inquiry)
+
+## 3. Why This May Fit the Artist
+- Opportunity type: Illustration Prize.
+- Artist themes to compare against this venue: urban atmosphere, domestic stillness, cats, interior light, memory, quiet life.
+- Visual-language fit signals: still, intimate, atmospheric, nostalgic without sentimentality, attentive, quietly melancholic.
+
+## 4. Public Opportunity Summary
+Illustration competition accepting original artwork in watercolor, acrylic, oil paint, and mixed media; submission period April 27 - June 30, 2026.
+
+## 5. Existing Fit Notes
+Illustration competition accepting original artwork in watercolor, acrylic, oil paint, and mixed media; submission period April 27 - June 30, 2026.
+
+## 6. Key Points
+- Check the official website for current submission guidelines and open call status
+- Verify current status at the official site before investing time — websites change and open calls close early
+- Deadline: 2026年6月30日 (June 30, 2026) — confirm on the official site before submitting
+
+## 7. Submission / Logistics
+- **Deadline:** 2026年6月30日 (June 30, 2026)
+- **Fees:** Not publicly listed
+- **Submission page:** Not publicly listed
+- **Source:** https://weichuan.wjwebsite.com
+
+## 8. Risk / Unknowns
+No hard dealbreaker recorded. Manual verification recommended.
+
+## 9. Recommended Next Step
+Verify submission page and deadline before applying.
+
+## 10. Inquiry Need
+If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
+
+_Last generated: 2026-08-18_

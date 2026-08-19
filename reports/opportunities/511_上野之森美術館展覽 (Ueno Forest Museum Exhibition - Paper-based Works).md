@@ -22,10 +22,10 @@ Verified: Official/source website, Deadline. Needs checking: Submission process,
 - Visual-language fit signals: still, intimate, atmospheric, nostalgic without sentimentality, attentive, quietly melancholic.
 
 ## 4. Public Opportunity Summary
-Exhibition accepting watercolor, ink painting, and paper-based 2D artworks; directly matches GEGYjiji's watercolor practice
+Exhibition accepting watercolor, ink painting, and paper-based 2D artworks; directly matches your watercolor practice
 
 ## 5. Existing Fit Notes
-Exhibition accepting watercolor, ink painting, and paper-based 2D artworks; directly matches GEGYjiji's watercolor practice
+Exhibition accepting watercolor, ink painting, and paper-based 2D artworks; directly matches your watercolor practice
 
 ## 6. Key Points
 - Check the official website for current submission guidelines and open call status
@@ -47,4 +47,4 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-24_
+_Last generated: 2026-07-03_

@@ -7,7 +7,7 @@ Artist Book / Printed Matter
 Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.
 
 ## Opportunity Fit
-Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
+Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. you qualify.
 
 ## Match Signals
 zine, publication

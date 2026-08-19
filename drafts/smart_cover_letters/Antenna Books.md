@@ -7,7 +7,7 @@ Recommended Body of Work:
 Architecture / Memory / Place
 
 Core Fit:
-Antenna Books curates art and design publications for a discerning Daikanyama audience — exactly the readers who appreciate GEGYjiji's Tokyo urban watercolor prints and zines. Consignment builds quiet, sustained visibility.
+Antenna Books curates art and design publications for a discerning Daikanyama audience — exactly the readers who appreciate your Tokyo urban watercolor prints and zines. Consignment builds quiet, sustained visibility.
 
 Draft Structure:
 

@@ -7,7 +7,7 @@ Recommended Body of Work:
 Artist Book / Printed Matter
 
 Core Fit:
-Potential fit if her work becomes more explicitly book-oriented or object/paper based.
+Potential fit if your work becomes more explicitly book-oriented or object/paper based.
 
 Draft Structure:
 

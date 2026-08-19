@@ -1,7 +1,7 @@
 # INSTINC 2026/2027 Artist-in-Residence Program
 
 ## 1. Quick Judgment
-**Fit score:** 9.8/10  
+**Fit score:** 10/10  
 **Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Global Residency  
@@ -28,7 +28,9 @@ Independent artist residency program emphasizing experimentation and artistic vi
 Independent artist residency program emphasizing experimentation and artistic vision, open to international artists.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Review residency requirements carefully — most want a project proposal, CV, and portfolio PDF in one package
+- Verify current status at the official site before investing time — websites change and open calls close early
+- Deadline: Deadline extended for 2026 and 2027 — confirm on the official site before submitting
 
 ## 7. Submission / Logistics
 - **Deadline:** Deadline extended for 2026 and 2027
@@ -45,4 +47,4 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-07_
+_Last generated: 2026-07-03_

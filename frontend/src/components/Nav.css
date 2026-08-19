@@ -94,7 +94,13 @@
 /* ── Discover section bar — mirrors Saffron's sticky tabs (.sf-tabs) ── */
 .quick-nav-bar {
   position: sticky;
-  top: var(--nav-height, 54px);
+  /* -1px overlap absorbs subpixel rounding between the JS-measured --nav-height
+     (offsetHeight, integer) and the nav's real fractional layout height. The gap
+     it otherwise leaves is invisible by day (both bars sit on the cream page
+     background) but shows the page peeking through at night, when the nav goes
+     blue and the page stays cream. z-index puts .site-nav (40) above this (30),
+     so the 1px overlap is hidden under the nav, not visible as a seam. */
+  top: calc(var(--nav-height, 54px) - 1px);
   z-index: 30;
   display: flex;
   flex-wrap: wrap;

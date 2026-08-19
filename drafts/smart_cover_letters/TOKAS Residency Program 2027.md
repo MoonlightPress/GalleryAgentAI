@@ -4,10 +4,10 @@ Tone:
 clear and professional
 
 Recommended Body of Work:
-General Portfolio
+Daily Poetic Photography
 
 Core Fit:
-Artist residency program in Tokyo with stipend support for Japan-based creators, offering dedicated studio time relevant to watercolor and illustration practice.
+TOKAS offers stipend support and dedicated studio time for Japan-based painters—which means you can apply directly without representation, and the funding covers time to deepen your watercolor and urban observation practice in Tokyo where you're already working. Check the submission deadline and eligibility requirements on their site, then prepare 8–12 recent watercolors from your daily practice that show your architectural observation work.
 
 Draft Structure:
 

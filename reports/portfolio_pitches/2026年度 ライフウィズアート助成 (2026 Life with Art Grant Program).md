@@ -7,7 +7,7 @@ Daily Poetic Photography
 A quieter observational body of work built around daily life, light, domestic details, travel fragments, and subtle emotional atmosphere.
 
 ## Opportunity Fit
-The Life with Art Grant's focus on integrating art into Tokyo's everyday urban fabric directly supports GEGYjiji's practice of capturing disappearing architectural moments and quiet spaces through watercolor observation. Her daily documentation of the city's transient character aligns precisely with the program's mission to embed artistic practice into lived urban experience rather than isolate it in formal gallery contexts.
+The Life with Art Grant's focus on integrating art into Tokyo's everyday urban fabric directly supports your practice of capturing disappearing architectural moments and quiet spaces through watercolor observation. Your daily documentation of the city's transient character aligns precisely with the program's mission to embed artistic practice into lived urban experience rather than isolate it in formal gallery contexts.
 
 ## Match Signals
 daily, quiet, observation

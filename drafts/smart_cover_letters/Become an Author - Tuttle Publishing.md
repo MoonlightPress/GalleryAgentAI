@@ -1,13 +1,13 @@
 # Smart Cover Letter — Become an Author - Tuttle Publishing
 
 Tone:
-gentle and curious
+restrained and confident
 
 Recommended Body of Work:
-Artist Book / Printed Matter
+Architecture / Memory / Place
 
 Core Fit:
-Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+Tuttle Publishing specializes in visually-driven books on Asian art, architecture, and culture—a possible outlet for a watercolor series documenting Tokyo's ephemeral urban landscapes and architectural moments. Your daily practice of capturing quiet, disappearing scenes is relevant with the meditative, process-focused art books they produce for both regional and international audiences.
 
 Draft Structure:
 

@@ -1,12 +1,12 @@
 
-REPORT GENERATED: 2026-07-05
+REPORT GENERATED: 2026-08-18
 
 # PARK GALLERY 夏の公募企画展（3テーマ）
 
 ## 1. Quick Judgment
-**Fit score:** 8.8/10  
+**Fit score:** 9.2/10  
 **Fit band:** Excellent fit  
-**Confidence:** Medium  
+**Confidence:** High  
 **Type:** Galleries / Exhibition Calls  
 **City:** Tokyo  
 
@@ -50,5 +50,5 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-07-05_
+_Last generated: 2026-08-18_
 

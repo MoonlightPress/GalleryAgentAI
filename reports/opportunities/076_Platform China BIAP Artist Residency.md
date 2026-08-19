@@ -25,7 +25,7 @@ Core public information appears present.
 Caochangdi Art District Beijing residency, 8-12 weeks, open platform for emerging to established international artists with gallery exhibition opportunity.
 
 ## 5. Existing Fit Notes
-Beijing open residency in Caochangdi — relevant for when GEGYjiji travels to China. Rolling applications, no fixed deadline. Exhibition opportunity included.
+Beijing open residency in Caochangdi — relevant for when you travel to China. Rolling applications, no fixed deadline. Exhibition opportunity included.
 
 ## 6. Key Points
 - Caochangdi Art District — Beijing experimental art hub.
@@ -47,4 +47,4 @@ Email Platform China BIAP directly: No. 319-1 East End Art-A, Caochangdi Village
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-24_
+_Last generated: 2026-08-04_

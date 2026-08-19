@@ -22,3 +22,6 @@ _prewipe_backup_*/
 _sandbox_reset_point/
 # timestamped per-edit snapshots of the artist's data (runtime, never committed)
 memory/backups/
+
+# stray file created when a bash-run script redirects to Windows NUL
+NUL

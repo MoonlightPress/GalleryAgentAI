@@ -7,7 +7,7 @@ Recommended Body of Work:
 Community / Local Visibility
 
 Core Fit:
-Shimokitazawa's alternative cultural energy could align with your work, but this needs investigation before determining actual fit
+Shimokitazawa's alternative cultural energy could be relevant to your work, but this needs investigation before determining actual fit
 
 Draft Structure:
 

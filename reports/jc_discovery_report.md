@@ -1,299 +1,304 @@
 # Japanese & Chinese Discovery Report
 
-Run: 2026-06-24  |  Queries run: 43  |  New opportunities: 109
+Run: 2026-07-27  |  Queries run: 43  |  New opportunities: 116
 
-## Japanese Sources (36 new)
+## Japanese Sources (35 new)
 
-- **ゆめ画材公募** [Japan, Japan] · 2026年7月1日
-  Watercolor and mixed media painting open call (油彩/水彩/アクリル) directly matches artist's watercolor practice.
+- **カフェアトリエ 透明水彩展** [Tokyo, Japan]
+  Café gallery exhibition specifically for transparent watercolor works, accepting originals, reproductions, and goods.
 
-- **小須戸ARTプロジェクト2026** [Japan, Japan] · 2026年8月20日
-  Artist residency or project participation opportunity for 2026 with specific deadlines.
+- **阪急文具の博覧会2026** [Osaka, Japan]
+  Stationery and illustration exhibition at major department store, suitable for watercolor illustrators with commercial/goods potential.
 
-- **アートオリンピア** [International, International] · 2026年7月
-  International art competition open to emerging artists with significant prize support, open to visual artists globally.
+- **桜Exhibition2026** [Tokyo, Japan]
+  Group exhibition with merchandise sales including posters, acrylic illustration plates, and catalogs suitable for watercolor/illustration artists.
 
-- **第6回銀座中央ギャラリー公募展** [Tokyo, Japan]
-  Open call for painting exhibition at Tokyo gallery accepting watercolor and drawing works
-  → https://chuogallery.com/events/2026
+- **株式会社アートジャパン 靖山画廊30周年記念公募展** [Tokyo, Japan]
+  Gallery open call and award-winning artist exhibition in Tokyo, fits watercolor and illustration artists.
+  → art-japan.jp/exhibitions/11
 
-- **銀座中央ギャラリー公募展入選者展** [Tokyo, Japan]
-  Selected works exhibition at Tokyo gallery for watercolor and drawing artists
+- **銀座中央ギャラリー公募展** [Tokyo, Japan]
+  Open call gallery exhibition accepting watercolor, oil, Japanese painting, and prints in Tokyo's Ginza district.
 
-- **NewPower展** [Tokyo, Japan]
-  Open call for watercolor and illustration artists to exhibit in Tokyo gallery space, directly matching her medium and location
-  → gallery-jiyugaoka.com/newpower-appli
+- **東京銀座プチ・ベラドンナ展2026** [Tokyo, Japan]
+  Annual summer group exhibition in Ginza accepting women artists nationwide across all genres, open to watercolor and illustration.
 
-- **星降る夜に** [Unknown, Japan]
-  Summer open call for artwork on star themes, watercolor and illustration compatible, no genre restrictions
+- **原宿カワイイ展 -twinkle!-** [Tokyo, Japan]
+  Open call for illustration and mixed-media artists at Tokyo venue seeking 22 participant groups
 
-- **三島満願芸術祭2026（アーティスト・イン・レジデンス）** [Mishima, Japan]
-  Contemporary art residency in Shizuoka focusing on place-based practice, dialogue with community, and artistic expression rooted in local landscape and architecture.
+- **羽ばたけ！北海道イラスト大賞** [Hokkaido, Japan]
+  Illustration competition accepting entries from illustrators, relevant to GEGYjiji's practice
 
-- **APAアワード2026公募展** [Tokyo, Japan]
-  Open call exhibition held at Tokyo Museum of Photography in February-March 2026, open to diverse artistic mediums.
+- **3つの公募展（グループ展）** [Tokyo, Japan]
+  Group exhibition open call accepting artists; fits GEGYjiji's interest in group shows and artist communities
 
-- **PARK GALLERY 海と山と展** [Tokyo, Japan]
-  Open call for summer group exhibition at Tokyo gallery accepting illustration and visual art submissions.
+- **公募展（グループ展）- 出展募集** [Unknown, Japan] · ¥3,850 for up to 2 works
+  Open call accepting all genres including painting; flexible medium policy suits multi-disciplinary illustration artists
 
-- **Gallery Dioxazine Exhibition** [Tokyo, Japan] · 2026-07-17
-  Tokyo gallery exhibition with July-August 2026 dates accepting artwork submissions.
+- **額縁のギャラリーゴロー イラスト・絵画・写真展** [Unknown, Japan] · 2026/06/19
+  Accepts illustrations and paintings with artwork sales permitted, fitting GEGYjiji's watercolor and illustration practice.
 
-- **海と山と写真公募展** [Online, Japan] · 2026-05-08
-  Open call for visual submissions up to 3 pieces with May 2026 deadline; accepts amateur submissions.
+- **第11回 Artist meets Art Fair** [Kobe, Japan] · 2026年2月28日 23:59 · 3,000円〜5,000円
+  Art fair open to artists, suitable for watercolor and illustration-based work.
 
-- **Form Entry Exhibition (TBD Title)** [Tokyo, Japan] · 2026-06-19
-  Tokyo-based open call with June 2026 application deadline for visual art exhibition.
+- **公募企画絵画展「瑠璃と群青の民たち」** [Unknown, Japan]
+  Public call painting exhibition fitting watercolor and illustration artists.
 
-- **Gallery Tetoteto Open Call** [Tokyo, Japan]
-  Tokyo gallery accepting submissions for exhibitions through December 2026 with flexible display options.
+- **PARK GALLERY 企画展公募「海と山と展」** [Unknown, Japan]
+  Open call for group exhibition, suitable for watercolor and illustration submissions.
 
-- **OM System Rail Art Submission** [Tokyo, Japan] · 10000
-  Open submission call for artists with ¥10,000 participation fee for up to 4 pieces of self-directed artwork.
+- **鉄道写真作品展「OM SYSTEM GALLERY II」** [Unknown, Japan] · 2026年2月8日(日)必着 · 10,000円(税込)
+  Photography-themed exhibition; less directly aligned but open to visual artists.
 
-- **ハマカルアートプロジェクト2026** [Fukushima, Japan]
-  Artist residency program supporting studio production in Japan, open to application.
+- **ポコラート全国公募 vol.8** [Japan, Japan]
+  National watercolor open call that exhibited 191 works including watercolor pieces, directly matching the artist's medium and exhibition interests.
 
-- **CAF賞2026** [Online, Japan]
-  Japan's largest student art award with 1 million yen prize and exhibition opportunity; accepts illustration submissions.
+- **絵の現在 選抜展（Ienoima Selection Exhibition）** [Tokyo, Japan] · 2026年9月30日（審査料入金期限） · 13,000円（30歳以下は無料）
+  Open call for watercolor artists (油彩・日本画・水彩) with recognition in art magazines and gallery/department store exhibitions, supporting artists seeking to expand their practice.
+  → https://ichimainoe.co.jp/senbatsuten
 
-- **第92回 東光展** [Tokyo, Japan] · 一般1,000円（500円団体料金）
-  Established watercolor, oil, and printmaking exhibition in Tokyo.
+- **2026年　平泉会選抜展（Heisen-kai Selection Exhibition 2026）** [Tokyo, Japan] · 一般500円入場料（出品料未記載）
+  Open selection exhibition accepting watercolor, oil painting, crafts, photography, and mixed media at Tokyo venue (June 23-30, 2026).
 
-- **第15回 九条美術展** [Chiba, Japan] · 無料
-  Group exhibition accepting watercolor, acrylic, mixed media, and various painting techniques.
+- **美の起原展2026（Bi-no-Kigen-ten 2026）** [Tokyo, Japan] · 2026年6月11日（出品料支払期限）、応募受付：2026年5月18日12:00～2026年6月11日23:59 · 1点6,000円、2点7,500円（税込）
+  Two-stage watercolor and art competition with exhibition at Tokyo galleries (銀座画廊 美の起原) and recognition through Japanese art magazine.
+  → https://kobonabi.com/art-archive/binokigen-ten-2026
 
-- **第54回 齣展** [Tokyo, Japan]
-  Watercolor, oil, printmaking, and mixed media exhibition in Tokyo.
+- **第113回日本水彩展（113th Japan Watercolor Exhibition）** [Tokyo, Japan]
+  Japan's major watercolor exhibition and organization, hosting the 113th edition with venues in Kyoto and Matsuyama; core opportunity for Japanese watercolor artists.
+  → https://www.nihonsuisai.or.jp
 
-- **Watercolors 2026（水彩アートの祭典）** [Tokyo, Japan] · 1作品9,000円、2作品目以降+8,000円（税別）
-  Dedicated watercolor-only exhibition in Tokyo, accepts up to 8 watercolor works per artist, max 4号 (F/P/S/M) format.
+- **第69回 新協美術展** [Tokyo, Japan]
+  Open call painting exhibition at Tokyo Metropolitan Museum of Art
+  → https://koubo.yumegazai.com/2026/07/21/e-shinkyoart-shinkyoten69th-2026/
+
+- **第110回記念 二科美術展覧会** [Tokyo, Japan] · 一般 1,400円
+  Major art exhibition at National Art Center Tokyo accepting watercolor works
+
+- **第90回 自由美術展** [Tokyo, Japan] · 一般 1,500円
+  Open art exhibition at National Art Center Tokyo for painters and illustrators
+
+- **水彩アートの祭典 2026** [Tokyo, Japan] · 1作品9,000円、2作品目以降+8,000円（税別）
+  Dedicated watercolor festival with exhibition at Tokyo Geijutsu Theater gallery
   → https://nihonbungei.net/watercolors_2026
 
-- **第113回 日本水彩展 (Japan Watercolor Exhibition 2026)** [Tokyo, Japan] · 700円
-  Major Japanese watercolor open call exhibition directly matching the artist's primary medium and nationality.
+- **世界絵画大賞展 2026（第22回）** [Tokyo, Japan] · 作品搬入5月9日・10日（直接）、5月7日～9日（委託） · 1点 7000円、2点 9000円（税込）
+  International watercolor and painting competition with Tokyo Museum exhibition
+  → https://compe.japandesign.ne.jp/sekaido-kaiga-2026
 
-- **Japan in Acquarello 2026** [Yokohama, Japan]
-  International watercolor open call exhibition with Japanese focus; artist's work aligns with watercolor medium and urban observation themes.
-  → https://www.japaninacquarello.org
+- **第26回 国際水彩画交流展 春季佳作ネット展2026** [Online, Japan]
+  International watercolor exchange exhibition and network showcase for watercolor artists
 
-- **第79回 女流画家協会展** [Tokyo, Japan] · 700円
-  Open call for watercolor paintings among various media; institutional exhibition suitable for Tokyo-based artist.
-  → https://joryugakakyokai.com
+- **日本選抜美術家協会 平面作品公募展** [Unknown, Japan] · 直接搬入：2026年6月6日9:30～16:00、6月7日9:30～12:00
+  Open call for watercolor, Japanese painting, Western painting and other flat media works, accepting unpublished pieces from all artists.
 
-- **第72回 全日肖展** [Tokyo, Japan] · 500円
-  Institutional watercolor exhibition accepting portrait and figure work; open to watercolor submissions.
-  → http://www.zennissyo.com/
+- **2026 ZERO展 本展** [Osaka, Japan]
+  Major Osaka-based open call with no size restrictions, evaluating artistic merit regardless of artist experience or background; returning to renovated Osaka Municipal Museum of Art.
+  → https://newartzero.com/2026koubo
 
-- **gallery cafe & zakka SAKURA主催公募展** [Osaka, Japan] · 2026年8月15日
-  Café gallery accepting paintings, watercolor, and mixed media from all skill levels with free theme.
+- **2026 ZERO展 0号展** [Osaka, Japan]
+  Small-scale artwork exhibition (F0 format) offering accessible entry point; ideal for watercolor and illustration artists seeking museum exhibition opportunities.
+  → https://newartzero.com/2026koubo
 
-- **日本選抜美術家協会公募展** [Tokyo, Japan] · 2026年6月6日9:30～16:00, 6月7日9:30～12:00
-  Open call for watercolor, ink painting, and flat works; accepts diverse painting techniques.
+- **新世紀展 2026** [Osaka, Japan] · 搬入：2026年9月10日（木）AM10時～11時
+  Osaka-based institutional exhibition accepting submissions from diverse art backgrounds.
 
-- **次代を担う画家育成・顕彰公募展** [Tokyo, Japan] · 2027年1月8日必着
-  Painting open call for contemporary artists exploring nature and human themes; no age/affiliation restrictions.
+- **関西アート公募展（若手アーティスト向け）** [Osaka, Japan]
+  Kansai-based open call supporting emerging artists with entries from diverse media including flat and 3D work.
 
-- **ヤングアーティスト公募展「いい芽ふくら芽 in OSAKA 2026」** [Osaka, Japan]
-  Young artist open call with exhibition and sales opportunity at department store; accepts paintings and mixed media.
-  → https://compe.japandesign.ne.jp/iimefukurame-osaka-2026
+- **ギャラリー檜 展示** [Tokyo, Japan]
+  Tokyo-based gallery in Kyobashi featuring exhibitions during summer 2026; suitable for illustration and watercolor artists.
 
-- **ZERO展 2026** [Tokyo, Japan]
-  Established annual art exhibition in its 26th year, open to emerging and established artists.
-  → https://newartzero.com
+- **AFAF AWARD powered by E.SUN Bank** [Fukuoka, Japan] · 2025年8月9日23:59
+  Open call for next-generation artists without restrictions on nationality, age, theme, or genre; accepts all media including watercolor and illustration.
+  → https://koubo.yumegazai.com/category/koubo
 
-- **TOKYO ART BOOK FAIR 2026** [Tokyo, Japan]
-  Art book and zine fair at contemporary art museum accepting artists and publishers; fits illustration and artist book categories.
+- **gallery cafe & zakka SAKURA主催展示募集** [Osaka, Japan] · 2026年8月15日（募集人数に達した時点で締切）
+  Café gallery open call accepting painting, illustration, and various media from artists of all experience levels with free theme.
+  → https://koubo.yumegazai.com/category/koubo
 
-- **TOKYO ART BOOK FAIR 2026 Exhibitor Call** [Tokyo, Japan] · June 2026
-  Open call for art book and zine fair exhibitors; directly matches artist book and illustration submission needs.
+- **LURF GALLERY「PAINTING」グループ展** [Tokyo, Japan]
+  Group painting exhibition by 7 artists running July 11 - August 16, 2026 at a Tokyo gallery space.
 
-- **Potluck Art Book Fair 2026 Exhibitor Call** [Tokyo, Japan] · June 9
-  Art book fair open call for exhibitors; matches artist book and zine fair participation profile.
+## Chinese Sources (22 new)
 
-- **Fukuoka Art Book Fair 2026** [Fukuoka, Japan]
-  Regional art book fair in Japan; relevant for zine and artist book exhibition outside Tokyo.
+- **2026西泠春拍藏品征集** [Beijing, China] · 2026年3月29日至3月30日（北京站）
+  Auction house accepting submissions for Chinese paintings and artwork, though primarily for traditional works rather than contemporary watercolor/illustration
 
-- **カフェ内ギャラリースペース展示募集** [Tokyo, Japan] · 展示無料
-  Café gallery seeking artists for free wall space display, 2026 Jan-Mar period matches watercolor illustration practice
+- **万物自有角落——中国原创绘本展** [Beijing, China]
+  Exhibition of original Chinese picture books featuring watercolor and illustration work, open to viewing but not a submission opportunity
 
-- **水彩アートの祭典「Watercolors 2026」** [Tokyo, Japan] · 1作品9,000円、2作品目以降+8,000円（税別）
-  Watercolor-only exhibition at Tokyo Arts Theater, 2026 Mar 7-8, accepts watercolor works up to 4号 size with no theme restrictions
-  → https://koubo.yumegazai.com/2025/12/05/nihonbungei-watercolor2026-2025
+- **星野循踪——艺术家邀请展** [Shanghai, China]
+  Artist invitation exhibition featuring multiple mediums including watercolor, but past event (opened 2025-05-02)
 
-## Chinese Sources (11 new)
+- **2025-2026 SHOWREEL 站酷顶尖创作者年度作品集 征集活动** [Online, China]
+  ZCOOL annual creator collection call accepts illustration and design work from watercolor and visual artists.
 
-- **香港水彩畫展** [Hong Kong, Hong Kong] · 2026/06/30 HKT 23:59
-  Watercolor exhibition open call with explicit deadline in 2026; aligns with artist's watercolor practice and exhibition participation interests.
+- **2026水彩的可能-桃園水彩** [Taoyuan, Taiwan] · 115年2月26日 (2026年2月26日)
+  Open call for watercolor works with explicit focus on contemporary watercolor development and diverse media exploration.
 
-- **2026水彩的可能—桃園水彩藝術展** [Taoyuan, Taiwan] · 115年2月26日 (2026/02/26)
-  Watercolor art exhibition call with early 2026 deadline; directly targets watercolor artists and fits exhibition participation portfolio.
+- **Print Biennial 2026 (版畫雙年展)** [Taichung, Taiwan] · 2026年1月30日
+  International print biennial accepting submissions; relevant for artist's illustration and artistic media work.
 
-- **版畫雙年展** [Taiwan, Taiwan] · 2026年1月30日
-  Print and visual arts biennial with extended 2026 deadline; printmaking can align with illustration and artistic practice.
+- **Art Competition (California-based)** [Online, International] · 2026年5月31日 (PST 11:59 PM)
+  International art competition with clear submission deadline accessible to international artists.
+  → https://bhuntr.com/tw/competitions/208h5hxfrofrnv2jhx
 
-- **2026中国美术家协会首届现代插画艺术大展** [Shanghai, China] · July 2026
-  National illustration and art exhibition open call seeking modern illustration work with architectural and visual art focus.
-  → https://www.shejijingsai.com/2026/06/1577003.html
+- **中国美术家协会首届现代插画艺术大展** [China, China]
+  Major illustration open call from Chinese art association, relevant for illustration artists seeking broader exhibition exposure.
 
-- **南京艺术展览 2026年3月** [Nanjing, China]
-  Art exhibition accepting up to 5 works per artist with sales opportunity during exhibition period.
-  → https://www.instagram.com/p/DTfGJkAEYra
+- **时代新貌——第四届插图装帧艺术展览** [China, China]
+  Book design and illustration art exhibition, directly relevant to illustration and artist book work.
 
-- **Bologna Illustrators Exhibition 2026** [Florence, Italy]
-  International illustration exhibition selecting 78 artists and 390 annual works from global submissions.
-  → https://firenzecx.kktix.cc/events/bolognaillustratorsexhibition
+- **波隆那世界插畫大獎展** [Taipei, Taiwan]
+  Bologna Illustration Awards exhibition in Taiwan; major international illustration competition relevant to illustration artists.
 
-- **2026 國際藝術設計展演 / 2026 International Art & Design Showcases** [International, International] · NT 42,000 - NT 76,000 depending on exhibition
-  International exhibition program including Paris Louvre, Stockholm, Warsaw, Japanese museums, and illustration design opportunities with FamilyMart partnership.
-  → https://www.deglobalart-alea.com/zh/post/2026-%E5%9C%8B%E9%9A%9B%E8%97%9D%E8%A1%93%E8%A8%AD%E8%A8%88%E5%B1%95%E6%BC%94-%E5%85%A8%E7%90%83%E5%BE%B5%E4%BB%B6%E4%B8%AD
+- **2027臺南新藝獎** [Tainan, Taiwan] · 2026年7月20日～9月4日 17:30
+  Taiwan art award open to various media; accessible international art competition for illustration and painting artists.
 
-- **IlloBoom 2026 Global Illustration Competition** [International, International]
-  Global illustration competition welcoming all art styles, directly relevant to illustration artists.
-  → https://illoboom.com/2026sponsorships
+- **第三屆橫山書藝獎** [Taiwan, Taiwan] · 2026年9月1日10:00～11月30日17:00
+  Book art award relevant to artist book and illustration work.
 
-- **World Illustration Awards 2026 (WIA2026)** [International, International]
-  Major international illustration award with publishing category, highly visible for illustration artists.
-  → https://bhuntr.com/tw/competitions/5qzf41fr5t9o10598q
+- **2026洄瀾美展** [Taiwan, Taiwan] · 2026年6月15日 17:00
+  Taiwan visual art exhibition open call for multiple media including illustration and watercolor.
 
-- **2026 Golden Pinwheel International Youth Illustrator Competition** [Shanghai, China]
-  Children's book illustration competition with international exposure, exhibition at major book fair, and international exchange opportunities.
-  → https://www.ccbfgoldenpinwheel.com.cn/cn/index/GoldenPinwheel-News/detail!2026-call-for-entries
+- **2026中山青年藝術獎** [Taiwan, Taiwan] · 2026年7月28日～8月1日
+  Young artist award in Taiwan; relevant emerging artist competition for illustration and painting.
 
-- **2026 International Sketch Art Competition** [Hong Kong, Hong Kong] · 20-06-2026 · Free
-  Sketch art competition with free entry, accessible to watercolor and illustration artists in Asia.
+- **2026南瑛獎** [Taiwan, Taiwan] · 2026年6月1日～30日 17:00
+  Taiwan art award open call for visual artists.
 
-## Chinese Diaspora (37 new)
+- **2026桃源美展** [Taiwan, Taiwan] · 2026年6月1日 9:00～7月1日 16:00
+  Taiwan visual art exhibition open to multiple media.
 
-- **第53届　全国周日画家展** [Tokyo, Japan] · 免费
-  Watercolor open call exhibition in Tokyo accepting watercolor paintings
+- **第四届威尼斯国际水彩节 / The 4th Le Venezie International Watercolor Festival** [Venice, Italy]
+  International watercolor festival directly aligned with artist's watercolor practice and global reach.
 
-- **第50届　悠美会国际美术展** [Tokyo, Japan] · 免费
-  International art exhibition accepting watercolor paintings among other media
-  → https://www.yuubikai.com
+- **第五届2026年威尼斯国际青少年美术大赛 / 5th Venice International Youth Art Competition 2026** [Treviso / Shanghai, Italy / China]
+  International youth art competition with exhibitions in Italy and China; accepts various visual art forms.
 
-- **现代造形表现艺术家论坛展** [Tokyo, Japan] · 收费
-  Contemporary art exhibition accepting 2D works and installation art
+- **TERAVARNA 9th WATER International Juried Art Competition 2026** [Online, International] · May 31, 2026, 11:59 PM Pacific Time
+  International water art competition with explicit focus on watercolor medium.
+  → https://bhuntr.com/tw/competitions/208h5hxfrofrnv2jhx
 
-- **光风会选拔展　2026** [Tokyo, Japan] · 免费
-  Juried painting exhibition accepting oil paintings
-  → https://kofu-kai.jp/
+- **2026国际大学生数字艺术设计大赛 / 2026 International University Student Digital Art & Design Competition** [International, International] · March 2026 (stated as '3月截稿')
+  International digital art and design competition accepting illustration and painting submissions from artists globally.
 
-- **第35届　秋耕会小品展** [Tokyo, Japan] · 免费
-  Small-scale watercolor and painting exhibition in Tokyo
+- **2026世界盃國際青少年繪畫藝術大賽 / 2026 World Cup International Youth Painting Art Competition** [International, International]
+  International youth painting and illustration competition with two categories: painting creation and color art.
 
-- **國際藝術大賞東京展2026國際徵件展** [Tokyo, Japan] · 2026年2月6日
-  International art competition with Tokyo exhibition venue
+- **2026 Spring Malaysia International Online Juried Art Competition** [Online, Malaysia]
+  International online juried competition explicitly accepting watercolor, acrylic, ink, and mixed media submissions.
 
-- **OPEN World Exhibition** [Tokyo, Japan]
-  International art exhibition in Tokyo with open concept
+## Chinese Diaspora (29 new)
 
-- **Tokyo Open Art - October 2026** [Tokyo, Japan]
-  Open call accepting all mediums including illustration and watercolor, with physical exhibition in Tokyo in October 2026.
+- **Tokyo Open Art** [Tokyo, Japan]
+  Open to all mediums including illustration and painting, welcomes artists from any country and background.
   → https://www.theholyart.com/tokyo-open-art
 
-- **TOKAS-Emerging 2027** [Tokyo, Japan]
-  Open call exhibition for Japan-based artists under 35, eligible for Tokyo-based artist GEGYjiji.
-  → https://www.tokyoartsandspace.jp/en/application/index.html
+- **Exhibition in Japan (October 16–19, 2026)** [Tokyo, Japan] · 1 October 2026
+  Open call for artists to exhibit work in Japan with explicit invitation on Instagram.
+  → https://www.instagram.com/p/DXEdIaODFzh
 
-- **The 59th TABUROU Art Exhibition** [Tokyo, Japan] · June 22, 2026
-  Nationwide open call art exhibition in Japan during June-July 2026.
+- **The 89th SHINSEISAKU Art Exhibition** [Tokyo, Japan] · August 16, 2026 · 700 yen (adults)
+  Institutional exhibition in Tokyo accepting artwork submissions.
+  → https://www.nact.jp/english/exhibition_public
 
-- **OPEN CALL FOR ARTISTS - 2026** [International, International]
-  Open theme call for artists of all nationalities and mediums, including physical exhibitions in Asia.
-  → https://www.aaartsalliance.org/opportunities/open-call-for-artists-2026
+- **Artworks You'll Want to Display in Your Room #7** [Tokyo, Japan] · 2026.11
+  Gallery open call for artwork exhibitions in Japan.
+  → https://en.410gallery.org/exhibition-open-call
 
-- **2026国际水墨艺术大展** [Tokyo, Japan]
-  International ink art exhibition showcasing 272 works from Japanese and Chinese artists across calligraphy, painting, and ceramics—directly relevant to watercolor and illustration artists.
+- **Flower exhibition #6** [Tokyo, Japan] · 2027.02.15
+  Themed gallery exhibition open call in Japan.
+  → https://en.410gallery.org/exhibition-open-call
 
-- **2026东京·首届日中书画名家作品交流展** [Tokyo, Japan]
-  Japan-China calligraphy and painting exchange exhibition held at Tokyo Chinese Cultural Center, suitable for watercolor and illustration artists working with urban observation and cultural themes.
+- **Kawaii ART Exhibition #1** [Tokyo, Japan] · 2026.09
+  Gallery open call for illustration and art in Japan.
+  → https://en.410gallery.org/exhibition-open-call
 
-- **中国文化中心锦霞展览** [Tokyo, Japan]
-  Exhibition featuring three Chinese artists using ink and watercolor to depict autumn landscapes in Tokyo, directly relevant to watercolor artists with Asian cultural connections.
+- **Umi Exhibition #1** [Tokyo, Japan] · 2027.01
+  Themed gallery exhibition open call in Japan.
+  → https://en.410gallery.org/exhibition-open-call
 
-- **港日美術家作品展2026** [Tokyo, Japan]
-  Hong Kong-Japan artist collaboration exhibition in Tokyo's Ginza gallery district, suitable for illustration and watercolor artists seeking international platform.
+- **Sora Exhibition #1** [Tokyo, Japan] · 2027.01
+  Themed gallery exhibition open call in Japan.
+  → https://en.410gallery.org/exhibition-open-call
 
-- **SAW (14th Edition)** [Singapore, Singapore] · 22 to 31 January 2026
-  Open call for interdisciplinary and participatory projects in Singapore's major arts week.
-  → https://www.nac.gov.sg/docs/default-source/about-us-files/saw-2026-open-call-brief.pdf?sfvrsn=c2964bda_1
+- **Guruguru Exhibition #1** [Tokyo, Japan] · 2027.03.15
+  Gallery open call for artwork in Japan.
+  → https://en.410gallery.org/exhibition-open-call
 
-- **INSTINC 2026 / 2027 Artist-in-Residence Program** [Singapore, Singapore]
-  Artist-in-residence program open to international artists including illustrators and visual artists.
-  → https://sagg.info/event/opencall-2026-and-2027
+- **Striped Exhibition #1** [Tokyo, Japan] · 2026.09
+  Gallery exhibition open call in Japan.
+  → https://en.410gallery.org/exhibition-open-call
 
-- **Affordable Art Fair Singapore 2026** [Singapore, Singapore]
-  Open applications for affordable art fair, suitable for watercolor and illustration artists.
+- **Open Call — Osaka, Japan (October 16–19, 2026)** [Osaka, Japan] · October 1, 2026
+  In-person exhibition open call in Japan accepting international artists for focused presentation.
+  → https://www.aaartsalliance.org/opportunities/open-call-osaka-japan-16-19-october-2026
 
-- **Singapore International Art Contest (SIAC) 2026-7** [Singapore, Singapore]
-  International art competition open to artists worldwide, accepts visual work including watercolor and illustration.
-  → https://www.aa.org.sg/2026-7th-siac
+- **TOKAS-Emerging 2026** [Tokyo, Japan]
+  Emerging artists exhibition presenting 6 selected artists under 35 from 186 applicants, featuring painting, video, and installation media; free public access.
 
-- **艺彩同辉 (Art Colors in Harmony) — Singapore Art Association 2026 Exhibition** [Singapore, Singapore]
-  Group exhibition at Chinese cultural center featuring hundreds of member artworks, relevant for watercolor and illustration artists seeking exhibition opportunities.
+- **2026香港．泉州國際水彩巡迴展** [Hong Kong, Hong Kong] · 2026年1月20日
+  International watercolor touring exhibition gathering 289 artists from 35 countries; directly relevant to watercolor-focused artist with East Asian focus.
 
-- **文章焕彩2026 (Radiant Colors 2026) — Teng Wen Chang Solo Exhibition** [Singapore, Singapore]
-  Exhibition at artist space featuring multi-disciplinary art, relevant venue type for watercolor and illustration artists.
+- **3rd IWS Singapore International Exhibition & Competition 2026** [Singapore, Singapore]
+  Watercolour painting competition with exhibition dates June 7-10, 2026, directly aligned with the artist's primary medium.
 
-- **Illustration Arts Festival 2026** [Singapore, Singapore] · 2026-07-05
-  International illustration festival bringing together artists from multiple countries; directly relevant for illustration-focused practitioners.
+- **2026 Ink Realm A New Chapter 5th International Chinese Painting and Calligraphy Art Exhibition** [Singapore, Singapore]
+  International painting exhibition for 2026 open to artists working in traditional media including watercolor and ink.
 
-- **Singapore Art Week 2026** [Singapore, Singapore] · 2026-01-31
-  Large-scale multi-venue art event featuring 170+ activities across Southeast Asian contemporary art; relevant for artists seeking exposure in regional art ecosystem.
+- **Singapore International Art Contest (SIAC) 2026-2027** [Singapore, Singapore]
+  Annual international art competition open to artists worldwide with single artwork submission format suitable for watercolor and illustration works.
 
-- **CICA Vancouver Exhibition** [Vancouver, Canada] · January 10, 2026
-  Open call for artists with exhibition dates Feb 12 – Mar 28, 2026, accepting watercolor and illustration work.
+- **第56届新加坡水彩画展 (56th Singapore Watercolour Society Annual Exhibition)** [Singapore, Singapore]
+  Major watercolor exhibition featuring 250+ member artworks and 54 award-winning junior competition works; aligns with artist's watercolor practice and exhibition participation goals.
 
-- **Small Wonders 2026** [Vancouver, Canada] · March 31, 2026
-  Open call for emerging artists with drop-off July 2, 2026 and show opening July 6, 2026, suitable for watercolor and illustration submissions.
-  → https://sw26.artcall.org
+- **新加坡国际艺术绘画大赛 (Singapore International Art Painting Competition)** [Singapore, Singapore]
+  Annual international art competition open to artists globally, accepting watercolor and illustration work from professional artists and students.
+  → https://www.aa.org.sg/zh/2026-7th-siac
 
-- **Art Rental & Sales Program (AR&S)** [Vancouver, Canada]
-  Annual submission opportunity for emerging and mid-career artists, relevant for watercolor illustration work.
+- **Asian Diasporic Background Artist Exhibition** [Vancouver, Canada]
+  Open call for emerging and mid-career artists with Asian diasporic background; exhibition running Feb 12 – Mar 28, 2026.
 
-- **Surface Design Association Exhibition 2026** [Duncan / Vancouver, Canada] · March 31, 2026
-  Surface design and illustration exhibition with online submission system; relevant for watercolor artists seeking institutional exhibition opportunities.
-  → https://ct26.artcall.org
+- **Art Vancouver Contemporary Art Fair 2027** [Vancouver, Canada]
+  Major contemporary art fair on Canada's West Coast (April 8-11, 2027) where galleries and artists can exhibit and sell work.
 
-- **2026 Calendar Exhibition and Competition - Painting Intake** [International, International]
-  Painting competition and exhibition; relevant for watercolor and illustration artists seeking competitive exhibition platforms.
-  → https://artists.ca/submissions/view/id/2220
+- **2026 JIA Watercolor Open Exhibition (第四屆 Joy in Art 水彩畫暨畫家聯展)** [Hong Kong, International] · Online submission deadline not explicitly stated; exhibition July 9-13, 2026; award ceremony November 7, 2026
+  Watercolor open exhibition welcoming local and overseas participants; fits Tokyo-based watercolor artist's profile perfectly.
+  → https://www.joyinart.cc/chi-joyinart-watercolour-open-exhibition-2026
 
-- **2026 Exhibitions at City of Toronto Cultural Centres & Galleries** [Toronto, Canada]
-  Public gallery exhibition opportunity for individual artists and groups to display work in 2026.
-  → https://akimbo.ca/listings/call-for-submissions-2026-exhibitions-at-city-of-toronto-cultural-centres-galleries
+- **2026 Xu Qinsong Creation Award for Young Artists** [International, China]
+  Major Chinese art prize for emerging artists with multiple award categories including visual arts disciplines.
+  → https://www.xhbt.org/open-calls/2026-xu-qinsong-creation-award-for-young-artists
 
-- **Gallery 456 Exhibition in 2026** [Toronto, Canada] · Space fees required for gallery maintenance
-  Open call for artists to exhibit work in two-week exhibitions during 2026.
+- **Gallery 456 Exhibition in 2026 Open Call for Artists** [Online, International] · Space fees incurred
+  Two-week exhibition opportunities for visual artists in 2026.
   → https://www.aaartsalliance.org/opportunities/gallery-456-exhibition-in-2026-open-call-for-artists
 
-- **Asian Celebration Art Exhibition 2026** [Online, International]
-  Exhibition opportunity for artists interested in Asian themes, running June 25–July 12, 2026.
+- **Tranzac Art Shows Open Call for Visual Artists** [Toronto, Canada] · June 30, 2027
+  Toronto-based open call for local visual artists with exhibitions running October 1, 2026 - June 30, 2027.
 
-- **Artist Project 2026** [Toronto, Canada]
-  Art fair bringing together over 250 independent artists for personal connections and exhibition, May 26–29, 2026.
-  → https://www.we-artonline.com/Events/artist-project-toronto-2025
+- **2026 Experience China: One Art, Boundless Seas – International Art Exhibition & World Youth Artists Forum** [Hangzhou, China]
+  International art exhibition welcoming young artists with themes including Tradition and Global Dialogue, Fluid Identity and Cross-border Practice; runs June 1 - July 20, 2026 at CAA Xiangshan Campus.
 
-- **Lakeshore Art Trail – Youth Art Exhibit 2026** [Toronto, Canada]
-  Professional art show opportunity for artists to exhibit work, October 17–18, 2026.
-  → https://www.instagram.com/p/DSYPQ4gEv8S
+- **Cedar Ridge Gallery Open Call for Visual Artists** [Online, International]
+  Gallery accepting applications from visual artists for exhibitions January-May and September-December 2026.
+  → https://www.artconnect.com/opportunity/jV3ptCDSp87izSnN-uS9S
 
-- **Joy In Art 2026 Watercolor Open Exhibition (第四屆水彩展招募)** [Toronto, Canada]
-  Explicit watercolor open call seeking diverse submissions; fourth iteration shows established venue open to international artists.
-  → https://www.joyinart.cc/chi-joyinart-watercolour-open
+- **SCA 2026 Open International Online Juried Exhibition** [Online, International]
+  International online juried exhibition welcoming art submissions from across the globe showcasing contemporary and representational artworks.
+  → https://akimbo.ca/listings/call-for-submissions-sca-2026-open-international-online-juried-exhibition
 
-- **2026 Asian Heritage Culture Art Show (亞裔傳統文化藝術展)** [Toronto, Canada]
-  Community art exhibition accepting submissions from Asian heritage artists; watercolor and illustration eligible media.
+- **2026 Asian Heritage Cultural Arts Exhibition (2026 亞裔傳統文化藝術展)** [Toronto, Canada]
+  Asian cultural arts exhibition in Toronto during May 2026, relevant for diaspora-based Asian artist seeking exhibition opportunities.
+  → https://www.OCAA.info
 
-- **Spring Flora and Fauna Art Exhibition 2026 (春日花鳥畫展)** [Toronto, Canada]
-  Community art exhibition for painting; watercolor artists welcome to submit nature-themed work.
-
-- **2026 OCAA Ladies Art Exhibition (安美女仕畫展)** [Toronto, Canada]
-  Community art exhibition for women artists; watercolor and painting submissions accepted.
+- **Toronto Biennial of Art 2026** [Toronto, Canada]
+  Major contemporary art biennial in Toronto running September-December 2026, though specific open call details not provided in snippet.
 
 ## Stats
-- JP: 36 new
-- CN: 11 new
-- DIASPORA: 37 new
-- Total in pipeline: 492
+- JP: 35 new
+- CN: 22 new
+- DIASPORA: 29 new
+- Total in pipeline: 772

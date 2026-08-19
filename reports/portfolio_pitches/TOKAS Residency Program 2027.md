@@ -1,16 +1,16 @@
 # Portfolio Pitch — TOKAS Residency Program 2027
 
 ## Recommended Body of Work
-General Portfolio
+Daily Poetic Photography
 
 ## Why This Body Fits
-A concise selection of her strongest current work.
+A quieter observational body of work built around daily life, light, domestic details, travel fragments, and subtle emotional atmosphere.
 
 ## Opportunity Fit
-Artist residency program in Tokyo with stipend support for Japan-based creators, offering dedicated studio time relevant to watercolor and illustration practice.
+TOKAS offers stipend support and dedicated studio time for Japan-based painters—which means you can apply directly without representation, and the funding covers time to deepen your watercolor and urban observation practice in Tokyo where you're already working. Check the submission deadline and eligibility requirements on their site, then prepare 8–12 recent watercolors from your daily practice that show your architectural observation work.
 
 ## Match Signals
-No strong keyword match stored yet.
+daily, observation
 
 ## Suggested Submission Framing
 Present this not as a general portfolio, but as a focused body of work.

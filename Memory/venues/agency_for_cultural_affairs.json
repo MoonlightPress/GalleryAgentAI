@@ -4,11 +4,11 @@
   "venue_type": "artist opportunity venue",
   "city": "Tokyo",
   "country": "",
-  "website": "https://www.art-it.asia/opencall",
+  "website": "https://www.bunka.go.jp/seisaku/geijutsubunka/shinshin/kenshu/94389101.html",
   "source_links": [
-    "https://www.art-it.asia/opencall",
-    "https://www.art-it.asia/top/admin_ed_news/288280",
     "https://www.bunka.go.jp/seisaku/geijutsubunka/shinshin/kenshu/94389101.html",
+    "https://www.art-it.asia/top/admin_ed_news/288280",
+    "https://www.art-it.asia/opencall",
     "https://www.windsgyosei.com/column/detail/id=852",
     "https://www.art-it.asia/top/admin_ed_news/258448",
     "https://www.ntj.jac.go.jp/grant/topics/2026/r8saitaku"
@@ -30,18 +30,17 @@
   ],
   "missing_information": [
     "contact",
-    "deadline",
     "submission process"
   ],
   "opportunity_titles": [
-    "令和8年度（2026年度）文化庁メディア芸術クリエイター育成支援事業",
-    "令和8年度新進芸術家海外研修制度「日本文化発信・普及事業」",
     "新進芸術家海外研修制度",
+    "令和8年度新進芸術家海外研修制度「日本文化発信・普及事業」",
+    "令和8年度（2026年度）文化庁メディア芸術クリエイター育成支援事業",
     "文化庁文化芸術振興費補助金2026（舞台芸術等総合支援事業）",
     "芸術家海外研修制度（Artists' Overseas Training Program）",
     "令和8年度芸術文化振興基金及び文化芸術振興費補助金による助成"
   ],
   "last_researched": "",
-  "created_at": "2026-07-27",
-  "updated_at": "2026-07-27"
+  "created_at": "2026-08-18",
+  "updated_at": "2026-08-18"
 }

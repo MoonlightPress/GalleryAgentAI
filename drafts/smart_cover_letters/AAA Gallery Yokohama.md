@@ -7,7 +7,7 @@ Recommended Body of Work:
 Daily Poetic Photography
 
 Core Fit:
-AAA Gallery Yokohama's focus on works on paper research aligns directly with GEGYjiji's watercolor practice and daily observation methodology, offering a venue that understands the specificity of her medium rather than treating it as secondary. Her documentation of Tokyo's urban environments and fleeting architectural moments would resonate with a gallery dedicated to exploring the nuances of watercolor as a serious research-based practice.
+AAA Gallery Yokohama's focus on works on paper research overlaps with your watercolor practice and daily observation methodology, offering a venue that understands the specificity of your medium rather than treating it as secondary. Your documentation of Tokyo's urban environments and fleeting architectural moments would resonate with a gallery dedicated to exploring the nuances of watercolor as a serious research-based practice.
 
 Draft Structure:
 

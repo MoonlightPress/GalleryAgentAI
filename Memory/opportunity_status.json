@@ -8438,5 +8438,25 @@
     "follow_up_date": "",
     "notes": "",
     "last_updated": "2026-07-27"
+  },
+  "open call for artists::artconnect open calls": {
+    "status": "new",
+    "saved": false,
+    "rejected": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "notes": "",
+    "last_updated": "2026-07-29"
+  },
+  "stiff 2026. – open call for artworks::artconnect open calls": {
+    "status": "new",
+    "saved": false,
+    "rejected": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "notes": "",
+    "last_updated": "2026-07-29"
   }
 }

@@ -116,25 +116,27 @@ Major photobook publisher; probably not immediate, but useful as a long-horizon 
 ### Japan Photobook / Artist Book
 This is the strongest immediate ecosystem for her visual language: quiet photography, sequences, books, zines, and small-scale cultural visibility.
 
-- **Tokyo Art Book Fair** — score 9.4, differentiated 11.5; matched: TOKYO ART BOOK FAIR
-- **UTRECHT** — score 9.4, differentiated 11.5; matched: UTRECHT
-- **flotsam books** — score 9.4, differentiated 11.39; matched: flotsam books
+- **UTRECHT** — score 9.4, differentiated 11.24; matched: UTRECHT
+- **Tokyo Art Book Fair** — score 9.4, differentiated 11.24; matched: TOKYO ART BOOK FAIR
 - **TOKIO ART BOOK FAIR 2026** — score 9.4, differentiated 11.24; matched: TOKYO ART BOOK FAIR
-- **MOUNT ZINE** — score 9.4, differentiated 10.71; matched: MOUNT ZINE
-- **TOKYO ART BOOK FAIR 2026 Exhibitor Call** — score 8.6, differentiated 10.1; matched: TOKYO ART BOOK FAIR
-- **TOKYO ART BOOK FAIR 2026** — score 8.6, differentiated 9.98; matched: TOKYO ART BOOK FAIR
-- **POST** — score 8.0, differentiated 9.21; matched: POST
+- **MOUNT ZINE** — score 9.2, differentiated 10.51; matched: MOUNT ZINE
+- **TOKYO ART BOOK FAIR 2026** — score 8.6, differentiated 10.49; matched: TOKYO ART BOOK FAIR
+- **flotsam books** — score 8.2, differentiated 10.19; matched: flotsam books
+- **POST** — score 7.3, differentiated 8.51; matched: POST
+- **桜Exhibition2026** — score 6.9, differentiated 8.1; matched: POST
 - **shashasha** — score 5.0, differentiated 5.96; matched: Shashasha
+- **TOKYO ART BOOK FAIR 2026 Exhibitor Call** — score 3.2, differentiated 4.94; matched: TOKYO ART BOOK FAIR
+- **Exhibition in Japan (October 16–19, 2026)** — score 2.0, differentiated 2.6; matched: POST
 
 ### International Photobook Publishing
 This is the long-horizon ecosystem for international publication legitimacy.
 
-- **tata bookshop/gallery** — score 8.6, differentiated 9.85; matched: VOID
-- **Gallery Conceal Shibuya** — score 7.4, differentiated 8.1; matched: VOID
-- **Aperture | Photography** — score 6.0, differentiated 7.89; matched: Aperture
-- **Picaresque Gallery** — score 7.0, differentiated 7.86; matched: VOID
-- **Self Publish, Be Happy** — score 5.0, differentiated 6.48; matched: Self Publish, Be Happy
-- **Offprint** — score 5.0, differentiated 5.75; matched: Offprint
+- **tata bookshop/gallery** — score 8.8, differentiated 10.01; matched: VOID
+- **Picaresque Gallery** — score 8.6, differentiated 9.46; matched: VOID
+- **Gallery Conceal Shibuya** — score 7.5, differentiated 8.2; matched: VOID
+- **Aperture | Photography** — score 5.5, differentiated 7.5; matched: Aperture
+- **Self Publish, Be Happy** — score 5.0, differentiated 6.6; matched: Self Publish, Be Happy
+- **Offprint** — score 5.0, differentiated 6.11; matched: Offprint
 
 ### Quiet Documentary / Place-Based Photography
 These references help position the work as serious observational photography rather than decorative travel imagery.
@@ -144,8 +146,10 @@ _No current opportunities connected to this ecosystem yet._
 ### Low-Pressure Local Relationship Building
 These are useful for soft visibility and relationship-building before major applications.
 
-- **UTRECHT** — score 9.4, differentiated 11.5; matched: UTRECHT
-- **B&B Shimokitazawa** — score 9.4, differentiated 11.39; matched: B&B Shimokitazawa
-- **flotsam books** — score 9.4, differentiated 11.39; matched: flotsam books
-- **MOUNT ZINE** — score 9.4, differentiated 10.71; matched: MOUNT ZINE
-- **POST** — score 8.0, differentiated 9.21; matched: POST
+- **UTRECHT** — score 9.4, differentiated 11.24; matched: UTRECHT
+- **B&B Shimokitazawa** — score 9.0, differentiated 10.99; matched: B&B Shimokitazawa
+- **MOUNT ZINE** — score 9.2, differentiated 10.51; matched: MOUNT ZINE
+- **flotsam books** — score 8.2, differentiated 10.19; matched: flotsam books
+- **POST** — score 7.3, differentiated 8.51; matched: POST
+- **桜Exhibition2026** — score 6.9, differentiated 8.1; matched: POST
+- **Exhibition in Japan (October 16–19, 2026)** — score 2.0, differentiated 2.6; matched: POST

@@ -1,7 +1,7 @@
 {
   "venue_name": "CuratorSpace",
   "venue_slug": "curatorspace",
-  "venue_type": "bookstore / print space",
+  "venue_type": "artist opportunity venue",
   "city": "Online",
   "country": "",
   "website": "https://www.curatorspace.com/opportunities",
@@ -41,9 +41,9 @@
     "submission process"
   ],
   "opportunity_titles": [
+    "CuratorSpace",
     "Browse opportunities | CuratorSpace",
     "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ",
-    "CuratorSpace",
     "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar",
     "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
     "Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING",
@@ -54,6 +54,6 @@
     "The Light Frame Gallery | Open Call for Guest Writers (Museums, Photography & Community) S"
   ],
   "last_researched": "",
-  "created_at": "2026-07-27",
-  "updated_at": "2026-07-27"
+  "created_at": "2026-08-18",
+  "updated_at": "2026-08-18"
 }

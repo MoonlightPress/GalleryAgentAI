@@ -6,245 +6,245 @@ This report separates opportunities by strategic role instead of forcing everyth
 
 High-upside opportunities that could meaningfully change her reputation, network, or publication history.
 
-- **Tokyo Art Book Fair** — score 9.4, differentiated 11.5, visual fit 5.9. Tokyo Art Book Fair's focus on independent publishing and artist-authored work aligns directly with GEGYjiji's daily practice of documenting disappearing urban moments—a body of work that naturally translates into sequenced watercolor narratives or painterly/observational books about architectural memory. The fair's curated community of small presses and self-publishers offers direct access to an audience already invested in intimate, place-based storytelling rather than commercial gallery circuits.
-  - Visual match signals: watercolor, memory, artist book, small press, artist_book, zine, small_press
-- **submissions — porkbelly press** — score 9.4, differentiated 11.5, visual fit 4.15. Porkbelly Press specializes in artist books and limited-edition publications that emphasize visual narratives and intimate observation—a natural home for GEGYjiji's daily watercolor studies of Tokyo's disappearing urban spaces and architectural moments. Her practice of sustained, quiet documentation of ephemeral cityscapes aligns with small press aesthetics that prioritize the book object itself as a vehicle for meditative, place-based work.
+- **submissions — porkbelly press** — score 9.4, differentiated 11.5, visual fit 4.15. Porkbelly Press specializes in artist books and limited-edition publications that emphasize visual narratives and intimate observation—a possible outlet for your daily watercolor studies of Tokyo's disappearing urban spaces and architectural moments. Your practice of sustained, quiet documentation of ephemeral cityscapes aligns with small press aesthetics that prioritize the book object itself as a vehicle for meditative, place-based work.
   - Visual match signals: watercolor, artist book, small press, artist_book, small_press
-- **UTRECHT** — score 9.4, differentiated 11.5, visual fit 4.15. UTRECHT's focus on artist books and printed matter aligns naturally with your daily watercolor practice—the format removes pressure to scale up or conceptualize, and allows your quiet, observational studies of Tokyo's disappearing architecture to exist as intimate, collectable works. A bookstore gallery audience expects exactly the kind of sustained, understated visual documentation you're already making, without the institutional expectations of a traditional exhibition space.
-  - Visual match signals: watercolor, memory, artist book, artist_book, zine
-- **B&B Shimokitazawa** — score 9.4, differentiated 11.39, visual fit 3.7. Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
-  - Visual match signals: watercolor, artist book, artist_book, zine
-- **Women United ART MAGAZINE Issue XIV Summer 2026** — score 9.4, differentiated 11.39, visual fit 3.7. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
-  - Visual match signals: watercolor, artist book, artist_book, zine
-- **SUBMISSIONS - marblepress.com** — score 9.4, differentiated 11.39, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
-- **flotsam books** — score 9.4, differentiated 11.39, visual fit 3.7. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
+- **Submissions — Clavis Publishing** — score 9.4, differentiated 11.5, visual fit 4.15. Clavis Publishing's focus on visual narratives and artist books overlaps with your practice of documenting Tokyo's ephemeral urban landscapes through watercolor—work that benefits from the sustained, intimate format of a published collection. Your consistent daily practice and 26k following demonstrate the audience and discipline required for a successful artist publication.
+  - Visual match signals: watercolor, artist book, small press, artist_book, small_press
+- **Women United ART MAGAZINE Issue XIV Summer 2026** — score 9.4, differentiated 11.39, visual fit 3.7. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. you qualify.
   - Visual match signals: watercolor, artist book, artist_book, zine
 - **美術手帖 (Bijutsu Techo) — Artist Feature** — score 9.4, differentiated 11.29, visual fit 3.7. Flagship fine art publication for the Japanese art world. An editorial feature here is a career-defining visibility event.
   - Visual match signals: artist book, Tokyo-based, artist_book, zine
+- **UTRECHT** — score 9.4, differentiated 11.24, visual fit 3.25. An independent bookstore/gallery built around artist books and printed matter, free and low-friction — a Tier-1 way to put work into circulation as a publication rather than a framed show. It fits if you want to move toward zines or small print editions; if you only make originals, it's a weaker match.
+  - Visual match signals: artist book, artist_book, zine
+- **Tokyo Art Book Fair** — score 9.4, differentiated 11.24, visual fit 3.25. A major art-book fair with a curated small-press community and a printed-matter audience — a real route to that audience, but only if publishing is a direction you want. It requires finished publications and several days of staffing a booth, so weigh that cost honestly. Entry fee ¥1,000.
+  - Visual match signals: artist book, artist_book, zine
 - **TOKIO ART BOOK FAIR 2026** — score 9.4, differentiated 11.24, visual fit 3.25. Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors.
   - Visual match signals: artist book, artist_book, zine
-- **ZINEフェス東京 (ZINE Fest Tokyo)** — score 9.4, differentiated 11.24, visual fit 3.25. Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
+- **B&B (Book & Beer)** — score 9.4, differentiated 11.24, visual fit 3.25. A well-known Shimokitazawa bookshop-bar that consigns art books and zines with low friction and runs an events program — a concrete Tier-1 route to a printed presence in Tokyo. It's a route for self-published or artist-book work, not for original paintings.
   - Visual match signals: artist book, artist_book, zine
-- **Center for Book Arts Opportunities** — score 9.4, differentiated 11.17, visual fit 1.95. Potential fit if her work becomes more explicitly book-oriented or object/paper based.
+- **本店・本屋の実験室** — score 9.4, differentiated 11.24, visual fit 3.25. An independent Koenji bookstore running zine events and experimental print, with an open submission form and a low ¥500 fee — a low-barrier route for printed/serialized work. Confirm exactly what the current call accepts before submitting.
+  - Visual match signals: artist book, artist_book, zine
+- **SUBMISSIONS - marblepress.com** — score 9.2, differentiated 11.19, visual fit 3.7. Publishing / Small Press (found through targeted research).
+  - Visual match signals: artist book, small press, artist_book, small_press
+- **Center for Book Arts Opportunities** — score 9.4, differentiated 11.17, visual fit 1.95. Potential fit if your work becomes more explicitly book-oriented or object/paper based.
   - Visual match signals: artist book, artist_book
-- **Still Life - 2026** — score 9.4, differentiated 10.94, visual fit 2.4. 4th Annual Juried Exhibition with publication and sales opportunities for watercolor and illustration.
+- **ZINEフェス東京 (ZINE Fest Tokyo)** — score 9.2, differentiated 11.04, visual fit 3.25. A recurring Tokyo zine fair with very accessible fees and rolling applications. The next Tokyo event is July 11 2026 (applications close around June 27). If that window is tight, there are more dates through the year — no rush.
+  - Visual match signals: artist book, artist_book, zine
+- **B&B Shimokitazawa** — score 9.0, differentiated 10.99, visual fit 3.7. Suited to low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
+  - Visual match signals: watercolor, artist book, artist_book, zine
+- **Bologna Children's Book Fair Illustrators Exhibition** — score 9.4, differentiated 10.94, visual fit 2.4. A possible place to show watercolor or works on paper.
   - Visual match signals: watercolor, artist book, artist_book
-- **American Illustration** — score 9.4, differentiated 10.94, visual fit 2.4. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-  - Visual match signals: watercolor, artist book, artist_book
-- **World Illustration Awards** — score 9.4, differentiated 10.94, visual fit 2.4. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-  - Visual match signals: watercolor, artist book, artist_book
-- **Jackson's Art Prize** — score 9.4, differentiated 10.94, visual fit 2.4. Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit.
+- **Still Life - 2026** — score 9.4, differentiated 10.94, visual fit 2.4. Still Life is a juried exhibition that publishes work on paper and takes open submissions from unrepresented artists—worth submitting a series of your urban watercolors before their deadline if you're looking to build publication credentials alongside sales opportunities. Check their submission link to confirm the entry fee and deadline, then prepare 6–8 pieces that represent your daily practice.
   - Visual match signals: watercolor, artist book, artist_book
 
 ## High-Confidence Matches
 
 Strong matches with better verification.
 
-- **Tokyo Art Book Fair** — score 9.4, differentiated 11.5, visual fit 5.9. Tokyo Art Book Fair's focus on independent publishing and artist-authored work aligns directly with GEGYjiji's daily practice of documenting disappearing urban moments—a body of work that naturally translates into sequenced watercolor narratives or painterly/observational books about architectural memory. The fair's curated community of small presses and self-publishers offers direct access to an audience already invested in intimate, place-based storytelling rather than commercial gallery circuits.
-  - Visual match signals: watercolor, memory, artist book, small press, artist_book, zine, small_press
-- **submissions — porkbelly press** — score 9.4, differentiated 11.5, visual fit 4.15. Porkbelly Press specializes in artist books and limited-edition publications that emphasize visual narratives and intimate observation—a natural home for GEGYjiji's daily watercolor studies of Tokyo's disappearing urban spaces and architectural moments. Her practice of sustained, quiet documentation of ephemeral cityscapes aligns with small press aesthetics that prioritize the book object itself as a vehicle for meditative, place-based work.
+- **submissions — porkbelly press** — score 9.4, differentiated 11.5, visual fit 4.15. Porkbelly Press specializes in artist books and limited-edition publications that emphasize visual narratives and intimate observation—a possible outlet for your daily watercolor studies of Tokyo's disappearing urban spaces and architectural moments. Your practice of sustained, quiet documentation of ephemeral cityscapes aligns with small press aesthetics that prioritize the book object itself as a vehicle for meditative, place-based work.
   - Visual match signals: watercolor, artist book, small press, artist_book, small_press
-- **UTRECHT** — score 9.4, differentiated 11.5, visual fit 4.15. UTRECHT's focus on artist books and printed matter aligns naturally with your daily watercolor practice—the format removes pressure to scale up or conceptualize, and allows your quiet, observational studies of Tokyo's disappearing architecture to exist as intimate, collectable works. A bookstore gallery audience expects exactly the kind of sustained, understated visual documentation you're already making, without the institutional expectations of a traditional exhibition space.
-  - Visual match signals: watercolor, memory, artist book, artist_book, zine
-- **B&B (Book & Beer)** — score 9.4, differentiated 11.5, visual fit 4.15. Warm, literary atmosphere that matches the quiet observation tone of your work — not a white-cube gallery, which is correct for where you are right now.
-  - Visual match signals: watercolor, memory, artist book, artist_book, zine
-- **B&B Shimokitazawa** — score 9.4, differentiated 11.39, visual fit 3.7. Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
-  - Visual match signals: watercolor, artist book, artist_book, zine
-- **Women United ART MAGAZINE Issue XIV Summer 2026** — score 9.4, differentiated 11.39, visual fit 3.7. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
-  - Visual match signals: watercolor, artist book, artist_book, zine
-- **SUBMISSIONS - marblepress.com** — score 9.4, differentiated 11.39, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
-- **flotsam books** — score 9.4, differentiated 11.39, visual fit 3.7. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
+- **Submissions — Clavis Publishing** — score 9.4, differentiated 11.5, visual fit 4.15. Clavis Publishing's focus on visual narratives and artist books overlaps with your practice of documenting Tokyo's ephemeral urban landscapes through watercolor—work that benefits from the sustained, intimate format of a published collection. Your consistent daily practice and 26k following demonstrate the audience and discipline required for a successful artist publication.
+  - Visual match signals: watercolor, artist book, small press, artist_book, small_press
+- **Women United ART MAGAZINE Issue XIV Summer 2026** — score 9.4, differentiated 11.39, visual fit 3.7. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. you qualify.
   - Visual match signals: watercolor, artist book, artist_book, zine
 - **美術手帖 (Bijutsu Techo) — Artist Feature** — score 9.4, differentiated 11.29, visual fit 3.7. Flagship fine art publication for the Japanese art world. An editorial feature here is a career-defining visibility event.
   - Visual match signals: artist book, Tokyo-based, artist_book, zine
+- **UTRECHT** — score 9.4, differentiated 11.24, visual fit 3.25. An independent bookstore/gallery built around artist books and printed matter, free and low-friction — a Tier-1 way to put work into circulation as a publication rather than a framed show. It fits if you want to move toward zines or small print editions; if you only make originals, it's a weaker match.
+  - Visual match signals: artist book, artist_book, zine
+- **Tokyo Art Book Fair** — score 9.4, differentiated 11.24, visual fit 3.25. A major art-book fair with a curated small-press community and a printed-matter audience — a real route to that audience, but only if publishing is a direction you want. It requires finished publications and several days of staffing a booth, so weigh that cost honestly. Entry fee ¥1,000.
+  - Visual match signals: artist book, artist_book, zine
 - **TOKIO ART BOOK FAIR 2026** — score 9.4, differentiated 11.24, visual fit 3.25. Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors.
   - Visual match signals: artist book, artist_book, zine
-- **ZINEフェス東京 (ZINE Fest Tokyo)** — score 9.4, differentiated 11.24, visual fit 3.25. Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
+- **B&B (Book & Beer)** — score 9.4, differentiated 11.24, visual fit 3.25. A well-known Shimokitazawa bookshop-bar that consigns art books and zines with low friction and runs an events program — a concrete Tier-1 route to a printed presence in Tokyo. It's a route for self-published or artist-book work, not for original paintings.
   - Visual match signals: artist book, artist_book, zine
-- **Center for Book Arts Opportunities** — score 9.4, differentiated 11.17, visual fit 1.95. Potential fit if her work becomes more explicitly book-oriented or object/paper based.
+- **本店・本屋の実験室** — score 9.4, differentiated 11.24, visual fit 3.25. An independent Koenji bookstore running zine events and experimental print, with an open submission form and a low ¥500 fee — a low-barrier route for printed/serialized work. Confirm exactly what the current call accepts before submitting.
+  - Visual match signals: artist book, artist_book, zine
+- **SUBMISSIONS - marblepress.com** — score 9.2, differentiated 11.19, visual fit 3.7. Publishing / Small Press (found through targeted research).
+  - Visual match signals: artist book, small press, artist_book, small_press
+- **Center for Book Arts Opportunities** — score 9.4, differentiated 11.17, visual fit 1.95. Potential fit if your work becomes more explicitly book-oriented or object/paper based.
   - Visual match signals: artist book, artist_book
-- **Still Life - 2026** — score 9.4, differentiated 10.94, visual fit 2.4. 4th Annual Juried Exhibition with publication and sales opportunities for watercolor and illustration.
-  - Visual match signals: watercolor, artist book, artist_book
-- **American Illustration** — score 9.4, differentiated 10.94, visual fit 2.4. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-  - Visual match signals: watercolor, artist book, artist_book
-- **World Illustration Awards** — score 9.4, differentiated 10.94, visual fit 2.4. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+- **ZINEフェス東京 (ZINE Fest Tokyo)** — score 9.2, differentiated 11.04, visual fit 3.25. A recurring Tokyo zine fair with very accessible fees and rolling applications. The next Tokyo event is July 11 2026 (applications close around June 27). If that window is tight, there are more dates through the year — no rush.
+  - Visual match signals: artist book, artist_book, zine
+- **Aesthetica Art Prize** — score 9.3, differentiated 10.99, visual fit 1.75. Open to watercolor and works on paper, internationally recognized, and has a track record of selecting intimate and atmospheric work by emerging artists.
+  - Visual match signals: watercolor, zine
+- **B&B Shimokitazawa** — score 9.0, differentiated 10.99, visual fit 3.7. Suited to low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
+  - Visual match signals: watercolor, artist book, artist_book, zine
+- **Bologna Children's Book Fair Illustrators Exhibition** — score 9.4, differentiated 10.94, visual fit 2.4. A possible place to show watercolor or works on paper.
   - Visual match signals: watercolor, artist book, artist_book
 
 ## Publication Targets
 
 Places where the work can become visible as printed matter, editorial sequence, or publication history.
 
-- **Tokyo Art Book Fair** — score 9.4, differentiated 11.5, visual fit 5.9. Tokyo Art Book Fair's focus on independent publishing and artist-authored work aligns directly with GEGYjiji's daily practice of documenting disappearing urban moments—a body of work that naturally translates into sequenced watercolor narratives or painterly/observational books about architectural memory. The fair's curated community of small presses and self-publishers offers direct access to an audience already invested in intimate, place-based storytelling rather than commercial gallery circuits.
-  - Visual match signals: watercolor, memory, artist book, small press, artist_book, zine, small_press
-- **submissions — porkbelly press** — score 9.4, differentiated 11.5, visual fit 4.15. Porkbelly Press specializes in artist books and limited-edition publications that emphasize visual narratives and intimate observation—a natural home for GEGYjiji's daily watercolor studies of Tokyo's disappearing urban spaces and architectural moments. Her practice of sustained, quiet documentation of ephemeral cityscapes aligns with small press aesthetics that prioritize the book object itself as a vehicle for meditative, place-based work.
+- **submissions — porkbelly press** — score 9.4, differentiated 11.5, visual fit 4.15. Porkbelly Press specializes in artist books and limited-edition publications that emphasize visual narratives and intimate observation—a possible outlet for your daily watercolor studies of Tokyo's disappearing urban spaces and architectural moments. Your practice of sustained, quiet documentation of ephemeral cityscapes aligns with small press aesthetics that prioritize the book object itself as a vehicle for meditative, place-based work.
   - Visual match signals: watercolor, artist book, small press, artist_book, small_press
-- **UTRECHT** — score 9.4, differentiated 11.5, visual fit 4.15. UTRECHT's focus on artist books and printed matter aligns naturally with your daily watercolor practice—the format removes pressure to scale up or conceptualize, and allows your quiet, observational studies of Tokyo's disappearing architecture to exist as intimate, collectable works. A bookstore gallery audience expects exactly the kind of sustained, understated visual documentation you're already making, without the institutional expectations of a traditional exhibition space.
-  - Visual match signals: watercolor, memory, artist book, artist_book, zine
-- **B&B (Book & Beer)** — score 9.4, differentiated 11.5, visual fit 4.15. Warm, literary atmosphere that matches the quiet observation tone of your work — not a white-cube gallery, which is correct for where you are right now.
-  - Visual match signals: watercolor, memory, artist book, artist_book, zine
-- **B&B Shimokitazawa** — score 9.4, differentiated 11.39, visual fit 3.7. Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
-  - Visual match signals: watercolor, artist book, artist_book, zine
-- **Women United ART MAGAZINE Issue XIV Summer 2026** — score 9.4, differentiated 11.39, visual fit 3.7. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
-  - Visual match signals: watercolor, artist book, artist_book, zine
-- **SUBMISSIONS - marblepress.com** — score 9.4, differentiated 11.39, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
-- **flotsam books** — score 9.4, differentiated 11.39, visual fit 3.7. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
+- **Submissions — Clavis Publishing** — score 9.4, differentiated 11.5, visual fit 4.15. Clavis Publishing's focus on visual narratives and artist books overlaps with your practice of documenting Tokyo's ephemeral urban landscapes through watercolor—work that benefits from the sustained, intimate format of a published collection. Your consistent daily practice and 26k following demonstrate the audience and discipline required for a successful artist publication.
+  - Visual match signals: watercolor, artist book, small press, artist_book, small_press
+- **Women United ART MAGAZINE Issue XIV Summer 2026** — score 9.4, differentiated 11.39, visual fit 3.7. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. you qualify.
   - Visual match signals: watercolor, artist book, artist_book, zine
 - **美術手帖 (Bijutsu Techo) — Artist Feature** — score 9.4, differentiated 11.29, visual fit 3.7. Flagship fine art publication for the Japanese art world. An editorial feature here is a career-defining visibility event.
   - Visual match signals: artist book, Tokyo-based, artist_book, zine
+- **UTRECHT** — score 9.4, differentiated 11.24, visual fit 3.25. An independent bookstore/gallery built around artist books and printed matter, free and low-friction — a Tier-1 way to put work into circulation as a publication rather than a framed show. It fits if you want to move toward zines or small print editions; if you only make originals, it's a weaker match.
+  - Visual match signals: artist book, artist_book, zine
+- **Tokyo Art Book Fair** — score 9.4, differentiated 11.24, visual fit 3.25. A major art-book fair with a curated small-press community and a printed-matter audience — a real route to that audience, but only if publishing is a direction you want. It requires finished publications and several days of staffing a booth, so weigh that cost honestly. Entry fee ¥1,000.
+  - Visual match signals: artist book, artist_book, zine
 - **TOKIO ART BOOK FAIR 2026** — score 9.4, differentiated 11.24, visual fit 3.25. Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors.
   - Visual match signals: artist book, artist_book, zine
-- **ZINEフェス東京 (ZINE Fest Tokyo)** — score 9.4, differentiated 11.24, visual fit 3.25. Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
+- **B&B (Book & Beer)** — score 9.4, differentiated 11.24, visual fit 3.25. A well-known Shimokitazawa bookshop-bar that consigns art books and zines with low friction and runs an events program — a concrete Tier-1 route to a printed presence in Tokyo. It's a route for self-published or artist-book work, not for original paintings.
   - Visual match signals: artist book, artist_book, zine
-- **Center for Book Arts Opportunities** — score 9.4, differentiated 11.17, visual fit 1.95. Potential fit if her work becomes more explicitly book-oriented or object/paper based.
+- **本店・本屋の実験室** — score 9.4, differentiated 11.24, visual fit 3.25. An independent Koenji bookstore running zine events and experimental print, with an open submission form and a low ¥500 fee — a low-barrier route for printed/serialized work. Confirm exactly what the current call accepts before submitting.
+  - Visual match signals: artist book, artist_book, zine
+- **SUBMISSIONS - marblepress.com** — score 9.2, differentiated 11.19, visual fit 3.7. Publishing / Small Press (found through targeted research).
+  - Visual match signals: artist book, small press, artist_book, small_press
+- **Center for Book Arts Opportunities** — score 9.4, differentiated 11.17, visual fit 1.95. Potential fit if your work becomes more explicitly book-oriented or object/paper based.
   - Visual match signals: artist book, artist_book
-- **Still Life - 2026** — score 9.4, differentiated 10.94, visual fit 2.4. 4th Annual Juried Exhibition with publication and sales opportunities for watercolor and illustration.
-  - Visual match signals: watercolor, artist book, artist_book
-- **American Illustration** — score 9.4, differentiated 10.94, visual fit 2.4. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-  - Visual match signals: watercolor, artist book, artist_book
-- **World Illustration Awards** — score 9.4, differentiated 10.94, visual fit 2.4. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+- **ZINEフェス東京 (ZINE Fest Tokyo)** — score 9.2, differentiated 11.04, visual fit 3.25. A recurring Tokyo zine fair with very accessible fees and rolling applications. The next Tokyo event is July 11 2026 (applications close around June 27). If that window is tight, there are more dates through the year — no rush.
+  - Visual match signals: artist book, artist_book, zine
+- **Aesthetica Art Prize** — score 9.3, differentiated 10.99, visual fit 1.75. Open to watercolor and works on paper, internationally recognized, and has a track record of selecting intimate and atmospheric work by emerging artists.
+  - Visual match signals: watercolor, zine
+- **B&B Shimokitazawa** — score 9.0, differentiated 10.99, visual fit 3.7. Suited to low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
+  - Visual match signals: watercolor, artist book, artist_book, zine
+- **Bologna Children's Book Fair Illustrators Exhibition** — score 9.4, differentiated 10.94, visual fit 2.4. A possible place to show watercolor or works on paper.
   - Visual match signals: watercolor, artist book, artist_book
 
 ## Book / Zine / Photobook Targets
 
 The strongest match for her current visual language: quiet sequences, small press, books, zines, and artist-book contexts.
 
-- **Tokyo Art Book Fair** — score 9.4, differentiated 11.5, visual fit 5.9. Tokyo Art Book Fair's focus on independent publishing and artist-authored work aligns directly with GEGYjiji's daily practice of documenting disappearing urban moments—a body of work that naturally translates into sequenced watercolor narratives or painterly/observational books about architectural memory. The fair's curated community of small presses and self-publishers offers direct access to an audience already invested in intimate, place-based storytelling rather than commercial gallery circuits.
-  - Visual match signals: watercolor, memory, artist book, small press, artist_book, zine, small_press
-- **submissions — porkbelly press** — score 9.4, differentiated 11.5, visual fit 4.15. Porkbelly Press specializes in artist books and limited-edition publications that emphasize visual narratives and intimate observation—a natural home for GEGYjiji's daily watercolor studies of Tokyo's disappearing urban spaces and architectural moments. Her practice of sustained, quiet documentation of ephemeral cityscapes aligns with small press aesthetics that prioritize the book object itself as a vehicle for meditative, place-based work.
+- **submissions — porkbelly press** — score 9.4, differentiated 11.5, visual fit 4.15. Porkbelly Press specializes in artist books and limited-edition publications that emphasize visual narratives and intimate observation—a possible outlet for your daily watercolor studies of Tokyo's disappearing urban spaces and architectural moments. Your practice of sustained, quiet documentation of ephemeral cityscapes aligns with small press aesthetics that prioritize the book object itself as a vehicle for meditative, place-based work.
   - Visual match signals: watercolor, artist book, small press, artist_book, small_press
-- **UTRECHT** — score 9.4, differentiated 11.5, visual fit 4.15. UTRECHT's focus on artist books and printed matter aligns naturally with your daily watercolor practice—the format removes pressure to scale up or conceptualize, and allows your quiet, observational studies of Tokyo's disappearing architecture to exist as intimate, collectable works. A bookstore gallery audience expects exactly the kind of sustained, understated visual documentation you're already making, without the institutional expectations of a traditional exhibition space.
-  - Visual match signals: watercolor, memory, artist book, artist_book, zine
-- **B&B (Book & Beer)** — score 9.4, differentiated 11.5, visual fit 4.15. Warm, literary atmosphere that matches the quiet observation tone of your work — not a white-cube gallery, which is correct for where you are right now.
-  - Visual match signals: watercolor, memory, artist book, artist_book, zine
-- **B&B Shimokitazawa** — score 9.4, differentiated 11.39, visual fit 3.7. Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
-  - Visual match signals: watercolor, artist book, artist_book, zine
-- **Women United ART MAGAZINE Issue XIV Summer 2026** — score 9.4, differentiated 11.39, visual fit 3.7. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
-  - Visual match signals: watercolor, artist book, artist_book, zine
-- **SUBMISSIONS - marblepress.com** — score 9.4, differentiated 11.39, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
-- **flotsam books** — score 9.4, differentiated 11.39, visual fit 3.7. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
+- **Submissions — Clavis Publishing** — score 9.4, differentiated 11.5, visual fit 4.15. Clavis Publishing's focus on visual narratives and artist books overlaps with your practice of documenting Tokyo's ephemeral urban landscapes through watercolor—work that benefits from the sustained, intimate format of a published collection. Your consistent daily practice and 26k following demonstrate the audience and discipline required for a successful artist publication.
+  - Visual match signals: watercolor, artist book, small press, artist_book, small_press
+- **Women United ART MAGAZINE Issue XIV Summer 2026** — score 9.4, differentiated 11.39, visual fit 3.7. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. you qualify.
   - Visual match signals: watercolor, artist book, artist_book, zine
 - **美術手帖 (Bijutsu Techo) — Artist Feature** — score 9.4, differentiated 11.29, visual fit 3.7. Flagship fine art publication for the Japanese art world. An editorial feature here is a career-defining visibility event.
   - Visual match signals: artist book, Tokyo-based, artist_book, zine
+- **UTRECHT** — score 9.4, differentiated 11.24, visual fit 3.25. An independent bookstore/gallery built around artist books and printed matter, free and low-friction — a Tier-1 way to put work into circulation as a publication rather than a framed show. It fits if you want to move toward zines or small print editions; if you only make originals, it's a weaker match.
+  - Visual match signals: artist book, artist_book, zine
+- **Tokyo Art Book Fair** — score 9.4, differentiated 11.24, visual fit 3.25. A major art-book fair with a curated small-press community and a printed-matter audience — a real route to that audience, but only if publishing is a direction you want. It requires finished publications and several days of staffing a booth, so weigh that cost honestly. Entry fee ¥1,000.
+  - Visual match signals: artist book, artist_book, zine
 - **TOKIO ART BOOK FAIR 2026** — score 9.4, differentiated 11.24, visual fit 3.25. Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors.
   - Visual match signals: artist book, artist_book, zine
-- **ZINEフェス東京 (ZINE Fest Tokyo)** — score 9.4, differentiated 11.24, visual fit 3.25. Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
+- **B&B (Book & Beer)** — score 9.4, differentiated 11.24, visual fit 3.25. A well-known Shimokitazawa bookshop-bar that consigns art books and zines with low friction and runs an events program — a concrete Tier-1 route to a printed presence in Tokyo. It's a route for self-published or artist-book work, not for original paintings.
   - Visual match signals: artist book, artist_book, zine
-- **Center for Book Arts Opportunities** — score 9.4, differentiated 11.17, visual fit 1.95. Potential fit if her work becomes more explicitly book-oriented or object/paper based.
+- **本店・本屋の実験室** — score 9.4, differentiated 11.24, visual fit 3.25. An independent Koenji bookstore running zine events and experimental print, with an open submission form and a low ¥500 fee — a low-barrier route for printed/serialized work. Confirm exactly what the current call accepts before submitting.
+  - Visual match signals: artist book, artist_book, zine
+- **SUBMISSIONS - marblepress.com** — score 9.2, differentiated 11.19, visual fit 3.7. Publishing / Small Press (found through targeted research).
+  - Visual match signals: artist book, small press, artist_book, small_press
+- **Center for Book Arts Opportunities** — score 9.4, differentiated 11.17, visual fit 1.95. Potential fit if your work becomes more explicitly book-oriented or object/paper based.
   - Visual match signals: artist book, artist_book
-- **Still Life - 2026** — score 9.4, differentiated 10.94, visual fit 2.4. 4th Annual Juried Exhibition with publication and sales opportunities for watercolor and illustration.
-  - Visual match signals: watercolor, artist book, artist_book
-- **American Illustration** — score 9.4, differentiated 10.94, visual fit 2.4. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-  - Visual match signals: watercolor, artist book, artist_book
-- **World Illustration Awards** — score 9.4, differentiated 10.94, visual fit 2.4. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+- **ZINEフェス東京 (ZINE Fest Tokyo)** — score 9.2, differentiated 11.04, visual fit 3.25. A recurring Tokyo zine fair with very accessible fees and rolling applications. The next Tokyo event is July 11 2026 (applications close around June 27). If that window is tight, there are more dates through the year — no rush.
+  - Visual match signals: artist book, artist_book, zine
+- **Aesthetica Art Prize** — score 9.3, differentiated 10.99, visual fit 1.75. Open to watercolor and works on paper, internationally recognized, and has a track record of selecting intimate and atmospheric work by emerging artists.
+  - Visual match signals: watercolor, zine
+- **B&B Shimokitazawa** — score 9.0, differentiated 10.99, visual fit 3.7. Suited to low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
+  - Visual match signals: watercolor, artist book, artist_book, zine
+- **Bologna Children's Book Fair Illustrators Exhibition** — score 9.4, differentiated 10.94, visual fit 2.4. A possible place to show watercolor or works on paper.
   - Visual match signals: watercolor, artist book, artist_book
 
 ## Global Reach
 
 International opportunities that expand beyond local Tokyo/Japan visibility.
 
-- **Women United ART MAGAZINE Issue XIV Summer 2026** — score 9.4, differentiated 11.39, visual fit 3.7. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
+- **Women United ART MAGAZINE Issue XIV Summer 2026** — score 9.4, differentiated 11.39, visual fit 3.7. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. you qualify.
   - Visual match signals: watercolor, artist book, artist_book, zine
 - **TOKIO ART BOOK FAIR 2026** — score 9.4, differentiated 11.24, visual fit 3.25. Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors.
   - Visual match signals: artist book, artist_book, zine
-- **Center for Book Arts Opportunities** — score 9.4, differentiated 11.17, visual fit 1.95. Potential fit if her work becomes more explicitly book-oriented or object/paper based.
+- **Center for Book Arts Opportunities** — score 9.4, differentiated 11.17, visual fit 1.95. Potential fit if your work becomes more explicitly book-oriented or object/paper based.
   - Visual match signals: artist book, artist_book
-- **Still Life - 2026** — score 9.4, differentiated 10.94, visual fit 2.4. 4th Annual Juried Exhibition with publication and sales opportunities for watercolor and illustration.
+- **Aesthetica Art Prize** — score 9.3, differentiated 10.99, visual fit 1.75. Open to watercolor and works on paper, internationally recognized, and has a track record of selecting intimate and atmospheric work by emerging artists.
+  - Visual match signals: watercolor, zine
+- **Bologna Children's Book Fair Illustrators Exhibition** — score 9.4, differentiated 10.94, visual fit 2.4. A possible place to show watercolor or works on paper.
   - Visual match signals: watercolor, artist book, artist_book
-- **American Illustration** — score 9.4, differentiated 10.94, visual fit 2.4. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-  - Visual match signals: watercolor, artist book, artist_book
-- **World Illustration Awards** — score 9.4, differentiated 10.94, visual fit 2.4. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+- **Still Life - 2026** — score 9.4, differentiated 10.94, visual fit 2.4. Still Life is a juried exhibition that publishes work on paper and takes open submissions from unrepresented artists—worth submitting a series of your urban watercolors before their deadline if you're looking to build publication credentials alongside sales opportunities. Check their submission link to confirm the entry fee and deadline, then prepare 6–8 pieces that represent your daily practice.
   - Visual match signals: watercolor, artist book, artist_book
 - **Jackson's Art Prize** — score 9.4, differentiated 10.94, visual fit 2.4. Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit.
   - Visual match signals: watercolor, artist book, artist_book
-- **The Artcomplex Center of Tokyo** — score 9.4, differentiated 10.94, visual fit 2.4. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-  - Visual match signals: watercolor, artist book, artist_book
 - **Society of Women Artists** — score 9.4, differentiated 10.94, visual fit 2.4. Open exhibition context for watercolor / works on paper, drawing, or works on paper. Good candidate for direct verification.
   - Visual match signals: watercolor, artist book, artist_book
-- **DER GREIF** — score 9.4, differentiated 10.94, visual fit 2.4. Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper
-  - Visual match signals: watercolor, artist book, artist_book
-- **Bologna Children's Book Fair Illustrators Exhibition** — score 9.4, differentiated 10.84, visual fit 2.4. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+- **ArtConnect Open Calls** — score 9.4, differentiated 10.94, visual fit 2.4. Discovery source for watercolor / works on paper, drawing, residency, and works-on-paper opportunities. Use as a recurring research feed.
   - Visual match signals: watercolor, artist book, artist_book
 - **Pinpoint Gallery** — score 9.4, differentiated 10.84, visual fit 2.4. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
   - Visual match signals: watercolor, artist book, artist_book
-- **水性繪畫展覽 (Watercolor Exhibition)** — score 9.4, differentiated 10.78, visual fit 1.95. A watercolor-specific exhibition aligns directly with her medium and daily observational practice of capturing Tokyo's fleeting urban moments and architectural details. The December 2026 timeline gives her runway to develop a cohesive body of work while the international open call provides visibility beyond her current 90k Instagram following.
+- **DER GREIF** — score 9.3, differentiated 10.84, visual fit 2.4. Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper
+  - Visual match signals: watercolor, artist book, artist_book
+- **水性繪畫展覽 (Watercolor Exhibition)** — score 9.4, differentiated 10.78, visual fit 1.95. A watercolor-specific exhibition is in your medium and daily observational practice of capturing Tokyo's fleeting urban moments and architectural details. The December 2026 timeline gives your runway to develop a cohesive body of work while the international open call provides visibility beyond your current 26k Instagram following.
   - Visual match signals: watercolor, open_call_watercolor
-- **It's Nice That — Illustration Feature** — score 9.4, differentiated 10.68, visual fit 1.95. Biggest international platform for artists at her level. A feature here reaches the global illustration community and attracts licensing and commission inquiries.
-  - Visual match signals: artist book, artist_book
-- **Apartamento — Artist Feature** — score 9.4, differentiated 10.61, visual fit 1.75. Her intimate urban interiors and everyday Tokyo documentation is perfectly on-brand for Apartamento's audience. The 'foreigner observing Tokyo' angle is strong.
+- **call for artists | al-tiba9 magazine issue22** — score 9.3, differentiated 10.77, visual fit 2.2. al-tiba9's focus on visual storytelling through print overlaps with your daily watercolor practice documenting ephemeral urban moments and architectural detail—your observational approach translates naturally to zine format where intimacy and immediacy are central to the medium. The magazine's curation of contemplative visual work is in the register of quiet atmosphere and memory embedded in disappearing Tokyo scenes.
+  - Visual match signals: watercolor, memory, zine
+- **Apartamento — Artist Feature** — score 9.4, differentiated 10.61, visual fit 1.75. Your intimate urban interiors and everyday Tokyo documentation is perfectly on-brand for Apartamento's audience. The 'foreigner observing Tokyo' angle is strong.
   - Visual match signals: memory, zine
+- **Publishers & Publishing Services in Japan - PublishersGlobal.com** — score 8.6, differentiated 10.6, visual fit 4.6. PublishersGlobal.com's focus on small press and independent publishing aligns with how your daily watercolor practice—documenting Tokyo's ephemeral urban moments and architecture—naturally translates into a cohesive visual narrative suited to artist-led or artist-friendly books. Your 26k-follower community and established daily practice provide both the content depth and audience foundation that small publishers seek when developing monographs or artist publications.
+  - Visual match signals: watercolor, artist book, small press, small press and independent publishing, artist_book, small_press
 
 ## Easy Wins
 
 Lower-friction opportunities that may create momentum without heavy emotional or application burden.
 
-- **Tokyo Art Book Fair** — score 9.4, differentiated 11.5, visual fit 5.9. Tokyo Art Book Fair's focus on independent publishing and artist-authored work aligns directly with GEGYjiji's daily practice of documenting disappearing urban moments—a body of work that naturally translates into sequenced watercolor narratives or painterly/observational books about architectural memory. The fair's curated community of small presses and self-publishers offers direct access to an audience already invested in intimate, place-based storytelling rather than commercial gallery circuits.
-  - Visual match signals: watercolor, memory, artist book, small press, artist_book, zine, small_press
-- **submissions — porkbelly press** — score 9.4, differentiated 11.5, visual fit 4.15. Porkbelly Press specializes in artist books and limited-edition publications that emphasize visual narratives and intimate observation—a natural home for GEGYjiji's daily watercolor studies of Tokyo's disappearing urban spaces and architectural moments. Her practice of sustained, quiet documentation of ephemeral cityscapes aligns with small press aesthetics that prioritize the book object itself as a vehicle for meditative, place-based work.
+- **submissions — porkbelly press** — score 9.4, differentiated 11.5, visual fit 4.15. Porkbelly Press specializes in artist books and limited-edition publications that emphasize visual narratives and intimate observation—a possible outlet for your daily watercolor studies of Tokyo's disappearing urban spaces and architectural moments. Your practice of sustained, quiet documentation of ephemeral cityscapes aligns with small press aesthetics that prioritize the book object itself as a vehicle for meditative, place-based work.
   - Visual match signals: watercolor, artist book, small press, artist_book, small_press
-- **UTRECHT** — score 9.4, differentiated 11.5, visual fit 4.15. UTRECHT's focus on artist books and printed matter aligns naturally with your daily watercolor practice—the format removes pressure to scale up or conceptualize, and allows your quiet, observational studies of Tokyo's disappearing architecture to exist as intimate, collectable works. A bookstore gallery audience expects exactly the kind of sustained, understated visual documentation you're already making, without the institutional expectations of a traditional exhibition space.
-  - Visual match signals: watercolor, memory, artist book, artist_book, zine
-- **B&B (Book & Beer)** — score 9.4, differentiated 11.5, visual fit 4.15. Warm, literary atmosphere that matches the quiet observation tone of your work — not a white-cube gallery, which is correct for where you are right now.
-  - Visual match signals: watercolor, memory, artist book, artist_book, zine
-- **B&B Shimokitazawa** — score 9.4, differentiated 11.39, visual fit 3.7. Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
-  - Visual match signals: watercolor, artist book, artist_book, zine
-- **Women United ART MAGAZINE Issue XIV Summer 2026** — score 9.4, differentiated 11.39, visual fit 3.7. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
-  - Visual match signals: watercolor, artist book, artist_book, zine
-- **SUBMISSIONS - marblepress.com** — score 9.4, differentiated 11.39, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
-- **flotsam books** — score 9.4, differentiated 11.39, visual fit 3.7. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
+- **Submissions — Clavis Publishing** — score 9.4, differentiated 11.5, visual fit 4.15. Clavis Publishing's focus on visual narratives and artist books overlaps with your practice of documenting Tokyo's ephemeral urban landscapes through watercolor—work that benefits from the sustained, intimate format of a published collection. Your consistent daily practice and 26k following demonstrate the audience and discipline required for a successful artist publication.
+  - Visual match signals: watercolor, artist book, small press, artist_book, small_press
+- **Women United ART MAGAZINE Issue XIV Summer 2026** — score 9.4, differentiated 11.39, visual fit 3.7. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. you qualify.
   - Visual match signals: watercolor, artist book, artist_book, zine
 - **美術手帖 (Bijutsu Techo) — Artist Feature** — score 9.4, differentiated 11.29, visual fit 3.7. Flagship fine art publication for the Japanese art world. An editorial feature here is a career-defining visibility event.
   - Visual match signals: artist book, Tokyo-based, artist_book, zine
+- **UTRECHT** — score 9.4, differentiated 11.24, visual fit 3.25. An independent bookstore/gallery built around artist books and printed matter, free and low-friction — a Tier-1 way to put work into circulation as a publication rather than a framed show. It fits if you want to move toward zines or small print editions; if you only make originals, it's a weaker match.
+  - Visual match signals: artist book, artist_book, zine
+- **Tokyo Art Book Fair** — score 9.4, differentiated 11.24, visual fit 3.25. A major art-book fair with a curated small-press community and a printed-matter audience — a real route to that audience, but only if publishing is a direction you want. It requires finished publications and several days of staffing a booth, so weigh that cost honestly. Entry fee ¥1,000.
+  - Visual match signals: artist book, artist_book, zine
 - **TOKIO ART BOOK FAIR 2026** — score 9.4, differentiated 11.24, visual fit 3.25. Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors.
   - Visual match signals: artist book, artist_book, zine
-- **ZINEフェス東京 (ZINE Fest Tokyo)** — score 9.4, differentiated 11.24, visual fit 3.25. Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
+- **B&B (Book & Beer)** — score 9.4, differentiated 11.24, visual fit 3.25. A well-known Shimokitazawa bookshop-bar that consigns art books and zines with low friction and runs an events program — a concrete Tier-1 route to a printed presence in Tokyo. It's a route for self-published or artist-book work, not for original paintings.
   - Visual match signals: artist book, artist_book, zine
-- **Still Life - 2026** — score 9.4, differentiated 10.94, visual fit 2.4. 4th Annual Juried Exhibition with publication and sales opportunities for watercolor and illustration.
+- **本店・本屋の実験室** — score 9.4, differentiated 11.24, visual fit 3.25. An independent Koenji bookstore running zine events and experimental print, with an open submission form and a low ¥500 fee — a low-barrier route for printed/serialized work. Confirm exactly what the current call accepts before submitting.
+  - Visual match signals: artist book, artist_book, zine
+- **SUBMISSIONS - marblepress.com** — score 9.2, differentiated 11.19, visual fit 3.7. Publishing / Small Press (found through targeted research).
+  - Visual match signals: artist book, small press, artist_book, small_press
+- **ZINEフェス東京 (ZINE Fest Tokyo)** — score 9.2, differentiated 11.04, visual fit 3.25. A recurring Tokyo zine fair with very accessible fees and rolling applications. The next Tokyo event is July 11 2026 (applications close around June 27). If that window is tight, there are more dates through the year — no rush.
+  - Visual match signals: artist book, artist_book, zine
+- **B&B Shimokitazawa** — score 9.0, differentiated 10.99, visual fit 3.7. Suited to low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
+  - Visual match signals: watercolor, artist book, artist_book, zine
+- **Bologna Children's Book Fair Illustrators Exhibition** — score 9.4, differentiated 10.94, visual fit 2.4. A possible place to show watercolor or works on paper.
   - Visual match signals: watercolor, artist book, artist_book
-- **American Illustration** — score 9.4, differentiated 10.94, visual fit 2.4. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+- **Still Life - 2026** — score 9.4, differentiated 10.94, visual fit 2.4. Still Life is a juried exhibition that publishes work on paper and takes open submissions from unrepresented artists—worth submitting a series of your urban watercolors before their deadline if you're looking to build publication credentials alongside sales opportunities. Check their submission link to confirm the entry fee and deadline, then prepare 6–8 pieces that represent your daily practice.
   - Visual match signals: watercolor, artist book, artist_book
-- **World Illustration Awards** — score 9.4, differentiated 10.94, visual fit 2.4. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-  - Visual match signals: watercolor, artist book, artist_book
-- **Jackson's Art Prize** — score 9.4, differentiated 10.94, visual fit 2.4. Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit.
+- **第113回 日本水彩展** — score 9.4, differentiated 10.94, visual fit 2.4. Your exact medium: watercolour (and pastel) only. National juried show at a major Tokyo museum, so acceptance carries CV weight. The 113th edition ran June 2026; the next round is expected spring 2027 — this is a prepare-and-watch target, not a today action.
   - Visual match signals: watercolor, artist book, artist_book
 
 ## Relationship Builders
 
 Local or community spaces useful for soft contact, small steps, and future familiarity.
 
-- **Tokyo Art Book Fair** — score 9.4, differentiated 11.5, visual fit 5.9. Tokyo Art Book Fair's focus on independent publishing and artist-authored work aligns directly with GEGYjiji's daily practice of documenting disappearing urban moments—a body of work that naturally translates into sequenced watercolor narratives or painterly/observational books about architectural memory. The fair's curated community of small presses and self-publishers offers direct access to an audience already invested in intimate, place-based storytelling rather than commercial gallery circuits.
-  - Visual match signals: watercolor, memory, artist book, small press, artist_book, zine, small_press
-- **submissions — porkbelly press** — score 9.4, differentiated 11.5, visual fit 4.15. Porkbelly Press specializes in artist books and limited-edition publications that emphasize visual narratives and intimate observation—a natural home for GEGYjiji's daily watercolor studies of Tokyo's disappearing urban spaces and architectural moments. Her practice of sustained, quiet documentation of ephemeral cityscapes aligns with small press aesthetics that prioritize the book object itself as a vehicle for meditative, place-based work.
+- **submissions — porkbelly press** — score 9.4, differentiated 11.5, visual fit 4.15. Porkbelly Press specializes in artist books and limited-edition publications that emphasize visual narratives and intimate observation—a possible outlet for your daily watercolor studies of Tokyo's disappearing urban spaces and architectural moments. Your practice of sustained, quiet documentation of ephemeral cityscapes aligns with small press aesthetics that prioritize the book object itself as a vehicle for meditative, place-based work.
   - Visual match signals: watercolor, artist book, small press, artist_book, small_press
-- **UTRECHT** — score 9.4, differentiated 11.5, visual fit 4.15. UTRECHT's focus on artist books and printed matter aligns naturally with your daily watercolor practice—the format removes pressure to scale up or conceptualize, and allows your quiet, observational studies of Tokyo's disappearing architecture to exist as intimate, collectable works. A bookstore gallery audience expects exactly the kind of sustained, understated visual documentation you're already making, without the institutional expectations of a traditional exhibition space.
-  - Visual match signals: watercolor, memory, artist book, artist_book, zine
-- **B&B (Book & Beer)** — score 9.4, differentiated 11.5, visual fit 4.15. Warm, literary atmosphere that matches the quiet observation tone of your work — not a white-cube gallery, which is correct for where you are right now.
-  - Visual match signals: watercolor, memory, artist book, artist_book, zine
-- **B&B Shimokitazawa** — score 9.4, differentiated 11.39, visual fit 3.7. Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
-  - Visual match signals: watercolor, artist book, artist_book, zine
-- **SUBMISSIONS - marblepress.com** — score 9.4, differentiated 11.39, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+- **Submissions — Clavis Publishing** — score 9.4, differentiated 11.5, visual fit 4.15. Clavis Publishing's focus on visual narratives and artist books overlaps with your practice of documenting Tokyo's ephemeral urban landscapes through watercolor—work that benefits from the sustained, intimate format of a published collection. Your consistent daily practice and 26k following demonstrate the audience and discipline required for a successful artist publication.
+  - Visual match signals: watercolor, artist book, small press, artist_book, small_press
+- **UTRECHT** — score 9.4, differentiated 11.24, visual fit 3.25. An independent bookstore/gallery built around artist books and printed matter, free and low-friction — a Tier-1 way to put work into circulation as a publication rather than a framed show. It fits if you want to move toward zines or small print editions; if you only make originals, it's a weaker match.
+  - Visual match signals: artist book, artist_book, zine
+- **Tokyo Art Book Fair** — score 9.4, differentiated 11.24, visual fit 3.25. A major art-book fair with a curated small-press community and a printed-matter audience — a real route to that audience, but only if publishing is a direction you want. It requires finished publications and several days of staffing a booth, so weigh that cost honestly. Entry fee ¥1,000.
+  - Visual match signals: artist book, artist_book, zine
+- **B&B (Book & Beer)** — score 9.4, differentiated 11.24, visual fit 3.25. A well-known Shimokitazawa bookshop-bar that consigns art books and zines with low friction and runs an events program — a concrete Tier-1 route to a printed presence in Tokyo. It's a route for self-published or artist-book work, not for original paintings.
+  - Visual match signals: artist book, artist_book, zine
+- **本店・本屋の実験室** — score 9.4, differentiated 11.24, visual fit 3.25. An independent Koenji bookstore running zine events and experimental print, with an open submission form and a low ¥500 fee — a low-barrier route for printed/serialized work. Confirm exactly what the current call accepts before submitting.
+  - Visual match signals: artist book, artist_book, zine
+- **SUBMISSIONS - marblepress.com** — score 9.2, differentiated 11.19, visual fit 3.7. Publishing / Small Press (found through targeted research).
   - Visual match signals: artist book, small press, artist_book, small_press
-- **flotsam books** — score 9.4, differentiated 11.39, visual fit 3.7. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
+- **B&B Shimokitazawa** — score 9.0, differentiated 10.99, visual fit 3.7. Suited to low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
   - Visual match signals: watercolor, artist book, artist_book, zine
-- **Still Life - 2026** — score 9.4, differentiated 10.94, visual fit 2.4. 4th Annual Juried Exhibition with publication and sales opportunities for watercolor and illustration.
+- **Still Life - 2026** — score 9.4, differentiated 10.94, visual fit 2.4. Still Life is a juried exhibition that publishes work on paper and takes open submissions from unrepresented artists—worth submitting a series of your urban watercolors before their deadline if you're looking to build publication credentials alongside sales opportunities. Check their submission link to confirm the entry fee and deadline, then prepare 6–8 pieces that represent your daily practice.
   - Visual match signals: watercolor, artist book, artist_book
-- **Submissions — Clavis Publishing** — score 8.8, differentiated 10.9, visual fit 4.15. Clavis Publishing's focus on visual narratives and artist books aligns with GEGYjiji's practice of documenting Tokyo's ephemeral urban landscapes through watercolor—work that benefits from the sustained, intimate format of a published collection. Her consistent daily practice and 90k following demonstrate the audience and discipline required for a successful artist publication.
-  - Visual match signals: watercolor, artist book, small press, artist_book, small_press
-- **本店・本屋の実験室** — score 9.4, differentiated 10.87, visual fit 2.2. 本店・本屋の実験室's focus on experimental printed work and zine culture aligns naturally with GEGYjiji's daily watercolor practice—her quiet observations of Tokyo's disappearing urban moments translate directly into the intimate, serialized format that zine platforms demand. The Koenji location also positions her work within a neighborhood known for independent creative communities, where architectural and memory-based work on paper resonates with local curatorial values.
-  - Visual match signals: watercolor, memory, zine
-- **水性繪畫展覽 (Watercolor Exhibition)** — score 9.4, differentiated 10.78, visual fit 1.95. A watercolor-specific exhibition aligns directly with her medium and daily observational practice of capturing Tokyo's fleeting urban moments and architectural details. The December 2026 timeline gives her runway to develop a cohesive body of work while the international open call provides visibility beyond her current 90k Instagram following.
+- **水性繪畫展覽 (Watercolor Exhibition)** — score 9.4, differentiated 10.78, visual fit 1.95. A watercolor-specific exhibition is in your medium and daily observational practice of capturing Tokyo's fleeting urban moments and architectural details. The December 2026 timeline gives your runway to develop a cohesive body of work while the international open call provides visibility beyond your current 26k Instagram following.
   - Visual match signals: watercolor, open_call_watercolor
-- **It's Nice That — Illustration Feature** — score 9.4, differentiated 10.68, visual fit 1.95. Biggest international platform for artists at her level. A feature here reaches the global illustration community and attracts licensing and commission inquiries.
-  - Visual match signals: artist book, artist_book
-- **Apartamento — Artist Feature** — score 9.4, differentiated 10.61, visual fit 1.75. Her intimate urban interiors and everyday Tokyo documentation is perfectly on-brand for Apartamento's audience. The 'foreigner observing Tokyo' angle is strong.
+- **call for artists | al-tiba9 magazine issue22** — score 9.3, differentiated 10.77, visual fit 2.2. al-tiba9's focus on visual storytelling through print overlaps with your daily watercolor practice documenting ephemeral urban moments and architectural detail—your observational approach translates naturally to zine format where intimacy and immediacy are central to the medium. The magazine's curation of contemplative visual work is in the register of quiet atmosphere and memory embedded in disappearing Tokyo scenes.
+  - Visual match signals: watercolor, memory, zine
+- **» 21 Terrific Small Presses Open to Direct Submissions** — score 8.6, differentiated 10.7, visual fit 4.15. Small presses focused on visual narrative and artist books are possible outlets for daily watercolor practice documenting Tokyo's ephemeral urban moments—formats that can showcase sequential observation and architectural study in ways that relate to your meditative approach to disappearing landscapes. Your 26k follower base and consistent output of finished works on paper provide the portfolio depth and audience these publishers often seek for limited-edition artist publications.
+  - Visual match signals: watercolor, artist book, small press, artist_book, small_press
+- **Apartamento — Artist Feature** — score 9.4, differentiated 10.61, visual fit 1.75. Your intimate urban interiors and everyday Tokyo documentation is perfectly on-brand for Apartamento's audience. The 'foreigner observing Tokyo' angle is strong.
   - Visual match signals: memory, zine
-- **Publishers & Publishing Services in Japan - PublishersGlobal.com** — score 8.6, differentiated 10.6, visual fit 4.6. PublishersGlobal.com's focus on small press and independent publishing aligns with how GEGYjiji's daily watercolor practice—documenting Tokyo's ephemeral urban moments and architecture—naturally translates into a cohesive visual narrative suited to artist-led or artist-friendly books. Her 90k-follower community and established daily practice provide both the content depth and audience foundation that small publishers seek when developing monographs or artist publications.
+- **Publishers & Publishing Services in Japan - PublishersGlobal.com** — score 8.6, differentiated 10.6, visual fit 4.6. PublishersGlobal.com's focus on small press and independent publishing aligns with how your daily watercolor practice—documenting Tokyo's ephemeral urban moments and architecture—naturally translates into a cohesive visual narrative suited to artist-led or artist-friendly books. Your 26k-follower community and established daily practice provide both the content depth and audience foundation that small publishers seek when developing monographs or artist publications.
   - Visual match signals: watercolor, artist book, small press, small press and independent publishing, artist_book, small_press
-- **Browse opportunities | CuratorSpace** — score 8.6, differentiated 10.59, visual fit 3.7. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
+- **LOCAL Gallery・Books** — score 8.6, differentiated 10.59, visual fit 3.7. LOCAL Gallery・Books' focus on independent publications and works-on-paper could connect with your daily watercolor practice and archive of quiet urban moments—formats that could translate into zine or artist book form. As a Koenji-based venue, it offers genuine community embedding potential for an artist whose practice is rooted in observing and documenting the specific atmospheres of Tokyo neighborhoods.
   - Visual match signals: watercolor, artist book, artist_book, zine
 
 ## Needs Research
@@ -255,63 +255,64 @@ Potentially useful, but not actionable until submission details, fee, deadline, 
   - Visual match signals: artist book, Tokyo-based, artist_book, zine
 - **TOKIO ART BOOK FAIR 2026** — score 9.4, differentiated 11.24, visual fit 3.25. Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors.
   - Visual match signals: artist book, artist_book, zine
-- **Center for Book Arts Opportunities** — score 9.4, differentiated 11.17, visual fit 1.95. Potential fit if her work becomes more explicitly book-oriented or object/paper based.
+- **Center for Book Arts Opportunities** — score 9.4, differentiated 11.17, visual fit 1.95. Potential fit if your work becomes more explicitly book-oriented or object/paper based.
   - Visual match signals: artist book, artist_book
-- **American Illustration** — score 9.4, differentiated 10.94, visual fit 2.4. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-  - Visual match signals: watercolor, artist book, artist_book
-- **World Illustration Awards** — score 9.4, differentiated 10.94, visual fit 2.4. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+- **Aesthetica Art Prize** — score 9.3, differentiated 10.99, visual fit 1.75. Open to watercolor and works on paper, internationally recognized, and has a track record of selecting intimate and atmospheric work by emerging artists.
+  - Visual match signals: watercolor, zine
+- **第113回 日本水彩展** — score 9.4, differentiated 10.94, visual fit 2.4. Your exact medium: watercolour (and pastel) only. National juried show at a major Tokyo museum, so acceptance carries CV weight. The 113th edition ran June 2026; the next round is expected spring 2027 — this is a prepare-and-watch target, not a today action.
   - Visual match signals: watercolor, artist book, artist_book
 - **Jackson's Art Prize** — score 9.4, differentiated 10.94, visual fit 2.4. Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit.
   - Visual match signals: watercolor, artist book, artist_book
-- **The Artcomplex Center of Tokyo** — score 9.4, differentiated 10.94, visual fit 2.4. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-  - Visual match signals: watercolor, artist book, artist_book
-- **Submissions — Clavis Publishing** — score 8.8, differentiated 10.9, visual fit 4.15. Clavis Publishing's focus on visual narratives and artist books aligns with GEGYjiji's practice of documenting Tokyo's ephemeral urban landscapes through watercolor—work that benefits from the sustained, intimate format of a published collection. Her consistent daily practice and 90k following demonstrate the audience and discipline required for a successful artist publication.
-  - Visual match signals: watercolor, artist book, small press, artist_book, small_press
-- **水彩アートの祭典「Watercolors 2026」** — score 9.5, differentiated 10.88, visual fit 1.95. Watercolor-only exhibition at Tokyo Arts Theater, 2026 Mar 7-8, accepts watercolor works up to 4号 size with no theme restrictions
-  - Visual match signals: watercolor, open_call_watercolor
-- **本店・本屋の実験室** — score 9.4, differentiated 10.87, visual fit 2.2. 本店・本屋の実験室's focus on experimental printed work and zine culture aligns naturally with GEGYjiji's daily watercolor practice—her quiet observations of Tokyo's disappearing urban moments translate directly into the intimate, serialized format that zine platforms demand. The Koenji location also positions her work within a neighborhood known for independent creative communities, where architectural and memory-based work on paper resonates with local curatorial values.
-  - Visual match signals: watercolor, memory, zine
-- **Bologna Children's Book Fair Illustrators Exhibition** — score 9.4, differentiated 10.84, visual fit 2.4. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-  - Visual match signals: watercolor, artist book, artist_book
 - **Pinpoint Gallery** — score 9.4, differentiated 10.84, visual fit 2.4. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
   - Visual match signals: watercolor, artist book, artist_book
-- **Pen Magazine — Artist Spotlight** — score 9.4, differentiated 10.77, visual fit 2.2. Tokyo's design-literate audience. Urban watercolor + Tokyo documentation = strong editorial angle for Pen readers.
+- **水彩アートの祭典「Watercolors 2026」** — score 9.4, differentiated 10.78, visual fit 1.95. Watercolor-only exhibition at Tokyo Arts Theater, 2026 Mar 7-8, accepts watercolor works up to 4号 size with no theme restrictions
+  - Visual match signals: watercolor, open_call_watercolor
+- **» 21 Terrific Small Presses Open to Direct Submissions** — score 8.6, differentiated 10.7, visual fit 4.15. Small presses focused on visual narrative and artist books are possible outlets for daily watercolor practice documenting Tokyo's ephemeral urban moments—formats that can showcase sequential observation and architectural study in ways that relate to your meditative approach to disappearing landscapes. Your 26k follower base and consistent output of finished works on paper provide the portfolio depth and audience these publishers often seek for limited-edition artist publications.
+  - Visual match signals: watercolor, artist book, small press, artist_book, small_press
+- **Apartamento — Artist Feature** — score 9.4, differentiated 10.61, visual fit 1.75. Your intimate urban interiors and everyday Tokyo documentation is perfectly on-brand for Apartamento's audience. The 'foreigner observing Tokyo' angle is strong.
+  - Visual match signals: memory, zine
+- **Publishers & Publishing Services in Japan - PublishersGlobal.com** — score 8.6, differentiated 10.6, visual fit 4.6. PublishersGlobal.com's focus on small press and independent publishing aligns with how your daily watercolor practice—documenting Tokyo's ephemeral urban moments and architecture—naturally translates into a cohesive visual narrative suited to artist-led or artist-friendly books. Your 26k-follower community and established daily practice provide both the content depth and audience foundation that small publishers seek when developing monographs or artist publications.
+  - Visual match signals: watercolor, artist book, small press, small press and independent publishing, artist_book, small_press
+- **Casa Brutus — Architecture/Art Feature** — score 9.2, differentiated 10.57, visual fit 2.2. Urban watercolor documenting Tokyo architecture overlaps with Casa Brutus's editorial coverage of space and design.
   - Visual match signals: watercolor, memory, zine
-- **Casa Brutus — Architecture/Art Feature** — score 9.4, differentiated 10.77, visual fit 2.2. Urban watercolor documenting Tokyo architecture is an exact fit for Casa Brutus's editorial coverage of space and design.
-  - Visual match signals: watercolor, memory, zine
-- **It's Nice That — Illustration Feature** — score 9.4, differentiated 10.68, visual fit 1.95. Biggest international platform for artists at her level. A feature here reaches the global illustration community and attracts licensing and commission inquiries.
-  - Visual match signals: artist book, artist_book
+- **Book and Sons** — score 8.7, differentiated 10.54, visual fit 3.25. A design-led bookstore with exhibition space and rolling consignment, reachable directly via Instagram — a Tier-1 way to put printed work in front of a book-oriented Tokyo audience. The listing is thin on terms, so the first move is a direct inquiry, not preparation.
+  - Visual match signals: artist book, artist_book, zine
+- **TOKYO ART BOOK FAIR 2026** — score 8.6, differentiated 10.49, visual fit 3.7. TOKYO ART BOOK FAIR 2026 takes artist-published work and zines — your daily watercolor practice translates directly into a booklet or artist edition format, and the fair sits inside a contemporary art museum in your city, cutting out travel and setup costs. Check their submission deadline and guidelines for zine/artist book dimensions, then prepare 4–6 representative pages from your urban watercolor diary to propose as a small edition or consignment series.
+  - Visual match signals: watercolor, artist book, artist_book, zine
+- **Submissions - Little Press Publishing** — score 8.8, differentiated 10.43, visual fit 2.65. Little Press Publishing's focus on visual narratives and artist monographs overlaps with your sustained daily practice of capturing Tokyo's ephemeral urban moments through watercolor, offering a natural format to compile your architectural observations and memory-based work into a cohesive body. As a Japan-based small press, they represent a direct fit for documenting work that's deeply rooted in Tokyo's specific geography and quiet atmospheric study.
+  - Visual match signals: watercolor, memory, small press, small_press
 
 ## Low Priority
 
 Weak fit or low evidence. Keep but do not foreground.
 
-- **パラコンテスト委員会×イラストレーション2026** — score 8.6, differentiated 8.77, visual fit -1.5. Illustration contest accepting character art and creative submissions; offers learning and employment support pathways for participants including exhibition opportunities.
+- **パラコンテスト委員会×イラストレーション2026** — score 7.8, differentiated 7.98, visual fit -1.5. Illustration contest accepting character art and creative submissions; offers learning and employment support pathways for participants including exhibition opportunities.
   - Visual match signals: character_art
-- **Splash 27: The Best of Watercolor / Splash 27国际水彩画大赛** — score 5.5, differentiated 7.39, visual fit 3.7. International watercolor competition accepting water-based media on paper, with publication in prestigious annual color catalog and international exposure for selected artists.
+- **そぞろ書房** — score 5.85, differentiated 7.5, visual fit 3.7. そぞろ書房's focus on independent publishing and artist books could connect with your daily watercolor practice—your serialized observations of Tokyo's quietly disappearing urban moments could translate into print formats that local, contemplative bookstores cultivate. A compact Koenji presence here establishes your work within the neighborhood's own texture, creating a feedback loop between where you paint and where locals discover your process.
   - Visual match signals: watercolor, artist book, artist_book, zine
-- **The Container** — score 5.9, differentiated 7.22, visual fit 2.4. Tokyo location aligns with your Asia-Pacific focus, but everything else is a question mark requiring energy-intensive investigation.
-  - Visual match signals: watercolor, artist book, artist_book
-- **Publishing / Artist Books — Battle Plan** — score 5.8, differentiated 7.21, visual fit 3.7. This path fits an artist whose work can become a quiet book object, small edition, artist book / watercolor sequence, or publication proposal.
+- **Splash 27: The Best of Watercolor / Splash 27国际水彩画大赛** — score 5.5, differentiated 7.5, visual fit 3.7. International watercolor competition accepting water-based media on paper, with publication in prestigious annual color catalog and international exposure for selected artists.
   - Visual match signals: watercolor, artist book, artist_book, zine
-- **Zines / Artist Books — Battle Plan** — score 5.8, differentiated 7.06, visual fit 3.25. This path fits quiet works-on-paper and visual sequencing because one printed object can become a shop placement, fair application, portfolio proof, and publisher conversation starter.
+- **Aperture | Photography** — score 5.5, differentiated 7.5, visual fit 3.7. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
+  - Visual match signals: watercolor, artist book, artist_book, zine
+- **Printed Matter Art Book Fairs** — score 5.0, differentiated 7.07, visual fit 3.25. Highly relevant if your work develops into books, zines, calendars, or small editions; likely a long-term rather than immediate target.
   - Visual match signals: artist book, artist_book, zine
-- **3 Top Book Publishers in Tokyo in 2026** — score 5.4, differentiated 6.94, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
-- **3 Top Book Publishers in Japan in 2026** — score 5.4, differentiated 6.94, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
-- **Youkobo Art Space** — score 5.9, differentiated 6.92, visual fit 0.9. Tokyo location aligns with your subject matter and Asia-Pacific focus, but unclear program structure creates uncertainty about actual compatibility.
-  - Visual match signals: memory, Tokyo-based
-- **Top Artist Opportunities for 2026 | ArtConnect** — score 5.3, differentiated 6.68, visual fit 3.25. Potential fit based on source context and keyword overlap: zine, open call, submission, residency, exhibition
-  - Visual match signals: artist book, artist_book, zine
-- **Comitia** — score 5.7, differentiated 6.66, visual fit 0.75. It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building.
-  - Visual match signals: watercolor, zine, commercial_illustration
-- **torch press** — score 5.0, differentiated 6.64, visual fit 5.0. Invitation-only publisher — no submissions. Tier 4 watch target. Approach only after established Tokyo art book ecosystem presence.
+- **torch press** — score 5.0, differentiated 7.0, visual fit 5.0. Invitation-only publisher — no submissions. a long-term watch target. Approach only after established Tokyo art book ecosystem presence.
   - Visual match signals: artist book, small press, artist_book, zine, small_press
-- **SCCP Guest Artist** — score 5.6, differentiated 6.62, visual fit 0.9. SCCP's focus on process-driven artistic practice and experimental approaches to materiality aligns with GEGYjiji's daily watercolor studies of Tokyo's ephemeral urban moments—where technique and observation become inseparable. A guest artist position there could formalize her existing discipline into a structured platform for deepening her architectural and memory-based investigations while building the institutional visibility needed for stronger portfolio positioning.
+- **Youkobo Art Space** — score 5.9, differentiated 6.92, visual fit 0.9. Tokyo location overlaps with your subject matter and Asia-Pacific focus, but unclear program structure creates uncertainty about actual compatibility.
+  - Visual match signals: memory, Tokyo-based
+- **Spring Flora and Fauna Art Exhibition 2026** — score 5.9, differentiated 6.92, visual fit 0.9. Spring-themed art exhibition by OCAA suitable for watercolor urban observation and architecture works.
   - Visual match signals: watercolor, memory
-- **CuratorSpace** — score 5.3, differentiated 6.62, visual fit 2.4. Discovery source for watercolor / works on paper, drawing, residency, and works-on-paper opportunities. Use as a recurring research feed.
+- **Comitia** — score 5.9, differentiated 6.86, visual fit 0.75. It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building.
+  - Visual match signals: watercolor, zine, commercial_illustration
+- **3 Top Book Publishers in Tokyo in 2026** — score 5.3, differentiated 6.83, visual fit 3.7. Publishing / Small Press (found through targeted research).
+  - Visual match signals: artist book, small press, artist_book, small_press
+- **3 Top Book Publishers in Japan in 2026** — score 5.3, differentiated 6.83, visual fit 3.7. Publishing / Small Press (found through targeted research).
+  - Visual match signals: artist book, small press, artist_book, small_press
+- **Mall Galleries Open Exhibitions** — score 5.5, differentiated 6.82, visual fit 2.4. Open exhibition context for painting, drawing, or works on paper. Good candidate for direct verification.
   - Visual match signals: watercolor, artist book, artist_book
-- **submissions for the 2026 set film festival are now open** — score 5.8, differentiated 6.5, visual fit 0.0. Possible fit based on link text: submission
-- **Self Publish, Be Happy** — score 5.0, differentiated 6.48, visual fit 2.4. Self Publish, Be Happy's focus on watercolor sequences and artist-led books aligns perfectly with GEGYjiji's daily practice of capturing fleeting urban moments—her work naturally reads as a serialized visual journal rather than discrete gallery pieces. The platform's emphasis on works on paper and quiet, introspective narratives creates space for her architectural observations and disappearing Tokyo scenes to reach collectors and peers who value contemplative, process-driven practices over conventional exhibition cycles.
+- **Splash 27: The Best of Watercolor** — score 5.5, differentiated 6.81, visual fit 1.75. International watercolor competition accepting water-based media works; top 100+ selected works published in annual full-color catalog with global exposure.
+  - Visual match signals: watercolor, zine
+- **Pastel Society Open Exhibition** — score 5.2, differentiated 6.74, visual fit 2.4. Open exhibition context for watercolor / works on paper, drawing, or works on paper. Good candidate for direct verification.
   - Visual match signals: watercolor, artist book, artist_book
+- **オープンコール・プロジェクト** — score 5.9, differentiated 6.73, visual fit 1.0. General open call for contemporary artists; has been running since 2015 with published works, fits illustration and visual art submissions.
+  - Visual match signals: open_call_general

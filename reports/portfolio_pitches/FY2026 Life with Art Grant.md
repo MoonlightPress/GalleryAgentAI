@@ -7,7 +7,7 @@ Architecture / Memory / Place
 Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.
 
 ## Opportunity Fit
-The grant's mission to integrate art into everyday urban life directly mirrors GEGYjiji's practice of capturing transient architectural moments and quiet Tokyo spaces through watercolor—her daily observation ritual naturally aligns with projects that embed contemporary art into the city's lived experience. Her 90k-follower platform and early Tier 2 visibility position her as an emerging artist ready to realize the kind of place-based, community-embedded work this grant prioritizes.
+The grant's mission to integrate art into everyday urban life directly mirrors your practice of capturing transient architectural moments and quiet Tokyo spaces through watercolor—your daily observation ritual naturally aligns with projects that embed contemporary art into the city's lived experience. Your 26k-follower platform and her early-stage visibility position you as an emerging artist ready to realize the kind of place-based, community-embedded work this grant prioritizes.
 
 ## Match Signals
 architecture, place, urban, quiet

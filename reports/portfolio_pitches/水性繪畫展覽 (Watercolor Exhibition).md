@@ -7,7 +7,7 @@ Daily Poetic Photography
 A quieter observational body of work built around daily life, light, domestic details, travel fragments, and subtle emotional atmosphere.
 
 ## Opportunity Fit
-A watercolor-specific exhibition aligns directly with her medium and daily observational practice of capturing Tokyo's fleeting urban moments and architectural details. The December 2026 timeline gives her runway to develop a cohesive body of work while the international open call provides visibility beyond her current 90k Instagram following.
+A watercolor-specific exhibition is in your medium and daily observational practice of capturing Tokyo's fleeting urban moments and architectural details. The December 2026 timeline gives your runway to develop a cohesive body of work while the international open call provides visibility beyond your current 26k Instagram following.
 
 ## Match Signals
 daily, observation

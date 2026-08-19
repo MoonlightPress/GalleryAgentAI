@@ -1,11 +1,57 @@
 [
   {
+    "title": "Browse opportunities | CuratorSpace",
+    "organization": "CuratorSpace",
+    "category": "residency",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 7.2,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "medium",
+    "verification_status": "partial",
+    "source_type": "scraped_candidate",
+    "source_url": "https://www.curatorspace.com/opportunities",
+    "official_website": "https://www.curatorspace.com/opportunities",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate discovered from CuratorSpace. Needs manual verification before recommendation.",
+    "why_this_fits_short": "Potential fit based on source context and keyword overlap: open call, submission, residency, exhibition, artist-run, quiet",
+    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
+    "three_bullets": [
+      "Automatically discovered candidate.",
+      "Needs verification before being treated as actionable.",
+      "Keyword hits: open call, submission, residency, exhibition, artist-run, quiet"
+    ],
+    "fit_keyword_hits": [
+      "open call",
+      "submission",
+      "residency",
+      "exhibition",
+      "artist-run",
+      "quiet"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "submission process",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "rejected",
+    "quality_gate_reasons": [
+      "junk title contains: browse opportunities"
+    ]
+  },
+  {
     "title": "Royal Watercolour Society",
     "organization": "Royal Watercolour Society",
     "category": "gallery_event",
     "city": "",
     "country": "UK",
-    "overall_score": 6.3,
+    "overall_score": 6.75,
     "prestige_score": 0,
     "difficulty_score": 0,
     "confidence_level": "medium",
@@ -17,17 +63,18 @@
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate discovered from Royal Watercolour Society. Needs manual verification before recommendation.",
-    "why_this_fits_short": "Potential fit based on source context and keyword overlap: exhibition, watercolour, painting, paper",
+    "why_this_fits_short": "Potential fit based on source context and keyword overlap: portfolio review, exhibition, place, watercolour, paper",
     "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
     "three_bullets": [
       "Automatically discovered candidate.",
       "Needs verification before being treated as actionable.",
-      "Keyword hits: exhibition, watercolour, painting, paper"
+      "Keyword hits: portfolio review, exhibition, place, watercolour, paper"
     ],
     "fit_keyword_hits": [
+      "portfolio review",
       "exhibition",
+      "place",
       "watercolour",
-      "painting",
       "paper"
     ],
     "reject_keyword_hits": [],
@@ -40,49 +87,9 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "generic page without opportunity language"
-    ]
-  },
-  {
-    "title": "Phoebe Barnicoat Gabriella Painting Me Painting Her watercolour Unframed Artwork: 10.5 x 1",
-    "organization": "Royal Watercolour Society",
-    "category": "watercolor_society",
-    "city": "",
-    "country": "UK",
-    "overall_score": 6.1,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/84/84d201cb973b400b85cd3425fb0a4fb8/gabriella-painting-me-painting-her_14.5cm-x-10.5cm_watercolour-on-paper_phoebe-barnicoat_-520.jpg",
-    "official_website": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/84/84d201cb973b400b85cd3425fb0a4fb8/gabriella-painting-me-painting-her_14.5cm-x-10.5cm_watercolour-on-paper_phoebe-barnicoat_-520.jpg",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from Royal Watercolour Society.",
-    "why_this_fits_short": "Possible fit based on link text: watercolour, painting, paper",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: watercolour, painting, paper"
-    ],
-    "fit_keyword_hits": [
-      "watercolour",
-      "painting",
-      "paper"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "generic page without opportunity language"
+      "strong: portfolio review",
+      "weak: exhibition, gallery",
+      "score too low: 4"
     ]
   },
   {
@@ -99,6 +106,49 @@
     "source_type": "scraped_link_candidate",
     "source_url": "https://www.printedmatter.org/programs/events/2268",
     "official_website": "https://www.printedmatter.org/programs/events/2268",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from Printed Matter.",
+    "why_this_fits_short": "Possible fit based on link text: exhibition, paper",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: exhibition, paper"
+    ],
+    "fit_keyword_hits": [
+      "exhibition",
+      "paper"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "rejected",
+    "quality_gate_reasons": [
+      "strong: printed matter",
+      "weak: exhibition, gallery",
+      "score too low: 2"
+    ]
+  },
+  {
+    "title": "Event Exhibition New Openings Against Old Surfaces: On Gordon Matta-Clark’s Walls Paper Se",
+    "organization": "Printed Matter",
+    "category": "gallery_event",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 5.4,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.printedmatter.org/programs/events/2276",
+    "official_website": "https://www.printedmatter.org/programs/events/2276",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -170,7 +220,7 @@
     ]
   },
   {
-    "title": "LONDON CALLING Bankside Gallery 5th - 21st June",
+    "title": "SUMMER SALON RWS Gallery Tuesday - Saturday, 11am - 5pm",
     "organization": "Royal Watercolour Society",
     "category": "gallery_event",
     "city": "",
@@ -181,8 +231,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.royalwatercoloursociety.co.uk/exhibitions/107-london-calling-rws-re/overview/",
-    "official_website": "https://www.royalwatercoloursociety.co.uk/exhibitions/107-london-calling-rws-re/overview/",
+    "source_url": "https://www.royalwatercoloursociety.co.uk/exhibitions/105-royal-watercolour-society-at-the-rws-gallery/overview/",
+    "official_website": "https://www.royalwatercoloursociety.co.uk/exhibitions/105-royal-watercolour-society-at-the-rws-gallery/overview/",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -208,6 +258,92 @@
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
       "generic page without opportunity language"
+    ]
+  },
+  {
+    "title": "ARTIST PORTFOLIO REVIEWS Personal feedback on your work by an RWS artist NOW BOOKING",
+    "organization": "Royal Watercolour Society",
+    "category": "watercolor_society",
+    "city": "",
+    "country": "UK",
+    "overall_score": 5.4,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.royalwatercoloursociety.co.uk/events/192",
+    "official_website": "https://www.royalwatercoloursociety.co.uk/events/192",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from Royal Watercolour Society.",
+    "why_this_fits_short": "Possible fit based on link text: portfolio review, watercolour",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: portfolio review, watercolour"
+    ],
+    "fit_keyword_hits": [
+      "portfolio review",
+      "watercolour"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "rejected",
+    "quality_gate_reasons": [
+      "strong: portfolio review",
+      "weak: artist, book",
+      "score too low: 2"
+    ]
+  },
+  {
+    "title": "ARTIST PORTFOLIO REVIEWS",
+    "organization": "Royal Watercolour Society",
+    "category": "watercolor_society",
+    "city": "",
+    "country": "UK",
+    "overall_score": 5.4,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.royalwatercoloursociety.co.uk/events/192/",
+    "official_website": "https://www.royalwatercoloursociety.co.uk/events/192/",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from Royal Watercolour Society.",
+    "why_this_fits_short": "Possible fit based on link text: portfolio review, watercolour",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: portfolio review, watercolour"
+    ],
+    "fit_keyword_hits": [
+      "portfolio review",
+      "watercolour"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "rejected",
+    "quality_gate_reasons": [
+      "strong: portfolio review",
+      "weak: artist",
+      "score too low: 1"
     ]
   },
   {
@@ -252,9 +388,9 @@
     ]
   },
   {
-    "title": "Phoebe Barnicoat Three Sisters watercolour Unframed Artwork: 10.5 x 14.5cm",
+    "title": "Exhibitions Summer Salon RWS Gallery 11 July - 31 December 2026 LEARN MORE",
     "organization": "Royal Watercolour Society",
-    "category": "watercolor_society",
+    "category": "gallery_event",
     "city": "",
     "country": "UK",
     "overall_score": 5.4,
@@ -263,22 +399,22 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/15/157086e27dd3410c95f3fe24185df157/three-sisters_14.5cm-x-10.5cm_watercolour-on-paper_2025_phoebe-barnicoat_-520.jpg",
-    "official_website": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/15/157086e27dd3410c95f3fe24185df157/three-sisters_14.5cm-x-10.5cm_watercolour-on-paper_2025_phoebe-barnicoat_-520.jpg",
+    "source_url": "https://www.royalwatercoloursociety.co.uk/exhibitions/105-royal-watercolour-society-at-the-rws-gallery/",
+    "official_website": "https://www.royalwatercoloursociety.co.uk/exhibitions/105-royal-watercolour-society-at-the-rws-gallery/",
     "submission_page": "",
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate link discovered from Royal Watercolour Society.",
-    "why_this_fits_short": "Possible fit based on link text: watercolour, paper",
+    "why_this_fits_short": "Possible fit based on link text: exhibition, watercolour",
     "quick_action": "Open and verify whether this is current and relevant.",
     "three_bullets": [
       "Discovered from source link list.",
       "Needs manual verification.",
-      "Keyword hits: watercolour, paper"
+      "Keyword hits: exhibition, watercolour"
     ],
     "fit_keyword_hits": [
-      "watercolour",
-      "paper"
+      "exhibition",
+      "watercolour"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -293,9 +429,9 @@
     ]
   },
   {
-    "title": "Phoebe Barnicoat Snake Meet watercolour Unframed Artwork: 14.5 x 10.5cm",
+    "title": "Exhibitions Summer at Bankside Gallery 2026 31 July - 6 September 2026 LEARN MORE",
     "organization": "Royal Watercolour Society",
-    "category": "watercolor_society",
+    "category": "gallery_event",
     "city": "",
     "country": "UK",
     "overall_score": 5.4,
@@ -304,22 +440,22 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/fa/fafcf4d171fd4247bc478214dcf3a9ac/snake-meet_14.5cm-x-10.5cm_watercolour-on-paper_2025_phoebe-barnicoat_-520.jpg",
-    "official_website": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/fa/fafcf4d171fd4247bc478214dcf3a9ac/snake-meet_14.5cm-x-10.5cm_watercolour-on-paper_2025_phoebe-barnicoat_-520.jpg",
+    "source_url": "https://www.royalwatercoloursociety.co.uk/exhibitions/108-summer-at-bankside-gallery-2026/",
+    "official_website": "https://www.royalwatercoloursociety.co.uk/exhibitions/108-summer-at-bankside-gallery-2026/",
     "submission_page": "",
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate link discovered from Royal Watercolour Society.",
-    "why_this_fits_short": "Possible fit based on link text: watercolour, paper",
+    "why_this_fits_short": "Possible fit based on link text: exhibition, watercolour",
     "quick_action": "Open and verify whether this is current and relevant.",
     "three_bullets": [
       "Discovered from source link list.",
       "Needs manual verification.",
-      "Keyword hits: watercolour, paper"
+      "Keyword hits: exhibition, watercolour"
     ],
     "fit_keyword_hits": [
-      "watercolour",
-      "paper"
+      "exhibition",
+      "watercolour"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -334,7 +470,48 @@
     ]
   },
   {
-    "title": "Anne Marlow A Safe Place watercolour & pastel Unframed Artwork: 23.5 x 24cm",
+    "title": "LEARN MORE",
+    "organization": "Royal Watercolour Society",
+    "category": "gallery_event",
+    "city": "",
+    "country": "UK",
+    "overall_score": 5.4,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.royalwatercoloursociety.co.uk/exhibitions/108-summer-at-bankside-gallery-2026/overview/",
+    "official_website": "https://www.royalwatercoloursociety.co.uk/exhibitions/108-summer-at-bankside-gallery-2026/overview/",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from Royal Watercolour Society.",
+    "why_this_fits_short": "Possible fit based on link text: exhibition, watercolour",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: exhibition, watercolour"
+    ],
+    "fit_keyword_hits": [
+      "exhibition",
+      "watercolour"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "rejected",
+    "quality_gate_reasons": [
+      "generic page without opportunity language"
+    ]
+  },
+  {
+    "title": "www.royalwatercoloursociety.co.uk",
     "organization": "Royal Watercolour Society",
     "category": "watercolor_society",
     "city": "",
@@ -345,8 +522,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/f4/f42bf06e819741689a24710be246ea2a/a-safe-place.jpg",
-    "official_website": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/f4/f42bf06e819741689a24710be246ea2a/a-safe-place.jpg",
+    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks-13810-sarah-desmarais-place-inside/",
+    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks-13810-sarah-desmarais-place-inside/",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -375,49 +552,50 @@
     ]
   },
   {
-    "title": "【東京イラストレーターズ・ソサエティ（TIS）】Tokyo Illustrators Society",
-    "organization": "Tokyo Illustrators Society",
-    "category": "illustration_society",
-    "city": "",
-    "country": "Japan",
+    "title": "RuptureXIBIT Invitational Residency for Visual Artists & Writers RuptureXIBIT is an inclus",
+    "organization": "CuratorSpace",
+    "category": "residency",
+    "city": "Online",
+    "country": "Global",
     "overall_score": 5.4,
     "prestige_score": 0,
     "difficulty_score": 0,
-    "confidence_level": "medium",
-    "verification_status": "partial",
-    "source_type": "scraped_candidate",
-    "source_url": "https://www.tis-home.com/",
-    "official_website": "https://www.tis-home.com/",
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/rupturexibit-invitational-artists-residency/10025",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/rupturexibit-invitational-artists-residency/10025",
     "submission_page": "",
     "deadline": "",
     "fees": "",
-    "one_sentence": "Candidate discovered from Tokyo Illustrators Society. Needs manual verification before recommendation.",
-    "why_this_fits_short": "Potential fit based on source context and keyword overlap: memory, illustration",
-    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
+    "one_sentence": "Candidate link discovered from CuratorSpace.",
+    "why_this_fits_short": "Possible fit based on link text: residency, artist-run",
+    "quick_action": "Open and verify whether this is current and relevant.",
     "three_bullets": [
-      "Automatically discovered candidate.",
-      "Needs verification before being treated as actionable.",
-      "Keyword hits: memory, illustration"
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: residency, artist-run"
     ],
     "fit_keyword_hits": [
-      "memory",
-      "illustration"
+      "residency",
+      "artist-run"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
     "missing_fields": [
-      "submission process",
       "deadline",
       "fees",
       "contact"
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "generic page without opportunity language"
+      "strong: residency",
+      "weak: artist",
+      "score too low: 1"
     ]
   },
   {
-    "title": "DESIGN FESTA GALLERY | 全てのアーティストのためのギャラリー",
+    "title": "8.4 TUE 【企画展】『水彩画展』出展者募集中！",
     "organization": "Design Festa Gallery",
     "category": "gallery_event",
     "city": "",
@@ -425,30 +603,29 @@
     "overall_score": 5.4,
     "prestige_score": 0,
     "difficulty_score": 0,
-    "confidence_level": "medium",
-    "verification_status": "partial",
-    "source_type": "scraped_candidate",
-    "source_url": "https://designfestagallery.com/",
-    "official_website": "https://designfestagallery.com/",
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://designfestagallery.com/watercolor-exhibition2026/",
+    "official_website": "https://designfestagallery.com/watercolor-exhibition2026/",
     "submission_page": "",
     "deadline": "",
     "fees": "",
-    "one_sentence": "Candidate discovered from Design Festa Gallery. Needs manual verification before recommendation.",
-    "why_this_fits_short": "Potential fit based on source context and keyword overlap: exhibition, place",
-    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
+    "one_sentence": "Candidate link discovered from Design Festa Gallery.",
+    "why_this_fits_short": "Possible fit based on link text: exhibition, watercolor",
+    "quick_action": "Open and verify whether this is current and relevant.",
     "three_bullets": [
-      "Automatically discovered candidate.",
-      "Needs verification before being treated as actionable.",
-      "Keyword hits: exhibition, place"
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: exhibition, watercolor"
     ],
     "fit_keyword_hits": [
       "exhibition",
-      "place"
+      "watercolor"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
     "missing_fields": [
-      "submission process",
       "deadline",
       "fees",
       "contact"
@@ -584,8 +761,49 @@
     ]
   },
   {
-    "title": "Pinpoint Gallery | 東京都渋谷区渋谷区神宮前PinpointGalleryオフィシャルサイトです。",
-    "organization": "Pinpoint Gallery",
+    "title": "【東京イラストレーターズ・ソサエティ（TIS）】Tokyo Illustrators Society",
+    "organization": "Tokyo Illustrators Society",
+    "category": "illustration_society",
+    "city": "",
+    "country": "Japan",
+    "overall_score": 4.95,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "medium",
+    "verification_status": "partial",
+    "source_type": "scraped_candidate",
+    "source_url": "https://www.tis-home.com/",
+    "official_website": "https://www.tis-home.com/",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate discovered from Tokyo Illustrators Society. Needs manual verification before recommendation.",
+    "why_this_fits_short": "Potential fit based on source context and keyword overlap: illustration",
+    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
+    "three_bullets": [
+      "Automatically discovered candidate.",
+      "Needs verification before being treated as actionable.",
+      "Keyword hits: illustration"
+    ],
+    "fit_keyword_hits": [
+      "illustration"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "submission process",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "rejected",
+    "quality_gate_reasons": [
+      "generic page without opportunity language"
+    ]
+  },
+  {
+    "title": "DESIGN FESTA GALLERY | 全てのアーティストのためのギャラリー",
+    "organization": "Design Festa Gallery",
     "category": "gallery_event",
     "city": "",
     "country": "Japan",
@@ -595,12 +813,12 @@
     "confidence_level": "medium",
     "verification_status": "partial",
     "source_type": "scraped_candidate",
-    "source_url": "https://pinpointgallery.com/",
-    "official_website": "https://pinpointgallery.com/",
+    "source_url": "https://designfestagallery.com/",
+    "official_website": "https://designfestagallery.com/",
     "submission_page": "",
     "deadline": "",
     "fees": "",
-    "one_sentence": "Candidate discovered from Pinpoint Gallery. Needs manual verification before recommendation.",
+    "one_sentence": "Candidate discovered from Design Festa Gallery. Needs manual verification before recommendation.",
     "why_this_fits_short": "Potential fit based on source context and keyword overlap: exhibition",
     "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
     "three_bullets": [
@@ -741,12 +959,12 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "strong: zine, printed matter",
+      "strong: printed matter, zine",
       "score too low: 2"
     ]
   },
   {
-    "title": "Felix Burrichter PIN-UP Magazine Issue 40: The Independence Issue Periodicals $42.00 Recen",
+    "title": "Liam Campbell and Elska Magazine Elska No. 60 Chicago Periodicals $22.00 Recent Arrival",
     "organization": "Printed Matter",
     "category": "zine_print",
     "city": "Online",
@@ -757,8 +975,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.printedmatter.org/catalog/71287",
-    "official_website": "https://www.printedmatter.org/catalog/71287",
+    "source_url": "https://www.printedmatter.org/catalog/71685",
+    "official_website": "https://www.printedmatter.org/catalog/71685",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -782,133 +1000,8 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "strong: zine, printed matter",
+      "strong: printed matter, zine",
       "score too low: 2"
-    ]
-  },
-  {
-    "title": "Zab Shavrick house zine Books $28.00 Featured at LAABF Recent Arrival",
-    "organization": "Printed Matter",
-    "category": "zine_print",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.printedmatter.org/catalog/71278",
-    "official_website": "https://www.printedmatter.org/catalog/71278",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from Printed Matter.",
-    "why_this_fits_short": "Possible fit based on link text: zine",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: zine"
-    ],
-    "fit_keyword_hits": [
-      "zine"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "strong: zine, printed matter",
-      "weak: book",
-      "score too low: 3"
-    ]
-  },
-  {
-    "title": "Jana Zatvarnická The Silver Moon Limited Edition [Magazine + Print] Vol. 1 Editions $120.0",
-    "organization": "Printed Matter",
-    "category": "zine_print",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.printedmatter.org/catalog/71272",
-    "official_website": "https://www.printedmatter.org/catalog/71272",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from Printed Matter.",
-    "why_this_fits_short": "Possible fit based on link text: zine",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: zine"
-    ],
-    "fit_keyword_hits": [
-      "zine"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "strong: zine, printed matter",
-      "score too low: 2"
-    ]
-  },
-  {
-    "title": "Katelyn Calimag Moving Places and What We Carry Books $25.00 Recent Arrival",
-    "organization": "Printed Matter",
-    "category": "art_book",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.printedmatter.org/catalog/71203",
-    "official_website": "https://www.printedmatter.org/catalog/71203",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from Printed Matter.",
-    "why_this_fits_short": "Possible fit based on link text: place",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: place"
-    ],
-    "fit_keyword_hits": [
-      "place"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "strong: printed matter",
-      "weak: book",
-      "score too low: 1"
     ]
   },
   {
@@ -989,46 +1082,6 @@
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
       "junk title: browse printed matter editions"
-    ]
-  },
-  {
-    "title": "www.jacksonsart.com",
-    "organization": "Jackson's Art Prize",
-    "category": "gallery_event",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.jacksonsart.com/artprize/2026-2/#exhibitions",
-    "official_website": "https://www.jacksonsart.com/artprize/2026-2/#exhibitions",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from Jackson's Art Prize.",
-    "why_this_fits_short": "Possible fit based on link text: exhibition",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: exhibition"
-    ],
-    "fit_keyword_hits": [
-      "exhibition"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "generic page without opportunity language"
     ]
   },
   {
@@ -1192,6 +1245,46 @@
     ]
   },
   {
+    "title": "Learning",
+    "organization": "Royal Watercolour Society",
+    "category": "watercolor_society",
+    "city": "",
+    "country": "UK",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.royalwatercoloursociety.co.uk/learning/",
+    "official_website": "https://www.royalwatercoloursociety.co.uk/learning/",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from Royal Watercolour Society.",
+    "why_this_fits_short": "Possible fit based on link text: watercolour",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: watercolour"
+    ],
+    "fit_keyword_hits": [
+      "watercolour"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "rejected",
+    "quality_gate_reasons": [
+      "generic page without opportunity language"
+    ]
+  },
+  {
     "title": "Opportunities",
     "organization": "Royal Watercolour Society",
     "category": "watercolor_society",
@@ -1228,7 +1321,7 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "generic page without opportunity language"
+      "junk title: opportunities"
     ]
   },
   {
@@ -1592,7 +1685,7 @@
     ]
   },
   {
-    "title": "Lottie Cole Interior with Sunset at Sea watercolour & gouache Framed Artwork: 36 x 26cm Fr",
+    "title": "www.royalwatercoloursociety.co.uk",
     "organization": "Royal Watercolour Society",
     "category": "watercolor_society",
     "city": "",
@@ -1603,8 +1696,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/ec/ec30a3b92e064a109cd4004a269f6368/lottie-cole_03_interior-with-sunset-at-sea-watercolour-and-gouache-2024_36x26-cm.jpg",
-    "official_website": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/ec/ec30a3b92e064a109cd4004a269f6368/lottie-cole_03_interior-with-sunset-at-sea-watercolour-and-gouache-2024_36x26-cm.jpg",
+    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks-13809-sarah-desmarais-chambered-heart/",
+    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks-13809-sarah-desmarais-chambered-heart/",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -1632,7 +1725,7 @@
     ]
   },
   {
-    "title": "View Detail Page",
+    "title": "www.royalwatercoloursociety.co.uk",
     "organization": "Royal Watercolour Society",
     "category": "watercolor_society",
     "city": "",
@@ -1643,8 +1736,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13610/",
-    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13610/",
+    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks-13808-sarah-desmarais-imaginary-sketch-of-ithaca/",
+    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks-13808-sarah-desmarais-imaginary-sketch-of-ithaca/",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -1672,7 +1765,7 @@
     ]
   },
   {
-    "title": "Caroline Cornelius Erica's Autumn Walk watercolour & colour pencil Unframed Artwork: 26 x ",
+    "title": "www.royalwatercoloursociety.co.uk",
     "organization": "Royal Watercolour Society",
     "category": "watercolor_society",
     "city": "",
@@ -1683,8 +1776,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/be/be2c8ca7ae924193a47477ca6a93b8d2/cornelius_caroline_erica-s-autumn-walk.jpg",
-    "official_website": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/be/be2c8ca7ae924193a47477ca6a93b8d2/cornelius_caroline_erica-s-autumn-walk.jpg",
+    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks-13811-sarah-desmarais-three-leaves-came-down/",
+    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks-13811-sarah-desmarais-three-leaves-came-down/",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -1712,7 +1805,7 @@
     ]
   },
   {
-    "title": "View Detail Page",
+    "title": "www.royalwatercoloursociety.co.uk",
     "organization": "Royal Watercolour Society",
     "category": "watercolor_society",
     "city": "",
@@ -1723,8 +1816,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13556/",
-    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13556/",
+    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks-13812-sarah-desmarais-rose-archipelago-dusk/",
+    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks-13812-sarah-desmarais-rose-archipelago-dusk/",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -1752,7 +1845,7 @@
     ]
   },
   {
-    "title": "Caroline Cornelius Green Floral Sunlounger III watercolour & colour pencil Unframed Artwor",
+    "title": "www.royalwatercoloursociety.co.uk",
     "organization": "Royal Watercolour Society",
     "category": "watercolor_society",
     "city": "",
@@ -1763,8 +1856,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/f5/f52413f929d7481cbb43b443fe0e9b02/cornelius_caroline_green-floral-sunlounger.jpg",
-    "official_website": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/f5/f52413f929d7481cbb43b443fe0e9b02/cornelius_caroline_green-floral-sunlounger.jpg",
+    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks-13813-sarah-desmarais-imaginary-sketch-of-istanbul/",
+    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks-13813-sarah-desmarais-imaginary-sketch-of-istanbul/",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -1792,7 +1885,7 @@
     ]
   },
   {
-    "title": "View Detail Page",
+    "title": "www.royalwatercoloursociety.co.uk",
     "organization": "Royal Watercolour Society",
     "category": "watercolor_society",
     "city": "",
@@ -1803,8 +1896,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13558/",
-    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13558/",
+    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks-13801-sadie-tierney-tree-on-a-mountainside/",
+    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks-13801-sadie-tierney-tree-on-a-mountainside/",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -1832,7 +1925,7 @@
     ]
   },
   {
-    "title": "Caroline Cornelius Someone Broke a Glass in the Guacamole watercolour & colour pencil Unfr",
+    "title": "www.royalwatercoloursociety.co.uk",
     "organization": "Royal Watercolour Society",
     "category": "watercolor_society",
     "city": "",
@@ -1843,8 +1936,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/18/186d524afafb4f32a61f51a9d5543dc9/someone_broke_a_glass_in_the_guacamole-copy.jpeg",
-    "official_website": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/18/186d524afafb4f32a61f51a9d5543dc9/someone_broke_a_glass_in_the_guacamole-copy.jpeg",
+    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks-13802-sadie-tierney-beyond-the-sunset/",
+    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks-13802-sadie-tierney-beyond-the-sunset/",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -1872,7 +1965,7 @@
     ]
   },
   {
-    "title": "View Detail Page",
+    "title": "www.royalwatercoloursociety.co.uk",
     "organization": "Royal Watercolour Society",
     "category": "watercolor_society",
     "city": "",
@@ -1883,8 +1976,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13429/",
-    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13429/",
+    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks-13803-sadie-tierney-the-tender-grace-of-a-day/",
+    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks-13803-sadie-tierney-the-tender-grace-of-a-day/",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -1912,7 +2005,7 @@
     ]
   },
   {
-    "title": "View Detail Page",
+    "title": "www.royalwatercoloursociety.co.uk",
     "organization": "Royal Watercolour Society",
     "category": "watercolor_society",
     "city": "",
@@ -1923,8 +2016,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13549/",
-    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13549/",
+    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks-13804-sadie-tierney-mountain-sunset/",
+    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks-13804-sadie-tierney-mountain-sunset/",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -1952,7 +2045,7 @@
     ]
   },
   {
-    "title": "View Detail Page",
+    "title": "www.royalwatercoloursociety.co.uk",
     "organization": "Royal Watercolour Society",
     "category": "watercolor_society",
     "city": "",
@@ -1963,8 +2056,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13554/",
-    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13554/",
+    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks-13805-sadie-tierney-leysin-sunset-lost-in-a-dream/",
+    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks-13805-sadie-tierney-leysin-sunset-lost-in-a-dream/",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -1992,7 +2085,7 @@
     ]
   },
   {
-    "title": "View Detail Page",
+    "title": "www.royalwatercoloursociety.co.uk",
     "organization": "Royal Watercolour Society",
     "category": "watercolor_society",
     "city": "",
@@ -2003,8 +2096,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13553/",
-    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13553/",
+    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks-13806-sadie-tierney-leysin-sunset-mountains-and-valleys/",
+    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks-13806-sadie-tierney-leysin-sunset-mountains-and-valleys/",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -2032,7 +2125,7 @@
     ]
   },
   {
-    "title": "View Detail Page",
+    "title": "www.royalwatercoloursociety.co.uk",
     "organization": "Royal Watercolour Society",
     "category": "watercolor_society",
     "city": "",
@@ -2043,8 +2136,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13540/",
-    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13540/",
+    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks-13807-sadie-tierney-leysin-sunset-red-dream/",
+    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks-13807-sadie-tierney-leysin-sunset-red-dream/",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -2072,7 +2165,7 @@
     ]
   },
   {
-    "title": "View Detail Page",
+    "title": "www.royalwatercoloursociety.co.uk",
     "organization": "Royal Watercolour Society",
     "category": "watercolor_society",
     "city": "",
@@ -2083,8 +2176,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13541/",
-    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13541/",
+    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks-13799-ferha-farooqui-inverted-urban-17/",
+    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks-13799-ferha-farooqui-inverted-urban-17/",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -2112,7 +2205,7 @@
     ]
   },
   {
-    "title": "View Detail Page",
+    "title": "www.royalwatercoloursociety.co.uk",
     "organization": "Royal Watercolour Society",
     "category": "watercolor_society",
     "city": "",
@@ -2123,8 +2216,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13543/",
-    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13543/",
+    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks-13798-ferha-farooqui-approaching-storm/",
+    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks-13798-ferha-farooqui-approaching-storm/",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -2152,7 +2245,7 @@
     ]
   },
   {
-    "title": "View Detail Page",
+    "title": "www.royalwatercoloursociety.co.uk",
     "organization": "Royal Watercolour Society",
     "category": "watercolor_society",
     "city": "",
@@ -2163,8 +2256,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13542/",
-    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13542/",
+    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks-13797-ferha-farooqui-the-fire/",
+    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks-13797-ferha-farooqui-the-fire/",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -2192,7 +2285,7 @@
     ]
   },
   {
-    "title": "View Detail Page",
+    "title": "www.royalwatercoloursociety.co.uk",
     "organization": "Royal Watercolour Society",
     "category": "watercolor_society",
     "city": "",
@@ -2203,8 +2296,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13453/",
-    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13453/",
+    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks-13796-ferha-farooqui-inverted-urban-15/",
+    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks-13796-ferha-farooqui-inverted-urban-15/",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -2232,7 +2325,7 @@
     ]
   },
   {
-    "title": "View Detail Page",
+    "title": "www.royalwatercoloursociety.co.uk",
     "organization": "Royal Watercolour Society",
     "category": "watercolor_society",
     "city": "",
@@ -2243,8 +2336,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13451/",
-    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13451/",
+    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks-13795-ferha-farooqui-common-purpose/",
+    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks-13795-ferha-farooqui-common-purpose/",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -2272,7 +2365,7 @@
     ]
   },
   {
-    "title": "View Detail Page",
+    "title": "Visit",
     "organization": "Royal Watercolour Society",
     "category": "watercolor_society",
     "city": "",
@@ -2283,8 +2376,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13452/",
-    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13452/",
+    "source_url": "https://www.royalwatercoloursociety.co.uk/visit",
+    "official_website": "https://www.royalwatercoloursociety.co.uk/visit",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -2312,9 +2405,9 @@
     ]
   },
   {
-    "title": "Francis Bowyer Celebrating Low Tide watercolour Framed Artwork: 18 x 27cm Frame: 38 x 46cm",
+    "title": "Venue Hire",
     "organization": "Royal Watercolour Society",
-    "category": "watercolor_society",
+    "category": "gallery_event",
     "city": "",
     "country": "UK",
     "overall_score": 4.7,
@@ -2323,8 +2416,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/be/be3ba21a476846b79b2949f3d43a087d/celebrating-low-tide-.jpg",
-    "official_website": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/be/be3ba21a476846b79b2949f3d43a087d/celebrating-low-tide-.jpg",
+    "source_url": "https://www.royalwatercoloursociety.co.uk/rws-gallery-hire",
+    "official_website": "https://www.royalwatercoloursociety.co.uk/rws-gallery-hire",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -2352,7 +2445,7 @@
     ]
   },
   {
-    "title": "View Detail Page",
+    "title": "Press",
     "organization": "Royal Watercolour Society",
     "category": "watercolor_society",
     "city": "",
@@ -2363,8 +2456,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13072/",
-    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13072/",
+    "source_url": "https://www.royalwatercoloursociety.co.uk/press",
+    "official_website": "https://www.royalwatercoloursociety.co.uk/press",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -2392,7 +2485,7 @@
     ]
   },
   {
-    "title": "Francis Bowyer Dusk watercolour Unframed with mount Artwork: 16 x 20cm Mount: 32 x 34cm",
+    "title": "Copyright Notice",
     "organization": "Royal Watercolour Society",
     "category": "watercolor_society",
     "city": "",
@@ -2403,8 +2496,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/ac/ac45f562c374477a8e9b88b9c11ffda1/dusk.jpg",
-    "official_website": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/ac/ac45f562c374477a8e9b88b9c11ffda1/dusk.jpg",
+    "source_url": "https://www.royalwatercoloursociety.co.uk/copyright/",
+    "official_website": "https://www.royalwatercoloursociety.co.uk/copyright/",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -2432,7 +2525,7 @@
     ]
   },
   {
-    "title": "View Detail Page",
+    "title": "Privacy Policy",
     "organization": "Royal Watercolour Society",
     "category": "watercolor_society",
     "city": "",
@@ -2443,8 +2536,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13493/",
-    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13493/",
+    "source_url": "https://www.royalwatercoloursociety.co.uk/privacy-policy/",
+    "official_website": "https://www.royalwatercoloursociety.co.uk/privacy-policy/",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -2472,7 +2565,7 @@
     ]
   },
   {
-    "title": "Francis Bowyer Moonlit Night watercolour Unframed with mount Artwork: 18 x 21cm Mount: 30 ",
+    "title": "Sales Policy",
     "organization": "Royal Watercolour Society",
     "category": "watercolor_society",
     "city": "",
@@ -2483,8 +2576,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/97/97e0a65417a74600bd3e8c34618dbcb5/moonlit-night.jpg",
-    "official_website": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/97/97e0a65417a74600bd3e8c34618dbcb5/moonlit-night.jpg",
+    "source_url": "https://www.royalwatercoloursociety.co.uk/sales-policy/",
+    "official_website": "https://www.royalwatercoloursociety.co.uk/sales-policy/",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -2512,7 +2605,7 @@
     ]
   },
   {
-    "title": "View Detail Page",
+    "title": "Instagram , opens in a new tab.",
     "organization": "Royal Watercolour Society",
     "category": "watercolor_society",
     "city": "",
@@ -2523,8 +2616,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13492/",
-    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13492/",
+    "source_url": "https://www.instagram.com/royalwatercoloursociety/",
+    "official_website": "https://www.instagram.com/royalwatercoloursociety/",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -2548,11 +2641,11 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "generic page without opportunity language"
+      "junk title contains: instagram"
     ]
   },
   {
-    "title": "Chloë Cheese Texture of an Afternoon watercolour & pencil Unframed Artwork: 19 x 23.5cm",
+    "title": "Facebook , opens in a new tab.",
     "organization": "Royal Watercolour Society",
     "category": "watercolor_society",
     "city": "",
@@ -2563,8 +2656,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/d6/d6854110fb14471eb4dfaa047ba93498/texture-of-an-afternoon-cc.jpeg",
-    "official_website": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/d6/d6854110fb14471eb4dfaa047ba93498/texture-of-an-afternoon-cc.jpeg",
+    "source_url": "https://www.facebook.com/RoyalWatercolourSociety",
+    "official_website": "https://www.facebook.com/RoyalWatercolourSociety",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -2588,11 +2681,11 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "generic page without opportunity language"
+      "junk title contains: facebook"
     ]
   },
   {
-    "title": "View Detail Page",
+    "title": "Pinterest , opens in a new tab.",
     "organization": "Royal Watercolour Society",
     "category": "watercolor_society",
     "city": "",
@@ -2603,8 +2696,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13532/",
-    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13532/",
+    "source_url": "https://uk.pinterest.com/royalwatercoloursociety/",
+    "official_website": "https://uk.pinterest.com/royalwatercoloursociety/",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -2628,11 +2721,11 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "generic page without opportunity language"
+      "junk title contains: pinterest"
     ]
   },
   {
-    "title": "Jill Leman Butterflies & Tulips watercolour & acrylic Framed Artwork: 40 x 44cm Frame: 47 ",
+    "title": "Find Out More",
     "organization": "Royal Watercolour Society",
     "category": "watercolor_society",
     "city": "",
@@ -2643,768 +2736,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/a0/a0e2f1573ab34d81a1bb1172a4c60194/jill-leman-butterflies-tulips.jpg",
-    "official_website": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/a0/a0e2f1573ab34d81a1bb1172a4c60194/jill-leman-butterflies-tulips.jpg",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from Royal Watercolour Society.",
-    "why_this_fits_short": "Possible fit based on link text: watercolour",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: watercolour"
-    ],
-    "fit_keyword_hits": [
-      "watercolour"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "generic page without opportunity language"
-    ]
-  },
-  {
-    "title": "View Detail Page",
-    "organization": "Royal Watercolour Society",
-    "category": "watercolor_society",
-    "city": "",
-    "country": "UK",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13536/",
-    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13536/",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from Royal Watercolour Society.",
-    "why_this_fits_short": "Possible fit based on link text: watercolour",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: watercolour"
-    ],
-    "fit_keyword_hits": [
-      "watercolour"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "generic page without opportunity language"
-    ]
-  },
-  {
-    "title": "View Detail Page",
-    "organization": "Royal Watercolour Society",
-    "category": "watercolor_society",
-    "city": "",
-    "country": "UK",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13535/",
-    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13535/",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from Royal Watercolour Society.",
-    "why_this_fits_short": "Possible fit based on link text: watercolour",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: watercolour"
-    ],
-    "fit_keyword_hits": [
-      "watercolour"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "generic page without opportunity language"
-    ]
-  },
-  {
-    "title": "View Detail Page",
-    "organization": "Royal Watercolour Society",
-    "category": "watercolor_society",
-    "city": "",
-    "country": "UK",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13534/",
-    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13534/",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from Royal Watercolour Society.",
-    "why_this_fits_short": "Possible fit based on link text: watercolour",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: watercolour"
-    ],
-    "fit_keyword_hits": [
-      "watercolour"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "generic page without opportunity language"
-    ]
-  },
-  {
-    "title": "View Detail Page",
-    "organization": "Royal Watercolour Society",
-    "category": "watercolor_society",
-    "city": "",
-    "country": "UK",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13473/",
-    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13473/",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from Royal Watercolour Society.",
-    "why_this_fits_short": "Possible fit based on link text: watercolour",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: watercolour"
-    ],
-    "fit_keyword_hits": [
-      "watercolour"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "generic page without opportunity language"
-    ]
-  },
-  {
-    "title": "View Detail Page",
-    "organization": "Royal Watercolour Society",
-    "category": "watercolor_society",
-    "city": "",
-    "country": "UK",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13471/",
-    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13471/",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from Royal Watercolour Society.",
-    "why_this_fits_short": "Possible fit based on link text: watercolour",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: watercolour"
-    ],
-    "fit_keyword_hits": [
-      "watercolour"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "generic page without opportunity language"
-    ]
-  },
-  {
-    "title": "Akash Bhatt Eklo (Alone) watercolour Framed Artwork: 24 x 28cm Frame: 39 x 43cm",
-    "organization": "Royal Watercolour Society",
-    "category": "watercolor_society",
-    "city": "",
-    "country": "UK",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/cf/cff5593990de44e6961a489148743103/eklo-alone-.jpg",
-    "official_website": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/cf/cff5593990de44e6961a489148743103/eklo-alone-.jpg",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from Royal Watercolour Society.",
-    "why_this_fits_short": "Possible fit based on link text: watercolour",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: watercolour"
-    ],
-    "fit_keyword_hits": [
-      "watercolour"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "generic page without opportunity language"
-    ]
-  },
-  {
-    "title": "View Detail Page",
-    "organization": "Royal Watercolour Society",
-    "category": "watercolor_society",
-    "city": "",
-    "country": "UK",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13470/",
-    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13470/",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from Royal Watercolour Society.",
-    "why_this_fits_short": "Possible fit based on link text: watercolour",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: watercolour"
-    ],
-    "fit_keyword_hits": [
-      "watercolour"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "generic page without opportunity language"
-    ]
-  },
-  {
-    "title": "Annie Williams The Blue Table watercolour Framed Artwork: 38 x 47cm Frame: 59 x 67cm",
-    "organization": "Royal Watercolour Society",
-    "category": "watercolor_society",
-    "city": "",
-    "country": "UK",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/02/0267112780974a88a9bfedc8ae9d13d3/the-blue-table.jpg",
-    "official_website": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/02/0267112780974a88a9bfedc8ae9d13d3/the-blue-table.jpg",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from Royal Watercolour Society.",
-    "why_this_fits_short": "Possible fit based on link text: watercolour",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: watercolour"
-    ],
-    "fit_keyword_hits": [
-      "watercolour"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "generic page without opportunity language"
-    ]
-  },
-  {
-    "title": "View Detail Page",
-    "organization": "Royal Watercolour Society",
-    "category": "watercolor_society",
-    "city": "",
-    "country": "UK",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13406/",
-    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13406/",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from Royal Watercolour Society.",
-    "why_this_fits_short": "Possible fit based on link text: watercolour",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: watercolour"
-    ],
-    "fit_keyword_hits": [
-      "watercolour"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "generic page without opportunity language"
-    ]
-  },
-  {
-    "title": "Annie Williams Pots and Doodles watercolour Framed Artwork: 27 x 36cm Frame: 45 x 55cm",
-    "organization": "Royal Watercolour Society",
-    "category": "watercolor_society",
-    "city": "",
-    "country": "UK",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/b9/b9849bf11c2f466da26347c7681bb126/pots-and-doodles.jpg",
-    "official_website": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/b9/b9849bf11c2f466da26347c7681bb126/pots-and-doodles.jpg",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from Royal Watercolour Society.",
-    "why_this_fits_short": "Possible fit based on link text: watercolour",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: watercolour"
-    ],
-    "fit_keyword_hits": [
-      "watercolour"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "generic page without opportunity language"
-    ]
-  },
-  {
-    "title": "View Detail Page",
-    "organization": "Royal Watercolour Society",
-    "category": "watercolor_society",
-    "city": "",
-    "country": "UK",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13405/",
-    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13405/",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from Royal Watercolour Society.",
-    "why_this_fits_short": "Possible fit based on link text: watercolour",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: watercolour"
-    ],
-    "fit_keyword_hits": [
-      "watercolour"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "generic page without opportunity language"
-    ]
-  },
-  {
-    "title": "Annie Williams Still Life with a Touch of Green watercolour & gouache Framed Artwork: 30 x",
-    "organization": "Royal Watercolour Society",
-    "category": "watercolor_society",
-    "city": "",
-    "country": "UK",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/09/09c3429518904fddab7efdd9f4f8dd09/still-life-with-a-touch-of-green.jpg",
-    "official_website": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/09/09c3429518904fddab7efdd9f4f8dd09/still-life-with-a-touch-of-green.jpg",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from Royal Watercolour Society.",
-    "why_this_fits_short": "Possible fit based on link text: watercolour",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: watercolour"
-    ],
-    "fit_keyword_hits": [
-      "watercolour"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "generic page without opportunity language"
-    ]
-  },
-  {
-    "title": "View Detail Page",
-    "organization": "Royal Watercolour Society",
-    "category": "watercolor_society",
-    "city": "",
-    "country": "UK",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13404/",
-    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13404/",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from Royal Watercolour Society.",
-    "why_this_fits_short": "Possible fit based on link text: watercolour",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: watercolour"
-    ],
-    "fit_keyword_hits": [
-      "watercolour"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "generic page without opportunity language"
-    ]
-  },
-  {
-    "title": "Anne Marlow Seathrift watercolour & pastel Unframed Artwork: 24 x 26.5cm",
-    "organization": "Royal Watercolour Society",
-    "category": "watercolor_society",
-    "city": "",
-    "country": "UK",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/e6/e68398e3669d4e45b18f9ea08d9d404f/seathrift.jpg",
-    "official_website": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/e6/e68398e3669d4e45b18f9ea08d9d404f/seathrift.jpg",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from Royal Watercolour Society.",
-    "why_this_fits_short": "Possible fit based on link text: watercolour",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: watercolour"
-    ],
-    "fit_keyword_hits": [
-      "watercolour"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "generic page without opportunity language"
-    ]
-  },
-  {
-    "title": "View Detail Page",
-    "organization": "Royal Watercolour Society",
-    "category": "watercolor_society",
-    "city": "",
-    "country": "UK",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13402/",
-    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13402/",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from Royal Watercolour Society.",
-    "why_this_fits_short": "Possible fit based on link text: watercolour",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: watercolour"
-    ],
-    "fit_keyword_hits": [
-      "watercolour"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "generic page without opportunity language"
-    ]
-  },
-  {
-    "title": "View Detail Page",
-    "organization": "Royal Watercolour Society",
-    "category": "watercolor_society",
-    "city": "",
-    "country": "UK",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13401/",
-    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13401/",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from Royal Watercolour Society.",
-    "why_this_fits_short": "Possible fit based on link text: watercolour",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: watercolour"
-    ],
-    "fit_keyword_hits": [
-      "watercolour"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "generic page without opportunity language"
-    ]
-  },
-  {
-    "title": "Anne Marlow Waiting for the Ark watercolour & pastel Unframed Artwork: 20 x 20cm",
-    "organization": "Royal Watercolour Society",
-    "category": "watercolor_society",
-    "city": "",
-    "country": "UK",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/81/811f11a1e3574f0abbc2ccbcd6f8488b/waiting-for-the-ark.jpg",
-    "official_website": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/81/811f11a1e3574f0abbc2ccbcd6f8488b/waiting-for-the-ark.jpg",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from Royal Watercolour Society.",
-    "why_this_fits_short": "Possible fit based on link text: watercolour",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: watercolour"
-    ],
-    "fit_keyword_hits": [
-      "watercolour"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "generic page without opportunity language"
-    ]
-  },
-  {
-    "title": "View Detail Page",
-    "organization": "Royal Watercolour Society",
-    "category": "watercolor_society",
-    "city": "",
-    "country": "UK",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13399/",
-    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13399/",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from Royal Watercolour Society.",
-    "why_this_fits_short": "Possible fit based on link text: watercolour",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: watercolour"
-    ],
-    "fit_keyword_hits": [
-      "watercolour"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "generic page without opportunity language"
-    ]
-  },
-  {
-    "title": "View Detail Page",
-    "organization": "Royal Watercolour Society",
-    "category": "watercolor_society",
-    "city": "",
-    "country": "UK",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13397/",
-    "official_website": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13397/",
+    "source_url": "https://www.royalwatercoloursociety.co.uk/cookie-policy/",
+    "official_website": "https://www.royalwatercoloursociety.co.uk/cookie-policy/",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -3468,49 +2801,7 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "strong: zine, open call",
-      "score too low: 2"
-    ]
-  },
-  {
-    "title": "2026 scovill sculpture park exhibition",
-    "organization": "ArtConnect Open Calls",
-    "category": "gallery_event",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.artconnect.com/opportunity/99BuZr-JhYkc4g-ot41O9",
-    "official_website": "https://www.artconnect.com/opportunity/99BuZr-JhYkc4g-ot41O9",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from ArtConnect Open Calls.",
-    "why_this_fits_short": "Possible fit based on link text: exhibition",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: exhibition"
-    ],
-    "fit_keyword_hits": [
-      "exhibition"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "strong: open call",
-      "weak: exhibition, gallery",
+      "strong: open call, zine",
       "score too low: 2"
     ]
   },
@@ -3557,7 +2848,7 @@
     ]
   },
   {
-    "title": "residency programme for foreign choreographers",
+    "title": "2027 residency",
     "organization": "ArtConnect Open Calls",
     "category": "residency",
     "city": "Online",
@@ -3568,8 +2859,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.artconnect.com/opportunity/-kKW97f8O7OyCCJM-n1WK",
-    "official_website": "https://www.artconnect.com/opportunity/-kKW97f8O7OyCCJM-n1WK",
+    "source_url": "https://www.artconnect.com/opportunity/WbnXDvUjP3AyMLR1TbJoz",
+    "official_website": "https://www.artconnect.com/opportunity/WbnXDvUjP3AyMLR1TbJoz",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -3639,6 +2930,48 @@
     ]
   },
   {
+    "title": "kathmandu international artists in residency 2027",
+    "organization": "ArtConnect Open Calls",
+    "category": "residency",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.artconnect.com/opportunity/ZymLpPp2C1XVp4fQtWdu8",
+    "official_website": "https://www.artconnect.com/opportunity/ZymLpPp2C1XVp4fQtWdu8",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from ArtConnect Open Calls.",
+    "why_this_fits_short": "Possible fit based on link text: residency",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: residency"
+    ],
+    "fit_keyword_hits": [
+      "residency"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "rejected",
+    "quality_gate_reasons": [
+      "strong: residency, open call",
+      "weak: artist",
+      "score too low: 3"
+    ]
+  },
+  {
     "title": "Open Calls",
     "organization": "ArtConnect Open Calls",
     "category": "photo_open_call",
@@ -3675,7 +3008,169 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "strong: open call",
+      "junk title: open calls"
+    ]
+  },
+  {
+    "title": "www.curatorspace.com",
+    "organization": "CuratorSpace",
+    "category": "gallery_event",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/open-call-for-artists--th-community-art-exhibition/10936",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/open-call-for-artists--th-community-art-exhibition/10936",
+    "submission_page": "https://www.curatorspace.com/opportunities/detail/open-call-for-artists--th-community-art-exhibition/10936",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from CuratorSpace.",
+    "why_this_fits_short": "Possible fit based on link text: exhibition",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: exhibition"
+    ],
+    "fit_keyword_hits": [
+      "exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "rejected",
+    "quality_gate_reasons": [
+      "junk title: www.curatorspace.com"
+    ]
+  },
+  {
+    "title": "Report this?",
+    "organization": "CuratorSpace",
+    "category": "gallery_event",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fopen-call-for-artists--th-community-art-exhibition%2F10936&redirect=%2Fopportunities",
+    "official_website": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fopen-call-for-artists--th-community-art-exhibition%2F10936&redirect=%2Fopportunities",
+    "submission_page": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fopen-call-for-artists--th-community-art-exhibition%2F10936&redirect=%2Fopportunities",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from CuratorSpace.",
+    "why_this_fits_short": "Possible fit based on link text: exhibition",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: exhibition"
+    ],
+    "fit_keyword_hits": [
+      "exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "rejected",
+    "quality_gate_reasons": [
+      "weak: artist, exhibition, gallery",
+      "has submission link",
+      "score too low: 4"
+    ]
+  },
+  {
+    "title": "www.curatorspace.com",
+    "organization": "CuratorSpace",
+    "category": "gallery_event",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/salt-of-the-earth-folklore-exhibition--open-call/10885",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/salt-of-the-earth-folklore-exhibition--open-call/10885",
+    "submission_page": "https://www.curatorspace.com/opportunities/detail/salt-of-the-earth-folklore-exhibition--open-call/10885",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from CuratorSpace.",
+    "why_this_fits_short": "Possible fit based on link text: exhibition",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: exhibition"
+    ],
+    "fit_keyword_hits": [
+      "exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "rejected",
+    "quality_gate_reasons": [
+      "junk title: www.curatorspace.com"
+    ]
+  },
+  {
+    "title": "Report this?",
+    "organization": "CuratorSpace",
+    "category": "gallery_event",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fsalt-of-the-earth-folklore-exhibition--open-call%2F10885&redirect=%2Fopportunities",
+    "official_website": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fsalt-of-the-earth-folklore-exhibition--open-call%2F10885&redirect=%2Fopportunities",
+    "submission_page": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fsalt-of-the-earth-folklore-exhibition--open-call%2F10885&redirect=%2Fopportunities",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from CuratorSpace.",
+    "why_this_fits_short": "Possible fit based on link text: exhibition",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: exhibition"
+    ],
+    "fit_keyword_hits": [
+      "exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "rejected",
+    "quality_gate_reasons": [
+      "weak: exhibition, gallery",
       "has submission link",
       "score too low: 3"
     ]
@@ -3692,8 +3187,48 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/online-solo-exhibition--publication-opportunity-become-our-featured-artist-of-the-month/10774",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/online-solo-exhibition--publication-opportunity-become-our-featured-artist-of-the-month/10774",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/exhibit-in-brazil--pulse-exhibition/10898",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/exhibit-in-brazil--pulse-exhibition/10898",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from CuratorSpace.",
+    "why_this_fits_short": "Possible fit based on link text: exhibition",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: exhibition"
+    ],
+    "fit_keyword_hits": [
+      "exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "rejected",
+    "quality_gate_reasons": [
+      "junk title: www.curatorspace.com"
+    ]
+  },
+  {
+    "title": "Report this?",
+    "organization": "CuratorSpace",
+    "category": "gallery_event",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fexhibit-in-brazil--pulse-exhibition%2F10898&redirect=%2Fopportunities",
+    "official_website": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fexhibit-in-brazil--pulse-exhibition%2F10898&redirect=%2Fopportunities",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -3721,7 +3256,7 @@
     ]
   },
   {
-    "title": "Report this?",
+    "title": "Exhibition Elmswell Library is looking for artists to exhibit. We are a village library in",
     "organization": "CuratorSpace",
     "category": "gallery_event",
     "city": "Online",
@@ -3732,8 +3267,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fonline-solo-exhibition--publication-opportunity-become-our-featured-artist-of-the-month%2F10774&redirect=%2Fopportunities",
-    "official_website": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fonline-solo-exhibition--publication-opportunity-become-our-featured-artist-of-the-month%2F10774&redirect=%2Fopportunities",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/exhibition/8735",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/exhibition/8735",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -3801,46 +3336,6 @@
     ]
   },
   {
-    "title": "2026.06.01 Tokyo Illustrators Society Presents Illustration Works in NAGAOKA 202人のイラストレーター",
-    "organization": "Tokyo Illustrators Society",
-    "category": "illustration_society",
-    "city": "",
-    "country": "Japan",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.tis-home.com/news/detail.html?id=4412&code=2",
-    "official_website": "https://www.tis-home.com/news/detail.html?id=4412&code=2",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from Tokyo Illustrators Society.",
-    "why_this_fits_short": "Possible fit based on link text: illustration",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: illustration"
-    ],
-    "fit_keyword_hits": [
-      "illustration"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "generic page without opportunity language"
-    ]
-  },
-  {
     "title": "展覧会 2025.08.04 Illustration Talks v",
     "organization": "Tokyo Illustrators Society",
     "category": "illustration_society",
@@ -3854,46 +3349,6 @@
     "source_type": "scraped_link_candidate",
     "source_url": "https://www.tis-home.com/news/detail.html?id=4198&code=2",
     "official_website": "https://www.tis-home.com/news/detail.html?id=4198&code=2",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from Tokyo Illustrators Society.",
-    "why_this_fits_short": "Possible fit based on link text: illustration",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: illustration"
-    ],
-    "fit_keyword_hits": [
-      "illustration"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "generic page without opportunity language"
-    ]
-  },
-  {
-    "title": "展覧会 2025.08.04 Illustration Talks v",
-    "organization": "Tokyo Illustrators Society",
-    "category": "illustration_society",
-    "city": "",
-    "country": "Japan",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.tis-home.com/news/detail.html?id=4202&code=2",
-    "official_website": "https://www.tis-home.com/news/detail.html?id=4202&code=2",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -3961,6 +3416,46 @@
     ]
   },
   {
+    "title": "展覧会 2025.08.04 Illustration Talks v",
+    "organization": "Tokyo Illustrators Society",
+    "category": "illustration_society",
+    "city": "",
+    "country": "Japan",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.tis-home.com/news/detail.html?id=4202&code=2",
+    "official_website": "https://www.tis-home.com/news/detail.html?id=4202&code=2",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from Tokyo Illustrators Society.",
+    "why_this_fits_short": "Possible fit based on link text: illustration",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: illustration"
+    ],
+    "fit_keyword_hits": [
+      "illustration"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "rejected",
+    "quality_gate_reasons": [
+      "generic page without opportunity language"
+    ]
+  },
+  {
     "title": "展覧会 2025.04.18 「110人のイラストレーターが描く 宮沢",
     "organization": "Tokyo Illustrators Society",
     "category": "gallery_event",
@@ -3987,46 +3482,6 @@
     ],
     "fit_keyword_hits": [
       "exhibition"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "generic page without opportunity language"
-    ]
-  },
-  {
-    "title": "Memory Box 2026.06.19(金) - 2026.06.25(木)",
-    "organization": "Tokyo Illustrators Society",
-    "category": "illustration_society",
-    "city": "",
-    "country": "Japan",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.tis-home.com/news/detail.html?id=4424&code=6",
-    "official_website": "https://www.tis-home.com/news/detail.html?id=4424&code=6",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from Tokyo Illustrators Society.",
-    "why_this_fits_short": "Possible fit based on link text: memory",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: memory"
-    ],
-    "fit_keyword_hits": [
-      "memory"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -4121,46 +3576,6 @@
     ]
   },
   {
-    "title": "『記憶の欠片』展",
-    "organization": "Gallery IYN",
-    "category": "gallery_event",
-    "city": "",
-    "country": "Japan",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.gallery-iyn.com/post/fragments-of-memory",
-    "official_website": "https://www.gallery-iyn.com/post/fragments-of-memory",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from Gallery IYN.",
-    "why_this_fits_short": "Possible fit based on link text: memory",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: memory"
-    ],
-    "fit_keyword_hits": [
-      "memory"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "generic page without opportunity language"
-    ]
-  },
-  {
     "title": "〒530-0015",
     "organization": "Gallery IYN",
     "category": "gallery_event",
@@ -4201,7 +3616,7 @@
     ]
   },
   {
-    "title": "DFG MURAL PROJECT 2026",
+    "title": "DFG MURAL PROJECT 2026: Part 2",
     "organization": "Design Festa Gallery",
     "category": "gallery_event",
     "city": "",
@@ -4212,8 +3627,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://designfestagallery.com/exhibition-detail/?id=101",
-    "official_website": "https://designfestagallery.com/exhibition-detail/?id=101",
+    "source_url": "https://designfestagallery.com/exhibition-detail/?id=109",
+    "official_website": "https://designfestagallery.com/exhibition-detail/?id=109",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -4281,7 +3696,7 @@
     ]
   },
   {
-    "title": "GuroKawa Exhibition2",
+    "title": "幻想生物展",
     "organization": "Design Festa Gallery",
     "category": "gallery_event",
     "city": "",
@@ -4292,8 +3707,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://designfestagallery.com/exhibition-detail/?id=106",
-    "official_website": "https://designfestagallery.com/exhibition-detail/?id=106",
+    "source_url": "https://designfestagallery.com/exhibition-detail/?id=121",
+    "official_website": "https://designfestagallery.com/exhibition-detail/?id=121",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -4321,7 +3736,7 @@
     ]
   },
   {
-    "title": "原宿カワイイ展 〜キラキラフィーバー！〜",
+    "title": "水彩画展",
     "organization": "Design Festa Gallery",
     "category": "gallery_event",
     "city": "",
@@ -4332,8 +3747,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://designfestagallery.com/exhibition-detail/?id=105",
-    "official_website": "https://designfestagallery.com/exhibition-detail/?id=105",
+    "source_url": "https://designfestagallery.com/exhibition-detail/?id=116",
+    "official_website": "https://designfestagallery.com/exhibition-detail/?id=116",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -4361,7 +3776,7 @@
     ]
   },
   {
-    "title": "青空展",
+    "title": "Christmas Happiness",
     "organization": "Design Festa Gallery",
     "category": "gallery_event",
     "city": "",
@@ -4372,8 +3787,48 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://designfestagallery.com/exhibition-detail/?id=104",
-    "official_website": "https://designfestagallery.com/exhibition-detail/?id=104",
+    "source_url": "https://designfestagallery.com/exhibition-detail/?id=118",
+    "official_website": "https://designfestagallery.com/exhibition-detail/?id=118",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from Design Festa Gallery.",
+    "why_this_fits_short": "Possible fit based on link text: exhibition",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: exhibition"
+    ],
+    "fit_keyword_hits": [
+      "exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "rejected",
+    "quality_gate_reasons": [
+      "generic page without opportunity language"
+    ]
+  },
+  {
+    "title": "版画展",
+    "organization": "Design Festa Gallery",
+    "category": "gallery_event",
+    "city": "",
+    "country": "Japan",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://designfestagallery.com/exhibition-detail/?id=117",
+    "official_website": "https://designfestagallery.com/exhibition-detail/?id=117",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -4401,7 +3856,7 @@
     ]
   },
   {
-    "title": "2026年4月22日 【企画展】『GuroKawa Exhibition2』出展者募集中！🎨",
+    "title": "喫茶展",
     "organization": "Design Festa Gallery",
     "category": "gallery_event",
     "city": "",
@@ -4412,8 +3867,128 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://designfestagallery.com/gurokawa-2/",
-    "official_website": "https://designfestagallery.com/gurokawa-2/",
+    "source_url": "https://designfestagallery.com/exhibition-detail/?id=120",
+    "official_website": "https://designfestagallery.com/exhibition-detail/?id=120",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from Design Festa Gallery.",
+    "why_this_fits_short": "Possible fit based on link text: exhibition",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: exhibition"
+    ],
+    "fit_keyword_hits": [
+      "exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "rejected",
+    "quality_gate_reasons": [
+      "bad/missing title"
+    ]
+  },
+  {
+    "title": "呪い",
+    "organization": "Design Festa Gallery",
+    "category": "gallery_event",
+    "city": "",
+    "country": "Japan",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://designfestagallery.com/exhibition-detail/?id=119",
+    "official_website": "https://designfestagallery.com/exhibition-detail/?id=119",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from Design Festa Gallery.",
+    "why_this_fits_short": "Possible fit based on link text: exhibition",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: exhibition"
+    ],
+    "fit_keyword_hits": [
+      "exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "rejected",
+    "quality_gate_reasons": [
+      "bad/missing title"
+    ]
+  },
+  {
+    "title": "0号展",
+    "organization": "Design Festa Gallery",
+    "category": "gallery_event",
+    "city": "",
+    "country": "Japan",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://designfestagallery.com/exhibition-detail/?id=111",
+    "official_website": "https://designfestagallery.com/exhibition-detail/?id=111",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from Design Festa Gallery.",
+    "why_this_fits_short": "Possible fit based on link text: exhibition",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: exhibition"
+    ],
+    "fit_keyword_hits": [
+      "exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "rejected",
+    "quality_gate_reasons": [
+      "bad/missing title"
+    ]
+  },
+  {
+    "title": "銭湯サウナ展2",
+    "organization": "Design Festa Gallery",
+    "category": "gallery_event",
+    "city": "",
+    "country": "Japan",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://designfestagallery.com/exhibition-detail/?id=110",
+    "official_website": "https://designfestagallery.com/exhibition-detail/?id=110",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -4441,7 +4016,7 @@
     ]
   },
   {
-    "title": "UES PLACE – TOKYO ROUND –",
+    "title": "原宿カワイイ展〜キラキラフィーバー！Again!〜",
     "organization": "Design Festa Gallery",
     "category": "gallery_event",
     "city": "",
@@ -4452,21 +4027,261 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://designfestagallery.com/ues-place-tokyo-round/",
-    "official_website": "https://designfestagallery.com/ues-place-tokyo-round/",
+    "source_url": "https://designfestagallery.com/exhibition-detail/?id=112",
+    "official_website": "https://designfestagallery.com/exhibition-detail/?id=112",
     "submission_page": "",
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate link discovered from Design Festa Gallery.",
-    "why_this_fits_short": "Possible fit based on link text: place",
+    "why_this_fits_short": "Possible fit based on link text: exhibition",
     "quick_action": "Open and verify whether this is current and relevant.",
     "three_bullets": [
       "Discovered from source link list.",
       "Needs manual verification.",
-      "Keyword hits: place"
+      "Keyword hits: exhibition"
     ],
     "fit_keyword_hits": [
-      "place"
+      "exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "rejected",
+    "quality_gate_reasons": [
+      "generic page without opportunity language"
+    ]
+  },
+  {
+    "title": "MIZUIRO PINK",
+    "organization": "Design Festa Gallery",
+    "category": "gallery_event",
+    "city": "",
+    "country": "Japan",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://designfestagallery.com/exhibition-detail/?id=108",
+    "official_website": "https://designfestagallery.com/exhibition-detail/?id=108",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from Design Festa Gallery.",
+    "why_this_fits_short": "Possible fit based on link text: exhibition",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: exhibition"
+    ],
+    "fit_keyword_hits": [
+      "exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "rejected",
+    "quality_gate_reasons": [
+      "generic page without opportunity language"
+    ]
+  },
+  {
+    "title": "8.8 SAT 【企画展】『喫茶展』出展者募集中☕️ NEW",
+    "organization": "Design Festa Gallery",
+    "category": "gallery_event",
+    "city": "",
+    "country": "Japan",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://designfestagallery.com/kissatenexhibition/",
+    "official_website": "https://designfestagallery.com/kissatenexhibition/",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from Design Festa Gallery.",
+    "why_this_fits_short": "Possible fit based on link text: exhibition",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: exhibition"
+    ],
+    "fit_keyword_hits": [
+      "exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "rejected",
+    "quality_gate_reasons": [
+      "generic page without opportunity language"
+    ]
+  },
+  {
+    "title": "8.8 SAT 【企画展】『呪い』 🔮出展者募集中🕯️",
+    "organization": "Design Festa Gallery",
+    "category": "gallery_event",
+    "city": "",
+    "country": "Japan",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://designfestagallery.com/curse-exhibition/",
+    "official_website": "https://designfestagallery.com/curse-exhibition/",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from Design Festa Gallery.",
+    "why_this_fits_short": "Possible fit based on link text: exhibition",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: exhibition"
+    ],
+    "fit_keyword_hits": [
+      "exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "rejected",
+    "quality_gate_reasons": [
+      "generic page without opportunity language"
+    ]
+  },
+  {
+    "title": "8.16 SUN つみきの展示",
+    "organization": "Design Festa Gallery",
+    "category": "gallery_event",
+    "city": "",
+    "country": "Japan",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://designfestagallery.com/tsumikiexhibition/",
+    "official_website": "https://designfestagallery.com/tsumikiexhibition/",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from Design Festa Gallery.",
+    "why_this_fits_short": "Possible fit based on link text: exhibition",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: exhibition"
+    ],
+    "fit_keyword_hits": [
+      "exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "rejected",
+    "quality_gate_reasons": [
+      "generic page without opportunity language"
+    ]
+  },
+  {
+    "title": "8.16 SUN MELANCHOLY 2nd solo exhibition『Affogato』",
+    "organization": "Design Festa Gallery",
+    "category": "gallery_event",
+    "city": "",
+    "country": "Japan",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://designfestagallery.com/melancholy/",
+    "official_website": "https://designfestagallery.com/melancholy/",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from Design Festa Gallery.",
+    "why_this_fits_short": "Possible fit based on link text: exhibition",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: exhibition"
+    ],
+    "fit_keyword_hits": [
+      "exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "rejected",
+    "quality_gate_reasons": [
+      "generic page without opportunity language"
+    ]
+  },
+  {
+    "title": "シュール展",
+    "organization": "Design Festa Gallery",
+    "category": "gallery_event",
+    "city": "",
+    "country": "Japan",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://designfestagallery.com/exhibition-detail/?id=115",
+    "official_website": "https://designfestagallery.com/exhibition-detail/?id=115",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from Design Festa Gallery.",
+    "why_this_fits_short": "Possible fit based on link text: exhibition",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: exhibition"
+    ],
+    "fit_keyword_hits": [
+      "exhibition"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -4492,8 +4307,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://pinpointgallery.com/schedule/higamikumikoexhibition2026/",
-    "official_website": "https://pinpointgallery.com/schedule/higamikumikoexhibition2026/",
+    "source_url": "https://pinpointgallery.com/schedule/sakaihiromitsuexhibition2026/",
+    "official_website": "https://pinpointgallery.com/schedule/sakaihiromitsuexhibition2026/",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -4532,8 +4347,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://pinpointgallery.com/schedule/27thcompetiton_exhibition2026/",
-    "official_website": "https://pinpointgallery.com/schedule/27thcompetiton_exhibition2026/",
+    "source_url": "https://pinpointgallery.com/schedule/ahnmasakoexhibition2026/",
+    "official_website": "https://pinpointgallery.com/schedule/ahnmasakoexhibition2026/",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -4572,8 +4387,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://pinpointgallery.com/schedule/kiepinokoexhibition2026/",
-    "official_website": "https://pinpointgallery.com/schedule/kiepinokoexhibition2026/",
+    "source_url": "https://pinpointgallery.com/schedule/horiguchitimokoexhibition2026/",
+    "official_website": "https://pinpointgallery.com/schedule/horiguchitimokoexhibition2026/",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -4612,48 +4427,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://pinpointgallery.com/schedule/sakatokumiyukiexhibition2026/",
-    "official_website": "https://pinpointgallery.com/schedule/sakatokumiyukiexhibition2026/",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from Pinpoint Gallery.",
-    "why_this_fits_short": "Possible fit based on link text: exhibition",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: exhibition"
-    ],
-    "fit_keyword_hits": [
-      "exhibition"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "generic page without opportunity language"
-    ]
-  },
-  {
-    "title": "pinpointgallery.com",
-    "organization": "Pinpoint Gallery",
-    "category": "gallery_event",
-    "city": "",
-    "country": "Japan",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://pinpointgallery.com/schedule/teshimakeisaburoexhibition2026/",
-    "official_website": "https://pinpointgallery.com/schedule/teshimakeisaburoexhibition2026/",
+    "source_url": "https://pinpointgallery.com/schedule/tanakarokudaiexhibition2026/",
+    "official_website": "https://pinpointgallery.com/schedule/tanakarokudaiexhibition2026/",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -4776,6 +4551,45 @@
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate discovered from OPA Gallery. Needs manual verification before recommendation.",
+    "why_this_fits_short": "Potential fit based on source context and keyword overlap: ",
+    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
+    "three_bullets": [
+      "Automatically discovered candidate.",
+      "Needs verification before being treated as actionable.",
+      "Keyword hits: "
+    ],
+    "fit_keyword_hits": [],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "submission process",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "rejected",
+    "quality_gate_reasons": [
+      "generic page without opportunity language"
+    ]
+  },
+  {
+    "title": "Pinpoint Gallery | 東京都渋谷区渋谷区神宮前PinpointGalleryオフィシャルサイトです。",
+    "organization": "Pinpoint Gallery",
+    "category": "gallery_event",
+    "city": "",
+    "country": "Japan",
+    "overall_score": 4.5,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "medium",
+    "verification_status": "partial",
+    "source_type": "scraped_candidate",
+    "source_url": "https://pinpointgallery.com/",
+    "official_website": "https://pinpointgallery.com/",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate discovered from Pinpoint Gallery. Needs manual verification before recommendation.",
     "why_this_fits_short": "Potential fit based on source context and keyword overlap: ",
     "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
     "three_bullets": [

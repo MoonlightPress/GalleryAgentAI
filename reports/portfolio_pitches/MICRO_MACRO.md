@@ -7,7 +7,7 @@ Architecture / Memory / Place
 Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.
 
 ## Opportunity Fit
-Group exhibition exploring micro and macro perspectives, relevant to GEGYjiji's urban observation and architectural focus.
+Group exhibition exploring micro and macro perspectives, relevant to your urban observation and architectural focus.
 
 ## Match Signals
 urban

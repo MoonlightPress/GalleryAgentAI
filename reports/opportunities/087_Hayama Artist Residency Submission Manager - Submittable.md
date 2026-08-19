@@ -22,10 +22,10 @@ Core public information appears present.
 - Visual-language fit signals: still, intimate, atmospheric, nostalgic without sentimentality, attentive, quietly melancholic.
 
 ## 4. Public Opportunity Summary
-Residencies lead found through targeted research; useful if requirements and fit check out.
+Residencies (found through targeted research).
 
 ## 5. Existing Fit Notes
-Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+No stored fit explanation yet.
 
 ## 6. Key Points
 - Source category: Residencies.
@@ -48,4 +48,4 @@ Confirm deadline, duration, cost, location, and whether visual artists are eligi
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-24_
+_Last generated: 2026-08-04_

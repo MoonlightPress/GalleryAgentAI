@@ -1,12 +1,12 @@
 
-REPORT GENERATED: 2026-07-27
+REPORT GENERATED: 2026-08-18
 
 # ポットラック・アートブック フェア 2026 (Potluck Art Book Fair 2026)
 
 ## 1. Quick Judgment
-**Fit score:** 5.4/10  
+**Fit score:** 4.8/10  
 **Fit band:** Possible, but not urgent  
-**Confidence:** Medium  
+**Confidence:** High  
 **Type:** Zine Fair Booth  
 **City:** Tokyo  
 
@@ -48,5 +48,5 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-07-27_
+_Last generated: 2026-08-18_
 

@@ -1,7 +1,7 @@
 # Brillia Art Award Wall 2026
 
 ## 1. Quick Judgment
-**Fit score:** 9.8/10  
+**Fit score:** 10/10  
 **Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Institutional / Grants  
@@ -28,7 +28,9 @@ Tokyo-based art award for emerging artists; fits watercolor and illustration wor
 Tokyo-based art award for emerging artists; fits watercolor and illustration work.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Check the official website for current submission guidelines and open call status
+- Verify current status at the official site before investing time — websites change and open calls close early
+- Deadline: 2026-07-08 — confirm on the official site before submitting
 
 ## 7. Submission / Logistics
 - **Deadline:** 2026-07-08
@@ -45,4 +47,4 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-09_
+_Last generated: 2026-08-04_

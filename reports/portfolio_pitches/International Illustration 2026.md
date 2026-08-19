@@ -7,7 +7,7 @@ General Portfolio
 A concise selection of her strongest current work.
 
 ## Opportunity Fit
-Major illustration competition accepting watercolor and digital works from Japanese artists
+Open to watercolour, with an online entry route and a clear deadline. Entry fee is ¥9,000 — not trivial — so confirm the current guidelines and what they reward before paying.
 
 ## Match Signals
 No strong keyword match stored yet.

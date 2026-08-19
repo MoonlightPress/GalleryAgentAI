@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-07-27T04:55:24.250147+00:00",
+  "_generated_at": "2026-08-18T00:03:57.977317+00:00",
   "_engine_version": "2.1",
   "current_phase": "Tier 3 established — building toward representation & prestige",
   "phase_note": "An active multi-country exhibiting artist: solo shows, museum-group exhibitions, and an international showing are on record, alongside a first solo publication and an established, growing Instagram following. The foundation is built. The next levers are structural — gallery representation, stronger solo venues, art fairs, residencies, grants, critical press, and a second book — not more entry-level group shows.",
@@ -50,16 +50,6 @@
       "website": "https://utrecht.jp/"
     },
     {
-      "title": "Route Books",
-      "tier": 1,
-      "score": 9.4,
-      "category": "bookstore_gallery",
-      "city": "Tokyo — Ueno / Taito",
-      "deadline": "ongoing — check rental availability",
-      "summary": "Ueno bookshop-cafe with a confirmed rental gallery wall — accessible East Tokyo arts venue in the cultural district near Ueno Park.",
-      "website": "https://route-books.com/"
-    },
-    {
       "title": "Mograg Gallery",
       "tier": 1,
       "score": 9.4,
@@ -88,6 +78,16 @@
       "deadline": "ongoing",
       "summary": "Asakusa design-forward hostel bar with a strong international creative community and wall space for displaying artist work in its public lounge.",
       "website": "https://backpackersjapan.co.jp/nui/"
+    },
+    {
+      "title": "HATTIFNATT Koenji Cafe Gallery",
+      "tier": 1,
+      "score": 9.4,
+      "category": "cafe_gallery",
+      "city": "Tokyo — Koenji",
+      "deadline": "No fixed deadline — proposal-based",
+      "summary": "Koenji storybook-style cafe in Tokyo that shows artists on its walls — proposal-based, low barrier; judge the storybook look for yourself.",
+      "website": "https://www.hattifnatt.jp/"
     }
   ],
   "build_toward": [
@@ -112,27 +112,17 @@
       "website": "https://centerforbookarts.org/"
     },
     {
-      "title": "call for artists | al-tiba9 magazine issue22",
+      "title": "FY2026 Life with Art Grant",
       "tier": 3,
       "score": 9.4,
-      "category": "zine_print",
-      "city": "Online",
-      "deadline": "August 16th, 2026",
-      "summary": "Candidate link discovered from ArtConnect Open Calls.",
-      "website": "https://www.artconnect.com/opportunity/MSjnbbgX0O5uGlAJdbot1"
+      "category": "grant",
+      "city": "Tokyo",
+      "deadline": "2026年4月22日",
+      "summary": "Tokyo-based grant supporting projects that integrate contemporary art into everyday life, aligning with your urban observation and architecture focus.",
+      "website": "https://www.artscouncil-tokyo.jp/en/grants"
     }
   ],
   "watch_list": [
-    {
-      "title": "Asian Cultural Council (ACC) 2026 Grant Program",
-      "tier": 4,
-      "score": 9.4,
-      "category": "grant",
-      "city": "New York",
-      "deadline": "2025-11-19 (application deadline, EST 9:59 AM); recommendation letters due 2025-11-26",
-      "summary": "ACC provides fellowships and cultural exchange opportunities for Asian artists to explore new cultures and develop their artistic practice internationally, supporting visual artists like watercolor ar",
-      "website": "https://www.asianculturalcouncil.org/zh-hant/grant-opportunities"
-    },
     {
       "title": "Cité Internationale des Arts Artist Residency",
       "tier": 4,
@@ -154,9 +144,19 @@
       "website": "https://artres.moc.gov.tw/zh/calls/content/ff80818196c95f3b0196e675e523000f"
     },
     {
-      "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
+      "title": "Asian Cultural Council (ACC) 2026 Award Program / 亞洲文化協會 2026 年獎助計畫",
       "tier": 4,
       "score": 9.4,
+      "category": "grant",
+      "city": "New York",
+      "deadline": "2025年10月1日",
+      "summary": "ACC supports Asian artists including Chinese nationals with fellowships and grants for international cultural exchange and artistic development",
+      "website": "https://www.asianculturalcouncil.org/zh-hant/grant-opportunities"
+    },
+    {
+      "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
+      "tier": 4,
+      "score": 9.2,
       "category": "global_watercolor_open_call",
       "city": "Online / Seattle",
       "deadline": "August 12, 2026",
@@ -164,24 +164,24 @@
       "website": "https://www.nwws.org/"
     },
     {
-      "title": "National Watercolor Society International Open Exhibition",
+      "title": "Asian Cultural Council (ACC) 2026 Grant Program",
       "tier": 4,
-      "score": 9.4,
-      "category": "global_watercolor_open_call",
-      "city": "California / Online",
-      "deadline": "Annual — 2026 cycle closed May 22. Watch January 2027.",
-      "summary": "Major annual international watercolor exhibition, $40,000+ in awards, open to non-members worldwide — 2026 cycle closed.",
-      "website": "https://nationalwatercolorsociety.org/exhibits"
-    },
-    {
-      "title": "Asian Cultural Council (ACC) 2026 Award Program / 亞洲文化協會 2026 年獎助計畫",
-      "tier": 4,
-      "score": 9.4,
+      "score": 8.8,
       "category": "grant",
       "city": "New York",
-      "deadline": "2025-11-19",
-      "summary": "ACC supports Asian artists including Chinese nationals with fellowships and grants for international cultural exchange and artistic development",
+      "deadline": "2025-11-19 (application deadline, EST 9:59 AM); recommendation letters due 2025-11-26",
+      "summary": "ACC provides fellowships and cultural exchange opportunities for Asian artists to explore new cultures and develop their artistic practice internationally, supporting visual artists like watercolor ar",
       "website": "https://www.asianculturalcouncil.org/zh-hant/grant-opportunities"
+    },
+    {
+      "title": "Asian Cultural Council Graduate Fellowship",
+      "tier": 4,
+      "score": 8.8,
+      "category": "grant",
+      "city": "New York",
+      "deadline": "November 19, 2025",
+      "summary": "ACC Graduate Fellowship supports enrolled graduate students with full-time coursework during Fall 2026 to Spring 2027 or Spring to Fall 2027, applicable to artists pursuing advanced study.",
+      "website": "https://www.asianculturalcouncil.org/grant-opportunities"
     }
   ],
   "blocking_gaps": [
@@ -260,10 +260,10 @@
   "next_milestone_zh": "朝画廊代理迈进——一家替你销售、带你进入博览会、并培育藏家群体的画廊。你已有个展与美术馆联展的履历，这是当下杠杆最高的下一步。",
   "months_to_tier3": null,
   "pipeline_summary": {
-    "total_active": 699,
-    "tier_1_count": 44,
-    "tier_2_count": 230,
-    "tier_3_count": 406,
-    "tier_4_count": 19
+    "total_active": 684,
+    "tier_1_count": 37,
+    "tier_2_count": 142,
+    "tier_3_count": 488,
+    "tier_4_count": 17
   }
 }

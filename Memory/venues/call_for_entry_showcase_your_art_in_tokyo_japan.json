@@ -23,13 +23,11 @@
     "Automatically created from opportunity data.",
     "Needs manual/web research before being treated as verified."
   ],
-  "missing_information": [
-    "contact"
-  ],
+  "missing_information": [],
   "opportunity_titles": [
     "Call for Entry: Showcase your art in Tokyo, Japan"
   ],
   "last_researched": "",
-  "created_at": "2026-07-27",
-  "updated_at": "2026-07-27"
+  "created_at": "2026-08-18",
+  "updated_at": "2026-08-18"
 }

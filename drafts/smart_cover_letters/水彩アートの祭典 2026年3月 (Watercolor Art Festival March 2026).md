@@ -7,7 +7,7 @@ Recommended Body of Work:
 Architecture / Memory / Place
 
 Core Fit:
-Watercolor-only exhibition at Tokyo Art Theatre (池袋) with 4号以内 size limit, matching her urban watercolor style.
+Watercolor-only exhibition at Tokyo Art Theatre (池袋) with 4号以内 size limit, matching your urban watercolor style.
 
 Draft Structure:
 

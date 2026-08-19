@@ -7,7 +7,7 @@ Recommended Body of Work:
 Architecture / Memory / Place
 
 Core Fit:
-Urban watercolor documenting Tokyo architecture is an exact fit for Casa Brutus's editorial coverage of space and design.
+Urban watercolor documenting Tokyo architecture overlaps with Casa Brutus's editorial coverage of space and design.
 
 Draft Structure:
 

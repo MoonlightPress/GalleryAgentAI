@@ -1,16 +1,16 @@
 # Portfolio Pitch — B&B (Book & Beer)
 
 ## Recommended Body of Work
-Architecture / Memory / Place
+Artist Book / Printed Matter
 
 ## Why This Body Fits
-Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.
+Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.
 
 ## Opportunity Fit
-Warm, literary atmosphere that matches the quiet observation tone of your work — not a white-cube gallery, which is correct for where you are right now.
+A well-known Shimokitazawa bookshop-bar that consigns art books and zines with low friction and runs an events program — a concrete Tier-1 route to a printed presence in Tokyo. It's a route for self-published or artist-book work, not for original paintings.
 
 ## Match Signals
-urban, quiet
+artist book, zine
 
 ## Suggested Submission Framing
 Present this not as a general portfolio, but as a focused body of work.

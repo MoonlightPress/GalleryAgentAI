@@ -7,7 +7,7 @@ General Portfolio
 A concise selection of her strongest current work.
 
 ## Opportunity Fit
-Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirements, matching her watercolor practice.
+Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirements, matching your watercolor practice.
 
 ## Match Signals
 No strong keyword match stored yet.

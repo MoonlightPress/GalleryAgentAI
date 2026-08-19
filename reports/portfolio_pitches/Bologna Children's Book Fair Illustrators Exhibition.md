@@ -7,7 +7,7 @@ Artist Book / Printed Matter
 Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.
 
 ## Opportunity Fit
-Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+A possible place to show watercolor or works on paper.
 
 ## Match Signals
 book fair, paper

@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-06-01
+REPORT GENERATED: 2026-08-18
 
 # UTRECHT
 
@@ -11,13 +11,13 @@ REPORT GENERATED: 2026-06-01
 **City:** Tokyo  
 
 ## 2. Verification Status
-Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.
+Core public information appears present.
 
 - **Official/source website**: https://utrecht.jp/ (verified)
 - **Submission process**: https://utrecht.jp/ (verified)
-- **Deadline**: Not publicly listed (verified)
-- **Fees**: Not publicly listed (verified)
-- **Contact**: Not publicly listed (needs_inquiry)
+- **Deadline**: 1 July 2025 (verified)
+- **Fees**: Free (verified)
+- **Contact**: info@utrecht.jp (verified)
 
 ## 3. Why This May Fit the Artist
 - Opportunity type: Print / Zines / Bookstores.
@@ -25,19 +25,19 @@ Verified: Official/source website, Submission process, Deadline, Fees. Needs che
 - Visual-language fit signals: still, intimate, atmospheric, nostalgic without sentimentality, attentive, quietly melancholic.
 
 ## 4. Public Opportunity Summary
-Tokyo independent art bookstore with gallery space focused on zines and artist books—low-pressure venue where your work could exist as printed matter alongside exhibition.
+Tokyo independent art bookstore with a gallery space focused on zines and artist books — low-pressure, free, and printed-matter oriented.
 
 ## 5. Existing Fit Notes
-This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
+An independent bookstore/gallery built around artist books and printed matter, free and low-friction — a Tier-1 way to put work into circulation as a publication rather than a framed show. It fits if you want to move toward zines or small print editions; if you only make originals, it's a weaker match.
 
 ## 6. Key Points
-- Perfect fit for work that bridges illustration and fine art without needing heavy conceptual framing
-- Bookstore context means your atmospheric architectural documentation could be presented as publications/zines
-- Located in Tokyo, minimal submission pressure, culturally appropriate context for Asian urban subject matter
+- Bookstore-gallery oriented to zines and artist books — work circulates as printed matter.
+- Free, low-pressure context — no juried call to clear.
+- Best if you're open to making a zine/print edition; less so for originals only.
 
 ## 7. Submission / Logistics
-- **Deadline:** Not publicly listed
-- **Fees:** Not publicly listed
+- **Deadline:** 1 July 2025
+- **Fees:** Free
 - **Submission page:** https://utrecht.jp/
 - **Source:** https://utrecht.jp/
 
@@ -45,10 +45,10 @@ This sidesteps your strategic risk entirely—bookstore galleries celebrate wate
 No hard dealbreaker recorded. Manual verification recommended.
 
 ## 9. Recommended Next Step
-Visit their website to see current exhibitions and publications, get a feel for the space before considering a zine or small publication project
+Check utrecht.jp for their current consignment/exhibition terms, then email info@utrecht.jp to ask whether they take artist-book or zine proposals.
 
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-01_
+_Last generated: 2026-08-18_
 

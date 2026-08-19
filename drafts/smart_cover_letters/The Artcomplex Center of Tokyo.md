@@ -4,10 +4,10 @@ Tone:
 restrained and confident
 
 Recommended Body of Work:
-Artist Book / Printed Matter
+Architecture / Memory / Place
 
 Core Fit:
-Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+A possible place to show watercolor or works on paper.
 
 Draft Structure:
 

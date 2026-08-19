@@ -7,7 +7,7 @@ General Portfolio
 A concise selection of her strongest current work.
 
 ## Opportunity Fit
-Dedicated watercolor painting open call exhibition with booth display option matching her medium and practice.
+Dedicated watercolor painting open call exhibition with booth display option matching your medium and practice.
 
 ## Match Signals
 No strong keyword match stored yet.

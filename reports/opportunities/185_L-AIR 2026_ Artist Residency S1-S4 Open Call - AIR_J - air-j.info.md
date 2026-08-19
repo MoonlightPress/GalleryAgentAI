@@ -1,20 +1,20 @@
 # L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info
 
 ## 1. Quick Judgment
-**Fit score:** 6.6/10  
-**Fit band:** Promising  
-**Confidence:** Medium  
+**Fit score:** 9.6/10  
+**Fit band:** Excellent fit  
+**Confidence:** High  
 **Type:** Residencies / Longer Projects  
 **City:** Japan / Tokyo / Online  
 
 ## 2. Verification Status
-Verified: Official/source website, Deadline. Needs checking: Submission process, Fees, Contact.
+Core public information appears present.
 
 - **Official/source website**: https://air-j.info/en/program/lair2026/ (verified)
-- **Submission process**: Not publicly listed (needs_inquiry)
-- **Deadline**: Check source (verified)
-- **Fees**: Not publicly listed (needs_inquiry)
-- **Contact**: Not publicly listed (needs_inquiry)
+- **Submission process**: https://air-j.info/en/program/lair2026 (verified)
+- **Deadline**: Season 1: September 30, 2025; Season 2: November 30, 2025; Season 3: March 1, 2026; Season 4: May 31, 2026 (verified)
+- **Fees**: Free (verified)
+- **Contact**: info@l-air.or.jp (verified)
 
 ## 3. Why This May Fit the Artist
 - Opportunity type: Residencies / Longer Projects.
@@ -22,10 +22,10 @@ Verified: Official/source website, Deadline. Needs checking: Submission process,
 - Visual-language fit signals: still, intimate, atmospheric, nostalgic without sentimentality, attentive, quietly melancholic.
 
 ## 4. Public Opportunity Summary
-Residencies lead found through targeted research; useful if requirements and fit check out.
+Residencies (found through targeted research).
 
 ## 5. Existing Fit Notes
-Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+No stored fit explanation yet.
 
 ## 6. Key Points
 - Source category: Residencies.
@@ -34,9 +34,9 @@ Potential fit because it belongs to a structured opportunity category where requ
 - Detected signals: deadline signal.
 
 ## 7. Submission / Logistics
-- **Deadline:** Check source
-- **Fees:** Not publicly listed
-- **Submission page:** Not publicly listed
+- **Deadline:** Season 1: September 30, 2025; Season 2: November 30, 2025; Season 3: March 1, 2026; Season 4: May 31, 2026
+- **Fees:** Free
+- **Submission page:** https://air-j.info/en/program/lair2026
 - **Source:** https://air-j.info/en/program/lair2026/
 
 ## 8. Risk / Unknowns
@@ -48,4 +48,4 @@ Confirm deadline, duration, cost, location, and whether visual artists are eligi
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-04_
+_Last generated: 2026-07-27_

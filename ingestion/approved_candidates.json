@@ -46,55 +46,8 @@
     ],
     "quality_gate_status": "approved",
     "quality_gate_reasons": [
-      "strong: zine, printed matter, photobook, book fair",
-      "weak: book, exhibition"
-    ]
-  },
-  {
-    "title": "Browse opportunities | CuratorSpace",
-    "organization": "CuratorSpace",
-    "category": "residency",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 7.2,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "medium",
-    "verification_status": "partial",
-    "source_type": "scraped_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities",
-    "official_website": "https://www.curatorspace.com/opportunities",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate discovered from CuratorSpace. Needs manual verification before recommendation.",
-    "why_this_fits_short": "Potential fit based on source context and keyword overlap: open call, submission, residency, exhibition, memory, place",
-    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
-    "three_bullets": [
-      "Automatically discovered candidate.",
-      "Needs verification before being treated as actionable.",
-      "Keyword hits: open call, submission, residency, exhibition, memory, place"
-    ],
-    "fit_keyword_hits": [
-      "open call",
-      "submission",
-      "residency",
-      "exhibition",
-      "memory",
-      "place"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "submission process",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "approved",
-    "quality_gate_reasons": [
-      "strong: submission, residency, open call",
-      "weak: exhibition"
+      "strong: printed matter, book fair, zine, photobook",
+      "weak: exhibition, book"
     ]
   },
   {
@@ -139,92 +92,8 @@
     ],
     "quality_gate_status": "approved",
     "quality_gate_reasons": [
-      "strong: zine, submission, residency, open call",
-      "weak: exhibition, artist"
-    ]
-  },
-  {
-    "title": "Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod",
-    "organization": "CuratorSpace",
-    "category": "photo_open_call",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 5.4,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/audio-work-required--artists-and-friends-podcast--open-call/1594",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/audio-work-required--artists-and-friends-podcast--open-call/1594",
-    "submission_page": "https://www.curatorspace.com/opportunities/detail/audio-work-required--artists-and-friends-podcast--open-call/1594",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: open call, exhibition",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: open call, exhibition"
-    ],
-    "fit_keyword_hits": [
-      "open call",
-      "exhibition"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "approved",
-    "quality_gate_reasons": [
-      "strong: open call",
-      "weak: exhibition, artist",
-      "has submission link"
-    ]
-  },
-  {
-    "title": "open submissions for issue four",
-    "organization": "ArtConnect Open Calls",
-    "category": "open_call_index",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.artconnect.com/opportunity/O3gkR9wE9Oib-P3D-FMAj",
-    "official_website": "https://www.artconnect.com/opportunity/O3gkR9wE9Oib-P3D-FMAj",
-    "submission_page": "https://www.artconnect.com/opportunity/O3gkR9wE9Oib-P3D-FMAj",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from ArtConnect Open Calls.",
-    "why_this_fits_short": "Possible fit based on link text: submission",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: submission"
-    ],
-    "fit_keyword_hits": [
-      "submission"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "approved",
-    "quality_gate_reasons": [
-      "strong: submission, open call",
-      "has submission link"
+      "strong: submission, residency, open call, zine",
+      "weak: artist, exhibition"
     ]
   },
   {
@@ -265,90 +134,6 @@
     "quality_gate_status": "approved",
     "quality_gate_reasons": [
       "strong: submission, open call",
-      "has submission link"
-    ]
-  },
-  {
-    "title": "www.curatorspace.com",
-    "organization": "CuratorSpace",
-    "category": "residency",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/spectroscope-residency-award--east-quay-open-call-for-disabled-artists-in-south-west-england/10630",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/spectroscope-residency-award--east-quay-open-call-for-disabled-artists-in-south-west-england/10630",
-    "submission_page": "https://www.curatorspace.com/opportunities/detail/spectroscope-residency-award--east-quay-open-call-for-disabled-artists-in-south-west-england/10630",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: residency",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: residency"
-    ],
-    "fit_keyword_hits": [
-      "residency"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "approved",
-    "quality_gate_reasons": [
-      "strong: award, residency",
-      "weak: artist",
-      "has submission link"
-    ]
-  },
-  {
-    "title": "Report this?",
-    "organization": "CuratorSpace",
-    "category": "residency",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fspectroscope-residency-award--east-quay-open-call-for-disabled-artists-in-south-west-england%2F10630&redirect=%2Fopportunities",
-    "official_website": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fspectroscope-residency-award--east-quay-open-call-for-disabled-artists-in-south-west-england%2F10630&redirect=%2Fopportunities",
-    "submission_page": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fspectroscope-residency-award--east-quay-open-call-for-disabled-artists-in-south-west-england%2F10630&redirect=%2Fopportunities",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: residency",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: residency"
-    ],
-    "fit_keyword_hits": [
-      "residency"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "approved",
-    "quality_gate_reasons": [
-      "strong: award, residency",
-      "weak: artist",
       "has submission link"
     ]
   }

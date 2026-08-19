@@ -7,7 +7,7 @@ General Portfolio
 A concise selection of her strongest current work.
 
 ## Opportunity Fit
-Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+Open Calls / Contests (found through targeted research).
 
 ## Match Signals
 No strong keyword match stored yet.

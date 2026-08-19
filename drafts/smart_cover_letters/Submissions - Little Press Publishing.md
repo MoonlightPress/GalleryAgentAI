@@ -7,7 +7,7 @@ Recommended Body of Work:
 Architecture / Memory / Place
 
 Core Fit:
-Little Press Publishing's focus on visual narratives and artist monographs aligns with GEGYjiji's sustained daily practice of capturing Tokyo's ephemeral urban moments through watercolor, offering a natural format to compile her architectural observations and memory-based work into a cohesive body. As a Japan-based small press, they represent a direct fit for documenting work that's deeply rooted in Tokyo's specific geography and quiet atmospheric study.
+Little Press Publishing's focus on visual narratives and artist monographs overlaps with your sustained daily practice of capturing Tokyo's ephemeral urban moments through watercolor, offering a natural format to compile your architectural observations and memory-based work into a cohesive body. As a Japan-based small press, they represent a direct fit for documenting work that's deeply rooted in Tokyo's specific geography and quiet atmospheric study.
 
 Draft Structure:
 

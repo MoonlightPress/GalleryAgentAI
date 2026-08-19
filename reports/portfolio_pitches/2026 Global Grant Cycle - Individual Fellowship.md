@@ -7,7 +7,7 @@ Daily Poetic Photography
 A quieter observational body of work built around daily life, light, domestic details, travel fragments, and subtle emotional atmosphere.
 
 ## Opportunity Fit
-ACC's fellowship structure explicitly supports sustained research and cultural immersion—directly aligned with GEGYjiji's practice of daily observation and architectural documentation across different urban environments, from Tokyo to potential new locations. The program's emphasis on cross-cultural artistic development matches her position as a Chinese painter working internationally, where watercolor's immediacy captures the ephemeral moments she prioritizes in urban settings.
+ACC's fellowship structure explicitly supports sustained research and cultural immersion—directly aligned with your practice of daily observation and architectural documentation across different urban environments, from Tokyo to potential new locations. The program's emphasis on cross-cultural artistic development matches your position as a Chinese painter working internationally, where watercolor's immediacy captures the ephemeral moments you prioritize in urban settings.
 
 ## Match Signals
 daily, observation

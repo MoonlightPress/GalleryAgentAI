@@ -7,7 +7,7 @@ Recommended Body of Work:
 General Portfolio
 
 Core Fit:
-Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirements, matching her watercolor practice.
+Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirements, matching your watercolor practice.
 
 Draft Structure:
 

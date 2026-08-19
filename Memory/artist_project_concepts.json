@@ -120,15 +120,6 @@
         "why": "Clavis Publishing's focus on visual narratives and artist books overlaps with your practice of documenting Tokyo's ephemeral urban landscapes through watercolor—work that benefits from the sustained, intimate format of a published collection. Your consistent daily practice and 26k following demonstrate the audience and discipline required for a successful artist publication."
       },
       {
-        "title": "B&B Shimokitazawa",
-        "score": 9.4,
-        "differentiated_score": 11.39,
-        "hits": [
-          "zine"
-        ],
-        "why": "Suited to low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle"
-      },
-      {
         "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
         "score": 9.4,
         "differentiated_score": 11.39,
@@ -136,15 +127,6 @@
           "zine"
         ],
         "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. you qualify."
-      },
-      {
-        "title": "SUBMISSIONS - marblepress.com",
-        "score": 9.4,
-        "differentiated_score": 11.39,
-        "hits": [
-          "small press"
-        ],
-        "why": "Publishing / Small Press (found through targeted research)."
       },
       {
         "title": "美術手帖 (Bijutsu Techo) — Artist Feature",
@@ -176,6 +158,25 @@
           "book fair"
         ],
         "why": "A major art-book fair with a curated small-press community and a printed-matter audience — a real route to that audience, but only if publishing is a direction you want. It requires finished publications and several days of staffing a booth, so weigh that cost honestly. Entry fee ¥1,000."
+      },
+      {
+        "title": "TOKIO ART BOOK FAIR 2026",
+        "score": 9.4,
+        "differentiated_score": 11.24,
+        "hits": [
+          "zine",
+          "book fair"
+        ],
+        "why": "Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors."
+      },
+      {
+        "title": "B&B (Book & Beer)",
+        "score": 9.4,
+        "differentiated_score": 11.24,
+        "hits": [
+          "zine"
+        ],
+        "why": "A well-known Shimokitazawa bookshop-bar that consigns art books and zines with low friction and runs an events program — a concrete Tier-1 route to a printed presence in Tokyo. It's a route for self-published or artist-book work, not for original paintings."
       }
     ]
   },
@@ -268,15 +269,6 @@
         "why": "Potential fit if your work becomes more explicitly book-oriented or object/paper based."
       },
       {
-        "title": "call for artists | al-tiba9 magazine issue22",
-        "score": 9.4,
-        "differentiated_score": 10.87,
-        "hits": [
-          "memory"
-        ],
-        "why": "al-tiba9's focus on visual storytelling through print overlaps with your daily watercolor practice documenting ephemeral urban moments and architectural detail—your observational approach translates naturally to zine format where intimacy and immediacy are central to the medium. The magazine's curation of contemplative visual work is in the register of quiet atmosphere and memory embedded in disappearing Tokyo scenes."
-      },
-      {
         "title": "Pinpoint Gallery",
         "score": 9.4,
         "differentiated_score": 10.84,
@@ -286,13 +278,22 @@
         "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
       },
       {
-        "title": "Pen Magazine — Artist Spotlight",
-        "score": 9.4,
+        "title": "call for artists | al-tiba9 magazine issue22",
+        "score": 9.3,
         "differentiated_score": 10.77,
         "hits": [
-          "architecture"
+          "memory"
         ],
-        "why": "Tokyo's design-literate audience. Urban watercolor + Tokyo documentation = strong editorial angle for Pen readers."
+        "why": "al-tiba9's focus on visual storytelling through print overlaps with your daily watercolor practice documenting ephemeral urban moments and architectural detail—your observational approach translates naturally to zine format where intimacy and immediacy are central to the medium. The magazine's curation of contemplative visual work is in the register of quiet atmosphere and memory embedded in disappearing Tokyo scenes."
+      },
+      {
+        "title": "» 21 Terrific Small Presses Open to Direct Submissions",
+        "score": 8.6,
+        "differentiated_score": 10.7,
+        "hits": [
+          "artist book"
+        ],
+        "why": "Small presses focused on visual narrative and artist books are possible outlets for daily watercolor practice documenting Tokyo's ephemeral urban moments—formats that can showcase sequential observation and architectural study in ways that relate to your meditative approach to disappearing landscapes. Your 26k follower base and consistent output of finished works on paper provide the portfolio depth and audience these publishers often seek for limited-edition artist publications."
       }
     ]
   },
@@ -372,16 +373,6 @@
         "why": "Clavis Publishing's focus on visual narratives and artist books overlaps with your practice of documenting Tokyo's ephemeral urban landscapes through watercolor—work that benefits from the sustained, intimate format of a published collection. Your consistent daily practice and 26k following demonstrate the audience and discipline required for a successful artist publication."
       },
       {
-        "title": "B&B Shimokitazawa",
-        "score": 9.4,
-        "differentiated_score": 11.39,
-        "hits": [
-          "zine",
-          "bookstore"
-        ],
-        "why": "Suited to low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle"
-      },
-      {
         "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
         "score": 9.4,
         "differentiated_score": 11.39,
@@ -389,24 +380,6 @@
           "zine"
         ],
         "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. you qualify."
-      },
-      {
-        "title": "SUBMISSIONS - marblepress.com",
-        "score": 9.4,
-        "differentiated_score": 11.39,
-        "hits": [
-          "small press"
-        ],
-        "why": "Publishing / Small Press (found through targeted research)."
-      },
-      {
-        "title": "flotsam books",
-        "score": 9.4,
-        "differentiated_score": 11.39,
-        "hits": [
-          "bookstore"
-        ],
-        "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts"
       },
       {
         "title": "美術手帖 (Bijutsu Techo) — Artist Feature",
@@ -427,6 +400,37 @@
           "artist book"
         ],
         "why": "An independent bookstore/gallery built around artist books and printed matter, free and low-friction — a Tier-1 way to put work into circulation as a publication rather than a framed show. It fits if you want to move toward zines or small print editions; if you only make originals, it's a weaker match."
+      },
+      {
+        "title": "Tokyo Art Book Fair",
+        "score": 9.4,
+        "differentiated_score": 11.24,
+        "hits": [
+          "zine",
+          "book fair",
+          "artist book"
+        ],
+        "why": "A major art-book fair with a curated small-press community and a printed-matter audience — a real route to that audience, but only if publishing is a direction you want. It requires finished publications and several days of staffing a booth, so weigh that cost honestly. Entry fee ¥1,000."
+      },
+      {
+        "title": "TOKIO ART BOOK FAIR 2026",
+        "score": 9.4,
+        "differentiated_score": 11.24,
+        "hits": [
+          "zine",
+          "book fair"
+        ],
+        "why": "Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors."
+      },
+      {
+        "title": "B&B (Book & Beer)",
+        "score": 9.4,
+        "differentiated_score": 11.24,
+        "hits": [
+          "zine",
+          "bookstore"
+        ],
+        "why": "A well-known Shimokitazawa bookshop-bar that consigns art books and zines with low friction and runs an events program — a concrete Tier-1 route to a printed presence in Tokyo. It's a route for self-published or artist-book work, not for original paintings."
       }
     ]
   },
@@ -492,16 +496,6 @@
     ],
     "opportunity_targets": [
       {
-        "title": "DER GREIF",
-        "score": 9.4,
-        "differentiated_score": 10.94,
-        "hits": [
-          "portfolio review",
-          "open call"
-        ],
-        "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper"
-      },
-      {
         "title": "ArtConnect Open Calls",
         "score": 9.4,
         "differentiated_score": 10.94,
@@ -511,13 +505,14 @@
         "why": "Discovery source for watercolor / works on paper, drawing, residency, and works-on-paper opportunities. Use as a recurring research feed."
       },
       {
-        "title": "call for artists | al-tiba9 magazine issue22",
-        "score": 9.4,
-        "differentiated_score": 10.87,
+        "title": "DER GREIF",
+        "score": 9.3,
+        "differentiated_score": 10.84,
         "hits": [
+          "portfolio review",
           "open call"
         ],
-        "why": "al-tiba9's focus on visual storytelling through print overlaps with your daily watercolor practice documenting ephemeral urban moments and architectural detail—your observational approach translates naturally to zine format where intimacy and immediacy are central to the medium. The magazine's curation of contemplative visual work is in the register of quiet atmosphere and memory embedded in disappearing Tokyo scenes."
+        "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper"
       },
       {
         "title": "水性繪畫展覽 (Watercolor Exhibition)",
@@ -538,22 +533,22 @@
         "why": "Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirements, matching your watercolor practice."
       },
       {
-        "title": "Pen Magazine — Artist Spotlight",
-        "score": 9.4,
+        "title": "call for artists | al-tiba9 magazine issue22",
+        "score": 9.3,
         "differentiated_score": 10.77,
+        "hits": [
+          "open call"
+        ],
+        "why": "al-tiba9's focus on visual storytelling through print overlaps with your daily watercolor practice documenting ephemeral urban moments and architectural detail—your observational approach translates naturally to zine format where intimacy and immediacy are central to the medium. The magazine's curation of contemplative visual work is in the register of quiet atmosphere and memory embedded in disappearing Tokyo scenes."
+      },
+      {
+        "title": "Pen Magazine — Artist Spotlight",
+        "score": 9.2,
+        "differentiated_score": 10.67,
         "hits": [
           "architecture"
         ],
         "why": "Tokyo's design-literate audience. Urban watercolor + Tokyo documentation = strong editorial angle for Pen readers."
-      },
-      {
-        "title": "Casa Brutus — Architecture/Art Feature",
-        "score": 9.4,
-        "differentiated_score": 10.77,
-        "hits": [
-          "architecture"
-        ],
-        "why": "Urban watercolor documenting Tokyo architecture overlaps with Casa Brutus's editorial coverage of space and design."
       },
       {
         "title": "Publishers & Publishing Services in Japan - PublishersGlobal.com",
@@ -563,6 +558,15 @@
           "architecture"
         ],
         "why": "PublishersGlobal.com's focus on small press and independent publishing aligns with how your daily watercolor practice—documenting Tokyo's ephemeral urban moments and architecture—naturally translates into a cohesive visual narrative suited to artist-led or artist-friendly books. Your 26k-follower community and established daily practice provide both the content depth and audience foundation that small publishers seek when developing monographs or artist publications."
+      },
+      {
+        "title": "FY2026 Life with Art Grant",
+        "score": 9.4,
+        "differentiated_score": 10.57,
+        "hits": [
+          "architecture"
+        ],
+        "why": "The grant's mission to integrate art into everyday urban life directly mirrors your practice of capturing transient architectural moments and quiet Tokyo spaces through watercolor—your daily observation ritual naturally aligns with projects that embed contemporary art into the city's lived experience. Your 26k-follower platform and her early-stage visibility position you as an emerging artist ready to realize the kind of place-based, community-embedded work this grant prioritizes."
       }
     ]
   }

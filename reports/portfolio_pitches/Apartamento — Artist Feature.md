@@ -7,7 +7,7 @@ Architecture / Memory / Place
 Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.
 
 ## Opportunity Fit
-Her intimate urban interiors and everyday Tokyo documentation is perfectly on-brand for Apartamento's audience. The 'foreigner observing Tokyo' angle is strong.
+Your intimate urban interiors and everyday Tokyo documentation is perfectly on-brand for Apartamento's audience. The 'foreigner observing Tokyo' angle is strong.
 
 ## Match Signals
 urban, interior

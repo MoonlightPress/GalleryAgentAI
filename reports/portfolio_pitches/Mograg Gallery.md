@@ -7,10 +7,10 @@ Community / Local Visibility
 Approachable work suitable for cafes, artist-run rooms, small walls, local markets, and gentle public visibility.
 
 ## Opportunity Fit
-Mograg regularly shows technically skilled work by emerging Japanese artists and painters. GEGYjiji's urban Tokyo watercolors sit naturally in this programming — same audience, same aesthetic register. Has Tokyo and Osaka venues.
+An active Tokyo gallery that programs emerging, un-repped Japanese artists by proposal — a real route in without a juried call. The work it shows leans contemporary/outsider, not polished or quiet, so don't take a 'fit' on trust: look at their recent shows and decide for yourself.
 
 ## Match Signals
-community, cafe, local, wall
+cafe, local, wall, accessible
 
 ## Suggested Submission Framing
 Present this not as a general portfolio, but as a focused body of work.

@@ -1,18 +1,18 @@
 # Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...
 
 ## 1. Quick Judgment
-**Fit score:** 9.4/10  
+**Fit score:** 10/10  
 **Fit band:** Excellent fit  
-**Confidence:** Medium  
+**Confidence:** High  
 **Type:** Galleries / Exhibition Calls  
 **City:** Tokyo  
 
 ## 2. Verification Status
-Verified: Official/source website, Submission process. Needs checking: Deadline, Fees, Contact.
+Verified: Official/source website, Submission process, Deadline. Needs checking: Fees, Contact.
 
 - **Official/source website**: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.jinnystreetgallery.com%2Fopen%2Dcall&rut=d5b00738c7261fadd38663d6ca09d6815404c12e95604352e078fae258da1013 (verified)
 - **Submission process**: https://www.jinnystreetgallery.com/open-call (verified)
-- **Deadline**: Not publicly listed (needs_inquiry)
+- **Deadline**: May 9, 2026 (verified)
 - **Fees**: Not publicly listed (needs_inquiry)
 - **Contact**: Not publicly listed (needs_inquiry)
 
@@ -34,7 +34,7 @@ Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ... may 
 - Risk: Only one source found so far.
 
 ## 7. Submission / Logistics
-- **Deadline:** Not publicly listed
+- **Deadline:** May 9, 2026
 - **Fees:** Not publicly listed
 - **Submission page:** https://www.jinnystreetgallery.com/open-call
 - **Source:** //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.jinnystreetgallery.com%2Fopen%2Dcall&rut=d5b00738c7261fadd38663d6ca09d6815404c12e95604352e078fae258da1013
@@ -48,4 +48,4 @@ Review current/past artists and check whether submissions, contact email, or ope
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-07_
+_Last generated: 2026-07-05_

@@ -7,7 +7,7 @@ Recommended Body of Work:
 Architecture / Memory / Place
 
 Core Fit:
-Your Twitter audience already trusts your aesthetic — SUZURI turns that attention into income without requiring gallery relationships or submission cycles.
+An optional, hands-off way to offer merch from your work — no gallery relationships or submission cycles required, and nothing you need to set up unless it appeals.
 
 Draft Structure:
 

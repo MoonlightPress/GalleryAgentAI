@@ -12,7 +12,7 @@ Core public information appears present.
 
 - **Official/source website**: https://cspwc.ca/ (verified)
 - **Submission process**: https://open-water-2026.artcall.org/ (verified)
-- **Deadline**: June 30, 2026 — 2:00 PM Eastern Daylight Time (verified)
+- **Deadline**: September 19, 2026 (verified)
 - **Fees**: CAD $55 (non-members) / CAD $40 (CSPWC members) — up to 2 entries, non-refundable (verified)
 - **Contact**: info@cspwc.ca (verified)
 
@@ -22,18 +22,18 @@ Core public information appears present.
 - Visual-language fit signals: still, intimate, atmospheric, nostalgic without sentimentality, attentive, quietly melancholic.
 
 ## 4. Public Opportunity Summary
-Canadian Society of Painters in Water Colour 101st Annual International Juried Exhibition in Transparent Water Colour — deadline June 30 2026, exhibition September 1-19, currently open.
+International juried show in transparent watercolour (Canada); entry is online via ArtCall, deadline June 30, 2026, 2 PM EDT.
 
 ## 5. Existing Fit Notes
-International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8.
+Strict medium match — transparent watercolour only, which is your technique. International juried exhibition, entry is online (no shipping to enter), CAD $55 for non-members / $40 for members, up to 2 works. Notifications July 8; show runs Sept 1-19.
 
 ## 6. Key Points
-- International juried exhibition specifically in transparent watercolour.
-- Exhibition September 1-19 2026 — submission deadline may still be open.
-- Verify urgently at cspwc.ca.
+- Transparent watercolour only — direct medium match.
+- Online entry via ArtCall, up to 2 works; fee CAD $55 (non-member) / $40 (member).
+- Hard deadline June 30, 2026, 2 PM EDT — acceptance July 8, exhibition Sept 1-19.
 
 ## 7. Submission / Logistics
-- **Deadline:** June 30, 2026 — 2:00 PM Eastern Daylight Time
+- **Deadline:** September 19, 2026
 - **Fees:** CAD $55 (non-members) / CAD $40 (CSPWC members) — up to 2 entries, non-refundable
 - **Submission page:** https://open-water-2026.artcall.org/
 - **Source:** https://cspwc.ca/
@@ -42,9 +42,9 @@ International transparent watercolour exhibition with confirmed June 30 deadline
 No hard dealbreaker recorded. Manual verification recommended.
 
 ## 9. Recommended Next Step
-Download the Terms and Conditions prospectus from open-water-2026.artcall.org. Create an ArtCall account and submit before June 30, 2026 at 2 PM EDT. Medium must be transparent watercolour only. Email info@cspwc.ca with questions.
+Download the prospectus from open-water-2026.artcall.org, create an ArtCall account, and submit up to 2 transparent watercolours before June 30, 2026, 2 PM EDT.
 
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-13_
+_Last generated: 2026-08-04_

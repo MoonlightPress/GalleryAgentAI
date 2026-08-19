@@ -7,7 +7,7 @@ Architecture / Memory / Place
 Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.
 
 ## Opportunity Fit
-Urban watercolor documenting Tokyo architecture is an exact fit for Casa Brutus's editorial coverage of space and design.
+Urban watercolor documenting Tokyo architecture overlaps with Casa Brutus's editorial coverage of space and design.
 
 ## Match Signals
 architecture, urban

@@ -6,18 +6,22 @@
     ],
     [
       "Global",
-      9
+      8
     ],
     [
       "USA",
-      7
+      4
     ],
     [
       "International",
-      6
+      4
     ],
     [
       "Canada",
+      4
+    ],
+    [
+      "Tokyo",
       3
     ],
     [
@@ -25,7 +29,7 @@
       2
     ],
     [
-      "Tokyo",
+      "China",
       2
     ],
     [
@@ -41,26 +45,14 @@
       1
     ],
     [
-      "China",
-      1
-    ],
-    [
-      "Singapore",
+      "Taiwan",
       1
     ]
   ],
   "dominant_categories": [
     [
       "grant",
-      13
-    ],
-    [
-      "japan_watercolor_open_call",
-      12
-    ],
-    [
-      "bookstore_gallery",
-      9
+      18
     ],
     [
       "gallery",
@@ -71,51 +63,51 @@
       8
     ],
     [
-      "zine_print",
+      "bookstore_gallery",
+      8
+    ],
+    [
+      "institutional",
+      8
+    ],
+    [
+      "japan_watercolor_open_call",
       7
     ],
     [
-      "global_open_call",
-      6
-    ],
-    [
       "watercolor_competition",
-      6
+      7
     ],
     [
       "press_target",
       5
     ],
     [
-      "global_watercolor_open_call",
+      "fair_popup",
       5
     ],
     [
-      "institutional",
+      "zine_print",
       5
     ],
     [
       "cafe_gallery",
-      4
-    ],
-    [
-      "fair_popup",
-      3
+      5
     ],
     [
       "zine_fair_booth",
       3
     ],
     [
-      "illustration_prize",
+      "global_open_call",
+      3
+    ],
+    [
+      "global_watercolor_open_call",
       3
     ],
     [
       "group_publication_open_call",
-      2
-    ],
-    [
-      "zine_shop_consignment",
       2
     ],
     [
@@ -127,6 +119,14 @@
       2
     ],
     [
+      "illustration_prize",
+      2
+    ],
+    [
+      "global_book_arts",
+      1
+    ],
+    [
       "bookstore_event",
       1
     ]
@@ -134,39 +134,43 @@
   "dominant_tags": [
     [
       "japanese_source",
-      42
+      43
     ],
     [
       "japan",
-      41
+      35
     ],
     [
       "has_submission_url",
-      37
+      32
     ],
     [
       "has_deadline",
-      30
+      27
     ],
     [
       "jp",
-      26
-    ],
-    [
-      "watercolor_ok",
-      20
+      23
     ],
     [
       "grant",
-      13
+      18
     ],
     [
       "funding",
-      13
+      18
+    ],
+    [
+      "watercolor_ok",
+      17
     ],
     [
       "tokyo",
-      11
+      12
+    ],
+    [
+      "tier_1",
+      9
     ],
     [
       "diaspora",
@@ -177,10 +181,6 @@
       9
     ],
     [
-      "tier_1",
-      8
-    ],
-    [
       "secondary",
       7
     ],
@@ -189,15 +189,11 @@
       7
     ],
     [
-      "global",
-      6
-    ],
-    [
       "chinese_source",
-      6
+      7
     ],
     [
-      "jp_competition",
+      "relationship",
       6
     ],
     [
@@ -209,15 +205,7 @@
       5
     ],
     [
-      "consignment",
-      5
-    ],
-    [
-      "open_call",
-      5
-    ],
-    [
-      "relationship",
+      "cafe_gallery",
       5
     ],
     [
@@ -225,15 +213,15 @@
       4
     ],
     [
-      "Tier1",
+      "consignment",
       4
     ],
     [
-      "cafe_gallery",
+      "global",
       4
     ],
     [
-      "watercolor",
+      "jp_competition",
       4
     ],
     [
@@ -241,31 +229,19 @@
       3
     ],
     [
-      "bookshop",
+      "residency",
       3
     ],
     [
-      "zine",
+      "bunka_cho",
       3
     ],
     [
-      "lifestyle",
-      3
-    ],
-    [
-      "prestige",
+      "tokyo_metro",
       3
     ],
     [
       "bookstore_gallery",
-      3
-    ],
-    [
-      "acc",
-      3
-    ],
-    [
-      "chinese_national_eligible",
       3
     ],
     [
@@ -277,20 +253,44 @@
       2
     ],
     [
-      "shimokitazawa",
+      "bookshop",
       2
     ],
     [
-      "currently_open",
+      "zine",
       2
     ],
     [
-      "residency",
+      "Tier1",
+      2
+    ],
+    [
+      "open_call",
+      2
+    ],
+    [
+      "lifestyle",
       2
     ],
     [
       "cn",
       2
+    ],
+    [
+      "acc",
+      2
+    ],
+    [
+      "chinese_national_eligible",
+      2
+    ],
+    [
+      "koenji",
+      2
+    ],
+    [
+      "magazine",
+      1
     ]
   ]
 }

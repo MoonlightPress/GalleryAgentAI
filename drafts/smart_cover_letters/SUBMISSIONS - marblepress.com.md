@@ -7,7 +7,7 @@ Recommended Body of Work:
 Artist Book / Printed Matter
 
 Core Fit:
-Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+
 
 Draft Structure:
 

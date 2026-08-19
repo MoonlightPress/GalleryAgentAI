@@ -1,16 +1,16 @@
 # Portfolio Pitch — The Artcomplex Center of Tokyo
 
 ## Recommended Body of Work
-Artist Book / Printed Matter
+Architecture / Memory / Place
 
 ## Why This Body Fits
-Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.
+Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.
 
 ## Opportunity Fit
-Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+A possible place to show watercolor or works on paper.
 
 ## Match Signals
-paper
+place
 
 ## Suggested Submission Framing
 Present this not as a general portfolio, but as a focused body of work.

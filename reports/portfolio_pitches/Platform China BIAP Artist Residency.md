@@ -7,7 +7,7 @@ General Portfolio
 A concise selection of her strongest current work.
 
 ## Opportunity Fit
-Beijing open residency in Caochangdi — relevant for when GEGYjiji travels to China. Rolling applications, no fixed deadline. Exhibition opportunity included.
+Beijing open residency in Caochangdi — relevant for when you travel to China. Rolling applications, no fixed deadline. Exhibition opportunity included.
 
 ## Match Signals
 No strong keyword match stored yet.

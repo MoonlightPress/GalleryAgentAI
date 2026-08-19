@@ -181,7 +181,13 @@ def build_digest(events, returning=None, day=None):
 def run_flush(events, now, state, notifier):
     """Post a digest for each newly-idle session, grouped per visitor. Returns
     ``(new_state, count_posted)``. ``state`` maps visitor_id -> last-flushed ISO.
-    ``notifier(message: str)`` is injected (api.py passes notify_discord)."""
+    ``notifier(message: str)`` is injected (api.py passes notify_discord).
+
+    Bot-classified events (``is_bot``, set by api.py's UA sniff) are dropped
+    before digesting. A session that's bot-only is silently skipped — no ping —
+    but state still advances so it's never re-considered. A mixed session (e.g.
+    a link-scanner hit followed by the real visitor under the same visitor_id)
+    digests from the real events only."""
     from collections import defaultdict
 
     by_visitor = defaultdict(list)
@@ -192,7 +198,10 @@ def run_flush(events, now, state, notifier):
     posted = 0
     for vid, evs in by_visitor.items():
         for sess, end in sessions_to_flush(evs, now, new_state.get(vid)):
-            notifier(build_digest(sess))
             new_state[vid] = end.isoformat()
+            real = [e for e in sess if not e.get("is_bot")]
+            if not real:
+                continue
+            notifier(build_digest(real))
             posted += 1
     return new_state, posted

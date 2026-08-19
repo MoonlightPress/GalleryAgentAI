@@ -7,7 +7,7 @@ Recommended Body of Work:
 General Portfolio
 
 Core Fit:
-Dedicated watercolor painting open call exhibition with booth display option matching her medium and practice.
+Dedicated watercolor painting open call exhibition with booth display option matching your medium and practice.
 
 Draft Structure:
 

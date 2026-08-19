@@ -7,7 +7,7 @@ Recommended Body of Work:
 General Portfolio
 
 Core Fit:
-International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8.
+Strict medium match — transparent watercolour only, which is your technique. International juried exhibition, entry is online (no shipping to enter), CAD $55 for non-members / $40 for members, up to 2 works. Notifications July 8; show runs Sept 1-19.
 
 Draft Structure:
 

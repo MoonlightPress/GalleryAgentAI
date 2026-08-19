@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-06-09
+REPORT GENERATED: 2026-08-04
 
 # START Box ササハタハツ・START Box 白鬚 2026年度利用者募集
 
@@ -15,7 +15,7 @@ Verified: Official/source website, Submission process, Deadline, Fees. Needs che
 
 - **Official/source website**: https://bijutsutecho.com/magazine/news/promotion?page=2 (verified)
 - **Submission process**: https://startbox.jp/opencall/sasahatahatsu (verified)
-- **Deadline**: 2026-03-02 (verified)
+- **Deadline**: 2026年12月29日 (verified)
 - **Fees**: 92,400円 (verified)
 - **Contact**: Not publicly listed (needs_inquiry)
 
@@ -31,10 +31,12 @@ Offers studio and practice space for emerging artists in Tokyo, suitable for a w
 Offers studio and practice space for emerging artists in Tokyo, suitable for a watercolor/illustration artist seeking dedicated workspace.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Attend an opening or event in Tokyo, Japan first — gallery relationships start with presence, not cold submissions
+- Verify current status at the official site before investing time — websites change and open calls close early
+- Deadline: 2026-03-02 — confirm on the official site before submitting
 
 ## 7. Submission / Logistics
-- **Deadline:** 2026-03-02
+- **Deadline:** 2026年12月29日
 - **Fees:** 92,400円
 - **Submission page:** https://startbox.jp/opencall/sasahatahatsu
 - **Source:** https://bijutsutecho.com/magazine/news/promotion?page=2
@@ -48,5 +50,5 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-09_
+_Last generated: 2026-08-04_
 

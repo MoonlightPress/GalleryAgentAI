@@ -4,10 +4,10 @@ Tone:
 focused and editorial
 
 Recommended Body of Work:
-Architecture / Memory / Place
+Artist Book / Printed Matter
 
 Core Fit:
-Warm, literary atmosphere that matches the quiet observation tone of your work — not a white-cube gallery, which is correct for where you are right now.
+A well-known Shimokitazawa bookshop-bar that consigns art books and zines with low friction and runs an events program — a concrete Tier-1 route to a printed presence in Tokyo. It's a route for self-published or artist-book work, not for original paintings.
 
 Draft Structure:
 

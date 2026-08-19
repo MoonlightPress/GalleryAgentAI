@@ -3,10 +3,11 @@
   "venue_slug": "nact_national_art_center_tokyo",
   "memory_version": 1,
   "summary": "Venue type: artist opportunity venue Venue still needs deeper aesthetic research.",
-  "last_updated": "2026-07-27",
+  "last_updated": "2026-08-18",
   "confidence": "low",
   "future_research": [
-    "contact"
+    "contact",
+    "fees"
   ],
   "curatorial_direction": [],
   "artist_overlap_signals": [],

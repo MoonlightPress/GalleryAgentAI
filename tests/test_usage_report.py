@@ -139,6 +139,30 @@ class RunFlushTests(unittest.TestCase):
         self.assertEqual(count, 0)
         self.assertEqual(posted, [])
 
+    def test_bot_only_session_not_posted_but_state_advances(self):
+        evs = [
+            _ev(0, type="open", page="discover", visitor_id="v1", is_bot=True),
+            _ev(1, type="nav", page="discover", visitor_id="v1", is_bot=True),
+        ]
+        now = T0 + timedelta(minutes=20)
+        posted = []
+        state, count = run_flush(evs, now, {}, notifier=posted.append)
+        self.assertEqual(count, 0)
+        self.assertEqual(posted, [])
+        self.assertIn("v1", state)  # not re-flushed on the next tick
+
+    def test_mixed_session_digests_real_events_only(self):
+        evs = [
+            _ev(0, type="open", page="discover", visitor_id="v1", is_bot=True),
+            _ev(1, type="action", action="follow", category="zine",
+                visitor_id="v1", is_bot=False),
+        ]
+        now = T0 + timedelta(minutes=20)
+        posted = []
+        state, count = run_flush(evs, now, {}, notifier=posted.append)
+        self.assertEqual(count, 1)
+        self.assertIn("followed 1 (1 zine)", posted[0])
+
 
 if __name__ == "__main__":
     unittest.main()

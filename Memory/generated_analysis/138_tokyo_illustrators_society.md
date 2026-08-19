@@ -1,21 +1,21 @@
 
-REPORT GENERATED: 2026-06-02
+REPORT GENERATED: 2026-08-04
 
 # Tokyo Illustrators Society
 
 ## 1. Quick Judgment
-**Fit score:** 8.0/10  
+**Fit score:** 9.4/10  
 **Fit band:** Excellent fit  
-**Confidence:** Medium  
+**Confidence:** High  
 **Type:** Other  
 **City:** City not listed  
 
 ## 2. Verification Status
-Verified: Official/source website. Needs checking: Submission process, Deadline, Fees, Contact.
+Verified: Official/source website, Submission process, Deadline. Needs checking: Fees, Contact.
 
 - **Official/source website**: https://www.tis-home.com/ (verified)
-- **Submission process**: Not publicly listed (needs_inquiry)
-- **Deadline**: Not publicly listed (needs_inquiry)
+- **Submission process**: https://jpn-illust.com (verified)
+- **Deadline**: June 30, 2024 (verified)
 - **Fees**: Not publicly listed (needs_inquiry)
 - **Contact**: Not publicly listed (needs_inquiry)
 
@@ -28,15 +28,17 @@ Verified: Official/source website. Needs checking: Submission process, Deadline,
 Tokyo Watercolor Artists Society is a illustration society source in Japan for watercolor / works on paper research.
 
 ## 5. Existing Fit Notes
-Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+A possible place to show watercolor or works on paper.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Check the official website for current submission guidelines and open call status
+- Verify current status at the official site before investing time — websites change and open calls close early
+- Deadline: June 30, 2024 — confirm on the official site before submitting
 
 ## 7. Submission / Logistics
-- **Deadline:** Not publicly listed
+- **Deadline:** June 30, 2024
 - **Fees:** Not publicly listed
-- **Submission page:** Not publicly listed
+- **Submission page:** https://jpn-illust.com
 - **Source:** https://www.tis-home.com/
 
 ## 8. Risk / Unknowns
@@ -48,5 +50,5 @@ Verify current submission, exhibition, or contact details before recommending.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-02_
+_Last generated: 2026-08-04_
 

@@ -7,7 +7,7 @@ Recommended Body of Work:
 General Portfolio
 
 Core Fit:
-Global illustration competition accepting all art styles and themes from students, professionals, and enthusiasts; perfect fit for illustration artist.
+Global illustration competition accepting all art styles and themes from students, professionals, and enthusiasts.
 
 Draft Structure:
 

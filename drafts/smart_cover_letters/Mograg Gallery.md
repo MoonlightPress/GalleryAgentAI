@@ -7,7 +7,7 @@ Recommended Body of Work:
 Community / Local Visibility
 
 Core Fit:
-Mograg regularly shows technically skilled work by emerging Japanese artists and painters. GEGYjiji's urban Tokyo watercolors sit naturally in this programming — same audience, same aesthetic register. Has Tokyo and Osaka venues.
+An active Tokyo gallery that programs emerging, un-repped Japanese artists by proposal — a real route in without a juried call. The work it shows leans contemporary/outsider, not polished or quiet, so don't take a 'fit' on trust: look at their recent shows and decide for yourself.
 
 Draft Structure:
 

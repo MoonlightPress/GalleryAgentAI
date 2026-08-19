@@ -4,10 +4,10 @@ Tone:
 focused and editorial
 
 Recommended Body of Work:
-Architecture / Memory / Place
+Artist Book / Printed Matter
 
 Core Fit:
-UTRECHT's focus on artist books and printed matter aligns naturally with your daily watercolor practice—the format removes pressure to scale up or conceptualize, and allows your quiet, observational studies of Tokyo's disappearing architecture to exist as intimate, collectable works. A bookstore gallery audience expects exactly the kind of sustained, understated visual documentation you're already making, without the institutional expectations of a traditional exhibition space.
+An independent bookstore/gallery built around artist books and printed matter, free and low-friction — a Tier-1 way to put work into circulation as a publication rather than a framed show. It fits if you want to move toward zines or small print editions; if you only make originals, it's a weaker match.
 
 Draft Structure:
 

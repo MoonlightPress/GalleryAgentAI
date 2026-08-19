@@ -7,7 +7,7 @@ Artist Book / Printed Matter
 Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.
 
 ## Opportunity Fit
-Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
+A recurring Tokyo zine fair with very accessible fees and rolling applications. The next Tokyo event is July 11 2026 (applications close around June 27). If that window is tight, there are more dates through the year — no rush.
 
 ## Match Signals
 zine

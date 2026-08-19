@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-07-03
+REPORT GENERATED: 2026-08-18
 
 # Gallery 456 Exhibition Open Call 2026
 
@@ -50,5 +50,5 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-07-03_
+_Last generated: 2026-08-18_
 

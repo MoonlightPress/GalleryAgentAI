@@ -28,7 +28,9 @@ Art book and zine fair featuring international artists and publishers; invitatio
 Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Bring or send a physical sample — zine culture is tactile and curators decide based on the object
+- Verify current status at the official site before investing time — websites change and open calls close early
+- Deadline: June 7, 2026 — confirm on the official site before submitting
 
 ## 7. Submission / Logistics
 - **Deadline:** June 7, 2026
@@ -45,4 +47,4 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-09_
+_Last generated: 2026-07-27_

@@ -7,7 +7,7 @@ Recommended Body of Work:
 Artist Book / Printed Matter
 
 Core Fit:
-4th Annual Juried Exhibition with publication and sales opportunities for watercolor and illustration.
+Still Life is a juried exhibition that publishes work on paper and takes open submissions from unrepresented artists—worth submitting a series of your urban watercolors before their deadline if you're looking to build publication credentials alongside sales opportunities. Check their submission link to confirm the entry fee and deadline, then prepare 6–8 pieces that represent your daily practice.
 
 Draft Structure:
 

@@ -7,10 +7,10 @@ Artist Book / Printed Matter
 Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.
 
 ## Opportunity Fit
-4th Annual Juried Exhibition with publication and sales opportunities for watercolor and illustration.
+Still Life is a juried exhibition that publishes work on paper and takes open submissions from unrepresented artists—worth submitting a series of your urban watercolors before their deadline if you're looking to build publication credentials alongside sales opportunities. Check their submission link to confirm the entry fee and deadline, then prepare 6–8 pieces that represent your daily practice.
 
 ## Match Signals
-publication
+publication, paper
 
 ## Suggested Submission Framing
 Present this not as a general portfolio, but as a focused body of work.
