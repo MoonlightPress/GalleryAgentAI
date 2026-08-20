@@ -16,6 +16,7 @@ Schedule:     weekly
 import sys
 import json
 import os
+import copy
 import re
 import time
 import argparse
@@ -221,8 +222,46 @@ def load_json(path: Path, fallback):
 
 
 def save_json(path: Path, data) -> None:
+    """Write atomically. Checkpointing (below) writes these files ~30x per run
+    instead of once, so an interrupted write is now a live risk rather than a
+    theoretical one — and a torn JSON file is worse than a stale one. Write to a
+    sibling temp file, then os.replace() it into place: readers see either the
+    whole old file or the whole new one, never half of either."""
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    tmp = path.with_name(path.name + ".tmp")
+    tmp.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    os.replace(tmp, path)
+
+
+def build_checkpoint(all_buckets: dict, needs_research: list, moved: list) -> dict:
+    """The buckets dict with `moved` applied, computed fresh from `all_buckets`
+    every call and never mutating it.
+
+    Written this way so it can be called repeatedly mid-run: checkpoint after
+    item 10, 20, 30... and the result is identical to computing it once at the
+    end. A version that appended into the live dict would duplicate every moved
+    entry on each subsequent checkpoint."""
+    out = copy.deepcopy(all_buckets)
+    moved_titles = {item["title"] for item, _ in moved}
+    out["needs_research"] = [
+        item for item in needs_research
+        if item.get("title") not in moved_titles
+    ]
+    for item, target in moved:
+        out.setdefault(target, []).append(item)
+    return out
+
+
+def _checkpoint(all_buckets: dict, needs_research: list, moved: list, log: dict) -> dict:
+    """Persist progress so far and return the buckets that were written. Safe to
+    call mid-loop as often as you like — build_checkpoint() is idempotent."""
+    out = build_checkpoint(all_buckets, needs_research, moved)
+    save_json(BUCKET_PATH, out)
+    save_json(LOG_PATH, {
+        "updated_at": datetime.now().isoformat(),
+        "entries":    log,
+    })
+    return out
 
 
 # ── search gate ───────────────────────────────────────────────────────────────
@@ -239,6 +278,14 @@ _COMPLETE_FIELDS = ("deadline", "submission_url")
 # published, and is retried on a widening interval rather than every cycle.
 BARREN_ATTEMPTS = 3
 BARREN_BACKOFF_DAYS = 45   # multiplied by (attempts - BARREN_ATTEMPTS + 1)
+
+# Write the search cache + bucket moves to disk every N items. This step is the
+# most expensive in the pipeline (~5.2 Tavily searches per item), and it used to
+# save only after the whole loop: when the 2026-08-20 run was killed at item
+# 167/300, all 873 credits it had spent — and the 126 bucket promotions it had
+# already decided — were lost, because nothing had been written. At 10, a kill
+# costs at most ~52 searches instead of everything spent so far.
+CHECKPOINT_EVERY = 10
 
 
 def _age_days(entry: dict, today: datetime):
@@ -414,22 +461,16 @@ def main() -> None:
             item["search_log"] = f"searched {today}, no data found"
             print(f"  → no data found")
 
+        # Bank what we have paid for. Without this a kill anywhere in the loop
+        # throws away every credit spent since it started (2026-08-20: 873).
+        if searched % CHECKPOINT_EVERY == 0:
+            _checkpoint(all_buckets, needs_research, moved, log)
+            print(f"  [checkpoint] {searched} searched, {len(moved)} moved — saved")
+
         print()
 
     # Apply moves: remove from needs_research, add to target buckets
-    moved_titles = {item["title"] for item, _ in moved}
-    all_buckets["needs_research"] = [
-        item for item in needs_research
-        if item.get("title") not in moved_titles
-    ]
-    for item, target in moved:
-        all_buckets.setdefault(target, []).append(item)
-
-    save_json(BUCKET_PATH, all_buckets)
-    save_json(LOG_PATH, {
-        "updated_at": datetime.now().isoformat(),
-        "entries":    log,
-    })
+    all_buckets = _checkpoint(all_buckets, needs_research, moved, log)
 
     remaining = len(all_buckets["needs_research"])
     print(f"=== Summary ===")
