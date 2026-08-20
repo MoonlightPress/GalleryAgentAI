@@ -4,7 +4,33 @@
 covers the volatile *what's true right now*. When the two disagree, this file wins —
 and whoever notices the drift should fix it here. Keep this file short.
 
-_Last updated: 2026-07-06_
+_Last updated: 2026-08-20_
+
+## IN FLIGHT (2026-08-20 evening) — the August paid pass is mid-run
+
+**A full pipeline run is running right now, detached** (`Start-Process`, log at
+`logs/pipeline_runs/full_2026-08-20_0949_resume.log`). If it is no longer running and the
+log has no `PIPELINE COMPLETE`, resume it: `python run_full_mochi_pipeline.py --resume`.
+It checkpoints now, so a resume does not re-buy answers it already paid for.
+
+- **Why the run happened:** Nin used the app on 2026-08-20 06:41 JST — her first real visit
+  in a while. The Aug 3 paid pass had been skipped, so discovery was ~3 weeks stale.
+- **Credit spend this month:** 204 discovery + 873 lost to a killed run (see below) +
+  ~1,605 rumor_mill on the resume ≈ **~2,760 of 4,000**. Tavily resets Sep 3.
+- **Two ops facts learned today, both bit hard:**
+  1. **Launch long runs detached.** A backgrounded shell wrapper was reaped and took the
+     whole pipeline tree with it at step 39/101. `Start-Process ... -PassThru` survives.
+  2. **The laptop sleeping stalls the run silently.** It advanced 8 items in 10 hours
+     (3 seconds of CPU) between 09:50 and 20:03. A full run needs ~5-6 hours awake;
+     hold `ES_SYSTEM_REQUIRED` for the duration.
+- **Publishing is NOT part of the pipeline.** The `MochiWeeklyPipeline` scheduled task
+  (next: 2026-08-25 09:00, last result 0) runs the maintenance pipeline and scp's the data
+  to the server — that is what will publish this run's output. **But translation engines are
+  `PAID_STEPS` and sit at steps ~97-100**, so if the full run dies before its tail, new
+  opportunities publish with English showing in Chinese mode. She browses in zh.
+- **Known transient:** `tests/test_dedup_key.py::test_live_data_shows_one_tabf` fails while
+  the run is half-finished (discovery re-added TABF variants at step 6-8; the step that
+  collapses them is ~95). It should pass once the run completes.
 
 ## Most recent work (2026-07-06 — committed on `main`, NOT yet deployed)
 
