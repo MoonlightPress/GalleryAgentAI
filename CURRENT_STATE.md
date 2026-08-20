@@ -28,6 +28,11 @@ It checkpoints now, so a resume does not re-buy answers it already paid for.
   to the server — that is what will publish this run's output. **But translation engines are
   `PAID_STEPS` and sit at steps ~97-100**, so if the full run dies before its tail, new
   opportunities publish with English showing in Chinese mode. She browses in zh.
+- **Next phase, parked pending evidence:** `docs/NEXT_PHASE_recurrence.md` — the catalog is
+  ~13% the same things repeating across years and there is **no recurrence field in the data
+  at all**. The proposed layer is opportunity IDENTITY then RECURRENCE, which turns the feed
+  into a calendar and lets discovery stop re-buying what it owns. **Gated on Nin coming back
+  again** — one visit is not a pattern. Do not start it before that.
 - **Known transient:** `tests/test_dedup_key.py::test_live_data_shows_one_tabf` fails while
   the run is half-finished (discovery re-added TABF variants at step 6-8; the step that
   collapses them is ~95). It should pass once the run completes.
