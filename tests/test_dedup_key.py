@@ -106,3 +106,88 @@ class DedupKeeperTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class JapaneseTitleVariantTests(unittest.TestCase):
+    """2026-08-21: the August pass put EIGHT cards on her banner that were
+    really TWO competitions. 絵の現在 選抜展 appeared 3x and 公募―日本の絵画 5x,
+    all with identical deadlines and fees. Three causes, all in _dedup_key:
+
+      1. A parenthesised romanisation gloss survived, and the extractor
+         transliterated the same name differently each time — "(Ienoima
+         Selection Exhibition)" vs "(Enoteimu Selection Exhibition)".
+      2. CJK dash variants were not stripped. Only ASCII '-' was; the real
+         titles use ― (U+2015) and － (U+FF0D), so 公募―日本の絵画,
+         公募－日本の絵画－ and 公募 日本の絵画 were three keys.
+      3. The 公募 ("open call") qualifier and the 第N回 edition ordinal were
+         kept, so 日本の絵画2026 / 公募―日本の絵画―2026 and 都展 / 第61回「都展」
+         did not meet.
+    """
+
+    def test_romanisation_gloss_variants_collapse(self):
+        variants = [
+            "絵の現在 選抜展",
+            "絵の現在 選抜展（Ienoima Selection Exhibition）",
+            "絵の現在 選抜展 (Enoteimu Selection Exhibition)",
+        ]
+        keys = {api._dedup_key(v) for v in variants}
+        self.assertEqual(len(keys), 1, f"did not collapse: {keys}")
+
+    def test_nihon_no_kaiga_variants_collapse(self):
+        variants = [
+            "公募―日本の絵画 2026",
+            "公募 日本の絵画 2026 (Japan Painting Open Call 2026)",
+            "公募－日本の絵画 2026－ (Public Recruitment - Japanese Painting 2026)",
+            "公募―日本の絵画―2026",
+            "日本の絵画2026",
+        ]
+        keys = {api._dedup_key(v) for v in variants}
+        self.assertEqual(len(keys), 1, f"did not collapse: {keys}")
+
+    def test_edition_ordinal_folds(self):
+        """第N回 is the edition number. Folding it is what lets an annual event
+        be ONE thing across years instead of a new card every edition."""
+        self.assertEqual(api._dedup_key("第61回「都展」"), api._dedup_key("都展"))
+        self.assertEqual(api._dedup_key("第113回 日本水彩展"),
+                         api._dedup_key("第114回 日本水彩展"))
+
+    def test_single_word_paren_gloss_is_kept(self):
+        """A one-word parenthetical is usually a CITY, not a romanisation —
+        merging those would fuse genuinely different regional events."""
+        self.assertNotEqual(api._dedup_key("水彩展（東京）"),
+                            api._dedup_key("水彩展（大阪）"))
+        self.assertNotEqual(api._dedup_key("水彩展 (Tokyo)"),
+                            api._dedup_key("水彩展 (Osaka)"))
+
+    def test_genuinely_different_japanese_calls_stay_apart(self):
+        keys = {api._dedup_key(n) for n in (
+            "公募―日本の絵画 2026",
+            "絵の現在 選抜展",
+            "第61回「都展」",
+            "関西アートコンペ2026",
+            "第36回 全日本アートサロン絵画大賞展",
+        )}
+        self.assertEqual(len(keys), 5, f"over-merged: {keys}")
+
+
+class EditionAndAttributionTests(unittest.TestCase):
+    """The English half of the same problem, still live on 2026-08-21 with THREE
+    TABF cards. '16th edition' is the Latin twin of 第N回, and 'X 2026 by X' is
+    an attribution clause the extractor appends when a listing page names its
+    own organiser."""
+
+    def test_ordinal_edition_folds(self):
+        self.assertEqual(api._dedup_key("TOKYO ART BOOK FAIR 16th edition (2027)"),
+                         api._dedup_key("Tokyo Art Book Fair"))
+        self.assertEqual(api._dedup_key("3rd Edition Watercolour Open"),
+                         api._dedup_key("Watercolour Open"))
+
+    def test_by_organiser_clause_folds(self):
+        self.assertEqual(api._dedup_key("TOKIO ART BOOK FAIR 2026 by TOKYO ART BOOK FAIR"),
+                         api._dedup_key("Tokyo Art Book Fair"))
+
+    def test_by_is_only_stripped_as_a_trailing_clause(self):
+        """'Blessed by Fire' is a title, not an attribution — only fold 'by'
+        when it introduces a trailing organiser clause."""
+        self.assertNotEqual(api._dedup_key("Blessed by Fire"),
+                            api._dedup_key("Blessed"))

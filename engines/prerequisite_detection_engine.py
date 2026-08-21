@@ -9,6 +9,7 @@ specific named opportunities (gallery fairs, prestige targets, etc.).
 import sys
 import json
 import os
+import re
 from collections import Counter
 from pathlib import Path
 
@@ -154,11 +155,41 @@ def build_text_blob(opp):
     return " ".join(parts).lower()
 
 
+# A contest FOR children, as opposed to the children's-book/illustration GENRE
+# she actually works in. Plain substring matching cannot separate these: the
+# 2026-08-21 miss was 第十七届花王国际儿童环境绘画大赛 / "17th Kao International
+# Children's Environmental Painting Competition", where 環境/"Environmental"
+# sits between the audience word and the medium word, so neither "儿童绘画" nor
+# "children's painting competition" appears as a literal substring.
+#
+# The rule that separates them: children + a PAINTING/DRAWING contest means the
+# children are the ENTRANTS. Children + book/picture-book/illustration means
+# children are the AUDIENCE — Bologna Children's Book Fair is a real target for
+# her and must never match.
+_YOUNG      = r"(?:children'?s?|kids'?|儿童|兒童|児童|こども|子ども|子供)"
+_PAINTING   = r"(?:painting|drawing|art)\s*(?:competition|contest|prize)|绘画大赛|繪畫大賽|絵画コンクール|画コンクール|絵画大会"
+_GENRE_WORD = re.compile(r"(?:picture\s*book|children'?s?\s*book|絵本|児童書|繪本|illustration\s*(?:award|competition|contest|prize))")
+_YOUTH_CONTEST_RE = re.compile(
+    rf"{_YOUNG}[^。.;\n]{{0,40}}?(?:{_PAINTING})"
+)
+
+
+def _is_childrens_painting_contest(text):
+    """True when the text describes a painting/drawing contest whose entrants
+    are children. Genre mentions (children's book, picture book, illustration
+    award) veto it — that is her actual working genre."""
+    if _GENRE_WORD.search(text):
+        return False
+    return bool(_YOUTH_CONTEST_RE.search(text))
+
+
 def detect_from_text(text):
     found = []
     for prereq, signals in SIGNAL_RULES.items():
         if any(s in text for s in signals):
             found.append(prereq)
+    if "youth_only" not in found and _is_childrens_painting_contest(text):
+        found.append("youth_only")
     return found
 
 

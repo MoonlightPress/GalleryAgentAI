@@ -526,6 +526,14 @@ def _dedup_key(name: str) -> str:
     different events never merge."""
     s = (name or "").lower()
     s = s.replace("tokio", "tokyo")                       # known spelling variant
+    # Parenthesised romanisation gloss. The extractor transliterates the same
+    # CJK name differently on different pages — 絵の現在 選抜展 arrived as both
+    # "(Ienoima Selection Exhibition)" and "(Enoteimu Selection Exhibition)",
+    # splitting one competition into three cards on 2026-08-21. Require TWO
+    # Latin words before dropping: a one-word parenthetical is usually a city
+    # (東京/大阪, Tokyo/Osaka) and merging those would fuse different events.
+    if _CJK_RE.search(s):
+        s = re.sub(r"[（(]\s*(?=[^)）]*[a-z]{2,}[^)）]*\b[a-z]{2,})[^)）]*[)）]", "", s)
     # Unicode roman numerals -> ascii (カテゴリーⅢ vs カテゴリーIII split one
     # grant into two cards; found 2026-07-29 in the Tokyo Grant family).
     for uni, asc in (("ⅰ", "i"), ("ⅱ", "ii"), ("ⅲ", "iii"), ("ⅳ", "iv"), ("ⅴ", "v")):
@@ -536,7 +544,28 @@ def _dedup_key(name: str) -> str:
     # year marker, application period (第1期/第2期), and duration qualifiers
     # (単年助成/長期助成 — the カテゴリー number itself keeps categories apart).
     s = re.sub(r"年度|第\d+期|単年助成|長期助成", "", s)
-    s = re.sub(r"[\s「」『』【】\[\]［］()（）+＋・/\-:：,.'’&]", "", s)
+    # Edition ordinal (第61回「都展」 vs 都展; 第113回 vs 第114回 日本水彩展) and the
+    # 公募 / 募集 "open call" qualifier — the CJK equivalents of the English
+    # "Open Call" already folded above. Folding the ordinal is also what lets an
+    # annual event stay ONE thing across editions instead of a new card a year.
+    s = re.sub(r"第\d+[回屆届]", "", s)
+    s = re.sub(r"公募|作家募集", "", s)
+    # '16th edition' — the Latin twin of 第N回.
+    s = re.sub(r"\b\d+\s*(st|nd|rd|th)\s+edition\b", "", s)
+    # Trailing '... by <organiser>' attribution, which listing pages append when
+    # they name their own host ("TOKIO ART BOOK FAIR 2026 by TOKYO ART BOOK
+    # FAIR"). Only folded when the clause restates the head, so real titles that
+    # merely contain the word ("Blessed by Fire") are untouched.
+    m = re.search(r"^(.*?)\bby\b(.*)$", s)
+    if m:
+        _bare = lambda t: re.sub(r"[^a-z0-9一-鿿ぁ-んァ-ンー]", "", t)
+        head, tail = _bare(m.group(1)), _bare(m.group(2))
+        if tail and head and (tail in head or head in tail):
+            s = m.group(1)
+    # Dash variants. Only ASCII '-' was stripped, but the real titles use ―
+    # (U+2015) and － (U+FF0D), which kept 公募―日本の絵画, 公募－日本の絵画－ and
+    # 公募 日本の絵画 as three separate keys.
+    s = re.sub(r"[\s「」『』【】\[\]［］()（）+＋・/\-‐‑‒–—―−－─:：,.'’&]", "", s)
     return s[:40]
 
 
@@ -1068,6 +1097,13 @@ def _pure_photography_noise(item: dict) -> bool:
 _MONTHS_EN = {m[:3]: i for i, m in enumerate(
     ["january", "february", "march", "april", "may", "june", "july", "august",
      "september", "october", "november", "december"], 1)}
+# A name that announces a dated call for entries, as opposed to an evergreen
+# venue. Deliberately narrow: 委託販売作家募集 / ハンドメイド委託作家募集 are
+# consignment venues perpetually recruiting makers, and must NOT match.
+_DATED_CALL_RE = re.compile(
+    r"call for (?:entry|entries|submissions|artists)|open call|公募展|公募\s*\d"
+)
+
 _RECURRING_HINTS = (
     "rolling", "ongoing", "no fixed", "no deadline", "year-round", "year round",
     "annual", "twice", "every year", "yearly", "recurring", "quarterly", "monthly",
@@ -1198,14 +1234,29 @@ def _deadline_passed(item: dict, today=None) -> bool:
     the same day, not a month later."""
     # Relationship/consignment venues are evergreen — a date in their deadline
     # field is an event note, not a binding cutoff. Never archive them on it.
+    #
+    # Unless the entry announces itself as a dated CALL. "Call for Entry:
+    # Showcase your art in Tokyo, Japan" was filed under `gallery`, inherited
+    # this exemption, and was served as her Quick Win on 2026-08-21 with a
+    # deadline three weeks past and a link to the 2025 edition. A venue is
+    # evergreen; a call for entries that happens to sit in a venue category is
+    # not. Judge by what the entry says it is, not only by how it was filed.
     if item.get("category") in RELATIONSHIP_CATEGORIES:
-        return False
+        _n = str(item.get("name") or item.get("title") or "").lower()
+        if not _DATED_CALL_RE.search(_n):
+            return False
     raw = str(item.get("deadline") or "").strip()
     if not raw:
         return False
     low = raw.lower()
-    if any(h in low for h in _RECURRING_HINTS):
-        return False
+    # Recurring exemption. It exists so a rolling/undated call is never hidden,
+    # and that stays true — but it must not override a concrete date that has
+    # already passed. On 2026-08-21 "Annual — 113th edition June 2026; 114th
+    # expected spring 2027" short-circuited here and a finished exhibition was
+    # served as her High Impact move of the day. Recurrence says the thing will
+    # come BACK; it does not say it is open NOW. So the exemption is deferred:
+    # it applies below only if the field carries no concrete date at all.
+    _recurring = any(h in low for h in _RECURRING_HINTS)
     today = today or datetime.now().date()
     # Collect EVERY concrete date in the field, not just the first. A deadline that
     # lists more than one option ("Oct 31 2025 or Aug 25 2026", a "X から Y まで" range)
@@ -1250,6 +1301,10 @@ def _deadline_passed(item: dict, today=None) -> bool:
             except Exception: pass
     if months:
         return max(months) < (today.year, today.month)
+    # No concrete date anywhere in the field — NOW the recurring exemption
+    # applies: "rolling", "ongoing", "annual, dates TBA" must never be hidden.
+    if _recurring:
+        return False
     # Year-less concrete dates ("5/25 – 6/29", "6月29日"): scrapers capture the
     # CURRENT cycle, so resolve the year to whichever candidate lies closest to
     # when the entry was discovered (added_at / last_verified) — a June date
@@ -3859,6 +3914,23 @@ def get_tracker():
     }
 
 
+# Prerequisites she cannot satisfy by preparing, at any notice: being an
+# organisation, being a minor, being invited, or being represented by a gallery.
+# Distinct from exhibition-history prerequisites, which are exactly what a
+# stretch goal exists to work toward and must stay eligible.
+_STRUCTURAL_PREREQS = frozenset({
+    "organizations_only", "youth_only", "gallery_representation", "invitation_only",
+})
+
+
+def _structurally_ineligible(item: dict) -> bool:
+    """True when a prerequisite rules her out on identity rather than on effort.
+    2026-08-21: Tokyo Gendai (gallery applications, $250, three weeks out) was
+    served as her Stretch Goal — not a step toward a target, a door she cannot
+    open."""
+    return bool(_STRUCTURAL_PREREQS & {str(p) for p in (item.get("prerequisites") or [])})
+
+
 @app.get("/api/today")
 def get_today():
     items = load_opportunities()
@@ -3950,6 +4022,7 @@ def get_today():
             and _opp_id(x) not in used_ids
             and not _is_tier4(x)
             and not x.get("deadline_past")
+            and not _structurally_ineligible(x)
         ],
         key=_overall_score, reverse=True,
     )

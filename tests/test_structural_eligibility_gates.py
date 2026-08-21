@@ -89,3 +89,49 @@ class YouthOnlyTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class ChildrensPaintingContestTests(unittest.TestCase):
+    """2026-08-21: 第十七届花王国际儿童环境绘画大赛 (17th Kao International Children's
+    Environmental Painting Competition) reached her banner as a live pick. It is
+    a contest FOR children — she is 26.
+
+    Why the July gate missed it: the entry carries no eligibility text at all,
+    only a title, and its generated summary wrongly claims "open to artists of
+    all ages". The only signal is the name, and 儿童 / "Children's" were absent
+    from the phrase list because "children's illustration" is a GENRE she works
+    in and must never be filtered.
+
+    The distinction that makes this safe: children + a PAINTING/DRAWING contest
+    means the children are the entrants. Children + book/illustration means the
+    children are the audience.
+    """
+
+    def test_childrens_painting_contest_is_youth_only(self):
+        for text in (
+            "第十七届花王国际儿童环境绘画大赛 (17th kao international children's "
+            "environmental painting competition)",
+            "children's painting competition",
+            "children's painting contest",
+            "儿童绘画大赛",
+            "児童画コンクール",
+            "こども絵画コンクール",
+        ):
+            self.assertIn("youth_only", detect_from_text(text.lower()), text)
+
+    def test_childrens_book_and_illustration_genres_are_kept(self):
+        """The genre she actually works in. Filtering these would cost her the
+        Bologna Children's Book Fair, which is a real target."""
+        for text in (
+            "bologna children's book fair illustrators exhibition",
+            "children's book illustration competition",
+            "call for children's picture book submissions",
+            "chinese excellence in children's book illustration award",
+            "絵本コンクール 児童書出版",
+        ):
+            self.assertNotIn("youth_only", detect_from_text(text.lower()), text)
+
+    def test_student_calls_still_pass(self):
+        """She IS a student — Scott, 2026-06-19. Mark them, never filter them."""
+        for text in ("student art competition", "学生対象 公募展", "university students welcome"):
+            self.assertNotIn("youth_only", detect_from_text(text.lower()), text)

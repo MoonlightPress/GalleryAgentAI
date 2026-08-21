@@ -51,3 +51,34 @@ class TodayStretchGoalDeadlineGateTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class StretchGoalStructuralEligibilityTests(unittest.TestCase):
+    """2026-08-21: Today's Focus offered Tokyo Gendai 2026 as her Stretch Goal —
+    a $250 art fair that accepts GALLERY applications, three weeks out. She is
+    an individual artist with no gallery, so it is not "one step toward a future
+    target"; it is a door she cannot open, at any notice.
+
+    A Stretch Goal is meant to be preparable. Prerequisites that no amount of
+    preparation by her can satisfy in the relevant window — being an
+    organisation, being a minor, being represented by a gallery — disqualify a
+    stretch pick the same way a passed deadline does.
+
+    Exhibition-history prerequisites are deliberately NOT structural: building
+    a CV is exactly what a stretch goal is for.
+    """
+
+    def test_structural_prereqs_are_recognised(self):
+        for prereq in ("gallery_representation", "organizations_only", "youth_only",
+                       "invitation_only"):
+            self.assertTrue(api._structurally_ineligible({"prerequisites": [prereq]}), prereq)
+
+    def test_buildable_prereqs_are_not_structural(self):
+        """These are what a stretch goal exists to work toward."""
+        for prereq in ("exhibition_credits_3", "exhibition_credits_5",
+                       "publication_history", "gallery_cv"):
+            self.assertFalse(api._structurally_ineligible({"prerequisites": [prereq]}), prereq)
+
+    def test_no_prereqs_is_eligible(self):
+        self.assertFalse(api._structurally_ineligible({}))
+        self.assertFalse(api._structurally_ineligible({"prerequisites": []}))
