@@ -1,0 +1,37 @@
+{
+  "venue_name": "金沢21世紀美術館",
+  "venue_slug": "21",
+  "venue_type": "artist opportunity venue",
+  "city": "Kanazawa",
+  "country": "",
+  "website": "https://www.kanazawa21.jp/data_list.php?g=22&d=1",
+  "source_links": [
+    "https://www.kanazawa21.jp/data_list.php?g=22&d=1"
+  ],
+  "categories_seen": [
+    "Institutional / Grants"
+  ],
+  "accepts_unsolicited_work": "unknown",
+  "submission_style": "unknown",
+  "typical_artists": [],
+  "typical_mediums": [],
+  "known_aesthetic": [],
+  "price_level": "unknown",
+  "risk_notes": [],
+  "fit_notes": [],
+  "verification_notes": [
+    "Automatically created from opportunity data.",
+    "Needs manual/web research before being treated as verified."
+  ],
+  "missing_information": [
+    "deadline",
+    "fees",
+    "submission process"
+  ],
+  "opportunity_titles": [
+    "金沢21世紀美術館 市民ギャラリー"
+  ],
+  "last_researched": "",
+  "created_at": "2026-08-21",
+  "updated_at": "2026-08-21"
+}

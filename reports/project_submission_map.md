@@ -37,7 +37,7 @@ This turns project concepts into concrete submission paths.
 - Submissions — Clavis Publishing
 - UTRECHT
 - Tokyo Art Book Fair
-- Center for Book Arts Opportunities
+- Submissions - Little Press Publishing
 
 ### What To Prepare
 - 12–20 image edit

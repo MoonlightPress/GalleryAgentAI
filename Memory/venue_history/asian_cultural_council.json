@@ -1,15 +1,11 @@
 {
-  "venue_name": "Asian Cultural Council",
+  "venue_name": "Asian Cultural Council (亞洲文化協會)",
   "venue_slug": "asian_cultural_council",
   "memory_version": 1,
   "summary": "Venue type: artist opportunity venue Venue still needs deeper aesthetic research.",
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-21",
   "confidence": "low",
-  "future_research": [
-    "contact",
-    "fees",
-    "submission process"
-  ],
+  "future_research": [],
   "curatorial_direction": [],
   "artist_overlap_signals": [],
   "notes": []

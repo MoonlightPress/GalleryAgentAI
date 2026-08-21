@@ -1,7 +1,7 @@
 # Painting Quality Gate Report
 
-Promoted: 422
-Demoted: 5
+Promoted: 723
+Demoted: 11
 ## Changes
 
 - **第113回 日本水彩展** — 10.0 → 9.6 — promoted
@@ -21,6 +21,7 @@ Demoted: 5
 - **World Illustration Awards** — 10.0 → 9.6 — promoted
 - **Tokyo Illustrators Society** — 10.0 → 9.6 — promoted
 - **Bologna Children's Book Fair Illustrators Exhibition** — 10.0 → 9.6 — promoted
+- **Pinpoint Gallery** — 10.0 → 9.6 — promoted
 - **水彩アートの祭典** — 10.0 → 9.6 — promoted
 - **Mograg Gallery** — 10.0 → 9.6 — promoted
 - **HATTIFNATT Koenji Cafe Gallery** — 10.0 → 9.6 — promoted
@@ -29,10 +30,10 @@ Demoted: 5
 - **第50届悠美会国际美术展** — 10.0 → 9.6 — promoted
 - **第1回 お気に入りのアナログ画材で塗ろう！3色イラスト公募展（1st Favorite Analog Media 3-Color Illustration Open Call）** — 10.0 → 9.6 — promoted
 - **絵の現在 選抜展（Ienoima Selection Exhibition）** — 10.0 → 9.6 — promoted
-- **Watercolors 2026** — 10.0 → 9.6 — promoted
 - **TURNER AWARD 2026** — 10.0 → 9.6 — promoted
+- **Watercolors 2026** — 10.0 → 9.6 — promoted
+- **全国公募展 FACE 2026** — 10.0 → 9.6 — promoted
 - **ParaCon Illustration 2026** — 10.0 → 9.6 — promoted
-- **Pinpoint Gallery** — 10.0 → 9.6 — promoted
 - **Unnamed illustration exhibition (local illustrator uyu)** — 10.0 → 9.6 — promoted
 - **Gallery IYN** — 10.0 → 9.6 — promoted
 - **世界堂絵画公募展 2026** — 10.0 → 9.6 — promoted
@@ -47,16 +48,17 @@ Demoted: 5
 - **水彩アートの祭典 Watercolors 2026** — 10.0 → 9.6 — promoted
 - **Illustraciencia International Illustration Award 2026** — 10.0 → 9.6 — promoted
 - **第22回 世界絵画大賞展 2026** — 10.0 → 9.6 — promoted
+- **2026 JIA Watercolor Open Exhibition (第四屆 Joy in Art 水彩畫暨畫家聯展)** — 10.0 → 9.6 — promoted
+- **Illustration Competition 2026** — 10.0 → 9.6 — promoted
 - **油彩画・水彩画・アクリル画・日本画・版画・パステル画等の絵画公募展** — 10.0 → 9.6 — promoted
 - **第60回記念創展** — 10.0 → 9.6 — promoted
-- **全国公募展 FACE 2026** — 10.0 → 9.6 — promoted
-- **2026 JIA Watercolor Open Exhibition (第四屆 Joy in Art 水彩畫暨畫家聯展)** — 10.0 → 9.6 — promoted
 - **Ark Art Award 2024** — 10.0 → 9.6 — promoted
 - **OPA Gallery** — 10.0 → 9.6 — promoted
 - **第50届　悠美会国际美术展** — 10.0 → 9.6 — promoted
 - **擁抱．未來 Watercolour Open Exhibition 2026** — 10.0 → 9.6 — promoted
+- **Pennsylvania Watercolor Society 47th Annual International Exhibition** — 10.0 → 9.6 — promoted
+- **American Watercolor Society Awards** — 10.0 → 9.6 — promoted
 - **イラストレーション誌 (Illustration Magazine)** — 10.0 → 9.6 — promoted
-- **Illustration Competition 2026** — 10.0 → 9.6 — promoted
 - **第7回生賴範義賞** — 10.0 → 9.6 — promoted
 - **OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery** — 10.0 → 9.6 — promoted
 - **BOOOOOOOM 2026 Art & Photo Book Award** — 10.0 → 9.6 — promoted
@@ -66,26 +68,27 @@ Demoted: 5
 - **Blooming Stories 2026** — 10.0 → 9.6 — promoted
 - **光风会选拔展　2026** — 10.0 → 9.6 — promoted
 - **金風車國際青年插畫家大賽（Golden Pinwheel International Young Illustrators Award）** — 10.0 → 9.6 — promoted
+- **2026 紙上躍躍然.典美插畫大賞** — 10.0 → 9.6 — promoted
 - **水彩アートの祭典 2026** — 10.0 → 9.6 — promoted
+- **第113回日本水彩展（113th Japan Watercolor Exhibition）** — 10.0 → 9.6 — promoted
+- **TERAVARNA 9th WATER International Juried Art Competition 2026** — 10.0 → 9.6 — promoted
 - **東京芸術劇場 ギャラリー1 ウォーターカラー展覧会** — 10.0 → 9.6 — promoted
 - **Golden Pinwheel International Young Illustrators Competition 2026 / 金风车国际青年插画家大赛** — 10.0 → 9.6 — promoted
 - **2026年　平泉会選抜展（Heisen-kai Selection Exhibition 2026）** — 10.0 → 9.6 — promoted
 - **擁抱．未來 JoyinArt 水彩開放展覽 2026** — 10.0 → 9.6 — promoted
 - **56th Annual Exhibition of Singapore Watercolour Society (SWS)** — 10.0 → 9.6 — promoted
-- **第79届女流画家协会展** — 10.0 → 9.6 — promoted
-- **2026 紙上躍躍然.典美插畫大賞** — 10.0 → 9.6 — promoted
 - **Chinese Culture in My Everyday Life (我生活中的中華文化)** — 10.0 → 9.6 — promoted
+- **第79届女流画家协会展** — 10.0 → 9.6 — promoted
 - **日本選抜美術家協会平面作品公募展** — 10.0 → 9.6 — promoted
 - **第35届秋耕会小品展** — 10.0 → 9.6 — promoted
 - **第53届全国周日画家展** — 10.0 → 9.6 — promoted
 - **第九屆水主題國際評審藝術比賽 (9th International Juried Art Competition with Water Theme)** — 10.0 → 9.6 — promoted
 - **第28回「いいいろ塗装の日」デザイン画コンテスト** — 10.0 → 9.6 — promoted
-- **第113回日本水彩展（113th Japan Watercolor Exhibition）** — 10.0 → 9.6 — promoted
 - **2026香港．泉州國際水彩巡迴展 (2026 Hong Kong-Quanzhou International Watercolor Touring Exhibition)** — 10.0 → 9.6 — promoted
-- **TERAVARNA 9th WATER International Juried Art Competition 2026** — 10.0 → 9.6 — promoted
-- **BIBF国际插画大赛 (BIBF International Illustration Competition)** — 10.0 → 9.6 — promoted
 - **Japan in Acquarello 2026 水彩画公募展** — 10.0 → 9.6 — promoted
 - **新加坡国际艺术绘画大赛 (Singapore International Art Painting Competition)** — 10.0 → 9.6 — promoted
+- **絵の現在 選抜展 (Enoteimu Selection Exhibition)** — 10.0 → 9.6 — promoted
+- **BIBF国际插画大赛 (BIBF International Illustration Competition)** — 10.0 → 9.6 — promoted
 - **月刊誌『家の光』2026年8月号 挿絵募集** — 10.0 → 9.6 — promoted
 - **第12回F0公募展 ミニアチュールzero 2026** — 10.0 → 9.6 — promoted
 - **Browse opportunities | CuratorSpace** — 10.0 → 9.6 — promoted
@@ -96,37 +99,119 @@ Demoted: 5
 - **第15回 九条美術展** — 9.97 → 9.6 — promoted
 - **2026 ZERO展 0号展** — 9.93 → 9.6 — promoted
 - **Japan in Acquarello 2026** — 9.92 → 9.6 — promoted
+- **第26回国際水彩画交流展/春季佳作ネット展2026 (26th International Watercolor Exchange Exhibition / Spring Excellent Works Net Exhibition 2026)** — 9.86 → 9.6 — promoted
 - **SS（スモールエス）表紙イラストコンテスト** — 9.86 → 9.6 — promoted
+- **絵の現在 選抜展** — 9.84 → 9.6 — promoted
+- **公募―日本の絵画 2026** — 9.84 → 9.6 — promoted
+- **公募 日本の絵画 2026 (Japan Painting Open Call 2026)** — 9.84 → 9.6 — promoted
+- **第22回 清水の絵画コンテスト（推定タイトル）** — 9.84 → 9.6 — promoted
+- **第11回 星乃珈琲店絵画コンテスト (11th Hoshi no Kōhii-ten Painting Contest)** — 9.84 → 9.6 — promoted
 - **BIBF國際插畫大賽 (BIBF International Illustration Competition)** — 9.84 → 9.6 — promoted
+- **ここにしかない1枚の絵展 (One Unique Painting Exhibition at Gallery Cafe SAKURA)** — 9.82 → 9.6 — promoted
+- **RWS Open 2026** — 9.76 → 9.6 — promoted
+- **National Watercolor Society 106th International Exhibition** — 9.76 → 9.6 — promoted
 - **3rd IWS Singapore International Exhibition & Competition 2026** — 9.75 → 9.6 — promoted
 - **第九屆台北插畫藝術節** — 9.72 → 9.6 — promoted
 - **2026香港．泉州國際水彩巡迴展** — 9.71 → 9.6 — promoted
 - **National Watercolor Society International Open Exhibition** — 9.71 → 9.6 — promoted
 - **Communication Arts Illustration Competition** — 9.68 → 9.6 — promoted
+- **コミックエッセイ募集（WEB・郵送）** — 9.66 → 9.6 — promoted
+- **Japan in Acquarello 水彩画公募展2026** — 9.66 → 9.6 — promoted
+- **第2回イロアソビ杯 抽象画展 — 色彩と形象のあいだで遊ぶ —（2nd Iro Asobi Cup Abstract Painting Exhibition）** — 9.64 → 9.6 — promoted
+- **公募－日本の絵画 2026－ (Public Recruitment - Japanese Painting 2026)** — 9.64 → 9.6 — promoted
 - **BIBF International Illustration Competition** — 9.63 → 9.6 — promoted
 - **Japan International Watercolor Institute Online Exhibition** — 9.61 → 9.6 — promoted
 - **Holy Art Gallery Open Call for Artists - 2026** — 9.61 → 9.6 — promoted
+- **第10回アキーラコンテスト** — 9.56 → 9.6 — promoted
+- **透明水彩絵の具を8割使用した作品の展覧会** — 9.56 → 9.6 — promoted
+- **第2回イロアソビ杯 抽象画展** — 9.56 → 9.6 — promoted
+- **美の輝展 2026** — 9.56 → 9.6 — promoted
+- **公募―日本の絵画―2026** — 9.56 → 9.6 — promoted
+- **Next ILLUST Award 2026** — 9.56 → 9.6 — promoted
+- **第60回 公募「記念創展」** — 9.56 → 9.6 — promoted
+- **全国日曜画家展 第42回 2026（Zenkoku Nichiyogaka 42nd 2026）** — 9.56 → 9.6 — promoted
+- **日本選抜美術家協会主催 平面作品公募展** — 9.56 → 9.6 — promoted
+- **新潟日報美術振興賞展 2026** — 9.56 → 9.6 — promoted
+- **第22回世界絵画大賞展 2026** — 9.56 → 9.6 — promoted
 - **Cedar Ridge Gallery Open Call for Visual Artists** — 9.55 → 9.6 — promoted
 - **JIA Illustration Award 2026** — 9.54 → 9.6 — promoted
 - **2026BIBF國際插畫大賽（2026 BIBF International Illustration Award）** — 9.51 → 9.6 — promoted
 - **第35届　秋耕会小品展** — 9.49 → 9.6 — promoted
-- **2026 3rd Annual Illustration Summit Challenge / IlloBoom 2026** — 9.46 → 9.6 — promoted
+- **第40回パリ国際サロン2027公募部門** — 9.46 → 9.6 — promoted
 - **ILLUSTRATION 2026** — 9.46 → 9.6 — promoted
+- **2026 3rd Annual Illustration Summit Challenge / IlloBoom 2026** — 9.46 → 9.6 — promoted
+- **第6回 アッヴィ アートプロジェクト「PERSPECTIVES」 ～アートで表現。私の新たな可能性～** — 9.44 → 9.6 — promoted
 - **2026年iJungle国际插画大奖赛 (2026 iJungle International Illustration Award)** — 9.42 → 9.6 — promoted
+- **田中将賀キャラクター赤ペン講座のアドバイスイラスト【41限目】** — 9.38 → 9.6 — promoted
+- **Orange Bunko Illustration Award (第82回)** — 9.38 → 9.6 — promoted
+- **第20回記念 水彩連盟北海道支部展** — 9.38 → 9.6 — promoted
+- **第113回日本水彩展 (113rd Japan Watercolor Exhibition)** — 9.38 → 9.6 — promoted
+- **2026 JWS 日本透明水彩会 札幌展** — 9.38 → 9.6 — promoted
 - **第92回 東光展** — 9.37 → 9.6 — promoted
+- **第22回 大象展（たいしょうてん）** — 9.36 → 9.6 — promoted
+- **美の起原展 (Binoikigen-ten) 2026** — 9.36 → 9.6 — promoted
+- **第42回全国日曜画家コンクール（42nd All-Japan Sunday Painter Concours）** — 9.36 → 9.6 — promoted
+- **第27届　公募　东京湘南绘画会展** — 9.36 → 9.6 — promoted
+- **高津まちなか美術展** — 9.36 → 9.6 — promoted
+- **日本の絵画 2026（Nihon no Kaiga 2026）** — 9.36 → 9.6 — promoted
+- **永井画廊 日本の絵画 2026** — 9.36 → 9.6 — promoted
+- **全日本アートサロン絵画大賞展（All Japan Art Salon Painting Grand Prize Exhibition）** — 9.36 → 9.6 — promoted
+- **ゆめ画材公募展** — 9.36 → 9.6 — promoted
+- **アイフル株式会社主催 絵画の公募展** — 9.36 → 9.6 — promoted
+- **アイフル株式会社 絵画公募展** — 9.36 → 9.6 — promoted
+- **第22回世界絵画大賞展 2026（22nd World Painting Grand Prize Exhibition 2026）** — 9.36 → 9.6 — promoted
+- **プレジオ公募展（テーマ『進化』）** — 9.36 → 9.6 — promoted
+- **Ohio Watercolor Society Exhibition 2026** — 9.36 → 9.6 — promoted
+- **雪梁舎フィレンツェ賞展（全国絵画公募展）** — 9.36 → 9.6 — promoted
+- **第39回 日本の自然を描く展（2026）** — 9.36 → 9.6 — promoted
+- **第22回絵のまち尾道四季展 (22nd Onomichi Seasonal Painting Exhibition)** — 9.36 → 9.6 — promoted
 - **2026东京·首届日中书画名家作品交流展 (2026 Tokyo First Japan-China Calligraphy and Painting Masters' Work Exchange Exhibition)** — 9.35 → 9.6 — promoted
+- **第19回 プラチナアート大賞展2026** — 9.34 → 9.6 — promoted
+- **第2回イロアソビ杯 抽象画展 — 色彩と形象のあいだで遊ぶ —** — 9.34 → 9.6 — promoted
+- **第61回「都展」** — 9.28 → 9.6 — promoted
+- **日本の絵画2026** — 9.28 → 9.6 — promoted
+- **日本の絵画 2026** — 9.28 → 9.6 — promoted
+- **水彩アートイベント「Watercolors 2026」** — 9.28 → 9.6 — promoted
+- **第7回生賴範義賞受賞作品展 (7th Noriaki Ikesaka Illustration Award Exhibition)** — 9.28 → 9.6 — promoted
 - **Splash 27: The Best of Watercolor / Splash 27国际水彩画大赛** — 9.28 → 9.6 — promoted
 - **时代新貌——第四届插图装帧艺术展览** — 9.27 → 9.6 — promoted
+- **Quanzhou International Watercolour Touring Exhibition 2026** — 9.26 → 9.6 — promoted
 - **第56届新加坡水彩画展 (56th Singapore Watercolour Society Annual Exhibition)** — 9.25 → 9.6 — promoted
+- **Watercolour Touring Exhibition 2026** — 9.24 → 9.6 — promoted
+- **デザインフェスタギャラリー原宿 水彩展示 2026-2027** — 9.24 → 9.6 — promoted
+- **第13回 作家が描く「私の好きな絵物語」展** — 9.24 → 9.6 — promoted
+- **Design Festa Gallery Watercolor Exhibition 2026** — 9.24 → 9.6 — promoted
 - **Watercolors 2026（水彩アートの祭典）** — 9.23 → 9.6 — promoted
 - **IlloBoom! 3rd Annual Illustration Summit Challenge** — 9.2 → 9.6 — promoted
 - **2026 Calendar Exhibition and Competition - Painting Intake** — 9.19 → 9.6 — promoted
+- **2025台灣VC文化賞 - 全國插畫徵集** — 9.16 → 9.6 — promoted
+- **月刊 コミックフラッパー 執筆者募集** — 9.16 → 9.6 — promoted
+- **横浜市民ギャラリー 横浜美術協会公募展** — 9.16 → 9.6 — promoted
+- **一水会展覧会** — 9.16 → 9.6 — promoted
+- **日本文学装画会（Japanese Literature Illustration Exhibition）** — 9.16 → 9.6 — promoted
+- **第28回 水彩人展 (全国公募 2026)** — 9.16 → 9.6 — promoted
+- **第45回日現記念展** — 9.16 → 9.6 — promoted
 - **第53届　全国周日画家展** — 9.15 → 9.6 — promoted
 - **Mall Galleries Open Exhibitions** — 9.15 → 9.6 — promoted
 - **第四届威尼斯国际水彩节 / The 4th Le Venezie International Watercolor Festival** — 9.14 → 9.6 — promoted
-- **2026 Ink Realm A New Chapter 5th International Chinese Painting and Calligraphy Art Exhibition** — 9.05 → 9.6 — promoted
+- **2026「紙上躍躍然．典美插畫大賞」** — 9.12 → 9.6 — promoted
+- **「公募―日本の絵画―」2026** — 9.08 → 9.6 — promoted
+- **第10回アトリエブラック公募作品展** — 9.08 → 9.6 — promoted
+- **日本画継環展** — 9.08 → 9.6 — promoted
+- **第10回アトリエブラック公募作品展 (10th Atelier Black Public Call Exhibition)** — 9.08 → 9.6 — promoted
+- **美の起原展 入選作品展・受賞作品展** — 9.08 → 9.6 — promoted
+- **人気コンテスト「ハロウィン」イラスト募集！！** — 9.08 → 9.6 — promoted
+- **【デザ魂×HUION】第二回 最強コラボ企画「異世界キャラクター」大募集!!** — 9.08 → 9.6 — promoted
+- **第39回 日本の自然を描く展** — 9.08 → 9.6 — promoted
+- **第82回 関西水彩画展** — 9.08 → 9.6 — promoted
+- **第113回日本水彩展** — 9.08 → 9.6 — promoted
+- **第61回主体展** — 9.08 → 9.6 — promoted
+- **Japan in Acquarello 2026 in YOKOHAMA** — 9.08 → 9.6 — promoted
+- **新制作協会絵画コンテスト（推定タイトル）** — 9.06 → 9.6 — promoted
+- **第50回記念国際美術大賞展** — 9.06 → 9.6 — promoted
+- **夏休み犬の絵コンクール** — 9.06 → 9.6 — promoted
 - **Singapore International Art Contest (SIAC) 2026-2027** — 9.05 → 9.6 — promoted
-- **2026「紙上躍躍然．典美插畫大賞」** — 9.02 → 9.6 — promoted
+- **2026 Ink Realm A New Chapter 5th International Chinese Painting and Calligraphy Art Exhibition** — 9.05 → 9.6 — promoted
 - **START Box ササハタハツ・START Box 白鬚 2026年度利用者募集** — 9.0 → 9.6 — promoted
 - **ローズ・ローズ・ローズ** — 9.0 → 9.6 — promoted
 - **Applications — Little Tokyo Zine Fest** — 9.0 → 9.6 — promoted
@@ -139,43 +224,109 @@ Demoted: 5
 - **tata bookshop/gallery** — 9.0 → 9.6 — promoted
 - **美術新人賞デビュー2026（Art Newcomer Award Debut 2026）** — 9.0 → 9.6 — promoted
 - **FACE展2026** — 9.0 → 9.6 — promoted
+- **文学フリマ2026年11月（Bungaku Frima November 2026）** — 9.0 → 5.5 — demoted
 - **» 21 Terrific Small Presses Open to Direct Submissions** — 9.0 → 9.6 — promoted
 - **スクエア・ワールド2026** — 9.0 → 9.6 — promoted
+- **2026年 馬來西亞國際藝術網絡大賽《人物/肖像類》與《静物/花卉類》** — 9.0 → 9.6 — promoted
 - **Antenna Books** — 9.0 → 9.6 — promoted
 - **SPBS (Shibuya Publishing Booksellers)** — 9.0 → 9.6 — promoted
+- **Avancé 船橋 委託販売作家募集** — 9.0 → 5.5 — demoted
+- **ハコミツ ハンドメイド委託作家募集** — 9.0 → 5.5 — demoted
 - **公募企画絵画展「瑠璃と群青の民たち」** — 9.0 → 9.6 — promoted
 - **南怡島國際繪本大賽（Namiseom International Picture Book Awards）** — 9.0 → 9.6 — promoted
+- **TOKYO ART BOOK FAIR 2026** — 9.0 → 9.6 — promoted
 - **COW BOOKS Nakameguro** — 9.0 → 9.6 — promoted
 - **Tacoche** — 9.0 → 9.6 — promoted
 - **Books Ruhe** — 9.0 → 9.6 — promoted
 - **call for artists | al-tiba9 magazine issue22** — 9.0 → 9.6 — promoted
-- **TOKYO ART BOOK FAIR 2026** — 9.0 → 9.6 — promoted
 - **IllustrationX Book Covers Portfolio Representation** — 9.0 → 9.6 — promoted
 - **Self Publish, Be Happy** — 9.0 → 9.6 — promoted
 - **2027臺南新藝獎** — 8.99 → 9.6 — promoted
 - **2026中山青年藝術獎** — 8.99 → 9.6 — promoted
+- **日向箱 作家様募集中** — 8.97 → 5.5 — demoted
+- **第十七届花王国际儿童环境绘画大赛 (17th Kao International Children's Environmental Painting Competition)** — 8.96 → 9.6 — promoted
+- **Asian Gifted World Cup Painting Competition 2026** — 8.96 → 9.6 — promoted
+- **2026中国美术家协会：时代新貌——第四届插图装帧艺术展览** — 8.96 → 9.6 — promoted
+- **2026BIBF国际插画大赛** — 8.96 → 9.6 — promoted
+- **水彩的可能－桃園水彩藝術展** — 8.96 → 9.6 — promoted
+- **水彩画展覧会 2026年12月-2027年1月** — 8.96 → 9.6 — promoted
+- **2026年 大華銀行年度水墨藝術大獎** — 8.94 → 9.6 — promoted
 - **2026 Golden Pinwheel International Youth Illustrator Competition** — 8.93 → 9.6 — promoted
 - **Mall Galleries Open Exhibitions** — 8.93 → 9.6 — promoted
 - **2026洄瀾美展** — 8.9 → 9.6 — promoted
+- **キュー・ド・クレ ハンドメイド委託作家募集** — 8.89 → 5.5 — demoted
+- **Tokyo Metropolitan Art Museum / Design Festa Gallery 2026** — 8.89 → 9.6 — promoted
+- **2026金风车青年插画家大赛** — 8.88 → 9.6 — promoted
+- **2026年全國學生圖畫書創作獎** — 8.88 → 9.6 — promoted
+- **一水会 第113回日本水彩展** — 8.88 → 9.6 — promoted
+- **第85回水彩連盟展** — 8.88 → 9.6 — promoted
+- **IlloBoom! 2026 3rd Annual Illustration Summit Challenge** — 8.88 → 9.6 — promoted
+- **JIA插画大奖 (JIA Illustration Award)** — 8.88 → 9.6 — promoted
+- **MANGAバル 執筆者募集** — 8.88 → 9.6 — promoted
+- **世界堂絵画展 2026** — 8.88 → 9.6 — promoted
+- **Japan in Acquarello 日本代表選抜** — 8.88 → 9.6 — promoted
+- **Japan in Acquarello 2026 水彩画公募展 in YOKOHAMA** — 8.88 → 9.6 — promoted
+- **青葉区美術活動展** — 8.86 → 9.6 — promoted
+- **第6回 アッヴィ アートプロジェクト「PERSPECTIVES」～アートで表現。私の新たな可能性～** — 8.86 → 9.6 — promoted
+- **第58回新潟市美術展（市展）** — 8.86 → 9.6 — promoted
+- **Sekaido Taishoten 22nd Exhibition** — 8.86 → 9.6 — promoted
 - **第22回 世界絵画大賞展2026** — 8.86 → 9.6 — promoted
 - **Venice International Watercolor Festival 2026 / 2026年威尼斯国际水彩节** — 8.86 → 9.6 — promoted
 - **2026 Venice International Watercolor Festival** — 8.82 → 9.6 — promoted
 - **AOI Illustration Awards 2026** — 8.8 → 9.6 — promoted
 - **Chinese Excellence in Children's Illustration (卓越大师·中国)** — 8.79 → 9.59 — promoted
+- **第8回新人発掘プログラム応募作品展** — 8.78 → 9.58 — promoted
+- **はたらく自動車のぬりえとイラスト作品を大募集** — 8.78 → 9.58 — promoted
+- **自分らしさ絵画コンテスト（推定タイトル）** — 8.78 → 9.58 — promoted
+- **リキテックス学生平面作品募集** — 8.78 → 9.58 — promoted
+- **美の起原 2026公募展** — 8.78 → 9.58 — promoted
+- **Watercolor Exhibition 2026** — 8.76 → 9.56 — promoted
+- **2025-2026 Illustration Submission with Multi-Use Policy** — 8.76 → 9.56 — promoted
 - **ポコラート全国公募 vol.8** — 8.69 → 9.49 — promoted
-- **2025 BIBF International Illustration Competition** — 8.68 → 9.48 — promoted
+- **Tokyo Metropolitan Art Museum / Design Festa Gallery Exhibition** — 8.69 → 9.49 — promoted
+- **Tokyo Metropolitan Art Museum／Design Festa Gallery展演** — 8.69 → 9.49 — promoted
+- **观物澄象——水彩画写生作品展览征稿** — 8.68 → 9.48 — promoted
+- **上田市日本遺産短編小説 イラスト募集** — 8.68 → 9.48 — promoted
+- **第二届插画艺术展览征稿** — 8.68 → 9.48 — promoted
+- **2026 BIBF国际插画大赛** — 8.68 → 9.48 — promoted
+- **ドリコミ＋編集部 募集** — 8.68 → 9.48 — promoted
 - **2026 IlloBoom Illustration Competition** — 8.68 → 9.48 — promoted
+- **2025 BIBF International Illustration Competition** — 8.68 → 9.48 — promoted
 - **2026 BIBF International Illustration Competition** — 8.68 → 9.48 — promoted
+- **Tokyo Metropolitan Art Museum／Design Festa Gallery 原創藝術展演** — 8.67 → 9.47 — promoted
+- **2026第十五届湿地主题绘画大赛暨"回溯·对话"十五周年主题展** — 8.66 → 9.46 — promoted
+- **傳統繪畫及電繪比賽** — 8.66 → 9.46 — promoted
+- **中华民国第二十二届国际版画双年展** — 8.66 → 9.46 — promoted
 - **金风车插画大赛 (Golden Pinwheel International Young Illustrators Award)** — 8.65 → 9.45 — promoted
 - **NEW TURNER AWARD 2026** — 8.62 → 9.42 — promoted
+- **WSO Fall Exhibition 2026** — 8.58 → 9.38 — promoted
+- **河北新報社 美術展覧会** — 8.58 → 9.38 — promoted
+- **第23回 千修イラスト＆写真コンテスト** — 8.58 → 9.38 — promoted
+- **第8回ＤＯＵ水彩スケッチ会・作品展 (8th DOU Watercolor Sketch Society Exhibition)** — 8.58 → 9.38 — promoted
+- **2026・Summer「水陽会」展** — 8.58 → 9.38 — promoted
+- **リキテックス ザ チャレンジ 2026** — 8.58 → 9.38 — promoted
+- **水彩画展 (Watercolor Exhibition) — 2026年12月20日〜2027年1月9日** — 8.58 → 9.38 — promoted
 - **Pastel Society Open Exhibition** — 8.57 → 9.37 — promoted
+- **TDV ART Watercolour Salon** — 8.54 → 9.34 — promoted
+- **FACE2026** — 8.53 → 9.33 — promoted
 - **2026世界盃國際青少年繪畫藝術大賽 / 2026 World Cup International Youth Painting Art Competition** — 8.52 → 9.32 — promoted
 - **Royal Watercolour Society Open Exhibition** — 8.5 → 9.3 — promoted
+- **Japan in Acquarello 水彩画作品公募 2026** — 8.48 → 9.28 — promoted
+- **Scientific Illustration & Academic Journal Cover Design Services** — 8.48 → 9.28 — promoted
+- **第四屆 Joy in Art 水彩畫暨畫家聯展** — 8.48 → 9.28 — promoted
 - **Chinese Excellence in Children's Illustration 2026 (卓越大师·中国插画大赛2026)** — 8.48 → 9.28 — promoted
 - **Chinese Excellence in Children's Illustration 2026** — 8.48 → 9.28 — promoted
+- **搬入・搬出 Design Festa Gallery Watercolor Exhibition 2026** — 8.46 → 9.26 — promoted
+- **2026水彩的可能—桃园水彩艺术展** — 8.46 → 9.26 — promoted
+- **2026 NIE – Nanjing International Illustration Exhibition & the 53rd Bonjour Art Book Fair** — 8.46 → 9.26 — promoted
+- **2026 Joy in Art 水彩畫暨畫家聯展 (Joy in Art 2026 Watercolor & Artists' Joint Exhibition)** — 8.46 → 9.26 — promoted
+- **中国美协·现代插画展 (China Art Association Modern Illustration Exhibition)** — 8.46 → 9.26 — promoted
 - **World Illustration Awards 2026 (WIA2026)** — 8.4 → 9.2 — promoted
 - **IlloBoom 2026 Global Illustration Competition** — 8.4 → 9.2 — promoted
+- **Tokyo Metropolitan Art Museum / Design Festa Gallery Exhibition 2026** — 8.39 → 9.19 — promoted
+- **第61回宮城水彩展** — 8.38 → 9.18 — promoted
 - **17th Kao International Children's Environmental Painting Competition** — 8.38 → 9.18 — promoted
+- **Tokyo Metropolitan Art Museum／Design Festa Gallery 展演** — 8.37 → 9.17 — promoted
 - **羽ばたけ！北海道イラスト大賞** — 8.34 → 9.14 — promoted
 - **2026水彩的可能-桃園水彩** — 8.34 → 9.14 — promoted
 - **イラストコンテスト2026 テーマは「夏」** — 8.33 → 9.13 — promoted
@@ -183,13 +334,29 @@ Demoted: 5
 - **Golden Pinwheel International Young Illustrator Competition 2026** — 8.31 → 9.11 — promoted
 - **Splash 27: The Best of Watercolor** — 8.31 → 9.11 — promoted
 - **パラコンテスト委員会×イラストレーション2026** — 8.26 → 9.06 — promoted
+- **2026国际艺术大賞東京展** — 8.26 → 9.06 — promoted
+- **美の起原 2026 二人展/グループ展募集（Binokigen Ten 2026）** — 8.26 → 9.06 — promoted
 - **Applied Arts 2026 Illustration Awards** — 8.18 → 8.98 — promoted
+- **上海静安·苏河湾插画展2026年7月至8月** — 8.18 → 8.98 — promoted
 - **2026 IlloBoom! 3rd Annual Illustration Summit Challenge** — 8.18 → 8.98 — promoted
 - **Book Culture Club** — 8.17 → 8.97 — promoted
+- **OPENCALL NOS CORPS DESSINÉS - Life Drawing Exhibition** — 8.16 → 8.96 — promoted
+- **Asia Art New Talent Exhibition (第三屆亞洲藝術新秀展)** — 8.11 → 8.91 — promoted
+- **Kyla Artist Prize 2026** — 8.11 → 8.91 — promoted
+- **玉山銀行「2026畫家畫玉山」徵件** — 8.03 → 8.83 — promoted
 - **OIL by 美術手帖 5th Anniversary** — 8.0 → 8.8 — promoted
+- **美の起原 ビノ期限展 2026** — 7.98 → 8.78 — promoted
+- **Echoes of Nature illustration and art books exhibition** — 7.98 → 8.78 — promoted
+- **2026 NIE 南京国际插画展暨第53届不熟艺术书展** — 7.98 → 8.78 — promoted
 - **第54回 齣展** — 7.95 → 8.75 — promoted
 - **2026 First Modern Illustration Art Exhibition by China Artists Association** — 7.91 → 8.71 — promoted
+- **Nos Corps Dessinés - Life Drawing Exhibition Open Call 2026** — 7.88 → 8.68 — promoted
+- **第90回展 (90th Exhibition)** — 7.83 → 8.63 — promoted
+- **首届上海国际插画潮流博览会** — 7.78 → 8.58 — promoted
+- **So~Shenzhen! (深圳國際藝術博覽會)** — 7.71 → 8.51 — promoted
 - **中国美术家协会首届现代插画艺术大展** — 7.69 → 8.49 — promoted
+- **第三屆亞洲藝術新秀展（Asia Art New Talent Exhibition）** — 7.61 → 8.41 — promoted
+- **都美セレクション グループ展 2021** — 7.51 → 8.31 — promoted
 - **Chinese Excellence in Children's Illustration 2026 / 卓越大师·中国插画大赛2026** — 7.5 → 8.3 — promoted
 - **Offprint** — 7.46 → 8.26 — promoted
 - **CAF賞2026** — 7.43 → 8.23 — promoted
@@ -197,6 +364,7 @@ Demoted: 5
 - **2026水彩的可能—桃園水彩藝術展** — 7.27 → 8.07 — promoted
 - **Chinese Excellence in Children's Illustration 2026（卓越大师·中国插画大赛2026）** — 7.26 → 8.06 — promoted
 - **DER GREIF** — 7.2 → 8.0 — promoted
+- **2026 Watercolor Online Course《Drawing Organization Technique》** — 7.16 → 7.96 — promoted
 - **Royal Institute of Painters in Water Colours** — 7.1 → 7.9 — promoted
 - **American Watercolor Society Annual International Exhibition** — 7.05 → 7.85 — promoted
 - **submissions — porkbelly press** — 7.0 → 7.8 — promoted
@@ -226,6 +394,8 @@ Demoted: 5
 - **新進芸術家海外研修制度（Emerging Artists Overseas Training Program）** — 7.0 → 7.8 — promoted
 - **2026年度 第1期 東京芸術文化創造発信助成 カテゴリーI［単年助成］芸術創造活動** — 7.0 → 7.8 — promoted
 - **ACC 2026年度フェローシップおよび助成** — 7.0 → 7.8 — promoted
+- **新進芸術家海外研修制度** — 7.0 → 7.8 — promoted
+- **第6回銀座中央ギャラリー公募展** — 7.0 → 7.8 — promoted
 - **公募プログラム - トーキョーアーツアンドスペース** — 7.0 → 7.8 — promoted
 - **Gallery 456 Exhibition Open Call 2026** — 7.0 → 7.8 — promoted
 - **Asian Cultural Council (ACC) 2026 Grant Program** — 7.0 → 7.8 — promoted
@@ -235,18 +405,22 @@ Demoted: 5
 - **Laugh & Peace Art Competition 2026** — 7.0 → 7.8 — promoted
 - **2026 Chinese New Year Celebration Art Show** — 7.0 → 7.8 — promoted
 - **FACE Exhibition 2026** — 7.0 → 7.8 — promoted
-- **第6回銀座中央ギャラリー公募展** — 7.0 → 7.8 — promoted
 - **2026下期芸術文化助成（国内）** — 7.0 → 7.8 — promoted
 - **2026年度 国際助成プログラム** — 7.0 → 7.8 — promoted
 - **2026年度 芸術活動助成（戸部眞紀財団）** — 7.0 → 7.8 — promoted
 - **Tokyo Wonder Site / TOKAS Residency** — 7.0 → 7.8 — promoted
 - **芸術活動助成 (Arts Activity Grant) 2027年度** — 7.0 → 7.8 — promoted
+- **株式会社アートジャパン 靖山画廊30周年記念公募展** — 7.0 → 7.8 — promoted
 - **東京芸術文化創造発信助成 カテゴリーⅠ ［単年助成］芸術創造活動** — 7.0 → 7.8 — promoted
 - **現代芸術振興助成 (Contemporary Art Promotion Grant)** — 7.0 → 7.8 — promoted
+- **アーツカウンシル東京 芸術活動支援助成** — 7.0 → 7.8 — promoted
+- **芸術文化振興基金 「舞台芸術・美術等の創造普及活動」** — 7.0 → 7.8 — promoted
+- **Dezi Art Prize** — 7.0 → 7.8 — promoted
+- **Artist Grant** — 7.0 → 7.8 — promoted
 - **AAA Gallery Yokohama** — 7.0 → 7.8 — promoted
+- **Grants for Visual Artists** — 7.0 → 7.8 — promoted
 - **Ishibashi Foundation / The Japan Foundation Fellowship for Research on Japanese Art** — 7.0 → 7.8 — promoted
 - **芸術活動への助成 (Arts Activity Grant)** — 7.0 → 7.8 — promoted
-- **株式会社アートジャパン 靖山画廊30周年記念公募展** — 7.0 → 7.8 — promoted
 - **Casa Brutus — Architecture/Art Feature** — 7.0 → 7.8 — promoted
 - **Submissions — Clavis Publishing** — 7.0 → 7.8 — promoted
 - **2026年度 東京芸術文化創造発信助成 カテゴリーII［長期助成］芸術創造活動** — 7.0 → 7.8 — promoted
@@ -254,84 +428,213 @@ Demoted: 5
 - **新進芸術家海外研修制度（1年）** — 7.0 → 7.8 — promoted
 - **2026年度 第2期 地域芸術文化活動応援助成** — 7.0 → 7.8 — promoted
 - **Research Residency Program 2027** — 7.0 → 7.8 — promoted
+- **Asian Cultural Council 2026 Grants and Fellowships** — 7.0 → 7.8 — promoted
 - **2026年度 芸術活動助成** — 7.0 → 7.8 — promoted
 - **Fruit Exhibition #1 (Open Call)** — 7.0 → 7.8 — promoted
 - **若手アーティストの登竜門となるアートフェア「Independent Tokyo ...** — 7.0 → 7.8 — promoted
 - **New Power展 | ギャラリー自由が丘で作家デビュー** — 7.0 → 7.8 — promoted
 - **2026年度 第2期 芸術文化による社会支援助成** — 7.0 → 7.8 — promoted
+- **The Japan Foundation Fellowship for Research on Japanese Art** — 7.0 → 7.8 — promoted
 - **芸術活動への助成（Grants for Artistic Activities）** — 7.0 → 7.8 — promoted
 - **カテゴリーⅠ ［単年助成］芸術創造活動 2026年度 第1期** — 7.0 → 7.8 — promoted
 - **gallery cafe & zakka SAKURA主催公募展** — 7.0 → 7.8 — promoted
+- **第38回ホルベイン・スカラシップ奨学生** — 7.0 → 7.8 — promoted
+- **National Arts Fund Young Artists Creative Talent Support Project (国家艺术基金青年艺术创作人才资助项目)** — 7.0 → 7.8 — promoted
+- **Naomi Rabb Winston Scholarship in Two-Dimensional Art** — 7.0 → 7.8 — promoted
 - **CuratorSpace** — 7.0 → 7.8 — promoted
+- **Grants & Fellowships (2026 Artist Grants)** — 7.0 → 7.8 — promoted
+- **日本文化発信・普及事業** — 7.0 → 7.8 — promoted
+- **2026年度下期 芸術文化助成（美術部門・個人）** — 7.0 → 7.8 — promoted
+- **2026年度下期 美術部門 個人(活動助成金 国内)** — 7.0 → 7.8 — promoted
+- **Creative Projects Grant (FY27)** — 7.0 → 7.8 — promoted
+- **Golden Foundation Residency** — 7.0 → 7.8 — promoted
 - **gallery cafe & zakka SAKURA主催展示募集** — 7.0 → 7.8 — promoted
+- **芸術活動への助成 2027年度** — 7.0 → 7.8 — promoted
+- **若手芸術家支援助成 2026年度** — 7.0 → 7.8 — promoted
+- **Art Students League Tuition Scholarships** — 7.0 → 7.8 — promoted
 - **朝日新聞文化財団 芸術活動助成** — 7.0 → 7.8 — promoted
 - **2026年度 東京芸術文化創造発信助成 カテゴリーI［単年助成］芸術創造活動** — 7.0 → 7.8 — promoted
 - **世界堂絵画展2026** — 7.0 → 7.8 — promoted
-- **Asian Cultural Council 2026 Grants and Fellowships** — 7.0 → 7.8 — promoted
+- **スタートアップ助成** — 7.0 → 7.8 — promoted
+- **National Arts Fund (National Arts Foundation) - Youth Artist Creation Program** — 7.0 → 7.8 — promoted
+- **Guruguru Exhibition #1** — 7.0 → 7.8 — promoted
+- **Art Animal Exhibition #3 (Open Call)** — 7.0 → 7.8 — promoted
 - **Kawaii ART Exhibition #1** — 7.0 → 7.8 — promoted
 - **SICF Fukuoka 2026** — 7.0 → 7.8 — promoted
 - **Submissions - Little Press Publishing** — 7.0 → 7.8 — promoted
 - **True Beauty - 2026** — 7.0 → 7.8 — promoted
+- **Marion Barr Stanfield Art Scholarship** — 7.0 → 7.8 — promoted
 - **Surface Design Association Exhibition 2026** — 7.0 → 7.8 — promoted
+- **Anna Lee Stacey Art Education Trust Fund** — 7.0 → 7.8 — promoted
+- **一般財団法人 赤坂クリエイティブ財団** — 7.0 → 7.8 — promoted
 - **ギャラリーニイク「219公募展」Vol.6 (Gallery 219 Open Call Vol.6)** — 7.0 → 7.8 — promoted
 - **Artworks You'll Want to Display in Your Room #7** — 7.0 → 7.8 — promoted
-- **Guruguru Exhibition #1** — 7.0 → 7.8 — promoted
-- **第38回ホルベイン・スカラシップ奨学生** — 7.0 → 7.8 — promoted
-- **Art Animal Exhibition #3 (Open Call)** — 7.0 → 7.8 — promoted
+- **AFAF AWARD powered by E.SUN Bank** — 7.0 → 7.8 — promoted
 - **銀座中央ギャラリー公募展入選者展** — 7.0 → 7.8 — promoted
+- **EIAF 2026-2027 Residency Grant** — 7.0 → 7.8 — promoted
 - **[展覧会]秀彩会小品展2026** — 7.0 → 7.8 — promoted
+- **Brightwork Foundation Grants** — 7.0 → 7.8 — promoted
 - **鉄道写真作品展「OM SYSTEM GALLERY II」** — 7.0 → 7.8 — promoted
 - **芸術文化振興基金及び文化芸術振興費補助金 (Arts and Culture Promotion Fund and Cultural Arts Development Subsidy)** — 7.0 → 7.8 — promoted
+- **第69回 新協美術展** — 7.0 → 7.8 — promoted
 - **NewPower展** — 7.0 → 7.8 — promoted
+- **第11回 公募展「Artist meets Art Fair」** — 7.0 → 7.8 — promoted
 - **Become an Author - Tuttle Publishing** — 7.0 → 7.8 — promoted
 - **額縁のギャラリーゴロー イラスト・絵画・写真展** — 7.0 → 7.8 — promoted
-- **AFAF AWARD powered by E.SUN Bank** — 7.0 → 7.8 — promoted
+- **アトリエ透明水彩画展** — 7.0 → 7.8 — promoted
+- **BOOK MEETS NEXT 本の日 記念ブックカバー大賞** — 7.0 → 7.8 — promoted
 - **第23届「跨越国界之美2026」国际公募展** — 7.0 → 7.8 — promoted
 - **2026春季二科展「NIKA+nika/S20号」コンクール** — 7.0 → 7.8 — promoted
+- **令和8年度芸術文化振興基金及び文化芸術振興費補助金による助成** — 7.0 → 7.8 — promoted
 - **gallery cafe & zakka SAKURA 公募展** — 7.0 → 7.8 — promoted
-- **第69回 新協美術展** — 7.0 → 7.8 — promoted
 - **【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ...** — 7.0 → 7.8 — promoted
 - **現代アート販売の@Gallery Tagboat|@Gallery Tagboat** — 7.0 → 7.8 — promoted
+- **銀座中央ギャラリー公募展** — 7.0 → 7.8 — promoted
+- **カモメロースタリ東京 ギャラリースペース展示募集 2026年5月〜7月** — 7.0 → 7.8 — promoted
+- **公募 日本の絵画 2026** — 7.0 → 7.8 — promoted
+- **第4回 ARK Art Award** — 7.0 → 7.8 — promoted
+- **第12回あいしょう絵画展** — 7.0 → 7.8 — promoted
 - **SCCP Guest Artist** — 7.0 → 7.8 — promoted
+- **全日本アートサロン絵画大賞展** — 7.0 → 7.8 — promoted
 - **公募展（グループ展）- 出展募集** — 7.0 → 7.8 — promoted
 - **絵画展（滋賀県愛荘町開催）** — 7.0 → 7.8 — promoted
+- **FACE 2026** — 7.0 → 7.8 — promoted
+- **2026年 美の起原展** — 7.0 → 7.8 — promoted
+- **第43回 FUKUIサムホール美術展** — 7.0 → 7.8 — promoted
+- **美の起原 個展・グループ展募集 (Bi no Kigen Open Call)** — 7.0 → 7.8 — promoted
+- **FACE2027** — 7.0 → 7.8 — promoted
+- **第22回絵のまち尾道四季展** — 7.0 → 7.8 — promoted
 - **Publishers & Publishing Services in Japan - PublishersGlobal.com** — 7.0 → 7.8 — promoted
+- **ClafT2026 Tama Art Meets All** — 7.0 → 7.8 — promoted
+- **GALLERY at KAMOME ROASTERY TOKYO CAFE** — 7.0 → 7.8 — promoted
+- **Serendipity Arts Food Matters Grant** — 7.0 → 7.8 — promoted
+- **透明水彩公募展（カフェアトリエ）** — 7.0 → 7.8 — promoted
+- **春と桜の作品展2026** — 7.0 → 7.8 — promoted
 - **ギャラリー自由展示** — 7.0 → 7.8 — promoted
+- **Art Beans Gallery Square Exhibition** — 7.0 → 7.8 — promoted
 - **Japan Book Publishers Association - JBPA** — 7.0 → 7.8 — promoted
+- **第61回「都展」(61st Toten Art Exhibition)** — 7.0 → 7.8 — promoted
+- **Gallery and Links 作家募集展** — 7.0 → 7.8 — promoted
+- **2026 World Cup International Youth Art Contest** — 7.0 → 7.8 — promoted
+- **FACE コンクール** — 7.0 → 7.8 — promoted
+- **Art to You！障がい者芸術世界展 IN SENDAI 2026** — 7.0 → 7.8 — promoted
+- **神戸市民美術展覧会** — 7.0 → 7.8 — promoted
 - **ART BOX Publishing** — 7.0 → 7.8 — promoted
 - **美術新人賞デビュー2026** — 7.0 → 7.8 — promoted
-- **ClafT2026 Tama Art Meets All** — 7.0 → 7.8 — promoted
+- **京都芸術センター アーティスト・イン・レジデンス プログラム 2026 ビジュアル・アーツ部門** — 7.0 → 7.8 — promoted
+- **gallery cafe & zakka SAKURA 「ここにしかない1枚の絵展」** — 7.0 → 7.8 — promoted
 - **第11回 Artist meets Art Fair** — 7.0 → 7.8 — promoted
-- **2026 World Cup International Youth Art Contest** — 7.0 → 7.8 — promoted
+- **ゆめ画材公募 ゆめ画材夏休み2026** — 7.0 → 7.8 — promoted
+- **第18回芸術家発掘コンテスト** — 7.0 → 7.8 — promoted
+- **第2回コンクール** — 7.0 → 7.8 — promoted
+- **Gallery at Kamome Roastery Tokyo Cafe — 2026年5月〜7月展示募集** — 7.0 → 7.8 — promoted
 - **DAA2026** — 7.0 → 7.8 — promoted
-- **銀座中央ギャラリー公募展** — 7.0 → 7.8 — promoted
+- **新進アーティスト作品展vol.24 Art Generation 2026** — 7.0 → 7.8 — promoted
+- **第38届 全日中展·东京书画艺术大展** — 7.0 → 7.8 — promoted
+- **A-LAB Artist Gate '26** — 7.0 → 7.8 — promoted
+- **第60回記念一期展（2026）** — 7.0 → 7.8 — promoted
+- **日向箱 宇宙の作品展** — 7.0 → 5.5 — demoted
+- **一水会展** — 7.0 → 7.8 — promoted
+- **【展示企画募集】2026年1,2月 Room1** — 7.0 → 7.8 — promoted
+- **アイギャラリー企画展 「animalparty+屋根裏の生物5th」** — 7.0 → 7.8 — promoted
+- **アイギャラリー企画展「animalparty+屋根裏の生物5th」** — 7.0 → 7.8 — promoted
+- **第70回（令和8年度）鳥取県美術展覧会** — 7.0 → 7.8 — promoted
+- **豊中市美術展** — 7.0 → 7.8 — promoted
+- **ギャラリーTerra-S 2026年度前期（2026年6月～8月）申請展** — 7.0 → 7.8 — promoted
+- **上野の森美術館 公募展** — 7.0 → 7.8 — promoted
+- **安岡蒲鉾のかまぼこ板美術展2026** — 7.0 → 7.8 — promoted
+- **Gallery NOOOG 2026年春 個展募集** — 7.0 → 7.8 — promoted
+- **soshare gallery パークホテル東京 29階移転記念公募展** — 7.0 → 7.8 — promoted
+- **KAGAWA AI ART FESTIVAL 2026** — 7.0 → 7.8 — promoted
+- **Animal-themed Group Exhibition (Osaka)** — 7.0 → 7.8 — promoted
+- **名古屋市民ギャラリー矢田 ファインアートフェア 2026** — 7.0 → 7.8 — promoted
+- **未来進行形2026 (Mirai Shinkougei 2026)** — 7.0 → 7.8 — promoted
+- **1000展 2027（1000 Exhibition 2027）** — 7.0 → 7.8 — promoted
+- **2026年度信濃大町アーティスト・イン・レジデンス** — 7.0 → 7.8 — promoted
+- **第11回 星乃珈琲店 絵画コンテスト** — 7.0 → 7.8 — promoted
+- **FACE 2027** — 7.0 → 7.8 — promoted
+- **第31回熊本県シルバー作品展** — 7.0 → 7.8 — promoted
 - **MVA Gallery Exhibition** — 7.0 → 7.8 — promoted
 - **TOKAS-Emerging 2026** — 7.0 → 7.8 — promoted
+- **第59回「鎌倉美術展」** — 7.0 → 7.8 — promoted
+- **CICA Museum Contemporary Art Solo Show Series 2027** — 7.0 → 7.8 — promoted
+- **ギャラリー世田谷233 レンタルボックス＆個展スペース** — 7.0 → 7.8 — promoted
+- **ヒコヒコギャラリー レンタルギャラリー** — 7.0 → 7.8 — promoted
+- **第76回モダンアート展** — 7.0 → 7.8 — promoted
+- **GALLERY北野坂** — 7.0 → 7.8 — promoted
+- **ギャラリー第2 個展・グループ展スペース** — 7.0 → 7.8 — promoted
+- **100回記念国展** — 7.0 → 7.8 — promoted
+- **第82回ハマ展** — 7.0 → 7.8 — promoted
+- **第7回生賴範義賞受賞作品展** — 7.0 → 7.8 — promoted
+- **神戸　川田画廊** — 7.0 → 7.8 — promoted
 - **2026西泠春拍藏品征集** — 7.0 → 7.8 — promoted
 - **Small Wonders 2026** — 7.0 → 7.8 — promoted
-- **桜Exhibition2026** — 7.0 → 7.8 — promoted
-- **2026国际大学生数字艺术设计大赛 (2026 International University Student Digital Art and Design Competition)** — 7.0 → 7.8 — promoted
-- **2026国际大学生数字艺术设计大赛 / 2026 International University Student Digital Art & Design Competition** — 7.0 → 7.8 — promoted
-- **星降る夜に** — 7.0 → 7.8 — promoted
-- **東京銀座プチ・ベラドンナ展2026** — 7.0 → 7.8 — promoted
 - **PARK GALLERY 企画展公募「海と山と展」** — 7.0 → 7.8 — promoted
+- **NEW New Artists / NEW Backbone Artists 2026** — 7.0 → 7.8 — promoted
+- **桜Exhibition2026** — 7.0 → 7.8 — promoted
+- **2026国际大学生数字艺术设计大赛 / 2026 International University Student Digital Art & Design Competition** — 7.0 → 7.8 — promoted
+- **2026国际大学生数字艺术设计大赛 (2026 International University Student Digital Art and Design Competition)** — 7.0 → 7.8 — promoted
+- **SCA 58th Juried Exhibition - Your Way Was Through the Sea** — 7.0 → 7.8 — promoted
+- **2026年度信濃大町アーティスト・イン・レジデンス 滞在作家募集** — 7.0 → 7.8 — promoted
+- **東京銀座プチ・ベラドンナ展2026** — 7.0 → 7.8 — promoted
+- **2026–2027 牛弓藝術學院淡季駐村計畫** — 7.0 → 7.8 — promoted
+- **日本選抜美術家協会 平面作品公募展** — 7.0 → 7.8 — promoted
+- **第22回世界堂ギャラリー大賞展** — 7.0 → 7.8 — promoted
+- **カフェアトリエ 透明水彩展** — 7.0 → 7.8 — promoted
+- **星降る夜に** — 7.0 → 7.8 — promoted
+- **Natural Human Theme Exhibition 2027** — 7.0 → 7.8 — promoted
 - **2026年全国美术作品征集** — 7.0 → 7.8 — promoted
 - **410Gallery PLUS International Open Call Exhibition** — 7.0 → 7.8 — promoted
-- **2026国际大学生数字艺术设计大赛** — 7.0 → 7.8 — promoted
 - **Tokyo Open Art** — 7.0 → 7.8 — promoted
-- **公募－日本の絵画2026－** — 7.0 → 7.8 — promoted
-- **日本選抜美術家協会 平面作品公募展** — 7.0 → 7.8 — promoted
-- **ヤングアーティスト公募展「いい芽ふくら芽 in OSAKA 2026」** — 7.0 → 7.8 — promoted
-- **カフェアトリエ 透明水彩展** — 7.0 → 7.8 — promoted
-- **阪急文具の博覧会2026** — 7.0 → 7.8 — promoted
-- **JAMCA PRIZE 2026** — 7.0 → 7.8 — promoted
+- **中国美术馆2026年度展览（全国征集）** — 7.0 → 7.8 — promoted
+- **全国中青年创新艺术展 (National Mid-Young Artist Innovation Exhibition)** — 7.0 → 7.8 — promoted
+- **2026年「扶青计划」视觉艺术作品征集** — 7.0 → 7.8 — promoted
+- **2026国际大学生数字艺术设计大赛** — 7.0 → 7.8 — promoted
 - **第36回 全日本アートサロン絵画大賞展** — 7.0 → 7.8 — promoted
+- **公募－日本の絵画2026－** — 7.0 → 7.8 — promoted
+- **2027汎美展** — 7.0 → 7.8 — promoted
+- **ラーメンをテーマにした作品展** — 7.0 → 7.8 — promoted
+- **ヤングアーティスト公募展「いい芽ふくら芽 in OSAKA 2026」** — 7.0 → 7.8 — promoted
+- **モダンアート協会 展覧会** — 7.0 → 7.8 — promoted
+- **第110回記念 二科美術展覧会** — 7.0 → 7.8 — promoted
+- **DOUBLE ANNUAL 2027** — 7.0 → 7.8 — promoted
+- **2027 汎美展** — 7.0 → 7.8 — promoted
+- **ちいさな水彩のせかい2026** — 7.0 → 7.8 — promoted
+- **第11回あおば美術公募展** — 7.0 → 7.8 — promoted
+- **FACE展2026／絵画のゆくえ2026** — 7.0 → 7.8 — promoted
+- **長野市芸術館アート・グループ展2026** — 7.0 → 7.8 — promoted
+- **VOCA展2026 現代美術の展望 —新しい平面の作家たち** — 7.0 → 7.8 — promoted
+- **第6回公募 maru arts展** — 7.0 → 7.8 — promoted
+- **神奈川県美術展 2027** — 7.0 → 7.8 — promoted
+- **Idemitsu Art Award展 2026** — 7.0 → 7.8 — promoted
+- **銀座・京橋サムホール公募展 2026** — 7.0 → 7.8 — promoted
+- **阪急文具の博覧会2026** — 7.0 → 7.8 — promoted
+- **Center Line Art Festival Tokyo 2026 – Space Sharing Program** — 7.0 → 7.8 — promoted
+- **公募第67回日本南画院展** — 7.0 → 7.8 — promoted
+- **銀座・京橋サムホール公募展2026** — 7.0 → 7.8 — promoted
+- **第1回Future Art Frontier展2026** — 7.0 → 7.8 — promoted
+- **イラストレーター・アーティスト募集 2026年8月～9月** — 7.0 → 7.8 — promoted
+- **FACE（公募コンクール）** — 7.0 → 7.8 — promoted
+- **2026全国中青年艺术展** — 7.0 → 7.8 — promoted
+- **全国公募 2025 横浜陶芸展** — 7.0 → 7.8 — promoted
+- **JAMCA PRIZE 2026** — 7.0 → 7.8 — promoted
 - **ClafT2026 多摩地域ゆかりの作家展「Tama Art Meets All」** — 7.0 → 7.8 — promoted
 - **日本選抜美術家協会公募展** — 7.0 → 7.8 — promoted
-- **第110回記念 二科美術展覧会** — 7.0 → 7.8 — promoted
 - **Gallery IRO** — 7.0 → 7.8 — promoted
-- **FACE（公募コンクール）** — 7.0 → 7.8 — promoted
+- **国際公募展 美は国境を越えて2027** — 7.0 → 7.8 — promoted
+- **第61回 亜細亜現代美術展（61st Asia Contemporary Art Exhibition）** — 7.0 → 7.8 — promoted
+- **SUMMER ART FESTIVAL 2026** — 7.0 → 7.8 — promoted
+- **WowUs観光展望施設 アート展示** — 7.0 → 7.8 — promoted
+- **第34回 特種東海製紙 紙わざ大賞** — 7.0 → 7.8 — promoted
 - **次代を担う画家育成・顕彰公募展** — 7.0 → 7.8 — promoted
+- **第22回 絵のまち尾道四季展** — 7.0 → 7.8 — promoted
+- **世界絵画大賞展 第22回** — 7.0 → 7.8 — promoted
+- **2026上海國際插畫藝術節** — 7.0 → 7.8 — promoted
+- **2026亚洲艺术双年展** — 7.0 → 7.8 — promoted
+- **江苏省美术馆2026年中国画展览** — 7.0 → 7.8 — promoted
+- **第4回 ホキ美術館プラチナ大賞** — 7.0 → 7.8 — promoted
+- **Affordable Art Fair Singapore 2026 - Gallery Applications** — 7.0 → 7.8 — promoted
+- **Calendar Exhibition and Competition - Lights of Datong** — 7.0 → 7.8 — promoted
 - **2025-2026 SHOWREEL 站酷顶尖创作者年度作品集 征集活动** — 7.0 → 7.8 — promoted
 - **中国文化中心锦霞展览** — 7.0 → 7.8 — promoted
 - **2026东京第一届日中书画名家作品交流展** — 7.0 → 7.8 — promoted
@@ -340,6 +643,7 @@ Demoted: 5
 - **星野循踪——艺术家邀请展** — 7.0 → 7.8 — promoted
 - **Bunka-cho 新進芸術家海外研修制度** — 7.0 → 7.8 — promoted
 - **Singapore International Art Contest (SIAC) 2026-7** — 7.0 → 7.8 — promoted
+- **2026 神戸新世紀小品展** — 7.0 → 7.8 — promoted
 - **2026 Asian Heritage Culture Art Show** — 7.0 → 7.8 — promoted
 - **APAアワード2026公募展** — 7.0 → 7.8 — promoted
 - **「公募－日本の絵画2026－」** — 7.0 → 7.8 — promoted
@@ -355,6 +659,8 @@ Demoted: 5
 - **Komiyama Tokyo** — 7.0 → 7.8 — promoted
 - **shashasha** — 7.0 → 7.8 — promoted
 - **Royal Institute of Painters in Water Colours** — 7.0 → 7.8 — promoted
+- **你好！智绘未来中新青少年绘画作品征集** — 6.98 → 7.78 — promoted
+- **関西春陽会絵画部展 2026** — 6.96 → 7.76 — promoted
 - **New Arts Prospect: Artists from Japan Series XIII, 2026（ニュー・アーツ・プロスペクツ：アーティスト・フロム・ジャパンシリーズ第13弾）** — 6.88 → 7.68 — promoted
 - **2026 Asian Heritage Culture Art Show (亞裔傳統文化藝術展)** — 6.87 → 7.67 — promoted
 - **2026 OCAA Ladies Art Exhibition (安美女仕畫展)** — 6.87 → 7.67 — promoted
@@ -393,29 +699,29 @@ Demoted: 5
 - **Home - Printed Matter** — 2.5 → 3.3 — promoted
 - **Art Fair Tokyo 2026** — 2.5 → 3.3 — promoted
 - **Pola Art Foundation Grant** — 2.5 → 3.3 — promoted
-- **2026 NIE–Nanjing International Illustration Exhibition & the 53rd Bonjour Art Book Fair** — 2.5 → 3.3 — promoted
 - **2026 Illustration Competition (Japanese Contemporary Illustration)** — 2.5 → 3.3 — promoted
+- **Art Rental & Sales Program (AR&S)** — 2.5 → 3.3 — promoted
+- **BIBF International Illustration Awards 2026 (北京国际童书插画大赛)** — 2.5 → 3.3 — promoted
+- **2026 NIE–Nanjing International Illustration Exhibition & the 53rd Bonjour Art Book Fair** — 2.5 → 3.3 — promoted
+- **ギャラリー檜 展示** — 2.5 → 3.3 — promoted
 - **日本透明水彩会 2026** — 2.5 → 3.3 — promoted
 - **カフェ内ギャラリースペース展示募集 2026年1月〜3月** — 2.5 → 3.3 — promoted
 - **kamome gallery 2026年1月〜3月展示 (Kamome Gallery Jan-Mar 2026)** — 2.5 → 3.3 — promoted
 - **Art Rental & Sales Program (AR&S) 2026 Call for Submissions** — 2.5 → 3.3 — promoted
 - **上野之森美術館展覽 (Ueno Forest Museum Exhibition - Paper-based Works)** — 2.5 → 3.3 — promoted
 - **カフェ内ギャラリースペース展示募集** — 2.5 → 3.3 — promoted
-- **ギャラリー檜 展示** — 2.5 → 3.3 — promoted
 - **Affordable Art Fair Singapore 2026** — 2.5 → 3.3 — promoted
 - **港日美術家作品展2026** — 2.5 → 3.3 — promoted
-- **Art Rental & Sales Program (AR&S)** — 2.5 → 3.3 — promoted
 - **ILOVETOYS / neuprint — Chinese Illustration Feature** — 2.5 → 3.3 — promoted
 - **新世紀美術協会 神戸支部 油彩・水彩小作品展（Shin-Seiki Bijutsu Kyokai Kobe Branch Oil & Watercolor Small Works Exhibition）** — 2.5 → 3.3 — promoted
 - **2026 International Children and Youth Painting Competition Summer Season** — 2.5 → 3.3 — promoted
 - **2026 International Sketch Art Competition** — 2.5 → 3.3 — promoted
 - **Japan in Acquarello 水彩画作品公募2026** — 2.5 → 3.3 — promoted
-- **BIBF International Illustration Awards 2026 (北京国际童书插画大赛)** — 2.5 → 3.3 — promoted
 - **CICA Vancouver Exhibition** — 2.45 → 3.25 — promoted
-- **文章焕彩2026 (Radiant Colors 2026) — Teng Wen Chang Solo Exhibition** — 2.45 → 3.25 — promoted
 - **艺彩同辉 (Art Colors in Harmony) — Singapore Art Association 2026 Exhibition** — 2.45 → 3.25 — promoted
-- **2026年度(春季)馬來西亞國際藝術網絡大賽 (2026 Spring Malaysia International Online Juried Art Competition)** — 2.4 → 3.2 — promoted
+- **文章焕彩2026 (Radiant Colors 2026) — Teng Wen Chang Solo Exhibition** — 2.45 → 3.25 — promoted
 - **2026 Spring Malaysia International Online Juried Art Competition** — 2.4 → 3.2 — promoted
+- **2026年度(春季)馬來西亞國際藝術網絡大賽 (2026 Spring Malaysia International Online Juried Art Competition)** — 2.4 → 3.2 — promoted
 - **第113回 日本水彩展 (Japan Watercolor Exhibition 2026)** — 2.29 → 3.09 — promoted
 - **水彩開放徵稿展覽 (Watercolor Open Call Exhibition)** — 2.17 → 2.97 — promoted
 - **Hong Kong Watercolor Art Association 2026 Exhibition: Early Summer Water Rhyme** — 2.17 → 2.97 — promoted

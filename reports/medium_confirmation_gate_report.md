@@ -9,10 +9,10 @@ pre_gate_bucket for reversal if richer data is added later.
 
 ## Summary
 
-- **Confirmed:** 533
-- **Rerouted to research_needed:** 226
-- **Skipped (already reject/low_priority):** 44
-- **Total:** 803
+- **Confirmed:** 926
+- **Rerouted to research_needed:** 403
+- **Skipped (already reject/low_priority):** 66
+- **Total:** 1395
 
 ## Rerouted entries
 
@@ -25,7 +25,10 @@ pre_gate_bucket for reversal if richer data is added later.
 - **Platform China BIAP Artist Residency** (was: `research_needed`) — Caochangdi Art District Beijing residency, 8-12 weeks, open platform for emerging to estab
 - **Kamome Roastery Tokyo** (was: `relationship_builders`) — East Tokyo cafe with a confirmed free gallery program — online application, ~1-week slots,
 - **Kyoto Retreat Artist Residency 2026 - Open Call** (was: `research_needed`) — Residencies (found through targeted research).
-- **令和8年度新進芸術家海外研修制度「日本文化発信・普及事業」** (was: `stretch_targets`) — Government-funded overseas research and cultural dissemination program for established art
+- **Asian Cultural Council (ACC) Fellowships and Grants** (was: `stretch_targets`) — ACC explicitly supports arts communities in Asia with long-term immersive cultural exchang
+- **ACC Individual Fellowships** (was: `stretch_targets`) — ACC Individual Fellowships support artists for 1-6 months of travel and cultural exchange 
+- **ACC Graduate Fellowships** (was: `stretch_targets`) — ACC Graduate Fellowships provide funding for one academic year with possibility of renewal
+- **Asian Cultural Council 2026 Grant Program** (was: `stretch_targets`) — ACC supports Asian artists pursuing graduate studies in the USA across 16 eligible art dis
 - **令和9年度 新進芸術家海外研修制度** (was: `stretch_targets`) — Overseas residency/training program for emerging artists offered by Japan's national arts 
 - **CLOUDS Gallery+Coffee Koenji** (was: `relationship_builders`) — Dedicated gallery + coffee in Koenji showing local and international artists in free-admis
 - **Gallery EF Asakusa** (was: `relationship_builders`) — Long-running Asakusa gallery in a 100-year-old machiya basement; intimate, proposal-based,
@@ -36,6 +39,7 @@ pre_gate_bucket for reversal if richer data is added later.
 - **Asian Cultural Council (ACC) 2026 Award Program / 亞洲文化協會 2026 年獎助計畫** (was: `stretch_targets`) — ACC supports Asian artists including Chinese nationals with fellowships and grants for int
 - **Shimokitazawa Arts** (was: `research_needed`) — Shimokitazawa gallery presenting monthly solo exhibitions by younger contemporary Japanese
 - **BankART1929** (was: `research_needed`) — Respected Yokohama alternative art space with historical architecture focus, but minimal o
+- **ACC New York Fellowship** (was: `stretch_targets`) — ACC's New York Fellowship supports artists for six-month immersive experiences, enabling c
 - **2026年度 東京芸術文化創造発信助成 カテゴリーⅢ［長期助成］** (was: `stretch_targets`) — Tokyo-based arts creation and dissemination grant offering long-term support for local art
 - **ライフウィズアート助成** (was: `stretch_targets`) — Tokyo-based arts support grant with application period and eligible for visual artists.
 - **L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info** (was: `research_needed`) — Residencies (found through targeted research).
@@ -48,11 +52,10 @@ pre_gate_bucket for reversal if richer data is added later.
 - **SCAI The Bathhouse** (was: `research_needed`) — SCAI The Bathhouse is a prestigious Tokyo gallery representing established international c
 - **カテゴリーⅢ ［単年助成］創造環境向上活動 2026年度 第1期** (was: `stretch_targets`) — Supports improvement of creative environments; relevant for artists developing spaces for 
 - **新進芸術家の海外研修** (was: `stretch_targets`) — Government overseas training program for emerging visual artists including contemporary ar
-- **2027年度 リサーチ・レジデンス・プログラム** (was: `research_needed`) — Research residency program supporting artistic research and practice
-- **Artist in Residence program in Paris 2026 / 2027** (was: `research_needed`) — International artist residency program for visual artists seeking overseas experience
 - **Japan Artist Residency (TOKAS) 2027** (was: `stretch_targets`) — Artist residency program with living stipend for selected participants in Tokyo, relevant 
 - **2027年度 アーティスト・イン・レジデンス プログラム** (was: `stretch_targets`) — Artist residency program supporting visual artists working with architectural observation 
 - **三島満願芸術祭2026（アーティスト・イン・レジデンス）** (was: `research_needed`) — Contemporary art residency in Shizuoka focusing on place-based practice, dialogue with com
+- **National Gallery of Iceland CUSP Residency 2027** (was: `stretch_targets`) — International residency program with stipend; open to visual artists, though focused on co
 - **Aquarium - 2026** (was: `publication_targets`) — 4th Annual Juried Exhibition with publication and sales opportunities for visual artists.
 - **Gallery Dioxazine Exhibition** (was: `research_needed`) — Tokyo gallery exhibition with July-August 2026 dates accepting artwork submissions.
 - **Asian Cultural Council Graduate Fellowship** (was: `stretch_targets`) — ACC Graduate Fellowship supports enrolled graduate students with full-time coursework duri
@@ -65,128 +68,297 @@ pre_gate_bucket for reversal if richer data is added later.
 - **2026年度 東京芸術文化創造発信助成 カテゴリーI（単年助成）芸術創造活動** (was: `stretch_targets`) — Explicitly supports individual artists based in Tokyo with single-year arts creation activ
 - **新進芸術家海外研修制度（特別20日～80日間）** (was: `stretch_targets`) — Short-term government arts training program (20-80 days) for emerging visual artists to co
 - **2026年度 第2期 東京芸術文化創造発信助成 カテゴリーI［単年助成］芸術創造活動** (was: `stretch_targets`) — Tokyo government arts grant supporting single-year artistic creation activities for indivi
+- **ACC Organization Grant** (was: `stretch_targets`) — While focused on organizations, this program supports travel and cultural exchange activit
 - **Open Call for the International Creator Residency Program 2026** (was: `research_needed`) — Residencies (found through targeted research).
-- **2027年度「アーティスト・イン・レジデンス プログラム」** (was: `research_needed`) — Artist-in-Residence program offering residency support for visual artists in Tokyo
 - **臺南市美術館 2026「TAM+展覽計畫」** (was: `research_needed`) — Regional museum exhibition program accepting artist proposals for 2026.
+- **International Creator Residency Programme: Individual Projects** (was: `stretch_targets`) — 3-month Tokyo residency with living support, studio space, and airfare for international c
+- **2027年度 リサーチ・レジデンス・プログラム** (was: `research_needed`) — Research residency program supporting artistic research and practice
+- **Artist in Residence program in Paris 2026 / 2027** (was: `research_needed`) — International artist residency program for visual artists seeking overseas experience
 - **「アーティストの国際発信支援プログラム」2026（令和8）年度第II期** (was: `stretch_targets`) — International artist promotion support program enabling Tokyo-based artists to develop glo
 - **Shangyuan International Residency Programme** (was: `research_needed`) — Prestigious annual Beijing artist residency selecting 15-30 artists per year, April-Novemb
 - **EU・ジャパンフェスト日本委員会　モビリティサポート** (was: `stretch_targets`) — Mobility support for artists to participate in EU-Japan cultural exchange, supporting inte
+- **令和8年度新進芸術家海外研修制度「日本文化発信・普及事業」** (was: `stretch_targets`) — Government-funded overseas research and cultural dissemination program for established art
 - **アジア文化芸術ネットワーク強化助成【WA2.0】** (was: `stretch_targets`) — Asia-focused cultural arts networking grant from Japan Foundation supports international a
 - **文化庁文化芸術振興費補助金 2026 (Cultural Affairs Agency Cultural Arts Promotion Subsidy 2026)** (was: `stretch_targets`) — Government cultural arts subsidy program supporting artistic activities across Japan
 - **OPEN SITE 11** (was: `research_needed`) — Project proposal call for artist projects at TOKAS Hongo, a Tokyo-based artist-run space.
+- **Last Minute Call for Fall in North Iceland** (was: `stretch_targets`) — Fall 2027 residency opportunity in Iceland; open to international visual artists seeking q
 - **ACC 2026 Global Grant Cycle** (was: `research_needed`) — Open call welcomes artists and arts professionals proposing cultural exchange activities b
 - **Belladonna Art Competition** (was: `research_needed`) — Belladonna Art Competition is worth checking because open calls can turn existing portfoli
 - **TOKAS Open Call** (was: `research_needed`) — TOKAS Open Call is worth checking because open calls can turn existing portfolio work into
 - **INSTINC 2026/2027 Artist-in-Residence Program** (was: `stretch_targets`) — Independent artist residency program emphasizing experimentation and artistic vision, open
+- **In Cahootz Residency** (was: `stretch_targets`) — Accepts residency applications twice yearly for 2027 placements; open to international vis
 - **令和8年度（2026年度）国内クリエイター創作支援プログラム** (was: `stretch_targets`) — Government support for emerging artists with 5+ years activity history or award recognitio
 - **2027年度 芸術活動への助成** (was: `stretch_targets`) — General arts activity grant for artists conducting artistic activities in Japan
-- **2026年度　日本文化藝術奨学金** (was: `research_needed`) — Japanese cultural arts scholarship supporting visual and performing artists
 - **Open calls - Online Database of Artist in Residence Programs in Japan** (was: `research_needed`) — Open Calls / Contests (found through targeted research).
 - **Gallery 191 Exhibition 2026** (was: `research_needed`) — Open call for visual artists working in a variety of media to exhibit in gallery space.
 - **Gallery 456 Exhibition in 2026** (was: `research_needed`) — Open call for artists to exhibit work in two-week exhibitions during 2026.
 - **令和8年度（2026年度）国内クリエイター発表支援プログラム** (was: `stretch_targets`) — Government program supporting emerging artists with 3+ years activity to exhibit work dome
+- **MÉXICO CITY Art Week Season Residency** (was: `stretch_targets`) — International residency program for January-February 2027; accepts visual artists and prov
+- **Residencias de otoño en Casa Garcés** (was: `stretch_targets`) — Fall residency opportunity in Spain; accepts international visual artists for 2027 program
+- **Queens Arts Fund (QAF)** (was: `stretch_targets`) — Visual artists of any discipline can apply, but requires Queens residency which does not m
+- **California Arts Council Individual Artists Fellowship Program** (was: `stretch_targets`) — Open to visual artists in multiple disciplines, but requires residency in Orange, Riversid
 - **3331 Arts Chiyoda** (was: `research_needed`) — 3331 Arts Chiyoda is a respected Tokyo artist-run space in a converted school building, kn
+- **Tokyo Arts Council 2026年度助成（創造活動助成）** (was: `research_needed`) — Tokyo metropolitan government grant supporting contemporary arts creation and internationa
+- **2026年度　日本文化藝術奨学金** (was: `research_needed`) — Japanese cultural arts scholarship supporting visual and performing artists
 - **Fruit Exhibition #1 (Open Call)** (was: `research_needed`) — Street gallery open call exhibition (Sept 5-28, 2026) accepting submissions from artists i
 - **The Shape of Things Exhibition (Open Call)** (was: `research_needed`) — Open call exhibition (Oct 31-Nov 16, 2026) at 410Gallery Fukuoka accepting submissions fro
 - **2026年度 東京芸術文化創造発信助成 カテゴリーIV［長期助成］海外映画祭参加活動** (was: `research_needed`) — Supports international presentation activities for Tokyo-based artists, though primarily f
 - **公益財団法人アイスタイル芸術文化財団 現代芸術振興助成 2026** (was: `research_needed`) — Supports contemporary art creation and exhibition; provides direct funding for visual arti
+- **東京芸術文化創造発信助成 カテゴリーⅠ、Ⅲ** (was: `stretch_targets`) — Tokyo-based arts creation and presentation support for visual artists and cultural activit
+- **US Artists International** (was: `stretch_targets`) — International mobility grant for artists with projects taking place June 1, 2026 – June 30
 - **Asian Cultural Council 2026 Global Grant Cycle** (was: `research_needed`) — ACC's 2026 Global Grant Cycle supports artists and arts professionals from Asia for cultur
 - **INSTINC 2026 / 2027 Artist-in-Residence Program** (was: `research_needed`) — Artist-in-residence program open to international artists including artists and visual art
 - **Open Call — Osaka, Japan (October 16–19, 2026)** (was: `research_needed`) — In-person exhibition open call in Japan accepting international artists for focused presen
 - **Gallery 456 Exhibition in 2026 Open Call for Artists** (was: `research_needed`) — Two-week exhibition opportunities for visual artists in 2026.
 - **OM SYSTEM PLAZA 2026年4月～6月開催分** (was: `research_needed`) — Gallery accepting submissions for spring/summer 2026 exhibition dates.
 - **The Homiens Art Prize ($12,000 Annually)** (was: `competitions_awards`) — International art prize open to visual artists across disciplines.
-- **TAV Gallery** (was: `research_needed`) — Tokyo contemporary gallery with minimal available information about programming, submissio
 - **Japan Artist Residency Tokyo 2027 (Tokyo Arts and Space - TOKAS)** (was: `research_needed`) — Three-month artist residency in Tokyo for international creators with fully funded support
+- **TAV Gallery** (was: `research_needed`) — Tokyo contemporary gallery with minimal available information about programming, submissio
+- **2027年度リクルートスカラシップ アート部門** (was: `stretch_targets`) — Scholarship program for individual visual artists with less than 3 years professional expe
+- **地域芸術文化活動応援助成 第1期** (was: `stretch_targets`) — Regional arts and culture activity support grant from Arts Council Tokyo; covers April 202
+- **新進芸術家海外研修制度（令和9年度）** (was: `stretch_targets`) — Supports young visual artists (美術 included) for overseas training at foreign art instituti
+- **芸術文化による社会支援助成 第1期** (was: `stretch_targets`) — Tokyo-based grant for arts and culture supporting social engagement; covers 2026–2027 peri
+- **2026 Individual Fellowship Application** (was: `stretch_targets`) — Individual fellowship supporting artists across Asia for artistic development and internat
+- **2026年度 芸術文化魅力創出助成 第1期 TOKYO CITY CANVAS助成** (was: `stretch_targets`) — Tokyo-based arts grant for visual artists supporting creative and cultural activities.
+- **TOKYO CITY CANVAS Grant (Grant for Artistic City) Issue 1** (was: `stretch_targets`) — Tokyo-based government arts grant for individual artists supporting artistic city projects
+- **TOKYO CITY CANVAS Grant (Grant for Artistic City) Issue 2** (was: `stretch_targets`) — Tokyo-based government arts grant for individual artists supporting artistic city projects
+- **Life with Art Grant** (was: `stretch_targets`) — Tokyo-based government arts grant for individual visual artists
+- **東京芸術文化創造発信助成 カテゴリーⅠ、Ⅲ ［単年助成］ 第1期** (was: `stretch_targets`) — Tokyo arts grant supporting visual artists and cultural creation activities.
+- **日本美術家連盟 若手作家制作活動支援給付金 2027年度** (was: `stretch_targets`) — Japan-based grant supporting emerging visual artists' production of new artwork in 2027.
+- **令和8年度 若手美術家の在外研修に対する助成** (was: `stretch_targets`) — Support for overseas residencies and training for young visual artists; relevant for inter
+- **Assemblage Art Fund 2026–2027 Grant Cycle** (was: `stretch_targets`) — Supports visual artists on experimental projects, though geographically limited to Salt La
+- **第13屆海外藝遊專案 (13th Overseas Arts Travel Project)** (was: `stretch_targets`) — International travel grant for artists to undertake cultural exchange and artistic develop
+- **スタートアップ助成 第1回** (was: `research_needed`) — Startup grant for emerging artists from Arts Council Tokyo; covers September 2026–August 2
+- **Startup Grant 3rd** (was: `research_needed`) — Tokyo-based startup grant for emerging individual artists
+- **Research Residency Program** (was: `research_needed`) — Tokyo residency program for international and local artists to conduct research on arts an
 - **石橋財団・国際交流基金 日本美術リサーチフェローシップ** (was: `research_needed`) — Research fellowship in Japanese art; supports visual artists and researchers conducting ar
 - **東京における多様な創造活動支援助成** (was: `research_needed`) — Tokyo metropolitan government grant supporting diverse creative activities and artists bas
-- **新進芸術家海外研修制度における日本文化発信・普及事業（Japanese Cultural Promotion Project under the Emerging Artists Overseas Training Program）** (was: `research_needed`) — Supports emerging artists conducting research and activities abroad with funding for trave
 - **SAW (14th Edition)** (was: `research_needed`) — Open call for interdisciplinary and participatory projects in Singapore's major arts week.
+- **Artistic Research Residency and Grant for a Project Related to the Archives of International Organisations** (was: `stretch_targets`) — Combines residency with grant funding for artistic research projects; accepts internationa
+- **Delfina Foundation Residency (India)** (was: `research_needed`) — Residency program for contemporary visual artists with international eligibility, though p
 - **2026年度 東京芸術文化創造発信助成 カテゴリーⅣ［長期助成］海外映画祭参加活動** (was: `research_needed`) — Tokyo government support for international festival participation could support visual art
-- **Artworks You'll Want to Display in Your Room #7** (was: `research_needed`) — Gallery open call for artwork exhibitions in Japan.
 - **Guruguru Exhibition #1** (was: `research_needed`) — Gallery open call for artwork in Japan.
+- **Artworks You'll Want to Display in Your Room #7** (was: `research_needed`) — Gallery open call for artwork exhibitions in Japan.
 - **りんごろごろごろ (Ringo Rogo Rogo)** (was: `publication_targets`) — Public open call for group exhibition, ongoing recruitment.
+- **2027年度 ソーシャリー・エンゲイジド・アート支援助成** (was: `stretch_targets`) — Supports socially engaged art activities with potential application to urban observation a
+- **Joan Mitchell Foundation Artist-in-Residence Program (2027)** (was: `research_needed`) — Supports visual artists for 2027 residencies with jury notification anticipated Fall 2026;
+- **アジア文化芸術フェローシップ** (was: `research_needed`) — Supports individual artists based in Japan or ASEAN countries conducting research, creativ
+- **東京芸術文化創造発信助成 カテゴリーⅡ、Ⅲ、Ⅳ ［長期助成］** (was: `stretch_targets`) — Multi-year Tokyo arts grant supporting long-term visual and cultural projects through 2029
+- **スタートアップ助成（個人向け）** (was: `stretch_targets`) — 個人アーティスト向けのスタートアップ助成で、新進気鋭の若手アーティストを対象としており、26歳の新興アーティストの活動基盤整備に適合している。 Amount: 30万円.
+- **東京芸術文化創造発信助成 カテゴリーI（単年助成）** (was: `stretch_targets`) — 芸術創造活動向けの助成で、東京拠点のアーティストの視覚芸術活動を支援する。
+- **東京芸術文化創造発信助成 カテゴリーIV（長期助成）海外映画祭参加活動** (was: `stretch_targets`) — 海外での芸術発信活動を支援する助成プログラムで、国際的な展開を目指すアーティストの活動に適合している。
+- **芸術文化による社会支援助成** (was: `stretch_targets`) — Support for arts and culture activities with social impact in Tokyo
+- **朝日新聞文化財団 芸術活動への助成** (was: `stretch_targets`) — 音楽・美術両部門で個人・団体のアーティストを支援する助成で、水彩画やイラストレーション表現の実現に適合している。 Amount: 数10万円～100万円（最大100万円）.
+- **文化藝術盛事基金 (Mega Arts and Cultural Events Fund)** (was: `stretch_targets`) — Government arts grant accepting applications for cultural events; applicant must submit 6 
 - **文化庁文化芸術振興費補助金2026** (was: `research_needed`) — Government arts promotion subsidy supporting visual artists and cultural activities with b
 - **芸術文化振興基金 (Arts and Culture Promotion Fund)** (was: `research_needed`) — Government arts grant supporting diverse cultural activities in Japan, accessible to resid
-- **Flower exhibition #6** (was: `research_needed`) — Themed gallery exhibition open call in Japan.
+- **公益財団法人小笠原敏晶記念財団 現代美術の翻訳助成** (was: `stretch_targets`) — Contemporary art grant for individual applicants with less than 3 years of professional ex
 - **Umi Exhibition #1** (was: `research_needed`) — Themed gallery exhibition open call in Japan.
-- **Sora Exhibition #1** (was: `research_needed`) — Themed gallery exhibition open call in Japan.
 - **Striped Exhibition #1** (was: `research_needed`) — Gallery exhibition open call in Japan.
+- **Flower exhibition #6** (was: `research_needed`) — Themed gallery exhibition open call in Japan.
+- **Sora Exhibition #1** (was: `research_needed`) — Themed gallery exhibition open call in Japan.
 - **Annual Salon Art Prize** (was: `competitions_awards`) — Prestigious international art competition with monthly winners, $50,000 in total prizes, e
+- **Harpo Foundation Grants for Visual Artists** (was: `stretch_targets`) — Direct support to under-recognized visual artists; age requirement (21+) met, but U.S.-bas
+- **現代芸術家助成制度 令和8年度募集** (was: `stretch_targets`) — Direct support for contemporary visual artists in Japan.
 - **Ishibashi Foundation Network Leader Fellowship Programme in Japanese Arts** (was: `research_needed`) — Fellowship for professionals in Japanese arts; applicant is a visual artist based in Tokyo
 - **The Meridian Award** (was: `competitions_awards`) — International award for contemporary artists in any medium; $1,000 unrestricted cash prize
 - **TOKYO MIDTOWN AWARD 2026 アートコンペ** (was: `stretch_targets`) — Tokyo-based art award with production subsidy for site-specific art works; applicants must
+- **海外派遣助成** (was: `research_needed`) — Japanese government grant for overseas deployment of cultural and arts professionals, supp
+- **国内クリエイター創作支援プログラム（2026年度）** (was: `research_needed`) — Government grant supporting new creative projects in media arts for emerging creators up t
+- **国内クリエイター発表支援プログラム（2026年度）** (was: `research_needed`) — Government grant for presenting completed works in media arts for creators age ~40 or unde
 - **Untitled group exhibition or submission call** (was: `research_needed`) — Art submission opportunity with email contact for interested artists.
+- **新進芸術家海外研修制度における日本文化発信・普及事業（Japanese Cultural Promotion Project under the Emerging Artists Overseas Training Program）** (was: `research_needed`) — Supports emerging artists conducting research and activities abroad with funding for trave
 - **Yonchome Cafe** (was: `research_needed`) — Koenji cafe with unverified exhibition program - insufficient information to assess as leg
+- **2027年度「アーティスト・イン・レジデンス プログラム」** (was: `research_needed`) — Artist-in-Residence program offering residency support for visual artists in Tokyo
+- **地域芸術文化活動応援助成** (was: `stretch_targets`) — Tokyo regional arts and culture activity support grant for individual artists contributing
+- **現代芸術振興助成** (was: `stretch_targets`) — Supports contemporary art creation and exhibition activities, accepts portfolio submission
 - **2026年東京展** (was: `research_needed`) — Tokyo-based open call exhibition accepting new submissions for 2026
+- **National Endowment for the Arts FY 27 Grants for Arts Projects** (was: `research_needed`) — U.S. government arts grant program; eligibility for international artists not explicitly s
+- **Individual Artist Program (IAP)** (was: `stretch_targets`) — Government arts grant for individual artists, though applicant would need to be Chicago-ba
+- **Saison Foundation Travel Grant** (was: `stretch_targets`) — Travel subsidy grant supporting artist travel expenses and international activities.
+- **NEA Grants for Arts Projects** (was: `stretch_targets`) — U.S. federal arts funding program; project start dates begin January 1, 2027, relevant for
+- **Watershed Studio Open Call** (was: `stretch_targets`) — Accepting applications for January 2026 to December 2027 residencies; supports visual arti
+- **Houston Arts Alliance - Support for Artists & Creative Individuals (SACI) Annual Grants** (was: `research_needed`) — Annual grant program for individual artists and creatives with grant term running through 
+- **2026「表演藝術國際發展專案」(2026 Performing Arts International Development Project)** (was: `stretch_targets`) — International arts development grant; artists can apply for projects facilitating cultural
 - **令和８年度芸術文化振興基金及び文化芸術振興費補助金 (Fiscal Year 2026 Arts and Culture Promotion Fund and Cultural Arts Promotion Subsidy)** (was: `stretch_targets`) — Government-funded grant program for diverse cultural and artistic activities in Japan
 - **NY公募展2026夏（NY Open Call Exhibition Summer 2026）** (was: `research_needed`) — International open call for summer 2026 accepting artwork submissions from artists worldwi
+- **Cité internationale des arts - Art, Society and Clinical Psychology Residency 2027** (was: `research_needed`) — European residency opportunity for 2027; supports visual and contemporary artists seeking 
 - **EIAF 2026–2027 Artist-in-Residence Program at 7artscafe** (was: `research_needed`) — Funded artist residency program in Japan offering substantial grant to support artistic in
+- **アーツカウンシル東京 芸術活動助成** (was: `stretch_targets`) — Supports Tokyo-based artists for creation and exhibition activities; individual artists ca
+- **アーツカウンシル東京 2026年度 芸術活動への助成** (was: `stretch_targets`) — Supports creative activities and artistic projects conducted in Tokyo, including exhibitio
+- **芸術文化助成** (was: `research_needed`) — Provides grants for young artist development and international cultural exchange activitie
+- **TAF Artist Award 2027 - South Asia 2027** (was: `research_needed`) — Open call for visual artists in South Asia region, though geographically outside Tokyo may
+- **Creative Capital Awards 2026** (was: `research_needed`) — Supports visual artists creating new works; no geographic restriction mentioned, but eligi
+- **State of the Art Prize** (was: `research_needed`) — Provides unrestricted grants to artists in all 50 states and territories; eligibility crit
+- **2026 State of the Art Prize** (was: `research_needed`) — Unrestricted grant for individual artists; however, limited to one artist per U.S. state, 
 - **Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...** (was: `research_needed`) — Residencies (found through targeted research).
-- **2026年度　交流助成（上期）** (was: `research_needed`) — Exchange and interaction grant for artists in 2026
 - **2026年度 東京芸術文化創造発信助成 カテゴリーⅢ（長期助成・単年助成第2期）創造環境向上活動** (was: `stretch_targets`) — Supports activities that improve creative environments for arts practitioners in Tokyo.
 - **2026年度 東京芸術文化鑑賞サポート助成** (was: `research_needed`) — Tokyo-based arts support program; accepts ongoing applications for creative activities.
+- **菁霖文化藝術基金會 (Chinlin Foundation of Culture and Arts)** (was: `stretch_targets`) — Foundation grant for cultural arts projects with application periods open in 2026.
+- **Tokyo Live & Stage Support Grant Issue 1** (was: `stretch_targets`) — Tokyo-based government arts grant, though focus may be performance-oriented
+- **第36期 全国税理士共栄会文化財団 助成募集** (was: `research_needed`) — Japan-based foundation supporting art activities, traditional arts, and cultural promotion
+- **海外展助成** (was: `research_needed`) — Japanese government grant for overseas exhibitions, supporting visual artists in presentin
 - **Picaresque Gallery** (was: `research_needed`) — Tokyo gallery/shop with art goods focus—uncertain positioning between commercial and exhib
+- **Paris | Kota Residency for Indonesia-based artists 2027** (was: `research_needed`) — Residency grant for Asia-Europe cultural exchange; specifically restricted to Indonesia-ba
 - **2026 Global Grant Cycle - Fellowships and Grants (General)** (was: `research_needed`) — ACC welcomes applications from artists proposing cultural exchange activities; supports vi
+- **Artist Support Programme 2026-27** (was: `stretch_targets`) — Provides direct monthly stipend support to individual artists for their creative projects 
 - **2026 ART CAPITAL Paris Grand Palais International Youth Academic Award** (was: `research_needed`) — International art competition recognizing youth artists in academic categories.
 - **Artist Project 2026** (was: `research_needed`) — Art fair bringing together over 250 independent artists for personal connections and exhib
 - **BALLOND'ESSAI Shimokitazawa** (was: `relationship_builders`) — Shimokitazawa gallery-attached coffee stand with confirmed exhibition program — proposal v
+- **2026年度　交流助成（上期）** (was: `research_needed`) — Exchange and interaction grant for artists in 2026
+- **NEW AIR 2026 - Open Call (Asia)** (was: `research_needed`) — 2-month residency in Japan with public presentation and community engagement opportunities
+- **アーティストの国際発信支援プログラム 2026年度第I期** (was: `research_needed`) — Government program supporting Japanese artists (including those based abroad) participatin
+- **公益財団法人 三菱ＵＦＪ信託地域文化財団 芸術活動への助成** (was: `research_needed`) — Japan-based foundation supporting visual exhibitions and cultural performances by domestic
 - **The 89th SHINSEISAKU Art Exhibition** (was: `research_needed`) — Institutional exhibition in Tokyo accepting artwork submissions.
+- **Creative Capital Award 2027** (was: `research_needed`) — Supports visual and performing artists to build careers; currently closed but may reopen.
+- **Arts Development Fund (藝能發展資助計劃)** (was: `research_needed`) — Supports visual artists and creative projects across multiple disciplines; applicant is an
+- **Illinois Creative Projects Grant** (was: `research_needed`) — State-level arts grant; eligibility for international or non-resident artists not specifie
 - **2026 Exhibitions at City of Toronto Cultural Centres & Galleries** (was: `research_needed`) — Public gallery exhibition opportunity for individual artists and groups to display work in
 - **第五回公募展「境界」-edge-** (was: `research_needed`) — Open call exhibition at Tokyo gallery with thematic focus suitable for visual artists.
 - **スクエア・ワールド2026 (Square World 2026)** (was: `publication_targets`) — Public open call for 2026 group exhibition at established gallery.
 - **ローズ・ローズ・ローズ (Rose Rose Rose)** (was: `publication_targets`) — Public open call for group exhibition at established Tokyo-area gallery.
 - **空色ターコイズ (Sorairo Turquoise)** (was: `publication_targets`) — Public open call for 2026 group exhibition.
+- **CAF賞 2026** (was: `competitions_awards`) — Student art award accepting any format and size with free entry, open to Japanese resident
+- **第5回福岡アートアワード** (was: `competitions_awards`) — Major art award for artists based in or active in Fukuoka; open call for diverse artistic 
 - **35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]** (was: `research_needed`) — Publishing / Small Press (found through targeted research).
+- **Creative Capital Award and State of the Art Prize** (was: `research_needed`) — U.S.-based grant program for individual artists; not geographically relevant for Tokyo-bas
+- **ACAC 2026 Artist-in-Residence Program - Mediator Track** (was: `research_needed`) — Residency program for research and creative practice; mediator track supports dialogue and
 - **小須戸ARTプロジェクト2026** (was: `research_needed`) — Artist residency or project participation opportunity for 2026 with specific deadlines.
+- **2026 Youth Arts Grant Program** (was: `research_needed`) — Not applicable—program is restricted to projects serving middle and high school students w
 - **AIR 3331** (was: `research_needed`) — Tokyo residency at established contemporary art center with strong geographic and thematic
+- **福岡亞洲美術館國際藝術家駐村計畫 (Fukuoka Asia Art Museum International Artist Residency Program)** (was: `research_needed`) — Japan-based residency program targeting artists seeking to build networks across Japan and
+- **SIAF 2027 500m美術館賞** (was: `competitions_awards`) — Open call for exhibition proposals with international eligibility; theme includes urban/en
+- **おかやまインクルーシブアワード2026 アート部門** (was: `competitions_awards`) — アート部門の公募で、受賞作品は街なかアートギャラリーに展示され、国際的な認知が得られる可能性がある
+- **Center Artist-in-Residence Program** (was: `research_needed`) — Experimental residency program for artists across all genres seeking research and producti
+- **Tokyo Biennale Open Call** (was: `relationship_builders`) — Major Tokyo biennial with project development support and accommodation suitable for conte
 - **NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW** (was: `research_needed`) — Residencies (found through targeted research).
+- **ACAC 2026 Artist-in-Residence Program - Creator Track** (was: `research_needed`) — Residency program accepting visual artists for research and production activities; open to
+- **アート・インキュベーション・プログラム 2026年度 CCBTアーティスト・フェロー募集（Art Incubation Program 2026 CCBT Artist Fellow）** (was: `research_needed`) — Tokyo-based artist residency and fellowship program supporting contemporary artists.
+- **【第3回】PREGIO ART CONTEST** (was: `competitions_awards`) — Open call for emerging artists; winning works exhibited and sold in gallery; significant p
+- **関西アートコンペ2026** (was: `competitions_awards`) — Osaka-based art competition open to all media; supports emerging artists with online submi
+- **Sado Island International Artist Residency** (was: `research_needed`) — Multi-month artist residency with studio space and technical support for visual artists in
 - **2026年度 渡航・旅費等の助成（上期）** (was: `research_needed`) — Foundation grant supporting travel and travel expenses for cultural and arts activities; a
+- **Colors -色彩のコンポジション-** (was: `research_needed`) — Open call accepting 2-5 works per artist with flexible display style; exhibition July 6-11
+- **アートパラ深川大賞2026** (was: `competitions_awards`) — Community art festival with open call for wall-mounted artworks, any theme welcome, fits e
+- **Tokyo Shibuya Koen-dori Gallery Exhibition** (was: `relationship_builders`) — Gallery exhibition in Tokyo running June-August 2026 with workshops and interactive progra
 - **Hayama Artist Residency** (was: `research_needed`) — Hayama Artist Residency may matter later if your portfolio package and project statement b
+- **Hiroshima MoCA FIVE 第2回公募展** (was: `research_needed`) — Museum-supported open call for artists with theme of 'memory' aligned with artist's archit
 - **Connection Through Culture (CTC)** (was: `research_needed`) — Supports international artistic collaboration between UK and China, open to Chinese artist
+- **スタジオアーティスト公募** (was: `research_needed`) — Studio artist residency open call for visual artists at an international arts center in Ja
+- **ExPLOT Studio 2026 シェアスタジオ入居者募集** (was: `research_needed`) — Shared studio residency recruitment for artists seeking studio space in the Kanto region.
+- **公募展JOYOアートギャラリー2026** (was: `competitions_awards`) — Public open call for art submissions; open to ages 15+ with no residency restrictions.
+- **令和8年度（2026年度）文化庁メディア芸術クリエイター育成支援事業 国内クリエイター発表支援プログラム 募集** (was: `research_needed`) — National presentation support program for domestic media artists and creators in Japan.
+- **ART FAIR TOKYO 2027** (was: `research_needed`) — Major contemporary art fair accepting gallery and institutional applications; platform for
 - **Art Competition (California-based)** (was: `research_needed`) — International art competition with clear submission deadline accessible to international a
 - **第60回 記念創展** (was: `competitions_awards`) — Japanese national art competition with prizes including文部科学大臣賞, accepting diverse mediums.
+- **PARADISE AIR - RePAIR Program** (was: `research_needed`) — Artist residency program supporting self-funded creative practitioners seeking production 
+- **ゆいぽーとアーティスト・イン・レジデンス 招聘プログラム2027春季（長期プログラム）** (was: `research_needed`) — Long-term artist residency program supporting visual artists with studio space and communi
 - **2026 Asian Heritage Cultural Arts Exhibition (2026 亞裔傳統文化藝術展)** (was: `research_needed`) — Asian cultural arts exhibition in Toronto during May 2026, relevant for diaspora-based Asi
+- **令和8年度（2026年度）文化庁メディア芸術クリエイター育成支援事業 国内クリエイター創作支援プログラム 募集** (was: `research_needed`) — National creator support program for domestic media artists and creators in Japan.
+- **Bluerider ART 2026 第二屆85後台灣青年藝術家徵件計畫** (was: `competitions_awards`) — Open call for Taiwan-based artists born 1985 onwards; gallery-affiliated opportunity with 
+- **Akiyoshidai International Art Village - 2026 Residency Fellowship Program** (was: `research_needed`) — Multi-period residency fellowship for domestic and international artists across all genres
 - **アーツカウンシル東京 2025年度 第3回 スタートアップ助成** (was: `research_needed`) — Startup grant for emerging artists in Tokyo; directly supports new practitioners expanding
 - **2026・ZERO展** (was: `competitions_awards`) — Annual juried competition accepting diverse media; held at Osaka City Museum of Art.
+- **Artist Support Program 2026 (Term I)** (was: `research_needed`) — International artist support program aimed at enhancing reputation of Japanese contemporar
+- **Residency Programs 2027 Open Call** (was: `research_needed`) — Residency program for visual artists based in or connected to Tokyo; supports development 
+- **ART FAIR NAGOYA 2026** (was: `research_needed`) — Gallery-based art fair in Nagoya in February 2026 accepting gallery and artist submissions
+- **第26回 アートギャラリーホーム** (was: `competitions_awards`) — Young artist support program with wall-mountable artwork focus and exhibition opportunitie
+- **GALLERY AND LINKS 81 作家募集展示** (was: `research_needed`) — Open call for artists to exhibit 2–5 works on a dedicated wall (1.5–2.0m), flexible displa
+- **かま展 2026** (was: `relationship_builders`) — Community art exhibition in a café gallery setting accepting diverse artworks with jury re
+- **展示会出展助成事業** (was: `research_needed`) — Tokyo Metropolitan Government exhibition assistance supports SMEs in marketing and exhibit
 - **2026 松濤美術館公募展｜渋谷区立松濤美術館** (was: `research_needed`) — Open Calls / Contests (found through targeted research).
+- **皮革のまち高木 滞在制作活動支援** (was: `research_needed`) — Residency for artists exploring leather as material and sustainable lifestyle themes; offe
+- **Center アーティスト・イン・レジデンス 滞在制作募集** (was: `research_needed`) — Alternative art space seeking experimental artists and researchers; offers artist-focused 
 - **2026南瑛獎** (was: `competitions_awards`) — Taiwan art award open call for visual artists.
 - **Clavis Publishing Submissions** (was: `research_needed`) — Clavis Publishing Submissions is mainly useful as a benchmark unless it clearly accepts pr
+- **ワッカアートアワード2026** (was: `competitions_awards`) — Commercial facility art exhibition and curation proposal; directly relevant to GEGYjiji's 
+- **ZERO展 2026 (ZERO Exhibition 2026)** (was: `competitions_awards`) — Open call with no size restrictions or age/experience limits; emphasizes artwork quality; 
+- **2027台北藝術進駐** (was: `research_needed`) — Major international artist residency program with four categories including domestic Taiwa
+- **Tokyo Biennale Open Call – Social Dive 2027** (was: `relationship_builders`) — Open call for Tokyo-based art projects with support for travel, accommodation, and project
+- **ART JOB FAIR 2027** (was: `research_needed`) — Job fair for cultural arts organizations; networking opportunity for artists seeking colla
+- **第21回 西会津国際芸術村公募展 2026** (was: `competitions_awards`) — International art village open call with cash awards for emerging artists.
+- **藝大アートプラザ・アートアワード受賞者招待展2026** (was: `research_needed`) — Tokyo-based gallery showcase for emerging and established artists across media.
 - **みなとみらいギャラリー入選作品展** (was: `research_needed`) — Selected works exhibition at Minato Mirai gallery showing artwork accepted through open ca
 - **ハマカルアートプロジェクト2026** (was: `research_needed`) — Artist residency program supporting studio production in Japan, open to application.
+- **キャリアアップ支援助成** (was: `research_needed`) — Career development support subsidy for creative professionals in Japan.
 - **公益財団法人小笠原敏晶記念財団 2026年度 渡航・旅費等の助成（上期）** (was: `research_needed`) — Foundation grant supporting travel and project expenses for artists engaging in cultural a
 - **Connections Through Culture 2026 (文化连线基金)** (was: `research_needed`) — Supports international cultural collaboration and creative workers including artists acros
+- **新・今日の作家展** (was: `research_needed`) — Recurring exhibition program featuring emerging contemporary artists at Yokohama's major m
 - **TOKAS-Emerging 2027** (was: `research_needed`) — Open call exhibition for Japan-based artists under 35, eligible for Tokyo-based artist you
+- **第4回 国指定名勝 おくのほそ道の風景地 草加松原展 公募** (was: `competitions_awards`) — Landscape scenery exhibition based on designated scenic heritage; aligns with urban observ
 - **OPEN World Exhibition 2026** (was: `research_needed`) — International cross-cultural art exhibition in Tokyo featuring diverse contemporary artist
+- **秋吉台国際芸術村 2026年度レジデンス・フェローシップ募集** (was: `research_needed`) — Competitive fellowship residency accepting all artistic disciplines; offers 1-month stays 
 - **2026 ZERO展 本展** (was: `research_needed`) — Major Osaka-based open call with no size restrictions, evaluating artistic merit regardles
 - **SHIBUYA AWARDS 2026-27** (was: `competitions_awards`) — Tokyo-based design and art award supporting emerging creative practitioners.
+- **かま展（鎌倉美術展）** (was: `relationship_builders`) — Café gallery exhibition in Kamakura with art display and jury selection for various media.
+- **Art Fair Beppu Spring 2027** (was: `research_needed`) — Art fair with artist booths offering travel and accommodation support; accessible venue fo
+- **世田谷美術館×アートネットワーク・ジャパン「Performance Residence in Museum 2026-27」** (was: `research_needed`) — Performance-focused residency supporting emerging artists to expand creative practice thro
 - **OM System Rail Art Submission** (was: `publication_targets`) — Open submission call for artists with ¥10,000 participation fee for up to 4 pieces of self
 - **第10屆溫哥華藝術博覽會 (Art Vancouver 2026)** (was: `research_needed`) — Tenth edition of Vancouver Art Fair showcasing contemporary art and design from Canadian a
+- **展示期間 2026年6月8日〜6月14日（福岡県在住・活動者対象）** (was: `research_needed`) — Exhibition opportunity for artists based in or active in Fukuoka Prefecture.
 - **Creative Space Hayashi** (was: `research_needed`) — Yokohama exhibition space with minimal verifiable information about programming, submissio
+- **2027年蕭壠文化園區國際藝術進駐計畫** (was: `research_needed`) — International artist residency with spring and autumn sessions accepting global artists of
+- **Artist-in-Residence Programme 2026-2027** (was: `stretch_targets`) — International artist residency program accepting diverse art forms and practices.
+- **2026 國內外藝術家交流計畫｜海外駐村徵件** (was: `stretch_targets`) — International artist residency program selecting 2 Taiwan-based young visual artists for 1
+- **リサーチ・レジデンス・プログラム** (was: `research_needed`) — Research-focused residency program for Japan-based creators offering multiple session oppo
+- **CCBT 2026年度 アート・インキュベーション・プログラム** (was: `research_needed`) — International residency for contemporary artists with 5-10 years post-graduation experienc
+- **東京國立新美術館展覽 (Tokyo National Art Center Exhibition) / 亞洲藝術新秀獎暨得獎作品展 (Asian Emerging Artists Award and Exhibition)** (was: `research_needed`) — Tokyo-based institutional exhibition opportunity for visual artists with fallback consider
+- **三島満願芸術祭2026 アーティスト・イン・レジデンス** (was: `research_needed`) — Artist residency program recruiting 3 artists for 30+ days residency (Sept-Dec) with exhib
+- **横浜市民ギャラリー U35若手芸術家支援事業** (was: `research_needed`) — Young artist support program at a major Yokohama gallery that features emerging artists in
+- **《我爱北京》2026全球征稿活动** (was: `research_needed`) — Global open call inviting artists to illustrate letters about Beijing using observation an
+- **「都美セレクション グループ展 2027」企画公募** (was: `research_needed`) — Tokyo Metropolitan Museum of Art group exhibition open call for curated proposals.
+- **Institut français - AIR Program 26-27** (was: `research_needed`) — International artist residency program with two-stage selection process (document review a
+- **AIR Program 26-27** (was: `research_needed`) — International residency program open to artists, supporting creative practice across disci
+- **The Painterly Artist Online Exhibition 2026** (was: `research_needed`) — Curated online exhibition specifically seeking traditional hand-made media with emphasis o
+- **若手アーティスト支援プログラムVoyage 2026** (was: `research_needed`) — Emerging artist support program with exhibition in museum exhibition space for artists bor
+- **第50回 北海道平和美術展** (was: `research_needed`) — Group exhibition at civic gallery showing diverse art forms; peace art theme may appeal to
+- **金沢21世紀美術館 市民ギャラリー** (was: `research_needed`) — Public gallery space in Kanazawa for citizens' exhibitions and creative activities, with t
+- **第4回 日本国際芸術祭 U-35国際公募展 2026** (was: `research_needed`) — International art festival open call with significant prize for artists under 35.
+- **A4 Residency/Art Center Program** (was: `stretch_targets`) — Community-engaged residency program supporting diverse artistic practices with emphasis on
+- **シェアスペースルルマル 公募展示 2026年4月** (was: `research_needed`) — 公募形式の展示会で、絵画・イラスト・写真・立体作品など多彩なジャンルを受け付けており、作家と来場者の直接交流を重視している
 - **3 Top Book Publishers in Tokyo in 2026** (was: `publication_targets`) — Publishing / Small Press (found through targeted research).
 - **3 Top Book Publishers in Japan in 2026** (was: `publication_targets`) — Publishing / Small Press (found through targeted research).
 - **Art Vancouver 2026** (was: `stretch_targets`) — Major art fair on Canada's West Coast presenting contemporary art and design works, access
+- **班夫藝術中心 跨文化音樂駐村計畫 - 聲音編織2027** (was: `research_needed`) — International residency accepting artists from diverse backgrounds; while music-focused, o
+- **Saison Artist in Residence Visiting Fellows 2026** (was: `stretch_targets`) — International residency program providing travel support and accommodation for artists and
 - **Gallery Tetoteto Open Call** (was: `research_needed`) — Tokyo gallery accepting submissions for exhibitions through December 2026 with flexible di
+- **Tanoto Art Foundation First Major Exhibition** (was: `research_needed`) — Exhibition opening January 21, 2026 during Singapore Art Week featuring artistic practices
 - **2026年度下期芸術文化助成（国内）** (was: `research_needed`) — Government grant supporting emerging artist development and international cultural exchang
+- **福岡アート・アワード2026** (was: `research_needed`) — Institutional art award by Fukuoka City Art Museum with portfolio submission and exhibitio
+- **2026全国中青年创新艺术展** (was: `research_needed`) — National contemporary art exhibition accepting innovative artistic practices open to mid-c
 - **第9回 国際公募 東京アート工芸2026** (was: `research_needed`) — International art and craft open call exhibition in Tokyo, May 14-24, 2026.
+- **企画公募「都美セレクション グループ展 2027」** (was: `research_needed`) — Group exhibition open call matching her interest in group shows and contemporary art conte
+- **第3回 PREGIO ART CONTEST** (was: `competitions_awards`) — Major art competition with prizes (up to ¥1M) and exhibition at gallery; open to emerging 
+- **ART FAIR ASIA FUKUOKA 2026** (was: `research_needed`) — Open call for next-generation artists with no restrictions on nationality, age, theme, or 
 - **アートアワードトーキョー丸の内2026（Art Award Tokyo Marunouchi 2026）** (was: `competitions_awards`) — 20th iteration of Tokyo-based award targeting emerging contemporary artists; scouts talent
 - **アートオリンピア** (was: `research_needed`) — International art competition open to emerging artists with significant prize support, ope
+- **minus20degree (8th edition)** (was: `publication_targets`) — Open call for visual artists including sound art, video art, installation, and land art; s
 - **アートアワードトーキョー丸の内2026** (was: `research_needed`) — Tokyo emerging artist exhibition showcasing next-generation talent in central Marunouchi d
+- **Center line art festival Tokyo 2026 国際公募展「Space Sharing Program」** (was: `research_needed`) — 東京での国際公募展で、絵画・造形・映像など多様なメディアを受け付ける2026年9月開催イベント。
 - **现代造形表现艺术家论坛展** (was: `research_needed`) — Contemporary art exhibition accepting 2D works and installation art
 - **Tokyo Arts and Space (TOKAS) Residency + Grant** (was: `research_needed`) — Tokyo Metropolitan arts residency with stipend. Studio space + ¥100k–500k grant support. I
+- **第5回 FROM ARTIST展＠愛媛** (was: `research_needed`) — Artist exhibition event held May 26-31, 2026 in Ehime showcasing artworks across media.
+- **KOBE ART MARCHÉ 2026 公募展 第1回『AI ART meets Art Fair』** (was: `research_needed`) — Art fair with open call accepting various visual mediums; hybrid medium experimentation re
 - **Youth ArtRich 2026 Call for Artists** (was: `competitions_awards`) — Community art celebration and exhibition call, though restricted to youth ages 3-19.
+- **Hong Kong Performing Arts Expo 2026 - Global Open Call** (was: `research_needed`) — Global open call for international artists and arts groups to submit performance projects;
 - **E.SUN Art Awards 2026** (was: `research_needed`) — International open call accepting foreign artists with significant prize money and exhibit
 - **SIAW 55th Annual Exhibition** (was: `research_needed`) — Large-scale multi-medium art exhibition showcasing diverse Chinese artistic creation with 
+- **美の起原展** (was: `research_needed`) — Winners receive solo exhibition at銀座画廊; major prize opportunity for emerging artists in To
+- **2026 亞裔傳統文化藝術展 (2026 Asian Traditional Culture Art Exhibition)** (was: `research_needed`) — Asian traditional culture art exhibition open to artists; relevant for diaspora artist com
 - **OM SYSTEM PLAZA 2026年2月～3月開催分** (was: `research_needed`) — Gallery accepting submissions for early 2026 exhibition dates.
 - **新世紀展 2026** (was: `research_needed`) — Osaka-based institutional exhibition accepting submissions from diverse art backgrounds.
+- **Colours of Humanity Arts Exhibition 2026** (was: `research_needed`) — International open call accepting diverse artworks from creatives, includes Ontario submis
 - **SCA 2026 Open International Online Juried Exhibition** (was: `research_needed`) — International online juried exhibition welcoming art submissions from across the globe sho
 - **Tokyo Contemporary Art Award 2024–2026 受賞記念展「湿地」** (was: `relationship_builders`) — Tokyo-based contemporary art award and exhibition at major Tokyo museum, recognizing mid-c
 - **國際藝術大賞東京展2026國際徵件展** (was: `competitions_awards`) — International art competition with Tokyo exhibition venue
 - **アートの交差展 vol.6 (Art Intersection Exhibition vol.6)** (was: `research_needed`) — Tokyo gallery exhibition open call for contemporary artists.
+- **SICF27（第27回スパイラル・インディペンデント・クリエイターズ・フェスティバル）** (was: `research_needed`) — Public call art festival in Omotesandō with EXHIBITION and MARKET sections supporting emer
 - **open call for lgbtq+ artist residency at nina idyllwild** (was: `research_needed`) — Candidate link discovered from ArtConnect Open Calls.
 - **residency open call for artists based in the philippines** (was: `research_needed`) — Candidate link discovered from ArtConnect Open Calls.
 - **SICF24（スパイラル・インディペンデント・クリエイターズ・フェスティバル24）** (was: `research_needed`) — Non-genre art festival featuring 170 participating artists; open to emerging artists and a
+- **KOBE ART MARCHÉ 2026 - Artist meets Art Fair（第11回）** (was: `research_needed`) — Art fair supporting emerging artists with exhibition and sales opportunities
 - **The 59th TABUROU Art Exhibition** (was: `research_needed`) — Nationwide open call art exhibition in Japan during June-July 2026.
+- **3つの公募展（グループ展）** (was: `research_needed`) — Group exhibition open call accepting artists; fits GEGYjiji's interest in group shows and 
 - **Toronto Biennial of Art 2026** (was: `research_needed`) — Major contemporary art biennial in Toronto running September-December 2026, though specifi
 - **関西アート公募展（若手アーティスト向け）** (was: `research_needed`) — Kansai-based open call supporting emerging artists with entries from diverse media includi
 - **ZERO展 2026** (was: `research_needed`) — Established annual art exhibition in its 26th year, open to emerging and established artis
@@ -198,6 +370,7 @@ pre_gate_bucket for reversal if richer data is added later.
 - **Gallery HANA Shimokitazawa** (was: `research_needed`) — Small Shimokitazawa gallery with insufficient public information to assess exhibition stan
 - **VACANT** (was: `research_needed`) — VACANT is a Tokyo event/gallery/pop-up space with no visible artist application process or
 - **BONUS TRACK** (was: `relationship_builders`) — Community market/event space in Shimokitazawa that may host rotating exhibitions or pop-up
+- **Creative Capital Award** (was: `research_needed`) — Unrestricted project funding for individual artists; 2026 and 2027 cycles mentioned but el
 - **Cafe Mame-Hico** (was: `relationship_builders`) — Tokyo cafe with gallery wall space - minimal information available, unclear exhibition pro
 - **Open Calls for Artists** (was: `research_needed`) — Open Calls for Artists is worth checking because open calls can turn existing portfolio wo
 - **公募美術団体 都展|公募美術団体 東京都民美術展運営会（略称 ...** (was: `research_needed`) — 公募美術団体 都展|公募美術団体 東京都民美術展運営会（略称 ... is worth checking because open calls can turn existing 
@@ -215,6 +388,8 @@ pre_gate_bucket for reversal if richer data is added later.
 - **Open Call for Artists! Tokyo Biennale 2025 "Social Dive"** (was: `research_needed`) — Open Call for Artists! Tokyo Biennale 2025 "Social Dive" may matter later if your portfoli
 - **AIR_J Open Calls** (was: `research_needed`) — AIR_J Open Calls may matter later if your portfolio package and project statement become s
 - **reload Shimokitazawa** (was: `relationship_builders`) — A commercial popup space in Shimokitazawa with insufficient information about artist oppor
+- **溫哥華華人藝術家協會2024年會員年展 (Vancouver Chinese Artists Federation 2024 Member Annual Exhibition)** (was: `research_needed`) — Vancouver-based Chinese artists federation exhibition; relevant for diaspora artist commun
+- **Cedar Ridge Creative Centre Gallery Program** (was: `research_needed`) — Gallery program accepting visual artists for month-long exhibitions scheduled throughout 2
 - **TOKAS レジデンシー 4つのレジデンス・プログラム公募** (was: `research_needed`) — Residency program in Tokyo supporting visual artists with studio, living expenses, and pro
 - **open call for fall residency** (was: `research_needed`) — Candidate link discovered from ArtConnect Open Calls.
 - **OPEN CALL FOR ARTISTS - 2026** (was: `research_needed`) — Open theme call for artists of all nationalities and mediums, including physical exhibitio
@@ -222,7 +397,6 @@ pre_gate_bucket for reversal if richer data is added later.
 - **小須戸ARTプロジェクト2026参加アーティスト募集** (was: `research_needed`) — Open call for artists participating in art project; may include exhibition and residency o
 - **ART MARKET 2023（OIL by 美術手帖）** (was: `research_needed`) — Art market combining online and offline viewing opportunities for contemporary art sales.
 - **Cafe Gallery HATTIFNATT** (was: `relationship_builders`) — Koenji neighborhood cafe gallery with casual exhibition space—comfortable atmosphere but u
-- **3つの公募展（グループ展）** (was: `publication_targets`) — Group exhibition open call accepting artists; fits GEGYjiji's interest in group shows and 
 - **U25 Art Contest 2026** (was: `research_needed`) — Tokyo-based art competition for emerging artists; part of Sumida Five Colors Arts Festival
 - **ERA Shimokitazawa** (was: `relationship_builders`) — Alternative culture venue in Shimokitazawa — events, exhibitions, and the kind of art-musi
 - **Cafe Cross Point** (was: `relationship_builders`) — A Koenji cafe gallery with minimal verifiable information and unclear exhibition standards
@@ -237,8 +411,11 @@ pre_gate_bucket for reversal if richer data is added later.
 - **芸術文化振興基金** (was: `research_needed`) — Government arts promotion fund supporting visual artists' creative activities, exhibitions
 - **Artist Residency Tokyo 2027** (was: `research_needed`) — Residency program in Tokyo offering stipend support for individual artists during 2026/27.
 - **Artist in Residence program in Paris 2026/2027** (was: `research_needed`) — International residency program offering stipend support for artists; explicit mention of 
-- **Creators for Tomorrow 2026 / 藝術培育計劃** (was: `research_needed`) — Nurturing grant program for visual and cross-disciplinary artists; HK-based institution se
 - **New York Fellowship** (was: `research_needed`) — A fully funded program designed to promote cultural exchange between Asia and the US, enab
+- **Creators for Tomorrow 2026 / 藝術培育計劃** (was: `research_needed`) — Nurturing grant program for visual and cross-disciplinary artists; HK-based institution se
 - **2026 Kyoto Museum International Art Grand Exhibition** (was: `research_needed`) — International art competition hosted in Japan (Kyoto); relevant for Tokyo-based artist see
+- **【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...** (was: `research_needed`) — Residencies (found through targeted research).
+- **NEW AIR** (was: `research_needed`) — NEW AIR may matter later if your portfolio package and project statement become strong eno
 - **2026年度 第1回 スタートアップ助成** (was: `research_needed`) — Startup grant for arts projects; potentially relevant for emerging artists launching new c
+- **2026「OPEN World Exhibition」** (was: `research_needed`) — Cross-cultural artistic dialogue exhibition at Toyosu Civic Center, April 17-22, 2026, acc
 - **スタートアップ助成 (Startup Grant)** (was: `research_needed`) — Arts Council Tokyo program supporting emerging artists; potentially suitable for early-car

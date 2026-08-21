@@ -1,0 +1,36 @@
+{
+  "venue_name": "City of Seattle Arts Department",
+  "venue_slug": "city_of_seattle_arts_department",
+  "venue_type": "artist opportunity venue",
+  "city": "Seattle",
+  "country": "",
+  "website": "https://www.seattle.gov/documents/Departments/Arts/Downloads/Grants/Youth%20Arts/2026/2026_01_27-Youth%20Arts-Guidelines-zh.pdf",
+  "source_links": [
+    "https://www.seattle.gov/documents/Departments/Arts/Downloads/Grants/Youth%20Arts/2026/2026_01_27-Youth%20Arts-Guidelines-zh.pdf"
+  ],
+  "categories_seen": [
+    "Grant"
+  ],
+  "accepts_unsolicited_work": "unknown",
+  "submission_style": "unknown",
+  "typical_artists": [],
+  "typical_mediums": [],
+  "known_aesthetic": [],
+  "price_level": "unknown",
+  "risk_notes": [],
+  "fit_notes": [],
+  "verification_notes": [
+    "Automatically created from opportunity data.",
+    "Needs manual/web research before being treated as verified."
+  ],
+  "missing_information": [
+    "contact",
+    "submission process"
+  ],
+  "opportunity_titles": [
+    "2026 Youth Arts Grant Program"
+  ],
+  "last_researched": "",
+  "created_at": "2026-08-21",
+  "updated_at": "2026-08-21"
+}

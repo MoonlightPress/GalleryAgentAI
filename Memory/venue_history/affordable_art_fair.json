@@ -1,0 +1,17 @@
+{
+  "venue_name": "Affordable Art Fair",
+  "venue_slug": "affordable_art_fair",
+  "memory_version": 1,
+  "summary": "Venue type: market / popup / booth Venue still needs deeper aesthetic research.",
+  "last_updated": "2026-08-21",
+  "confidence": "low",
+  "future_research": [
+    "contact",
+    "deadline",
+    "fees",
+    "submission process"
+  ],
+  "curatorial_direction": [],
+  "artist_overlap_signals": [],
+  "notes": []
+}

@@ -1,7 +1,7 @@
 # Watercolor Opportunity Conversion Report
 
 Converted text fields: 3
-Boosted watercolor/works-on-paper matches: 717
+Boosted watercolor/works-on-paper matches: 1256
 Demoted photography-only matches: 2
 
 ## Top Watercolor-Adjusted Opportunities
@@ -23,6 +23,7 @@ Demoted photography-only matches: 2
 - **World Illustration Awards** — watercolor score 10; hits: watercolor, works on paper, illustration, paper
 - **Tokyo Illustrators Society** — watercolor score 10; hits: watercolor, works on paper, illustration, paper
 - **Bologna Children's Book Fair Illustrators Exhibition** — watercolor score 10; hits: watercolor, works on paper, illustration, paper
+- **Pinpoint Gallery** — watercolor score 10; hits: watercolor, works on paper, gallery, artist book, illustration, paper
 - **水彩アートの祭典** — watercolor score 10; hits: watercolor
 - **Mograg Gallery** — watercolor score 10; hits: gallery
 - **HATTIFNATT Koenji Cafe Gallery** — watercolor score 10; hits: painting, gallery, illustration
@@ -30,4 +31,3 @@ Demoted photography-only matches: 2
 - **第50届悠美会国际美术展** — watercolor score 10; hits: watercolor, painting
 - **第1回 お気に入りのアナログ画材で塗ろう！3色イラスト公募展（1st Favorite Analog Media 3-Color Illustration Open Call）** — watercolor score 10; hits: watercolor, illustration
 - **絵の現在 選抜展（Ienoima Selection Exhibition）** — watercolor score 10; hits: watercolor, gallery, zine
-- **Watercolors 2026** — watercolor score 10; hits: watercolor

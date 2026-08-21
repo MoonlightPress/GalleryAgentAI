@@ -31,6 +31,15 @@
         "why": "Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors."
       },
       {
+        "title": "TOKYO ART BOOK FAIR 2026",
+        "score": 8.6,
+        "differentiated_score": 10.59,
+        "hit_nodes": [
+          "TOKYO ART BOOK FAIR"
+        ],
+        "why": "TOKYO ART BOOK FAIR 2026 takes artist-published work and zines — your daily watercolor practice translates directly into a booklet or artist edition format, and the fair sits inside a contemporary art museum in your city, cutting out travel and setup costs. Check their submission deadline and guidelines for zine/artist book dimensions, then prepare 4–6 representative pages from your urban watercolor diary to propose as a small edition or consignment series."
+      },
+      {
         "title": "MOUNT ZINE",
         "score": 9.2,
         "differentiated_score": 10.51,
@@ -40,13 +49,13 @@
         "why": "A permanent zine shop (not a one-off fair) that accepts all genres with no fee and no screening, stocking 150+ titles — a clean ambient-visibility target for artist-book or print work. Recruitment opens twice yearly; the next window is autumn 2026."
       },
       {
-        "title": "TOKYO ART BOOK FAIR 2026",
+        "title": "TOKYO ART BOOK FAIR 16th edition (2027)",
         "score": 8.6,
-        "differentiated_score": 10.49,
+        "differentiated_score": 10.22,
         "hit_nodes": [
           "TOKYO ART BOOK FAIR"
         ],
-        "why": "TOKYO ART BOOK FAIR 2026 takes artist-published work and zines — your daily watercolor practice translates directly into a booklet or artist edition format, and the fair sits inside a contemporary art museum in your city, cutting out travel and setup costs. Check their submission deadline and guidelines for zine/artist book dimensions, then prepare 4–6 representative pages from your urban watercolor diary to propose as a small edition or consignment series."
+        "why": "Major art book and zine fair in Tokyo featuring international art publishers and independent publications, ideal for illustration and artist book creators."
       },
       {
         "title": "flotsam books",
@@ -58,6 +67,24 @@
         "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts"
       },
       {
+        "title": "TOKIO ART BOOK FAIR 2026 by TOKYO ART BOOK FAIR",
+        "score": 8.6,
+        "differentiated_score": 10.1,
+        "hit_nodes": [
+          "TOKYO ART BOOK FAIR"
+        ],
+        "why": "Art book and zine fair gathering 52 domestic and international artists, publishers, galleries; ideal for artist books and zine publication."
+      },
+      {
+        "title": "桜Exhibition2026",
+        "score": 7.4,
+        "differentiated_score": 8.72,
+        "hit_nodes": [
+          "POST"
+        ],
+        "why": "Group exhibition with merchandise sales including posters, acrylic illustration plates, and catalogs suitable for watercolor/illustration artists."
+      },
+      {
         "title": "POST",
         "score": 7.3,
         "differentiated_score": 8.51,
@@ -67,13 +94,31 @@
         "why": "Bookshop galleries attract culturally-engaged viewers who appreciate documentation and craft without demanding heavy conceptual frameworks. Your work's illustrative qualities are an asset here, not a liability."
       },
       {
-        "title": "桜Exhibition2026",
-        "score": 6.9,
-        "differentiated_score": 8.1,
+        "title": "IlloBoom! 2026 第三届插画峰峰赛 (IlloBoom! 2026 3rd Annual Illustration Summit Challenge)",
+        "score": 7.0,
+        "differentiated_score": 7.48,
         "hit_nodes": [
           "POST"
         ],
-        "why": "Group exhibition with merchandise sales including posters, acrylic illustration plates, and catalogs suitable for watercolor/illustration artists."
+        "why": "International illustration competition with industry-focused judging panel and post-competition networking mechanism connecting winners to publishers and design directors."
+      },
+      {
+        "title": "CCBT 2026年度 アート・インキュベーション・プログラム",
+        "score": 6.7,
+        "differentiated_score": 7.48,
+        "hit_nodes": [
+          "POST"
+        ],
+        "why": "International residency for contemporary artists with 5-10 years post-graduation experience; offers 3-month research residency in Brooklyn."
+      },
+      {
+        "title": "ギンザ・グラフィック・ギャラリー第415回企画展 ダフィ・クーネ：ポスターを構築する",
+        "score": 6.4,
+        "differentiated_score": 6.76,
+        "hit_nodes": [
+          "POST"
+        ],
+        "why": "Ginza Graphics Gallery exhibition featuring poster design and visual composition work relevant to illustration practice."
       },
       {
         "title": "shashasha",
@@ -95,8 +140,8 @@
       },
       {
         "title": "Exhibition in Japan (October 16–19, 2026)",
-        "score": 2.0,
-        "differentiated_score": 2.6,
+        "score": 2.2,
+        "differentiated_score": 2.9,
         "hit_nodes": [
           "POST"
         ],
@@ -210,6 +255,15 @@
         "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts"
       },
       {
+        "title": "桜Exhibition2026",
+        "score": 7.4,
+        "differentiated_score": 8.72,
+        "hit_nodes": [
+          "POST"
+        ],
+        "why": "Group exhibition with merchandise sales including posters, acrylic illustration plates, and catalogs suitable for watercolor/illustration artists."
+      },
+      {
         "title": "POST",
         "score": 7.3,
         "differentiated_score": 8.51,
@@ -219,18 +273,36 @@
         "why": "Bookshop galleries attract culturally-engaged viewers who appreciate documentation and craft without demanding heavy conceptual frameworks. Your work's illustrative qualities are an asset here, not a liability."
       },
       {
-        "title": "桜Exhibition2026",
-        "score": 6.9,
-        "differentiated_score": 8.1,
+        "title": "IlloBoom! 2026 第三届插画峰峰赛 (IlloBoom! 2026 3rd Annual Illustration Summit Challenge)",
+        "score": 7.0,
+        "differentiated_score": 7.48,
         "hit_nodes": [
           "POST"
         ],
-        "why": "Group exhibition with merchandise sales including posters, acrylic illustration plates, and catalogs suitable for watercolor/illustration artists."
+        "why": "International illustration competition with industry-focused judging panel and post-competition networking mechanism connecting winners to publishers and design directors."
+      },
+      {
+        "title": "CCBT 2026年度 アート・インキュベーション・プログラム",
+        "score": 6.7,
+        "differentiated_score": 7.48,
+        "hit_nodes": [
+          "POST"
+        ],
+        "why": "International residency for contemporary artists with 5-10 years post-graduation experience; offers 3-month research residency in Brooklyn."
+      },
+      {
+        "title": "ギンザ・グラフィック・ギャラリー第415回企画展 ダフィ・クーネ：ポスターを構築する",
+        "score": 6.4,
+        "differentiated_score": 6.76,
+        "hit_nodes": [
+          "POST"
+        ],
+        "why": "Ginza Graphics Gallery exhibition featuring poster design and visual composition work relevant to illustration practice."
       },
       {
         "title": "Exhibition in Japan (October 16–19, 2026)",
-        "score": 2.0,
-        "differentiated_score": 2.6,
+        "score": 2.2,
+        "differentiated_score": 2.9,
         "hit_nodes": [
           "POST"
         ],

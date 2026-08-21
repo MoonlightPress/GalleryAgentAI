@@ -1,13 +1,12 @@
 {
-  "venue_name": "アーツカウンシル東京 (Arts Council Tokyo)",
+  "venue_name": "Arts Council Tokyo (東京都)",
   "venue_slug": "arts_council_tokyo",
   "venue_type": "artist opportunity venue",
   "city": "Tokyo",
   "country": "",
-  "website": "https://upandcoming.tamabi.ac.jp/supports/art_subsidy",
+  "website": "https://www.artscouncil-tokyo.jp/grants",
   "source_links": [
-    "https://upandcoming.tamabi.ac.jp/supports/art_subsidy",
-    "https://artnoto.jp/useful/support"
+    "https://www.artscouncil-tokyo.jp/grants"
   ],
   "categories_seen": [
     "Grant"
@@ -29,10 +28,13 @@
     "submission process"
   ],
   "opportunity_titles": [
-    "アーツカウンシル東京 2026年度 創造活動・国際交流支援助成",
-    "2026年度 第2期 地域芸術文化活動応援助成 (2026 Period 2 Local Arts and Culture Activity Support Grant)"
+    "2026年度 東京芸術文化創造発信助成 カテゴリーII［長期助成］芸術創造活動",
+    "2026年度 東京芸術文化創造発信助成 カテゴリーⅢ［長期助成］［単年助成 第2期］創造環境向上活動",
+    "2026年度 第2期 芸術文化による社会支援助成",
+    "2026年度 東京芸術文化創造発信助成 カテゴリーI［単年助成］芸術創造活動",
+    "2026年度 東京芸術文化創造発信助成 カテゴリーIV［長期助成］海外映画祭参加活動"
   ],
   "last_researched": "",
-  "created_at": "2026-08-18",
-  "updated_at": "2026-08-18"
+  "created_at": "2026-08-21",
+  "updated_at": "2026-08-21"
 }

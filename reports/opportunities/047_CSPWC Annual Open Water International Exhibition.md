@@ -47,4 +47,4 @@ Download the prospectus from open-water-2026.artcall.org, create an ArtCall acco
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-08-04_
+_Last generated: 2026-08-21_

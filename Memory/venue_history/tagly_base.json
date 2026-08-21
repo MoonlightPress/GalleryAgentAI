@@ -1,0 +1,15 @@
+{
+  "venue_name": "tagly.base（クリエイター拠点カフェ）",
+  "venue_slug": "tagly_base",
+  "memory_version": 1,
+  "summary": "Venue type: bookstore / print space Venue still needs deeper aesthetic research.",
+  "last_updated": "2026-08-21",
+  "confidence": "low",
+  "future_research": [
+    "contact",
+    "deadline"
+  ],
+  "curatorial_direction": [],
+  "artist_overlap_signals": [],
+  "notes": []
+}

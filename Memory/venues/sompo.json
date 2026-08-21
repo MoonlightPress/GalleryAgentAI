@@ -1,17 +1,15 @@
 {
-  "venue_name": "SOMPO美術館",
+  "venue_name": "SOMPO美術館（旧館名：東郷青児記念 損保ジャパン日本興亜美術館）",
   "venue_slug": "sompo",
   "venue_type": "artist opportunity venue",
   "city": "Tokyo",
   "country": "",
-  "website": "https://bijutsutecho.com/magazine/news/exhibition/32221?page=8",
+  "website": "https://www.sompo-museum.org/news/2026/face2027",
   "source_links": [
-    "https://bijutsutecho.com/magazine/news/exhibition/32221?page=8",
-    "https://bijutsutecho.com/exhibitions/9279"
+    "https://www.sompo-museum.org/news/2026/face2027"
   ],
   "categories_seen": [
-    "Competition Award",
-    "Institutional / Grants"
+    "Competition Award"
   ],
   "accepts_unsolicited_work": "unknown",
   "submission_style": "unknown",
@@ -28,14 +26,12 @@
   "missing_information": [
     "contact",
     "deadline",
-    "fees",
-    "submission process"
+    "fees"
   ],
   "opportunity_titles": [
-    "FACE展2026",
-    "FACE（公募コンクール）"
+    "FACE2027"
   ],
   "last_researched": "",
-  "created_at": "2026-08-18",
-  "updated_at": "2026-08-18"
+  "created_at": "2026-08-21",
+  "updated_at": "2026-08-21"
 }

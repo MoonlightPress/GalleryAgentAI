@@ -1,0 +1,37 @@
+{
+  "venue_name": "ブルックリン実験アート財団（BEAF）",
+  "venue_slug": "beaf",
+  "venue_type": "residency",
+  "city": "New York",
+  "country": "",
+  "website": "https://upandcoming.tamabi.ac.jp/supports/art_residence",
+  "source_links": [
+    "https://upandcoming.tamabi.ac.jp/supports/art_residence"
+  ],
+  "categories_seen": [
+    "Global Residency"
+  ],
+  "accepts_unsolicited_work": "unknown",
+  "submission_style": "unknown",
+  "typical_artists": [],
+  "typical_mediums": [],
+  "known_aesthetic": [],
+  "price_level": "unknown",
+  "risk_notes": [],
+  "fit_notes": [],
+  "verification_notes": [
+    "Automatically created from opportunity data.",
+    "Needs manual/web research before being treated as verified."
+  ],
+  "missing_information": [
+    "contact",
+    "fees",
+    "submission process"
+  ],
+  "opportunity_titles": [
+    "CCBT 2026年度 アート・インキュベーション・プログラム"
+  ],
+  "last_researched": "",
+  "created_at": "2026-08-21",
+  "updated_at": "2026-08-21"
+}

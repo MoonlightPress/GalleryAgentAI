@@ -47,4 +47,4 @@ Submit 10 images from one cohesive body of work + proposal paragraph at booooooo
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-07-27_
+_Last generated: 2026-08-20_

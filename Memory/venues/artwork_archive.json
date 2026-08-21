@@ -1,0 +1,35 @@
+{
+  "venue_name": "Artwork Archive",
+  "venue_slug": "artwork_archive",
+  "venue_type": "artist opportunity venue",
+  "city": "New York",
+  "country": "",
+  "website": "https://www.artworkarchive.com/call-for-entry/complete-guide-to-2026-artist-grants-opportunities?opportunity_type_filter%5B%5D=5",
+  "source_links": [
+    "https://www.artworkarchive.com/call-for-entry/complete-guide-to-2026-artist-grants-opportunities?opportunity_type_filter%5B%5D=5"
+  ],
+  "categories_seen": [
+    "Grant"
+  ],
+  "accepts_unsolicited_work": "unknown",
+  "submission_style": "unknown",
+  "typical_artists": [],
+  "typical_mediums": [],
+  "known_aesthetic": [],
+  "price_level": "unknown",
+  "risk_notes": [],
+  "fit_notes": [],
+  "verification_notes": [
+    "Automatically created from opportunity data.",
+    "Needs manual/web research before being treated as verified."
+  ],
+  "missing_information": [
+    "contact"
+  ],
+  "opportunity_titles": [
+    "Grants & Fellowships (2026 Artist Grants)"
+  ],
+  "last_researched": "",
+  "created_at": "2026-08-21",
+  "updated_at": "2026-08-21"
+}

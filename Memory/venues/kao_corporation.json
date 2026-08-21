@@ -2,7 +2,7 @@
   "venue_name": "Kao Corporation",
   "venue_slug": "kao_corporation",
   "venue_type": "artist opportunity venue",
-  "city": "Online",
+  "city": "Online, Shanghai",
   "country": "",
   "website": "https://www.kao.com/cn/news/2026/20260601-001",
   "source_links": [
@@ -25,13 +25,14 @@
   ],
   "missing_information": [
     "contact",
-    "deadline",
-    "fees"
+    "fees",
+    "submission process"
   ],
   "opportunity_titles": [
+    "第十七届花王国际儿童环境绘画大赛 (17th Kao International Children's Environmental Painting Competition)",
     "17th Kao International Children's Environmental Painting Competition"
   ],
   "last_researched": "",
-  "created_at": "2026-08-18",
-  "updated_at": "2026-08-18"
+  "created_at": "2026-08-21",
+  "updated_at": "2026-08-21"
 }

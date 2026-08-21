@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-08-04
+REPORT GENERATED: 2026-08-21
 
 # 第1回 お気に入りのアナログ画材で塗ろう！3色イラスト公募展（1st Favorite Analog Media 3-Color Illustration Open Call）
 
@@ -48,5 +48,5 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-08-04_
+_Last generated: 2026-08-21_
 

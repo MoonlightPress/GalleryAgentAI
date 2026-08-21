@@ -552,17 +552,6 @@
   ],
   "global_targets": [
     {
-      "title": "Center for Book Arts Opportunities",
-      "bucket": "global_targets",
-      "score": 9.4,
-      "confidence": "High",
-      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Global Book Arts",
-      "city": "New York",
-      "country": "USA",
-      "image": ""
-    },
-    {
       "title": "Bologna Children's Book Fair Illustrators Exhibition",
       "bucket": "global_targets",
       "score": 9.4,
@@ -626,6 +615,17 @@
       "category": "Global Watercolor Open Call",
       "city": "International",
       "country": "International",
+      "image": ""
+    },
+    {
+      "title": "Pinpoint Gallery",
+      "bucket": "global_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Other",
+      "city": null,
+      "country": "Tokyo",
       "image": ""
     },
     {
@@ -785,17 +785,6 @@
       "image": ""
     },
     {
-      "title": "Center for Book Arts Opportunities",
-      "bucket": "publication_targets",
-      "score": 9.4,
-      "confidence": "High",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Global Book Arts",
-      "city": "New York",
-      "country": "USA",
-      "image": ""
-    },
-    {
       "title": "TOKIO ART BOOK FAIR 2026",
       "bucket": "publication_targets",
       "score": 9.4,
@@ -804,6 +793,17 @@
       "category": "Zine Fair Booth",
       "city": "Tokyo",
       "country": "Japan",
+      "image": ""
+    },
+    {
+      "title": "Submissions - Little Press Publishing",
+      "bucket": "publication_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Book Publishing",
+      "city": "Japan / Tokyo / Online",
+      "country": "",
       "image": ""
     },
     {
@@ -928,6 +928,17 @@
       "image": ""
     },
     {
+      "title": "Center for Book Arts Opportunities",
+      "bucket": "publication_targets",
+      "score": 8.8,
+      "confidence": "High",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Global Book Arts",
+      "city": "New York",
+      "country": "USA",
+      "image": ""
+    },
+    {
       "title": "tata bookshop/gallery",
       "bucket": "publication_targets",
       "score": 8.8,
@@ -936,17 +947,6 @@
       "category": "Print / Zines / Bookstores",
       "city": "Koenji, Tokyo",
       "country": "",
-      "image": ""
-    },
-    {
-      "title": "SPBS (Shibuya Publishing Booksellers)",
-      "bucket": "publication_targets",
-      "score": 8.8,
-      "confidence": "High",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Tokyo — Tomigaya, Shibuya",
-      "country": "Japan",
       "image": ""
     }
   ]

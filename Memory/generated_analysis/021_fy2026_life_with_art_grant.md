@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-08-18
+REPORT GENERATED: 2026-08-21
 
 # FY2026 Life with Art Grant
 
@@ -15,7 +15,7 @@ Core public information appears present.
 
 - **Official/source website**: https://www.artscouncil-tokyo.jp/en/grants (verified)
 - **Submission process**: https://www.artscouncil-tokyo.jp/en/grants (verified)
-- **Deadline**: 2026年4月22日 (verified)
+- **Deadline**: 2026年8月19日 (verified)
 - **Fees**: Free to apply (verified)
 - **Contact**: TEL: 03-6256-8430 (verified)
 
@@ -36,7 +36,7 @@ The grant's mission to integrate art into everyday urban life directly mirrors y
 - Deadline: 14:00 on Monday, June 29, 2026 — confirm on the official site before submitting
 
 ## 7. Submission / Logistics
-- **Deadline:** 2026年4月22日
+- **Deadline:** 2026年8月19日
 - **Fees:** Free to apply
 - **Submission page:** https://www.artscouncil-tokyo.jp/en/grants
 - **Source:** https://www.artscouncil-tokyo.jp/en/grants
@@ -50,5 +50,5 @@ Verify eligibility and current cycle at the official website before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-08-18_
+_Last generated: 2026-08-21_
 

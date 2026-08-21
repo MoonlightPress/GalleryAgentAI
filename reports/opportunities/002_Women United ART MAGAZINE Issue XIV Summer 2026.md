@@ -47,4 +47,4 @@ Submit work images at womenunitedartmovement.com before June 10. $25 fee. Hardsh
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-08-18_
+_Last generated: 2026-08-21_

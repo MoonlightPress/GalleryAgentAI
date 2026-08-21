@@ -1,15 +1,15 @@
 {
-  "venue_name": "2027年度 芸術活動への助成",
+  "venue_name": "企画公募「都美セレクション グループ展 2027」",
   "venue_slug": "2027",
   "venue_type": "artist opportunity venue",
   "city": "Tokyo",
   "country": "",
-  "website": "https://www.art-it.asia/opencall",
+  "website": "https://koubo.jp/category/art/postcard",
   "source_links": [
-    "https://www.art-it.asia/opencall"
+    "https://koubo.jp/category/art/postcard"
   ],
   "categories_seen": [
-    "Grant"
+    "Group Publication Open Call"
   ],
   "accepts_unsolicited_work": "unknown",
   "submission_style": "unknown",
@@ -24,12 +24,14 @@
     "Needs manual/web research before being treated as verified."
   ],
   "missing_information": [
-    "contact"
+    "contact",
+    "fees",
+    "submission process"
   ],
   "opportunity_titles": [
-    "2027年度 芸術活動への助成"
+    "企画公募「都美セレクション グループ展 2027」"
   ],
   "last_researched": "",
-  "created_at": "2026-08-18",
-  "updated_at": "2026-08-18"
+  "created_at": "2026-08-21",
+  "updated_at": "2026-08-21"
 }

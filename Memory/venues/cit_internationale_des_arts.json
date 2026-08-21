@@ -1,15 +1,15 @@
 {
-  "venue_name": "Cité Internationale des Arts",
+  "venue_name": "Cité internationale des arts",
   "venue_slug": "cit_internationale_des_arts",
   "venue_type": "residency",
   "city": "Paris",
   "country": "",
-  "website": "https://www.citedesartsparis.net/",
+  "website": "https://on-the-move.org/news/culture-moves-europe-call-individual-mobility-artists-and-cultural-professionals",
   "source_links": [
-    "https://www.citedesartsparis.net/"
+    "https://on-the-move.org/news/culture-moves-europe-call-individual-mobility-artists-and-cultural-professionals"
   ],
   "categories_seen": [
-    "Global Residency"
+    "Grant"
   ],
   "accepts_unsolicited_work": "unknown",
   "submission_style": "unknown",
@@ -24,12 +24,14 @@
     "Needs manual/web research before being treated as verified."
   ],
   "missing_information": [
-    "fees"
+    "contact",
+    "deadline",
+    "submission process"
   ],
   "opportunity_titles": [
-    "Cité Internationale des Arts Artist Residency"
+    "Cité internationale des arts - Art, Society and Clinical Psychology Residency 2027"
   ],
   "last_researched": "",
-  "created_at": "2026-08-18",
-  "updated_at": "2026-08-18"
+  "created_at": "2026-08-21",
+  "updated_at": "2026-08-21"
 }

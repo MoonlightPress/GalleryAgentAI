@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-08-18
+REPORT GENERATED: 2026-08-21
 
 # Gallery EF Asakusa
 
@@ -50,5 +50,5 @@ Visit Gallery EF in Asakusa with printed work to see the space and ask how propo
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-08-18_
+_Last generated: 2026-08-21_
 

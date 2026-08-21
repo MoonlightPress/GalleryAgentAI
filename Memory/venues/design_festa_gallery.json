@@ -6,7 +6,8 @@
   "country": "",
   "website": "https://designfestagallery.com/",
   "source_links": [
-    "https://designfestagallery.com/"
+    "https://designfestagallery.com/",
+    "https://designfestagallery.com/watercolor-exhibition2026"
   ],
   "categories_seen": [
     "Galleries / Exhibition Calls"
@@ -23,11 +24,18 @@
     "Automatically created from opportunity data.",
     "Needs manual/web research before being treated as verified."
   ],
-  "missing_information": [],
+  "missing_information": [
+    "contact",
+    "deadline",
+    "fees",
+    "submission process"
+  ],
   "opportunity_titles": [
-    "DESIGN FESTA GALLERY"
+    "DESIGN FESTA GALLERY",
+    "Design Festa Gallery Watercolor Exhibition 2026",
+    "搬入・搬出 Design Festa Gallery Watercolor Exhibition 2026"
   ],
   "last_researched": "",
-  "created_at": "2026-08-18",
-  "updated_at": "2026-08-18"
+  "created_at": "2026-08-21",
+  "updated_at": "2026-08-21"
 }

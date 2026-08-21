@@ -1,0 +1,38 @@
+{
+  "venue_name": "Tanoto Art Foundation",
+  "venue_slug": "tanoto_art_foundation",
+  "venue_type": "artist opportunity venue",
+  "city": "Singapore",
+  "country": "",
+  "website": "https://www.artweek.sg",
+  "source_links": [
+    "https://www.artweek.sg"
+  ],
+  "categories_seen": [
+    "Institutional / Grants"
+  ],
+  "accepts_unsolicited_work": "unknown",
+  "submission_style": "unknown",
+  "typical_artists": [],
+  "typical_mediums": [],
+  "known_aesthetic": [],
+  "price_level": "unknown",
+  "risk_notes": [],
+  "fit_notes": [],
+  "verification_notes": [
+    "Automatically created from opportunity data.",
+    "Needs manual/web research before being treated as verified."
+  ],
+  "missing_information": [
+    "contact",
+    "deadline",
+    "fees",
+    "submission process"
+  ],
+  "opportunity_titles": [
+    "Tanoto Art Foundation First Major Exhibition"
+  ],
+  "last_researched": "",
+  "created_at": "2026-08-21",
+  "updated_at": "2026-08-21"
+}

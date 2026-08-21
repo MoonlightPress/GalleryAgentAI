@@ -46,7 +46,7 @@
     ],
     "quality_gate_status": "approved",
     "quality_gate_reasons": [
-      "strong: printed matter, book fair, zine, photobook",
+      "strong: book fair, photobook, zine, printed matter",
       "weak: exhibition, book"
     ]
   },
@@ -92,37 +92,38 @@
     ],
     "quality_gate_status": "approved",
     "quality_gate_reasons": [
-      "strong: submission, residency, open call, zine",
+      "strong: submission, residency, zine, open call",
       "weak: artist, exhibition"
     ]
   },
   {
-    "title": "Art Submissions",
-    "organization": "ArtConnect Open Calls",
-    "category": "open_call_index",
+    "title": "Event Fair On Fairs, with Cairo Art Book Fair, Hardcore CDMX Art Book Fair, Singapore Art ",
+    "organization": "Printed Matter",
+    "category": "zine_print",
     "city": "Online",
     "country": "Global",
-    "overall_score": 4.7,
+    "overall_score": 5.4,
     "prestige_score": 0,
     "difficulty_score": 0,
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.artconnect.com/opportunities/art-submissions",
-    "official_website": "https://www.artconnect.com/opportunities/art-submissions",
-    "submission_page": "https://www.artconnect.com/opportunities/art-submissions",
+    "source_url": "https://www.printedmatter.org/programs/events/2282",
+    "official_website": "https://www.printedmatter.org/programs/events/2282",
+    "submission_page": "",
     "deadline": "",
     "fees": "",
-    "one_sentence": "Candidate link discovered from ArtConnect Open Calls.",
-    "why_this_fits_short": "Possible fit based on link text: submission",
+    "one_sentence": "Candidate link discovered from Printed Matter.",
+    "why_this_fits_short": "Possible fit based on link text: printed matter, book fair",
     "quick_action": "Open and verify whether this is current and relevant.",
     "three_bullets": [
       "Discovered from source link list.",
       "Needs manual verification.",
-      "Keyword hits: submission"
+      "Keyword hits: printed matter, book fair"
     ],
     "fit_keyword_hits": [
-      "submission"
+      "printed matter",
+      "book fair"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -133,7 +134,91 @@
     ],
     "quality_gate_status": "approved",
     "quality_gate_reasons": [
-      "strong: submission, open call",
+      "strong: book fair, zine, printed matter",
+      "weak: book"
+    ]
+  },
+  {
+    "title": "open call for lgbtq+ artist residency at nina idyllwild",
+    "organization": "ArtConnect Open Calls",
+    "category": "residency",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 5.4,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.artconnect.com/opportunity/BsPcMyNbTuohthv2yopAM",
+    "official_website": "https://www.artconnect.com/opportunity/BsPcMyNbTuohthv2yopAM",
+    "submission_page": "https://www.artconnect.com/opportunity/BsPcMyNbTuohthv2yopAM",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from ArtConnect Open Calls.",
+    "why_this_fits_short": "Possible fit based on link text: open call, residency",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: open call, residency"
+    ],
+    "fit_keyword_hits": [
+      "open call",
+      "residency"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "approved",
+    "quality_gate_reasons": [
+      "strong: residency, open call, call for",
+      "weak: artist",
+      "has submission link"
+    ]
+  },
+  {
+    "title": "Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING",
+    "organization": "CuratorSpace",
+    "category": "photo_open_call",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/vault-collective--open-call--rolling-deadline/1071",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/vault-collective--open-call--rolling-deadline/1071",
+    "submission_page": "https://www.curatorspace.com/opportunities/detail/vault-collective--open-call--rolling-deadline/1071",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from CuratorSpace.",
+    "why_this_fits_short": "Possible fit based on link text: open call",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: open call"
+    ],
+    "fit_keyword_hits": [
+      "open call"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "approved",
+    "quality_gate_reasons": [
+      "strong: deadline, open call",
       "has submission link"
     ]
   }

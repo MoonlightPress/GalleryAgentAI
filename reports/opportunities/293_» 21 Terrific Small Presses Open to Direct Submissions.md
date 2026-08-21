@@ -1,0 +1,50 @@
+# » 21 Terrific Small Presses Open to Direct Submissions
+
+## 1. Quick Judgment
+**Fit score:** 10/10  
+**Fit band:** Excellent fit  
+**Confidence:** High  
+**Type:** Book Publishing  
+**City:** Japan / Tokyo / Online  
+
+## 2. Verification Status
+Verified: Official/source website, Deadline. Needs checking: Submission process, Fees, Contact.
+
+- **Official/source website**: https://authorspublish.com/21-terrific-small-presses-open-to-direct-submissions/ (verified)
+- **Submission process**: Not publicly listed (needs_inquiry)
+- **Deadline**: Rolling (verified)
+- **Fees**: Not publicly listed (needs_inquiry)
+- **Contact**: Not publicly listed (needs_inquiry)
+
+## 3. Why This May Fit the Artist
+- Opportunity type: Book Publishing.
+- Artist themes to compare against this venue: urban atmosphere, domestic stillness, cats, interior light, memory, quiet life.
+- Visual-language fit signals: still, intimate, atmospheric, nostalgic without sentimentality, attentive, quietly melancholic.
+
+## 4. Public Opportunity Summary
+Publishing / Small Press (found through targeted research).
+
+## 5. Existing Fit Notes
+Small presses focused on visual narrative and artist books are possible outlets for daily watercolor practice documenting Tokyo's ephemeral urban moments—formats that can showcase sequential observation and architectural study in ways that relate to your meditative approach to disappearing landscapes. Your 26k follower base and consistent output of finished works on paper provide the portfolio depth and audience these publishers often seek for limited-edition artist publications.
+
+## 6. Key Points
+- Source category: Publishing / Small Press.
+- Search group: publishing_small_press.
+- First action: Review recent titles and decide whether this is a publisher, distributor, bookstore, or article reference.
+
+## 7. Submission / Logistics
+- **Deadline:** Rolling
+- **Fees:** Not publicly listed
+- **Submission page:** Not publicly listed
+- **Source:** https://authorspublish.com/21-terrific-small-presses-open-to-direct-submissions/
+
+## 8. Risk / Unknowns
+No hard dealbreaker recorded. Manual verification recommended.
+
+## 9. Recommended Next Step
+Review recent titles and decide whether this is a publisher, distributor, bookstore, or article reference.
+
+## 10. Inquiry Need
+If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
+
+_Last generated: 2026-08-21_

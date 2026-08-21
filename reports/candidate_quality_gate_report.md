@@ -1,12 +1,12 @@
 # Candidate Quality Gate Report
 
-Approved: 3
-Rejected: 114
+Approved: 5
+Rejected: 113
 
 ## Rejected
 
-- Browse opportunities | CuratorSpace — junk title contains: browse opportunities
 - Royal Watercolour Society — strong: portfolio review, weak: exhibition, gallery, score too low: 4
+- Browse opportunities | CuratorSpace — junk title contains: browse opportunities
 - Exhibition Chelsea Chang Yuchen: a dictionary, a loom, a manifesto, a note, a kite, a phon — strong: printed matter, weak: exhibition, gallery, score too low: 2
 - Event Exhibition New Openings Against Old Surfaces: On Gordon Matta-Clark’s Walls Paper Se — strong: printed matter, weak: exhibition, gallery, score too low: 2
 - Exhibitions — junk title: exhibitions
@@ -18,7 +18,6 @@ Rejected: 114
 - Exhibitions Summer at Bankside Gallery 2026 31 July - 6 September 2026 LEARN MORE — generic page without opportunity language
 - LEARN MORE — generic page without opportunity language
 - www.royalwatercoloursociety.co.uk — generic page without opportunity language
-- RuptureXIBIT Invitational Residency for Visual Artists & Writers RuptureXIBIT is an inclus — strong: residency, weak: artist, score too low: 1
 - 8.4 TUE 【企画展】『水彩画展』出展者募集中！ — generic page without opportunity language
 - Art Events and Exhibitions｜Tokyo Art Beat — generic page without opportunity language
 - TOKYO ART BOOK FAIR — strong: book fair, weak: book, score too low: 3
@@ -27,8 +26,9 @@ Rejected: 114
 - DESIGN FESTA GALLERY | 全てのアーティストのためのギャラリー — generic page without opportunity language
 - Exhibitions — junk title: exhibitions
 - Requests to List Exhibitions and Events — generic page without opportunity language
-- Printed Matter, Inc. — strong: printed matter, zine, score too low: 2
-- Liam Campbell and Elska Magazine Elska No. 60 Chicago Periodicals $22.00 Recent Arrival — strong: printed matter, zine, score too low: 2
+- Printed Matter, Inc. — strong: zine, printed matter, score too low: 2
+- Guy Benfield and Rebecca Holborn Admin Admin Magazine Volume 3 Periodicals $29.00 Recent A — strong: zine, printed matter, score too low: 2
+- Liam Campbell and Elska Magazine Elska No. 60 Chicago Periodicals $22.00 Recent Arrival — strong: zine, printed matter, score too low: 2
 - See all exhibitions — junk title: see all exhibitions
 - Browse Printed Matter Editions — junk title: browse printed matter editions
 - Skip to main content — generic page without opportunity language
@@ -73,25 +73,24 @@ Rejected: 114
 - Facebook , opens in a new tab. — junk title contains: facebook
 - Pinterest , opens in a new tab. — junk title contains: pinterest
 - Find Out More — generic page without opportunity language
-- Magazine — strong: open call, zine, score too low: 2
+- Magazine — strong: zine, open call, score too low: 2
 - Open Call — strong: open call, has submission link, score too low: 3
-- 2027 residency — strong: residency, open call, score too low: 2
 - Residency — strong: residency, open call, score too low: 2
-- kathmandu international artists in residency 2027 — strong: residency, open call, weak: artist, score too low: 3
+- masaha residency cycle 12 — strong: residency, open call, score too low: 2
 - Open Calls — junk title: open calls
 - www.curatorspace.com — junk title: www.curatorspace.com
-- Report this? — weak: artist, exhibition, gallery, has submission link, score too low: 4
+- Report this? — weak: exhibition, gallery, has submission link, score too low: 3
 - www.curatorspace.com — junk title: www.curatorspace.com
 - Report this? — weak: exhibition, gallery, has submission link, score too low: 3
 - www.curatorspace.com — junk title: www.curatorspace.com
 - Report this? — generic page without opportunity language
-- Exhibition Elmswell Library is looking for artists to exhibit. We are a village library in — generic page without opportunity language
 - 展覧会 — bad/missing title
 - 展覧会 2025.08.04 Illustration Talks v — generic page without opportunity language
 - 展覧会 2025.05.16 Illustration Works 1 — generic page without opportunity language
-- 展覧会 2025.08.04 Illustration Talks v — generic page without opportunity language
 - 展覧会 2025.04.18 「110人のイラストレーターが描く 宮沢 — generic page without opportunity language
+- 展覧会 2025.08.04 Illustration Talks v — generic page without opportunity language
 - これから開催の展示 — generic page without opportunity language
+- 有龍 ミニ個展『魂の還る場所』 — generic page without opportunity language
 - これまで開催の展示 — generic page without opportunity language
 - 〒530-0015 — generic page without opportunity language
 - DFG MURAL PROJECT 2026: Part 2 — generic page without opportunity language
@@ -108,8 +107,8 @@ Rejected: 114
 - MIZUIRO PINK — generic page without opportunity language
 - 8.8 SAT 【企画展】『喫茶展』出展者募集中☕️ NEW — generic page without opportunity language
 - 8.8 SAT 【企画展】『呪い』 🔮出展者募集中🕯️ — generic page without opportunity language
+- 8.19 WED Caoli Postcard Exhibition「葉樹の森」 — generic page without opportunity language
 - 8.16 SUN つみきの展示 — generic page without opportunity language
-- 8.16 SUN MELANCHOLY 2nd solo exhibition『Affogato』 — generic page without opportunity language
 - シュール展 — generic page without opportunity language
 - pinpointgallery.com — generic page without opportunity language
 - pinpointgallery.com — generic page without opportunity language
@@ -122,6 +121,8 @@ Rejected: 114
 
 ## Approved
 
-- Home - Printed Matter — strong: printed matter, book fair, zine, photobook, weak: exhibition, book
-- Top Artist Opportunities for 2026 | ArtConnect — strong: submission, residency, open call, zine, weak: artist, exhibition
-- Art Submissions — strong: submission, open call, has submission link
+- Home - Printed Matter — strong: book fair, photobook, zine, printed matter, weak: exhibition, book
+- Top Artist Opportunities for 2026 | ArtConnect — strong: submission, residency, zine, open call, weak: artist, exhibition
+- Event Fair On Fairs, with Cairo Art Book Fair, Hardcore CDMX Art Book Fair, Singapore Art  — strong: book fair, zine, printed matter, weak: book
+- open call for lgbtq+ artist residency at nina idyllwild — strong: residency, open call, call for, weak: artist, has submission link
+- Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING — strong: deadline, open call, has submission link

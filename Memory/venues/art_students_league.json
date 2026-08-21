@@ -1,0 +1,33 @@
+{
+  "venue_name": "Art Students League",
+  "venue_slug": "art_students_league",
+  "venue_type": "artist opportunity venue",
+  "city": "New York",
+  "country": "",
+  "website": "https://www.artstudentsleague.org/resources/how-to-apply-for-scholarships-grants",
+  "source_links": [
+    "https://www.artstudentsleague.org/resources/how-to-apply-for-scholarships-grants"
+  ],
+  "categories_seen": [
+    "Grant"
+  ],
+  "accepts_unsolicited_work": "unknown",
+  "submission_style": "unknown",
+  "typical_artists": [],
+  "typical_mediums": [],
+  "known_aesthetic": [],
+  "price_level": "unknown",
+  "risk_notes": [],
+  "fit_notes": [],
+  "verification_notes": [
+    "Automatically created from opportunity data.",
+    "Needs manual/web research before being treated as verified."
+  ],
+  "missing_information": [],
+  "opportunity_titles": [
+    "Art Students League Tuition Scholarships"
+  ],
+  "last_researched": "",
+  "created_at": "2026-08-21",
+  "updated_at": "2026-08-21"
+}

@@ -1,0 +1,36 @@
+{
+  "venue_name": "Arts Council Tokyo (Tokyo Metropolitan Government)",
+  "venue_slug": "arts_council_tokyo_tokyo_metropolitan_government",
+  "venue_type": "artist opportunity venue",
+  "city": "Tokyo",
+  "country": "",
+  "website": "https://www.artscouncil-tokyo.jp/uploads/2026/06/2026-1_grant_creation_release_260605.pdf",
+  "source_links": [
+    "https://www.artscouncil-tokyo.jp/uploads/2026/06/2026-1_grant_creation_release_260605.pdf"
+  ],
+  "categories_seen": [
+    "Grant"
+  ],
+  "accepts_unsolicited_work": "unknown",
+  "submission_style": "unknown",
+  "typical_artists": [],
+  "typical_mediums": [],
+  "known_aesthetic": [],
+  "price_level": "unknown",
+  "risk_notes": [],
+  "fit_notes": [],
+  "verification_notes": [
+    "Automatically created from opportunity data.",
+    "Needs manual/web research before being treated as verified."
+  ],
+  "missing_information": [
+    "contact",
+    "deadline"
+  ],
+  "opportunity_titles": [
+    "Tokyo Arts Council 2026年度助成（創造活動助成）"
+  ],
+  "last_researched": "",
+  "created_at": "2026-08-21",
+  "updated_at": "2026-08-21"
+}

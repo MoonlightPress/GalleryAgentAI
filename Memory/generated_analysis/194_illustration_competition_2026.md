@@ -1,21 +1,21 @@
 
-REPORT GENERATED: 2026-08-18
+REPORT GENERATED: 2026-08-20
 
 # Illustration Competition 2026
 
 ## 1. Quick Judgment
-**Fit score:** 9.2/10  
+**Fit score:** 9.6/10  
 **Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Illustration Prize  
 **City:** Online  
 
 ## 2. Verification Status
-Verified: Official/source website, Deadline, Fees. Needs checking: Submission process, Contact.
+Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.
 
 - **Official/source website**: https://koubo.jp/contest/307210 (verified)
-- **Submission process**: Not publicly listed (needs_inquiry)
-- **Deadline**: 2026年06月21日 (日) (verified)
+- **Submission process**: https://www.commarts.com/competition/2026-illustration (verified)
+- **Deadline**: 2026-01-23 (verified)
 - **Fees**: 200,000 yen (verified)
 - **Contact**: Not publicly listed (needs_inquiry)
 
@@ -34,9 +34,9 @@ Japanese illustration competition offering 200,000 yen grand prize for watercolo
 - No bullet analysis stored yet.
 
 ## 7. Submission / Logistics
-- **Deadline:** 2026年06月21日 (日)
+- **Deadline:** 2026-01-23
 - **Fees:** 200,000 yen
-- **Submission page:** Not publicly listed
+- **Submission page:** https://www.commarts.com/competition/2026-illustration
 - **Source:** https://koubo.jp/contest/307210
 
 ## 8. Risk / Unknowns
@@ -48,5 +48,5 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-08-18_
+_Last generated: 2026-08-20_
 

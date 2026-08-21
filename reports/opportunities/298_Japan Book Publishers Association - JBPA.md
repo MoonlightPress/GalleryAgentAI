@@ -1,8 +1,8 @@
 # Japan Book Publishers Association - JBPA
 
 ## 1. Quick Judgment
-**Fit score:** 4.6/10  
-**Fit band:** Possible, but not urgent  
+**Fit score:** 9.6/10  
+**Fit band:** Excellent fit  
 **Confidence:** Medium  
 **Type:** Book Publishing  
 **City:** Japan / Tokyo / Online  
@@ -22,10 +22,10 @@ Verified: Official/source website. Needs checking: Submission process, Deadline,
 - Visual-language fit signals: still, intimate, atmospheric, nostalgic without sentimentality, attentive, quietly melancholic.
 
 ## 4. Public Opportunity Summary
-Publishing / Small Press lead found through targeted research; useful if requirements and fit check out.
+Publishing / Small Press (found through targeted research).
 
 ## 5. Existing Fit Notes
-Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+JBPA connects publishers and small presses seeking visual work, making it a direct channel to pitch a watercolor collection documenting Tokyo's disappearing urban landscapes—exactly the kind of observational, place-based daily practice that translates into compelling artist books. Your 26k follower base and established quiet-atmosphere aesthetic position your work as commercially viable for independent and mid-size publishers looking for illustrated or art-led publications.
 
 ## 6. Key Points
 - Source category: Publishing / Small Press.
@@ -47,4 +47,4 @@ Review recent titles and decide whether this is a publisher, distributor, bookst
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-08_
+_Last generated: 2026-08-21_

@@ -47,4 +47,4 @@ Call 0422-26-9110 to inquire about Donguri Gallery exhibition bookings at the Ki
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-08-11_
+_Last generated: 2026-08-20_

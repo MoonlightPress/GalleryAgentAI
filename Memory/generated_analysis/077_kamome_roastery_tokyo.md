@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-08-11
+REPORT GENERATED: 2026-08-20
 
 # Kamome Roastery Tokyo
 
@@ -50,5 +50,5 @@ Apply online at kamome-tokyo.com/gallery with portfolio images and your Instagra
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-08-11_
+_Last generated: 2026-08-20_
 

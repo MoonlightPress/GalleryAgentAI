@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-07-27
+REPORT GENERATED: 2026-08-20
 
 # Tokyo Wonder Site / TOKAS Residency
 
@@ -50,5 +50,5 @@ Bookmark their residency page and check quarterly for new calls, or subscribe to
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-07-27_
+_Last generated: 2026-08-20_
 

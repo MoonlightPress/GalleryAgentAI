@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-08-18
+REPORT GENERATED: 2026-08-21
 
 # B&B (Book & Beer)
 
@@ -15,7 +15,7 @@ Core public information appears present.
 
 - **Official/source website**: https://bookandbeer.com/ (verified)
 - **Submission process**: https://bookandbeer.com/ (verified)
-- **Deadline**: 2026年08月18日 (verified)
+- **Deadline**: 2026年08月21日 (verified)
 - **Fees**: Free (verified)
 - **Contact**: @books_and_beer_ (Instagram) / TEL: 03-6450-8272 (verified)
 
@@ -36,7 +36,7 @@ A well-known Shimokitazawa bookshop-bar that consigns art books and zines with l
 - In Shimokitazawa; suited to self-published/artist-book work, not originals.
 
 ## 7. Submission / Logistics
-- **Deadline:** 2026年08月18日
+- **Deadline:** 2026年08月21日
 - **Fees:** Free
 - **Submission page:** https://bookandbeer.com/
 - **Source:** https://bookandbeer.com/
@@ -50,5 +50,5 @@ Visit in person to see their shelves, then ask about consignment terms for a sel
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-08-18_
+_Last generated: 2026-08-21_
 

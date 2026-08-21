@@ -1,12 +1,14 @@
 {
-  "venue_name": "Cité Internationale des Arts",
+  "venue_name": "Cité internationale des arts",
   "venue_slug": "cit_internationale_des_arts",
   "memory_version": 1,
   "summary": "Venue type: residency Venue still needs deeper aesthetic research.",
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-21",
   "confidence": "low",
   "future_research": [
-    "fees"
+    "contact",
+    "deadline",
+    "submission process"
   ],
   "curatorial_direction": [],
   "artist_overlap_signals": [],

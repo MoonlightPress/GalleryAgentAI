@@ -2,7 +2,7 @@
   "venue_name": "Café Atelier",
   "venue_slug": "caf_atelier",
   "venue_type": "cafe wall / local exhibition space",
-  "city": "Tokyo",
+  "city": "Online, Tokyo",
   "country": "",
   "website": "https://x.com/cafeatelier2017/status/2025052287434195399",
   "source_links": [
@@ -24,14 +24,16 @@
     "Needs manual/web research before being treated as verified."
   ],
   "missing_information": [
+    "contact",
     "deadline",
     "fees",
     "submission process"
   ],
   "opportunity_titles": [
+    "透明水彩公募展（カフェアトリエ）",
     "カフェアトリエ 透明水彩展"
   ],
   "last_researched": "",
-  "created_at": "2026-08-18",
-  "updated_at": "2026-08-18"
+  "created_at": "2026-08-21",
+  "updated_at": "2026-08-21"
 }

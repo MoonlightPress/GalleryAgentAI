@@ -46,48 +46,6 @@
     ]
   },
   {
-    "title": "Browse opportunities | CuratorSpace",
-    "organization": "CuratorSpace",
-    "category": "residency",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 7.2,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "medium",
-    "verification_status": "partial",
-    "source_type": "scraped_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities",
-    "official_website": "https://www.curatorspace.com/opportunities",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate discovered from CuratorSpace. Needs manual verification before recommendation.",
-    "why_this_fits_short": "Potential fit based on source context and keyword overlap: open call, submission, residency, exhibition, artist-run, quiet",
-    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
-    "three_bullets": [
-      "Automatically discovered candidate.",
-      "Needs verification before being treated as actionable.",
-      "Keyword hits: open call, submission, residency, exhibition, artist-run, quiet"
-    ],
-    "fit_keyword_hits": [
-      "open call",
-      "submission",
-      "residency",
-      "exhibition",
-      "artist-run",
-      "quiet"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "submission process",
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
     "title": "Royal Watercolour Society",
     "organization": "Royal Watercolour Society",
     "category": "gallery_event",
@@ -164,6 +122,84 @@
     "manual_review_needed": true,
     "missing_fields": [
       "submission process",
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
+    "title": "Browse opportunities | CuratorSpace",
+    "organization": "CuratorSpace",
+    "category": "photo_open_call",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 6.75,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "medium",
+    "verification_status": "partial",
+    "source_type": "scraped_candidate",
+    "source_url": "https://www.curatorspace.com/opportunities",
+    "official_website": "https://www.curatorspace.com/opportunities",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate discovered from CuratorSpace. Needs manual verification before recommendation.",
+    "why_this_fits_short": "Potential fit based on source context and keyword overlap: open call, submission, exhibition, memory, place",
+    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
+    "three_bullets": [
+      "Automatically discovered candidate.",
+      "Needs verification before being treated as actionable.",
+      "Keyword hits: open call, submission, exhibition, memory, place"
+    ],
+    "fit_keyword_hits": [
+      "open call",
+      "submission",
+      "exhibition",
+      "memory",
+      "place"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "submission process",
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
+    "title": "Event Fair On Fairs, with Cairo Art Book Fair, Hardcore CDMX Art Book Fair, Singapore Art ",
+    "organization": "Printed Matter",
+    "category": "zine_print",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 5.4,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.printedmatter.org/programs/events/2282",
+    "official_website": "https://www.printedmatter.org/programs/events/2282",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from Printed Matter.",
+    "why_this_fits_short": "Possible fit based on link text: printed matter, book fair",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: printed matter, book fair"
+    ],
+    "fit_keyword_hits": [
+      "printed matter",
+      "book fair"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
       "deadline",
       "fees",
       "contact"
@@ -577,8 +613,8 @@
     ]
   },
   {
-    "title": "RuptureXIBIT Invitational Residency for Visual Artists & Writers RuptureXIBIT is an inclus",
-    "organization": "CuratorSpace",
+    "title": "open call for lgbtq+ artist residency at nina idyllwild",
+    "organization": "ArtConnect Open Calls",
     "category": "residency",
     "city": "Online",
     "country": "Global",
@@ -588,22 +624,22 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/rupturexibit-invitational-artists-residency/10025",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/rupturexibit-invitational-artists-residency/10025",
-    "submission_page": "",
+    "source_url": "https://www.artconnect.com/opportunity/BsPcMyNbTuohthv2yopAM",
+    "official_website": "https://www.artconnect.com/opportunity/BsPcMyNbTuohthv2yopAM",
+    "submission_page": "https://www.artconnect.com/opportunity/BsPcMyNbTuohthv2yopAM",
     "deadline": "",
     "fees": "",
-    "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: residency, artist-run",
+    "one_sentence": "Candidate link discovered from ArtConnect Open Calls.",
+    "why_this_fits_short": "Possible fit based on link text: open call, residency",
     "quick_action": "Open and verify whether this is current and relevant.",
     "three_bullets": [
       "Discovered from source link list.",
       "Needs manual verification.",
-      "Keyword hits: residency, artist-run"
+      "Keyword hits: open call, residency"
     ],
     "fit_keyword_hits": [
-      "residency",
-      "artist-run"
+      "open call",
+      "residency"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -934,6 +970,42 @@
     ],
     "fit_keyword_hits": [
       "printed matter"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
+    "title": "Guy Benfield and Rebecca Holborn Admin Admin Magazine Volume 3 Periodicals $29.00 Recent A",
+    "organization": "Printed Matter",
+    "category": "zine_print",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.printedmatter.org/catalog/71704",
+    "official_website": "https://www.printedmatter.org/catalog/71704",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from Printed Matter.",
+    "why_this_fits_short": "Possible fit based on link text: zine",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: zine"
+    ],
+    "fit_keyword_hits": [
+      "zine"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -2636,42 +2708,6 @@
     ]
   },
   {
-    "title": "2027 residency",
-    "organization": "ArtConnect Open Calls",
-    "category": "residency",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.artconnect.com/opportunity/WbnXDvUjP3AyMLR1TbJoz",
-    "official_website": "https://www.artconnect.com/opportunity/WbnXDvUjP3AyMLR1TbJoz",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from ArtConnect Open Calls.",
-    "why_this_fits_short": "Possible fit based on link text: residency",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: residency"
-    ],
-    "fit_keyword_hits": [
-      "residency"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
     "title": "Residency",
     "organization": "ArtConnect Open Calls",
     "category": "residency",
@@ -2708,7 +2744,7 @@
     ]
   },
   {
-    "title": "kathmandu international artists in residency 2027",
+    "title": "masaha residency cycle 12",
     "organization": "ArtConnect Open Calls",
     "category": "residency",
     "city": "Online",
@@ -2719,8 +2755,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.artconnect.com/opportunity/ZymLpPp2C1XVp4fQtWdu8",
-    "official_website": "https://www.artconnect.com/opportunity/ZymLpPp2C1XVp4fQtWdu8",
+    "source_url": "https://www.artconnect.com/opportunity/sYN4qh94HEPmeCEuPS0_j",
+    "official_website": "https://www.artconnect.com/opportunity/sYN4qh94HEPmeCEuPS0_j",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -2770,114 +2806,6 @@
     ],
     "fit_keyword_hits": [
       "open call"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
-    "title": "Art Submissions",
-    "organization": "ArtConnect Open Calls",
-    "category": "open_call_index",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.artconnect.com/opportunities/art-submissions",
-    "official_website": "https://www.artconnect.com/opportunities/art-submissions",
-    "submission_page": "https://www.artconnect.com/opportunities/art-submissions",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from ArtConnect Open Calls.",
-    "why_this_fits_short": "Possible fit based on link text: submission",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: submission"
-    ],
-    "fit_keyword_hits": [
-      "submission"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
-    "title": "www.curatorspace.com",
-    "organization": "CuratorSpace",
-    "category": "gallery_event",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/open-call-for-artists--th-community-art-exhibition/10936",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/open-call-for-artists--th-community-art-exhibition/10936",
-    "submission_page": "https://www.curatorspace.com/opportunities/detail/open-call-for-artists--th-community-art-exhibition/10936",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: exhibition",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: exhibition"
-    ],
-    "fit_keyword_hits": [
-      "exhibition"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
-    "title": "Report this?",
-    "organization": "CuratorSpace",
-    "category": "gallery_event",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fopen-call-for-artists--th-community-art-exhibition%2F10936&redirect=%2Fopportunities",
-    "official_website": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fopen-call-for-artists--th-community-art-exhibition%2F10936&redirect=%2Fopportunities",
-    "submission_page": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fopen-call-for-artists--th-community-art-exhibition%2F10936&redirect=%2Fopportunities",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: exhibition",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: exhibition"
-    ],
-    "fit_keyword_hits": [
-      "exhibition"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -2971,9 +2899,9 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/exhibit-in-brazil--pulse-exhibition/10898",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/exhibit-in-brazil--pulse-exhibition/10898",
-    "submission_page": "",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/structure--open-call-exhibition/10908",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/structure--open-call-exhibition/10908",
+    "submission_page": "https://www.curatorspace.com/opportunities/detail/structure--open-call-exhibition/10908",
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate link discovered from CuratorSpace.",
@@ -3007,9 +2935,9 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fexhibit-in-brazil--pulse-exhibition%2F10898&redirect=%2Fopportunities",
-    "official_website": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fexhibit-in-brazil--pulse-exhibition%2F10898&redirect=%2Fopportunities",
-    "submission_page": "",
+    "source_url": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fstructure--open-call-exhibition%2F10908&redirect=%2Fopportunities",
+    "official_website": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fstructure--open-call-exhibition%2F10908&redirect=%2Fopportunities",
+    "submission_page": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fstructure--open-call-exhibition%2F10908&redirect=%2Fopportunities",
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate link discovered from CuratorSpace.",
@@ -3032,9 +2960,9 @@
     ]
   },
   {
-    "title": "Exhibition Elmswell Library is looking for artists to exhibit. We are a village library in",
+    "title": "www.curatorspace.com",
     "organization": "CuratorSpace",
-    "category": "gallery_event",
+    "category": "open_call_index",
     "city": "Online",
     "country": "Global",
     "overall_score": 4.7,
@@ -3043,21 +2971,93 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/exhibition/8735",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/exhibition/8735",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/the-palette-of-place/10949",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/the-palette-of-place/10949",
     "submission_page": "",
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: exhibition",
+    "why_this_fits_short": "Possible fit based on link text: place",
     "quick_action": "Open and verify whether this is current and relevant.",
     "three_bullets": [
       "Discovered from source link list.",
       "Needs manual verification.",
-      "Keyword hits: exhibition"
+      "Keyword hits: place"
     ],
     "fit_keyword_hits": [
-      "exhibition"
+      "place"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
+    "title": "Report this?",
+    "organization": "CuratorSpace",
+    "category": "open_call_index",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fthe-palette-of-place%2F10949&redirect=%2Fopportunities",
+    "official_website": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fthe-palette-of-place%2F10949&redirect=%2Fopportunities",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from CuratorSpace.",
+    "why_this_fits_short": "Possible fit based on link text: place",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: place"
+    ],
+    "fit_keyword_hits": [
+      "place"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
+    "title": "Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING",
+    "organization": "CuratorSpace",
+    "category": "photo_open_call",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/vault-collective--open-call--rolling-deadline/1071",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/vault-collective--open-call--rolling-deadline/1071",
+    "submission_page": "https://www.curatorspace.com/opportunities/detail/vault-collective--open-call--rolling-deadline/1071",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from CuratorSpace.",
+    "why_this_fits_short": "Possible fit based on link text: open call",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: open call"
+    ],
+    "fit_keyword_hits": [
+      "open call"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -3176,42 +3176,6 @@
     ]
   },
   {
-    "title": "展覧会 2025.08.04 Illustration Talks v",
-    "organization": "Tokyo Illustrators Society",
-    "category": "illustration_society",
-    "city": "",
-    "country": "Japan",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.tis-home.com/news/detail.html?id=4202&code=2",
-    "official_website": "https://www.tis-home.com/news/detail.html?id=4202&code=2",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from Tokyo Illustrators Society.",
-    "why_this_fits_short": "Possible fit based on link text: illustration",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: illustration"
-    ],
-    "fit_keyword_hits": [
-      "illustration"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
     "title": "展覧会 2025.04.18 「110人のイラストレーターが描く 宮沢",
     "organization": "Tokyo Illustrators Society",
     "category": "gallery_event",
@@ -3248,6 +3212,42 @@
     ]
   },
   {
+    "title": "展覧会 2025.08.04 Illustration Talks v",
+    "organization": "Tokyo Illustrators Society",
+    "category": "illustration_society",
+    "city": "",
+    "country": "Japan",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.tis-home.com/news/detail.html?id=4202&code=2",
+    "official_website": "https://www.tis-home.com/news/detail.html?id=4202&code=2",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from Tokyo Illustrators Society.",
+    "why_this_fits_short": "Possible fit based on link text: illustration",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: illustration"
+    ],
+    "fit_keyword_hits": [
+      "illustration"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
     "title": "これから開催の展示",
     "organization": "Gallery IYN",
     "category": "gallery_event",
@@ -3274,6 +3274,42 @@
     ],
     "fit_keyword_hits": [
       "exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
+    "title": "有龍 ミニ個展『魂の還る場所』",
+    "organization": "Gallery IYN",
+    "category": "gallery_event",
+    "city": "",
+    "country": "Japan",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.gallery-iyn.com/post/place-where-souls-return",
+    "official_website": "https://www.gallery-iyn.com/post/place-where-souls-return",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from Gallery IYN.",
+    "why_this_fits_short": "Possible fit based on link text: place",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: place"
+    ],
+    "fit_keyword_hits": [
+      "place"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -3860,7 +3896,7 @@
     ]
   },
   {
-    "title": "8.16 SUN つみきの展示",
+    "title": "8.19 WED Caoli Postcard Exhibition「葉樹の森」",
     "organization": "Design Festa Gallery",
     "category": "gallery_event",
     "city": "",
@@ -3871,8 +3907,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://designfestagallery.com/tsumikiexhibition/",
-    "official_website": "https://designfestagallery.com/tsumikiexhibition/",
+    "source_url": "https://designfestagallery.com/caoli-postcard-exhibition/",
+    "official_website": "https://designfestagallery.com/caoli-postcard-exhibition/",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -3896,7 +3932,7 @@
     ]
   },
   {
-    "title": "8.16 SUN MELANCHOLY 2nd solo exhibition『Affogato』",
+    "title": "8.16 SUN つみきの展示",
     "organization": "Design Festa Gallery",
     "category": "gallery_event",
     "city": "",
@@ -3907,8 +3943,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://designfestagallery.com/melancholy/",
-    "official_website": "https://designfestagallery.com/melancholy/",
+    "source_url": "https://designfestagallery.com/tsumikiexhibition/",
+    "official_website": "https://designfestagallery.com/tsumikiexhibition/",
     "submission_page": "",
     "deadline": "",
     "fees": "",

@@ -1,15 +1,15 @@
 {
-  "venue_name": "第7回生賴範義賞",
+  "venue_name": "スカイホール（大丸藤井セントラル 7階貸しギャラリー）",
   "venue_slug": "7",
   "venue_type": "artist opportunity venue",
-  "city": "Online",
+  "city": "Sapporo",
   "country": "",
-  "website": "https://x.com/White_Pallet",
+  "website": "https://www.instagram.com/p/DWdnEbjiVgI",
   "source_links": [
-    "https://x.com/White_Pallet"
+    "https://www.instagram.com/p/DWdnEbjiVgI"
   ],
   "categories_seen": [
-    "Illustration Prize"
+    "Artist Spaces"
   ],
   "accepts_unsolicited_work": "unknown",
   "submission_style": "unknown",
@@ -25,12 +25,14 @@
   ],
   "missing_information": [
     "contact",
+    "deadline",
+    "fees",
     "submission process"
   ],
   "opportunity_titles": [
-    "第7回生賴範義賞"
+    "スカイホール 展覧会 – イラストレーター・アート作品募集"
   ],
   "last_researched": "",
-  "created_at": "2026-08-18",
-  "updated_at": "2026-08-18"
+  "created_at": "2026-08-21",
+  "updated_at": "2026-08-21"
 }

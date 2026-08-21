@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-08-11
+REPORT GENERATED: 2026-08-20
 
 # HATTIFNATT Koenji Cafe Gallery
 
@@ -50,5 +50,5 @@ Call 03-6762-8122 to ask how wall slots work at the Koenji location, and visit f
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-08-11_
+_Last generated: 2026-08-20_
 

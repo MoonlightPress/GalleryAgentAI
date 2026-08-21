@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-07-03
+REPORT GENERATED: 2026-08-20
 
 # NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW
 
@@ -51,5 +51,5 @@ Confirm deadline, duration, cost, location, and whether visual artists are eligi
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-07-03_
+_Last generated: 2026-08-20_
 

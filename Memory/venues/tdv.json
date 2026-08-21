@@ -1,0 +1,38 @@
+{
+  "venue_name": "TDV",
+  "venue_slug": "tdv",
+  "venue_type": "artist opportunity venue",
+  "city": "Toronto",
+  "country": "",
+  "website": "https://www.facebook.com/groups/375386309283715/posts/3710620949093551",
+  "source_links": [
+    "https://www.facebook.com/groups/375386309283715/posts/3710620949093551"
+  ],
+  "categories_seen": [
+    "Watercolor Competition"
+  ],
+  "accepts_unsolicited_work": "unknown",
+  "submission_style": "unknown",
+  "typical_artists": [],
+  "typical_mediums": [],
+  "known_aesthetic": [],
+  "price_level": "unknown",
+  "risk_notes": [],
+  "fit_notes": [],
+  "verification_notes": [
+    "Automatically created from opportunity data.",
+    "Needs manual/web research before being treated as verified."
+  ],
+  "missing_information": [
+    "contact",
+    "deadline",
+    "fees",
+    "submission process"
+  ],
+  "opportunity_titles": [
+    "TDV ART Watercolour Salon"
+  ],
+  "last_researched": "",
+  "created_at": "2026-08-21",
+  "updated_at": "2026-08-21"
+}

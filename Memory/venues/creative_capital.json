@@ -1,0 +1,43 @@
+{
+  "venue_name": "Creative Capital",
+  "venue_slug": "creative_capital",
+  "venue_type": "artist opportunity venue",
+  "city": "Unknown",
+  "country": "",
+  "website": "https://creative-capital.org",
+  "source_links": [
+    "https://creative-capital.org",
+    "https://creative-capital.org/creative-capital-award",
+    "https://creative-capital.org/creative-capital-award/award-application"
+  ],
+  "categories_seen": [
+    "Grant"
+  ],
+  "accepts_unsolicited_work": "unknown",
+  "submission_style": "unknown",
+  "typical_artists": [],
+  "typical_mediums": [],
+  "known_aesthetic": [],
+  "price_level": "unknown",
+  "risk_notes": [],
+  "fit_notes": [],
+  "verification_notes": [
+    "Automatically created from opportunity data.",
+    "Needs manual/web research before being treated as verified."
+  ],
+  "missing_information": [
+    "contact",
+    "deadline",
+    "submission process"
+  ],
+  "opportunity_titles": [
+    "Creative Capital Awards 2026",
+    "State of the Art Prize",
+    "2026 State of the Art Prize",
+    "Creative Capital Award",
+    "Creative Capital Award 2027"
+  ],
+  "last_researched": "",
+  "created_at": "2026-08-21",
+  "updated_at": "2026-08-21"
+}

@@ -119,14 +119,15 @@ This is the strongest immediate ecosystem for her visual language: quiet photogr
 - **UTRECHT** — score 9.4, differentiated 11.24; matched: UTRECHT
 - **Tokyo Art Book Fair** — score 9.4, differentiated 11.24; matched: TOKYO ART BOOK FAIR
 - **TOKIO ART BOOK FAIR 2026** — score 9.4, differentiated 11.24; matched: TOKYO ART BOOK FAIR
+- **TOKYO ART BOOK FAIR 2026** — score 8.6, differentiated 10.59; matched: TOKYO ART BOOK FAIR
 - **MOUNT ZINE** — score 9.2, differentiated 10.51; matched: MOUNT ZINE
-- **TOKYO ART BOOK FAIR 2026** — score 8.6, differentiated 10.49; matched: TOKYO ART BOOK FAIR
+- **TOKYO ART BOOK FAIR 16th edition (2027)** — score 8.6, differentiated 10.22; matched: TOKYO ART BOOK FAIR
 - **flotsam books** — score 8.2, differentiated 10.19; matched: flotsam books
+- **TOKIO ART BOOK FAIR 2026 by TOKYO ART BOOK FAIR** — score 8.6, differentiated 10.1; matched: TOKYO ART BOOK FAIR
+- **桜Exhibition2026** — score 7.4, differentiated 8.72; matched: POST
 - **POST** — score 7.3, differentiated 8.51; matched: POST
-- **桜Exhibition2026** — score 6.9, differentiated 8.1; matched: POST
-- **shashasha** — score 5.0, differentiated 5.96; matched: Shashasha
-- **TOKYO ART BOOK FAIR 2026 Exhibitor Call** — score 3.2, differentiated 4.94; matched: TOKYO ART BOOK FAIR
-- **Exhibition in Japan (October 16–19, 2026)** — score 2.0, differentiated 2.6; matched: POST
+- **IlloBoom! 2026 第三届插画峰峰赛 (IlloBoom! 2026 3rd Annual Illustration Summit Challenge)** — score 7.0, differentiated 7.48; matched: POST
+- **CCBT 2026年度 アート・インキュベーション・プログラム** — score 6.7, differentiated 7.48; matched: POST
 
 ### International Photobook Publishing
 This is the long-horizon ecosystem for international publication legitimacy.
@@ -150,6 +151,9 @@ These are useful for soft visibility and relationship-building before major appl
 - **B&B Shimokitazawa** — score 9.0, differentiated 10.99; matched: B&B Shimokitazawa
 - **MOUNT ZINE** — score 9.2, differentiated 10.51; matched: MOUNT ZINE
 - **flotsam books** — score 8.2, differentiated 10.19; matched: flotsam books
+- **桜Exhibition2026** — score 7.4, differentiated 8.72; matched: POST
 - **POST** — score 7.3, differentiated 8.51; matched: POST
-- **桜Exhibition2026** — score 6.9, differentiated 8.1; matched: POST
-- **Exhibition in Japan (October 16–19, 2026)** — score 2.0, differentiated 2.6; matched: POST
+- **IlloBoom! 2026 第三届插画峰峰赛 (IlloBoom! 2026 3rd Annual Illustration Summit Challenge)** — score 7.0, differentiated 7.48; matched: POST
+- **CCBT 2026年度 アート・インキュベーション・プログラム** — score 6.7, differentiated 7.48; matched: POST
+- **ギンザ・グラフィック・ギャラリー第415回企画展 ダフィ・クーネ：ポスターを構築する** — score 6.4, differentiated 6.76; matched: POST
+- **Exhibition in Japan (October 16–19, 2026)** — score 2.2, differentiated 2.9; matched: POST

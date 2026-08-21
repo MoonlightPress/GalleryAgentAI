@@ -1,219 +1,824 @@
 {
   "queries": {
     "jp_twitter_koubo_watercolor": {
-      "last_run": "2026-07-27T08:53:11.871751",
-      "found": 4,
+      "last_run": "2026-08-20T07:22:45.137257",
+      "found": 5,
       "added": 3
     },
     "jp_twitter_gallery_koubo": {
-      "last_run": "2026-07-27T08:53:21.787404",
-      "found": 4,
+      "last_run": "2026-08-20T07:22:56.874827",
+      "found": 5,
       "added": 3
     },
     "jp_twitter_artist_recruit": {
-      "last_run": "2026-07-27T08:53:29.808957",
-      "found": 2,
-      "added": 2
+      "last_run": "2026-08-20T07:23:08.980064",
+      "found": 3,
+      "added": 1
     },
     "jp_note_koubo_artist": {
-      "last_run": "2026-07-27T08:53:38.109060",
-      "found": 2,
-      "added": 2
+      "last_run": "2026-08-20T07:23:25.743303",
+      "found": 4,
+      "added": 3
     },
     "jp_note_gallery_open": {
-      "last_run": "2026-07-27T08:53:49.320411",
-      "found": 5,
-      "added": 5
+      "last_run": "2026-08-20T07:23:40.376994",
+      "found": 4,
+      "added": 2
     },
     "jp_bijutsutecho_koubo": {
-      "last_run": "2026-07-27T08:53:56.017044",
-      "found": 1,
-      "added": 0
+      "last_run": "2026-08-20T07:23:51.861041",
+      "found": 3,
+      "added": 3
     },
     "jp_bijutsutecho_open_call": {
-      "last_run": "2026-07-27T08:54:03.650614",
-      "found": 1,
+      "last_run": "2026-08-20T07:24:00.780766",
+      "found": 3,
       "added": 1
     },
     "jp_tokyo_gallery_watercolor": {
-      "last_run": "2026-07-27T08:54:19.122732",
-      "found": 5,
+      "last_run": "2026-08-20T07:24:15.063034",
+      "found": 6,
       "added": 4
     },
     "jp_watercolor_open_call": {
-      "last_run": "2026-07-27T08:54:37.062503",
-      "found": 9,
-      "added": 6
+      "last_run": "2026-08-20T07:24:26.618016",
+      "found": 4,
+      "added": 2
     },
     "jp_illustration_open_call": {
-      "last_run": "2026-07-27T08:54:53.597061",
-      "found": 8,
-      "added": 6
+      "last_run": "2026-08-20T07:24:39.777356",
+      "found": 5,
+      "added": 5
     },
     "jp_zine_fair_artist": {
-      "last_run": "2026-07-27T08:55:00.887424",
-      "found": 1,
-      "added": 0
+      "last_run": "2026-08-20T07:24:50.250431",
+      "found": 3,
+      "added": 1
     },
     "jp_cafe_gallery_recruit": {
-      "last_run": "2026-07-27T08:55:15.383566",
-      "found": 6,
+      "last_run": "2026-08-20T07:25:02.129692",
+      "found": 4,
       "added": 3
     },
     "cn_weibo_zhengao_watercolor": {
-      "last_run": "2026-07-27T08:55:27.791919",
-      "found": 2,
-      "added": 1
-    },
-    "cn_weibo_exhibition_open": {
-      "last_run": "2026-07-27T08:55:42.528775",
-      "found": 3,
-      "added": 2
-    },
-    "cn_weibo_illustration_call": {
-      "last_run": "2026-07-27T08:55:49.190412",
+      "last_run": "2026-08-20T07:25:08.076679",
       "found": 0,
       "added": 0
     },
+    "cn_weibo_exhibition_open": {
+      "last_run": "2026-08-20T07:25:14.695846",
+      "found": 1,
+      "added": 1
+    },
+    "cn_weibo_illustration_call": {
+      "last_run": "2026-08-20T07:25:22.547311",
+      "found": 1,
+      "added": 0
+    },
     "cn_lofter_watercolor": {
-      "last_run": "2026-07-27T08:55:54.620568",
+      "last_run": "2026-08-20T07:25:30.297776",
       "found": 0,
       "added": 0
     },
     "cn_lofter_art_recruit": {
-      "last_run": "2026-07-27T08:56:03.926815",
+      "last_run": "2026-08-20T07:25:38.377911",
       "found": 0,
       "added": 0
     },
     "cn_zcool_illustration_call": {
-      "last_run": "2026-07-27T08:56:12.131133",
-      "found": 1,
-      "added": 1
+      "last_run": "2026-08-20T07:25:44.305086",
+      "found": 0,
+      "added": 0
     },
     "cn_zcool_open_call": {
-      "last_run": "2026-07-27T08:56:17.490556",
+      "last_run": "2026-08-20T07:25:51.425108",
       "found": 0,
       "added": 0
     },
     "cn_broad_watercolor_exhibition": {
-      "last_run": "2026-07-27T08:56:28.332231",
-      "found": 3,
-      "added": 3
-    },
-    "cn_illustration_magazine_call": {
-      "last_run": "2026-07-27T08:56:41.862157",
-      "found": 9,
-      "added": 9
-    },
-    "cn_art_competition": {
-      "last_run": "2026-07-27T08:56:57.620668",
-      "found": 7,
-      "added": 6
-    },
-    "diaspora_tokyo_chinese_art": {
-      "last_run": "2026-07-27T08:57:03.544502",
+      "last_run": "2026-08-20T07:26:07.116877",
       "found": 0,
       "added": 0
     },
+    "cn_illustration_magazine_call": {
+      "last_run": "2026-08-20T07:26:32.389709",
+      "found": 0,
+      "added": 0
+    },
+    "cn_art_competition": {
+      "last_run": "2026-08-20T07:26:42.981174",
+      "found": 3,
+      "added": 1
+    },
+    "diaspora_tokyo_chinese_art": {
+      "last_run": "2026-08-20T07:26:52.036132",
+      "found": 3,
+      "added": 2
+    },
     "diaspora_tokyo_chinese_gallery": {
-      "last_run": "2026-07-27T08:57:19.969298",
-      "found": 11,
-      "added": 11
+      "last_run": "2026-08-20T07:27:08.221004",
+      "found": 0,
+      "added": 0
     },
     "diaspora_tokyo_illustration": {
-      "last_run": "2026-07-27T08:57:32.975407",
-      "found": 4,
+      "last_run": "2026-08-20T07:27:16.711065",
+      "found": 2,
       "added": 2
     },
     "diaspora_sg_art_call": {
-      "last_run": "2026-07-27T08:57:43.231442",
+      "last_run": "2026-08-20T07:27:25.717478",
       "found": 4,
       "added": 3
     },
     "diaspora_sg_chinese": {
-      "last_run": "2026-07-27T08:57:51.511746",
-      "found": 2,
-      "added": 2
+      "last_run": "2026-08-20T07:27:38.974357",
+      "found": 5,
+      "added": 5
     },
     "diaspora_van_open_call": {
-      "last_run": "2026-07-27T08:58:02.040456",
-      "found": 3,
-      "added": 2
+      "last_run": "2026-08-20T07:27:49.728577",
+      "found": 4,
+      "added": 4
     },
     "diaspora_van_chinese": {
-      "last_run": "2026-07-27T08:58:11.569407",
-      "found": 3,
-      "added": 1
-    },
-    "diaspora_tor_open_call": {
-      "last_run": "2026-07-27T08:58:26.830296",
-      "found": 6,
-      "added": 6
-    },
-    "diaspora_tor_chinese": {
-      "last_run": "2026-07-27T08:58:37.052928",
+      "last_run": "2026-08-20T07:28:02.263305",
       "found": 3,
       "added": 2
     },
+    "diaspora_tor_open_call": {
+      "last_run": "2026-08-20T07:28:14.600475",
+      "found": 7,
+      "added": 7
+    },
+    "diaspora_tor_chinese": {
+      "last_run": "2026-08-20T07:28:20.903917",
+      "found": 0,
+      "added": 0
+    },
     "jp_editorial_magazine_call": {
-      "last_run": "2026-07-27T08:58:45.455587",
+      "last_run": "2026-08-20T07:28:30.162350",
       "found": 2,
       "added": 1
     },
     "jp_art_magazine_contributor": {
-      "last_run": "2026-07-27T08:58:55.538020",
-      "found": 4,
-      "added": 4
+      "last_run": "2026-08-20T07:28:36.713943",
+      "found": 0,
+      "added": 0
     },
     "jp_book_cover_illustration": {
-      "last_run": "2026-07-27T08:59:04.668548",
+      "last_run": "2026-08-20T07:28:45.510857",
       "found": 2,
       "added": 2
     },
     "jp_editorial_twitter": {
-      "last_run": "2026-07-27T08:59:16.336696",
-      "found": 2,
-      "added": 2
+      "last_run": "2026-08-20T07:28:50.960120",
+      "found": 0,
+      "added": 0
     },
     "cn_editorial_illustration": {
-      "last_run": "2026-07-27T08:59:28.069619",
-      "found": 3,
-      "added": 2
-    },
-    "cn_book_cover_call": {
-      "last_run": "2026-07-27T08:59:36.914316",
+      "last_run": "2026-08-20T07:28:59.271462",
       "found": 3,
       "added": 3
     },
+    "cn_book_cover_call": {
+      "last_run": "2026-08-20T07:29:07.224664",
+      "found": 1,
+      "added": 1
+    },
     "jp_watercolor_competition": {
-      "last_run": "2026-07-27T08:59:48.955592",
+      "last_run": "2026-08-20T07:29:25.875591",
+      "found": 5,
+      "added": 5
+    },
+    "jp_illustration_award": {
+      "last_run": "2026-08-20T07:29:36.872014",
       "found": 3,
       "added": 1
     },
-    "jp_illustration_award": {
-      "last_run": "2026-07-27T08:59:59.462423",
-      "found": 4,
-      "added": 2
-    },
     "jp_emerging_artist_prize": {
-      "last_run": "2026-07-27T09:00:16.641436",
-      "found": 11,
-      "added": 4
+      "last_run": "2026-08-20T07:29:54.464112",
+      "found": 6,
+      "added": 5
     },
     "jp_competition_bijutsutecho": {
-      "last_run": "2026-07-27T09:00:29.497944",
+      "last_run": "2026-08-20T07:30:04.388551",
+      "found": 4,
+      "added": 1
+    },
+    "cn_watercolor_competition": {
+      "last_run": "2026-08-20T07:30:24.713520",
+      "found": 0,
+      "added": 0
+    },
+    "cn_illustration_prize": {
+      "last_run": "2026-08-20T07:30:37.589203",
+      "found": 5,
+      "added": 4
+    },
+    "jp_city_koubo_0": {
+      "last_run": "2026-08-20T07:30:54.427076",
+      "found": 5,
+      "added": 5
+    },
+    "jp_city_gallery_0": {
+      "last_run": "2026-08-20T07:31:05.886767",
+      "found": 3,
+      "added": 3
+    },
+    "jp_city_koubo_1": {
+      "last_run": "2026-08-20T07:31:23.281741",
+      "found": 8,
+      "added": 8
+    },
+    "jp_city_gallery_1": {
+      "last_run": "2026-08-20T07:31:36.620322",
+      "found": 5,
+      "added": 3
+    },
+    "jp_city_koubo_2": {
+      "last_run": "2026-08-20T07:31:48.311903",
+      "found": 3,
+      "added": 2
+    },
+    "jp_city_gallery_2": {
+      "last_run": "2026-08-20T07:31:56.886400",
+      "found": 1,
+      "added": 1
+    },
+    "jp_city_koubo_3": {
+      "last_run": "2026-08-20T07:32:05.245831",
+      "found": 2,
+      "added": 2
+    },
+    "jp_city_gallery_3": {
+      "last_run": "2026-08-20T07:32:15.805827",
       "found": 4,
       "added": 4
     },
-    "cn_watercolor_competition": {
-      "last_run": "2026-07-27T09:00:41.387996",
+    "jp_city_koubo_4": {
+      "last_run": "2026-08-20T07:32:28.040987",
+      "found": 5,
+      "added": 3
+    },
+    "jp_city_gallery_4": {
+      "last_run": "2026-08-20T07:32:41.372780",
+      "found": 3,
+      "added": 3
+    },
+    "jp_city_koubo_5": {
+      "last_run": "2026-08-20T07:32:52.756577",
       "found": 4,
       "added": 3
     },
-    "cn_illustration_prize": {
-      "last_run": "2026-07-27T09:00:54.987421",
+    "jp_city_gallery_5": {
+      "last_run": "2026-08-20T07:33:00.270883",
+      "found": 2,
+      "added": 2
+    },
+    "jp_city_koubo_6": {
+      "last_run": "2026-08-20T07:33:10.552870",
+      "found": 4,
+      "added": 4
+    },
+    "jp_city_gallery_6": {
+      "last_run": "2026-08-20T07:33:22.244269",
+      "found": 5,
+      "added": 5
+    },
+    "jp_city_koubo_7": {
+      "last_run": "2026-08-20T07:33:34.833886",
       "found": 4,
       "added": 2
+    },
+    "jp_city_gallery_7": {
+      "last_run": "2026-08-20T07:33:48.141509",
+      "found": 5,
+      "added": 5
+    },
+    "jp_city_koubo_8": {
+      "last_run": "2026-08-20T07:34:02.554170",
+      "found": 3,
+      "added": 3
+    },
+    "jp_city_gallery_8": {
+      "last_run": "2026-08-20T07:34:13.394327",
+      "found": 3,
+      "added": 1
+    },
+    "jp_city_koubo_9": {
+      "last_run": "2026-08-20T07:34:25.674539",
+      "found": 3,
+      "added": 2
+    },
+    "jp_city_gallery_9": {
+      "last_run": "2026-08-20T07:34:35.748160",
+      "found": 3,
+      "added": 3
+    },
+    "jp_venue_0": {
+      "last_run": "2026-08-20T07:34:48.062953",
+      "found": 5,
+      "added": 4
+    },
+    "jp_venue_1": {
+      "last_run": "2026-08-20T07:34:58.030418",
+      "found": 3,
+      "added": 3
+    },
+    "jp_venue_2": {
+      "last_run": "2026-08-20T07:35:12.380692",
+      "found": 4,
+      "added": 2
+    },
+    "jp_venue_3": {
+      "last_run": "2026-08-20T07:35:28.459423",
+      "found": 10,
+      "added": 9
+    },
+    "jp_venue_4": {
+      "last_run": "2026-08-20T07:35:43.188874",
+      "found": 5,
+      "added": 3
+    },
+    "jp_venue_5": {
+      "last_run": "2026-08-20T07:35:56.495534",
+      "found": 6,
+      "added": 4
+    },
+    "jp_format_0": {
+      "last_run": "2026-08-20T07:36:08.529570",
+      "found": 3,
+      "added": 3
+    },
+    "jp_format_1": {
+      "last_run": "2026-08-20T07:36:23.021919",
+      "found": 6,
+      "added": 3
+    },
+    "jp_format_2": {
+      "last_run": "2026-08-20T07:36:33.004046",
+      "found": 2,
+      "added": 1
+    },
+    "jp_format_3": {
+      "last_run": "2026-08-20T07:36:49.833930",
+      "found": 6,
+      "added": 4
+    },
+    "jp_format_4": {
+      "last_run": "2026-08-20T07:37:03.505138",
+      "found": 5,
+      "added": 1
+    },
+    "jp_format_5": {
+      "last_run": "2026-08-20T07:37:14.105351",
+      "found": 3,
+      "added": 1
+    },
+    "jp_medium_0": {
+      "last_run": "2026-08-20T07:37:32.463150",
+      "found": 6,
+      "added": 3
+    },
+    "jp_medium_1": {
+      "last_run": "2026-08-20T07:37:43.931439",
+      "found": 4,
+      "added": 2
+    },
+    "jp_medium_2": {
+      "last_run": "2026-08-20T07:37:55.788242",
+      "found": 4,
+      "added": 1
+    },
+    "jp_medium_3": {
+      "last_run": "2026-08-20T07:38:07.020104",
+      "found": 4,
+      "added": 3
+    },
+    "jp_medium_4": {
+      "last_run": "2026-08-20T07:38:16.655190",
+      "found": 3,
+      "added": 1
+    },
+    "jp_medium_5": {
+      "last_run": "2026-08-20T07:38:30.295530",
+      "found": 5,
+      "added": 2
+    },
+    "jp_medium_6": {
+      "last_run": "2026-08-20T07:38:50.727751",
+      "found": 7,
+      "added": 6
+    },
+    "jp_residency_0": {
+      "last_run": "2026-08-20T07:39:01.672727",
+      "found": 4,
+      "added": 4
+    },
+    "jp_residency_1": {
+      "last_run": "2026-08-20T07:39:21.428198",
+      "found": 6,
+      "added": 6
+    },
+    "jp_residency_2": {
+      "last_run": "2026-08-20T07:39:37.744919",
+      "found": 8,
+      "added": 7
+    },
+    "jp_residency_3": {
+      "last_run": "2026-08-20T07:39:54.862758",
+      "found": 10,
+      "added": 8
+    },
+    "jp_editorial_x_0": {
+      "last_run": "2026-08-20T07:40:01.026971",
+      "found": 0,
+      "added": 0
+    },
+    "jp_editorial_x_1": {
+      "last_run": "2026-08-20T07:40:17.509531",
+      "found": 4,
+      "added": 4
+    },
+    "jp_editorial_x_2": {
+      "last_run": "2026-08-20T07:40:29.381455",
+      "found": 3,
+      "added": 1
+    },
+    "jp_editorial_x_3": {
+      "last_run": "2026-08-20T07:40:43.599557",
+      "found": 7,
+      "added": 7
+    },
+    "jp_editorial_x_4": {
+      "last_run": "2026-08-20T07:40:56.063712",
+      "found": 5,
+      "added": 4
+    },
+    "jp_editorial_x_5": {
+      "last_run": "2026-08-20T07:41:05.507983",
+      "found": 5,
+      "added": 5
+    },
+    "jp_book_0": {
+      "last_run": "2026-08-20T07:41:14.343646",
+      "found": 3,
+      "added": 1
+    },
+    "jp_book_1": {
+      "last_run": "2026-08-20T07:41:24.095283",
+      "found": 4,
+      "added": 4
+    },
+    "jp_book_2": {
+      "last_run": "2026-08-20T07:41:38.181726",
+      "found": 2,
+      "added": 2
+    },
+    "jp_book_3": {
+      "last_run": "2026-08-20T07:41:46.820231",
+      "found": 3,
+      "added": 3
+    },
+    "jp_book_4": {
+      "last_run": "2026-08-20T07:42:07.936956",
+      "found": 5,
+      "added": 5
+    },
+    "jp_season_0": {
+      "last_run": "2026-08-20T07:42:25.061053",
+      "found": 9,
+      "added": 6
+    },
+    "jp_season_1": {
+      "last_run": "2026-08-20T07:42:38.336043",
+      "found": 4,
+      "added": 2
+    },
+    "jp_season_2": {
+      "last_run": "2026-08-20T07:43:00.882291",
+      "found": 0,
+      "added": 0
+    },
+    "jp_season_3": {
+      "last_run": "2026-08-20T07:43:21.654843",
+      "found": 0,
+      "added": 0
+    },
+    "jp_x_extra_0": {
+      "last_run": "2026-08-20T07:43:36.763741",
+      "found": 5,
+      "added": 3
+    },
+    "jp_x_extra_1": {
+      "last_run": "2026-08-20T07:43:47.684010",
+      "found": 3,
+      "added": 3
+    },
+    "jp_x_extra_2": {
+      "last_run": "2026-08-20T07:43:59.874274",
+      "found": 4,
+      "added": 4
+    },
+    "jp_note_extra_0": {
+      "last_run": "2026-08-20T07:44:12.007196",
+      "found": 3,
+      "added": 2
+    },
+    "jp_note_extra_1": {
+      "last_run": "2026-08-20T07:44:25.291595",
+      "found": 3,
+      "added": 3
+    },
+    "jp_note_extra_2": {
+      "last_run": "2026-08-20T07:44:34.767170",
+      "found": 1,
+      "added": 1
+    },
+    "cn_city_0": {
+      "last_run": "2026-08-20T07:44:51.426899",
+      "found": 7,
+      "added": 7
+    },
+    "cn_city_1": {
+      "last_run": "2026-08-20T07:45:01.449642",
+      "found": 3,
+      "added": 3
+    },
+    "cn_city_2": {
+      "last_run": "2026-08-20T07:45:15.041460",
+      "found": 4,
+      "added": 2
+    },
+    "cn_city_3": {
+      "last_run": "2026-08-20T07:45:34.977772",
+      "found": 5,
+      "added": 4
+    },
+    "cn_city_4": {
+      "last_run": "2026-08-20T07:45:47.139998",
+      "found": 4,
+      "added": 3
+    },
+    "cn_city_5": {
+      "last_run": "2026-08-20T07:45:59.914042",
+      "found": 3,
+      "added": 2
+    },
+    "cn_city_6": {
+      "last_run": "2026-08-20T07:46:07.122586",
+      "found": 1,
+      "added": 0
+    },
+    "cn_city_7": {
+      "last_run": "2026-08-20T07:46:20.396983",
+      "found": 4,
+      "added": 2
+    },
+    "cn_term_0": {
+      "last_run": "2026-08-20T07:46:32.680707",
+      "found": 3,
+      "added": 2
+    },
+    "cn_term_1": {
+      "last_run": "2026-08-20T07:46:44.800595",
+      "found": 4,
+      "added": 3
+    },
+    "cn_term_2": {
+      "last_run": "2026-08-20T07:47:02.541536",
+      "found": 3,
+      "added": 3
+    },
+    "cn_term_3": {
+      "last_run": "2026-08-20T07:47:16.529390",
+      "found": 6,
+      "added": 4
+    },
+    "cn_term_4": {
+      "last_run": "2026-08-20T07:47:32.186638",
+      "found": 5,
+      "added": 4
+    },
+    "cn_extra_0": {
+      "last_run": "2026-08-20T07:47:44.829949",
+      "found": 5,
+      "added": 5
+    },
+    "cn_extra_1": {
+      "last_run": "2026-08-20T07:48:00.808572",
+      "found": 5,
+      "added": 4
+    },
+    "cn_extra_2": {
+      "last_run": "2026-08-20T07:48:14.138439",
+      "found": 4,
+      "added": 3
+    },
+    "cn_extra_3": {
+      "last_run": "2026-08-20T07:48:26.082674",
+      "found": 5,
+      "added": 5
+    },
+    "cn_extra_4": {
+      "last_run": "2026-08-20T07:48:40.699539",
+      "found": 6,
+      "added": 6
+    },
+    "cn_extra_5": {
+      "last_run": "2026-08-20T07:48:52.194783",
+      "found": 4,
+      "added": 3
+    },
+    "tw_hk_0": {
+      "last_run": "2026-08-20T07:49:08.629098",
+      "found": 0,
+      "added": 0
+    },
+    "tw_hk_1": {
+      "last_run": "2026-08-20T07:49:23.305763",
+      "found": 3,
+      "added": 3
+    },
+    "tw_hk_2": {
+      "last_run": "2026-08-20T07:49:37.779217",
+      "found": 3,
+      "added": 2
+    },
+    "tw_hk_3": {
+      "last_run": "2026-08-20T07:49:49.090387",
+      "found": 4,
+      "added": 3
+    },
+    "tw_hk_4": {
+      "last_run": "2026-08-20T07:50:06.080512",
+      "found": 4,
+      "added": 4
+    },
+    "tw_hk_5": {
+      "last_run": "2026-08-20T07:50:16.263357",
+      "found": 2,
+      "added": 2
+    },
+    "diaspora_x_0": {
+      "last_run": "2026-08-20T07:50:30.942466",
+      "found": 4,
+      "added": 4
+    },
+    "diaspora_x_1": {
+      "last_run": "2026-08-20T07:50:39.396354",
+      "found": 2,
+      "added": 1
+    },
+    "diaspora_x_2": {
+      "last_run": "2026-08-20T07:50:51.974735",
+      "found": 4,
+      "added": 2
+    },
+    "diaspora_x_3": {
+      "last_run": "2026-08-20T07:51:02.677527",
+      "found": 3,
+      "added": 3
+    },
+    "diaspora_x_4": {
+      "last_run": "2026-08-20T07:51:14.666229",
+      "found": 4,
+      "added": 3
+    },
+    "diaspora_x_5": {
+      "last_run": "2026-08-20T07:51:27.145276",
+      "found": 5,
+      "added": 4
+    },
+    "jp_city2_0": {
+      "last_run": "2026-08-20T07:51:39.138933",
+      "found": 4,
+      "added": 2
+    },
+    "jp_city2_1": {
+      "last_run": "2026-08-20T07:51:49.164682",
+      "found": 3,
+      "added": 3
+    },
+    "jp_city2_2": {
+      "last_run": "2026-08-20T07:52:01.237257",
+      "found": 3,
+      "added": 2
+    },
+    "jp_city2_3": {
+      "last_run": "2026-08-20T07:52:11.689601",
+      "found": 3,
+      "added": 3
+    },
+    "jp_city2_4": {
+      "last_run": "2026-08-20T07:52:23.939196",
+      "found": 5,
+      "added": 5
+    },
+    "jp_city2_5": {
+      "last_run": "2026-08-20T07:52:34.495798",
+      "found": 3,
+      "added": 2
+    },
+    "jp_city2_6": {
+      "last_run": "2026-08-20T07:52:42.810315",
+      "found": 2,
+      "added": 2
+    },
+    "jp_city2_7": {
+      "last_run": "2026-08-20T07:52:52.841620",
+      "found": 2,
+      "added": 1
+    },
+    "jp_city2_8": {
+      "last_run": "2026-08-20T07:53:03.714904",
+      "found": 3,
+      "added": 2
+    },
+    "jp_city2_9": {
+      "last_run": "2026-08-20T07:53:18.276359",
+      "found": 5,
+      "added": 5
+    },
+    "jp_theme_0": {
+      "last_run": "2026-08-20T07:53:31.877367",
+      "found": 6,
+      "added": 3
+    },
+    "jp_theme_1": {
+      "last_run": "2026-08-20T07:53:50.436437",
+      "found": 0,
+      "added": 0
+    },
+    "jp_theme_2": {
+      "last_run": "2026-08-20T07:54:04.399805",
+      "found": 5,
+      "added": 3
+    },
+    "jp_theme_3": {
+      "last_run": "2026-08-20T07:54:15.555636",
+      "found": 2,
+      "added": 0
+    },
+    "jp_theme_4": {
+      "last_run": "2026-08-20T07:54:28.047240",
+      "found": 6,
+      "added": 5
+    },
+    "jp_surface_0": {
+      "last_run": "2026-08-20T07:54:39.344626",
+      "found": 3,
+      "added": 1
+    },
+    "jp_surface_1": {
+      "last_run": "2026-08-20T07:54:50.152376",
+      "found": 3,
+      "added": 3
+    },
+    "jp_surface_2": {
+      "last_run": "2026-08-20T07:54:58.849191",
+      "found": 3,
+      "added": 2
+    },
+    "jp_surface_3": {
+      "last_run": "2026-08-20T07:55:21.316822",
+      "found": 10,
+      "added": 6
+    },
+    "jp_surface_4": {
+      "last_run": "2026-08-20T07:55:39.374537",
+      "found": 10,
+      "added": 7
+    },
+    "jp_society_0": {
+      "last_run": "2026-08-20T07:55:53.202110",
+      "found": 6,
+      "added": 4
+    },
+    "jp_society_1": {
+      "last_run": "2026-08-20T07:56:03.691825",
+      "found": 3,
+      "added": 1
+    },
+    "jp_society_2": {
+      "last_run": "2026-08-20T07:56:18.331398",
+      "found": 6,
+      "added": 3
+    },
+    "jp_society_3": {
+      "last_run": "2026-08-20T07:56:30.328568",
+      "found": 3,
+      "added": 2
+    },
+    "jp_society2_0": {
+      "last_run": "2026-08-20T07:56:39.636781",
+      "found": 3,
+      "added": 2
+    },
+    "jp_society2_1": {
+      "last_run": "2026-08-20T07:56:55.616657",
+      "found": 5,
+      "added": 3
     }
   },
   "runs": [
@@ -500,6 +1105,23 @@
         "CN_EDITORIAL": 5,
         "JP_COMPETITION": 11,
         "CN_COMPETITION": 5
+      }
+    },
+    {
+      "run_at": "2026-08-20T07:56:55.721900",
+      "queries_run": 164,
+      "new_opps": 454,
+      "quota_hit": false,
+      "group_breakdown": {
+        "JP": 237,
+        "CN": 55,
+        "DIASPORA": 42,
+        "JP_EDITORIAL": 24,
+        "CN_EDITORIAL": 4,
+        "JP_COMPETITION": 22,
+        "CN_COMPETITION": 30,
+        "JP_RESIDENCY": 25,
+        "JP_BOOK": 15
       }
     }
   ]

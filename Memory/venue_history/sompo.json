@@ -1,15 +1,14 @@
 {
-  "venue_name": "SOMPO美術館",
+  "venue_name": "SOMPO美術館（旧館名：東郷青児記念 損保ジャパン日本興亜美術館）",
   "venue_slug": "sompo",
   "memory_version": 1,
   "summary": "Venue type: artist opportunity venue Venue still needs deeper aesthetic research.",
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-21",
   "confidence": "low",
   "future_research": [
     "contact",
     "deadline",
-    "fees",
-    "submission process"
+    "fees"
   ],
   "curatorial_direction": [],
   "artist_overlap_signals": [],

@@ -56,6 +56,12 @@ Risks:
 Risks:
 - high score but few clear supporting reasons
 
+### Submissions - Little Press Publishing — 9.4/10 — possibly inflated
+Positive reasons:
+- aesthetic lineage +2.25
+Risks:
+- high score but few clear supporting reasons
+
 ### B&B Shimokitazawa — 9.0/10 — possibly inflated
 Positive reasons:
 - aesthetic lineage +0.8
@@ -70,6 +76,11 @@ Risks:
 ### Still Life - 2026 — 9.4/10 — possibly inflated
 Risks:
 - high score but few clear supporting reasons
+
+### Pinpoint Gallery — 9.4/10 — needs review
+Risks:
+- high score but few clear supporting reasons
+- high score but still needs verification
 
 ### 第113回 日本水彩展 — 9.4/10 — needs review
 Risks:
@@ -88,11 +99,6 @@ Risks:
 ### ArtConnect Open Calls — 9.4/10 — possibly inflated
 Risks:
 - high score but few clear supporting reasons
-
-### Pinpoint Gallery — 9.4/10 — needs review
-Risks:
-- high score but few clear supporting reasons
-- high score but still needs verification
 
 ### DER GREIF — 9.3/10 — possibly inflated
 Risks:
@@ -117,6 +123,13 @@ Positive reasons:
 Risks:
 - high score but few clear supporting reasons
 
+### Apartamento — Artist Feature — 9.4/10 — needs review
+Positive reasons:
+- aesthetic lineage +0.9
+Risks:
+- high score but few clear supporting reasons
+- high score but still needs verification
+
 ### » 21 Terrific Small Presses Open to Direct Submissions — 8.6/10 — needs review
 Positive reasons:
 - aesthetic lineage +1.7
@@ -126,13 +139,6 @@ Risks:
 - high score but still needs verification
 
 ### Pen Magazine — Artist Spotlight — 9.2/10 — needs review
-Risks:
-- high score but few clear supporting reasons
-- high score but still needs verification
-
-### Apartamento — Artist Feature — 9.4/10 — needs review
-Positive reasons:
-- aesthetic lineage +0.9
 Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
@@ -148,6 +154,14 @@ Risks:
 Positive reasons:
 - aesthetic lineage +3.2
 Risks:
+- high score but few clear supporting reasons
+- high score but still needs verification
+
+### TOKYO ART BOOK FAIR 2026 — 8.6/10 — needs review
+Positive reasons:
+- aesthetic lineage +1.6
+Risks:
+- many missing verification fields: submission, fees, contact
 - high score but few clear supporting reasons
 - high score but still needs verification
 
@@ -173,6 +187,13 @@ Positive reasons:
 Risks:
 - high score but few clear supporting reasons
 
+### 文学フリマ2026年11月（Bungaku Frima November 2026） — 8.8/10 — needs review
+Positive reasons:
+- aesthetic lineage +0.8
+Risks:
+- high score but few clear supporting reasons
+- high score but still needs verification
+
 ### Book and Sons — 8.7/10 — possibly inflated
 Risks:
 - high score but few clear supporting reasons
@@ -181,17 +202,9 @@ Risks:
 Risks:
 - high score but few clear supporting reasons
 
-### TOKYO ART BOOK FAIR 2026 — 8.6/10 — needs review
+### 一冊 (1-satsu) リトルプレス・ZINE直取引プラットフォーム — 8.6/10 — needs review
 Positive reasons:
-- aesthetic lineage +1.6
-Risks:
-- many missing verification fields: submission, fees, contact
-- high score but few clear supporting reasons
-- high score but still needs verification
-
-### Submissions - Little Press Publishing — 8.8/10 — needs review
-Positive reasons:
-- aesthetic lineage +2.25
+- aesthetic lineage +1.2
 Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
@@ -215,21 +228,9 @@ Positive reasons:
 Risks:
 - high score but few clear supporting reasons
 
-### 新進芸術家海外研修制度（Emerging Artists Overseas Training Program） — 9.4/10 — possibly inflated
-Positive reasons:
-- aesthetic lineage +0.9
-Risks:
-- high score but few clear supporting reasons
-
-### 2026年度 第1期 東京芸術文化創造発信助成 カテゴリーI［単年助成］芸術創造活動 — 9.4/10 — possibly inflated
-Positive reasons:
-- aesthetic lineage +0.9
-Risks:
-- high score but few clear supporting reasons
-
 
 ## Top Solid Matches
 
-- Center for Book Arts Opportunities — 9.4/10 — aesthetic lineage +1.2, global/international target, tag: publication, tag: global
 - Cité Internationale des Arts Artist Residency — 9.4/10 — high prestige, global/international target, tag: global
+- Center for Book Arts Opportunities — 8.8/10 — aesthetic lineage +1.2, global/international target, tag: publication, tag: global
 - BOOOOOOOM 2026 Art & Photo Book Award — 8.8/10 — aesthetic lineage +0.8, tag: publication, tag: zine

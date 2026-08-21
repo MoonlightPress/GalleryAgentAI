@@ -1,0 +1,38 @@
+{
+  "venue_name": "Cedar Ridge Creative Centre",
+  "venue_slug": "cedar_ridge_creative_centre",
+  "venue_type": "gallery",
+  "city": "Toronto",
+  "country": "",
+  "website": "https://www.toronto.ca/explore-enjoy/history-art-culture/artist-residencies-open-calls",
+  "source_links": [
+    "https://www.toronto.ca/explore-enjoy/history-art-culture/artist-residencies-open-calls"
+  ],
+  "categories_seen": [
+    "Galleries / Exhibition Calls"
+  ],
+  "accepts_unsolicited_work": "unknown",
+  "submission_style": "unknown",
+  "typical_artists": [],
+  "typical_mediums": [],
+  "known_aesthetic": [],
+  "price_level": "unknown",
+  "risk_notes": [],
+  "fit_notes": [],
+  "verification_notes": [
+    "Automatically created from opportunity data.",
+    "Needs manual/web research before being treated as verified."
+  ],
+  "missing_information": [
+    "contact",
+    "deadline",
+    "fees",
+    "submission process"
+  ],
+  "opportunity_titles": [
+    "Cedar Ridge Creative Centre Gallery Program"
+  ],
+  "last_researched": "",
+  "created_at": "2026-08-21",
+  "updated_at": "2026-08-21"
+}

@@ -1,14 +1,14 @@
 {
-  "total": 803,
-  "verified": 173,
-  "strong_partial": 343,
-  "partial": 236,
-  "research_needed": 51,
-  "url_ok": 730,
-  "deadline_verified": 180,
-  "contact_verified": 292,
-  "fees_verified": 488,
-  "submission_process_known": 490,
-  "medium_confirmed": 533,
-  "generated_at": "2026-08-18"
+  "total": 1395,
+  "verified": 231,
+  "strong_partial": 635,
+  "partial": 425,
+  "research_needed": 104,
+  "url_ok": 1292,
+  "deadline_verified": 342,
+  "contact_verified": 415,
+  "fees_verified": 781,
+  "submission_process_known": 738,
+  "medium_confirmed": 926,
+  "generated_at": "2026-08-21"
 }

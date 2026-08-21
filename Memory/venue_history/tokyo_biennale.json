@@ -1,0 +1,16 @@
+{
+  "venue_name": "Tokyo Biennale",
+  "venue_slug": "tokyo_biennale",
+  "memory_version": 1,
+  "summary": "Venue type: artist opportunity venue Venue still needs deeper aesthetic research.",
+  "last_updated": "2026-08-21",
+  "confidence": "low",
+  "future_research": [
+    "contact",
+    "fees",
+    "submission process"
+  ],
+  "curatorial_direction": [],
+  "artist_overlap_signals": [],
+  "notes": []
+}

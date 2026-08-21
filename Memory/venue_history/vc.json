@@ -1,0 +1,14 @@
+{
+  "venue_name": "台灣VC文化賞",
+  "venue_slug": "vc",
+  "memory_version": 1,
+  "summary": "Venue type: artist opportunity venue Venue still needs deeper aesthetic research.",
+  "last_updated": "2026-08-21",
+  "confidence": "low",
+  "future_research": [
+    "fees"
+  ],
+  "curatorial_direction": [],
+  "artist_overlap_signals": [],
+  "notes": []
+}

@@ -6,11 +6,11 @@ This report caps scores when the explanation contradicts the ranking.
 
 - capped_context_mismatch: 1
 - capped_market_format: 1
-- capped_negative_explanation: 35
+- capped_negative_explanation: 36
 - capped_wrong_medium: 1
-- hidden: 19
-- ok: 677
-- reject: 69
+- hidden: 35
+- ok: 1182
+- reject: 139
 
 ## Score Caps Applied
 
@@ -32,147 +32,145 @@ This report caps scores when the explanation contradicts the ranking.
   - negative explanation: poor match, complete lack
 - **Home - Printed Matter** — 9.65 → 2.5 — hidden
   - hidden recommendation
+- **Franklin Furnace 2026 XENO PRIZE for Artists' Books** — 9.58 → 2.5 — hidden
+  - hidden recommendation
 - **そぞろ書房** — 9.58 → 2.5 — hidden
   - hidden recommendation
+- **カモメロースタリ東京 ギャラリースペース展示募集 2026年5月〜7月** — 9.4 → 2.5 — reject
+  - verification rejected
 - **Gallery IRO** — 9.4 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
+- **雑貨屋#MAY's 委託作家募集** — 9.36 → 2.5 — reject
+  - verification rejected
 - **2026年度 ライフウィズアート助成** — 9.36 → 2.5 — hidden
   - hidden recommendation
 - **Gallery HANA Shimokitazawa** — 9.29 → 6.4 — capped_negative_explanation
   - negative explanation: not strategic, unlikely
+- **Japan in Acquarello 水彩画公募展2026** — 9.21 → 2.5 — reject
+  - verification rejected
+- **Women's Studio Workshop Artist's Book Grant** — 9.18 → 2.5 — hidden
+  - hidden recommendation
+- **いぬまち 書店委託販売募集** — 9.08 → 2.5 — hidden
+  - hidden recommendation
 - **Aperture | Photography** — 9.03 → 2.5 — reject
   - verification rejected
 - **VACANT** — 9.02 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
+- **2026年 馬來西亞國際藝術網絡大賽《人物/肖像類》與《静物/花卉類》** — 9.0 → 2.5 — reject
+  - verification rejected
 - **BONUS TRACK** — 8.97 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
+- **Creative Capital Award** — 8.9 → 6.4 — capped_negative_explanation
+  - negative explanation: unclear
+- **Tokyo Metropolitan Art Museum／Design Festa Gallery 原創藝術展演** — 8.8 → 2.5 — hidden
+  - hidden recommendation
 - **日記屋 月日** — 8.73 → 2.5 — hidden
   - hidden recommendation
+- **2026 JWS 日本透明水彩会 札幌展** — 8.69 → 2.5 — reject
+  - verification rejected
 - **Cafe Mame-Hico** — 8.67 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
+- **第40回パリ国際サロン2027公募部門** — 8.65 → 2.5 — reject
+  - verification rejected
+- **Gallery at Kamome Roastery Tokyo Cafe — 2026年5月〜7月展示募集** — 8.65 → 2.5 — reject
+  - verification rejected
+- **ポットラック・アートブックフェア 2026 (Potluck Art Book Fair 2026)** — 8.61 → 2.5 — reject
+  - verification rejected
+- **第2回コンクール** — 8.6 → 2.5 — reject
+  - verification rejected
 - **美の起原展2026（Bi-no-Kigen-ten 2026）** — 8.58 → 2.5 — hidden
   - hidden recommendation
+- **TDV ART Watercolour Salon** — 8.55 → 2.5 — reject
+  - verification rejected
+- **Gallery NOOOG 2026年春 個展募集** — 8.55 → 2.5 — reject
+  - verification rejected
+- **第61回主体展** — 8.5 → 2.5 — reject
+  - verification rejected
+- **KAGAWA AI ART FESTIVAL 2026** — 8.5 → 2.5 — reject
+  - verification rejected
+- **Japan in Acquarello 日本代表選抜** — 8.42 → 2.5 — reject
+  - verification rejected
+- **2026 ART TAIPEI MIT新人推薦特區** — 8.42 → 2.5 — reject
+  - verification rejected
 - **Open Calls for Artists** — 8.42 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
 - **公募美術団体 都展|公募美術団体 東京都民美術展運営会（略称 ...** — 8.4 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
+- **第61回宮城水彩展** — 8.39 → 2.5 — reject
+  - verification rejected
+- **Tokyo Metropolitan Art Museum / Design Festa Gallery 2026** — 8.31 → 2.5 — hidden
+  - hidden recommendation
+- **Japan in Acquarello 2026 in YOKOHAMA** — 8.27 → 2.5 — reject
+  - verification rejected
+- **Tokyo Metropolitan Art Museum／Design Festa Gallery 展演** — 8.27 → 2.5 — hidden
+  - hidden recommendation
+- **2026年 大華銀行年度水墨藝術大獎** — 8.25 → 2.5 — reject
+  - verification rejected
+- **Japan in Acquarello 水彩画作品公募 2026** — 8.25 → 2.5 — reject
+  - verification rejected
+- **ZINE FEST 新潟 2026年8月23日** — 8.2 → 2.5 — reject
+  - verification rejected
+- **新泰興獨立書店 — 作品寄售 (Xintaixing Independent Bookstore Consignment)** — 8.2 → 2.5 — reject
+  - verification rejected
+- **FACE2026** — 8.18 → 2.5 — hidden
+  - hidden recommendation
 - **AIT Residency** — 8.17 → 6.4 — capped_negative_explanation
   - negative explanation: doesn't fit, unclear, lack of clear
+- **Tokyo Metropolitan Art Museum／Design Festa Gallery展演** — 8.11 → 2.5 — hidden
+  - hidden recommendation
+- **IlloBoom! 2026 第三届插画峰峰赛 (IlloBoom! 2026 3rd Annual Illustration Summit Challenge)** — 8.1 → 2.5 — reject
+  - verification rejected
 - **Communication Arts Illustration Competition** — 8.08 → 2.5 — hidden
   - hidden recommendation
+- **2025-2026 Illustration Submission with Multi-Use Policy** — 8.06 → 2.5 — reject
+  - verification rejected
+- **第1回Future Art Frontier展2026** — 8.05 → 2.5 — reject
+  - verification rejected
 - **Tokyo Arts and Space** — 8.01 → 6.4 — capped_negative_explanation
   - negative explanation: unclear, requires significant investigative work
+- **Japan in Acquarello 2026 水彩画公募展 in YOKOHAMA** — 7.95 → 2.5 — reject
+  - verification rejected
+- **Gallery NOOOG Spring Individual Exhibition 2026** — 7.95 → 2.5 — reject
+  - verification rejected
 - **【公募】2026年度レジデンス・プログラム公募開始** — 7.93 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
 - **Gallery Conceal Shibuya** — 7.9 → 6.4 — capped_negative_explanation
   - negative explanation: it doesn't, unclear
 - **Open Call For Artists** — 7.9 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
+- **水彩画展 (Watercolor Exhibition) — 2026年12月20日〜2027年1月9日** — 7.89 → 2.5 — reject
+  - verification rejected
+- **soshare gallery パークホテル東京 29階移転記念公募展** — 7.87 → 2.5 — reject
+  - verification rejected
+- **2026年春 個展募集 Gallery NOOOG** — 7.87 → 2.5 — reject
+  - verification rejected
 - **The Container** — 7.85 → 6.4 — capped_negative_explanation
   - negative explanation: question mark
-- **Comitia** — 7.68 → 6.0 — capped_context_mismatch
-  - negative explanation: it doesn't, would pull you away
-  - self-publishing/doujinshi context may conflict with positioning
-- **Art公募** — 7.6 → 6.4 — capped_negative_explanation
-  - negative explanation: unclear
-- **Youkobo Art Space** — 7.56 → 6.4 — capped_negative_explanation
-  - negative explanation: unclear
-- **Print Biennial 2026 (版畫雙年展)** — 7.54 → 2.5 — hidden
+- **ポットラック・アートブックフェア2026** — 7.83 → 2.5 — reject
+  - verification rejected
+- **文学フリマ東京42（Bungaku Frima Tokyo 42）** — 7.83 → 2.5 — reject
+  - verification rejected
+- **香港好東西-香港視覺藝術家群展2026 (Hong Kong Good Things - Hong Kong Visual Artists Group Exhibition 2026)** — 7.83 → 2.5 — reject
+  - verification rejected
+- **ARCUS Project 2026 Artist-in-Residence Program** — 7.8 → 2.5 — reject
+  - verification rejected
+- **浪花空間國際藝術進駐計畫 2027** — 7.8 → 2.5 — hidden
   - hidden recommendation
-- **HandMade In Japan Fes** — 7.5 → 6.4 — capped_negative_explanation
-  - negative explanation: it doesn't, undermine your positioning
-- **BIBF International Illustration Awards 2026 (北京国际童书插画大赛)** — 7.48 → 2.5 — reject
+- **Mavenira Gallery Year-Long Representation 2026** — 7.8 → 2.5 — reject
   - verification rejected
-- **公募展** — 7.46 → 6.4 — capped_negative_explanation
-  - negative explanation: unclear
-- **Artist Projects Fund (艺术家项目资助计划)** — 7.46 → 2.5 — hidden
-  - hidden recommendation
-- **Zushi Art Gallery** — 7.35 → 6.4 — capped_negative_explanation
-  - negative explanation: unclear, question mark
-- **Art Fair Tokyo 2026** — 7.34 → 2.5 — hidden
-  - hidden recommendation
-- **Pastel Society Open Exhibition** — 7.33 → 2.5 — hidden
-  - hidden recommendation
-- **Shoto Museum Open Call** — 7.28 → 6.4 — capped_negative_explanation
-  - negative explanation: unclear
-- **Open Call for Artists! Tokyo Biennale 2025 "Social Dive"** — 7.13 → 6.4 — capped_negative_explanation
-  - negative explanation: unclear
-- **2026 International Art & Design Showcases** — 7.03 → 2.5 — hidden
-  - hidden recommendation
-- **LURF GALLERY「PAINTING」グループ展** — 6.95 → 2.5 — hidden
-  - hidden recommendation
-- **AIR_J Open Calls** — 6.73 → 6.4 — capped_negative_explanation
-  - negative explanation: unclear
-- **reload Shimokitazawa** — 6.69 → 6.4 — capped_negative_explanation
-  - negative explanation: unclear
-- **Mall Galleries Open Exhibitions** — 6.69 → 2.5 — hidden
-  - hidden recommendation
-- **PhotoVogue** — 6.63 → 5.8 — capped_wrong_medium
-  - photography-only risk: photovogue
-- **International Open Call** — 6.35 → 2.5 — reject
+- **第四屆 Joy in Art 水彩畫暨畫家聯展** — 7.79 → 2.5 — reject
   - verification rejected
-- **submissions for the 2026 set film festival are now open** — 6.1 → 2.5 — reject
+- **イラストレーター・アーティスト募集 2026年8月～9月** — 7.77 → 2.5 — reject
   - verification rejected
-- **Art Submissions** — 6.1 → 2.5 — reject
+- **Gallery NOOOG 2026春 出展作家募集 (Gallery NOOOG Spring 2026 Artist Call)** — 7.77 → 2.5 — reject
   - verification rejected
-- **Royal Institute of Painters in Water Colours** — 5.56 → 2.5 — hidden
-  - hidden recommendation
-- **2026 Artist Projects (GCAC)** — 4.52 → 2.5 — hidden
-  - hidden recommendation
-- **素人の乱 (Shiroto no Ran) Koenji** — 4.36 → 2.5 — hidden
-  - hidden recommendation
-- **2026 Funds for Artists** — 4.08 → 2.5 — hidden
-  - hidden recommendation
-- **The Light Frame Gallery | Open Call for Guest Writers (Museums, Photography & Community) S** — 3.68 → 2.5 — reject
+- **抽象展 -2026春-** — 7.75 → 2.5 — reject
   - verification rejected
-- **Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod** — 3.67 → 2.5 — reject
+- **Gallery SPACE8510-2 個展募集 2026年春** — 7.75 → 2.5 — reject
   - verification rejected
-- **Pola Art Foundation Grant** — 3.52 → 2.5 — hidden
-  - hidden recommendation
-- **Art Rental & Sales Program (AR&S) 2026 Call for Submissions** — 3.2 → 2.5 — reject
+- **Tainan Printed Matter Fair 2026** — 7.74 → 2.5 — reject
   - verification rejected
-- **カフェ内ギャラリースペース展示募集** — 3.2 → 2.5 — reject
+- **いい芽ふくら芽 in Nagoya 2026** — 7.72 → 2.5 — reject
   - verification rejected
-- **Art Rental & Sales Program (AR&S)** — 3.2 → 2.5 — reject
-  - verification rejected
-- **2026 International Children and Youth Painting Competition Summer Season** — 3.08 → 2.5 — reject
-  - verification rejected
-- **Art Book Osaka** — 3.08 → 2.5 — reject
-  - verification rejected
-- **TOKYO ART BOOK FAIR 2026 Exhibitor Call** — 3.08 → 2.5 — reject
-  - verification rejected
-- **ポットラック・アートブック フェア 2026 (Potluck Art Book Fair 2026)** — 2.96 → 2.5 — reject
-  - verification rejected
-- **2026 NIE–Nanjing International Illustration Exhibition & the 53rd Bonjour Art Book Fair** — 2.85 → 2.5 — reject
-  - verification rejected
-- **カフェ内ギャラリースペース展示募集 2026年1月〜3月** — 2.85 → 2.5 — reject
-  - verification rejected
-- **上野之森美術館展覽 (Ueno Forest Museum Exhibition - Paper-based Works)** — 2.85 → 2.5 — reject
-  - verification rejected
-- **ギャラリー檜 展示** — 2.85 → 2.5 — reject
-  - verification rejected
-- **ILOVETOYS / neuprint — Chinese Illustration Feature** — 2.85 → 2.5 — reject
-  - hidden recommendation
-  - verification rejected
-- **Affordable Art Fair Singapore 2026** — 2.8 → 2.5 — reject
-  - verification rejected
-- **2026 International Sketch Art Competition** — 2.8 → 2.5 — reject
-  - verification rejected
-- **季刊『公募ガイド』2026年春号の表紙イラスト** — 2.8 → 2.5 — reject
-  - verification rejected
-- **kamome gallery 2026年1月〜3月展示 (Kamome Gallery Jan-Mar 2026)** — 2.73 → 2.5 — reject
-  - verification rejected
-- **新世紀美術協会 神戸支部 油彩・水彩小作品展（Shin-Seiki Bijutsu Kyokai Kobe Branch Oil & Watercolor Small Works Exhibition）** — 2.69 → 2.5 — reject
-  - verification rejected
-- **Sunny Boy Books** — 2.69 → 2.5 — reject
-  - verification rejected
-- **Potluck Art Book Fair 2026 Exhibitor Call** — 2.68 → 2.5 — reject
-  - verification rejected
-- **日本透明水彩会 2026** — 2.57 → 2.5 — reject
-  - verification rejected
-- **2026 Illustration Competition (Japanese Contemporary Illustration)** — 2.52 → 2.5 — reject
-  - verification rejected
-- **Japan in Acquarello 水彩画作品公募2026** — 2.52 → 2.5 — reject
-  - verification rejected
-- **Tokyo Open Call for Artists & Creatives** — 2.52 → 2.5 — reject
+- **Affordable Art Fair Singapore 2026 - Gallery Applications** — 7.71 → 2.5 — reject
   - verification rejected

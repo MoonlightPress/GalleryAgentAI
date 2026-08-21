@@ -1,14 +1,13 @@
 {
-  "venue_name": "Gallery IRO",
+  "venue_name": "GALLERY IRO",
   "venue_slug": "gallery_iro",
   "memory_version": 1,
   "summary": "Venue type: gallery Venue still needs deeper aesthetic research.",
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-21",
   "confidence": "low",
   "future_research": [
     "contact",
-    "fees",
-    "submission process"
+    "deadline"
   ],
   "curatorial_direction": [],
   "artist_overlap_signals": [],

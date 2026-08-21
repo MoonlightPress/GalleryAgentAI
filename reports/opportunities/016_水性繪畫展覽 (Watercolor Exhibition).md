@@ -11,10 +11,10 @@
 Core public information appears present.
 
 - **Official/source website**: https://bhuntr.com/tw/competitions/22uxj7uzoljljpa11y (verified)
-- **Submission process**: ['https://www.facebook.com/groups/399439684424141/posts/1630603444641086', 'https://artist.callforentry.org/festivals_unique_info.php?ID=14119', 'https://artdeadline.com/ops/san-diego-watercolor-society'] (verified)
+- **Submission process**: https://www.facebook.com/groups/399439684424141/posts/1630603444641086 (verified)
 - **Deadline**: 2月26日 (February 26) (verified)
 - **Fees**: ['26 euros (first work), 10 euros (additional)', '$45.00 (first painting), $10.00 (second painting)', None] (verified)
-- **Contact**: [None, None, None] (verified)
+- **Contact**: Online entry: artist.callforentry.org/festivals_unique_info.php?ID=14119 (verified)
 
 ## 3. Why This May Fit the Artist
 - Opportunity type: Global Watercolor Open Call.
@@ -25,15 +25,17 @@ Core public information appears present.
 Watercolor-specific open call with submission period through February 26 and exhibition planned December 2026.
 
 ## 5. Existing Fit Notes
-Watercolor-specific open call with submission period through February 26 and exhibition planned December 2026.
+A watercolor-specific exhibition is in your medium and daily observational practice of capturing Tokyo's fleeting urban moments and architectural details. The December 2026 timeline gives your runway to develop a cohesive body of work while the international open call provides visibility beyond your current 26k Instagram following.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter
+- Based in International — confirm this matches your geographic focus before investing preparation time
+- Deadline: 2月26日 (February 26) — confirm on the official site before submitting
 
 ## 7. Submission / Logistics
 - **Deadline:** 2月26日 (February 26)
 - **Fees:** ['26 euros (first work), 10 euros (additional)', '$45.00 (first painting), $10.00 (second painting)', None]
-- **Submission page:** ['https://www.facebook.com/groups/399439684424141/posts/1630603444641086', 'https://artist.callforentry.org/festivals_unique_info.php?ID=14119', 'https://artdeadline.com/ops/san-diego-watercolor-society']
+- **Submission page:** https://www.facebook.com/groups/399439684424141/posts/1630603444641086
 - **Source:** https://bhuntr.com/tw/competitions/22uxj7uzoljljpa11y
 
 ## 8. Risk / Unknowns
@@ -45,4 +47,4 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-09_
+_Last generated: 2026-08-20_

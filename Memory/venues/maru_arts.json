@@ -1,0 +1,38 @@
+{
+  "venue_name": "maru arts",
+  "venue_slug": "maru_arts",
+  "venue_type": "artist opportunity venue",
+  "city": "Kobe",
+  "country": "",
+  "website": "https://hyogo-arts.or.jp/harada",
+  "source_links": [
+    "https://hyogo-arts.or.jp/harada"
+  ],
+  "categories_seen": [
+    "Institutional / Grants"
+  ],
+  "accepts_unsolicited_work": "unknown",
+  "submission_style": "unknown",
+  "typical_artists": [],
+  "typical_mediums": [],
+  "known_aesthetic": [],
+  "price_level": "unknown",
+  "risk_notes": [],
+  "fit_notes": [],
+  "verification_notes": [
+    "Automatically created from opportunity data.",
+    "Needs manual/web research before being treated as verified."
+  ],
+  "missing_information": [
+    "contact",
+    "deadline",
+    "fees",
+    "submission process"
+  ],
+  "opportunity_titles": [
+    "第6回公募 maru arts展"
+  ],
+  "last_researched": "",
+  "created_at": "2026-08-21",
+  "updated_at": "2026-08-21"
+}

@@ -7,11 +7,14 @@
   "website": "https://www.tokyoartsandspace.jp/en/archive/application/2026/20260219-316.html",
   "source_links": [
     "https://www.tokyoartsandspace.jp/en/archive/application/2026/20260219-316.html",
-    "https://www.tokyoartsandspace.jp/en/archive/application/2026/20260430-317.html"
+    "https://www.tokyoartsandspace.jp/en/archive/application/2026/20260430-317.html",
+    "https://www.tokyoartsandspace.jp/en/archive/application/2026/20260430-321.html",
+    "https://www.tokyoartsandspace.jp/en/application/index.html"
   ],
   "categories_seen": [
     "Artist Spaces",
-    "Grant"
+    "Grant",
+    "Residencies / Longer Projects"
   ],
   "accepts_unsolicited_work": "unknown",
   "submission_style": "unknown",
@@ -26,13 +29,18 @@
     "Needs manual/web research before being treated as verified."
   ],
   "missing_information": [
-    "contact"
+    "contact",
+    "deadline",
+    "fees",
+    "submission process"
   ],
   "opportunity_titles": [
     "OPEN SITE 11",
-    "International Creator Residency Program 2027"
+    "International Creator Residency Program 2027",
+    "Research Residency Program",
+    "Residency Programs 2027 Open Call"
   ],
   "last_researched": "",
-  "created_at": "2026-08-18",
-  "updated_at": "2026-08-18"
+  "created_at": "2026-08-21",
+  "updated_at": "2026-08-21"
 }

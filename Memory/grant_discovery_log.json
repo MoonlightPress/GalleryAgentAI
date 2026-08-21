@@ -1,54 +1,204 @@
 {
   "queries": {
     "grant_jp_joseikin_artist": {
-      "last_run": "2026-07-27T09:01:13.465612",
-      "found": 6,
-      "added": 5
+      "last_run": "2026-08-20T07:57:16.772870",
+      "found": 8,
+      "added": 8
     },
     "grant_jp_bunkasho": {
-      "last_run": "2026-07-27T09:01:29.784360",
-      "found": 7,
-      "added": 3
+      "last_run": "2026-08-20T07:57:37.329956",
+      "found": 0,
+      "added": 0
     },
     "grant_jp_bunka_shinko": {
-      "last_run": "2026-07-27T09:01:40.001653",
-      "found": 3,
-      "added": 3
-    },
-    "grant_jp_tokyo_metro": {
-      "last_run": "2026-07-27T09:01:53.138927",
-      "found": 5,
-      "added": 3
-    },
-    "grant_en_japan_foundation": {
-      "last_run": "2026-07-27T09:02:02.248339",
+      "last_run": "2026-08-20T07:57:46.335326",
       "found": 2,
       "added": 2
     },
-    "grant_en_acc": {
-      "last_run": "2026-07-27T09:02:11.442776",
+    "grant_jp_tokyo_metro": {
+      "last_run": "2026-08-20T07:58:01.272976",
+      "found": 7,
+      "added": 3
+    },
+    "grant_en_japan_foundation": {
+      "last_run": "2026-08-20T07:58:10.817057",
       "found": 2,
       "added": 1
     },
-    "grant_en_tokyo_arts": {
-      "last_run": "2026-07-27T09:02:24.435245",
-      "found": 5,
+    "grant_en_acc": {
+      "last_run": "2026-08-20T07:58:21.758173",
+      "found": 4,
       "added": 4
     },
+    "grant_en_tokyo_arts": {
+      "last_run": "2026-08-20T07:58:33.884329",
+      "found": 7,
+      "added": 7
+    },
     "grant_jp_shinjin_overseas": {
-      "last_run": "2026-07-27T09:02:33.548068",
+      "last_run": "2026-08-20T07:58:42.847745",
       "found": 2,
       "added": 2
     },
     "grant_zh_chinese_overseas": {
-      "last_run": "2026-07-27T09:02:43.333363",
-      "found": 3,
-      "added": 3
+      "last_run": "2026-08-20T07:58:51.242963",
+      "found": 2,
+      "added": 2
     },
     "grant_jp_asia_creative": {
-      "last_run": "2026-07-27T09:02:58.023953",
+      "last_run": "2026-08-20T07:59:04.346866",
       "found": 7,
       "added": 3
+    },
+    "grant_x_0": {
+      "last_run": "2026-08-20T07:59:20.704664",
+      "found": 10,
+      "added": 8
+    },
+    "grant_x_1": {
+      "last_run": "2026-08-20T07:59:37.253374",
+      "found": 8,
+      "added": 5
+    },
+    "grant_x_2": {
+      "last_run": "2026-08-20T07:59:52.621273",
+      "found": 7,
+      "added": 2
+    },
+    "grant_x_3": {
+      "last_run": "2026-08-20T08:00:05.182150",
+      "found": 5,
+      "added": 2
+    },
+    "grant_x_4": {
+      "last_run": "2026-08-20T08:00:17.852270",
+      "found": 6,
+      "added": 4
+    },
+    "grant_x_5": {
+      "last_run": "2026-08-20T08:00:32.090619",
+      "found": 5,
+      "added": 2
+    },
+    "grant_x_6": {
+      "last_run": "2026-08-20T08:00:41.486381",
+      "found": 3,
+      "added": 1
+    },
+    "grant_x_7": {
+      "last_run": "2026-08-20T08:00:57.076572",
+      "found": 5,
+      "added": 1
+    },
+    "grant_x_8": {
+      "last_run": "2026-08-20T08:01:12.093582",
+      "found": 6,
+      "added": 2
+    },
+    "grant_x_9": {
+      "last_run": "2026-08-20T08:01:27.658170",
+      "found": 9,
+      "added": 3
+    },
+    "grant_x_10": {
+      "last_run": "2026-08-20T08:01:44.498267",
+      "found": 8,
+      "added": 8
+    },
+    "grant_x_11": {
+      "last_run": "2026-08-20T08:01:54.512647",
+      "found": 4,
+      "added": 4
+    },
+    "grant_x_12": {
+      "last_run": "2026-08-20T08:02:05.967502",
+      "found": 5,
+      "added": 5
+    },
+    "grant_x_13": {
+      "last_run": "2026-08-20T08:02:19.082031",
+      "found": 5,
+      "added": 5
+    },
+    "grant_x_14": {
+      "last_run": "2026-08-20T08:02:32.983412",
+      "found": 6,
+      "added": 5
+    },
+    "grant_x_15": {
+      "last_run": "2026-08-20T08:02:46.371685",
+      "found": 5,
+      "added": 5
+    },
+    "grant_x_16": {
+      "last_run": "2026-08-20T08:03:01.799710",
+      "found": 5,
+      "added": 5
+    },
+    "grant_x_17": {
+      "last_run": "2026-08-20T08:03:19.088370",
+      "found": 6,
+      "added": 5
+    },
+    "grant_x_18": {
+      "last_run": "2026-08-20T08:03:32.108306",
+      "found": 4,
+      "added": 2
+    },
+    "grant_x_19": {
+      "last_run": "2026-08-20T08:03:47.166135",
+      "found": 7,
+      "added": 1
+    },
+    "grant_x_20": {
+      "last_run": "2026-08-20T08:03:59.929753",
+      "found": 6,
+      "added": 5
+    },
+    "grant_x_21": {
+      "last_run": "2026-08-20T08:04:09.918210",
+      "found": 4,
+      "added": 4
+    },
+    "grant_x_22": {
+      "last_run": "2026-08-20T08:04:22.291602",
+      "found": 5,
+      "added": 5
+    },
+    "grant_x_23": {
+      "last_run": "2026-08-20T08:04:40.446361",
+      "found": 5,
+      "added": 4
+    },
+    "grant_x_24": {
+      "last_run": "2026-08-20T08:04:59.500136",
+      "found": 0,
+      "added": 0
+    },
+    "grant_x_25": {
+      "last_run": "2026-08-20T08:05:13.612114",
+      "found": 5,
+      "added": 2
+    },
+    "grant_x_26": {
+      "last_run": "2026-08-20T08:05:27.781919",
+      "found": 6,
+      "added": 1
+    },
+    "grant_x_27": {
+      "last_run": "2026-08-20T08:05:36.702498",
+      "found": 2,
+      "added": 2
+    },
+    "grant_x_28": {
+      "last_run": "2026-08-20T08:05:47.061492",
+      "found": 5,
+      "added": 3
+    },
+    "grant_x_29": {
+      "last_run": "2026-08-20T08:06:00.117196",
+      "found": 6,
+      "added": 4
     }
   },
   "runs": [
@@ -128,6 +278,12 @@
       "run_at": "2026-07-27T09:02:58.070380",
       "queries_run": 10,
       "new_grants": 29,
+      "quota_hit": false
+    },
+    {
+      "run_at": "2026-08-20T08:06:00.184729",
+      "queries_run": 40,
+      "new_grants": 137,
       "quota_hit": false
     }
   ]

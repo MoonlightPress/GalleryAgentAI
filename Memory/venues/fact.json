@@ -1,0 +1,37 @@
+{
+  "venue_name": "FACT",
+  "venue_slug": "fact",
+  "venue_type": "artist opportunity venue",
+  "city": "Fukuoka",
+  "country": "",
+  "website": "https://fact.or.jp?portfolio=boshu_artexhibition2026",
+  "source_links": [
+    "https://fact.or.jp?portfolio=boshu_artexhibition2026"
+  ],
+  "categories_seen": [
+    "Institutional / Grants"
+  ],
+  "accepts_unsolicited_work": "unknown",
+  "submission_style": "unknown",
+  "typical_artists": [],
+  "typical_mediums": [],
+  "known_aesthetic": [],
+  "price_level": "unknown",
+  "risk_notes": [],
+  "fit_notes": [],
+  "verification_notes": [
+    "Automatically created from opportunity data.",
+    "Needs manual/web research before being treated as verified."
+  ],
+  "missing_information": [
+    "contact",
+    "deadline",
+    "fees"
+  ],
+  "opportunity_titles": [
+    "展示期間 2026年6月8日〜6月14日（福岡県在住・活動者対象）"
+  ],
+  "last_researched": "",
+  "created_at": "2026-08-21",
+  "updated_at": "2026-08-21"
+}

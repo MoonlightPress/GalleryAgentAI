@@ -1,11 +1,12 @@
 {
-  "venue_name": "第60回 記念創展",
+  "venue_name": "第60回 公募「記念創展」",
   "venue_slug": "60",
   "memory_version": 1,
   "summary": "Venue type: artist opportunity venue Venue still needs deeper aesthetic research.",
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-21",
   "confidence": "low",
   "future_research": [
+    "contact",
     "fees"
   ],
   "curatorial_direction": [],

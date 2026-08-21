@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-08-11
+REPORT GENERATED: 2026-08-20
 
 # In-dividual Theater：BUG Screen Week 2026
 
@@ -50,5 +50,5 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-08-11_
+_Last generated: 2026-08-20_
 

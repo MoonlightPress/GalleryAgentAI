@@ -116,6 +116,12 @@ These opportunities may create disproportionate reputation value.
 - Why: An independent Koenji bookstore running zine events and experimental print, with an open submission form and a low ¥500 fee — a low-barrier route for printed/serialized work. Confirm exactly what the current call accepts before submitting.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
+## Submissions - Little Press Publishing
+
+- Prestige: None
+- Why: Little Press Publishing's focus on visual narratives and artist monographs overlaps with your sustained daily practice of capturing Tokyo's ephemeral urban moments through watercolor, offering a natural format to compile your architectural observations and memory-based work into a cohesive body. As a Japan-based small press, they represent a direct fit for documenting work that's deeply rooted in Tokyo's specific geography and quiet atmospheric study.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
 ## Bologna Children's Book Fair Illustrators Exhibition
 
 - Prestige: None
@@ -128,6 +134,12 @@ These opportunities may create disproportionate reputation value.
 - Why: Still Life is a juried exhibition that publishes work on paper and takes open submissions from unrepresented artists—worth submitting a series of your urban watercolors before their deadline if you're looking to build publication credentials alongside sales opportunities. Check their submission link to confirm the entry fee and deadline, then prepare 6–8 pieces that represent your daily practice.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
+## Pinpoint Gallery
+
+- Prestige: None
+- Why: Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
 ## 第113回 日本水彩展
 
 - Prestige: None
@@ -138,16 +150,4 @@ These opportunities may create disproportionate reputation value.
 
 - Prestige: None
 - Why: Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## Society of Women Artists
-
-- Prestige: None
-- Why: Open exhibition context for watercolor / works on paper, drawing, or works on paper. Good candidate for direct verification.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## ArtConnect Open Calls
-
-- Prestige: None
-- Why: Discovery source for watercolor / works on paper, drawing, residency, and works-on-paper opportunities. Use as a recurring research feed.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.

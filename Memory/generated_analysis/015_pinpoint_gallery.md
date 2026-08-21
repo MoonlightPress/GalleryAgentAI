@@ -1,10 +1,10 @@
 
-REPORT GENERATED: 2026-06-07
+REPORT GENERATED: 2026-08-20
 
 # Pinpoint Gallery
 
 ## 1. Quick Judgment
-**Fit score:** 9.8/10  
+**Fit score:** 10/10  
 **Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Other  
@@ -31,7 +31,9 @@ Pinpoint Gallery is a illustration gallery source in Tokyo for watercolor / work
 Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Check the official website for current submission guidelines and open call status
+- Verify current status at the official site before investing time — websites change and open calls close early
+- Deadline: May 30, 2026 — confirm on the official site before submitting
 
 ## 7. Submission / Logistics
 - **Deadline:** May 30, 2026
@@ -48,5 +50,5 @@ Verify current submission, exhibition, or contact details before recommending.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-07_
+_Last generated: 2026-08-20_
 

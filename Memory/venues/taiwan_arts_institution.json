@@ -1,0 +1,40 @@
+{
+  "venue_name": "Taiwan Arts Institution",
+  "venue_slug": "taiwan_arts_institution",
+  "venue_type": "artist opportunity venue",
+  "city": "Taiwan, Taoyuan",
+  "country": "",
+  "website": "https://event.culture.tw/mocweb/reg/NTMOFA/Detail.init.ctr?actId=55077&request_locale=tw&useLanguage=tw",
+  "source_links": [
+    "https://event.culture.tw/mocweb/reg/NTMOFA/Detail.init.ctr?actId=55077&request_locale=tw&useLanguage=tw",
+    "https://arts.ntua.edu.tw/web/news/news.jsp?dm_id=DM1667470396967&lang=tw"
+  ],
+  "categories_seen": [
+    "Watercolor Competition"
+  ],
+  "accepts_unsolicited_work": "unknown",
+  "submission_style": "unknown",
+  "typical_artists": [],
+  "typical_mediums": [],
+  "known_aesthetic": [],
+  "price_level": "unknown",
+  "risk_notes": [],
+  "fit_notes": [],
+  "verification_notes": [
+    "Automatically created from opportunity data.",
+    "Needs manual/web research before being treated as verified."
+  ],
+  "missing_information": [
+    "contact",
+    "deadline",
+    "fees",
+    "submission process"
+  ],
+  "opportunity_titles": [
+    "中华民国第二十二届国际版画双年展",
+    "2026水彩的可能—桃园水彩艺术展"
+  ],
+  "last_researched": "",
+  "created_at": "2026-08-21",
+  "updated_at": "2026-08-21"
+}

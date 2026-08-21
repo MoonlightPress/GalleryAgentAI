@@ -1,12 +1,12 @@
 {
-  "venue_name": "香港藝術發展局 (Hong Kong Arts Development Council)",
+  "venue_name": "Hong Kong Arts Development Council 香港藝術發展局",
   "venue_slug": "hong_kong_arts_development_council",
   "memory_version": 1,
   "summary": "Venue type: artist opportunity venue Venue still needs deeper aesthetic research.",
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-21",
   "confidence": "low",
   "future_research": [
-    "contact",
+    "deadline",
     "fees",
     "submission process"
   ],

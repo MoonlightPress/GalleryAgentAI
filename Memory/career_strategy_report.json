@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-08-18T00:03:57.977317+00:00",
+  "_generated_at": "2026-08-21T00:19:26.229822+00:00",
   "_engine_version": "2.1",
   "current_phase": "Tier 3 established — building toward representation & prestige",
   "phase_note": "An active multi-country exhibiting artist: solo shows, museum-group exhibitions, and an international showing are on record, alongside a first solo publication and an established, growing Instagram following. The foundation is built. The next levers are structural — gallery representation, stronger solo venues, art fairs, residencies, grants, critical press, and a second book — not more entry-level group shows.",
@@ -102,24 +102,24 @@
       "website": "https://www.clavis-publishing.com/submit"
     },
     {
-      "title": "Center for Book Arts Opportunities",
-      "tier": 3,
-      "score": 9.4,
-      "category": "global_book_arts",
-      "city": "New York",
-      "deadline": "September 15, 2024",
-      "summary": "Book arts institution with exhibitions, residencies, education, and opportunities connected to artist books and printed matter.",
-      "website": "https://centerforbookarts.org/"
-    },
-    {
       "title": "FY2026 Life with Art Grant",
       "tier": 3,
       "score": 9.4,
       "category": "grant",
       "city": "Tokyo",
-      "deadline": "2026年4月22日",
+      "deadline": "2026年8月19日",
       "summary": "Tokyo-based grant supporting projects that integrate contemporary art into everyday life, aligning with your urban observation and architecture focus.",
       "website": "https://www.artscouncil-tokyo.jp/en/grants"
+    },
+    {
+      "title": "Bologna Children's Book Fair Illustrators Exhibition",
+      "tier": 3,
+      "score": 9.4,
+      "category": "",
+      "city": "",
+      "deadline": "Thursday, 6 November 2025, at 23:59 (GMT+1)",
+      "summary": "Bologna Children's Book Fair Watercolor Artists Exhibition is a illustration exhibition source in Global for watercolor / works on paper research.",
+      "website": "https://www.bolognachildrensbookfair.com/"
     }
   ],
   "watch_list": [
@@ -174,13 +174,13 @@
       "website": "https://www.asianculturalcouncil.org/zh-hant/grant-opportunities"
     },
     {
-      "title": "Asian Cultural Council Graduate Fellowship",
+      "title": "Asian Cultural Council (ACC) Fellowships and Grants",
       "tier": 4,
       "score": 8.8,
       "category": "grant",
       "city": "New York",
-      "deadline": "November 19, 2025",
-      "summary": "ACC Graduate Fellowship supports enrolled graduate students with full-time coursework during Fall 2026 to Spring 2027 or Spring to Fall 2027, applicable to artists pursuing advanced study.",
+      "deadline": "December 31, 2027",
+      "summary": "ACC explicitly supports arts communities in Asia with long-term immersive cultural exchange grants; Tokyo-based Chinese artist is eligible for Asia-focused opportunities.",
       "website": "https://www.asianculturalcouncil.org/grant-opportunities"
     }
   ],
@@ -260,10 +260,10 @@
   "next_milestone_zh": "朝画廊代理迈进——一家替你销售、带你进入博览会、并培育藏家群体的画廊。你已有个展与美术馆联展的履历，这是当下杠杆最高的下一步。",
   "months_to_tier3": null,
   "pipeline_summary": {
-    "total_active": 684,
-    "tier_1_count": 37,
-    "tier_2_count": 142,
-    "tier_3_count": 488,
-    "tier_4_count": 17
+    "total_active": 1192,
+    "tier_1_count": 62,
+    "tier_2_count": 201,
+    "tier_3_count": 897,
+    "tier_4_count": 32
   }
 }

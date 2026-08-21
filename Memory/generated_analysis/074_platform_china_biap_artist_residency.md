@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-08-11
+REPORT GENERATED: 2026-08-20
 
 # Platform China BIAP Artist Residency
 
@@ -50,5 +50,5 @@ Email Platform China BIAP directly: No. 319-1 East End Art-A, Caochangdi Village
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-08-11_
+_Last generated: 2026-08-20_
 

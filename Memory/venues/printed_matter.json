@@ -4,13 +4,15 @@
   "venue_type": "bookstore / print space",
   "city": "New York / Los Angeles, Online",
   "country": "",
-  "website": "https://www.printedmatter.org/",
+  "website": "https://www.printedmatter.org/programs/events/2282",
   "source_links": [
+    "https://www.printedmatter.org/programs/events/2282",
     "https://www.printedmatter.org/"
   ],
   "categories_seen": [
     "Global Art Book Fair",
-    "Global Photobook"
+    "Global Photobook",
+    "Print / Zines / Bookstores"
   ],
   "accepts_unsolicited_work": "unknown",
   "submission_style": "unknown",
@@ -26,14 +28,16 @@
   ],
   "missing_information": [
     "contact",
+    "deadline",
     "fees",
     "submission process"
   ],
   "opportunity_titles": [
+    "Event Fair On Fairs, with Cairo Art Book Fair, Hardcore CDMX Art Book Fair, Singapore Art ",
     "Printed Matter Art Book Fairs",
     "Home - Printed Matter"
   ],
   "last_researched": "",
-  "created_at": "2026-08-18",
-  "updated_at": "2026-08-18"
+  "created_at": "2026-08-21",
+  "updated_at": "2026-08-21"
 }

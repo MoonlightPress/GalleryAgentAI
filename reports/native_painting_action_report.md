@@ -6,7 +6,6 @@ This is the corrected action report for Nin as a watercolor painter / works-on-p
 
 - **第113回 日本水彩展** — 9.6. Your exact medium: watercolour (and pastel) only. National juried show at a major Tokyo museum, so acceptance carries CV weight. The 113th edition ran June 2026; the next round is expected spring 2027 — this is a prepare-and-watch target, not a today action.
   - URL: https://www.nihonsuisai.or.jp/
-  - Next: verify current submission/contact details.
 - **水性繪畫展覽 (Watercolor Exhibition)** — 9.6. A watercolor-specific exhibition is in your medium and daily observational practice of capturing Tokyo's fleeting urban moments and architectural details. The December 2026 timeline gives your runway to develop a cohesive body of work while the international open call provides visibility beyond your current 26k Instagram following.
   - URL: https://bhuntr.com/tw/competitions/22uxj7uzoljljpa11y
 - **水彩アートの祭典 (Watercolor Art Festival)** — 9.6. Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirements, matching your watercolor practice.
@@ -29,7 +28,6 @@ This is the corrected action report for Nin as a watercolor painter / works-on-p
   - Next: verify current submission/contact details.
 - **第19回プラチナアート大賞展２０２６** — 9.6. Major art competition with exhibition and potential commercial gallery representation, accepts watercolor and multiple painting techniques.
   - URL: https://compe.sterfield.jp/platinaartk-2026
-  - Next: verify current submission/contact details.
 - **世界絵画大賞展 2026（第22回）** — 9.6. International watercolor and painting competition with Tokyo Museum exhibition
   - URL: https://compe.japandesign.ne.jp/sekaido-kaiga-2026
 - **Jackson's Art Prize** — 9.6. Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit.
@@ -45,6 +43,8 @@ This is the corrected action report for Nin as a watercolor painter / works-on-p
   - Next: verify current submission/contact details.
 - **Bologna Children's Book Fair Illustrators Exhibition** — 9.6. A possible place to show watercolor or works on paper.
   - URL: https://www.bolognachildrensbookfair.com/
+- **Pinpoint Gallery** — 9.6. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
+  - URL: https://pinpointgallery.com/
 - **水彩アートの祭典** — 9.6. Watercolor-only art exhibition (平面作品のみ) held at Tokyo Geijutsu Gekijo, accepting 4号以内 works with no theme restrictions
   - URL: https://nihonbungei.net/watercolors_2026
 - **Mograg Gallery** — 9.6. An active Tokyo gallery that programs emerging, un-repped Japanese artists by proposal — a real route in without a juried call. The work it shows leans contemporary/outsider, not polished or quiet, so don't take a 'fit' on trust: look at their recent shows and decide for yourself.
@@ -59,9 +59,6 @@ This is the corrected action report for Nin as a watercolor painter / works-on-p
   - URL: https://www.tobikan.jp/media/pdf/2026/citizens_calendar_202605_cn.pdf
 - **第1回 お気に入りのアナログ画材で塗ろう！3色イラスト公募展（1st Favorite Analog Media 3-Color Illustration Open Call）** — 9.6. Illustration competition specifically for analog media and watercolor techniques; accepting submissions through February 2026.
   - URL: https://kobonabi.com/illustration-archive/mnanojp-exhibition5-2026
-- **絵の現在 選抜展（Ienoima Selection Exhibition）** — 9.6. Open call for watercolor artists (油彩・日本画・水彩) with recognition in art magazines and gallery/department store exhibitions, supporting artists seeking to expand their practice.
-  - URL: https://ichimainoe.co.jp/senbatsuten
-  - Next: verify current submission/contact details.
 
 ## First Practical Plan
 

@@ -1,18 +1,5 @@
 [
   {
-    "title": "Center for Book Arts Opportunities",
-    "score": 9.4,
-    "research_priority_score": 14.83,
-    "country": "USA",
-    "category": "global_book_arts",
-    "missing_fields": [
-      "fees",
-      "contact_email",
-      "official_website"
-    ],
-    "quick_action": "Check current opportunities, eligibility, and whether international artists may apply."
-  },
-  {
     "title": "Cité Internationale des Arts Artist Residency",
     "score": 9.4,
     "research_priority_score": 14.71,
@@ -27,14 +14,25 @@
   {
     "title": "Aesthetica Art Prize",
     "score": 9.3,
-    "research_priority_score": 14.26,
+    "research_priority_score": 13.86,
     "country": "UK / Global",
     "category": "global_open_call",
     "missing_fields": [
-      "contact_email",
       "official_website"
     ],
     "quick_action": "Check current open call, entry fees, accepted categories, and whether works on paper / watercolor have historically been selected."
+  },
+  {
+    "title": "Center for Book Arts Opportunities",
+    "score": 8.8,
+    "research_priority_score": 13.83,
+    "country": "USA",
+    "category": "global_book_arts",
+    "missing_fields": [
+      "fees",
+      "official_website"
+    ],
+    "quick_action": "Check current opportunities, eligibility, and whether international artists may apply."
   },
   {
     "title": "Pinpoint Gallery",
@@ -264,6 +262,28 @@
     "quick_action": "Verify eligibility and current cycle at the official website before applying."
   },
   {
+    "title": "ACC New York Fellowship",
+    "score": 9.4,
+    "research_priority_score": 11.3,
+    "country": "USA",
+    "category": "grant",
+    "missing_fields": [
+      "contact_email"
+    ],
+    "quick_action": "Verify eligibility and current cycle at the official website before applying."
+  },
+  {
+    "title": "ACC Organization Grant",
+    "score": 9.4,
+    "research_priority_score": 11.3,
+    "country": "USA",
+    "category": "grant",
+    "missing_fields": [
+      "contact_email"
+    ],
+    "quick_action": "Verify eligibility and current cycle at the official website before applying."
+  },
+  {
     "title": "OPA Gallery",
     "score": 8.6,
     "research_priority_score": 11.3,
@@ -286,6 +306,50 @@
       "contact_email"
     ],
     "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact."
+  },
+  {
+    "title": "US Artists International",
+    "score": 9.3,
+    "research_priority_score": 11.2,
+    "country": "USA",
+    "category": "grant",
+    "missing_fields": [
+      "contact_email"
+    ],
+    "quick_action": "Verify eligibility and current cycle at the official website before applying."
+  },
+  {
+    "title": "Artist Grant",
+    "score": 9.3,
+    "research_priority_score": 11.2,
+    "country": "International",
+    "category": "grant",
+    "missing_fields": [
+      "contact_email"
+    ],
+    "quick_action": "Verify eligibility and current cycle at the official website before applying."
+  },
+  {
+    "title": "MÉXICO CITY Art Week Season Residency",
+    "score": 9.3,
+    "research_priority_score": 11.2,
+    "country": "Mexico",
+    "category": "grant",
+    "missing_fields": [
+      "contact_email"
+    ],
+    "quick_action": "Verify eligibility and current cycle at the official website before applying."
+  },
+  {
+    "title": "Residencias de otoño en Casa Garcés",
+    "score": 9.3,
+    "research_priority_score": 11.2,
+    "country": "Spain",
+    "category": "grant",
+    "missing_fields": [
+      "contact_email"
+    ],
+    "quick_action": "Verify eligibility and current cycle at the official website before applying."
   },
   {
     "title": "It's Nice That — Illustration Feature",
@@ -333,6 +397,18 @@
     "quick_action": "Verify current submission, exhibition, or contact details before recommending."
   },
   {
+    "title": "Asian Cultural Council 2026 Grants and Fellowships",
+    "score": 8.8,
+    "research_priority_score": 11.1,
+    "country": "USA",
+    "category": "grant",
+    "missing_fields": [
+      "submission_page",
+      "contact_email"
+    ],
+    "quick_action": "Verify eligibility and current cycle at the official website before applying."
+  },
+  {
     "title": "Gallery 456 Exhibition Open Call 2026",
     "score": 8.8,
     "research_priority_score": 11.1,
@@ -345,7 +421,7 @@
     "quick_action": "Verify submission page and deadline before applying."
   },
   {
-    "title": "Asian Cultural Council 2026 Grants and Fellowships",
+    "title": "American Watercolor Society Awards",
     "score": 8.8,
     "research_priority_score": 11.1,
     "country": "USA",
@@ -369,59 +445,9 @@
     "quick_action": "Verify submission page and deadline before applying."
   },
   {
-    "title": "2026香港．泉州國際水彩巡迴展 (2026 Hong Kong-Quanzhou International Watercolor Touring Exhibition)",
-    "score": 8.4,
+    "title": "Assemblage Art Fund 2026–2027 Grant Cycle",
+    "score": 8.8,
     "research_priority_score": 11.1,
-    "country": "Hong Kong",
-    "category": "watercolor_competition",
-    "missing_fields": [
-      "submission_page",
-      "fees",
-      "contact_email"
-    ],
-    "quick_action": "Verify submission page and deadline before applying."
-  },
-  {
-    "title": "Royal Watercolour Society Open Exhibition",
-    "score": 5.0,
-    "research_priority_score": 11.02,
-    "country": "UK",
-    "category": "global_watercolor_open_call",
-    "missing_fields": [
-      "submission_page",
-      "contact_email",
-      "official_website"
-    ],
-    "quick_action": "Research current open call dates, submission fees, accepted formats, and previous selected works to gauge aesthetic fit."
-  },
-  {
-    "title": "2026金风车国际青年插画家大赛",
-    "score": 8.7,
-    "research_priority_score": 11.0,
-    "country": "China",
-    "category": "illustration_prize",
-    "missing_fields": [
-      "fees",
-      "contact_email"
-    ],
-    "quick_action": "Verify submission page and deadline before applying."
-  },
-  {
-    "title": "2026博洛尼亚国际插画大赛",
-    "score": 8.7,
-    "research_priority_score": 11.0,
-    "country": "Italy",
-    "category": "illustration_prize",
-    "missing_fields": [
-      "fees",
-      "contact_email"
-    ],
-    "quick_action": "Verify submission page and deadline before applying."
-  },
-  {
-    "title": "ACC 2026 Global Grant Cycle",
-    "score": 8.7,
-    "research_priority_score": 11.0,
     "country": "USA",
     "category": "grant",
     "missing_fields": [
@@ -429,32 +455,5 @@
       "contact_email"
     ],
     "quick_action": "Verify eligibility and current cycle at the official website before applying."
-  },
-  {
-    "title": "第九屆水主題國際評審藝術比賽",
-    "score": 9.4,
-    "research_priority_score": 10.9,
-    "country": "International",
-    "category": "global_watercolor_open_call",
-    "missing_fields": [],
-    "quick_action": "Verify submission page and deadline before applying."
-  },
-  {
-    "title": "American Illustration",
-    "score": 9.4,
-    "research_priority_score": 10.9,
-    "country": "Global",
-    "category": null,
-    "missing_fields": [],
-    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
-  },
-  {
-    "title": "The Artcomplex Center of Tokyo",
-    "score": 9.4,
-    "research_priority_score": 10.9,
-    "country": "Tokyo",
-    "category": null,
-    "missing_fields": [],
-    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
   }
 ]

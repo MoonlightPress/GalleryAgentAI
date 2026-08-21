@@ -1,0 +1,620 @@
+{
+  "started_at": "2026-08-20T09:49:11.952040",
+  "resume": true,
+  "completed": true,
+  "steps": [
+    {
+      "step": "watercolor_source_expander.py",
+      "status": "skipped_resume",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "web_ingestion_engine.py",
+      "status": "skipped_resume",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "scraped_candidate_extractor.py",
+      "status": "skipped_resume",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "candidate_quality_gate.py",
+      "status": "skipped_resume",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "approved_candidate_importer.py",
+      "status": "skipped_resume",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "global_opportunity_expander.py",
+      "status": "skipped_resume",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "japanese_chinese_discovery_engine.py",
+      "status": "skipped_resume",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "grant_discovery_engine.py",
+      "status": "skipped_resume",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "url_verification_engine.py",
+      "status": "skipped_resume",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "opportunity_enrichment_pipeline.py",
+      "status": "skipped_resume",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "venue_intelligence_builder.py",
+      "status": "skipped_resume",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "venue_memory_engine.py",
+      "status": "skipped_resume",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "artist_visual_profile_v1.py",
+      "status": "skipped_resume",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "visual_profile_ingester.py",
+      "status": "skipped_resume",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "visual_dna_extractor.py",
+      "status": "skipped_resume",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "watercolor_artist_profile_engine.py",
+      "status": "skipped_resume",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "painting_discovery_engine.py",
+      "status": "skipped_resume",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "painting_quality_gate.py",
+      "status": "skipped_resume",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "painting_action_report.py",
+      "status": "skipped_resume",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "watercolor_opportunity_converter.py",
+      "status": "skipped_resume",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "opportunity_truth_checker.py",
+      "status": "skipped_resume",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "source_medium_classifier.py",
+      "status": "skipped_resume",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "medium_confirmation_gate.py",
+      "status": "skipped_resume",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "translation_candidate_detector.py",
+      "status": "skipped_resume",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "source_purity_enforcer.py",
+      "status": "skipped_resume",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "native_medium_ranker.py",
+      "status": "skipped_resume",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "score_explanation_alignment.py",
+      "status": "skipped_resume",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "career_path_ranker.py",
+      "status": "skipped_resume",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "watercolor_project_rebuilder.py",
+      "status": "skipped_resume",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "dna_recommendation_booster.py",
+      "status": "skipped_resume",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "deep_match_scoring_engine.py",
+      "status": "skipped_missing_optional",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "lineage_scoring_engine.py",
+      "status": "skipped_resume",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "feedback_learning_engine.py",
+      "status": "skipped_resume",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "submission_log_reader.py",
+      "status": "skipped_resume",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "preference_rescoring_engine.py",
+      "status": "skipped_resume",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "portfolio_match_engine.py",
+      "status": "skipped_resume",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "submission_strategy_engine.py",
+      "status": "skipped_resume",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "score_sanity_engine.py",
+      "status": "skipped_resume",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "rumor_mill_engine.py --max 300",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 46231.59
+    },
+    {
+      "step": "rumor_mill_propagation_engine.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.44
+    },
+    {
+      "step": "fee_text_extractor.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.45
+    },
+    {
+      "step": "deadline_normaliser.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.44
+    },
+    {
+      "step": "submission_page_harvester.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 129.42
+    },
+    {
+      "step": "rumor_mill_expansion_runner.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 340.55
+    },
+    {
+      "step": "manual_research_engine.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.33
+    },
+    {
+      "step": "verification_report_engine.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.42
+    },
+    {
+      "step": "career_strategy_engine.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.21
+    },
+    {
+      "step": "global_strategy_rebalance.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.18
+    },
+    {
+      "step": "opportunity_differentiation_engine.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.62
+    },
+    {
+      "step": "artist_ecosystem_mapper.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.09
+    },
+    {
+      "step": "peer_artist_engine.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.07
+    },
+    {
+      "step": "publisher_match_engine.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.18
+    },
+    {
+      "step": "ecosystem_opportunity_bridge.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.2
+    },
+    {
+      "step": "ecosystem_report.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.1
+    },
+    {
+      "step": "artist_project_builder.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.2
+    },
+    {
+      "step": "project_submission_mapper.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.09
+    },
+    {
+      "step": "career_bucket_report.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.12
+    },
+    {
+      "step": "fit_audit_engine.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.21
+    },
+    {
+      "step": "institution_network_engine.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 13.9
+    },
+    {
+      "step": "discovery_engine.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.17
+    },
+    {
+      "step": "ecosystem_expansion_engine.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.15
+    },
+    {
+      "step": "curator_personality_engine.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.42
+    },
+    {
+      "step": "career_path_engine.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.2
+    },
+    {
+      "step": "serendipity_engine.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.15
+    },
+    {
+      "step": "reputation_engine.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.17
+    },
+    {
+      "step": "momentum_wave_engine.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.17
+    },
+    {
+      "step": "social_proof_engine.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.16
+    },
+    {
+      "step": "research_priority_engine.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.16
+    },
+    {
+      "step": "curator_intelligence_engine.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.42
+    },
+    {
+      "step": "daily_quest_generator.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.07
+    },
+    {
+      "step": "opportunity_report_engine.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 1.64
+    },
+    {
+      "step": "analysis_cache_builder.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 2.22
+    },
+    {
+      "step": "research_queue_report.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.11
+    },
+    {
+      "step": "global_research_queue_builder.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.16
+    },
+    {
+      "step": "inquiry_draft_generator.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 1.11
+    },
+    {
+      "step": "ibm_email_writer.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 118.6
+    },
+    {
+      "step": "portfolio_pitch_generator.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.26
+    },
+    {
+      "step": "smart_cover_letter_engine.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.31
+    },
+    {
+      "step": "submission_timeline_engine.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.16
+    },
+    {
+      "step": "strategy_explainer_generator.py",
+      "status": "skipped_missing_optional",
+      "returncode": null,
+      "duration_s": 0.0
+    },
+    {
+      "step": "why_it_fits_engine.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 34.98
+    },
+    {
+      "step": "tier_scoring_engine.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.48
+    },
+    {
+      "step": "final_score_guard.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.46
+    },
+    {
+      "step": "targeted_verification_agent.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 153.45
+    },
+    {
+      "step": "recommendation_trust_cleaner.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.64
+    },
+    {
+      "step": "dead_url_pruner.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.41
+    },
+    {
+      "step": "prerequisite_detection_engine.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.67
+    },
+    {
+      "step": "exclusive_strategy_bucket_engine.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 1.67
+    },
+    {
+      "step": "peppercorn_preference_engine.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.45
+    },
+    {
+      "step": "strategic_action_report.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.23
+    },
+    {
+      "step": "next_project_engine.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.79
+    },
+    {
+      "step": "dna_project_refiner.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.42
+    },
+    {
+      "step": "next_email_engine.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.11
+    },
+    {
+      "step": "next_exhibition_engine.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.24
+    },
+    {
+      "step": "pipeline_debug_summary.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.36
+    },
+    {
+      "step": "project_folder_audit.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.07
+    },
+    {
+      "step": "opportunity_status_engine.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.36
+    },
+    {
+      "step": "content_translation_engine.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 188.97
+    },
+    {
+      "step": "opp_strategy_translation_engine.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 127.41
+    },
+    {
+      "step": "saffron_translation_engine.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 44.69
+    },
+    {
+      "step": "contact_translation_engine.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 1.85
+    },
+    {
+      "step": "daily_digest_report.py",
+      "status": "ok",
+      "returncode": 0,
+      "duration_s": 0.25
+    }
+  ],
+  "finished_at": "2026-08-20T22:59:16.828921"
+}

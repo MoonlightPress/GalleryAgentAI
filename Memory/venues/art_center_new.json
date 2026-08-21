@@ -2,16 +2,19 @@
   "venue_name": "Art Center NEW",
   "venue_slug": "art_center_new",
   "venue_type": "artist opportunity venue",
-  "city": "Tokyo",
+  "city": "Tokyo, Yokohama",
   "country": "",
   "website": "https://bijutsutecho.com/magazine/news/headline/30942",
   "source_links": [
     "https://bijutsutecho.com/magazine/news/headline/30942",
+    "https://artcenter-new.jp/event/new-bf-book-and-food-fair",
+    "https://artcenter-new.jp/en/event/new-air-2026-opencall",
     "https://www.instagram.com/p/DVuFrkgCNzm"
   ],
   "categories_seen": [
     "Institutional / Grants",
-    "Residencies / Longer Projects"
+    "Residencies / Longer Projects",
+    "Zine Fair Booth"
   ],
   "accepts_unsolicited_work": "unknown",
   "submission_style": "unknown",
@@ -27,13 +30,17 @@
   ],
   "missing_information": [
     "contact",
-    "fees"
+    "deadline",
+    "fees",
+    "submission process"
   ],
   "opportunity_titles": [
     "In-dividual Theater：BUG Screen Week 2026",
+    "Book and Food FAIR",
+    "NEW AIR 2026 - Open Call (Asia)",
     "NEW AIR 2026"
   ],
   "last_researched": "",
-  "created_at": "2026-08-18",
-  "updated_at": "2026-08-18"
+  "created_at": "2026-08-21",
+  "updated_at": "2026-08-21"
 }

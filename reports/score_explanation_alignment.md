@@ -21,6 +21,7 @@ Scores now follow the explanation. A high score should not appear beside a warni
 - **World Illustration Awards** — 10.0 — strong. A possible place to show watercolor or works on paper.
 - **Tokyo Illustrators Society** — 10.0 — strong. A possible place to show watercolor or works on paper.
 - **Bologna Children's Book Fair Illustrators Exhibition** — 10.0 — strong. A possible place to show watercolor or works on paper.
+- **Pinpoint Gallery** — 10.0 — strong. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
 - **水彩アートの祭典** — 10.0 — strong. Watercolor-only art exhibition (平面作品のみ) held at Tokyo Geijutsu Gekijo, accepting 4号以内 works with no theme restrictions
 - **Mograg Gallery** — 10.0 — strong. An active Tokyo gallery that programs emerging, un-repped Japanese artists by proposal — a real route in without a juried call. The work it shows leans contemporary/outsider, not polished or quiet, so don't take a 'fit' on trust: look at their recent shows and decide for yourself.
 - **HATTIFNATT Koenji Cafe Gallery** — 10.0 — strong. A cafe-gallery in Koenji that regularly hangs illustration and painting, books by proposal with no fixed deadline — a low-barrier Tier-1 venue you can reach by phone. The space has a strong storybook/cute aesthetic, so look at it and decide if that's a register you want to sit in.
@@ -28,4 +29,3 @@ Scores now follow the explanation. A high score should not appear beside a warni
 - **第50届悠美会国际美术展** — 10.0 — strong. International art exhibition accepting watercolor paintings and mixed media works in Tokyo
 - **第1回 お気に入りのアナログ画材で塗ろう！3色イラスト公募展（1st Favorite Analog Media 3-Color Illustration Open Call）** — 10.0 — strong. Illustration competition specifically for analog media and watercolor techniques; accepting submissions through February 2026.
 - **絵の現在 選抜展（Ienoima Selection Exhibition）** — 10.0 — strong. Open call for watercolor artists (油彩・日本画・水彩) with recognition in art magazines and gallery/department store exhibitions, supporting artists seeking to expand their practice.
-- **Watercolors 2026** — 10.0 — strong. Dedicated watercolor art open call event run by major Tokyo-based art event organizer accepting all career levels

@@ -1,7 +1,7 @@
 # Translation Candidates
 
 These are not native watercolor opportunities, but may be useful if watercolor work is translated into a book, zine, edition, or printed sequence.
-Total translation candidates: 275
+Total translation candidates: 448
 
 - **START Box ササハタハツ・START Box 白鬚 2026年度利用者募集** — native: mixed; signals: zine, illustration
 - **ローズ・ローズ・ローズ** — native: mixed; signals: zine, illustration
@@ -32,6 +32,7 @@ Total translation candidates: 275
 - **Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...** — native: unknown; signals: works on paper, drawing
 - **Center for Book Arts Opportunities** — native: unknown; signals: artist book, printed matter
 - **臺南市美術館 2026「TAM+展覽計畫」** — native: mixed; signals: zine
+- **第6回銀座中央ギャラリー公募展** — native: unknown; signals: drawing
 - **公募プログラム - トーキョーアーツアンドスペース** — native: unknown; signals: works on paper, drawing
 - **マイ・ディア・テディ (My Dear Teddy)** — native: mixed; signals: zine, illustration
 - **令和8年度（2026年度）文化庁メディア芸術クリエイター育成支援事業** — native: unknown; signals: illustration
@@ -39,28 +40,33 @@ Total translation candidates: 275
 - **2026 Global Grant Cycle - Individual Fellowship** — native: unknown; signals: illustration
 - **Laugh & Peace Art Competition 2026** — native: unknown; signals: illustration
 - **FACE Exhibition 2026** — native: unknown; signals: works on paper
-- **第6回銀座中央ギャラリー公募展** — native: unknown; signals: drawing
 - **Applications — Little Tokyo Zine Fest** — native: mixed; signals: zine, edition
+- **Apartamento — Artist Feature** — native: mixed; signals: zine
 - **2026年度 芸術活動助成（戸部眞紀財団）** — native: unknown; signals: works on paper
 - **芸術活動助成 (Arts Activity Grant) 2027年度** — native: unknown; signals: artist book, works on paper, illustration
+- **株式会社アートジャパン 靖山画廊30周年記念公募展** — native: unknown; signals: illustration
 - **東京芸術文化創造発信助成 カテゴリーⅠ ［単年助成］芸術創造活動** — native: unknown; signals: illustration
 - **現代芸術振興助成 (Contemporary Art Promotion Grant)** — native: unknown; signals: illustration
 - **Aesthetica Art Prize** — native: mixed; signals: zine, works on paper
 - **DER GREIF** — native: photography; signals: artist book, works on paper
+- **芸術文化振興基金 「舞台芸術・美術等の創造普及活動」** — native: unknown; signals: illustration
 - **AAA Gallery Yokohama** — native: unknown; signals: works on paper
 - **芸術活動への助成 (Arts Activity Grant)** — native: unknown; signals: illustration
-- **株式会社アートジャパン 靖山画廊30周年記念公募展** — native: unknown; signals: illustration
+- **Dezi Art Prize** — native: unknown; signals: drawing
+- **Artist Grant** — native: unknown; signals: drawing
+- **IlloBoom! 2026 第三屆插畫巔峰賽** — native: mixed; signals: illustration
+- **アーツカウンシル東京 芸術活動支援助成** — native: unknown; signals: illustration
 - **B&B (Book & Beer)** — native: mixed; signals: artist book, zine, bookstore
 - **Pen Magazine — Artist Spotlight** — native: mixed; signals: zine
 - **Route Books** — native: mixed; signals: zine, bookstore
 - **UTRECHT** — native: mixed; signals: artist book, zine, printed matter, bookstore, publication, edition
 - **ZINEフェス東京 (ZINE Fest Tokyo)** — native: mixed; signals: artist book, zine
-- **Apartamento — Artist Feature** — native: mixed; signals: zine
 - **MOUNT ZINE** — native: mixed; signals: zine
 - **Casa Brutus — Architecture/Art Feature** — native: unknown; signals: zine
 - **Submissions — Clavis Publishing** — native: unknown; signals: artist book, small press, publication
 - **2026年度 第2期 地域芸術文化活動応援助成** — native: unknown; signals: works on paper
 - **Research Residency Program 2027** — native: unknown; signals: illustration
+- **2026年度 芸術活動助成** — native: unknown; signals: works on paper
 - **若手アーティストの登竜門となるアートフェア「Independent Tokyo ...** — native: unknown; signals: works on paper, drawing
 - **New Power展 | ギャラリー自由が丘で作家デビュー** — native: unknown; signals: works on paper, drawing
 - **美術手帖 (Bijutsu Techo) — Artist Feature** — native: unknown; signals: artist book, zine, publication
@@ -68,14 +74,23 @@ Total translation candidates: 275
 - **芸術活動への助成（Grants for Artistic Activities）** — native: unknown; signals: works on paper
 - **カテゴリーⅠ ［単年助成］芸術創造活動 2026年度 第1期** — native: unknown; signals: illustration
 - **Gallery Dioxazine Exhibition** — native: mixed; signals: zine
-- **IlloBoom! 2026 第三屆插畫巔峰賽** — native: mixed; signals: illustration
 - **Fukuoka Art Book Fair** — native: mixed; signals: zine, book fair, edition
 - **Full-Table - Little Tokyo Zine Fest 2026 - Eventeny** — native: mixed; signals: zine, edition
+- **National Arts Fund Young Artists Creative Talent Support Project (国家艺术基金青年艺术创作人才资助项目)** — native: unknown; signals: illustration
 - **CuratorSpace** — native: unknown; signals: artist book, works on paper, drawing
+- **Grants & Fellowships (2026 Artist Grants)** — native: unknown; signals: illustration, drawing
+- **Golden Foundation Residency** — native: unknown; signals: illustration
 - **gallery cafe & zakka SAKURA主催展示募集** — native: unknown; signals: illustration
 - **Creation Grant Category III (Tokyo Grant Program)** — native: unknown; signals: illustration
+- **2026年度下期 美術部門 個人(活動助成金 国内)** — native: unknown; signals: illustration
+- **Creative Projects Grant (FY27)** — native: unknown; signals: illustration
+- **Art Students League Tuition Scholarships** — native: unknown; signals: illustration
+- **東京芸術文化創造発信助成 カテゴリーⅠ、Ⅲ ［単年助成］ 第2期** — native: unknown; signals: calendar
+- **Franklin Furnace 2026 XENO PRIZE for Artists' Books** — native: unknown; signals: artist book, publication, edition
 - **朝日新聞文化財団 芸術活動助成** — native: unknown; signals: artist book, works on paper, illustration
+- **National Arts Fund (National Arts Foundation) - Youth Artist Creation Program** — native: unknown; signals: artist book, works on paper
 - **Aquarium - 2026** — native: unknown; signals: artist book, publication
+- **スタートアップ助成** — native: unknown; signals: illustration
 - **咲き誇れ桜よ** — native: mixed; signals: zine, illustration
 - **LOCAL Gallery・Books** — native: mixed; signals: artist book, zine, publication
 - **tata bookshop/gallery** — native: mixed; signals: zine, works on paper
@@ -84,19 +99,25 @@ Total translation candidates: 275
 - **SUZURI — Japanese Print-on-Demand Platform** — native: mixed; signals: zine
 - **Mona Records** — native: mixed; signals: zine
 - **咲き誇れ桜よ (Sakigahore Sakura yo)** — native: mixed; signals: zine, illustration
+- **Art Animal Exhibition #3 (Open Call)** — native: unknown; signals: works on paper, illustration
 - **Kawaii ART Exhibition #1** — native: unknown; signals: illustration
 - **KAMIHANGA国際プリント展2026** — native: unknown; signals: illustration
 - **Submissions - Little Press Publishing** — native: unknown; signals: small press
 - **ギャラリーニイク「219公募展」Vol.6 (Gallery 219 Open Call Vol.6)** — native: unknown; signals: illustration
 - **INDEPENDENT TOKYO 2026** — native: unknown; signals: illustration
-- **2026年度 第18回 創造する伝統賞** — native: unknown; signals: illustration
 - **SICF Fukuoka 2026** — native: unknown; signals: illustration
 - **Surface Design Association Exhibition 2026** — native: unknown; signals: illustration
+- **Marion Barr Stanfield Art Scholarship** — native: unknown; signals: drawing
 - **True Beauty - 2026** — native: unknown; signals: illustration
+- **一般財団法人 赤坂クリエイティブ財団** — native: unknown; signals: illustration
+- **2026年度 第18回 創造する伝統賞** — native: unknown; signals: illustration
 - **FACE展2026** — native: mixed; signals: artist book, zine, edition
-- **Art Animal Exhibition #3 (Open Call)** — native: unknown; signals: works on paper, illustration
 - **銀座中央ギャラリー公募展入選者展** — native: unknown; signals: drawing
+- **EIAF 2026-2027 Residency Grant** — native: unknown; signals: illustration
+- **AFAF AWARD powered by E.SUN Bank** — native: unknown; signals: illustration
+- **Brightwork Foundation Grants** — native: unknown; signals: drawing
 - **2026年度 ライフウィズアート助成** — native: unknown; signals: illustration
+- **Women's Studio Workshop Artist's Book Grant** — native: unknown; signals: artist book, publication, edition
 - **鉄道写真作品展「OM SYSTEM GALLERY II」** — native: unknown; signals: artist book, works on paper
 - **芸術文化振興基金及び文化芸術振興費補助金 (Arts and Culture Promotion Fund and Cultural Arts Development Subsidy)** — native: unknown; signals: illustration
 - **NewPower展** — native: unknown; signals: illustration
@@ -104,37 +125,108 @@ Total translation candidates: 275
 - **BOOK MEETS NEXT 11月1日「本の日」記念 ブックカバー大賞** — native: unknown; signals: artist book, bookstore, illustration
 - **Become an Author - Tuttle Publishing** — native: unknown; signals: small press
 - **額縁のギャラリーゴロー イラスト・絵画・写真展** — native: unknown; signals: illustration
+- **アイギャラリー学生アートコンペ** — native: unknown; signals: illustration
 - **» 21 Terrific Small Presses Open to Direct Submissions** — native: mixed; signals: artist book, small press, publication, edition, works on paper
 - **【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ...** — native: unknown; signals: works on paper, drawing
 - **現代アート販売の@Gallery Tagboat|@Gallery Tagboat** — native: unknown; signals: works on paper, drawing
-- **AFAF AWARD powered by E.SUN Bank** — native: unknown; signals: illustration
+- **zine本屋 委託販売募集** — native: mixed; signals: artist book, zine, bookstore, publication, illustration
 - **gallery cafe & zakka SAKURA 公募展** — native: unknown; signals: drawing
 - **第23届「跨越国界之美2026」国际公募展** — native: unknown; signals: illustration
+- **第三屆橫山書藝獎** — native: mixed; signals: artist book, zine, illustration
 - **スクエア・ワールド2026** — native: mixed; signals: zine, illustration
+- **BOOK MEETS NEXT 本の日 記念ブックカバー大賞** — native: unknown; signals: artist book, bookstore, illustration
 - **Annual Salon Art Prize** — native: unknown; signals: artist book, publication
+- **一冊 (1-satsu) リトルプレス・ZINE直取引プラットフォーム** — native: mixed; signals: artist book, zine, publication
+- **文学フリマ2026年11月（Bungaku Frima November 2026）** — native: mixed; signals: artist book, zine
+- **文学フリマ東京43（Bungaku Frima Tokyo 43）** — native: mixed; signals: artist book, zine, illustration
+- **SS（スモールエス）87号 表紙イラスト募集コンテスト** — native: mixed; signals: zine, illustration
 - **B&B Shimokitazawa** — native: mixed; signals: artist book, zine, bookstore, publication
 - **flotsam books** — native: mixed; signals: artist book, zine, bookstore, works on paper
+- **カモメロースタリ東京 ギャラリースペース展示募集 2026年5月〜7月** — native: unknown; signals: illustration
+- **2026年 馬來西亞國際藝術網絡大賽《人物/肖像類》與《静物/花卉類》** — native: mixed; signals: illustration
+- **ポットラック・アートブックフェア 2026 (Potluck Art Book Fair 2026)** — native: mixed; signals: artist book, zine, book fair, illustration
 - **Antenna Books** — native: mixed; signals: zine, bookstore, publication
 - **SPBS (Shibuya Publishing Booksellers)** — native: mixed; signals: zine, bookstore, publication
 - **Village Vanguard Shimokitazawa** — native: mixed; signals: artist book, zine, bookstore
 - **公募展（グループ展）- 出展募集** — native: unknown; signals: artist book, publication, illustration
 - **りんごろごろごろ (Ringo Rogo Rogo)** — native: mixed; signals: zine
 - **表紙やカバーのデザインのお仕事** — native: unknown; signals: illustration
+- **第4回 ARK Art Award** — native: unknown; signals: illustration
+- **FACE 2026** — native: unknown; signals: illustration
+- **ヨロコビtoギャラリー 大賞展 2026** — native: unknown; signals: illustration
+- **第11回 星乃珈琲店絵画コンテスト** — native: unknown; signals: illustration
+- **第43回 FUKUIサムホール美術展** — native: unknown; signals: illustration
+- **シニアライフ充実・若いアーティスト育成 公募展** — native: unknown; signals: illustration
 - **公募企画絵画展「瑠璃と群青の民たち」** — native: mixed; signals: zine, illustration
 - **Publishers & Publishing Services in Japan - PublishersGlobal.com** — native: unknown; signals: artist book, small press, publication
+- **ブックスキューブリック 委託販売** — native: mixed; signals: artist book, zine, bookstore
+- **ハコミツ ハンドメイド委託作家募集** — native: mixed; signals: artist book, zine, bookstore, illustration
+- **GALLERY at KAMOME ROASTERY TOKYO CAFE** — native: unknown; signals: illustration
+- **TOKYO ART BOOK FAIR 16th edition (2027)** — native: mixed; signals: artist book, zine, book fair, publication, edition, illustration
+- **Avancé 船橋 委託販売作家募集** — native: mixed; signals: artist book, zine, bookstore, illustration
 - **PARK GALLERY 夏の公募企画展（3テーマ）** — native: unknown; signals: illustration
+- **2027臺南新藝獎** — native: mixed; signals: zine, illustration
+- **雑貨屋#MAY's 委託作家募集** — native: mixed; signals: artist book, zine, bookstore, illustration
+- **いぬまち 書店委託販売募集** — native: mixed; signals: artist book, zine, bookstore, publication
 - **Japan Book Publishers Association - JBPA** — native: unknown; signals: artist book, small press, publication
 - **SAW (14th Edition)** — native: unknown; signals: artist book, edition
+- **Gallery and Links 作家募集展** — native: unknown; signals: illustration
+- **FACE コンクール** — native: unknown; signals: illustration
+- **第61回「都展」(61st Toten Art Exhibition)** — native: unknown; signals: illustration
+- **臺北市立美術館2026年度申請展徵件 (Taipei Fine Arts Museum 2026 Application Exhibition Call)** — native: mixed; signals: artist book, zine, publication
+- **FACE2026** — native: mixed; signals: artist book, zine, edition
 - **ART BOX Publishing** — native: unknown; signals: small press
-- **第三屆橫山書藝獎** — native: mixed; signals: artist book, zine, illustration
 - **第11回 Artist meets Art Fair** — native: unknown; signals: illustration
 - **JIA 日本插畫大賞（Japan Illustration Award）** — native: mixed; signals: illustration
+- **飛地·離島 (Hichi·Retto) — ZINE Consignment & Submission** — native: mixed; signals: artist book, zine, bookstore
+- **京都芸術センター アーティスト・イン・レジデンス プログラム 2026 ビジュアル・アーツ部門** — native: unknown; signals: illustration
+- **TOKIO ART BOOK FAIR 2026 by TOKYO ART BOOK FAIR** — native: mixed; signals: artist book, zine, book fair, publication
+- **Book and Food FAIR** — native: mixed; signals: artist book, zine, book fair, publication
+- **ゆめ画材公募 ゆめ画材夏休み2026** — native: unknown; signals: illustration
+- **gallery cafe & zakka SAKURA 「ここにしかない1枚の絵展」** — native: unknown; signals: illustration
+- **ZINE FEST 宇都宮 2026年7月** — native: mixed; signals: artist book, zine
+- **第18回芸術家発掘コンテスト** — native: unknown; signals: illustration
+- **ZINE FEST 福岡 2026年10月31日** — native: mixed; signals: artist book, zine
+- **COMIC BRIDGE 新人賞『ブリ杯』** — native: unknown; signals: illustration
+- **Gallery at Kamome Roastery Tokyo Cafe — 2026年5月〜7月展示募集** — native: unknown; signals: illustration
+- **第2回コンクール** — native: unknown; signals: illustration
+- **ZINE FEST 新潟 2026年8月23日** — native: mixed; signals: artist book, zine
 - **南怡島國際繪本大賽（Namiseom International Picture Book Awards）** — native: mixed; signals: illustration
+- **アイギャラリー企画展 「animalparty+屋根裏の生物5th」** — native: unknown; signals: illustration
+- **アイギャラリー企画展「animalparty+屋根裏の生物5th」** — native: unknown; signals: illustration
+- **キュー・ド・クレ ハンドメイド委託作家募集** — native: mixed; signals: artist book, zine, bookstore, illustration
 - **第5回 関西アートコンペ** — native: unknown; signals: illustration
 - **2026洄瀾美展** — native: mixed; signals: zine, illustration
+- **ギャラリーTerra-S 2026年度前期（2026年6月～8月）申請展** — native: unknown; signals: illustration
+- **日向箱 宇宙の作品展** — native: unknown; signals: illustration
+- **新進アーティスト作品展vol.24 Art Generation 2026** — native: unknown; signals: illustration
+- **【展示企画募集】2026年1,2月 Room1** — native: unknown; signals: illustration
 - **PARK GALLERY Summer Group Exhibitions (3 themes)** — native: unknown; signals: illustration
-- **2027臺南新藝獎** — native: mixed; signals: zine, illustration
+- **きぶねしゃ リトルプレス・ZINE製作相談・販売** — native: mixed; signals: artist book, zine
+- **第38届 全日中展·东京书画艺术大展** — native: unknown; signals: calendar
+- **A-LAB Artist Gate '26** — native: unknown; signals: illustration
+- **上野の森美術館 公募展** — native: unknown; signals: illustration
+- **京都芸術大学附属康耀堂美術館 20周年記念展 特別公募** — native: unknown; signals: illustration
+- **第70回（令和8年度）鳥取県美術展覧会** — native: unknown; signals: illustration
+- **豊中市美術展** — native: unknown; signals: illustration
+- **安岡蒲鉾のかまぼこ板美術展2026** — native: unknown; signals: illustration
+- **2026南瑛獎** — native: mixed; signals: zine
+- **Gallery NOOOG 2026年春 個展募集** — native: unknown; signals: illustration
+- **KAGAWA AI ART FESTIVAL 2026** — native: unknown; signals: illustration
+- **Tokyo Metropolitan Art Museum / Design Festa Gallery 2026** — native: mixed; signals: illustration
+- **IlloBoom! 2026 第三届插画峰峰赛 (IlloBoom! 2026 3rd Annual Illustration Summit Challenge)** — native: mixed; signals: illustration
+- **Tainan Printed Matter Fair 2026** — native: mixed; signals: artist book, zine, printed matter, small press, publication
+- **Asia Art New Talent Exhibition (Third Edition)** — native: mixed; signals: artist book, edition
+- **TOKYO ART BOOK FAIR 2026** — native: mixed; signals: artist book, zine, book fair, edition, illustration
+- **短編小説集出版記念 書籍イラスト募集（表紙絵または挿絵）** — native: unknown; signals: artist book, publication, illustration
 - **2026中山青年藝術獎** — native: mixed; signals: zine, illustration
+- **Animal-themed Group Exhibition (Osaka)** — native: unknown; signals: artist book, publication, illustration
+- **Art Book Osaka 2026** — native: unknown; signals: artist book, book fair, publication, illustration
+- **名古屋市民ギャラリー矢田 ファインアートフェア 2026** — native: unknown; signals: illustration
+- **2026アジアデジタルアート大賞展FUKUOKA** — native: unknown; signals: illustration
+- **未来進行形2026 (Mirai Shinkougei 2026)** — native: unknown; signals: illustration
+- **1000展 2027（1000 Exhibition 2027）** — native: unknown; signals: illustration
+- **第19回 ART IN THE OFFICE 2026** — native: unknown; signals: illustration
 - **Zine & Book フェス in 神保町 (Jimbocho)** — native: mixed; signals: artist book, zine, edition
 - **COW BOOKS Nakameguro** — native: mixed; signals: artist book, zine, bookstore, publication, works on paper
 - **Tacoche** — native: mixed; signals: artist book, zine
@@ -142,52 +234,128 @@ Total translation candidates: 275
 - **call for artists | al-tiba9 magazine issue22** — native: mixed; signals: zine
 - **円盤 (Enban) Koenji** — native: mixed; signals: artist book, zine
 - **OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ** — native: mixed; signals: artist book, zine
+- **GALLERY北野坂** — native: unknown; signals: illustration
+- **TOKAS-Emerging 2026** — native: unknown; signals: artist book, publication, works on paper
 - **MVA Gallery Exhibition** — native: unknown; signals: illustration
-- **TOKAS-Emerging 2026** — native: unknown; signals: artist book, publication
-- **TOKYO ART BOOK FAIR 2026** — native: mixed; signals: artist book, zine, book fair, edition, illustration
+- **日向箱 作家様募集中** — native: mixed; signals: artist book, zine, bookstore, illustration
+- **100回記念国展** — native: unknown; signals: illustration
+- **Tokyo Metropolitan Art Museum / Design Festa Gallery Exhibition** — native: mixed; signals: illustration
+- **ギャラリー世田谷233 レンタルボックス＆個展スペース** — native: unknown; signals: illustration
+- **ギャラリー第2 個展・グループ展スペース** — native: unknown; signals: illustration
+- **第59回「鎌倉美術展」** — native: unknown; signals: illustration
+- **CICA Museum Contemporary Art Solo Show Series 2027** — native: unknown; signals: artist book, publication, illustration
+- **ヒコヒコギャラリー レンタルギャラリー** — native: unknown; signals: illustration
+- **アトリエコメット 企画展示・貸出** — native: unknown; signals: illustration
+- **Tokyo Metropolitan Art Museum／Design Festa Gallery展演** — native: mixed; signals: illustration
+- **ポットラック・アートブックフェア2026** — native: mixed; signals: artist book, zine, book fair
+- **文学フリマ東京42（Bungaku Frima Tokyo 42）** — native: mixed; signals: artist book, zine
 - **Small Wonders 2026** — native: unknown; signals: illustration
 - **2026西泠春拍藏品征集** — native: unknown; signals: illustration
 - **星降る夜に** — native: unknown; signals: illustration
-- **短編小説集出版記念 書籍イラスト募集（表紙絵または挿絵）** — native: unknown; signals: artist book, publication, illustration
 - **東京銀座プチ・ベラドンナ展2026** — native: unknown; signals: illustration
 - **Illustration Arts Festival 2026** — native: mixed; signals: illustration
+- **2026–2027 牛弓藝術學院淡季駐村計畫** — native: unknown; signals: drawing
 - **桜Exhibition2026** — native: unknown; signals: artist book, publication, poster, illustration
 - **PARK GALLERY 企画展公募「海と山と展」** — native: unknown; signals: illustration
 - **WIA 世界插畫大獎（World Illustration Awards）** — native: mixed; signals: illustration
-- **2026国际大学生数字艺术设计大赛 (2026 International University Student Digital Art and Design Competition)** — native: unknown; signals: illustration
+- **2026年度信濃大町アーティスト・イン・レジデンス 滞在作家募集** — native: unknown; signals: illustration
 - **2026国际大学生数字艺术设计大赛 / 2026 International University Student Digital Art & Design Competition** — native: unknown; signals: illustration
+- **2026国际大学生数字艺术设计大赛 (2026 International University Student Digital Art and Design Competition)** — native: unknown; signals: illustration
 - **スクエア・ワールド2026 (Square World 2026)** — native: mixed; signals: zine
 - **ローズ・ローズ・ローズ (Rose Rose Rose)** — native: mixed; signals: zine
 - **空色ターコイズ (Sorairo Turquoise)** — native: mixed; signals: zine
 - **Singapore Art Week 2026 – Open Call for Proposals (The 14th Edition)** — native: unknown; signals: edition
+- **NEW New Artists / NEW Backbone Artists 2026** — native: unknown; signals: illustration
+- **Artist meets Art Fair** — native: unknown; signals: illustration
+- **玉山銀行「2026畫家畫玉山」徵件** — native: mixed; signals: zine
+- **中華民國第42屆版印年畫徵選** — native: mixed; signals: zine, illustration
+- **SICF27（スパイラル・インディペンデント・クリエイターズ・フェスティバル）** — native: unknown; signals: zine, illustration
+- **SICF27 (Spiral Independent Creators Festival)** — native: unknown; signals: illustration
+- **新泰興獨立書店 — 作品寄售 (Xintaixing Independent Bookstore Consignment)** — native: mixed; signals: artist book, zine, bookstore
 - **2026年全国美术作品征集** — native: unknown; signals: illustration
 - **410Gallery PLUS International Open Call Exhibition** — native: unknown; signals: works on paper, illustration
 - **金风车插画大赛2026** — native: unknown; signals: illustration
-- **2026南瑛獎** — native: mixed; signals: zine
-- **2026桃源美展** — native: mixed; signals: zine
-- **2026国际大学生数字艺术设计大赛** — native: unknown; signals: illustration, drawing
 - **Tokyo Open Art** — native: unknown; signals: illustration
+- **纪念孙中山先生诞辰160周年暨第五届"香凝如故"美术作品展览** — native: unknown; signals: illustration
+- **2026桃源美展** — native: mixed; signals: zine
+- **ラーメンをテーマにした作品展** — native: unknown; signals: artist book, zine, works on paper, illustration
+- **2026国际大学生数字艺术设计大赛** — native: unknown; signals: illustration, drawing
+- **第36回 全日本アートサロン絵画大賞展** — native: unknown; signals: illustration
+- **第90回展 (90th Exhibition)** — native: mixed; signals: artist book, works on paper
+- **2027汎美展** — native: unknown; signals: artist book, works on paper
+- **Tokyo Metropolitan Art Museum / Design Festa Gallery Exhibition 2026** — native: mixed; signals: illustration
+- **VOCA展2026 現代美術の展望 —新しい平面の作家たち** — native: unknown; signals: illustration
+- **銀座・京橋サムホール公募展 2026** — native: unknown; signals: illustration
 - **2026中国美术家协会首届现代插画艺术大展** — native: unknown; signals: illustration
 - **阪急文具の博覧会2026** — native: unknown; signals: illustration
-- **マイクロ・アート・ワーケーション(MAW)2026 (Micro Art Workcation 2026)** — native: unknown; signals: illustration
-- **PARK GALLERY 海と山と展** — native: unknown; signals: illustration
-- **JAMCA PRIZE 2026** — native: unknown; signals: illustration
-- **第36回 全日本アートサロン絵画大賞展** — native: unknown; signals: illustration
-- **ClafT2026 多摩地域ゆかりの作家展「Tama Art Meets All」** — native: unknown; signals: illustration
+- **新・今日の作家展** — native: mixed; signals: zine
+- **長野市芸術館アート・グループ展2026** — native: unknown; signals: illustration
 - **原宿カワイイ展 -twinkle!-** — native: unknown; signals: illustration
+- **第6回公募 maru arts展** — native: unknown; signals: illustration
+- **神奈川県美術展 2027** — native: unknown; signals: illustration
+- **Idemitsu Art Award展 2026** — native: unknown; signals: illustration
+- **かわいいアート展2026** — native: unknown; signals: illustration
+- **Art & Breakfast Day in 天神山とOPEN STUDIO** — native: unknown; signals: illustration
 - **大垣まつりPRポスターコンクール** — native: mixed; signals: poster, illustration
+- **Tokyo Metropolitan Art Museum／Design Festa Gallery 原創藝術展演** — native: mixed; signals: illustration
+- **第1回Future Art Frontier展2026** — native: unknown; signals: illustration
+- **Asia Art New Talent Exhibition (第三屆亞洲藝術新秀展)** — native: mixed; signals: illustration
+- **スカイホール 展覧会 – イラストレーター・アート作品募集** — native: unknown; signals: illustration
+- **Kyla Artist Prize 2026** — native: mixed; signals: illustration
+- **FamilyMart狗狗日插画比赛** — native: mixed; signals: illustration
+- **マイクロ・アート・ワーケーション(MAW)2026 (Micro Art Workcation 2026)** — native: unknown; signals: illustration
+- **2026全国中青年艺术展** — native: unknown; signals: illustration
+- **PARK GALLERY 海と山と展** — native: unknown; signals: illustration
+- **福岡イラスト作品展（タイトル推定）** — native: unknown; signals: illustration
+- **withxism Exhibition/Event** — native: unknown; signals: illustration
+- **企画公募「都美セレクション グループ展 2027」** — native: mixed; signals: artist book, publication
+- **大ドラゴン展（Big Dragon Exhibition）** — native: unknown; signals: illustration
+- **香港好東西-香港視覺藝術家群展2026 (Hong Kong Good Things - Hong Kong Visual Artists Group Exhibition 2026)** — native: unknown; signals: artist book, publication, illustration
+- **Print Biennial 2026 (版畫雙年展)** — native: unknown; signals: illustration
+- **JAMCA PRIZE 2026** — native: unknown; signals: illustration
+- **ClafT2026 多摩地域ゆかりの作家展「Tama Art Meets All」** — native: unknown; signals: illustration
+- **全国公募 2025 横浜陶芸展** — native: unknown; signals: illustration
+- **台北藝術書展 (Taipei Art Book Fair) 2026** — native: mixed; signals: book fair
+- **浪花空間國際藝術進駐計畫 2027** — native: unknown; signals: illustration
+- **2026 NIE 南京國際插畫展暨第 53 屆不熟藝術書展** — native: unknown; signals: book fair, illustration
+- **浮屿计划第二期 (Fuyu Plan - Second Edition)** — native: unknown; signals: artist book, edition
+- **Echoes of Nature Exhibition** — native: unknown; signals: illustration
 - **Gallery IRO** — native: unknown; signals: works on paper
+- **SUMMER ART FESTIVAL 2026** — native: unknown; signals: illustration
 - **短編小説集出版記念 イラスト募集（表紙絵または挿絵）** — native: unknown; signals: publication, illustration
 - **Bologna Illustrators Exhibition 2026** — native: unknown; signals: illustration
-- **Print Biennial 2026 (版畫雙年展)** — native: unknown; signals: illustration
+- **第61回 亜細亜現代美術展（61st Asia Contemporary Art Exhibition）** — native: unknown; signals: illustration
+- **スタジオYOU 委託販売プログラム** — native: unknown; signals: illustration
+- **Tokyo Metropolitan Art Museum／Design Festa Gallery 展演** — native: mixed; signals: illustration
+- **第34回 特種東海製紙 紙わざ大賞** — native: unknown; signals: artist book, illustration
+- **世界絵画大賞展 第22回** — native: unknown; signals: illustration
+- **第22回 絵のまち尾道四季展** — native: unknown; signals: illustration
+- **2026上海國際插畫藝術節** — native: unknown; signals: illustration
+- **2026 San Francisco Art Book Fair** — native: mixed; signals: artist book, book fair, small press
+- **2026 LA Art Book Fair** — native: mixed; signals: artist book, book fair, small press
+- **2026亚洲艺术双年展** — native: unknown; signals: illustration
+- **minus20degree (8th edition)** — native: unknown; signals: artist book, edition
+- **SICF24（スパイラル・インディペンデント・クリエイターズ・フェスティバル24）** — native: mixed; signals: zine
+- **2024 イタリア・ボローニャ国際絵本原画展** — native: unknown; signals: illustration
+- **So~Shenzhen! (深圳國際藝術博覽會)** — native: mixed; signals: illustration
 - **ハマカルアートプロジェクト2026** — native: mixed; signals: zine
 - **Para Contest 2026** — native: unknown; signals: illustration
+- **2026全球影响力-中英艺术与设计大展作品征集** — native: unknown; signals: illustration
+- **ZINEフェス動物 2026年9月5日** — native: mixed; signals: artist book, zine
+- **ZINEフェス山梨 2026年9月6日** — native: mixed; signals: artist book, zine
+- **Affordable Art Fair Singapore 2026 - Gallery Applications** — native: unknown; signals: illustration
+- **第三屆亞洲藝術新秀展（Asia Art New Talent Exhibition）** — native: mixed; signals: illustration
 - **2025-2026 SHOWREEL 站酷顶尖创作者年度作品集 征集活动** — native: unknown; signals: artist book, publication, illustration
 - **CA 插畫大賽** — native: mixed; signals: illustration
+- **Calendar Exhibition and Competition - Lights of Datong** — native: unknown; signals: calendar
+- **都美セレクション グループ展 2021** — native: mixed; signals: zine, illustration
 - **现代造形表现艺术家论坛展** — native: unknown; signals: calendar
 - **2026东京第一届日中书画名家作品交流展** — native: unknown; signals: works on paper
 - **Tokyo Open Art - October 2026** — native: unknown; signals: illustration
 - **第54回 新美展** — native: unknown; signals: calendar
+- **SICF23（スパイラル・インディペンデント・クリエイターズ・フェスティバル23）** — native: mixed; signals: zine
+- **台中藝術書展 (Taichung Art Book Fair) 2026** — native: mixed; signals: book fair
+- **第二屆西源里選畫** — native: mixed; signals: artist book, publication
 - **POST** — native: mixed; signals: zine, bookstore
 - **35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]** — native: unknown; signals: artist book, small press
 - **Singapore International Art Contest (SIAC) 2026-7** — native: unknown; signals: illustration
@@ -195,19 +363,24 @@ Total translation candidates: 275
 - **OIL by 美術手帖 5th Anniversary** — native: mixed; signals: zine, illustration
 - **りんごろごろごろ** — native: mixed; signals: zine, illustration
 - **オープンコール・プロジェクト** — native: mixed; signals: zine, illustration
+- **2026 神戸新世紀小品展** — native: unknown; signals: illustration
+- **Reception Art Exhibition** — native: unknown; signals: illustration
 - **E.SUN Art Awards 2026** — native: mixed; signals: zine
+- **2020 Procreate 艺术大赏** — native: unknown; signals: illustration
+- **ギンザ・グラフィック・ギャラリー第415回企画展 ダフィ・クーネ：ポスターを構築する** — native: unknown; signals: poster, illustration
 - **2025 イタリア・ボローニャ国際絵本原画展** — native: unknown; signals: illustration
 - **2023 イタリア・ボローニャ国際絵本原画展** — native: unknown; signals: illustration
-- **2024 イタリア・ボローニャ国際絵本原画展** — native: unknown; signals: illustration
+- **2026年10月展示企画** — native: unknown; signals: illustration
 - **APAアワード2026公募展** — native: unknown; signals: artist book, works on paper
+- **東京藝術祭 (Tokyo Art Festival)** — native: unknown; signals: illustration
 - **Self Publish, Be Happy** — native: mixed; signals: artist book, works on paper
 - **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — native: mixed; signals: artist book, zine
-- **SICF24（スパイラル・インディペンデント・クリエイターズ・フェスティバル24）** — native: mixed; signals: zine
 - **ZINEイベント** — native: mixed; signals: zine, edition
 - **短編小説集出版記念イラスト募集** — native: unknown; signals: artist book, publication, illustration
 - **OM System Rail Art Submission** — native: unknown; signals: artist book, publication
 - **A-TOM ART AWARD 2026** — native: unknown; signals: illustration
 - **2026 International Art & Design Showcases** — native: mixed; signals: illustration
+- **テリトリー・マーケット#2（Territory Market #2）** — native: unknown; signals: illustration
 - **Art Vancouver 2027** — native: unknown; signals: works on paper, illustration
 - **第10屆溫哥華藝術博覽會 (Art Vancouver 2026)** — native: unknown; signals: edition
 - **Spring Flora and Fauna Art Exhibition 2026 (春日花鳥畫展)** — native: unknown; signals: publication
@@ -217,17 +390,17 @@ Total translation candidates: 275
 - **ART MARKET 2023（OIL by 美術手帖）** — native: mixed; signals: zine
 - **PhotoVogue** — native: photography; signals: illustration
 - **HandMade In Japan Fes** — native: unknown; signals: works on paper
-- **SICF23（スパイラル・インディペンデント・クリエイターズ・フェスティバル23）** — native: mixed; signals: zine
 - **Comitia** — native: unknown; signals: zine, works on paper, illustration
 - **KOBE ART MARCHÉ 2026** — native: unknown; signals: illustration
 - **桃園市文化局 115年度美術展覽申請** — native: unknown; signals: illustration
 - **3つの公募展（グループ展）** — native: unknown; signals: artist book, publication
 - **2026东京·首届日中书画名家作品交流展** — native: unknown; signals: illustration
-- **7月～12月企画展 参加者募集** — native: unknown; signals: illustration
 - **万物自有角落——中国原创绘本展** — native: unknown; signals: illustration
+- **7月～12月企画展 参加者募集** — native: unknown; signals: illustration
 - **Book Culture Club** — native: mixed; signals: artist book, zine, publication
 - **Art on Climate インターナショナル・イラストレーション・コンテスト 2026** — native: unknown; signals: illustration
 - **空色ターコイズ** — native: mixed; signals: zine, illustration
+- **Event Fair On Fairs, with Cairo Art Book Fair, Hardcore CDMX Art Book Fair, Singapore Art ** — native: mixed; signals: zine, printed matter, book fair
 - **3 Top Book Publishers in Tokyo in 2026** — native: unknown; signals: artist book, small press
 - **3 Top Book Publishers in Japan in 2026** — native: unknown; signals: artist book, small press
 - **Offprint** — native: mixed; signals: printed matter
@@ -247,21 +420,22 @@ Total translation candidates: 275
 - **日記屋 月日** — native: mixed; signals: zine, bookstore, works on paper
 - **そぞろ書房** — native: mixed; signals: artist book, zine, bookstore
 - **Home - Printed Matter** — native: mixed; signals: artist book, zine, printed matter, book fair, works on paper, drawing
-- **Publishing / Artist Books — Battle Plan** — native: mixed; signals: artist book, zine, publication, edition
+- **Publishing / Artist Books — Battle Plan** — native: mixed; signals: artist book, zine, edition
 - **Art Fair Tokyo 2026** — native: unknown; signals: works on paper, illustration
 - **Zines / Artist Books — Battle Plan** — native: mixed; signals: artist book, zine
 - **NADiff a/p/a/r/t** — native: mixed; signals: artist book, zine, bookstore
 - **Creators for Tomorrow 2026** — native: unknown; signals: illustration
+- **CICA Vancouver Exhibition** — native: unknown; signals: illustration
 - **素人の乱 (Shiroto no Ran) Koenji** — native: mixed; signals: zine
-- **Art Book Osaka** — native: mixed; signals: artist book, zine, book fair, bookstore, illustration
+- **Art Rental & Sales Program (AR&S)** — native: unknown; signals: illustration
 - **ポットラック・アートブック フェア 2026 (Potluck Art Book Fair 2026)** — native: mixed; signals: artist book, zine, book fair, illustration
+- **Art Book Osaka** — native: mixed; signals: artist book, zine, book fair, bookstore, illustration
+- **ギャラリー檜 展示** — native: unknown; signals: illustration
 - **季刊『公募ガイド』2026年春号の表紙イラスト** — native: mixed; signals: artist book, zine, publication, illustration
 - **Art Rental & Sales Program (AR&S) 2026 Call for Submissions** — native: unknown; signals: illustration
 - **カフェ内ギャラリースペース展示募集** — native: unknown; signals: illustration
-- **Art Rental & Sales Program (AR&S)** — native: unknown; signals: illustration
 - **TOKYO ART BOOK FAIR 2026 Exhibitor Call** — native: mixed; signals: artist book, zine, book fair, illustration
 - **カフェ内ギャラリースペース展示募集 2026年1月〜3月** — native: unknown; signals: illustration
-- **ギャラリー檜 展示** — native: unknown; signals: illustration
 - **Affordable Art Fair Singapore 2026** — native: unknown; signals: illustration
 - **2026 International Sketch Art Competition** — native: mixed; signals: illustration
 - **kamome gallery 2026年1月〜3月展示 (Kamome Gallery Jan-Mar 2026)** — native: unknown; signals: illustration
@@ -269,9 +443,8 @@ Total translation candidates: 275
 - **Potluck Art Book Fair 2026 Exhibitor Call** — native: mixed; signals: artist book, zine, book fair
 - **loneliness books** — native: mixed; signals: artist book, zine
 - **港日美術家作品展2026** — native: unknown; signals: illustration
-- **CICA Vancouver Exhibition** — native: unknown; signals: illustration
-- **文章焕彩2026 (Radiant Colors 2026) — Teng Wen Chang Solo Exhibition** — native: mixed; signals: illustration
 - **艺彩同辉 (Art Colors in Harmony) — Singapore Art Association 2026 Exhibition** — native: unknown; signals: illustration
+- **文章焕彩2026 (Radiant Colors 2026) — Teng Wen Chang Solo Exhibition** — native: mixed; signals: illustration
 - **2026 Bologna Ragazzi Awards (波隆那童書展獎項)** — native: mixed; signals: book fair, illustration
 - **5th Singapore Chinese Art Exhibition 2026** — native: mixed; signals: illustration
 - **Fukuoka Art Book Fair 2026** — native: mixed; signals: artist book, zine, book fair
