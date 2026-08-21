@@ -166,9 +166,16 @@ def build_text_blob(opp):
 # children are the ENTRANTS. Children + book/picture-book/illustration means
 # children are the AUDIENCE — Bologna Children's Book Fair is a real target for
 # her and must never match.
-_YOUNG      = r"(?:children'?s?|kids'?|儿童|兒童|児童|こども|子ども|子供)"
-_PAINTING   = r"(?:painting|drawing|art)\s*(?:competition|contest|prize)|绘画大赛|繪畫大賽|絵画コンクール|画コンクール|絵画大会"
-_GENRE_WORD = re.compile(r"(?:picture\s*book|children'?s?\s*book|絵本|児童書|繪本|illustration\s*(?:award|competition|contest|prize))")
+_YOUNG      = r"(?:children'?s?|kids'?|儿童|兒童|児童|青少年|こども|子ども|子供)"
+_PAINTING   = (r"(?:painting|drawing|art)\s*(?:competition|contest|prize)"
+               # Chinese/Japanese contest words need the 绘/繪/絵 prefix: bare 画
+               # is the tail of 插画 (illustration) and 漫画 (manga), and 中国插画大赛
+               # is her GENRE, not a minors-only contest.
+               r"|[绘繪絵][画畫][^。;\n]{0,6}?(?:大[赛賽]|比[赛賽]|コンクール|大会)"
+               # Bare 画 is safe before a Japanese contest word — 児童画コンクール.
+               r"|画(?:コンクール|大会)"
+               r"|美[术術][^。;\n]{0,6}?大[赛賽]")
+_GENRE_WORD = re.compile(r"(?:picture\s*book|children'?s?\s*book|絵本|児童書|繪本|插[画畫]|illustration\s*(?:award|competition|contest|prize))")
 _YOUTH_CONTEST_RE = re.compile(
     rf"{_YOUNG}[^。.;\n]{{0,40}}?(?:{_PAINTING})"
 )
@@ -176,11 +183,20 @@ _YOUTH_CONTEST_RE = re.compile(
 
 def _is_childrens_painting_contest(text):
     """True when the text describes a painting/drawing contest whose entrants
-    are children. Genre mentions (children's book, picture book, illustration
-    award) veto it — that is her actual working genre."""
-    if _GENRE_WORD.search(text):
+    are children. A genre mention (children's book, picture book, illustration
+    award) vetoes it — that is her actual working genre.
+
+    The veto is LOCAL to the match, not global over the record. A global veto
+    let 2026世界盃國際青少年繪畫藝術大賽 through on 2026-08-21: the words
+    "illustration competition" appeared elsewhere in its blob and cancelled a
+    青少年 signal sitting in its own title. Genre and audience must be judged in
+    the same breath, because "children's BOOK illustration competition" and
+    "children's painting competition" differ only by adjacency."""
+    m = _YOUTH_CONTEST_RE.search(text)
+    if not m:
         return False
-    return bool(_YOUTH_CONTEST_RE.search(text))
+    lo, hi = max(0, m.start() - 30), min(len(text), m.end() + 30)
+    return not _GENRE_WORD.search(text[lo:hi])
 
 
 def detect_from_text(text):

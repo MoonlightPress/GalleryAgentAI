@@ -135,3 +135,54 @@ class ChildrensPaintingContestTests(unittest.TestCase):
         """She IS a student — Scott, 2026-06-19. Mark them, never filter them."""
         for text in ("student art competition", "学生対象 公募展", "university students welcome"):
             self.assertNotIn("youth_only", detect_from_text(text.lower()), text)
+
+
+class TraditionalCharacterYouthTests(unittest.TestCase):
+    """2026-08-21: 2026世界盃國際青少年繪畫藝術大賽 stayed live while its
+    simplified-character twin (青少年美术) was correctly rejected. The phrase list
+    carried 青少年美术/絵画/美術 but not the traditional 繪畫, and 藝術 sits between
+    the audience word and the contest word so no literal substring matched.
+
+    青少年 = adolescents, unambiguously. But 'youth' in ENGLISH arts funding
+    usually means under-30 or under-35 — she is 26 and qualifies for those, so
+    Youth Arts Grant / Young Illustrator competitions must stay.
+    """
+
+    def test_traditional_character_youth_contest_is_caught(self):
+        for text in ("2026世界盃國際青少年繪畫藝術大賽",
+                     "第五届2026年威尼斯国际青少年美术大赛",
+                     "青少年绘画比赛"):
+            self.assertIn("youth_only", detect_from_text(text.lower()), text)
+
+    def test_english_youth_grants_are_kept(self):
+        """Under-30/under-35 funding she is eligible for. Filtering these costs
+        her real opportunities."""
+        for text in ("2026 youth arts grant program",
+                     "national arts fund - youth artist career development",
+                     "golden pinwheel international young illustrator competition",
+                     "youth artrich 2026 call for artists"):
+            self.assertNotIn("youth_only", detect_from_text(text.lower()), text)
+
+
+class IllustrationGenreNotYouthTests(unittest.TestCase):
+    """2026-08-21, second pass: loosening the CJK painting pattern to catch
+    児童画コンクール (bare 画 + contest) also matched 插画大赛 — 插画 IS illustration,
+    her genre. "Chinese Excellence in Children's Illustration 2026
+    (卓越大师·中国插画大赛2026)" was wrongly rejected as a minors-only contest.
+
+    Bare 画 + a CHINESE contest word is unsafe because 插画/漫画 end in 画.
+    Bare 画 + a JAPANESE contest word (児童画コンクール) is safe.
+    """
+
+    def test_chinese_illustration_competition_is_not_youth_only(self):
+        for text in ("chinese excellence in children's illustration 2026 (卓越大师·中国插画大赛2026)",
+                     "中国插画大赛",
+                     "国际插畫大賽"):
+            self.assertNotIn("youth_only", detect_from_text(text.lower()), text)
+
+    def test_japanese_childrens_drawing_contest_still_caught(self):
+        self.assertIn("youth_only", detect_from_text("児童画コンクール"))
+
+    def test_chinese_childrens_painting_contest_still_caught(self):
+        for text in ("儿童绘画大赛", "2026世界盃國際青少年繪畫藝術大賽"):
+            self.assertIn("youth_only", detect_from_text(text.lower()), text)
