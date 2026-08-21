@@ -67,6 +67,32 @@ notice a thing that *didn't* happen.
 dormant until their month comes round, is not. This is the real answer to the
 "accumulated possibility" load flagged in the June UX review.
 
+## What it unlocks: a second and third kind of alert
+
+Today Mochi can only say one thing: **"I found new things."** Strangers, in a pile. That
+message cannot help being overwhelming, because it scales with how much the internet
+coughed up, not with her attention.
+
+Identity + recurrence unlock two more, and they feel completely different:
+
+| Alert | Says | Feels like | Bounded by |
+|---|---|---|---|
+| **New** (today's only one) | "47 things found" | a pile | how much discovery returned |
+| **Reopened** | "3 things you were watching are open again" | a reminder | how many she watches |
+| **Opening soon** | "Kyoto Art Center opens in ~3 weeks" | a plan | the calendar |
+
+**Reopened cannot flood her** — it is capped by her own watch list, not by discovery volume.
+That is the direct answer to the "accumulated possibility" load: the same catalog, delivered
+as returning familiars instead of new strangers.
+
+**Opening soon is the only alert that arrives while there is still time to make work for it.**
+For a painter, three weeks' notice is worth more than the announcement itself.
+
+The 2026-08-21 research pass makes the case concrete: of 172 deadlines it found, **114 had
+already passed**. Filed as "missed it, hide it" those are waste. Filed as recurrence data
+they are next year's calendar — 114 things now known to exist, run on a schedule, with a
+known month. The watch list stops being a graveyard and becomes the dataset.
+
 ## The hard part — do not underestimate it
 
 Deciding two records are the same thing is genuinely difficult: across years, across
