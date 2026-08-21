@@ -69,6 +69,41 @@ p = ROOT / "memory" / "user_reported_issues.json"
 if p.exists():
     issues = [r for r in json.loads(p.read_text(encoding="utf-8")) if r.get("status") == "open"]
 
+def check_todays_focus(loader=None, notifier=None) -> list:
+    """Assert the three things Today's Focus is telling her to do are actually
+    usable: every slot filled, nothing expired, nothing she is ineligible for,
+    no two slots the same opportunity.
+
+    Added 2026-08-21, when all three slots turned out to be wrong (an expired
+    aggregator listing, an exhibition finished in June, a gallery-only art fair)
+    and had been for an unknown length of time, because nothing was watching.
+
+    Best-effort throughout: a canary must never be the reason the weekly job
+    fails. Returns the list of problems, empty when healthy.
+    """
+    try:
+        if loader is None:
+            import api
+            loader = api.get_today
+        from engines.focus_canary import audit_focus
+        problems = audit_focus(loader())
+    except Exception as exc:                                  # pragma: no cover
+        print(f"check_attention: focus canary could not run ({exc})")
+        return []
+    if problems:
+        print("check_attention: TODAY'S FOCUS PROBLEMS")
+        for p in problems:
+            print(f"  - {p}")
+        try:
+            if notifier is None:
+                from engines.notify import notify_discord as notifier
+            notifier("\n".join(["**Today's Focus needs attention**",
+                                *(f"- {p}" for p in problems)]))
+        except Exception:                                     # pragma: no cover
+            pass
+    return problems
+
+
 def main() -> int:
     issues = []
     p = ROOT / "memory" / "user_reported_issues.json"
@@ -81,7 +116,10 @@ def main() -> int:
     # Best-effort Discord alert on a failed run (silent failures let her data go stale).
     alert_on_failed_run(last_run)
 
-    if not issues and not run_failed:
+    # Are the three things we are telling her to do today actually usable?
+    focus_problems = check_todays_focus()
+
+    if not issues and not run_failed and not focus_problems:
         if OUT.exists():
             OUT.unlink()
         print("check_attention: all clear")
@@ -98,6 +136,9 @@ def main() -> int:
     ]
     if run_failed:
         lines += ["## Pipeline", "- The last scheduled pipeline run FAILED — check the newest log in logs/pipeline_runs/", ""]
+    if focus_problems:
+        lines += ["## Today's Focus", ""]
+        lines += [f"- {p}" for p in focus_problems] + [""]
     if issues:
         lines += [f"## Reports from the artist ({len(issues)} open)", ""]
         for r in issues:
@@ -105,7 +146,8 @@ def main() -> int:
                       f"  > {r.get('text','')}", ""]
 
     OUT.write_text("\n".join(lines), encoding="utf-8")
-    print(f"check_attention: WROTE {OUT} ({len(issues)} open issues, run_failed={run_failed})")
+    print(f"check_attention: WROTE {OUT} ({len(issues)} open issues, "
+          f"run_failed={run_failed}, focus_problems={len(focus_problems)})")
     return 0
 
 
