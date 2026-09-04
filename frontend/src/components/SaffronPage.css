@@ -2308,6 +2308,40 @@ a.sf-readiness-col-name:hover { color: #c47a35; text-decoration: underline; }
   margin: 0 0 8px;
 }
 .sf-shy-tips-outro { margin: 8px 0 0; font-style: italic; color: #6a5436; }
+
+.sf-targets-list {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.sf-target-row {
+  padding: 10px 14px;
+  background: #fffaf0;
+  border-left: 3px solid #d4b87a;
+  border-radius: 0 8px 8px 0;
+}
+.sf-target-name {
+  font-family: Georgia, serif;
+  font-weight: bold;
+  font-size: 13.5px;
+  color: #b5701f;
+}
+.sf-target-why {
+  font-family: Georgia, serif;
+  font-size: 12.5px;
+  line-height: 1.55;
+  color: #4a3826;
+  margin-top: 3px;
+}
+.sf-target-window {
+  font-family: Georgia, serif;
+  font-size: 12px;
+  font-style: italic;
+  color: #7a5c3a;
+  margin-top: 4px;
+}
+
 .sf-shy-tips-list {
   margin: 0;
   padding-left: 18px;

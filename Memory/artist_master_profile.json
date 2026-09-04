@@ -412,6 +412,16 @@
         "significance": "Solo show in Tokyo — most recent on record",
         "confidence": "confirmed (artist's own exhibition history)",
         "source": "https://gegyjiji.base.shop/"
+      },
+      {
+        "title": "Light and Shadows and Cats",
+        "type": "solo show",
+        "venue": "Lemonde Tokyo",
+        "city": "Tokyo, Japan (Harajuku)",
+        "dates": "August 25, 2026 – approx. September 6, 2026 (end date unconfirmed; believed to run through the Sunday)",
+        "significance": "Current show (as of Sept 2026) — third solo exhibition on record",
+        "confidence": "reported secondhand (2026-09-03), not yet independently verified — confirm exact end date and venue spelling",
+        "source": "reported secondhand, not yet cross-checked against a public listing"
       }
     ],
     "gallery_representation": "none confirmed",
@@ -460,9 +470,9 @@
   },
   "career_strategy": {
     "framework_version": 1,
-    "current_phase": "Tier 1-2",
-    "phase_note": "Age 26, planning a deep-work year around 30. The next 4 years are for accumulation: exhibition history, publishing relationships, peer network, body of work depth. Tier 1-2 opportunities build this foundation. Tier 4 targets are tracked now and pursued later.",
-    "scoring_instruction": "Weight Tier 1-2 opportunities higher for immediate recommendations. Tier 3 is neutral. Tier 4 entries must route to stretch_targets and never appear in Immediate Best Moves — they are future goals, not current actions.",
+    "current_phase": "Tier 3 established — building toward Tier 4 (representation & prestige)",
+    "phase_note": "Age 26. Her real record (8 group shows, 3 solo shows, an institutional show, an international show, 2 publications) has moved her past the Tier 1-2 foundation-building phase this section originally described. Superseded by memory/career_strategy_report.json, which is regenerated from her actual exhibition record on every pipeline run — treat that file, not this static note, as current. This field is not read by any engine (verified 2026-09-04); kept accurate rather than deleted so it cannot mislead a future reader.",
+    "scoring_instruction": "Superseded — engines/career_strategy_engine.py computes level-fit from her live evidence in career_strategy_report.json, not from this static field. See CLAUDE.md Career Strategy Framework section for the current scoring rule.",
     "daily_structure": {
       "description": "Today's Focus on Mochi's page always contains exactly three items. Each maps to a tier.",
       "items": [

@@ -430,13 +430,24 @@ class SectionErrorBoundary extends Component {
 // nothing changes for surfaces that don't opt in).
 const SectionOpenContext = createContext(true)
 
-function SectionShell({ title, subtitle, summary, defaultOpen, children }) {
+// trackId: when given, fires a real "she opened this" signal on the actual
+// click that expands the section — distinct from TrackedSection's ambient
+// scroll-dwell nav, which fires on a closed header just as readily as an open
+// body and can't tell the two apart (found 2026-09-04: the "6s on
+// long_term_scenarios" reading turned out to measure scroll speed past a
+// closed accordion, not engagement). Never fires on the initial default-open
+// mount — only on a deliberate click.
+function SectionShell({ title, subtitle, summary, defaultOpen, trackId, children }) {
   const ctxDefault = useContext(SectionOpenContext)
   const initialOpen = defaultOpen !== undefined ? defaultOpen : ctxDefault
   const [open, setOpen] = useState(initialOpen)
   return (
     <section className={`sf-section${open ? '' : ' sf-section--closed'}`}>
-      <button className="sf-toggle-header" onClick={() => setOpen(o => !o)}>
+      <button className="sf-toggle-header" onClick={() => setOpen(o => {
+        const next = !o
+        if (next && trackId) track({ type: 'action', action: 'section_open', page: 'observe', section: trackId })
+        return next
+      })}>
         <div className="sf-toggle-text">
           <h2 className="sf-section-title">{title}</h2>
           {open
@@ -514,7 +525,85 @@ const CAREER_SUMMARY = {
   ja: '継続的に発表——個展・グループ展・美術館・海外展、初の作品集、確立されたオーディエンス。',
 }
 
-function CareerPosition({ data, t }) {
+// The two show types worth offering from this compact, read-mostly panel —
+// 'fair'/'residency_show' stay Peppercorn-only (CRM-shaped, not relevant to a
+// quick add here). Reuses Peppercorn's pp.showType.* strings (same i18n map).
+const CAREER_POS_SHOW_TYPES = ['group', 'solo']
+
+// A minimal, self-service "add a show" affordance so a real exhibition (like
+// the Harajuku one this session had to be hand-patched in) doesn't need to
+// wait on a manual edit next time. Posts to the same /api/exhibition_log
+// endpoint and title-dedup Peppercorn's full editor uses — deliberately NOT a
+// full editor: no list/filter/edit/delete, just enough to add one. Collapsed
+// by default so it never competes with the read-only record for attention.
+function AddShowInline({ t, onChanged }) {
+  const [open, setOpen]     = useState(false)
+  const [form, setForm]     = useState({ date: '', name: '', venue: '', type: 'group', notes: '' })
+  const [saving, setSaving] = useState(false)
+  const [done, setDone]     = useState(false)
+
+  function setField(k, v) { setForm(f => ({ ...f, [k]: v })) }
+
+  async function submit() {
+    if (!form.name.trim() && !form.venue.trim()) return
+    setSaving(true)
+    try {
+      const r = await fetch('/api/exhibition_log', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ...form, outcome: 'shown' }),
+      })
+      if (r.ok) {
+        track({ type: 'action', action: 'exhibition_log_add', name: form.name || form.venue, surface: 'saffron_career_position' })
+        setForm({ date: '', name: '', venue: '', type: 'group', notes: '' })
+        setDone(true)
+        setTimeout(() => setDone(false), 2500)
+        setOpen(false)
+        onChanged?.()
+      }
+    } finally {
+      setSaving(false)
+    }
+  }
+
+  if (!open) {
+    return (
+      <button className="sf-venue-edit" style={{ marginTop: 6 }} onClick={() => setOpen(true)}>
+        {done ? t('pp.exlog.btn.done') : `+ ${t('pp.exlog.btn')}`}
+      </button>
+    )
+  }
+  return (
+    <div className="sf-venue-edit-form" style={{ marginTop: 6 }}>
+      <input
+        type="month" className="sf-hedge-input sf-hedge-input--year" value={form.date}
+        onChange={e => setField('date', e.target.value)}
+        aria-label={t('pp.exlog.date')}
+      />
+      <input
+        type="text" className="sf-hedge-input" value={form.name}
+        onChange={e => setField('name', e.target.value)}
+        placeholder={t('pp.exlog.ph.name')}
+      />
+      <input
+        type="text" className="sf-hedge-input" value={form.venue}
+        onChange={e => setField('venue', e.target.value)}
+        placeholder={t('pp.exlog.ph.venue')}
+      />
+      <select className="sf-hedge-input" value={form.type} onChange={e => setField('type', e.target.value)}>
+        {CAREER_POS_SHOW_TYPES.map(v => <option key={v} value={v}>{t('pp.showType.' + v)}</option>)}
+      </select>
+      <button className="sf-hedge-add" onClick={submit} disabled={saving || (!form.name.trim() && !form.venue.trim())}>
+        {t('pp.exlog.btn')}
+      </button>
+      <button className="sf-venue-edit" onClick={() => setOpen(false)} disabled={saving}>
+        {t('pp.exlog.cancel')}
+      </button>
+    </div>
+  )
+}
+
+function CareerPosition({ data, t, onChanged }) {
   const { lang } = useLanguage()
   const ig = data.social.find(s => s.platform === 'Instagram')
   // Her record is the exhibitions + publications. Social handles, education, and
@@ -538,6 +627,7 @@ function CareerPosition({ data, t }) {
       title={t('sf.sec.careerPosition')}
       subtitle={t('sf.sub.careerPosition')}
       summary={summary}
+      trackId="career_position"
     >
       <p className="sf-career-synopsis">{CAREER_SYNOPSIS[lang] || CAREER_SYNOPSIS.en}</p>
       <div className="sf-rings">
@@ -557,6 +647,7 @@ function CareerPosition({ data, t }) {
               </div>
             </div>
           ))}
+          <AddShowInline t={t} onChanged={onChanged} />
         </div>
         <div className="sf-career-block">
           <div className="sf-block-label">{t('sf.label.publications')}</div>
@@ -1230,6 +1321,7 @@ function LongTermScenarios({ data, t }) {
       title={t('sf.sec.longTerm')}
       subtitle={t('sf.sub.longTerm', { horizon: data.horizon })}
       summary={summary}
+      trackId="long_term_scenarios"
     >
       <div className="sf-scenarios">
         {data.scenarios.map((s, i) => (
@@ -2191,6 +2283,38 @@ function CadenceTip({ text, lang }) {
   )
 }
 
+// Named, sourced options under a gap — collapsed by default so a gap stays a
+// sentence at a glance, but the real specifics (who, why, when) are one tap
+// away instead of folded into prose. Each target came from real research
+// (Fable, 2026-09-04), not invented — that's why it gets a name and a link.
+const TARGETS_TOGGLE = { zh: '查看具体选项 ▾', ja: '具体的な選択肢を見る ▾', en: 'See the options ▾' }
+const TARGETS_HIDE   = { zh: '收起', ja: '閉じる', en: 'Hide' }
+
+function TargetsList({ targets, lang }) {
+  const [open, setOpen] = useState(false)
+  if (!targets || targets.length === 0) return null
+  return (
+    <div className="sf-targets">
+      <button className="sf-shy-tips-toggle" onClick={() => setOpen(o => !o)}>
+        {open ? (TARGETS_HIDE[lang] || TARGETS_HIDE.en) : (TARGETS_TOGGLE[lang] || TARGETS_TOGGLE.en)}
+      </button>
+      {open && (
+        <div className="sf-targets-list">
+          {targets.map((tg, i) => (
+            <div key={i} className="sf-target-row">
+              <a className="sf-target-name sf-ext-link" href={tg.url || sfSearch(tg.name)} target="_blank" rel="noreferrer">
+                {tg.name} ↗
+              </a>
+              <div className="sf-target-why">{locF(tg, 'why', lang)}</div>
+              {(tg.window || tg.window_zh) && <div className="sf-target-window">{locF(tg, 'window', lang)}</div>}
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  )
+}
+
 function CareerReadiness({ data, cadenceTip, onChanged }) {
   const { t, lang } = useLanguage()
   const [showMore, setShowMore] = useState(false)
@@ -2217,6 +2341,7 @@ function CareerReadiness({ data, cadenceTip, onChanged }) {
       title={t('sf.cr.title')}
       subtitle={t('sf.cr.subtitle')}
       summary={summary}
+      trackId="career_readiness"
     >
       {/* ONE warm status line — a sentence, no number/bar/%/level/celebration.
           (Replaced the five contradicting level widgets: level-up banner,
@@ -2231,6 +2356,7 @@ function CareerReadiness({ data, cadenceTip, onChanged }) {
           <div className="sf-next-unlock-gap">{locF(nextStep, 'gap', lang)}</div>
           {nextStep.detail && <p className="sf-next-unlock-detail">{locF(nextStep, 'detail', lang)}</p>}
           {nextStep.action && <p className="sf-next-unlock-action">{locF(nextStep, 'action', lang)}</p>}
+          <TargetsList targets={nextStep.targets} lang={lang} />
           {stepActionable && (
             <>
               <p className="sf-next-unlock-hint">{NEXT_STEP_HINT[lang] || NEXT_STEP_HINT.en}</p>
@@ -2260,6 +2386,7 @@ function CareerReadiness({ data, cadenceTip, onChanged }) {
                   <div className="sf-readiness-gap-body">
                     <span className="sf-readiness-gap-text">{locF(g, 'gap', lang)}</span>
                     {g.action && <span className="sf-readiness-gap-action">{locF(g, 'action', lang)}</span>}
+                    <TargetsList targets={g.targets} lang={lang} />
                     <GapCorrectionForm gap={g} onChanged={onChanged} />
                   </div>
                 </div>
@@ -2456,7 +2583,7 @@ export default function SaffronPage({ nav }) {
                           next-step area of Career Readiness above). */}
                       {/* The peer/record COMPARISON sections stay collapsed (opt-in)
                           — the most self-comparing, least-needed-at-a-glance part. */}
-                      {SB('careerpos',  <TrackedSection page="observe" section="career_position"><CareerPosition data={data.career_position} t={t} /></TrackedSection>)}
+                      {SB('careerpos',  <TrackedSection page="observe" section="career_position"><CareerPosition data={data.career_position} t={t} onChanged={refreshCareer} /></TrackedSection>)}
                       {SB('benchmarks', <CareerBenchmarks data={data.career_benchmarks} t={t} />)}
                       {SB('peers',      <ComparableArtists artists={data.peer_artists} t={t} />)}
                       {SB('momentum',   <CareerMomentum data={data.career_momentum} t={t} />)}

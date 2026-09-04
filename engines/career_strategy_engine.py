@@ -490,56 +490,179 @@ def _next_tier_levers(solo_shows: int, has_international: bool, has_jws: bool,
             "detail":   (
                 "You already have solo shows and museum-group credits — the next structural "
                 "leap is a gallery that represents you: one that sells on your behalf, places "
-                "you in art fairs, and builds a collector base over time. This is the single "
-                "biggest move available at your stage."
+                "you in art fairs, and builds a collector base over time. Tokyo galleries don't "
+                "run submission boxes; the standard path is visiting a show, meeting the "
+                "gallerist, and being introduced. A few concrete doors: Gallery Kogure "
+                "(Kanda-Jimbocho) shows works-on-paper and illustration-to-fine-art crossovers "
+                "close to your format, reachable by cold email; biscuit gallery runs a free "
+                "open call, \"grid next,\" that has actually placed a winner into a solo show "
+                "(usually opens each December); HB Gallery's FILE competition is open now and "
+                "gives five grand-prize winners a one-week solo, no eligibility restriction."
             ),
             "detail_zh": (
                 "你已经拥有个展与美术馆联展的履历——下一个结构性的跃升，是找到一家代理你的画廊："
-                "由它替你销售、带你进入艺术博览会、并长期为你积累藏家。"
-                "这是你现阶段最重要的一步。"
+                "由它替你销售、带你进入艺术博览会、并长期为你积累藏家。东京的画廊通常没有作品投递箱，"
+                "标准路径是先以观众身份看展、认识画廊主、再被引荐。几个具体的切入点："
+                "Gallery Kogure（神田神保町）展出与你风格相近的纸上作品与插画转纯艺术的创作者，"
+                "可通过邮件冷联系；biscuit gallery 有一个免费公开征集 'grid next'，"
+                "曾有获奖者因此获得个展（通常每年12月开放）；"
+                "HB Gallery 的 FILE 大赛正在征集中，五位大奖得主可获得为期一周的个展，无资格限制。"
             ),
             "priority": "high",
-            "action":   "Build relationships with commercial galleries whose roster and program fit your work; let representation grow from shows you already have.",
-            "action_zh": "与作品调性契合、项目方向相符的商业画廊建立关系；让代理关系从你已有的展览中自然生长。",
+            "action":   "Cold-email Gallery Kogure (works@gallerykogure.com); watch for biscuit gallery's \"grid next\" call (usually opens each December); check HB Gallery's FILE competition entry window now.",
+            "action_zh": "向 Gallery Kogure 发送邮件（works@gallerykogure.com）；留意 biscuit gallery 'grid next' 公开征集（通常每年12月开放）；现在就去查 HB Gallery FILE 大赛的征集截止时间。",
+            "targets": [
+                {
+                    "name": "Gallery Kogure",
+                    "why": "The closest roster match found — works-on-paper and illustration-to-fine-art artists close to your format.",
+                    "why_zh": "目前找到与你风格最契合的画廊——展出的纸上作品与插画转纯艺术创作者，与你的形式相近。",
+                    "url": "https://gallerykogure.com/artists/",
+                    "window": "Cold approach any time — works@gallerykogure.com",
+                    "window_zh": "随时可主动联系——works@gallerykogure.com",
+                },
+                {
+                    "name": "biscuit gallery — \"grid next\"",
+                    "why": "A free open call that has already placed a winner straight into a solo show.",
+                    "why_zh": "一个免费的公开征集，曾有获奖者因此直接获得个展机会。",
+                    "url": "https://biscuitgallery.com/gridnext-2026/",
+                    "window": "Usually opens each December",
+                    "window_zh": "通常每年12月开放",
+                },
+                {
+                    "name": "HB Gallery — FILE competition",
+                    "why": "No eligibility restriction; five grand-prize winners each get a one-week solo.",
+                    "why_zh": "无资格限制；五位大奖得主可各获得一周个展。",
+                    "url": "https://hbgallery.com/compe.html",
+                    "window": "Open now",
+                    "window_zh": "现正征集中",
+                },
+                {
+                    "name": "Kaikai Kiki / Hidari Zingaro",
+                    "why": "Their current show scouted 12 artists via Instagram — proof a following like yours can itself be the door in.",
+                    "why_zh": "他们目前的展览有12位艺术家是通过 Instagram 被发掘的——证明像你这样的关注度本身也能成为一扇门。",
+                    "url": "https://gallery-kaikaikiki.com/",
+                    "window": "No application route found — worth watching, not applying to",
+                    "window_zh": "未找到申请入口——值得关注，暂不必主动申请",
+                },
+            ],
         })
 
-    if solo_shows < 3:
-        levers.append({
-            "gap_id":   "solo_venue_quality",
-            "gap":      "Stepping up to larger, more established solo venues",
-            "gap_zh":   "迈向更大、更具分量的个展场地",
-            "detail":   (
-                "You have solo shows on record — the next move is the quality of the venue: "
-                "graduating from artist-run and independent spaces toward established commercial "
-                "galleries and institutional solo exhibitions. Each stronger solo deepens the CV "
-                "more than another group show would."
-            ),
-            "detail_zh": (
-                "你已有个展履历——下一步在于场地的分量：从艺术家自营空间与独立空间，"
-                "迈向更成熟的商业画廊与机构个展。每一次更高规格的个展，"
-                "对履历的加成都胜过再办一次联展。"
-            ),
-            "priority": "high",
-            "action":   "Target established commercial galleries and institutional spaces for your next solo, building on the venues you've already shown with.",
-            "action_zh": "以更成熟的商业画廊与机构空间为下一次个展的目标，在你已合作过的场地基础上更进一步。",
-        })
+    # No longer gated on solo_shows < 3 — she crossed that count (3 solos) while
+    # all three remained pay-to-exhibit rental venues (Moon Gallery, Galerie LE
+    # MONDE, 77ART), so the raw count was measuring the wrong thing and hid the
+    # lever exactly when it became most relevant (Fable research, 2026-09-04).
+    # Quality-of-venue is an ongoing dimension like art_fairs/critical_press
+    # below, not a one-time unlock — so it stays unconditional post-foundation.
+    levers.append({
+        "gap_id":   "solo_venue_quality",
+        "gap":      "Stepping up to larger, more established solo venues",
+        "gap_zh":   "迈向更大、更具分量的个展场地",
+        "detail":   (
+            "Your solos so far have been at paid rental spaces — the next move is a venue "
+            "that pays for the show instead of the other way around. Tokyo Arts and Space "
+            "runs two open, nationality-unrestricted programs built for exactly this: "
+            "TOKAS-Emerging (a ¥150,000 production grant plus install/PR/catalogue; two of "
+            "the 2026 picks were Chinese artists) and OPEN SITE (¥400,000, no age limit). "
+            "Kyoto Art Center's Co-program funds up to ¥1,000,000 for a solo, with a call "
+            "expected each October."
+        ),
+        "detail_zh": (
+            "你至今的个展都在付费租赁场地举办——下一步是找到一个反过来为展览付费的场地。"
+            "东京都现代美术空间（Tokyo Arts and Space）有两个不限国籍、公开征集的项目正为此而设："
+            "TOKAS-Emerging（15万日元制作经费，含布展/宣传/画册；2026年入选者中有两位是中国艺术家）"
+            "与 OPEN SITE（40万日元，无年龄限制）。京都艺术中心的 Co-program 最高可为个展提供"
+            "100万日元经费，通常每年10月开放征集。"
+        ),
+        "priority": "high",
+        "action":   "Watch tokyoartsandspace.jp/application for the next TOKAS-Emerging and OPEN SITE calls, and kac.or.jp/open_call each October for Kyoto Art Center's Co-program.",
+        "action_zh": "留意 tokyoartsandspace.jp/application 上 TOKAS-Emerging 与 OPEN SITE 的下一轮征集，以及每年10月京都艺术中心 Co-program 在 kac.or.jp/open_call 的公开征集。",
+        "targets": [
+            {
+                "name": "TOKAS-Emerging",
+                "why": "¥150,000 production grant plus install/PR/catalogue, nationality-open — two 2026 picks were Chinese artists.",
+                "why_zh": "15万日元制作经费，含布展/宣传/画册，不限国籍——2026年入选者中有两位是中国艺术家。",
+                "url": "https://www.tokyoartsandspace.jp/en/archive/exhibition/2026/20260404-7535.html",
+                "window": "Next call expected June–July 2027",
+                "window_zh": "下一轮征集预计在2027年6-7月",
+            },
+            {
+                "name": "TOKAS OPEN SITE",
+                "why": "¥400,000 grant, no age limit, solo proposals accepted.",
+                "why_zh": "40万日元经费，无年龄限制，接受个展提案。",
+                "url": "https://www.tokyoartsandspace.jp/application/schedule.html",
+                "window": "Next call expected Feb–Mar 2027",
+                "window_zh": "下一轮征集预计在2027年2-3月",
+            },
+            {
+                "name": "Kyoto Art Center Co-program",
+                "why": "The best-funded open call found — up to ¥1,000,000 for a solo, plus 6 weeks' studio.",
+                "why_zh": "目前找到经费最充裕的公开征集——最高可为个展提供100万日元经费，外加6周工作室使用。",
+                "url": "https://www.kac.or.jp/open_call/",
+                "window": "Expect a call each October",
+                "window_zh": "预计每年10月开放征集",
+            },
+            {
+                "name": "Shibuya Hikarie 8/CUBE",
+                "why": "Committee-screened with station-direct footfall — a real step up from a rental space.",
+                "why_zh": "由委员会评审，位于车站直连的高人流地段——比租赁场地更进一步。",
+                "url": "https://www.hikarie8.com/cube/",
+                "window": "Next call planned for autumn 2026",
+                "window_zh": "下一轮征集预计在2026年秋季",
+            },
+        ],
+    })
 
     levers.append({
         "gap_id":   "art_fairs",
         "gap":      "Art fairs open collector access",
         "gap_zh":   "艺术博览会，打开通向藏家的通道",
         "detail":   (
-            "Art fairs (Art Fair Tokyo, Tokyo Gendai and their international peers) are where "
-            "collectors gather — usually reached through a representing gallery. As representation "
-            "comes together, fairs become the natural place your work meets buyers at scale."
+            "Art Fair Tokyo and Tokyo Gendai are gallery-applied only — those follow "
+            "representation, not before it. But there's a real artist-direct ladder that scouts "
+            "unrepresented artists: SICF at Spiral in Aoyama is juried with no age or nationality "
+            "limit, and its Grand Prize is a solo show in Spiral's Atrium plus a ¥500,000 "
+            "production budget (call usually opens each November). Independent Tokyo screens "
+            "artists directly and puts 20-30 gallerists on the floor as judges (call usually "
+            "opens each October). Art Fair Beppu, curated by HAPS, is free to enter with travel "
+            "subsidised."
         ),
         "detail_zh": (
-            "艺术博览会（Art Fair Tokyo、Tokyo Gendai 及其国际同侪）是藏家汇聚之地——"
-            "通常通过代理画廊进入。随着代理关系成形，博览会会成为你的作品规模化触达藏家的天然舞台。"
+            "Art Fair Tokyo 与 Tokyo Gendai 都只接受画廊申请——这两个通常在获得代理之后才会到来，"
+            "而非之前。但确实存在一条艺术家可直接申请的路径：位于青山 Spiral 的 SICF 评审征集，"
+            "不限年龄与国籍，其大奖得主可在 Spiral 中庭举办个展，并获得50万日元的制作经费"
+            "（征集通常每年11月开放）。Independent Tokyo 由主办方直接筛选参展艺术家，"
+            "现场有20-30位画廊主担任评审（征集通常每年10月开放）。"
+            "由 HAPS 策划的 Art Fair Beppu 免费参展，并补贴差旅费用。"
         ),
         "priority": "medium",
-        "action":   "Note the fairs your target galleries exhibit at; fair access typically follows representation.",
-        "action_zh": "留意你的目标画廊参与的博览会；博览会的入口通常随代理关系而来。",
+        "action":   "Watch for SICF's call (~November) and Independent Tokyo's call (~October) at spiral.co.jp and tagboat.com; Art Fair Tokyo/Tokyo Gendai wait until representation.",
+        "action_zh": "留意 SICF（约每年11月，spiral.co.jp）与 Independent Tokyo（约每年10月，tagboat.com）的征集；Art Fair Tokyo／Tokyo Gendai 则留到有代理之后再考虑。",
+        "targets": [
+            {
+                "name": "SICF (Spiral Independent Creators Festival)",
+                "why": "Grand Prize is a solo show in Spiral's Atrium plus ¥500,000 — the fair goal and the solo-venue goal in one.",
+                "why_zh": "大奖得主可在 Spiral 中庭举办个展，并获得50万日元制作经费——同时达成博览会与个展两个目标。",
+                "url": "https://www.spiral.co.jp/artcat/sicf",
+                "window": "Call usually opens ~November",
+                "window_zh": "征集通常约每年11月开放",
+            },
+            {
+                "name": "Independent Tokyo",
+                "why": "20–30 gallerists judge the floor directly — the recognized way galleries scout new artists.",
+                "why_zh": "现场有20-30位画廊主直接担任评审——是画廊发掘新艺术家的公认渠道。",
+                "url": "https://www.tagboat.com/artevent/independenttokyo2026/index.php",
+                "window": "Call usually opens ~October",
+                "window_zh": "征集通常约每年10月开放",
+            },
+            {
+                "name": "Art Fair Beppu",
+                "why": "Curated by HAPS, free entry, travel and accommodation subsidised.",
+                "why_zh": "由 HAPS 策划，免费参展，并补贴差旅与住宿费用。",
+                "url": "https://haps-kyoto.com/art-fair-beppu-spring-2027/",
+                "window": "Call usually opens in summer",
+                "window_zh": "征集通常在夏季开放",
+            },
+        ],
     })
 
     if not has_residency:
@@ -548,19 +671,51 @@ def _next_tier_levers(solo_shows: int, has_international: bool, has_jws: bool,
             "gap":      "A residency is a genuine open door on your CV",
             "gap_zh":   "驻地项目，是履历上一扇真正待开的门",
             "detail":   (
-                "Residencies carry real institutional weight and are a natural fit for a "
-                "cross-cultural practice between Tokyo and Beijing — and they're one of the few "
-                "credits not yet on your record. A residency abroad would also deepen the "
-                "international record you've already begun."
+                "A residency is one of the few credits not yet on your record — and the best-fit "
+                "ones aren't overseas. Tokyo Arts and Space runs two programs open to any "
+                "Japan-resident regardless of nationality: the Local Emerging Creator Residency "
+                "(60–90 days at TOKAS Sumida) and the Exchange Residency (a fully-funded ~3 "
+                "months in a partner city — Taipei, Seoul, Helsinki and others). Their next call "
+                "is expected to open mid-September 2026. Fukuoka Asian Art Museum also runs a "
+                "residency built specifically for artists working across Asia."
             ),
             "detail_zh": (
-                "驻地项目具备真正的机构分量，也非常契合你往返东京与北京的跨文化创作——"
-                "而且这是你履历上尚未拥有的少数credit之一。一次海外驻地，"
-                "还能让你已经开启的国际履历更进一层。"
+                "驻地项目是你履历上尚未拥有的少数credit之一——而最契合的选择并不在海外。"
+                "东京都现代美术空间（Tokyo Arts and Space）有两个项目，"
+                "只要在日本居住即可申请、不限国籍：国内若手创作者驻地项目（在TOKAS墨田驻留60-90天）"
+                "与交流驻地项目（全额资助，约3个月，驻留于台北、首尔、赫尔辛基等合作城市）。"
+                "下一轮征集预计在2026年9月中旬开放。福冈亚洲美术馆也有一个"
+                "专为在亚洲各地创作的艺术家而设的驻地项目。"
             ),
-            "priority": "medium",
-            "action":   "Research residencies that suit a watercolor/works-on-paper practice and a Tokyo–Beijing artist.",
-            "action_zh": "了解适合水彩／纸上作品创作、以及往返东京—北京的艺术家的驻地项目。",
+            "priority": "high",
+            "action":   "Watch tokyoartsandspace.jp/application for the TOKAS Local Emerging / Exchange Residency call, expected mid-September 2026.",
+            "action_zh": "留意 tokyoartsandspace.jp/application 上 TOKAS 国内若手创作者／交流驻地项目的征集，预计2026年9月中旬开放。",
+            "targets": [
+                {
+                    "name": "TOKAS Local Emerging Creator Residency",
+                    "why": "60–90 days at TOKAS Sumida; Japan-resident, nationality unrestricted — your exact profile.",
+                    "why_zh": "在 TOKAS 墨田驻留60-90天；只要在日本居住即可申请、不限国籍——正符合你的情况。",
+                    "url": "https://www.tokyoartsandspace.jp/application/index.html",
+                    "window": "Next call expected mid-September 2026",
+                    "window_zh": "下一轮征集预计在2026年9月中旬开放",
+                },
+                {
+                    "name": "TOKAS Exchange Residency",
+                    "why": "Fully-funded ~3 months in a partner city — Taipei, Seoul, Helsinki and others.",
+                    "why_zh": "全额资助，约3个月，驻留于台北、首尔、赫尔辛基等合作城市。",
+                    "url": "https://www.tokyoartsandspace.jp/application/index.html",
+                    "window": "Same call, expected mid-September 2026",
+                    "window_zh": "与上者同批征集，预计2026年9月中旬开放",
+                },
+                {
+                    "name": "Fukuoka Asian Art Museum Residency",
+                    "why": "Built specifically for artists working across Asia — a Tokyo/Beijing practice is exactly its audience.",
+                    "why_zh": "专为在亚洲各地创作的艺术家而设——你往返东京与北京的创作实践，正是它面向的对象。",
+                    "url": "https://faam.city.fukuoka.lg.jp/residence/requirement/",
+                    "window": "Next call expected late Dec 2026 – late Jan 2027",
+                    "window_zh": "下一轮征集预计在2026年12月底至2027年1月底",
+                },
+            ],
         })
 
     if not has_grant:
@@ -569,17 +724,72 @@ def _next_tier_levers(solo_shows: int, has_international: bool, has_jws: bool,
             "gap":      "Grants and fellowships add institutional standing",
             "gap_zh":   "奖助与奖学金，为你增添机构层面的分量",
             "detail":   (
-                "A grant or fellowship is institutional recognition that funds the work and "
-                "strengthens every future application. It's a CV dimension you haven't tapped "
-                "yet — and your exhibition record now supports a competitive application."
+                "Grants and fellowships add institutional recognition your record now supports. "
+                "As a Tokyo resident, the Arts Council Tokyo Startup Grant (up to ¥300,000, no "
+                "nationality clause) is open now but closes September 24, 2026. The Elizabeth "
+                "Greenshields Foundation (Canada) funds representational painters at your career "
+                "stage with no citizenship or residency requirement and accepts applications on "
+                "a rolling basis. Later this year: the Nomura Foundation (up to ¥1,000,000, opens "
+                "October 1), the Asahi Shimbun Foundation (open through October 25), the Holbein "
+                "Scholarship (a materials grant built for artists in your medium), and the Asian "
+                "Cultural Council — you qualify for its Mainland China track by citizenship, "
+                "regardless of living in Tokyo (opens October 1)."
             ),
             "detail_zh": (
-                "一笔奖助或奖学金，是来自机构的认可——既为创作提供资金，也让你日后的每一份申请更有底气。"
-                "这是你尚未触及的履历维度——而你如今的展览履历，已经足以支撑一份有竞争力的申请。"
+                "奖助与奖学金，能为你如今的履历增添机构层面的认可。作为东京居民，"
+                "アーツカウンシル东京创业期扶持金（最高30万日元，无国籍限制）正在征集中，"
+                "但将于2026年9月24日截止。Elizabeth Greenshields 基金会（加拿大）"
+                "资助与你现阶段相符的具象绘画艺术家，无国籍或居住地限制，常年滚动接受申请。"
+                "今年晚些时候还有：野村财团（最高100万日元，10月1日开放）、"
+                "朝日新闻文化财团（征集至10月25日）、好乐门（Holbein）奖学金"
+                "（专为你所使用的媒介而设的画材资助），以及亚洲文化协会——"
+                "凭中国国籍即可申请其中国大陆项目，无论是否居住在东京（10月1日开放）。"
             ),
-            "priority": "medium",
-            "action":   "Track arts grants and fellowships open to your nationality and medium; your record now reads as competitive.",
-            "action_zh": "持续关注向你的国籍与媒介开放的艺术奖助与奖学金；你的履历如今已具竞争力。",
+            "priority": "high",
+            "action":   "Apply to the Arts Council Tokyo Startup Grant before it closes September 24, 2026, and start the Elizabeth Greenshields Foundation's rolling application now.",
+            "action_zh": "在2026年9月24日截止前申请アーツカウンシル东京创业期扶持金，并现在就开始 Elizabeth Greenshields 基金会的滚动申请。",
+            "targets": [
+                {
+                    "name": "Arts Council Tokyo Startup Grant",
+                    "why": "Up to ¥300,000, no nationality clause — funds exactly the kind of activity you're already doing.",
+                    "why_zh": "最高30万日元，无国籍限制——资助的正是你目前已经在做的事。",
+                    "url": "https://www.artscouncil-tokyo.jp/grants/startup-grant-program/",
+                    "window": "Closes September 24, 2026",
+                    "window_zh": "截止于2026年9月24日",
+                },
+                {
+                    "name": "Elizabeth Greenshields Foundation",
+                    "why": "Built for exactly your stage — representational painting, no citizenship or residency requirement, students explicitly eligible.",
+                    "why_zh": "几乎是为你现阶段量身定制——具象绘画，无国籍或居住地要求，明确接受学生申请。",
+                    "url": "https://www.elizabethgreenshieldsfoundation.org/",
+                    "window": "Rolling — apply any time",
+                    "window_zh": "常年滚动接受申请",
+                },
+                {
+                    "name": "Nomura Foundation",
+                    "why": "Up to ¥1,000,000 for international-exchange art projects — a China–Japan show fits its own criteria exactly.",
+                    "why_zh": "最高100万日元，资助国际艺术文化交流项目——一场中日交流展正符合其评选标准。",
+                    "url": "https://www.nomurafoundation.or.jp/culture/art_ov01.html",
+                    "window": "Opens October 1, 2026",
+                    "window_zh": "2026年10月1日开放",
+                },
+                {
+                    "name": "Asian Cultural Council",
+                    "why": "You qualify for its Mainland China track by citizenship, regardless of living in Tokyo.",
+                    "why_zh": "凭中国国籍即可申请其中国大陆项目，无论目前是否居住在东京。",
+                    "url": "https://www.asianculturalcouncil.org/grant-opportunities",
+                    "window": "Opens October 1, 2026",
+                    "window_zh": "2026年10月1日开放",
+                },
+                {
+                    "name": "Holbein Scholarship",
+                    "why": "A materials grant from a watercolor manufacturer — a near-perfect medium match and a recognized CV line.",
+                    "why_zh": "来自水彩画材制造商的画材资助——与你的创作媒介高度契合，也是被认可的履历一笔。",
+                    "url": "https://www.holbein.co.jp/scholarship.html",
+                    "window": "Expect the next round around April–July 2027",
+                    "window_zh": "下一轮预计在2027年4-7月",
+                },
+            ],
         })
 
     if not has_international:
@@ -606,17 +816,50 @@ def _next_tier_levers(solo_shows: int, has_international: bool, has_jws: bool,
         "gap":      "Moving from features to being written about",
         "gap_zh":   "从作品被展示，迈向作品被书写",
         "detail":   (
-            "Your work has been featured — the next step is critical press: a writer or art "
-            "publication engaging with the practice itself, not just reproducing the images. "
-            "Criticism builds the discourse around your work that galleries and institutions read."
+            "Your work has been featured — the next step is coverage that engages with the "
+            "practice, not just reproduces the images. Colossal runs an active watercolor tag "
+            "and takes open submissions — a years-long daily Tokyo watercolor diary is exactly "
+            "its kind of story. Tokyo Weekender and Time Out Tokyo both regularly cover emerging "
+            "painters' Tokyo debuts. And イラストレーション magazine's quarterly competition, "
+            "\"The Choice,\" is the Japanese illustration industry's own venue for watercolor "
+            "work — a selection there is a CV line Japanese galleries recognize."
         ),
         "detail_zh": (
-            "你的作品已被展示报道——下一步是评论性的关注：让写作者或艺术刊物真正进入你的创作本身，"
-            "而不只是复制图像。评论会围绕你的作品建立起话语，而画廊与机构正是这话语的读者。"
+            "你的作品已被展示报道——下一步是让报道真正进入创作本身，而不只是复制图像。"
+            "Colossal 设有活跃的水彩标签，并接受主动投稿——一份持续数年的东京水彩日记，"
+            "正是它偏爱的故事类型。Tokyo Weekender 与 Time Out Tokyo 都会定期报道"
+            "新锐画家在东京的首展。而《イラストレーション》杂志的季度大赛\"The Choice\"，"
+            "是日本插画界自身认可水彩创作的平台——入选会成为日本画廊认可的履历一笔。"
         ),
         "priority": "low",
-        "action":   "Cultivate art writers and publications who engage critically with painting and works on paper.",
-        "action_zh": "结识真正以评论视角关注绘画与纸上作品的艺术写作者与刊物。",
+        "action":   "Pitch Colossal (submissions@thisiscolossal.com) with a short description and images of the daily-diary practice; watch for The Choice's next entry window.",
+        "action_zh": "向 Colossal 投稿（submissions@thisiscolossal.com），附上日记式创作的简介与图片；留意《The Choice》下一次的征集窗口。",
+        "targets": [
+            {
+                "name": "Colossal",
+                "why": "Runs an active watercolor tag and takes open submissions — a years-long daily Tokyo watercolor diary is exactly its kind of story.",
+                "why_zh": "设有活跃的水彩标签，并接受主动投稿——一份持续数年的东京水彩日记，正是它偏爱的故事类型。",
+                "url": "https://www.thisiscolossal.com/submissions/",
+                "window": "Open now — pitch any time",
+                "window_zh": "常年开放投稿",
+            },
+            {
+                "name": "Tokyo Weekender",
+                "why": "Already runs the exact story shape \"a painter's first Tokyo solo\" for artists from abroad.",
+                "why_zh": "已经在报道\"来自海外的画家在东京的首次个展\"这类故事。",
+                "url": "https://www.tokyoweekender.com/contact-us/",
+                "window": "Pitch 3–4 weeks before a show",
+                "window_zh": "建议在展览开幕前3-4周投稿",
+            },
+            {
+                "name": "The Choice (イラストレーション magazine)",
+                "why": "The Japanese illustration industry's own quarterly competition — watercolor is explicitly among the accepted media, and a selection is a recognized CV line.",
+                "why_zh": "日本插画界自身的季度大赛——水彩明确属于其接受的创作媒介，入选会成为被认可的履历一笔。",
+                "url": "https://illustration-mag.jp/choice",
+                "window": "Quarterly — watch for the next entry window",
+                "window_zh": "每季一次——留意下一次征集窗口",
+            },
+        ],
     })
 
     if publications < 2:
@@ -712,8 +955,10 @@ def _blocking_gaps(group_shows: int, has_solo: bool, has_institutional: bool,
                 "这是你当下最快的进阶之路。"
             ),
             "priority": "high",
-            "action":   "Apply to open calls at 3331 Arts Chiyoda, Design Festa Gallery, Gallery IYN",
-            "action_zh": "向 3331 Arts Chiyoda、Design Festa Gallery、Gallery IYN 的公开征集投递",
+            # 3331 Arts Chiyoda closed March 2023 — dropped (Fable research, 2026-09-04).
+            # No verified open replacement found yet; don't backfill with an unresearched name.
+            "action":   "Apply to open calls at Design Festa Gallery, Gallery IYN",
+            "action_zh": "向 Design Festa Gallery、Gallery IYN 的公开征集投递",
         })
 
     if not has_solo:
@@ -741,15 +986,19 @@ def _blocking_gaps(group_shows: int, has_solo: bool, has_institutional: bool,
             "gap_zh":   "机构展览，是下一扇待你推开的门",
             "detail":   (
                 "An arts-council or public-gallery show is the next credibility door to open. "
-                "TOKAS, BankART1929, and Youkobo are realistic near-term entries for where you are now."
+                "Tokyo Arts and Space's open calls (TOKAS-Emerging, OPEN SITE) are realistic "
+                "near-term entries for where you are now."
             ),
             "detail_zh": (
                 "在艺术委员会或公立画廊办展，是下一扇值得推开的公信力之门。"
-                "TOKAS、BankART1929 与 Youkobo，都是以你现在的位置切实可及的近期入口。"
+                "东京都现代美术空间（Tokyo Arts and Space）的公开征集"
+                "（TOKAS-Emerging、OPEN SITE）都是以你现在的位置切实可及的近期入口。"
             ),
             "priority": "medium",
-            "action":   "Watch TOKAS open calls and Youkobo artist-in-residence programs",
-            "action_zh": "关注 TOKAS 公开征集与 Youkobo 驻地项目",
+            # Youkobo's residency program is discontinued and BankART Station/KAIKO
+            # closed March 2025 — both dropped (Fable research, 2026-09-04).
+            "action":   "Watch TOKAS-Emerging and OPEN SITE open calls at tokyoartsandspace.jp",
+            "action_zh": "关注 tokyoartsandspace.jp 上 TOKAS-Emerging 与 OPEN SITE 的公开征集",
         })
 
     if not has_international:
@@ -834,6 +1083,7 @@ def build_career_strategy_report():
         if o.get("exclusive_primary_bucket") not in REJECT_BUCKETS
         and o.get("status") != "permanently_closed"
         and o.get("recommendation_visibility") != "hidden"
+        and not o.get("deadline_past")
     ]
 
     tier1_opps: list = []
