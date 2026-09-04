@@ -434,8 +434,8 @@ const zh = {
   'sf.oq.saved':             '已保存 ✓ — 山楂会据此更新分析。',
   'sf.label.peersCaveat':    '这些是与你气味相投的同行，依据真实的重合挑选——每日水彩、日常生活、由线上走向出版的路径——而不是一份排名。有的在风格上与你相近，有的是事业路径上的参照；每条说明都会注明是哪一种。',
 
-  'sf.empty.calendar':       '目前没有已确认的截止日期。大多数机会的截止日期标注为"未知"或"滚动" — 随着核实工作推进，日历会逐步填充。',
-  'sf.empty.venues':         '暂无已追踪的场地。此栏将在场地加入CRM后自动填充。',
+  'sf.empty.calendar':       '这个月没有定了日子的截止。多数机会常年开放——一旦有了确定的日期，山楂会放到这里。',
+  'sf.empty.venues':         '还没有在联系中的场地。你在胡椒粒那里记下的第一家，会出现在这里。',
 
   'sf.assess.strong':        '良好',
   'sf.assess.on_track':      '正常',
@@ -766,8 +766,8 @@ const zh = {
   'pp.q.5.opt.1':  '松散地 — 互相关注，但最近没有说话',
   'pp.q.5.opt.2':  '没有，展览之后就失去了联系',
   'pp.q.5.opt.3':  '知道他们是谁，但从来没有深入联系',
-  'pp.q.6.text':   '在日本已经有第二次展览在谈或计划中了吗？',
-  'pp.q.6.why':    '系统假设还需要2到3次群展，但也许已经有一次在进行中了。',
+  'pp.q.6.text':   '接下来有在谈或在计划中的展览吗——个展、联展都算？',
+  'pp.q.6.why':    '如果已经有一场在路上，山楂会把它算进去，而不是把你已经在做的事再推荐一遍。',
   'pp.q.6.opt.0':  '有 — 正在初步洽谈',
   'pp.q.6.opt.1':  '没有确认，但我在积极寻找',
   'pp.q.6.opt.2':  '有一个我感兴趣的但还没投递',
@@ -781,7 +781,7 @@ const zh = {
 
   // ── Submission Log ──────────────────────────────────────────────────────
   'pp.sec.sublog':             '提交记录',
-  'pp.sub.sublog.empty':       '暂无提交记录',
+  'pp.sub.sublog.empty':       '还没记过投递——第一次投出去的时候，回来告诉我',
   'pp.sub.sublog.count':       '{n}条记录',
   'pp.sublog.note':            '记录你提交的内容和结果。系统会用这些信息避免向同一个场地重复推送机会。',
   'pp.sublog.btn':             '记录提交',
@@ -802,7 +802,7 @@ const zh = {
 
   // ── Exhibition Log ──────────────────────────────────────────────────────
   'pp.sec.exlog':              '展览记录',
-  'pp.sub.exlog.empty':        '暂无展览记录',
+  'pp.sub.exlog.empty':        '这里还没记新的展览——你以前的参展履历山楂那边都有，这里只记接下来的',
   'pp.sub.exlog.count':        '{n}场群展',
   'pp.exlog.note':             '记录你参加过的展览。山楂会用这些数据追踪你的职业进展。',
   'pp.exlog.date':             '年月',
@@ -857,7 +857,7 @@ const zh = {
 
   // ── Venue Log ───────────────────────────────────────────────────────────
   'pp.sec.venuelog':               '场地联系记录',
-  'pp.sub.venuelog.empty':         '暂无场地记录',
+  'pp.sub.venuelog.empty':         '还没记过场地。下次去看展、和谁聊了，回来记一句就好',
   'pp.sub.venuelog.count':         '{n}个场地',
   'pp.venuelog.note':              '记录你拜访或联系过的画廊、书店和空间。系统会用这些信息提供下一步建议。',
   'pp.venuelog.btn':               '记录场地',
@@ -1535,8 +1535,8 @@ const ja = {
   'sf.oq.saved':             '保存しました ✓ — サフランが反映します。',
   'sf.label.peersCaveat':    'これらは、本当の意味での共通点で選んだ同志です——毎日の水彩、日常の暮らし、オンラインから出版へと向かう道——ランキングではありません。作風が近い人もいれば、キャリアの道筋の参照もいます。各メモにどちらかを記しています。',
 
-  'sf.empty.calendar':       '現在のパイプラインに確認済みの締切日はありません。ほとんどの機会の締切は「不明」や「ローリング」です — 検証が進むにつれカレンダーは埋まります。',
-  'sf.empty.venues':         '追跡中の会場はまだありません。CRMに会場が追加されると自動で表示されます。',
+  'sf.empty.calendar':       '今月は日付の決まった締切はありません。多くは通年で開いています——日付が決まったら、サフランがここに置きます。',
+  'sf.empty.venues':         'まだ話の進んでいる会場はありません。ペッパーコーンに最初の一軒を書きとめたら、ここに出てきます。',
 
   'sf.assess.strong':        '良好',
   'sf.assess.on_track':      '順調',
@@ -1845,8 +1845,8 @@ const ja = {
   'pp.q.5.opt.1':  'ゆるく — フォロー関係だが、最近は話していない',
   'pp.q.5.opt.2':  'いいえ、展示後に疎遠になった',
   'pp.q.5.opt.3':  '誰だかはわかるが、深く関わったことがない',
-  'pp.q.6.text':   '日本での2回目の展示が既に計画中か交渉中ですか？',
-  'pp.q.6.why':    'システムはさらに2〜3回のグループ展が必要だと想定しているが、1回はすでに進行中かもしれない。',
+  'pp.q.6.text':   '次の展示は、もう話が進んでいますか——個展でもグループ展でも。',
+  'pp.q.6.why':    'もう一つ動いているなら、サフランはそれを数に入れます。すでにやっていることを、また勧めたりしないように。',
   'pp.q.6.opt.0':  'はい — 初期の話し合い中',
   'pp.q.6.opt.1':  '確定はないが、積極的に探している',
   'pp.q.6.opt.2':  '興味のある展示があるが、まだ申請していない',
@@ -1860,7 +1860,7 @@ const ja = {
 
   // ── Submission Log ──────────────────────────────────────────────────────
   'pp.sec.sublog':             '提出記録',
-  'pp.sub.sublog.empty':       '提出記録はまだありません',
+  'pp.sub.sublog.empty':       'まだ応募の記録はありません——一つ送ったら、教えてください',
   'pp.sub.sublog.count':       '{n}件の記録',
   'pp.sublog.note':            '提出内容と結果を記録してください。同じ会場への重複推薦を避けるためにシステムが参照します。',
   'pp.sublog.btn':             '提出を記録',
@@ -1881,7 +1881,7 @@ const ja = {
 
   // ── Exhibition Log ──────────────────────────────────────────────────────
   'pp.sec.exlog':              '展覧会記録',
-  'pp.sub.exlog.empty':        '展覧会記録はまだありません',
+  'pp.sub.exlog.empty':        'ここにはまだ新しい展示がありません——これまでの実績はサフランが持っています。ここはこれからの分です',
   'pp.sub.exlog.count':        '合計{n}回のグループ展',
   'pp.exlog.note':             '参加した展覧会を記録してください。Saffronがこのデータを使ってキャリアの進捗を追跡します。',
   'pp.exlog.date':             '年月',
@@ -1929,7 +1929,7 @@ const ja = {
 
   // ── Venue Log ───────────────────────────────────────────────────────────
   'pp.sec.venuelog':               '会場連絡記録',
-  'pp.sub.venuelog.empty':         '記録された会場はまだありません',
+  'pp.sub.venuelog.empty':         'まだ会場の記録はありません。展示を見に行ったり、誰かと話したら、一行書きにきてください',
   'pp.sub.venuelog.count':         '{n}件の会場',
   'pp.venuelog.note':              '訪問・連絡したギャラリー、書店、スペースを記録してください。システムが次のステップを提案するために使います。',
   'pp.venuelog.btn':               '会場を記録',
@@ -2595,8 +2595,8 @@ const en = {
   'sf.oq.saved':             'Saved ✓ — Saffron will use this.',
   'sf.label.peersCaveat':    'These are kindred practices, chosen for genuine overlap — a daily watercolor diary, everyday life, the path from an online audience to books — not a ranking. Some are stylistic cousins, some are career-path references; each note says which.',
 
-  'sf.empty.calendar':       'No confirmed deadline dates in the current pipeline. Most opportunities list deadlines as unknown or rolling — the calendar will fill as verification improves.',
-  'sf.empty.venues':         'No venues tracked yet. This section will populate as venues are added to the CRM.',
+  'sf.empty.calendar':       'No fixed dates this month. Most of these stay open year-round — when one gets a real date, Saffron will put it here.',
+  'sf.empty.venues':         'No venues in conversation yet. The first one you note with Peppercorn will show up here.',
 
   'sf.assess.strong':        'Strong',
   'sf.assess.on_track':      'On track',
@@ -2926,8 +2926,8 @@ const en = {
   'pp.q.5.opt.1':  "Loosely — we follow each other but haven't spoken recently",
   'pp.q.5.opt.2':  "No, we've lost touch since the show",
   'pp.q.5.opt.3':  'I know who they are but never connected closely',
-  'pp.q.6.text':   'Is there a second Japan exhibition already planned or in conversation?',
-  'pp.q.6.why':    'The system assumes 2–3 more group shows are needed, but one may already be underway.',
+  'pp.q.6.text':   'Is there a next show already in conversation or planned — solo or group?',
+  'pp.q.6.why':    "If one is already on its way, Saffron will count it rather than recommend what you're already doing.",
   'pp.q.6.opt.0':  'Yes — something is in early conversation',
   'pp.q.6.opt.1':  "Nothing confirmed, but I'm actively looking",
   'pp.q.6.opt.2':  "I have a show I'm interested in but haven't applied",
@@ -2941,7 +2941,7 @@ const en = {
 
   // ── Submission Log ──────────────────────────────────────────────────────
   'pp.sec.sublog':             'Submission Log',
-  'pp.sub.sublog.empty':       'No submissions logged yet',
+  'pp.sub.sublog.empty':       'Nothing submitted yet — when you send one out, come tell me',
   'pp.sub.sublog.count':       '{n} submission{s} on record',
   'pp.sublog.note':            "Keep a record of what you've submitted and what happened. The system uses this to avoid recommending the same venue twice.",
   'pp.sublog.btn':             'Log submission',
@@ -2962,7 +2962,7 @@ const en = {
 
   // ── Exhibition Log ──────────────────────────────────────────────────────
   'pp.sec.exlog':              'Exhibition Record',
-  'pp.sub.exlog.empty':        'No exhibitions logged yet',
+  'pp.sub.exlog.empty':        'No new shows noted here yet — Saffron already has your record; this is for what comes next',
   'pp.sub.exlog.count':        '{n} group show{s} total',
   'pp.exlog.note':             'Log shows you have participated in. Saffron uses this data to track career progression.',
   'pp.exlog.date':             'Month / Year',
@@ -3017,7 +3017,7 @@ const en = {
 
   // ── Venue Log ───────────────────────────────────────────────────────────
   'pp.sec.venuelog':               'Venue Contact Log',
-  'pp.sub.venuelog.empty':         'No venues logged yet',
+  'pp.sub.venuelog.empty':         'No venues yet. Next time you visit a show or talk to someone, come back and jot a line',
   'pp.sub.venuelog.count':         '{n} venue{s} on record',
   'pp.venuelog.note':              'Keep track of galleries, shops, and spaces you have visited or contacted. The system uses this to suggest next steps.',
   'pp.venuelog.btn':               'Log venue',

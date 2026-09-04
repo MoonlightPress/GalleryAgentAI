@@ -515,8 +515,11 @@ function actStatusLabel(status, t) {
 // count), truthful to her record and stable as counts change. Opens the section
 // so it actually tells her her position instead of only listing what she's done.
 const CAREER_SYNOPSIS = {
-  en: "You're an actively exhibiting artist — solo and group shows across China, Japan and abroad, including museum group shows and a Tokyo solo — with a first solo publication and an established, growing audience. The foundation is real. From here it's less about adding credits and more about depth: gallery relationships, a representation conversation if you ever want one, and the book practice your daily work already feeds.",
-  zh: "你是一位持续在办展的艺术家——个展与联展遍及中国、日本及海外，其中包括美术馆群展，以及一场东京个展——还有首部个人出版物，和一群稳定、持续增长的受众。根基是扎实的。接下来与其说是再添履历，不如说是往深处走：画廊关系、（如果你愿意）一次代理的洽谈，以及你的日常创作本就在滋养的那条出版之路。",
+  // "a Tokyo solo" (singular) undersold her against the status line one section
+  // below, which correctly says 3. Counted clauses stale; this one doesn't
+  // (prose review, 2026-09-04) — the live counts stay careerStatusLine's job.
+  en: "You're an actively exhibiting artist — solo and group shows across China, Japan and abroad, including museum group shows and solos in Tokyo — with a first solo publication and an established, growing audience. The foundation is real. From here it's less about adding credits and more about depth: gallery relationships, a representation conversation if you ever want one, and the book practice your daily work already feeds.",
+  zh: "你是一位持续在办展的艺术家——个展与联展遍及中国、日本及海外，其中有美术馆群展，也有东京的个展——还有首部个人出版物，和一群稳定、持续增长的受众。根基是扎实的。接下来与其说是再添履历，不如说是往深处走：画廊关系、（如果你愿意）一次代理的洽谈，以及你的日常创作本就在滋养的那条出版之路。",
   ja: "あなたは継続的に発表を続けているアーティストです——中国・日本・海外での個展とグループ展、美術館でのグループ展、そして東京での個展まで——さらに初の個人作品集と、確立された、伸び続けるオーディエンスがあります。土台は確かです。ここから先は、実績を足すことよりも深さです——ギャラリーとの関係、望むなら専属の話、そして日々の制作がすでに育てている本の実践。",
 }
 const CAREER_SUMMARY = {
@@ -2211,29 +2214,32 @@ function careerStatusLine(ev, lang) {
   const shows = ev.confirmed_group_shows ?? 0
   const solos = ev.solo_shows ?? (ev.has_solo_show ? 1 : 0)
   const intl  = !!ev.has_international_show
+  // Leads with the record and moves forward. It used to open on "a solid
+  // foundation" — the same sentence CAREER_SYNOPSIS says one section above, so
+  // two adjacent blocks told her the same thing (prose review, 2026-09-04).
   if (lang === 'ja') {
     const parts = []
     if (shows) parts.push(`${shows}回のグループ展`)
     if (solos) parts.push(`${solos}回の個展`)
     if (intl)  parts.push('海外での展示')
-    const built = parts.length ? `——${parts.join('、')}` : ''
-    return `しっかりとした土台ができています${built}。次に向かう先は、ギャラリーとの関係づくりや専属です（望むなら、ですが）。`
+    const lead = parts.length ? `${parts.join('、')}——ここはもう出発点ではありません。` : ''
+    return `${lead}次に向かう先は、ギャラリーとの関係づくりや専属です（望むなら、ですが）。`
   }
   if (lang === 'en') {
     const parts = []
     if (shows) parts.push(`${shows} group shows`)
     if (solos) parts.push(`${solos} solo show${solos > 1 ? 's' : ''}`)
-    if (intl)  parts.push('an international showing')
-    const built = parts.length ? ` — ${parts.join(', ')}` : ''
-    return `You've built a solid foundation${built}. The direction from here is gallery relationships and representation, if you want it.`
+    if (intl)  parts.push('a showing abroad')
+    const lead = parts.length ? `${parts.join(', ')} — this stopped being a beginning a while ago. ` : ''
+    return `${lead}What's next is gallery relationships and representation, if you want it.`
   }
   // zh (her default)
   const parts = []
   if (shows) parts.push(`${shows} 场联展`)
   if (solos) parts.push(`${solos} 场个展`)
   if (intl)  parts.push('海外的展出')
-  const built = parts.length ? `——${parts.join('、')}` : ''
-  return `你已经建立了扎实的根基${built}。接下来的方向是画廊关系与代理（如果你想要的话）。`
+  const lead = parts.length ? `${parts.join('、')}——这早就不是起点了。` : ''
+  return `${lead}接下来是画廊关系与代理，如果你想要的话。`
 }
 
 // One readiness-column row: the opportunity name as a real link out (its own
@@ -2252,10 +2258,13 @@ function ReadinessColItem({ o, muted }) {
 // Plainer "next step" labels — no "level up / unlock / advance a tier" framing.
 const NEXT_STEP_LABEL = { zh: '下一步', ja: '次の一歩', en: 'Next step' }
 // The optional, no-pressure hint under the next-step card.
+// It used to say "no deadline, no pressure" while sitting directly under an
+// action naming a hard September date — cancelling the one moment of urgency on
+// the page (prose review, 2026-09-04). It now defers to the card above it.
 const NEXT_STEP_HINT = {
-  zh: '没有截止日期，也不催你——想做的时候再做。',
-  ja: '締切も急かしもありません——やりたくなったときで大丈夫です。',
-  en: 'No deadline, no pressure — only when you feel like it.',
+  zh: '不急。有截止日期的地方山楂写清楚了；其余的，想做的时候再做。',
+  ja: '急ぎません。締切のあるものはサフランが書いてあります。それ以外は、やりたくなったときで大丈夫です。',
+  en: "No rush. Where there's a real date, Saffron has written it down; everything else is whenever you feel like it.",
 }
 // "More directions" toggle (was "还有 N 个进阶目标" / advance-a-tier language).
 const MORE_DIRS = {

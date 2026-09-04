@@ -469,6 +469,30 @@ def _months_to_tier3(group_shows: int, has_institutional: bool, *,
     return 12
 
 
+# Arts Council Tokyo's emerging-artist grant is the one hard, near date in the
+# whole ladder. A near date has to *sound* near — read flat, it lands in the same
+# register as a 2027 call and the one moment of urgency on the page is lost
+# (prose review, 2026-09-04). Recomputed on every regeneration so it can't stale
+# into claiming urgency after the date has gone by.
+_ACT_GRANT_CLOSE = datetime(2026, 9, 24, tzinfo=timezone.utc)
+
+
+def _act_grant_urgency() -> dict:
+    """How close the Arts Council Tokyo deadline is, in prose. Empty when past."""
+    days = (_ACT_GRANT_CLOSE - datetime.now(timezone.utc)).days
+    if days < 0:
+        return {}                # closed — the copy simply won't mention it
+    if days <= 7:
+        return {"en": "closes this week, on September 24", "zh": "这周就截止了，9月24日",
+                "en_short": "closes this week", "zh_short": "这周就截止了"}
+    if days <= 31:
+        return {"en": f"closes on September 24, {days} days from today",
+                "zh": f"9月24日截止，从今天算起还有 {days} 天",
+                "en_short": f"has {days} days left", "zh_short": f"只剩 {days} 天"}
+    return {"en": "closes on September 24", "zh": "9月24日截止",
+            "en_short": "closes September 24", "zh_short": "9月24日截止"}
+
+
 def _next_tier_levers(solo_shows: int, has_international: bool, has_jws: bool,
                       has_representation: bool, has_residency: bool,
                       has_grant: bool, publications: int) -> list:
@@ -485,32 +509,30 @@ def _next_tier_levers(solo_shows: int, has_international: bool, has_jws: bool,
     if not has_representation:
         levers.append({
             "gap_id":   "gallery_representation",
-            "gap":      "Gallery representation is the next structural step",
-            "gap_zh":   "画廊代理，是下一个关键的结构性跃升",
+            "gap":      "The next door: a gallery that takes you on",
+            "gap_zh":   "下一扇门：一家愿意长期代理你的画廊",
+            # De-triplication pass (prose review, 2026-09-04): the detail tells
+            # the story and names the doors; the dates, fees and eligibility live
+            # once, in `targets`; the action is one thing she can do this week.
             "detail":   (
-                "You already have solo shows and museum-group credits — the next structural "
-                "leap is a gallery that represents you: one that sells on your behalf, places "
-                "you in art fairs, and builds a collector base over time. Tokyo galleries don't "
-                "run submission boxes; the standard path is visiting a show, meeting the "
-                "gallerist, and being introduced. A few concrete doors: Gallery Kogure "
-                "(Kanda-Jimbocho) shows works-on-paper and illustration-to-fine-art crossovers "
-                "close to your format, reachable by cold email; biscuit gallery runs a free "
-                "open call, \"grid next,\" that has actually placed a winner into a solo show "
-                "(usually opens each December); HB Gallery's FILE competition is open now and "
-                "gives five grand-prize winners a one-week solo, no eligibility restriction."
+                "You already have solos and museum-group credits — what changes the picture "
+                "most now is a gallery that sells on your behalf, places you in fairs, and "
+                "builds a collector base over time. Tokyo galleries rarely run submission "
+                "boxes; the usual path is going to a show, meeting the gallerist, being "
+                "introduced. The doors below are the ones closest to your work: one gallery "
+                "you can simply write to, and two open calls that have put a winner straight "
+                "into a solo show."
             ),
             "detail_zh": (
-                "你已经拥有个展与美术馆联展的履历——下一个结构性的跃升，是找到一家代理你的画廊："
-                "由它替你销售、带你进入艺术博览会、并长期为你积累藏家。东京的画廊通常没有作品投递箱，"
-                "标准路径是先以观众身份看展、认识画廊主、再被引荐。几个具体的切入点："
-                "Gallery Kogure（神田神保町）展出与你风格相近的纸上作品与插画转纯艺术的创作者，"
-                "可通过邮件冷联系；biscuit gallery 有一个免费公开征集 'grid next'，"
-                "曾有获奖者因此获得个展（通常每年12月开放）；"
-                "HB Gallery 的 FILE 大赛正在征集中，五位大奖得主可获得为期一周的个展，无资格限制。"
+                "你已经有个展和美术馆联展的履历——接下来最能改变格局的，是一家替你销售、"
+                "带你去博览会、慢慢替你积累藏家的画廊。东京的画廊很少设投稿入口，"
+                "通常的路是先去看展、认识画廊主、被人引荐。"
+                "下面几扇门是山楂找到的、离你的作品最近的：一家可以直接写信的画廊，"
+                "两个曾把获奖者直接送进个展的公开征集。"
             ),
             "priority": "high",
-            "action":   "Cold-email Gallery Kogure (works@gallerykogure.com); watch for biscuit gallery's \"grid next\" call (usually opens each December); check HB Gallery's FILE competition entry window now.",
-            "action_zh": "向 Gallery Kogure 发送邮件（works@gallerykogure.com）；留意 biscuit gallery 'grid next' 公开征集（通常每年12月开放）；现在就去查 HB Gallery FILE 大赛的征集截止时间。",
+            "action":   "One thing this week is enough: a short note to Gallery Kogure (works@gallerykogure.com) with three diary paintings attached.",
+            "action_zh": "这周做一件事就够：给 Gallery Kogure 写一封短信（works@gallerykogure.com），附三张日记系列。",
             "targets": [
                 {
                     "name": "Gallery Kogure",
@@ -557,25 +579,23 @@ def _next_tier_levers(solo_shows: int, has_international: bool, has_jws: bool,
         "gap_id":   "solo_venue_quality",
         "gap":      "Stepping up to larger, more established solo venues",
         "gap_zh":   "迈向更大、更具分量的个展场地",
+        # The opener honors the three solos she made happen before it names the
+        # rental point (prose review, 2026-09-04) — the money and the dates now
+        # live once, in `targets`.
         "detail":   (
-            "Your solos so far have been at paid rental spaces — the next move is a venue "
-            "that pays for the show instead of the other way around. Tokyo Arts and Space "
-            "runs two open, nationality-unrestricted programs built for exactly this: "
-            "TOKAS-Emerging (a ¥150,000 production grant plus install/PR/catalogue; two of "
-            "the 2026 picks were Chinese artists) and OPEN SITE (¥400,000, no age limit). "
-            "Kyoto Art Center's Co-program funds up to ¥1,000,000 for a solo, with a call "
-            "expected each October."
+            "Three solos, each one you made happen yourself. The next step is a venue that "
+            "pays for the show instead of the other way round — Tokyo Arts and Space runs "
+            "two programs built for exactly this, open to any nationality, and Kyoto Art "
+            "Center's Co-program is the best-funded solo call found anywhere in Japan."
         ),
         "detail_zh": (
-            "你至今的个展都在付费租赁场地举办——下一步是找到一个反过来为展览付费的场地。"
-            "东京都现代美术空间（Tokyo Arts and Space）有两个不限国籍、公开征集的项目正为此而设："
-            "TOKAS-Emerging（15万日元制作经费，含布展/宣传/画册；2026年入选者中有两位是中国艺术家）"
-            "与 OPEN SITE（40万日元，无年龄限制）。京都艺术中心的 Co-program 最高可为个展提供"
-            "100万日元经费，通常每年10月开放征集。"
+            "三场个展，每一场都是你自己做出来的。下一步，是让场地反过来为展览付钱——"
+            "东京都现代美术空间（Tokyo Arts and Space）的两个项目正为此而设，不限国籍；"
+            "京都艺术中心的 Co-program 则是目前在日本找到的、经费最充裕的个展征集。"
         ),
         "priority": "high",
-        "action":   "Watch tokyoartsandspace.jp/application for the next TOKAS-Emerging and OPEN SITE calls, and kac.or.jp/open_call each October for Kyoto Art Center's Co-program.",
-        "action_zh": "留意 tokyoartsandspace.jp/application 上 TOKAS-Emerging 与 OPEN SITE 的下一轮征集，以及每年10月京都艺术中心 Co-program 在 kac.or.jp/open_call 的公开征集。",
+        "action":   "Put one solo proposal on paper this month — the show you'd make with a real production budget — so it's ready when the next TOKAS call opens.",
+        "action_zh": "这个月先把一份个展提案写下来——如果有一笔真正的制作经费，你想做的那个展——等 TOKAS 下一轮征集开放时就能直接投。",
         "targets": [
             {
                 "name": "TOKAS-Emerging",
@@ -616,27 +636,25 @@ def _next_tier_levers(solo_shows: int, has_international: bool, has_jws: bool,
         "gap_id":   "art_fairs",
         "gap":      "Art fairs open collector access",
         "gap_zh":   "艺术博览会，打开通向藏家的通道",
+        # Open doors first, the gallery-applied fairs last and as a future rather
+        # than a closed door (prose review, 2026-09-04).
         "detail":   (
-            "Art Fair Tokyo and Tokyo Gendai are gallery-applied only — those follow "
-            "representation, not before it. But there's a real artist-direct ladder that scouts "
-            "unrepresented artists: SICF at Spiral in Aoyama is juried with no age or nationality "
-            "limit, and its Grand Prize is a solo show in Spiral's Atrium plus a ¥500,000 "
-            "production budget (call usually opens each November). Independent Tokyo screens "
-            "artists directly and puts 20-30 gallerists on the floor as judges (call usually "
-            "opens each October). Art Fair Beppu, curated by HAPS, is free to enter with travel "
-            "subsidised."
+            "There is a real artist-direct ladder into the fairs, and three of its rungs are "
+            "open to you: SICF at Spiral in Aoyama, whose Grand Prize is a solo show in the "
+            "Atrium; Independent Tokyo, where gallerists judge the floor in person; and Art "
+            "Fair Beppu, free to enter with travel subsidised. As for Art Fair Tokyo and "
+            "Tokyo Gendai — those are the ones a gallery applies to on your behalf. After "
+            "representation, they come on their own."
         ),
         "detail_zh": (
-            "Art Fair Tokyo 与 Tokyo Gendai 都只接受画廊申请——这两个通常在获得代理之后才会到来，"
-            "而非之前。但确实存在一条艺术家可直接申请的路径：位于青山 Spiral 的 SICF 评审征集，"
-            "不限年龄与国籍，其大奖得主可在 Spiral 中庭举办个展，并获得50万日元的制作经费"
-            "（征集通常每年11月开放）。Independent Tokyo 由主办方直接筛选参展艺术家，"
-            "现场有20-30位画廊主担任评审（征集通常每年10月开放）。"
-            "由 HAPS 策划的 Art Fair Beppu 免费参展，并补贴差旅费用。"
+            "通往博览会的路上，确实有一条艺术家可以自己走的阶梯，其中三级现在就对你开着："
+            "青山 Spiral 的 SICF，大奖得主可在中庭办个展；Independent Tokyo，"
+            "由画廊主亲自到场评审；以及免费参展、还补贴差旅的 Art Fair Beppu。"
+            "至于 Art Fair Tokyo 和 Tokyo Gendai，那是画廊替你申请的——等代理之后，自然会到。"
         ),
         "priority": "medium",
-        "action":   "Watch for SICF's call (~November) and Independent Tokyo's call (~October) at spiral.co.jp and tagboat.com; Art Fair Tokyo/Tokyo Gendai wait until representation.",
-        "action_zh": "留意 SICF（约每年11月，spiral.co.jp）与 Independent Tokyo（约每年10月，tagboat.com）的征集；Art Fair Tokyo／Tokyo Gendai 则留到有代理之后再考虑。",
+        "action":   "Pick out ten paintings that would hang together as a booth — that selection is what every one of these calls asks for first.",
+        "action_zh": "挑出十张能挂成一个展位的画——这几个征集，第一步问的都是这个。",
         "targets": [
             {
                 "name": "SICF (Spiral Independent Creators Festival)",
@@ -670,26 +688,25 @@ def _next_tier_levers(solo_shows: int, has_international: bool, has_jws: bool,
             "gap_id":   "residency",
             "gap":      "A residency is a genuine open door on your CV",
             "gap_zh":   "驻地项目，是履历上一扇真正待开的门",
+            # "尚未拥有的credit" was deficit framing with an untranslated English
+            # word inside a Chinese sentence; the near date now sounds near and
+            # the action is a verb, not 留意 (prose review, 2026-09-04).
             "detail":   (
-                "A residency is one of the few credits not yet on your record — and the best-fit "
-                "ones aren't overseas. Tokyo Arts and Space runs two programs open to any "
-                "Japan-resident regardless of nationality: the Local Emerging Creator Residency "
-                "(60–90 days at TOKAS Sumida) and the Exchange Residency (a fully-funded ~3 "
-                "months in a partner city — Taipei, Seoul, Helsinki and others). Their next call "
-                "is expected to open mid-September 2026. Fukuoka Asian Art Museum also runs a "
-                "residency built specifically for artists working across Asia."
+                "A residency is one of the few things you haven't tried yet — and the "
+                "best-fitting ones are right here in Japan. Tokyo Arts and Space runs two, "
+                "both open to any Japan resident whatever their passport: months of studio "
+                "time in Sumida, or a fully-funded stay in a partner city. Fukuoka Asian Art "
+                "Museum runs a third, built for artists working across Asia."
             ),
             "detail_zh": (
-                "驻地项目是你履历上尚未拥有的少数credit之一——而最契合的选择并不在海外。"
-                "东京都现代美术空间（Tokyo Arts and Space）有两个项目，"
-                "只要在日本居住即可申请、不限国籍：国内若手创作者驻地项目（在TOKAS墨田驻留60-90天）"
-                "与交流驻地项目（全额资助，约3个月，驻留于台北、首尔、赫尔辛基等合作城市）。"
-                "下一轮征集预计在2026年9月中旬开放。福冈亚洲美术馆也有一个"
-                "专为在亚洲各地创作的艺术家而设的驻地项目。"
+                "驻地是少数你还没试过的事——而最适合你的几个，就在日本。"
+                "东京都现代美术空间（Tokyo Arts and Space）有两个，只要住在日本就能申请、不问国籍："
+                "在墨田连着几个月的工作室时间，或者全额资助去一座合作城市住上一阵。"
+                "福冈亚洲美术馆还有第三个，专为在亚洲各地往返创作的人而设。"
             ),
             "priority": "high",
-            "action":   "Watch tokyoartsandspace.jp/application for the TOKAS Local Emerging / Exchange Residency call, expected mid-September 2026.",
-            "action_zh": "留意 tokyoartsandspace.jp/application 上 TOKAS 国内若手创作者／交流驻地项目的征集，预计2026年9月中旬开放。",
+            "action":   "TOKAS's residency call should open within the next couple of weeks — the door most worth watching this autumn. Have your portfolio and a three-sentence residency idea ready, so you can apply the day it opens.",
+            "action_zh": "TOKAS 的驻地征集大概就在这两周开放——这是今年秋天最值得盯住的一扇门。先把作品集和三句话的驻地计划准备好，开放当天就能投。",
             "targets": [
                 {
                     "name": "TOKAS Local Emerging Creator Residency",
@@ -719,35 +736,55 @@ def _next_tier_levers(solo_shows: int, has_international: bool, has_jws: bool,
         })
 
     if not has_grant:
+        _act = _act_grant_urgency()
+        _act_line_en = (
+            f"Arts Council Tokyo's grant for emerging artists, which {_act['en']}, and "
+            if _act else ""
+        )
+        _act_line_zh = (
+            f"东京艺术委员会（Arts Council Tokyo）面向新锐艺术家的扶持金，{_act['zh']}；"
+            if _act else ""
+        )
+        _act_action_en = (
+            f"The Arts Council Tokyo form {_act['en_short']} — fill it in this week, and "
+            "send Greenshields the same images afterwards; theirs has no deadline at all."
+            if _act else
+            "Send the Elizabeth Greenshields Foundation ten diary paintings this week — "
+            "their application is open all year and takes an afternoon."
+        )
+        _act_action_zh = (
+            f"东京艺术委员会的申请{_act['zh_short']}——这周把表格填掉；"
+            "同一批图片随后寄给 Greenshields 就行，那边根本没有截止日期。"
+            if _act else
+            "这周把十张日记寄给 Elizabeth Greenshields 基金会——他们常年开放，一个下午就能投完。"
+        )
         levers.append({
             "gap_id":   "grant",
             "gap":      "Grants and fellowships add institutional standing",
             "gap_zh":   "奖助与奖学金，为你增添机构层面的分量",
+            # The two most *seen* facts — the Mainland China track she qualifies
+            # for by citizenship, and Greenshields explicitly taking students —
+            # were buried in a six-grant list. Surfaced; the katakana-in-Chinese
+            # name and 创业期 ("startup capital") are gone (prose review).
             "detail":   (
-                "Grants and fellowships add institutional recognition your record now supports. "
-                "As a Tokyo resident, the Arts Council Tokyo Startup Grant (up to ¥300,000, no "
-                "nationality clause) is open now but closes September 24, 2026. The Elizabeth "
-                "Greenshields Foundation (Canada) funds representational painters at your career "
-                "stage with no citizenship or residency requirement and accepts applications on "
-                "a rolling basis. Later this year: the Nomura Foundation (up to ¥1,000,000, opens "
-                "October 1), the Asahi Shimbun Foundation (open through October 25), the Holbein "
-                "Scholarship (a materials grant built for artists in your medium), and the Asian "
-                "Cultural Council — you qualify for its Mainland China track by citizenship, "
-                "regardless of living in Tokyo (opens October 1)."
+                "Your record can carry a grant application now. "
+                f"{'Two doors are' if _act_line_en else 'One door is'} open this minute: "
+                f"{_act_line_en}Canada's Elizabeth Greenshields Foundation, which funds "
+                "representational painters at exactly your stage, students included, any time "
+                "of year. Three more open in October — Nomura, Asahi Shimbun, and the Asian "
+                "Cultural Council, whose Mainland China track you qualify for by citizenship, "
+                "Tokyo address and all."
             ),
             "detail_zh": (
-                "奖助与奖学金，能为你如今的履历增添机构层面的认可。作为东京居民，"
-                "アーツカウンシル东京创业期扶持金（最高30万日元，无国籍限制）正在征集中，"
-                "但将于2026年9月24日截止。Elizabeth Greenshields 基金会（加拿大）"
-                "资助与你现阶段相符的具象绘画艺术家，无国籍或居住地限制，常年滚动接受申请。"
-                "今年晚些时候还有：野村财团（最高100万日元，10月1日开放）、"
-                "朝日新闻文化财团（征集至10月25日）、好乐门（Holbein）奖学金"
-                "（专为你所使用的媒介而设的画材资助），以及亚洲文化协会——"
-                "凭中国国籍即可申请其中国大陆项目，无论是否居住在东京（10月1日开放）。"
+                "你的履历现在已经撑得起申请奖助了。"
+                f"{'两扇门' if _act_line_zh else '有一扇门'}此刻开着："
+                f"{_act_line_zh}加拿大的 Elizabeth Greenshields 基金会专门资助你这个阶段的具象绘画者，"
+                "学生也可以，随时可投。10月还有三扇会开——野村财团、朝日新闻文化财团，"
+                "以及亚洲文化协会：凭你的中国国籍就能走它的中国大陆通道，住在东京也没关系。"
             ),
             "priority": "high",
-            "action":   "Apply to the Arts Council Tokyo Startup Grant before it closes September 24, 2026, and start the Elizabeth Greenshields Foundation's rolling application now.",
-            "action_zh": "在2026年9月24日截止前申请アーツカウンシル东京创业期扶持金，并现在就开始 Elizabeth Greenshields 基金会的滚动申请。",
+            "action":    _act_action_en,
+            "action_zh": _act_action_zh,
             "targets": [
                 {
                     "name": "Arts Council Tokyo Startup Grant",
@@ -815,25 +852,23 @@ def _next_tier_levers(solo_shows: int, has_international: bool, has_jws: bool,
         "gap_id":   "critical_press",
         "gap":      "Moving from features to being written about",
         "gap_zh":   "从作品被展示，迈向作品被书写",
+        # Each fact once: the story here, the specifics in `targets` (prose review).
         "detail":   (
-            "Your work has been featured — the next step is coverage that engages with the "
-            "practice, not just reproduces the images. Colossal runs an active watercolor tag "
-            "and takes open submissions — a years-long daily Tokyo watercolor diary is exactly "
-            "its kind of story. Tokyo Weekender and Time Out Tokyo both regularly cover emerging "
-            "painters' Tokyo debuts. And イラストレーション magazine's quarterly competition, "
-            "\"The Choice,\" is the Japanese illustration industry's own venue for watercolor "
-            "work — a selection there is a CV line Japanese galleries recognize."
+            "Your work has been shown and reproduced — what comes next is writing that "
+            "engages with the practice itself. The strongest thing you have to offer an "
+            "editor is the diary: five years of it, one painting a day, a city seen at the "
+            "same hour again and again. That is a story, not a portfolio. Three places below "
+            "publish exactly that kind of story."
         ),
         "detail_zh": (
-            "你的作品已被展示报道——下一步是让报道真正进入创作本身，而不只是复制图像。"
-            "Colossal 设有活跃的水彩标签，并接受主动投稿——一份持续数年的东京水彩日记，"
-            "正是它偏爱的故事类型。Tokyo Weekender 与 Time Out Tokyo 都会定期报道"
-            "新锐画家在东京的首展。而《イラストレーション》杂志的季度大赛\"The Choice\"，"
-            "是日本插画界自身认可水彩创作的平台——入选会成为日本画廊认可的履历一笔。"
+            "你的作品已经被展示、被转载——接下来是让文字真正走进创作本身。"
+            "你手上最能打动编辑的东西就是那本日记：五年，一天一张，"
+            "同一座城市在同一个时刻被看了一遍又一遍。这是一个故事，而不是一份作品集。"
+            "下面三个地方，登的正是这样的故事。"
         ),
         "priority": "low",
-        "action":   "Pitch Colossal (submissions@thisiscolossal.com) with a short description and images of the daily-diary practice; watch for The Choice's next entry window.",
-        "action_zh": "向 Colossal 投稿（submissions@thisiscolossal.com），附上日记式创作的简介与图片；留意《The Choice》下一次的征集窗口。",
+        "action":   "Write the diary down as one paragraph — what it is, when it began, why every day — and send it to Colossal (submissions@thisiscolossal.com) with six images.",
+        "action_zh": "把这本日记写成一段话——它是什么、从什么时候开始、为什么每天都画——连同六张图片寄给 Colossal（submissions@thisiscolossal.com）。",
         "targets": [
             {
                 "name": "Colossal",
@@ -845,8 +880,8 @@ def _next_tier_levers(solo_shows: int, has_international: bool, has_jws: bool,
             },
             {
                 "name": "Tokyo Weekender",
-                "why": "Already runs the exact story shape \"a painter's first Tokyo solo\" for artists from abroad.",
-                "why_zh": "已经在报道\"来自海外的画家在东京的首次个展\"这类故事。",
+                "why": "Regularly covers painters from abroad showing in Tokyo — pitch three or four weeks before your next solo opens.",
+                "why_zh": "常报道旅日画家在东京的展览——下一场个展开幕前3-4周投稿正合适。",
                 "url": "https://www.tokyoweekender.com/contact-us/",
                 "window": "Pitch 3–4 weeks before a show",
                 "window_zh": "建议在展览开幕前3-4周投稿",

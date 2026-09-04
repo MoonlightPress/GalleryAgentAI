@@ -908,6 +908,85 @@ def _build_checklist(opp: dict) -> list:
     return items
 
 
+# ── Card prose hygiene (Scott, 2026-09-04 prose review) ──────────────────────
+# Three defects the review found in the three most-read sentences in the app
+# (Today's Focus). All fixed here at serve time so they survive a regeneration
+# and apply to every card, not just today's three.
+#
+#  1. The internal tier framework leaks onto her card face ("a Tier-1 way",
+#     "一级途径", "Tier1の道"). She has never heard of Tier 1; CLAUDE.md says the
+#     tier ladder is an engine-internal scoring concept and is never surfaced.
+#  2. The card ends on a negative ("…, not original paintings" / "…，而非原作绘画。"),
+#     against the project's no-negative-framing rule.
+#  3. The "why" is sometimes the summary again. The EN dedup existed; zh/ja
+#     didn't have one, so her Chinese card showed the same sentence twice.
+
+_TIER_JARGON_RE = re.compile(r"[Tt]ier[-\s]?[1-4]\b")
+_CJK_RE = re.compile(r"[぀-ヿ一-鿿]")
+
+_TIER_PHRASE_SWAPS = [
+    # zh: "…的实在一级途径" → "…的实在起点"; "…的一级途径" → "…的起点"
+    ("一级途径", "起点"), ("二级途径", "起点"), ("三级途径", "起点"), ("四级途径", "起点"),
+    # ja: "流通させるTier1の道" → "流通させる道"
+    ("Tier1の", ""), ("Tier2の", ""), ("Tier3の", ""), ("Tier4の", ""),
+    ("Tier 1の", ""), ("Tier 2の", ""), ("Tier 3の", ""), ("Tier 4の", ""),
+]
+
+# A closing clause that tells her what her work is *not*. Dropped when a real
+# sentence still remains — the positive half already carries the information.
+_TRAILING_NEGATIVE_RES = [
+    re.compile(r"[，,]\s*(?:而非|而不是|并非)[^。．.！!？?]*[。．.]?\s*$"),
+    re.compile(r"[；;]\s*(?:若|如果)[^；;。．.]*(?:较低|不高|不太契合|匹配度低)[^。．.]*[。．.]?\s*$"),
+    re.compile(r"[、,]\s*[^、。]*向きではありません[。．]?\s*$"),
+    re.compile(r"[^。．]*向きではありません[。．]?\s*$"),
+    re.compile(r"\s*[—–-]{1,2}\s*(?:not|rather than)\s+[^.;]*[.;]?\s*$", re.I),
+    re.compile(r"[,;]\s*(?:not|rather than)\s+[^.;]*[.;]?\s*$", re.I),
+]
+
+
+def _clean_card_prose(text: str) -> str:
+    """Strip engine-internal tier jargon and a trailing negative clause."""
+    if not text:
+        return ""
+    out = text
+    for old, new in _TIER_PHRASE_SWAPS:
+        out = out.replace(old, new)
+    out = _TIER_JARGON_RE.sub("", out)
+    for rx in _TRAILING_NEGATIVE_RES:
+        stripped = rx.sub("", out).strip()
+        # Only drop the negative if it actually matched and a real sentence
+        # survives it.
+        if stripped != out.strip() and len(stripped) >= 20:
+            # Restore the sentence stop the removed clause carried away.
+            if stripped[-1] not in "。．.!！?？":
+                stripped += "。" if _CJK_RE.search(stripped) else "."
+            out = stripped
+            break
+    # Tidy the seams left by removals: "a  way", a dangling ja connective, " 。"
+    out = re.sub(r"[、，,]+\s*([。．])", r"\1", out)
+    out = re.sub(r"で。\s*$", "です。", out)
+    out = re.sub(r"\s{2,}", " ", out)
+    out = re.sub(r"\s+([。．，,、；;])", r"\1", out)
+    out = re.sub(r"([（(])\s+", r"\1", out)
+    return out.strip().rstrip("—–-").strip()
+
+
+def _why_is_echo(why: str, summary: str) -> bool:
+    """True when the 'why it fits' is just the summary said again."""
+    a, b = (why or "").strip(), (summary or "").strip()
+    return bool(a) and bool(b) and a[:60] == b[:60]
+
+
+# Placeholder locations render as the English word "Unknown" on her Chinese
+# page. An unknown city is better shown as nothing at all.
+_CITY_PLACEHOLDERS = {"unknown", "n/a", "na", "tbd", "none", "not specified", "-"}
+
+
+def _display_city(opp: dict) -> str:
+    city = (opp.get("city") or "").strip()
+    return "" if city.lower() in _CITY_PLACEHOLDERS else city
+
+
 def shape_card(opp: dict) -> dict:
     category = opp.get("category", "")
     org      = opp.get("organization") or _opp_name(opp)
@@ -921,9 +1000,24 @@ def shape_card(opp: dict) -> dict:
     if category in _RELATIONSHIP_CATS and _deadline_date_in_past(opp):
         opp = {**opp, "deadline": "", "status": opp.get("status", "")}
 
-    why = opp.get("why_this_fits_short", "")
-    # why_card: shown on card face only when it adds something beyond the summary
-    why_card = why if (why and why[:60] != summary[:60]) else ""
+    why    = _clean_card_prose(opp.get("why_this_fits_short", ""))
+    why_zh = _clean_card_prose(opp.get("why_it_fits_zh", ""))
+    why_ja = _clean_card_prose(opp.get("why_it_fits_ja", ""))
+    summary_zh = opp.get("one_sentence_zh") or opp.get("summary_zh", "")
+    summary_ja = opp.get("one_sentence_ja") or opp.get("summary_ja", "")
+
+    # why_card: shown on card face only when it adds something beyond the summary.
+    # Decided once across all three languages — locF() falls back to the English
+    # `why_card` whenever `why_card_zh` is empty, so blanking one language alone
+    # would leak English onto her Chinese card.
+    _echoes = (
+        _why_is_echo(why, summary)
+        or _why_is_echo(why_zh, summary_zh)
+        or _why_is_echo(why_ja, summary_ja)
+    )
+    why_card    = "" if _echoes else why
+    why_card_zh = "" if _echoes else why_zh
+    why_card_ja = "" if _echoes else why_ja
     actionability = assess_actionability(opp)
 
     return {
@@ -933,7 +1027,7 @@ def shape_card(opp: dict) -> dict:
         "category":        category,
         "opportunity_type":      opp.get("opportunity_type", ""),
         "exclusive_primary_bucket": opp.get("exclusive_primary_bucket", ""),
-        "city":            opp.get("city", ""),
+        "city":            _display_city(opp),
         "country":         opp.get("country", ""),
         "deadline":        opp.get("deadline", ""),
         "fees":            _fees_value(opp),
@@ -956,17 +1050,17 @@ def shape_card(opp: dict) -> dict:
         "effort":          "",
         # Card text — English source + pre-translated variants
         "summary":         summary[:180],
-        "summary_zh":      opp.get("one_sentence_zh") or opp.get("summary_zh", ""),
-        "summary_ja":      opp.get("one_sentence_ja") or opp.get("summary_ja", ""),
+        "summary_zh":      summary_zh,
+        "summary_ja":      summary_ja,
         "overview":        summary,
         "overview_zh":     opp.get("one_sentence_zh", ""),
         "overview_ja":     opp.get("one_sentence_ja", ""),
         "why_card":        why_card,
-        "why_card_zh":     opp.get("why_it_fits_zh", ""),
-        "why_card_ja":     opp.get("why_it_fits_ja", ""),
+        "why_card_zh":     why_card_zh,
+        "why_card_ja":     why_card_ja,
         "why_it_fits":     why,
-        "why_it_fits_zh":  opp.get("why_it_fits_zh", ""),
-        "why_it_fits_ja":  opp.get("why_it_fits_ja", ""),
+        "why_it_fits_zh":  why_zh,
+        "why_it_fits_ja":  why_ja,
         "name_en":         _extract_english_name(name, opp.get("name_zh", "")),
         "name_zh":         opp.get("name_zh", ""),
         "name_ja":         opp.get("name_ja", ""),
