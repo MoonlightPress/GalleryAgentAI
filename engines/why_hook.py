@@ -52,9 +52,16 @@ STRONG_ANCHORS = (
     "group shows", "museum group", "美术馆", "美術館",
     # her situation
     "student", "学生", "在读",
-    # the cats that run through the work
-    "cats", "猫",
 )
+
+# Cats are NOT an anchor. They wander through the paintings, but her subject is
+# architecture and space — streets, buildings, interiors, the light in a room
+# she knows. The system has repeatedly absorbed cat signal from surface sources
+# (the Mochi illustration, the shop listings) and let it stand in for a reason;
+# "a cat-themed call" is a fact about the call, not a clause about her work.
+# Listed here so the exclusion stays deliberate rather than looking like a
+# forgotten entry.
+NOT_ANCHORS = ("cats", "cat-themed", "猫", "ネコ")
 
 # ── Practice words: only count when a second-person marker is beside them ──
 PRACTICE_WORDS = (

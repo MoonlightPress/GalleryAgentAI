@@ -16,6 +16,7 @@ from recommendation_readiness import assess_actionability, RELATIONSHIP_CATEGORI
 from engines.profile_sync import apply_peppercorn_edits
 from engines.why_hook import why_line_problem
 from engines.recurring_calendar_engine import build as build_recurring_calendar
+from engines.futures_engine import build as build_futures
 from engines.regen import spawn_draft_regen
 from engines.notify import notify_discord
 from engines.visit_tracking import (register_visit, describe_event, mark_visitor,
@@ -3506,6 +3507,11 @@ def get_saffron():
         # while every high-value door opens in 2027. This one is built
         # from recurrence, so it does not decay.
         "recurring_calendar":    build_recurring_calendar(),
+        # Five kinds of success, replacing the three "long-term scenarios"
+        # (Gallery / Publication / Both — where "both" was the obvious answer
+        # and she was already doing both). Standings computed from her live
+        # record so they cannot go stale the way authored copy did.
+        "futures":               build_futures(_load_json(DATA_DIR / "career_strategy_report.json", {}).get("career_evidence", {})),
         "press_features":        press_features,
         "collector_ecosystem":   collector_ecosystem,
         "collaboration_map":     collaboration_map,

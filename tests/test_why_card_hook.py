@@ -14,7 +14,7 @@ keeps one off the card face if it is shipped anyway.
 import unittest
 
 from engines.why_hook import has_personal_hook, is_boilerplate, why_line_problem
-from engines.why_it_fits_engine import MAX_WHY_CHARS, is_weak
+from engines.why_it_fits_engine import MAX_WHY_CHARS, is_weak, meta_problem, sanitize
 
 
 class HookDetectionTests(unittest.TestCase):
@@ -98,6 +98,65 @@ class GeneratorWeaknessTests(unittest.TestCase):
         self.assertTrue(weak)
         self.assertIn("too long", reason)
         self.assertGreater(len(opp["why_this_fits_short"]), MAX_WHY_CHARS)
+
+
+class SanitizeTests(unittest.TestCase):
+    """The card prints the model's text verbatim — so the model's asides print too."""
+
+    def test_a_trailing_character_count_is_stripped(self):
+        """Asking the model to count characters gets the count back in the answer."""
+        self.assertEqual(
+            sanitize("Your daily watercolor diary fits their shelf.\n\n(174 characters)"),
+            "Your daily watercolor diary fits their shelf.")
+        self.assertEqual(
+            sanitize("你的每日水彩日记正合适。（86字）"), "你的每日水彩日记正合适。")
+
+    def test_markdown_emphasis_is_stripped(self):
+        """The card renders plain text, so *Colour Diary* arrives with its asterisks."""
+        self.assertEqual(
+            sanitize("Your *Colour Diary* grew out of the daily pages."),
+            "Your Colour Diary grew out of the daily pages.")
+
+    def test_a_wrapping_quote_is_stripped(self):
+        self.assertEqual(sanitize('"Send 4-6 diary pages."'), "Send 4-6 diary pages.")
+
+    def test_a_clean_line_is_left_alone(self):
+        line = "Free to enter — send 4-6 pages from your daily watercolor diary."
+        self.assertEqual(sanitize(line), line)
+
+
+class MetaLineTests(unittest.TestCase):
+    """The line is advice from her app, never the app discussing its own data."""
+
+    def test_a_first_person_refusal_is_caught(self):
+        self.assertTrue(meta_problem(
+            "I cannot recommend this opportunity because the recorded deadline has passed "
+            "and I lack confirmation of a current cycle."))
+
+    def test_a_dead_deadline_lead_is_caught(self):
+        self.assertTrue(meta_problem(
+            "The deadline has already passed; contact them about the next cycle."))
+
+    def test_a_reviewer_note_is_caught(self):
+        self.assertTrue(meta_problem("Needs verification before recommendation."))
+        self.assertTrue(meta_problem("建议在推荐前进行核实。"))
+
+    def test_ordinary_advice_passes(self):
+        self.assertFalse(meta_problem(
+            "They take works on paper on consignment — email them a dummy from your daily "
+            "watercolor diary."))
+
+
+class CatsAreNotAnAnchorTests(unittest.TestCase):
+    """Her subject is architecture and space; cats wander through it incidentally."""
+
+    def test_a_cat_line_is_not_a_hook(self):
+        self.assertFalse(has_personal_hook("A cat-themed group show in Tokyo open to painters."))
+        self.assertFalse(has_personal_hook("面向猫主题绘画作品的公开征集。"))
+
+    def test_architecture_beside_a_possessive_still_is(self):
+        self.assertTrue(has_personal_hook(
+            "They show works on paper — your watercolors of quiet Tokyo architecture fit."))
 
 
 class ServeTimeGuardTests(unittest.TestCase):

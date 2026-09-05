@@ -23,7 +23,10 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 30%;
+  /* object-position is set inline per image from a measured focal point
+     (scripts/gen_hero_poem_tone.py). The old fixed 30%/28% was tuned for
+     the first illustration; the 2026-09-04 set sits at 49-61%, so a low
+     subject was being cropped off at the feet. */
   display: block;
 }
 
@@ -217,7 +220,7 @@
    (the full Today's Focus section renders right underneath anyway). ── */
 @media (max-width: 640px) {
   .hero { height: auto; min-height: 0; }
-  .hero-img { height: 190px; object-position: center 28%; }
+  .hero-img { height: 190px; }
   .hero-overlay {
     position: static;
     width: 100%;

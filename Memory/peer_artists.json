@@ -47,8 +47,8 @@
   {
     "name": "Cathy Read",
     "region": "UK",
-    "medium": "watercolor",
-    "fit_reason": "British architectural watercolorist known for Edinburgh and UK urban scenes. Has exhibited in London and internationally.",
+    "medium": "watercolor and acrylic ink",
+    "fit_reason": "British architectural watercolorist architectural subjects and UK urban scenes. Has exhibited in London and internationally.",
     "shared_traits": [
       "architecture and urban buildings",
       "watercolor medium",
@@ -71,21 +71,6 @@
       "watercolor medium"
     ],
     "use_as": "Reference for cross-cultural watercolor identity — Chinese training meeting international exhibition contexts.",
-    "fit_score": 0.0,
-    "overlap_terms": []
-  },
-  {
-    "name": "Japan Watercolor Society (日本水彩画会) exhibitors",
-    "region": "Japan",
-    "medium": "watercolor",
-    "fit_reason": "Annual national exhibition — Tier 3 credibility target. Contemporary Japanese watercolor practitioners working at the level she is building toward.",
-    "shared_traits": [
-      "Japan-based",
-      "watercolor medium",
-      "annual exhibition culture",
-      "national institutional credibility"
-    ],
-    "use_as": "Reference ecosystem for Japan active watercolor exhibition community.",
     "fit_score": 0.0,
     "overlap_terms": []
   },
@@ -114,6 +99,51 @@
       "publishing and teaching path"
     ],
     "use_as": "Community reference only. Do NOT use as stylistic reference or aesthetic comparison.",
+    "fit_score": 0.0,
+    "overlap_terms": []
+  },
+  {
+    "name": "Mateusz Urbanowicz",
+    "region": "Japan (Tokyo)",
+    "medium": "watercolor",
+    "fit_reason": "Tokyo architecture in watercolor - storefronts, streets, the city as an ongoing subject. Books with MdN (Tokyo Storefronts, Tokyo at Night); the series has passed 100,000 copies. Sells originals himself, no gallery.",
+    "shared_traits": [
+      "architecture and urban environments",
+      "Tokyo as subject",
+      "watercolor medium",
+      "books from a daily practice"
+    ],
+    "use_as": "Closest match for a city-as-subject watercolor practice that became books.",
+    "fit_score": 0.0,
+    "overlap_terms": []
+  },
+  {
+    "name": "Tatsuro Kiuchi (木内達朗)",
+    "region": "Japan (Tokyo)",
+    "medium": "digital / painterly illustration",
+    "fit_reason": "Atmospheric space for book jackets, editorial and advertising - Ikeido Jun's novels, the New York Times, Penguin, Uniqlo. Works without an agent; commissions come direct.",
+    "shared_traits": [
+      "atmosphere and quiet observation",
+      "Japan-based",
+      "illustration-side practice",
+      "interior and exterior space"
+    ],
+    "use_as": "Reference for the commissioned/editorial route, and proof it runs without an agent.",
+    "fit_score": 0.0,
+    "overlap_terms": []
+  },
+  {
+    "name": "Ohn Mar Win",
+    "region": "UK",
+    "medium": "watercolor / illustration",
+    "fit_reason": "Twenty-year practice across licensing and teaching. Publishes her own income breakdown: teaching 77%, licensing 3% - the clearest evidence available of what each route actually pays.",
+    "shared_traits": [
+      "watercolor medium",
+      "illustration-side practice",
+      "audience-funded income",
+      "self-published numbers"
+    ],
+    "use_as": "Evidence for what a course and a licensing practice really earn.",
     "fit_score": 0.0,
     "overlap_terms": []
   }

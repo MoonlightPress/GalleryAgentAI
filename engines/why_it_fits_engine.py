@@ -36,12 +36,17 @@ Flags:
   --dry-run       print what would be rewritten, call nothing, write nothing
   --force         with --only, rewrite the matches even if they already pass
                   (for when the prompt itself has changed)
+  --backlog       widen the scope from the card-face buckets to every entry
+                  that can reach her at all — the one-off catch-up run
+  --workers N     parallel model calls (default 1)
 """
 import sys
 import json
 import os
 import re
+import threading
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
@@ -74,6 +79,11 @@ TARGET_BUCKETS = {
 # bucket when a slot's own pool is thin (api.py get_today), so its strongest
 # few DO surface. Rewrite that head of the list and leave the tail alone.
 BUCKET_HEAD_ONLY = {"research_needed": 40}
+
+# Buckets api.load_opportunities() drops before anything is served. An entry in
+# one of these can never reach her, in any surface, so it is never worth a
+# model call — even in --backlog mode.
+NEVER_SERVED_BUCKETS = {"reject", "low_priority"}
 
 
 def _score(opp: dict) -> float:
@@ -147,7 +157,15 @@ def artist_facts() -> str:
         for e in solos[-3:]
     )
 
-    subjects = ", ".join((vp.get("dominant_subjects") or [])[:5])
+    # Her subject is architecture and space. Cats do appear in the paintings,
+    # but they are incidental — and the moment a cat is in the fact block, the
+    # model reaches for it, because "a cat" is the easiest concrete noun in the
+    # list. Drop them here so the reason a line gives is the reason that is
+    # actually true: streets, buildings, interiors, the light in a known room.
+    subjects = ", ".join(
+        s for s in (vp.get("dominant_subjects") or [])
+        if "cat" not in s.lower()
+    ) or ""
     book     = pubs[0].get("title") if pubs else ""
     missing  = [label for key, label in (
         ("has_representation", "gallery representation"),
@@ -172,7 +190,9 @@ def artist_facts() -> str:
     if book:
         lines.append(f"- Her one book so far: {book} — it grew out of the daily diary.")
     if subjects:
-        lines.append(f"- What she paints: {subjects}.")
+        lines.append(
+            f"- What she paints — architecture and space above all: {subjects}."
+        )
     if ev:
         lines.append(
             f"- Record: {ev.get('confirmed_group_shows', 0)} confirmed group shows, "
@@ -258,6 +278,54 @@ def _trim_to_sentence(text: str, limit: int) -> str:
     return text
 
 
+_CHAR_COUNT_RE = re.compile(
+    r"\s*[\(（]\s*\d+\s*(?:characters?|chars?|字符|个字|字|文字)\s*[\)）]\s*$", re.I)
+_EMPHASIS_RE = re.compile(r"\*{1,3}([^*\n]+?)\*{1,3}")
+
+
+def sanitize(text: str) -> str:
+    """Strip the two things the model adds that her card renders literally.
+
+    A prompt that says "count your characters" gets a character count back:
+    roughly one line in four came back ending "(217 characters)", which the
+    card prints as part of the sentence. And Markdown emphasis around a title
+    (*Colour Diary*) arrives on her page as asterisks, because the card renders
+    plain text, not Markdown.
+    """
+    text = (text or "").strip()
+    # Fenced/quoted whole-line output.
+    if len(text) > 1 and text[0] in "\"'“「" and text[-1] in "\"'”」":
+        text = text[1:-1].strip()
+    prev = None
+    while prev != text:                       # a count can trail a count
+        prev = text
+        text = _CHAR_COUNT_RE.sub("", text).strip()
+    text = _EMPHASIS_RE.sub(r"\1", text)
+    return text.strip()
+
+
+# Phrases that mean the model answered the SYSTEM instead of answering her.
+# "I cannot recommend this opportunity because the recorded deadline has passed"
+# is a note to a reviewer; on her page it is the app apologising to her in the
+# first person about its own data quality.
+_META_PATTERNS = (
+    r"\bi (?:cannot|can't|can not|am unable|don't|do not|would not|couldn't)\b",
+    r"\bas an ai\b",
+    r"\bthis opportunity (?:cannot|should not|needs)\b",
+    r"\b(?:needs|requires) verification\b",
+    r"\bverify before\b",
+    r"\bno actionable step\b",
+    r"\bthe (?:recorded )?deadline (?:has )?(?:already )?passed",
+    r"我无法|无法推荐|建议在推荐前",
+)
+_META_RE = re.compile("|".join(_META_PATTERNS), re.I)
+
+
+def meta_problem(text: str) -> bool:
+    """True when the line talks about the system's own limits instead of to her."""
+    return bool(_META_RE.search(text or ""))
+
+
 def build_prompt(opp: dict) -> str:
     title    = opp.get("title") or opp.get("name") or "Unknown"
     one_sent = opp.get("one_sentence") or ""
@@ -294,6 +362,9 @@ Compare any date you are about to write against today's date above. If the recor
 the past, or is a repeating annual round, do NOT tell her to act "before" it — the venue is either
 rolling or on its next cycle, so give her the step without the date ("email them a small zine
 dummy") instead of a deadline she has already missed. Cite a date only when it is still ahead.
+Do not NAME a past date at all, not even to report that it has gone ("the August 16 deadline has
+passed") — a date she cannot act on is noise, and opening on it wastes the line she reads first.
+Lead instead with what the venue takes, then give her the step.
 
 Write ONE to TWO sentences telling her, in plain practical terms, why this venue/opportunity is
 worth her attention RIGHT NOW. This is advice, not a description — it must help her decide whether
@@ -313,7 +384,10 @@ handed to any other artist. Anchor it in something real from the facts above:
   - her languages (Chinese first, Japanese at N2 — she can file a Japanese application unaided)
   - her situation (Chinese national living between Tokyo and Beijing; still a student)
   - her audience (the Instagram following the daily diary built)
-  - what she actually paints (Tokyo streets, quiet architecture, interiors and interior light, cats)
+  - what she actually paints: architecture and space — Tokyo streets, city corners, quiet
+    buildings, interiors and the light coming through a window she knows well
+Cats are NOT her subject. They pass through some of the paintings the way a passer-by does, and a
+line that leans on them describes the wrong artist. Never make a cat the reason.
 FORBIDDEN, because they are true of every artist alive: "a Tokyo gallery showing emerging artists",
 "suitable for watercolor and illustration artists", "open to international visual artists",
 "a good fit for emerging artists". A category word on its own ("watercolor", "Tokyo", "painting")
@@ -385,10 +459,30 @@ Never end on what her work is not or where it would not go ("not for original pa
 "rather than framed work", "而非原作绘画"). A trailing negative is both the least useful half of the
 sentence and the half she reads last. State the positive route and stop.
 
+=== NEVER WRITE ABOUT YOURSELF OR ABOUT THE DATA ===
+This line appears on her page as advice from her own app. Never use "I", never mention that you
+cannot recommend something, never comment on missing or stale information, and never open on the
+news that a deadline has passed. If the record is thin, write the honest practical step anyway
+("email them to ask what they take and when they next open") and stop there.
+
+=== PLAIN TEXT, AND THE SENTENCE ALONE ===
+Her card renders exactly what you write. So: no Markdown (no *asterisks* around a title), no
+quotation marks around the whole line, no preamble, and NEVER append a character count or any note
+about your own answer — "(174 characters)" is printed onto her card verbatim.
+
 Output the 1-2 sentences only, nothing else. Under {MAX_WHY_CHARS} characters."""
 
 
-def main(only=(), limit=0, dry_run=False, force=False):
+def _servable(opp: dict) -> bool:
+    """Can this entry reach her at all? Mirrors api.load_opportunities()."""
+    return (
+        opp.get("exclusive_primary_bucket") not in NEVER_SERVED_BUCKETS
+        and opp.get("status") != "permanently_closed"
+        and opp.get("recommendation_visibility") != "hidden"
+    )
+
+
+def main(only=(), limit=0, dry_run=False, force=False, backlog=False, workers=1):
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
         try:
@@ -426,10 +520,18 @@ def main(only=(), limit=0, dry_run=False, force=False):
     for i, opp in enumerate(opps):
         bucket     = opp.get("exclusive_primary_bucket", "")
         visibility = opp.get("recommendation_visibility", "show")
-        if bucket not in TARGET_BUCKETS and i not in head_ids:
-            continue
-        if visibility == "hidden":
-            continue
+        if backlog:
+            # Every entry that can reach her, not just the card-face buckets.
+            # The default scope is deliberately narrow because this engine runs
+            # on every pipeline pass; the backlog run is the one-off that clears
+            # the tail behind it.
+            if not _servable(opp):
+                continue
+        else:
+            if bucket not in TARGET_BUCKETS and i not in head_ids:
+                continue
+            if visibility == "hidden":
+                continue
         if only and not _matches_only(opp, only):
             continue
         weak, reason = is_weak(opp)
@@ -459,72 +561,123 @@ def main(only=(), limit=0, dry_run=False, force=False):
 
     updated = 0
     errors  = 0
+    done    = 0
+    lock    = threading.Lock()
 
-    for idx, (opp_idx, opp, reason) in enumerate(targets, 1):
-        title = opp.get("title") or opp.get("name") or "Unknown"
-        print(f"  [{idx:2d}/{len(targets)}] {title[:50]:<50} ({reason})", end=" ", flush=True)
-
+    def rewrite(job):
+        """Generate one line. Returns (opp_idx, new_why or None, note)."""
+        opp_idx, opp, reason = job
         prompt = build_prompt(opp)
-        try:
-            response = client.messages.create(
+        response = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=200,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        new_why = sanitize(response.content[0].text)
+        if not new_why or len(new_why) <= 20:
+            return opp_idx, None, "SKIPPED (empty response)"
+        # One retry when the line came back with nothing of her in it,
+        # or long enough that her card would cut it off. The hook is the
+        # whole point of the rewrite; shipping a second catalog sentence
+        # would leave the card exactly where it was.
+        notes = []
+        if meta_problem(new_why):
+            notes.append(
+                "Never write about yourself, your recommendation, or the state of the data — she "
+                "reads this line on her own page, and 'I cannot recommend this' is the app "
+                "apologising to her. Never open on a deadline having passed either. Write to her "
+                "in the second person about what this venue takes and what she could send them."
+            )
+        if why_line_problem(new_why):
+            notes.append(
+                "That sentence could have been written about any artist. Rewrite it so one "
+                "clause is unmistakably about her — her watercolor diary, her book, her "
+                "exhibition record, her languages, her Tokyo/Beijing life, or what she "
+                "actually paints."
+            )
+        if len(new_why) > MAX_WHY_CHARS:
+            notes.append(
+                f"It is also {len(new_why)} characters; her card cuts off after ~100. "
+                f"Cut it to under {MAX_WHY_CHARS} characters, keeping the clause about her "
+                "in the first sentence and dropping the rest."
+            )
+        if notes:
+            retry = client.messages.create(
                 model="claude-haiku-4-5-20251001",
                 max_tokens=200,
-                messages=[{"role": "user", "content": prompt}],
+                messages=[
+                    {"role": "user", "content": prompt},
+                    {"role": "assistant", "content": new_why},
+                    {"role": "user", "content":
+                     " ".join(notes) + " Output the sentence only."},
+                ],
             )
-            new_why = response.content[0].text.strip()
-            if new_why and len(new_why) > 20:
-                # One retry when the line came back with nothing of her in it,
-                # or long enough that her card would cut it off. The hook is the
-                # whole point of the rewrite; shipping a second catalog sentence
-                # would leave the card exactly where it was.
-                notes = []
-                if why_line_problem(new_why):
-                    notes.append(
-                        "That sentence could have been written about any artist. Rewrite it so one "
-                        "clause is unmistakably about her — her watercolor diary, her book, her "
-                        "exhibition record, her languages, her Tokyo/Beijing life, or what she "
-                        "actually paints."
-                    )
-                if len(new_why) > MAX_WHY_CHARS:
-                    notes.append(
-                        f"It is also {len(new_why)} characters; her card cuts off after ~100. "
-                        f"Cut it to under {MAX_WHY_CHARS} characters, keeping the clause about her "
-                        "in the first sentence and dropping the rest."
-                    )
-                if notes:
-                    retry = client.messages.create(
-                        model="claude-haiku-4-5-20251001",
-                        max_tokens=200,
-                        messages=[
-                            {"role": "user", "content": prompt},
-                            {"role": "assistant", "content": new_why},
-                            {"role": "user", "content":
-                             " ".join(notes) + " Output the sentence only."},
-                        ],
-                    )
-                    retried = retry.content[0].text.strip()
-                    if retried and len(retried) > 20:
-                        new_why = retried
-                new_why = _trim_to_sentence(new_why, MAX_WHY_CHARS)
-                opps[opp_idx]["why_this_fits_short"] = new_why
-                # The Chinese and Japanese lines were translated from the OLD
-                # sentence. content_translation_engine only asks whether a
-                # target field exists, so leaving them in place would keep her
-                # Chinese page on the sentence we just replaced. Clearing them
-                # is what makes the rewrite reach the language she reads.
-                for field in DERIVED_TRANSLATIONS:
-                    opps[opp_idx].pop(field, None)
-                updated += 1
-                print("ok" if not why_line_problem(new_why) else "ok (still generic)")
-            else:
-                print("SKIPPED (empty response)")
-        except Exception as e:
-            print(f"ERROR: {e}")
+            retried = sanitize(retry.content[0].text)
+            if retried and len(retried) > 20:
+                new_why = retried
+        new_why = _trim_to_sentence(new_why, MAX_WHY_CHARS)
+        if meta_problem(new_why):
+            # Twice asked and still writing about itself. Her existing line is
+            # weak, but a weak line is a weak line — the app talking about its
+            # own data quality on her card is a different and worse failure,
+            # and the serve-time guard already keeps weak lines off the face.
+            return opp_idx, None, "SKIPPED (meta/self-referential after retry)"
+        return opp_idx, new_why, "ok" if not why_line_problem(new_why) else "ok (still generic)"
+
+    def apply(opp_idx, new_why):
+        opps[opp_idx]["why_this_fits_short"] = new_why
+        # The Chinese and Japanese lines were translated from the OLD
+        # sentence. content_translation_engine only asks whether a
+        # target field exists, so leaving them in place would keep her
+        # Chinese page on the sentence we just replaced. Clearing them
+        # is what makes the rewrite reach the language she reads.
+        for field in DERIVED_TRANSLATIONS:
+            opps[opp_idx].pop(field, None)
+
+    def save():
+        OPP_PATH.write_text(json.dumps(opps, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    def record(job, result, exc):
+        """Log one finished job and fold it into the list. Holds the lock."""
+        nonlocal updated, errors, done
+        opp_idx, opp, reason = job
+        title = opp.get("title") or opp.get("name") or "Unknown"
+        done += 1
+        if exc is not None:
             errors += 1
+            print(f"  [{done:4d}/{len(targets)}] {title[:50]:<50} ERROR: {exc}", flush=True)
+            return
+        _, new_why, note = result
+        if new_why:
+            apply(opp_idx, new_why)
+            updated += 1
+            # A long backlog run that dies at entry 900 should not throw away
+            # 900 paid-for sentences; checkpoint as we go.
+            if updated % 50 == 0:
+                save()
+        print(f"  [{done:4d}/{len(targets)}] {title[:50]:<50} ({reason}) {note}", flush=True)
 
-        time.sleep(0.3)
+    if workers > 1:
+        with ThreadPoolExecutor(max_workers=workers) as pool:
+            futures = {pool.submit(rewrite, job): job for job in targets}
+            for fut in as_completed(futures):
+                job = futures[fut]
+                try:
+                    result, exc = fut.result(), None
+                except Exception as e:          # noqa: BLE001 — logged per entry
+                    result, exc = None, e
+                with lock:
+                    record(job, result, exc)
+    else:
+        for job in targets:
+            try:
+                result, exc = rewrite(job), None
+            except Exception as e:              # noqa: BLE001 — logged per entry
+                result, exc = None, e
+            record(job, result, exc)
+            time.sleep(0.3)
 
-    OPP_PATH.write_text(json.dumps(opps, ensure_ascii=False, indent=2), encoding="utf-8")
+    save()
     print(f"\nDone. {updated}/{len(targets)} entries updated. {errors} errors.")
     if updated:
         print("Cleared why_it_fits_zh / why_it_fits_ja on updated entries — "
@@ -548,5 +701,13 @@ if __name__ == "__main__":
     ap.add_argument("--force", action="store_true",
                     help="rewrite the --only matches even if their why already "
                          "passes (used when the prompt itself has changed)")
+    ap.add_argument("--backlog", action="store_true",
+                    help="widen the scope from the card-face buckets to EVERY "
+                         "entry that can reach her (skips reject/low_priority/"
+                         "hidden/closed) — the one-off catch-up run")
+    ap.add_argument("--workers", type=int, default=1,
+                    help="parallel model calls (default 1; 8 is comfortable for "
+                         "a backlog run)")
     args = ap.parse_args()
-    main(only=args.only, limit=args.limit, dry_run=args.dry_run, force=args.force)
+    main(only=args.only, limit=args.limit, dry_run=args.dry_run, force=args.force,
+         backlog=args.backlog, workers=args.workers)

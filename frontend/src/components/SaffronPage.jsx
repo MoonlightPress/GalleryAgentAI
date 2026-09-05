@@ -1380,6 +1380,89 @@ function PublicationLandscape({ data, t }) {
   )
 }
 
+// Five kinds of success, replacing the three "long-term scenarios".
+//
+// The old section asked her to choose between Gallery, Publication, and Both —
+// which isn't a choice, since "both" is the obvious answer and she has been
+// doing both concurrently for years. These have real tension instead: chasing
+// licensing is different daily work from chasing gallery shows.
+//
+// Nothing here prescribes a destination. She's self-taught, independent, and
+// runs everything herself; the section shows the range and lets her pick. Each
+// one leads with the life, gives the money plainly, lists kinds of things to
+// pursue rather than credentials to acquire, and puts the famous name last and
+// small. Collapsed by default — five futures open at once is a wall.
+const FT_LABELS = {
+  money:  { zh: '钱是怎么来的', ja: 'お金の入り方', en: 'How the money works' },
+  steps:  { zh: '这条路是靠什么长起来的', ja: 'この道の育て方', en: 'What builds it' },
+  you:    { zh: '你现在在哪里', ja: 'いまの立ち位置', en: 'Where you already are' },
+  living: { zh: '有人正在这样生活', ja: 'こう生きている人', en: 'Someone living it' },
+  more:   { zh: '展开 ▾', ja: '開く ▾', en: 'Open ▾' },
+  less:   { zh: '收起', ja: '閉じる', en: 'Close' },
+}
+const ftL = (k, lang) => FT_LABELS[k][lang] || FT_LABELS[k].en
+
+function Future({ f, lang }) {
+  const [open, setOpen] = useState(false)
+  const pick = (o) => (o && (o[lang] || o.en)) || ''
+  return (
+    <div className={`sf-future${open ? ' sf-future--open' : ''}`}>
+      <button className="sf-future-head" onClick={() => setOpen(o => !o)}>
+        <div>
+          <div className="sf-future-name">{pick(f.name)}</div>
+          <div className="sf-future-tagline">{pick(f.tagline)}</div>
+        </div>
+        <span className={`sf-chevron${open ? ' sf-chevron--open' : ''}`}>▾</span>
+      </button>
+      {open && (
+        <div className="sf-future-body">
+          <p className="sf-future-life">{pick(f.life)}</p>
+
+          <div className="sf-block-label">{ftL('money', lang)}</div>
+          <p className="sf-future-money">{pick(f.money)}</p>
+
+          <div className="sf-block-label">{ftL('steps', lang)}</div>
+          <ol className="sf-future-steps">
+            {f.steps.map((s, i) => <li key={i}>{pick(s)}</li>)}
+          </ol>
+
+          {f.standing && (
+            <div className="sf-future-standing">
+              <div className="sf-block-label">{ftL('you', lang)}</div>
+              <p>{pick(f.standing)}</p>
+            </div>
+          )}
+
+          <p className="sf-future-example">
+            <strong>{ftL('living', lang)}:</strong> {pick(f.example)}
+          </p>
+        </div>
+      )}
+    </div>
+  )
+}
+
+function Futures({ data, t, lang }) {
+  if (!data?.futures?.length) return null
+  const pick = (o) => (o && (o[lang] || o.en)) || ''
+  return (
+    <SectionShell
+      title={t('sf.sec.futures')}
+      subtitle={pick(data.note)}
+      summary={pick(data.note)}
+      trackId="futures"
+      // Open by default. The five cards inside are each collapsed, so leaving
+      // the section closed too would put two taps between her and any content —
+      // and she has clicked five times in nine days. One tap, never two.
+      defaultOpen
+    >
+      <div className="sf-futures">
+        {data.futures.map(f => <Future key={f.id} f={f} lang={lang} />)}
+      </div>
+    </SectionShell>
+  )
+}
+
 function LongTermScenarios({ data, t }) {
   // These are her three possible LIVES, not bets. We label them by FIT/alignment,
   // never probability — and no dream-path gets a red "unlikely" tag. Red (#b03020)
@@ -2647,8 +2730,17 @@ export default function SaffronPage({ nav }) {
                   <>
                     {SB('pathway', <StrategicPathway data={data.pathway} t={t} />)}
                     <SectionOpenContext.Provider value={false}>
-                      {SB('longterm', <TrackedSection page="observe" section="long_term_scenarios"><LongTermScenarios data={data.long_term_scenarios} t={t} /></TrackedSection>)}
-                      {SB('depmap',   <TrackedSection page="observe" section="career_unlock_tree"><CareerDependencyMap t={t} lang={lang} /></TrackedSection>)}
+                      {SB('futures', <TrackedSection page="observe" section="futures"><Futures data={data.futures} t={t} lang={lang} /></TrackedSection>)}
+                      {/* 职业解锁树 (CareerDependencyMap) removed 2026-09-05. It was the app's
+                          only career surface that never passed through an engine — a
+                          hand-authored constant that had gone stale and was still sending
+                          her to BankART1929 (ceased March 2025) and Cité Internationale
+                          (partner-nomination only, no Tokyo partner). Two surfaces naming
+                          different doors for the same goal, and the unverified one was the
+                          prettier. Its one good idea was causation, which now lives where
+                          decisions are actually made: the pathway steps above and the
+                          futures below. The component is left in place, unrendered, until
+                          its remaining copy has been mined. */}
                       {/* Open questions moved to the profile tab (compact, opt-in). */}
                     </SectionOpenContext.Provider>
                   </>

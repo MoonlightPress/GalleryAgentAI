@@ -2526,3 +2526,63 @@ a.sf-readiness-col-name:hover { color: #c47a35; text-decoration: underline; }
   font-family: Georgia, serif; font-size: 12px;
   color: #5a7a30; margin: 5px 0 0; letter-spacing: 0.01em;
 }
+
+/* ── Five futures ────────────────────────────────────────────────────────────
+   Kinds of success, not strategies. Collapsed by default: five open at once is
+   a wall, and the point is that she picks one to look at rather than reading a
+   syllabus. */
+.sf-futures { display: flex; flex-direction: column; gap: 10px; }
+
+.sf-future {
+  border: 1px solid #e6d9bd;
+  border-radius: 9px;
+  background: #fffdf7;
+  overflow: hidden;
+}
+.sf-future--open { background: #fffaf0; border-color: #d8c79a; }
+
+.sf-future-head {
+  width: 100%;
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  padding: 13px 15px;
+  background: none; border: none; cursor: pointer; text-align: left;
+}
+.sf-future-name {
+  font-family: Georgia, serif; font-size: 15px; font-weight: bold; color: #7a5030;
+}
+.sf-future-tagline {
+  font-family: Georgia, serif; font-size: 12.5px; font-style: italic;
+  color: #8a6f4a; margin-top: 3px; line-height: 1.45;
+}
+
+.sf-future-body { padding: 0 15px 15px; }
+.sf-future-life,
+.sf-future-money {
+  font-family: Georgia, serif; font-size: 13px; line-height: 1.7;
+  color: #4a3826; margin: 0 0 4px;
+}
+.sf-future-life { margin-bottom: 14px; }
+
+.sf-future-steps {
+  font-family: Georgia, serif; font-size: 13px; line-height: 1.65;
+  color: #4a3826; margin: 4px 0 14px; padding-left: 20px;
+}
+.sf-future-steps li { margin-bottom: 7px; }
+
+/* Where she already stands — computed from her real record, and the most
+   useful line in each card, so it gets the accent. */
+.sf-future-standing {
+  background: #f7f4e8; border-left: 3px solid #8fc98a;
+  border-radius: 0 7px 7px 0; padding: 10px 13px; margin-bottom: 12px;
+}
+.sf-future-standing p {
+  font-family: Georgia, serif; font-size: 12.5px; line-height: 1.65;
+  color: #3f5a34; margin: 0;
+}
+
+/* The famous name goes last and small — the life matters, not the celebrity. */
+.sf-future-example {
+  font-family: Georgia, serif; font-size: 12px; line-height: 1.6;
+  color: #7a5c3a; margin: 0; font-style: italic;
+}
+.sf-future-example strong { font-style: normal; }

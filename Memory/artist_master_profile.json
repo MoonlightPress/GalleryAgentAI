@@ -152,7 +152,8 @@
       "nft": -2.0
     },
     "japanese_level": "JLPT N2 confirmed; N1 likely passed but unconfirmed — applications should claim N2 unless she confirms N1",
-    "residence_status": "Student visa (留学), Japan. Time-limited and tied to enrolment — a status-of-residence change will be required to keep working in Japan after graduation."
+    "residence_status": "Student visa (留学), Japan. Time-limited and tied to enrolment — a status-of-residence change will be required to keep working in Japan after graduation.",
+    "subject_correction": "Scott, 2026-09-05: cats are NOT her subject - she just likes them. Her real skill and subject is ARCHITECTURE AND SPACE: urban environments, buildings, streets, interiors, the light in a familiar place. Cats appear incidentally and the system has been absorbing cat signal from surface sources (Bored Panda features, the Galerie LE MONDE cat-themed show). Weight architecture/space, not cats, when matching peers, opportunities and comparable careers."
   },
   "practice_context": {
     "community_root": "illustration",
@@ -615,6 +616,7 @@
         "count_listed": 8
       }
     },
-    "_correction": "2026-09-04: an earlier pass concluded from her public shop that she had no portfolio, website or email. She has these materials; they are simply not visible to this system. Absence from public sources is NOT absence. Do not generate replacements for materials she already owns - the system's value is analysis she lacks (CV ordering for a Japanese reader, eligibility mapping, break-even math), never re-making her own work."
+    "_correction": "2026-09-04: an earlier pass concluded from her public shop that she had no portfolio, website or email. She has these materials; they are simply not visible to this system. Absence from public sources is NOT absence. Do not generate replacements for materials she already owns - the system's value is analysis she lacks (CV ordering for a Japanese reader, eligibility mapping, break-even math), never re-making her own work.",
+    "_volume_caveat": "PRICES here are valid and usable. SALES VOLUME is not: shop order history does not represent market demand and must never be used to derive a conversion rate, an audience-monetisation estimate, or any 'your audience buys' claim. Real direct-sale demand is UNKNOWN. Any model needing a sell-through figure must take it as an explicit input, never infer one from shop history."
   }
 }

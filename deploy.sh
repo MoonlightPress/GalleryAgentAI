@@ -37,9 +37,23 @@ cp "$SCRIPT_DIR/requirements-api.txt"    "$OUT/app/"
 # crashes on import (502), same rule as recommendation_readiness above.
 # ibm_email_writer is what the draft-regen launches (not imported by the API).
 mkdir -p "$OUT/app/engines"
-for e in profile_sync.py regen.py notify.py visit_tracking.py geoip.py backups.py career_strategy_engine.py peppercorn_preference_engine.py ibm_email_writer.py usage_report.py; do
+for e in profile_sync.py why_hook.py recurring_calendar_engine.py futures_engine.py regen.py notify.py visit_tracking.py geoip.py backups.py career_strategy_engine.py peppercorn_preference_engine.py ibm_email_writer.py usage_report.py; do
     cp "$SCRIPT_DIR/engines/$e" "$OUT/app/engines/"
 done
+
+# Guard: every module api.py imports at startup must be in the package, or the
+# service dies on import and the site serves a 502 with a green deploy log.
+# That happened on 2026-09-05 — why_hook and recurring_calendar_engine were
+# added to api.py and not to the list above. Catch it here, not in production.
+missing=""
+for mod in $(grep -oE '^from engines\.[a-z_]+' "$SCRIPT_DIR/api.py" | sed 's/^from engines\.//' | sort -u); do
+    [ -f "$OUT/app/engines/$mod.py" ] || missing="$missing $mod.py"
+done
+if [ -n "$missing" ]; then
+    echo "ABORT: api.py imports engines not in the deploy package:$missing"
+    echo "       Add them to the engine list above, or the API will 502 on start."
+    exit 1
+fi
 
 # Opportunity data (the core dataset the API serves)
 mkdir -p "$OUT/app/deploy_data"

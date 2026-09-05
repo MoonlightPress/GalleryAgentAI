@@ -18,7 +18,8 @@ mean luminance.
 import json
 from pathlib import Path
 
-from PIL import Image, ImageStat
+import numpy as np
+from PIL import Image, ImageFilter, ImageStat
 
 ROOT = Path(__file__).resolve().parent.parent
 HERO_DIR = ROOT / "frontend" / "src" / "assets" / "heroes" / "mochi"
@@ -35,12 +36,31 @@ def poem_region_luminance(path: Path) -> float:
     return ImageStat.Stat(im.crop(box)).mean[0]
 
 
+def focal_y(path: Path) -> int:
+    """Where the subject actually sits vertically, as a percent.
+
+    The hero box is far squarer than a 3:1 painting, so object-fit: cover throws
+    away the top and bottom. Mobile had this pinned at 28% — tuned for the first
+    illustration, where the cat sits mid-frame on a desk. The paintings added
+    2026-09-04 put their subjects low, so a 28% focal point cropped them off at
+    the feet. Edge detail marks where the subject is (empty wash and sky have
+    none), sampled on the right where these compositions place it.
+    """
+    im = Image.open(path).convert("L")
+    w, h = im.size
+    right = im.crop((int(0.45 * w), 0, w, h)).filter(ImageFilter.FIND_EDGES)
+    rows = np.asarray(right, dtype=float).sum(axis=1)
+    centroid = float((rows * np.arange(h)).sum() / max(rows.sum(), 1)) / h
+    return int(round(max(0.35, min(0.75, centroid)) * 100))
+
+
 def main() -> None:
-    tone = {}
+    tone, focal = {}, {}
     for f in sorted(HERO_DIR.glob("*.webp")):
         lum = poem_region_luminance(f)
         tone[f.name] = "ink" if lum > LUMINANCE_SPLIT else "cream"
-        print(f"  {lum:6.1f}  {tone[f.name]:5}  {f.name}")
+        focal[f.name] = focal_y(f)
+        print(f"  {lum:6.1f}  {tone[f.name]:5}  focal {focal[f.name]:3}%  {f.name}")
 
     header = (
         "// GENERATED - do not hand-edit. Regenerate with scripts/gen_hero_poem_tone.py\n"
@@ -50,15 +70,26 @@ def main() -> None:
         "// (see HeroSection.css); that exact rectangle is sampled for mean luminance.\n"
     )
     fn = (
-        "\n\nexport function poemToneFor(url) {\n"
+        "\n\nfunction stemOf(url) {\n"
         "  const file = String(url || '').split('/').pop()?.split('?')[0] || ''\n"
         "  // Vite fingerprints filenames (mochi_day_03-B7XEVwCF.webp); match the stem.\n"
-        "  const stem = file.replace(/-[A-Za-z0-9_]{8,}\\.webp$/, '.webp')\n"
+        "  return { file, stem: file.replace(/-[A-Za-z0-9_]{8,}\\.webp$/, '.webp') }\n"
+        "}\n\n"
+        "export function poemToneFor(url) {\n"
+        "  const { file, stem } = stemOf(url)\n"
         "  return HERO_POEM_TONE[stem] || HERO_POEM_TONE[file] || 'ink'\n"
+        "}\n\n"
+        "// object-position Y for the hero crop, so a subject low in the frame is not\n"
+        "// cut off at the feet by a box far squarer than the painting.\n"
+        "export function focalYFor(url) {\n"
+        "  const { file, stem } = stemOf(url)\n"
+        "  return HERO_FOCAL_Y[stem] ?? HERO_FOCAL_Y[file] ?? 50\n"
         "}\n"
     )
     OUT.write_text(
-        header + "export const HERO_POEM_TONE = " + json.dumps(tone, indent=2) + fn,
+        header
+        + "export const HERO_POEM_TONE = " + json.dumps(tone, indent=2) + "\n\n"
+        + "export const HERO_FOCAL_Y = " + json.dumps(focal, indent=2) + fn,
         encoding="utf-8",
     )
     ink = sum(1 for v in tone.values() if v == "ink")
