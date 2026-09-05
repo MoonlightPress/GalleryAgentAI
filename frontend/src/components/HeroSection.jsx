@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import './HeroSection.css'
-import { mochiHeroSources, mochiHeroNightSources } from '../utils/heroImages'
+import { mochiDayPool, mochiNightPool } from '../utils/heroImages'
+import { poemToneFor } from '../utils/heroPoemTone'
 import { isNightNow } from '../utils/timeOfDay'
 import { useLanguage } from '../i18n/LanguageContext'
 import { POEM_COUNT } from '../i18n/translations'
@@ -12,7 +13,16 @@ export default function HeroSection() {
   // Evening → Mochi's fireworks illustration; the darker wall behind the poem
   // needs the light-text treatment (.hero--night), so pick both together at mount.
   const [night] = useState(() => isNightNow())
-  const hero = night ? mochiHeroNightSources : mochiHeroSources
+  // A different painting each visit, and a tap for the next one. The starting
+  // point stays random so an ordinary visit feels varied; stepping through is
+  // what makes the whole set reviewable without reloading.
+  const pool = night ? mochiNightPool : mochiDayPool
+  const [heroIdx, setHeroIdx] = useState(() => Math.floor(Math.random() * Math.max(1, pool.length)))
+  const heroUrl = pool.length ? pool[heroIdx % pool.length] : ''
+  const hero = { webp: heroUrl, png: heroUrl, width: 1920, height: 640 }
+  // Whether the verse reads depends on what is behind it, not on the hour:
+  // most of the night paintings are pale exactly where the poem sits.
+  const poemTone = poemToneFor(heroUrl)
 
   // Gently rotate the poem.
   useEffect(() => {
@@ -37,7 +47,11 @@ export default function HeroSection() {
       {/* WebP (≈0.12 MB) preferred, PNG (≈1.9 MB) fallback. Intrinsic dims reserve
           the box so the poem/layout doesn't shift in (CLS); high priority since
           it's the above-the-fold hero on her phone. */}
-      <picture>
+      <picture
+        onClick={() => pool.length > 1 && setHeroIdx(i => (i + 1) % pool.length)}
+        style={pool.length > 1 ? { cursor: 'pointer' } : undefined}
+        title={pool.length > 1 ? `${(heroIdx % pool.length) + 1} / ${pool.length}` : undefined}
+      >
         <source srcSet={hero.webp} type="image/webp" />
         <img
           src={hero.png}
@@ -49,7 +63,7 @@ export default function HeroSection() {
           decoding="async"
         />
       </picture>
-      <p lang={poemLang} className={`hero-poem hero-poem--${lang}${shown ? '' : ' hero-poem--out'}`}>{t(`mochi.poem.${poem}`)}</p>
+      <p lang={poemLang} className={`hero-poem hero-poem--${lang} hero-poem--${poemTone}${shown ? '' : ' hero-poem--out'}`}>{t(`mochi.poem.${poem}`)}</p>
     </section>
   )
 }

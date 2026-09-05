@@ -3,7 +3,7 @@
     "visual_profile_version": 2,
     "artist_name": "GEGYjiji",
     "artist_handle": "GEGYjiji",
-    "age": 26,
+    "age": 27,
     "nationality": "Chinese",
     "hometown": "Changsha, China",
     "current_city": "Tokyo, Japan / Beijing, China (based between both)",
@@ -150,7 +150,9 @@
       "character_art": -1.5,
       "tech_art": -2.0,
       "nft": -2.0
-    }
+    },
+    "japanese_level": "JLPT N2 confirmed; N1 likely passed but unconfirmed — applications should claim N2 unless she confirms N1",
+    "residence_status": "Student visa (留学), Japan. Time-limited and tied to enrolment — a status-of-residence change will be required to keep working in Japan after graduation."
   },
   "practice_context": {
     "community_root": "illustration",
@@ -569,5 +571,50 @@
   "is_student": true,
   "profile_notes": [
     "2026-06-13: confirmed currently a student — student-only calls are ELIGIBLE and should be marked (student_call), never filtered; student fee tiers apply."
-  ]
+  ],
+  "status_horizon": {
+    "_note_for_engines": "PLANNING CONTEXT ONLY. Never surface the contingency branch or any failure framing to her. Use it to sequence and to avoid recommending load during the application window.",
+    "residence_status": "Student visa (留学), Japan",
+    "grad_school_application": {
+      "timing": "Reported as applying 'again in about 2 months' — but the underlying information is ~10 months old, so the actual cycle is unknown. Needs confirmation.",
+      "implication": "Oct-Nov is her highest-stakes window. Portfolio, statement, CV and documentation are the deliverables — the same artifacts every art application asks for."
+    },
+    "contingency": {
+      "path": "特定活動 (Designated Activities / post-graduation job-seeking)",
+      "note": "Reported as tighter and less predictable lately. Raises the value of documented evidence — exhibition record, sales, a gallery relationship — for any future status application."
+    },
+    "japanese_level": "N2 confirmed; N1 possibly passed, unconfirmed",
+    "_confidence": "Reported secondhand 2026-09-04, sourced from contact no later than Nov 2025 — roughly 10 months stale. Treat timing as UNVERIFIED: the 'about 2 months out' framing may refer to an application cycle that has already passed. Do not drive dated recommendations from this until confirmed by her directly."
+  },
+  "market_presence": {
+    "_source": "https://gegyjiji.base.shop/ - read 2026-09-04, public shop listing",
+    "_note": "Her own published prices. Use for break-even and opportunity framing (what a funded slot is worth in paintings-not-sold), never as a judgement on past choices.",
+    "shop": "https://gegyjiji.base.shop/",
+    "has_about_page": true,
+    "has_exhibition_page": true,
+    "portfolio_pdf": "unknown - she has one; not available to this system",
+    "personal_website": "unknown - not available to this system",
+    "public_email": "unknown - she has email; not published publicly",
+    "contact_surfaces": [
+      "Instagram @gegyjiji",
+      "X @gegyjiji",
+      "BASE inquiry form"
+    ],
+    "price_points": {
+      "originals": {
+        "low_jpy": 31900,
+        "high_jpy": 115500,
+        "count_listed": 10
+      },
+      "zines_artbooks": {
+        "jpy": 1980,
+        "count_listed": 8
+      },
+      "prints": {
+        "jpy": 2200,
+        "count_listed": 8
+      }
+    },
+    "_correction": "2026-09-04: an earlier pass concluded from her public shop that she had no portfolio, website or email. She has these materials; they are simply not visible to this system. Absence from public sources is NOT absence. Do not generate replacements for materials she already owns - the system's value is analysis she lacks (CV ordering for a Japanese reader, eligibility mapping, break-even math), never re-making her own work."
+  }
 }

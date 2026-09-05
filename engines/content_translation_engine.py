@@ -59,6 +59,8 @@ SYSTEM = (
     "- For Japanese translations: if the opportunity name is already in Japanese, "
     "  keep it as-is for name_ja. Translate only English portions.\n"
     "- Keep translations concise — match the original length and tone.\n"
+    "- The reader is the artist herself. In Chinese address her as 你, never 您 — "
+    "  这是她自己的应用，语气是熟悉的，不是客服的。Japanese: plain あなた / no 敬語 stiffness.\n"
     "- three_bullets_zh and three_bullets_ja must be JSON arrays with the same "
     "  number of items as the input three_bullets.\n"
     "- Return ONLY a valid JSON array, no markdown, no explanation."

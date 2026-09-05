@@ -14,6 +14,8 @@ from fastapi.middleware.gzip import GZipMiddleware
 from pydantic import BaseModel
 from recommendation_readiness import assess_actionability, RELATIONSHIP_CATEGORIES
 from engines.profile_sync import apply_peppercorn_edits
+from engines.why_hook import why_line_problem
+from engines.recurring_calendar_engine import build as build_recurring_calendar
 from engines.regen import spawn_draft_regen
 from engines.notify import notify_discord
 from engines.visit_tracking import (register_visit, describe_event, mark_visitor,
@@ -977,6 +979,21 @@ def _why_is_echo(why: str, summary: str) -> bool:
     return bool(a) and bool(b) and a[:60] == b[:60]
 
 
+def _why_earns_its_place(why: str) -> bool:
+    """True when the why-line says something that could only be about her.
+
+    The companion rule to the echo check above, and the same defensive spirit:
+    the generator (engines/why_it_fits_engine.py) is supposed to write a clause
+    anchored in her practice or her record, but a catalog sentence can still
+    come back from a model, survive translation, and land on the first thing
+    she reads. A line with nothing of her in it — "open to international visual
+    artists in painting, drawing and mixed media" — tells her less than the
+    summary directly above it, so it is kept off the card face rather than
+    shipped. Blank, here, is honest; boilerplate is not.
+    """
+    return not why_line_problem(why)
+
+
 # Placeholder locations render as the English word "Unknown" on her Chinese
 # page. An unknown city is better shown as nothing at all.
 _CITY_PLACEHOLDERS = {"unknown", "n/a", "na", "tbd", "none", "not specified", "-"}
@@ -1015,9 +1032,18 @@ def shape_card(opp: dict) -> dict:
         or _why_is_echo(why_zh, summary_zh)
         or _why_is_echo(why_ja, summary_ja)
     )
-    why_card    = "" if _echoes else why
-    why_card_zh = "" if _echoes else why_zh
-    why_card_ja = "" if _echoes else why_ja
+    # Every language variant that exists must carry the her-specific clause.
+    # Chinese is the language she actually reads, so a hook that survives only
+    # in the English source is a hook she never sees — one weak variant blanks
+    # the card face in all three, exactly as the echo rule does.
+    _generic = any(
+        not _why_earns_its_place(text)
+        for text in (why, why_zh, why_ja) if (text or "").strip()
+    )
+    _drop = _echoes or _generic
+    why_card    = "" if _drop else why
+    why_card_zh = "" if _drop else why_zh
+    why_card_ja = "" if _drop else why_ja
     actionability = assess_actionability(opp)
 
     return {
@@ -2349,10 +2375,16 @@ def get_saffron():
                 f"你已经拥有 {_total_group_shows} 场联展、美术馆展览、个展（包括在东京），以及一次伦敦展出——根基已成。当下杠杆最高的下一步是画廊代理：一家替你销售、带你进入博览会、培育藏家群体的画廊。",
                 f"あなたはすでに {_total_group_shows} 件のグループ展、美術館での展示、個展（東京を含む）、そしてロンドンでの展示を持つ——土台はできている。次に効果が最も大きいのはギャラリーとの専属関係：あなたの代わりに販売し、フェアへ導き、コレクターを育てるギャラリー。",
             ),
+            # The first contact is an introduction, not an application — there is
+            # nothing in it to refuse, and whatever comes back is a spec you can
+            # build toward (Scott, 2026-09-04). Tokyo galleries have no submission
+            # boxes; the researched route is showing up, then writing. Named
+            # targets rather than "build relationships with galleries", which is
+            # advice she has already read and cannot act on.
             "next_move": _reg(
-                "Build relationships with commercial galleries whose program fits your work — representation grows from shows you already have, and brings art-fair access with it.",
-                "与项目方向契合你作品的商业画廊建立关系——代理关系会从你已有的展览中生长，并随之带来博览会的入口。",
-                "作品に合うプログラムを持つ商業ギャラリーと関係を築く——代理関係は既存の展示から育ち、アートフェアへの入口をもたらす。",
+                "Start with one email, not an application. Gallery Kogure (works@gallerykogure.com) is the closest match to your work on any Tokyo roster and takes direct contact; biscuit gallery's free \"grid next\" open call has taken a winner straight into a solo show. The first message introduces you and asks what they'd want to see — it doesn't ask for a show.",
+                "先发一封邮件，而不是一份申请。Gallery Kogure（works@gallerykogure.com）是目前在东京找到的、与你作品最契合的画廊，接受直接来信；biscuit gallery 的免费公开征集「grid next」曾让获奖者直接获得个展。第一封信只是自我介绍，并问问他们希望看到什么——不必开口要展览。",
+                "まずは応募ではなく、一通のメールから。Gallery Kogure（works@gallerykogure.com）は東京で見つかった中であなたの作品に最も近く、直接の連絡を受け付けています。biscuit gallery の無料公募「grid next」は、受賞者がそのまま個展に繋がっています。最初の一通は自己紹介と「何を見たいですか」の問いで十分——展示をお願いする必要はありません。",
             ),
             "shy_tips": _reg(SHY_TIPS_EN, SHY_TIPS_ZH, SHY_TIPS_JA),
         }
@@ -3469,6 +3501,11 @@ def get_saffron():
         "peppercorn_answers":    _answers,
         "career_benchmarks":     career_benchmarks,
         "seasonal_calendar":     seasonal_calendar,
+        # A year she can plan against. The scraped seasonal_calendar above
+        # only ever sees this quarter (231 items, nothing past December)
+        # while every high-value door opens in 2027. This one is built
+        # from recurrence, so it does not decay.
+        "recurring_calendar":    build_recurring_calendar(),
         "press_features":        press_features,
         "collector_ecosystem":   collector_ecosystem,
         "collaboration_map":     collaboration_map,

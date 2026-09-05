@@ -952,7 +952,79 @@ function localizeDeadline(raw, lang) {
   return raw
 }
 
-function SeasonalCalendar({ data, t, lang }) {
+// The doors that come round every year, ordered by how soon each opens.
+//
+// The month grid below this shows whatever the pipeline scraped — 231 dates
+// across four months, nothing past December, while every high-value door opens
+// in 2027. This shows about a dozen things instead, and each carries what to
+// have ready and by when, so a month with nothing open still has work in it.
+// Read-only by design: she clicks and reads, and has never used an input.
+const RC_LABELS = {
+  openNow:  { zh: '现在开着', ja: 'いま募集中', en: 'Open now' },
+  prepare:  { zh: '该开始准备了', ja: '準備を始める頃', en: 'Worth starting now' },
+  ready:    { zh: '要准备好的', ja: '用意しておくもの', en: 'Have ready' },
+  approx:   { zh: '时间为估计', ja: '時期は推定', en: 'timing approximate' },
+  always:   { zh: '常年开着', ja: '通年', en: 'Always open' },
+  months:   { zh: ['一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'],
+              ja: ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'],
+              en: ['January','February','March','April','May','June','July','August','September','October','November','December'] },
+  // Money means little to a painter as a number and a lot as paintings. This is
+  // a sentence about what a door hands over — never about what anything cost
+  // her. Her own shop prices (¥31,900–115,500) set the range.
+  worth:    { zh: (r) => `≈ ${r} 张不必卖掉的画`,
+              ja: (r) => `≈ ${r}点、売らずに済む絵`,
+              en: (r) => `≈ ${r} paintings you don't have to sell` },
+  worthKind:{ zh: (r) => `画材，约等于 ${r} 张画`,
+              ja: (r) => `画材、絵 ${r}点ぶん`,
+              en: (r) => `materials, about ${r} paintings' worth` },
+}
+const rcL = (k, lang) => RC_LABELS[k][lang] || RC_LABELS[k].en
+
+function RecurringDoors({ data, lang }) {
+  if (!data || !data.doors?.length) return null
+  const pick = (o) => (o && (o[lang] || o.en)) || ''
+  const worthLine = (d) => {
+    const key = d.amount_in_kind ? 'worthKind' : 'worth'
+    const fn = RC_LABELS[key][lang] || RC_LABELS[key].en
+    const p = d.in_paintings
+    return fn(p.same ? p.fewest : `${p.fewest}–${p.most}`)
+  }
+  return (
+    <div className="sf-doors">
+      {data.doors.map(d => (
+        <div key={d.id} className={`sf-door${d.open_now ? ' sf-door--open' : ''}`}>
+          <div className="sf-door-when">
+            {d.open_now
+              ? <span className="sf-door-badge sf-door-badge--open">{rcL('openNow', lang)}</span>
+              : <span className="sf-door-month">
+                  {rcL('months', lang)[d.opens_month - 1]}{d.certain ? '' : `（${rcL('approx', lang)}）`}
+                </span>}
+            {!d.open_now && d.preparing_now && (
+              <span className="sf-door-badge">{rcL('prepare', lang)}</span>
+            )}
+          </div>
+          <a className="sf-door-name sf-ext-link" href={d.url} target="_blank" rel="noreferrer">
+            {pick(d.name)} ↗
+          </a>
+          <p className="sf-door-gives">{pick(d.gives)}</p>
+          {d.in_paintings && <p className="sf-door-worth">{worthLine(d)}</p>}
+          <p className="sf-door-prep"><strong>{rcL('ready', lang)}:</strong> {pick(d.prepare)}</p>
+        </div>
+      ))}
+      {data.always_open?.map(a => (
+        <div key={a.id} className="sf-door sf-door--always">
+          <div className="sf-door-when"><span className="sf-door-badge">{rcL('always', lang)}</span></div>
+          <a className="sf-door-name sf-ext-link" href={a.url} target="_blank" rel="noreferrer">
+            {pick(a.name)} ↗
+          </a>
+          <p className="sf-door-gives">{pick(a.gives)}</p>
+        </div>
+      ))}
+    </div>
+  )
+}
+
+function SeasonalCalendar({ data, t, lang, recurring }) {
   const known = data.months.reduce((n, m) => n + m.opportunities.length, 0)
   const summary = t('sf.sum.calendarUnknown', { known, n: data.unknown_deadline_count, s: data.unknown_deadline_count !== 1 ? 's' : '' })
   const calMonths = t('cal.months')
@@ -1019,6 +1091,11 @@ function SeasonalCalendar({ data, t, lang }) {
       {selectedKey && (
         <button className="cal-clear-sel" onClick={() => setSelectedKey(null)}>{t('cal.showAll')}</button>
       )}
+
+      {/* Under the month grid: the dozen doors that come round every year, each
+          with a lead time. The grid answers "what's dated this month"; this
+          answers "what's coming and what should already be underway". */}
+      <RecurringDoors data={recurring} lang={lang} />
 
       {/* The comprehensive list (Scott: keep it — now with links + localized names). */}
       {data.months.length === 0 ? (
@@ -2601,7 +2678,7 @@ export default function SaffronPage({ nav }) {
                 )}
                 {tab === 'calendar' && (
                   <>
-                    {SB('calendar', <SeasonalCalendar data={data.seasonal_calendar} t={t} lang={lang} />)}
+                    {SB('calendar', <SeasonalCalendar data={data.seasonal_calendar} t={t} lang={lang} recurring={data.recurring_calendar} />)}
                     <SectionOpenContext.Provider value={false}>
                       {SB('timing', <TimingIntelligence data={data.timing_intelligence} t={t} />)}
                     </SectionOpenContext.Provider>

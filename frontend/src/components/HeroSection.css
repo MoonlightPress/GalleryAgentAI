@@ -92,12 +92,22 @@
 }
 .hero-poem--out { opacity: 0; }
 
-/* Night hero: the left wall is a warm, dim brown (luminance ~90), so the dark
-   daytime ink loses contrast. Switch the verse to a soft cream with a low shadow
-   so it reads cleanly against the fireworks-lit wall. */
-.hero--night .hero-poem {
+/* The verse is set over the painting, so legibility depends on the painting —
+   not on the hour. This was keyed to .hero--night, which worked only while the
+   single night illustration had a dim brown wall behind the verse (luminance
+   ~90). Twelve of the fifteen night paintings added 2026-09-04 are pale in that
+   same corner (200+), and cream on cream is unreadable.
+   The tone is now measured per image: see scripts/gen_hero_poem_tone.py, which
+   samples this element's exact rectangle and writes utils/heroPoemTone.js.
+   Both variants carry a shadow — watercolor is textured, and even correct
+   contrast needs a little separation from the brushwork. */
+.hero-poem--cream {
   color: #f6ead2;
   text-shadow: 0 1px 6px rgba(20, 12, 8, 0.55);
+}
+.hero-poem--ink {
+  color: #4a3826;
+  text-shadow: 0 1px 5px rgba(255, 252, 244, 0.75);
 }
 
 /* English translations run much longer than a Chinese couplet — scale them down
