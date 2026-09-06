@@ -284,24 +284,54 @@ _GALLERIES = [
                    _t("¥0", "0")]},
         {"cells": [_t("Moon Gallery rental", "Moon Gallery 租赁"), _t("¥100,000 / 5 days", "10 万 / 5 天"),
                    _t("0%", "0%"), _t("about one painting", "约一张画")]},
-        {"cells": [_t("Galerie LE MONDE rental", "Galerie LE MONDE 租赁"),
+        # NOT "rental". The gallery states plainly that it is 「場所貸し」ではない
+        # — the director picks who shows, from the work and from recommendations
+        # by illustrators already showing there. Filing her show under "rental"
+        # priced a selection as a room booking (Scott, 2026-09-07; confirmed at
+        # galerielemonde.com/about and in the 2023 GENSEKI interview).
+        {"cells": [_t("Galerie LE MONDE, 12-day solo", "Galerie LE MONDE，12 天个展"),
                    _t("¥374,000 / 12 days", "37.4 万 / 12 天"), _t("30%", "30%"),
                    _t("about six paintings", "约六张画")]},
      ]},
 
     {"kind": "prose", "text": _t(
-        "A 50% gallery commission can look large in isolation. Against a ¥374,000 room fee plus "
-        "30%, representation is cheaper until the rental exhibition reaches about ¥1.87 million "
-        "in sales.\n\n"
+        "A 50% gallery commission can look large in isolation. Against a ¥374,000 fee plus 30%, "
+        "representation is cheaper until that exhibition reaches about ¥1.87 million in sales.\n\n"
+        "That comparison covers the money and misses what the fee bought at LE MONDE. The gallery "
+        "chooses who shows: the director picks illustrators from the work itself and from "
+        "recommendations by illustrators already showing there, and says he is looking at whether "
+        "somebody connects to a particular kind of commercial job. The dates came with being "
+        "chosen.\n\n"
         "The more important difference is who brings the buyers.\n\n"
         "So far, people buying your work have largely found you. Representation adds a collector "
         "base belonging to somebody else.",
 
-        "单看 50% 的抽成会觉得高。但对着 374,000 日元的场租再加 30% 来算，代理一直更便宜，"
-        "直到那场租来的展卖到约 187 万日元为止。\n\n"
+        "单看 50% 的抽成会觉得高。对着 374,000 日元的费用再加 30% 来算，代理一直更便宜，"
+        "直到那场展卖到约 187 万日元为止。\n\n"
+        "这个比法算清了钱，却漏掉了在 LE MONDE 那笔费用换到的东西。那家画廊挑人："
+        "主理人从作品本身、以及已经在那里办展的插画家的推荐里选人，"
+        "并且说他看的是这个人能接上哪一类商业工作。档期是跟着「被选中」一起来的。\n\n"
         "更要紧的分别在于：买家是谁带来的。\n\n"
         "到现在为止，买你画的人基本上是自己找上门的。代理带来的，"
         "是一份原本属于别人的藏家名单。")},
+
+    # The find of 2026-09-07. Same director, same address, two more businesses,
+    # and she has already been through the gallery door. The agency line says
+    # "not recruiting" because the site says so — a route stated as open when it
+    # is closed is the failure this file keeps catching.
+    {"kind": "links", "label": _t("The same address, three businesses",
+                                  "同一个地址，三门生意"),
+     "items": [
+        {"name": _t("Agence LE MONDE — the illustration agency the gallery's director also runs. Roster of about ten; clients include McDonald's, Asahi, Mizuho, ANNA SUI, GUCCI, Quarto and Pokémon. Every illustrator on it showed at the gallery first. The site says it is not recruiting at the moment.",
+                    "Agence LE MONDE——画廊主理人同时经营的插画经纪公司。代理约十位；客户包括麦当劳、朝日啤酒、瑞穗银行、ANNA SUI、GUCCI、Quarto、宝可梦。名单上的每一位都是先在画廊办过展。网站写明目前不招募。"),
+         "url": "https://www.agencelemonde.com/"},
+        {"name": _t("Studio LE MONDE — risograph studio in the same building, open since September 2023. Tuesday to Sunday, 12:00–19:00, printing booked as a session with staff. contact@studiolemonde.com",
+                    "Studio LE MONDE——同一栋楼里的孔版印刷工作室，2023 年 9 月起。周二至周日 12:00–19:00，印刷按有工作人员在场的时段预约。contact@studiolemonde.com"),
+         "url": "https://www.studiolemonde.com/"},
+        {"name": _t("Galerie LE MONDE — exhibition enquiries go by email, then a usage form. Six days ¥198,000, twelve days ¥374,000. hello@galerielemonde.com",
+                    "Galerie LE MONDE——办展先发邮件谈，再填使用申请表。六天 198,000 日元，十二天 374,000 日元。hello@galerielemonde.com"),
+         "url": "https://www.galerielemonde.com/about"},
+     ]},
 
     {"kind": "prose", "label": _t("The next move", "下一步"),
      "text": _t(

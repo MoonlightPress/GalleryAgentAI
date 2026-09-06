@@ -138,13 +138,21 @@ The economics are unusually clear.
 |---|---|---|---|
 | Representing gallery | ¥0 | about 50% | ¥0 |
 | Moon Gallery rental | ¥100,000 / 5 days | 0% | about one painting |
-| Galerie LE MONDE rental | ¥374,000 / 12 days | 30% | about six paintings |
+| Galerie LE MONDE, 12-day solo | ¥374,000 / 12 days | 30% | about six paintings |
 
-A 50% gallery commission can look large in isolation. Against a ¥374,000 room fee plus 30%, representation is cheaper until the rental exhibition reaches about ¥1.87 million in sales.
+A 50% gallery commission can look large in isolation. Against a ¥374,000 fee plus 30%, representation is cheaper until that exhibition reaches about ¥1.87 million in sales.
+
+That comparison covers the money and misses what the fee bought at LE MONDE. The gallery chooses who shows: the director picks illustrators from the work itself and from recommendations by illustrators already showing there, and says he is looking at whether somebody connects to a particular kind of commercial job. The dates came with being chosen.
 
 The more important difference is who brings the buyers.
 
 So far, people buying your work have largely found you. Representation adds a collector base belonging to somebody else.
+
+### The same address, three businesses
+
+- [Agence LE MONDE — the illustration agency the gallery's director also runs. Roster of about ten; clients include McDonald's, Asahi, Mizuho, ANNA SUI, GUCCI, Quarto and Pokémon. Every illustrator on it showed at the gallery first. The site says it is not recruiting at the moment.](https://www.agencelemonde.com/)
+- [Studio LE MONDE — risograph studio in the same building, open since September 2023. Tuesday to Sunday, 12:00–19:00, printing booked as a session with staff. contact@studiolemonde.com](https://www.studiolemonde.com/)
+- [Galerie LE MONDE — exhibition enquiries go by email, then a usage form. Six days ¥198,000, twelve days ¥374,000. hello@galerielemonde.com](https://www.galerielemonde.com/about)
 
 ### The next move
 
