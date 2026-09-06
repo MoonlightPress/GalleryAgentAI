@@ -69,15 +69,23 @@ The five routes below do different versions of that.
 
 About 26,000 followers and a shop already running, with a price ladder that stops at ¥2,200 and starts again at ¥31,900.
 
+### What this is
+
+Nothing on this route needs building. The shop runs, the work exists, and about 26,000 people already follow it. Everything sells at your own price, and what is left after cost and postage stays with you. The part that has never been tested is the middle of the ladder — zines at ¥1,980, originals from ¥31,900, and a gap between them that no product currently occupies.
+
+### What it gives you that the others don't
+
+A follower count does not predict sales. Across the paired cases that could be checked, the share of an audience that actually bought ran from 0.26% to 15.8%, and the largest audience of the set converted worst — so the size of the number is not what decides this. Price is. A Tokyo illustrator with 27,000 followers, about your reach, published an art book at ¥11,000 and sold 400 copies in four months, roughly ¥4 million, at a price that sits exactly in your empty middle.
+
+Two smaller levers decide most of the rest. Where those 26,000 live changes the arithmetic more than how many they are, since air mail runs ¥2,720 a kilo to the US against ¥185 across Tokyo, and that split is one figure inside your own Instagram insights. And anything under three centimetres thick is worth ¥465 on every domestic parcel — decided at the design stage, before anything is printed.
+
+### What you'd be taking on
+
+All of it stays yours: the listing, the photography, the packing, the postage, the customer emails, and the stock in the room. Volume comes from your own audience and from nowhere else, so a quiet month is quiet everywhere at once. A print run buys the better margin by taking on the risk — the copies that do not sell were paid for in advance.
+
 ### Fill the gap between ¥2,200 and ¥31,900
 
-You already sell successfully at both ends: postcards, zines and prints at ¥1,100–2,200, then originals beginning at ¥31,900.
-
-The missing part is the middle.
-
-Someone who has bought a zine and a print has no way to spend ¥5,000, ¥10,000 or ¥20,000 with you. The next purchase available is an original.
-
-The easiest test is to add that middle without buying inventory first.
+You already sell successfully at both ends: postcards, zines and prints at ¥1,100–2,200, then originals beginning at ¥31,900. The missing part is the middle. Someone who has bought a zine and a print has no way to spend ¥5,000, ¥10,000 or ¥20,000 with you. The next purchase available is an original. The easiest test is to add that middle without buying inventory first.
 
 ### Start with three products
 
@@ -87,21 +95,13 @@ The easiest test is to add that middle without buying inventory first.
 | A1 poster | ¥5,000 | ¥2,268 | 43% |
 | Framed giclée, A4 | ¥20,000 | ¥7,507 | 38% |
 
-List them through on-demand production first. Each copy is made only when somebody orders it, so the test requires no print run and no storage.
+List them through on-demand production first. Each copy is made only when somebody orders it, so the test requires no print run and no storage. The margin is lower than printing yourself. That is useful at this stage: the printer is carrying the inventory risk while you find out whether the product has a market.
 
-The margin is lower than printing yourself. That is useful at this stage: the printer is carrying the inventory risk while you find out whether the product has a market.
-
-For products that already sell reliably, your existing model is better. A ten-pack of postcards costs about ¥170 when printed in a run of one hundred, against ¥1,835 on demand. Keep those in-house.
-
-If one of the new formats begins selling consistently, batch production becomes the second step.
+For products that already sell reliably, your existing model is better. A ten-pack of postcards costs about ¥170 when printed in a run of one hundred, against ¥1,835 on demand. Keep those in-house. If one of the new formats begins selling consistently, batch production becomes the second step.
 
 ### The book is a different decision
 
-A 128-page hardcover printed in China costs ¥394,500 for 300 copies. At ¥4,950 each, the production cost is recovered after 109 sales.
-
-That leaves 191 copies after break-even.
-
-The question is therefore demand and speed, rather than margin.
+A 128-page hardcover printed in China costs ¥394,500 for 300 copies. At ¥4,950 each, the production cost is recovered after 109 sales. That leaves 191 copies after break-even. The question is therefore demand and speed, rather than margin.
 
 |   | Each | Up front | Sells for | Production cost recovered at |
 |---|---|---|---|---|
@@ -110,9 +110,7 @@ The question is therefore demand and speed, rather than margin.
 | A4 softcover, 128pp | ¥1,306 | ¥653,000 / 500 | ¥4,400 | 212 |
 | Hardcover, 128pp, China | ¥1,315 | ¥394,500 / 300 | ¥4,950 | 109 |
 
-For a book intended as a product, the Chinese hardcover has the strongest economics of the formats checked.
-
-For a book intended to open another door, make three copies instead. Three Blurb copies cost about ¥31,000 and can go directly to a publisher, gallery or shop buyer. Colour Diary has already shown that a finished book can function this way.
+For a book intended as a product, the Chinese hardcover has the strongest economics of the formats checked. For a book intended to open another door, make three copies instead. Three Blurb copies cost about ¥31,000 and can go directly to a publisher, gallery or shop buyer. Colour Diary has already shown that a finished book can function this way.
 
 ### Where
 
@@ -126,13 +124,23 @@ For a book intended to open another door, make three copies instead. Three Blurb
 
 3 solo shows and 8 group shows, the most recent at Galerie LE MONDE in Harajuku.
 
+### What this is
+
+A gallery funds the show, takes a commission and finds the buyers. Its own income depends on collectors who come back, so the people it introduces you to are people it expects to keep — which is why representation tends to raise what a single painting sells for rather than only how many sell.
+
+### What it gives you that the others don't
+
+The difference that matters is the direction the money runs: in a rental you pay for the room, and here the gallery pays for the show. Prices rise for a structural reason as well, since the person arguing for yours makes their own living from it.
+
+A third arrangement sits between the two and is worth more than either — an open call that pays the artist to exhibit. TOKAS gives ¥150,000 toward the work and charges nothing for the venue. And standing on this route carries into the other four: an exhibition record is the one credential a publisher, an art director and a licensing buyer all read the same way.
+
+### What you'd be taking on
+
+Roughly half of each sale, and a say in what shows and when. Representation is also slow to start: the route in is attendance, then a letter, then months. And a gallery's attention follows its own programme, so a quiet year on their side is a quiet year on yours.
+
 ### Find a gallery that carries the exhibition risk
 
-You already know how to organise a solo show. You have done it three times.
-
-The next useful gallery relationship is one that contributes something you currently supply yourself: the room, staffing, collectors, sales work and financial risk.
-
-The economics are unusually clear.
+You already know how to organise a solo show. You have done it three times. The next useful gallery relationship is one that contributes something you currently supply yourself: the room, staffing, collectors, sales work and financial risk. The economics are unusually clear.
 
 |   | You pay | They take | Sales needed before you are even |
 |---|---|---|---|
@@ -140,13 +148,7 @@ The economics are unusually clear.
 | Moon Gallery rental | ¥100,000 / 5 days | 0% | about one painting |
 | Galerie LE MONDE, 12-day solo | ¥374,000 / 12 days | 30% | about six paintings |
 
-A 50% gallery commission can look large in isolation. Against a ¥374,000 fee plus 30%, representation is cheaper until that exhibition reaches about ¥1.87 million in sales.
-
-That comparison covers the money and misses what the fee bought at LE MONDE. The gallery chooses who shows: the director picks illustrators from the work itself and from recommendations by illustrators already showing there, and says he is looking at whether somebody connects to a particular kind of commercial job. The dates came with being chosen.
-
-The more important difference is who brings the buyers.
-
-So far, people buying your work have largely found you. Representation adds a collector base belonging to somebody else.
+A 50% gallery commission can look large in isolation. Against a ¥374,000 fee plus 30%, representation is cheaper until that exhibition reaches about ¥1.87 million in sales. That comparison covers the money and misses what the fee bought at LE MONDE. The gallery chooses who shows: the director picks illustrators from the work itself and from recommendations by illustrators already showing there, and says he is looking at whether somebody connects to a particular kind of commercial job. The dates came with being chosen. The more important difference is who brings the buyers. So far, people buying your work have largely found you. Representation adds a collector base belonging to somebody else.
 
 ### The same address, three businesses
 
@@ -156,9 +158,7 @@ So far, people buying your work have largely found you. Representation adds a co
 
 ### The next move
 
-Choose a small number of galleries where the work genuinely fits the programme.
-
-Visit first. Then send five paintings from one coherent series and ask whether they would be interested in seeing the work in person.
+Choose a small number of galleries where the work genuinely fits the programme. Visit first. Then send five paintings from one coherent series and ask whether they would be interested in seeing the work in person.
 
 ### The immediate targets found in Tokyo are:
 
@@ -170,11 +170,7 @@ This is a narrower list than a directory of Tokyo galleries. That is useful. Gal
 
 ### The first letter
 
-The first contact only has to make the work easy to look at.
-
-Use one link, five paintings from one series and one specific sentence showing why that gallery was chosen.
-
-For Gallery Kogure:
+The first contact only has to make the work easy to look at. Use one link, five paintings from one series and one specific sentence showing why that gallery was chosen. For Gallery Kogure:
 
 ```
 件名：作品を見ていただけますでしょうか — 水彩・GEGYjiji
@@ -215,13 +211,23 @@ GEGYjiji
 
 Six years of images already made, and an archive that has so far been sold one way: as originals.
 
+### What this is
+
+Quiet money. An image is licensed for a defined use — stationery, homeware, packaging, book covers, brands — and the company licensing it handles manufacture, distribution and sale. The originals stay yours throughout; what changes hands is permission, for a stated place and a stated length of time.
+
+### What it gives you that the others don't
+
+It is the only one of the five that pays more than once for the same image; everywhere else a thing is made and then sold once. Nothing here asks for new painting, and public recognition is not part of the arrangement, so it suits a practice that wants to keep painting and manage as little else as possible.
+
+It is also the route least affected by where you live or what your visa says, since the buyer is a company anywhere and the goods are files. And architecture and cityscape reach buyers character work does not: interiors, hospitality, stationery, publishing, travel.
+
+### What you'd be taking on
+
+The money arrives on somebody else's schedule and in somebody else's volumes. The one illustrator publishing her actual income split has a twenty-year licensing practice with M&S, John Lewis and Unilever, and licensing is 3% of what she earns. The terms are where the value sits, and an unlimited buyout signed across a body of work removes the ability to license it again — the one mistake on this route that costs years rather than yen.
+
 ### Let the archive earn again
 
-Licensing has one unusual advantage for you: the inventory already exists.
-
-Six years of daily painting is thousands of images that can potentially produce income while the originals remain yours.
-
-The value depends primarily on where and how an image is used:
+Licensing has one unusual advantage for you: the inventory already exists. Six years of daily painting is thousands of images that can potentially produce income while the originals remain yours. The value depends primarily on where and how an image is used:
 
 | Use | Published rate |
 |---|---|
@@ -230,23 +236,11 @@ The value depends primarily on where and how an image is used:
 | Magazine cover | ¥100,000 |
 | Calendar | ¥800,000 |
 
-That makes the licence terms as important as the fee: format, territory, duration, exclusivity and reuse.
-
-Copyright transfer is priced at roughly two to three times a normal licence in the published Japanese rate card. Keep that distinction explicit whenever a buyer asks for permanent rights.
+That makes the licence terms as important as the fee: format, territory, duration, exclusivity and reuse. Copyright transfer is priced at roughly two to three times a normal licence in the published Japanese rate card. Keep that distinction explicit whenever a buyer asks for permanent rights.
 
 ### Make a small cover-ready series
 
-Your subject matter already fits the book market: architecture, atmosphere, interiors, weather, light and quiet urban scenes.
-
-The compositional requirement is the part worth designing for.
-
-Covers need room for typography and cropping. Paint a small group vertically, with intentional quiet areas — sky, fog, water, wall, shadow or an open upper third.
-
-That gives art directors images they can actually build a cover around while keeping the work recognisably yours.
-
-Five to ten paintings would be enough to create the beginning of a licensing portfolio.
-
-Then place them where art directors already look:
+Your subject matter already fits the book market: architecture, atmosphere, interiors, weather, light and quiet urban scenes. The compositional requirement is the part worth designing for. Covers need room for typography and cropping. Paint a small group vertically, with intentional quiet areas — sky, fog, water, wall, shadow or an open upper third. That gives art directors images they can actually build a cover around while keeping the work recognisably yours. Five to ten paintings would be enough to create the beginning of a licensing portfolio. Then place them where art directors already look:
 
 - [イラストレーションファイルWeb — Japanese art directors and book designers](https://www.illustration-file.com/)
 - [amanaimages — Japanese stock licensing; published cover licences are ¥33,000–79,200](https://amanaimages.com/)
@@ -261,15 +255,23 @@ This route can begin with work you already own and expand through paintings desi
 
 8 zines, 2 publications, and six years of daily work to build a book from.
 
+### What this is
+
+Books as the object — bought because they are books, sitting in shops and on shelves with an ISBN and a distributor behind them. With a publisher, they finance the print run and carry the inventory; you supply the work and the idea of the book.
+
+### What it gives you that the others don't
+
+This is the only route whose price is knowable before anything starts; every other door on the list is an application and a wait. The object also works on all four of the others — a finished book is what a gallery, a publisher and an art director are each shown — and a book on a shelf finds strangers, reaching people who will never see a post.
+
+The fork inside this route changes more than any decision elsewhere on the list: whether a publisher is involved. With one there is no outlay and no inventory, and distribution reaches bookshops nationally.
+
+### What you'd be taking on
+
+Per copy a publisher pays roughly a tenth of what self-publishing keeps — ¥115–240 against ¥3,635 — and the variable they introduce is their consent, which is neither fast nor predictable. Self-publishing trades that for money up front and a room full of copies until they move.
+
 ### Pitch a book that still needs to be made
 
-The strongest publishing opportunity is a book concept with enough identity that a publisher can imagine selling it.
-
-Your existing paintings establish that you can execute it. The proposal establishes what the book is.
-
-That distinction matters because the publishers checked ask for projects and proposals. In the comparable Tokyo architecture title, forty of the fifty paintings were made after the deal was agreed.
-
-A strong proposal therefore needs:
+The strongest publishing opportunity is a book concept with enough identity that a publisher can imagine selling it. Your existing paintings establish that you can execute it. The proposal establishes what the book is. That distinction matters because the publishers checked ask for projects and proposals. In the comparable Tokyo architecture title, forty of the fifty paintings were made after the deal was agreed. A strong proposal therefore needs:
 
 - the idea of the book
 - why the paintings belong together
@@ -290,9 +292,7 @@ Publishing is weak as a per-copy revenue stream and strong as distribution.
 | Publisher | ¥115–240 | ¥34,500–72,000 |
 | Self-published hardcover | ¥3,635 | ¥1,090,500 |
 
-The publisher's contribution is everything surrounding those royalties: financing the print run, national bookshop distribution, ISBN, production, inventory and a publication record that remains attached to your name.
-
-Those benefits make the most sense when the book is expected to strengthen the rest of the practice as well as sell copies.
+The publisher's contribution is everything surrounding those royalties: financing the print run, national bookshop distribution, ISBN, production, inventory and a publication record that remains attached to your name. Those benefits make the most sense when the book is expected to strengthen the rest of the practice as well as sell copies.
 
 ### Three publishers with a published route in
 
@@ -308,13 +308,23 @@ The next useful piece of work here is therefore one book proposal, built well en
 
 Illustration and design training, and a subject Japanese literary publishers buy covers in.
 
+### What this is
+
+Editorial illustration, book covers, commissioned work. A brief arrives, the work is delivered, payment follows a schedule, and the fee is set against how widely the image will be used rather than how long it took.
+
+### What it gives you that the others don't
+
+It is the only one of the five with a predictable monthly number, and it is the least romantic of them — those two facts are the same fact. The work is paid for before it exists, where everywhere else the painting is made first and sold afterwards, if at all, and there is no inventory and no unsold stock waiting in a room.
+
+Architecture and atmosphere are in specific demand for covers: literary fiction leans heavily on exactly this kind of image.
+
+### What you'd be taking on
+
+The subject, the schedule and the finished image stop being entirely yours. A ¥70,000 cover is close to what one of your own originals earns with no brief attached to it. And rates vary enormously between clients, which is the mechanism by which the portfolio you show decides which clients arrive.
+
 ### Price the painting and the usage separately
 
-A commission asks you to give up something your originals preserve: complete control over the subject, schedule and finished image.
-
-So the fee has to compensate for that, or the commission has to create value somewhere else.
-
-The national rate card gives a useful floor:
+A commission asks you to give up something your originals preserve: complete control over the subject, schedule and finished image. So the fee has to compensate for that, or the commission has to create value somewhere else. The national rate card gives a useful floor:
 
 | Use | Published rate |
 |---|---|
@@ -323,13 +333,7 @@ The national rate card gives a useful floor:
 | Small internal illustration | ¥5,000 |
 | Average coordinated job | ¥71,327 |
 
-Hand-painted watercolour sits in the second-highest of the five medium categories in that rate card.
-
-A ¥70,000 cover is therefore close to the price of one of your existing originals. The commercial job becomes more attractive when the licence expands, the image is reused, or the publication brings the work to the next client.
-
-Secondary use can pay 70%, 50%, 50% and 20% of the original fee as the same image is reused.
-
-That is the part worth protecting.
+Hand-painted watercolour sits in the second-highest of the five medium categories in that rate card. A ¥70,000 cover is therefore close to the price of one of your existing originals. The commercial job becomes more attractive when the licence expands, the image is reused, or the publication brings the work to the next client. Secondary use can pay 70%, 50%, 50% and 20% of the original fee as the same image is reused. That is the part worth protecting.
 
 ### Build the terms before the enquiry arrives
 
@@ -343,9 +347,7 @@ For every commercial commission, quote these separately:
 
 **Copyright transfer** — A separate, substantially higher price when the client wants permanent ownership of the rights.
 
-That turns an ambiguous “How much for a painting?” into something you can price consistently.
-
-Platform terms matter as well:
+That turns an ambiguous “How much for a painting?” into something you can price consistently. Platform terms matter as well:
 
 | Platform | Copyright |
 |---|---|
