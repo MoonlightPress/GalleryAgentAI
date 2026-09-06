@@ -97,43 +97,73 @@ FUTURES = [
         # translated. The texture moved down into the taglines, which is where a
         # reader has already agreed to spend a second.
         "name": _t("Selling Direct", "直接卖"),
-        "tagline": _t("The audience is the asset. Nothing stands between the work and the people who buy it.",
-                      "观众本身就是资产。作品与买家之间没有任何中间人。"),
+        # Rewritten 2026-09-06. Two things were wrong with this card and they
+        # were the same thing.
+        #
+        # First, it explained her own practice back to her — "the work is made
+        # and distributed directly", "prints and postcards: low margin, steady
+        # volume". She has run a shop for years (Scott: "she already sells
+        # direct so you don't need to tell her what selling direct is"). A card
+        # about a thing she does daily has to earn its place with something she
+        # does NOT already know, or it is condescension with a heading.
+        #
+        # Second, every one of its four `requires` bullets and its exemplar were
+        # about recording an online course, under a heading about selling
+        # paintings. Teaching is a different life; it is out of this card
+        # entirely and parked rather than quietly folded somewhere else.
+        #
+        # What replaced both: the four findings in §5 of the book research that
+        # a person already selling direct would not already have. All four are
+        # measured, all four are actionable this week, and none of them is
+        # visible from inside her own shop.
+        "tagline": _t("The audience is already there. What moves the number is the price, not the follower count.",
+                      "观众已经在了。真正让数字变动的是价格，不是粉丝数。"),
         "overview": _t(
-            "The work is made and distributed directly. No gallery commission, no publisher "
-            "deciding the next book, no client revisions.",
-            "作品由本人制作，直接送到买家手里。没有画廊抽成，没有出版社决定下一本书，没有客户提修改意见。"),
+            "Nothing on this path needs building — the shop runs, the work exists, about 26,000 "
+            "people already follow it. What has never been tested is the middle of the price "
+            "ladder: zines at ¥1,980, originals from ¥31,900, and nothing in between.",
+            "这条路上没有什么要从头搭起来——店铺在运转，作品在，大约两万六千人已经在看。"
+            "从来没有被试过的，是价格阶梯的中段：zine 卖 1,980 日元，原作从 31,900 日元起，中间是空的。"),
         "advantages": [
-            _t("The only one of the five where nobody is positioned to say no. The exposure here is not rejection, it is continuity — income tracks how regularly the work appears.",
-               "五条路里唯一一条没有人站在能拒绝的位置上的。这条路的风险不是被拒绝，而是持续性——收入与作品出现的规律程度直接相关。"),
-            _t("Nothing built here can be withdrawn by another party's decision. A gallery roster, a publisher's list and a client relationship can each end from the other side; an audience cannot be taken back.",
-               "这里建起来的东西，不会因为另一方的一个决定而消失。画廊的代理名单、出版社的书目、客户关系，都可能由对方那一头结束；观众不会被收回去。"),
-            _t("The fastest answer of the five. Sales data arrives within weeks of a launch, where an application takes most of a year to come back.",
-               "五条路里回音最快的一条。发布后几周内就有销售数据，而一份申请要等上大半年才有回音。"),
-            _t("The only one with a layer that stops scaling with hours. A recorded course is made once and sold indefinitely; everywhere else on this list, payment follows each thing made.",
-               "唯一一条有「不随时间线性增长」那一层的路。录制课程做一次，可以长期卖下去；这份清单上的其他每一条，都是做一件、收一次钱。"),
+            # NB: the source report's own summary says the 906-follower artist
+            # "produced fewer backers" than the 119K one — its table says 143
+            # against 309, so the summary sentence is wrong and the table is
+            # right. The finding is about RATE, not count: 15.8% against 0.26%.
+            # Stated as rate here.
+            _t("A follower count does not predict sales. Across the paired cases that could be checked, the share of an audience that actually bought ran from 0.26% to 15.8% — a sixtyfold spread — and the largest audience converted worst of all. Every named Japanese source asked the same question gave the same answer.",
+               "粉丝数预测不了销量。在能够核对的成对案例里，真正掏钱的人占观众的比例从 0.26% 到 15.8% 不等——相差六十倍——而其中观众最多的那一位，转化率最低。所有被问到这个问题的日文来源，答案都一样。"),
+            _t("The price is the lever. A Tokyo illustrator with 27,000 followers put a self-published art book out at ¥11,000 and sold 400 copies in four months — about ¥4 million. That price sits exactly in the empty middle of this shop's ladder.",
+               "价格才是那根杠杆。一位东京插画师，两万七千粉丝，自出版的画集定价 11,000 日元，四个月卖了 400 本——约四百万日元。这个价格，正落在这家店铺阶梯上空着的中段。"),
+            _t("Where the 26,000 live changes the arithmetic more than how many they are. Air mail to the US is ¥2,720 for a kilo — well over half the cover price of a ¥4,400 book, against ¥185 to post the same thing across Tokyo. That split is the largest unknown on this path, and it is one number inside her own Instagram insights.",
+               "这两万六千人住在哪里，比他们有多少人更能改变这笔账。寄一公斤到美国，航空小包 2,720 日元——超过一本 4,400 日元的书定价的一半；而同样一件东西寄到东京市内是 185 日元。这个比例是这条路上最大的未知数，而它就是 Instagram 后台里的一个数字。"),
+            _t("Under three centimetres thick is worth ¥465 on every parcel — ¥185 to post domestically instead of ¥650. It is decided at the design stage, before anything is printed, and the 428-page comparable was too thick for every cheap option.",
+               "厚度控制在三厘米以内，每一件包裹就省下 465 日元——国内寄件 185 日元，而不是 650 日元。这是在设计阶段、开印之前就定下来的事；那本 428 页的参照书，因为太厚，所有便宜的寄件方式都用不了。"),
         ],
         "money": _t(
-            "Three layers, ascending in both what they pay and what they cost to set up. Prints "
-            "and postcards: low margin, steady volume. Editions and originals: high margin, low "
-            "volume. A recorded course: made once, sold indefinitely. The first two scale with "
-            "hours worked. The third is the layer that converts an audience into an income, "
-            "because it stops scaling with hours.",
-            "三层，收入与前期投入同时递增。版画与明信片：利润低，但走量稳定。限量与原作：利润高，但数量少。"
-            "录制课程：做一次，可以长期卖下去。前两层的收入与投入的时间成正比；"
-            "第三层之所以是把观众转化为收入的那一层，正是因为它不再与时间成正比。"),
+            "The costs on this path are small, fixed and mostly invisible until they have been "
+            "paid. BASE takes 6.6% plus ¥40 a sale — about ¥330 on a ¥4,400 item; its cheaper "
+            "plan only pays for itself past roughly 60 sales a month, so the standard one is the "
+            "right one for now. Domestic postage is ¥185 under three centimetres and ¥650 over. "
+            "Air mail abroad runs ¥1,250 to China, Korea or Taiwan, ¥2,130 to Europe and ¥2,720 "
+            "to the US on a kilo; the illustrator who published his figures says higher shipping "
+            "is what loses a sale between the cart and the checkout.",
+            "这条路上的成本不大、固定，而且往往要等付掉了才看得见。BASE 每笔抽 6.6% 加 40 日元——"
+            "一件 4,400 日元的商品大约 330 日元；它更便宜的方案要每月卖到六十件以上才划算，所以目前标准方案就是对的。"
+            "国内邮费：厚度三厘米以内 185 日元，超过则 650 日元。寄到国外，一公斤的航空小包："
+            "中国、韩国、台湾 1,250 日元，欧洲 2,130 日元，美国 2,720 日元；"
+            "那位公开过自己数字的插画师说，运费一高，订单就在结账那一步流失掉。"),
         "requires": [
-            _t("A subject narrow enough to teach. For architectural painting that is usually perspective and the handling of light, rather than painting in general.",
-               "一个窄到可以教的主题。就建筑绘画而言，通常是透视与光的处理，而不是「怎么画画」。"),
-            _t("Three to five hours of recorded video. A course at this scale is a recording, not a curriculum.",
-               "三到五小时的录制视频。这个规模的课程是一段录像，不是一套教学大纲。"),
-            _t("An audience that already exists. The launch runs to the people following the work; no new audience is involved.",
-               "一群已经存在的观众。发布面向的是已经在看作品的人，不涉及新观众。"),
-            _t("About a month to a verdict. Sales data arrives within weeks of launch rather than after a year.",
-               "大约一个月就能看到结论。销售数据在发布后几周内出现，而不是一年之后。"),
+            _t("One number, from her own Instagram insights: what share of the 26,000 are in Japan. Everything else on this path prices differently depending on it, and looking it up takes a minute.",
+               "一个数字，在自己的 Instagram 后台里：这两万六千人当中，有多大比例在日本。这条路上其余每一件事的定价都取决于它，而查一下只要一分钟。"),
+            _t("One object priced in the empty middle of the ladder — somewhere between ¥1,980 and ¥31,900. That band is where the ¥11,000 comparable sits, and it is the only part of this shop that has never been tried.",
+               "一件定价落在阶梯空档里的东西——在 1,980 和 31,900 日元之间。那本 11,000 日元的参照书正在这个区间，而这也是这家店铺唯一没试过的地方。"),
+            _t("Three centimetres, decided at the design stage. It is worth ¥465 on every parcel and cannot be changed after printing.",
+               "三厘米，在设计阶段就定下来。每件包裹省 465 日元，而且印完就改不了了。"),
+            _t("A way to reach the people who have already bought, that is not the feed. Where a wide spread in sales could be explained at all, an existing list was the thing that explained it.",
+               "一条能找到「已经买过的人」的通道，而不是靠信息流。凡是能解释销量为何差距如此之大的地方，能解释的那一项，都是一份已有的名单。"),
         ],
-        "example": _t("Ohn Mar Win: over 80,000 students on Skillshare. By her own published figures, teaching is 77% of her income and licensing 3%. That position took eleven years.",
-                      "Ohn Mar Win：Skillshare 上有八万多名学生。按她本人公开的数字，教学占其收入的 77%，授权占 3%。这个状态用了十一年。"),
+        "example": _t("タケウマ / studio_takeuma, in Tokyo: 27,000 followers — about the same audience — and a self-published 428-page art book at ¥11,000 that sold 400 copies in four months, roughly ¥4 million. He is an established commercial illustrator with a decade of bookshop relationships behind him, and it is one case, not a rate.",
+                      "タケウマ / studio_takeuma，在东京：两万七千粉丝——观众规模差不多——自出版一本 428 页的画集，定价 11,000 日元，四个月卖出 400 本，约四百万日元。他是有十几年资历的商业插画师，背后有长期的书店关系；这是一个案例，不是一个比率。"),
     },
     {
         "id": "someone_else_sells",
@@ -348,10 +378,14 @@ def build(evidence: Optional[dict] = None) -> dict:
                "六年日课，中间没有断过。"),
             _t("An audience of about 26,000 that already exists — a launch here runs to people who are already looking.",
                "一群已经存在的、约 2.6 万人的观众——这里的发布面向的是本来就在看的人。"),
-            _t("A shop already operating, with its own buyers.",
-               "一个已经在运转的店铺，有自己的买家。"),
-            _t(f"{pubs} publications already sold straight to that audience.",
-               f"{pubs} 本出版物，已经直接卖给了这群观众。"),
+            # NOT "with its own buyers". Roughly three-quarters of the shop's
+            # orders are Scott's own, so shop VOLUME cannot be used to claim the
+            # audience converts — her prices are real data, her order counts are
+            # not (project_scott_is_in_the_data).
+            _t("A shop already running, with prices set and the listings live.",
+               "一个已经在运转的店铺，价格定好，商品在架。"),
+            _t(f"{pubs} publications already made and put out.",
+               f"{pubs} 本出版物，已经做出来并发行过。"),
         ],
         "someone_else_sells": [
             _t(f"{groups} group shows and {solos} solo shows on the record.",
@@ -391,8 +425,9 @@ def build(evidence: Optional[dict] = None) -> dict:
 
     absent = {
         "no_gatekeepers": _t(
-            "The layer that does not scale with hours: no course, no recorded product.",
-            "不随时间线性增长的那一层：没有课程，没有可复制销售的产品。"),
+            "Anything priced between ¥1,980 and ¥31,900, and a count of how many of the 26,000 "
+            "are in Japan.",
+            "1,980 到 31,900 日元之间的任何一件商品，以及一个数字：两万六千人里有多少在日本。"),
         "someone_else_sells": _t(
             "An exhibition funded by someone else. Every show on the record so far was paid for "
             "from this side.",

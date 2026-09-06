@@ -20,8 +20,15 @@
 .pp-mouse-ambient {
   position: relative;
   width: 100%;
-  height: 56vh;
-  min-height: 340px;
+  /* 56vh was ~630px of picture on a 1440p monitor — more than half the screen
+     before a single word of content, which is what "what the hell is this"
+     was looking at (Scott, 2026-09-06). Capped: it still scales with the
+     window, but it can never take more than 360px, so content is always above
+     the fold. min-height drops with it so short laptops aren't forced into a
+     340px band either. */
+  height: 38vh;
+  min-height: 220px;
+  max-height: 360px;
   overflow: hidden;
   flex-shrink: 0;
   /* Same lift as the Mochi/Saffron heroes: a soft drop shadow + a gold-tan stroke
