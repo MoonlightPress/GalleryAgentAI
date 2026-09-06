@@ -71,11 +71,11 @@ About 26,000 followers and a shop already running, with a price ladder that stop
 
 ### What this is
 
-Nothing on this route needs building. The shop runs, the work exists, and about 26,000 people already follow it. Everything sells at your own price, and what is left after cost and postage stays with you. The part that has never been tested is the middle of the ladder — zines at ¥1,980, originals from ¥31,900, and a gap between them that no product currently occupies.
+You decide what a thing costs, and what is left after materials and postage stays with you — no commission, no split, nothing withheld until a gallery settles up. Everything on this route can start this week, because none of it waits on somebody else agreeing first.
 
 ### What it gives you that the others don't
 
-A follower count does not predict sales. Across the paired cases that could be checked, the share of an audience that actually bought ran from 0.26% to 15.8%, and the largest audience of the set converted worst — so the size of the number is not what decides this. Price is. A Tokyo illustrator with 27,000 followers, about your reach, published an art book at ¥11,000 and sold 400 copies in four months, roughly ¥4 million, at a price that sits exactly in your empty middle.
+A follower count does not predict sales. Across the paired cases that could be checked, the share of an audience that actually bought ran from 0.26% to 15.8%, and the largest audience of the set converted worst — so the size of the number is not what decides this. Price is. A Tokyo illustrator with 27,000 followers, about your reach, published an art book at ¥11,000 and sold 400 copies in four months, roughly ¥4 million.
 
 Two smaller levers decide most of the rest. Where those 26,000 live changes the arithmetic more than how many they are, since air mail runs ¥2,720 a kilo to the US against ¥185 across Tokyo, and that split is one figure inside your own Instagram insights. And anything under three centimetres thick is worth ¥465 on every domestic parcel — decided at the design stage, before anything is printed.
 
@@ -209,7 +209,7 @@ GEGYjiji
 
 *Someone pays to use a painting you have already made.*
 
-Six years of images already made, and an archive that has so far been sold one way: as originals.
+A subject that sells into interiors, hospitality, stationery and publishing — categories character work never reaches.
 
 ### What this is
 
@@ -219,7 +219,7 @@ Quiet money. An image is licensed for a defined use — stationery, homeware, pa
 
 It is the only one of the five that pays more than once for the same image; everywhere else a thing is made and then sold once. Nothing here asks for new painting, and public recognition is not part of the arrangement, so it suits a practice that wants to keep painting and manage as little else as possible.
 
-It is also the route least affected by where you live or what your visa says, since the buyer is a company anywhere and the goods are files. And architecture and cityscape reach buyers character work does not: interiors, hospitality, stationery, publishing, travel.
+It is also the route least affected by where you live or what your visa says, since the buyer is a company anywhere and the goods are files — the only one of the five that would survive a move to another country unchanged.
 
 ### What you'd be taking on
 
@@ -267,7 +267,7 @@ The fork inside this route changes more than any decision elsewhere on the list:
 
 ### What you'd be taking on
 
-Per copy a publisher pays roughly a tenth of what self-publishing keeps — ¥115–240 against ¥3,635 — and the variable they introduce is their consent, which is neither fast nor predictable. Self-publishing trades that for money up front and a room full of copies until they move.
+With a publisher, the variable is their consent, and it moves on a timescale nobody controls — a proposal can sit for months and come back as nothing. Their share of each copy is the other half of that trade, and the economics below put a number on it. Self-publishing removes the waiting by asking for the money up front, and leaves a room full of copies until they move.
 
 ### Pitch a book that still needs to be made
 

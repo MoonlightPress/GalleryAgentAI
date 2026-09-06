@@ -745,23 +745,26 @@ def _opener(what, gives, costs):
 
 _OPENERS = {
     "no_gatekeepers": _opener(
-        _t("Nothing on this route needs building. The shop runs, the work exists, and about "
-           "26,000 people already follow it. Everything sells at your own price, and what is left "
-           "after cost and postage stays with you. The part that has never been tested is the "
-           "middle of the ladder — zines at ¥1,980, originals from ¥31,900, and a gap between "
-           "them that no product currently occupies.",
+        # Says what the route IS, and hands the price-gap finding to the body,
+        # which is where the products table that answers it lives. All three of
+        # the standing line, this block and "Fill the gap" used to state the
+        # ¥2,200-to-¥31,900 break, so the first screen said one thing three
+        # times.
+        _t("You decide what a thing costs, and what is left after materials and postage stays "
+           "with you — no commission, no split, nothing withheld until a gallery settles up. "
+           "Everything on this route can start this week, because none of it waits on somebody "
+           "else agreeing first.",
 
-           "这条路上没有什么要从头搭起来。店铺在运转，作品在，大约两万六千人已经在看。"
-           "东西按你自己的定价卖，扣掉成本和邮费之后剩下的全归你。"
-           "唯一没被试过的，是阶梯的中段——zine 卖 1,980 日元，原作从 31,900 日元起，"
-           "中间那一段目前没有任何商品。"),
+           "东西卖多少钱由你定，扣掉材料和邮费之后剩下的全归你——没有抽成，没有分账，"
+           "也不会有一笔钱压在画廊那里等着结。"
+           "这条路上的任何一件事这周就能开始，因为没有一件需要先等别人点头。"),
 
         _t("A follower count does not predict sales. Across the paired cases that could be "
            "checked, the share of an audience that actually bought ran from 0.26% to 15.8%, and "
            "the largest audience of the set converted worst — so the size of the number is not "
            "what decides this. Price is. A Tokyo illustrator with 27,000 followers, about your "
            "reach, published an art book at ¥11,000 and sold 400 copies in four months, roughly "
-           "¥4 million, at a price that sits exactly in your empty middle.\n\n"
+           "¥4 million.\n\n"
            "Two smaller levers decide most of the rest. Where those 26,000 live changes the "
            "arithmetic more than how many they are, since air mail runs ¥2,720 a kilo to the US "
            "against ¥185 across Tokyo, and that split is one figure inside your own Instagram "
@@ -771,7 +774,7 @@ _OPENERS = {
            "粉丝数预测不了销量。在能够核对的成对案例里，真正掏钱的人占观众的比例从 0.26% 到 15.8%，"
            "而其中观众最多的那一位转化率最低——所以决定这件事的不是数字大小，是价格。"
            "一位东京插画师，两万七千粉丝，和你的规模差不多，自出版的画集定价 11,000 日元，"
-           "四个月卖了 400 本，约四百万日元；这个价格正落在你阶梯上空着的中段。\n\n"
+           "四个月卖了 400 本，约四百万日元。\n\n"
            "剩下的大半由两个小一些的杠杆决定。这两万六千人住在哪里，比他们有多少人更能改变这笔账——"
            "航空小包寄一公斤到美国 2,720 日元，寄到东京市内 185 日元——"
            "而这个比例就是你自己 Instagram 后台里的一个数字。"
@@ -837,15 +840,14 @@ _OPENERS = {
            "painting, and public recognition is not part of the arrangement, so it suits a "
            "practice that wants to keep painting and manage as little else as possible.\n\n"
            "It is also the route least affected by where you live or what your visa says, since "
-           "the buyer is a company anywhere and the goods are files. And architecture and "
-           "cityscape reach buyers character work does not: interiors, hospitality, stationery, "
-           "publishing, travel.",
+           "the buyer is a company anywhere and the goods are files — the only one of the five "
+           "that would survive a move to another country unchanged.",
 
            "五条路里，只有这一条能为同一张图反复收钱；其他每一条都是做一件、卖一次。"
            "它不要求你另外画新东西，也不包含公众知名度，"
            "所以它适合一种想一直画下去、其余的事尽量少管的工作方式。\n\n"
-           "它也是受你住在哪里、签证是什么影响最小的一条——买家可以是任何地方的公司，交付的是文件。"
-           "而且建筑与城市题材能接触到角色类作品接触不到的买家：室内、酒店餐饮、文具、出版、旅行。"),
+           "它也是受你住在哪里、签证是什么影响最小的一条——买家可以是任何地方的公司，交付的是文件；"
+           "五条路里，只有这一条在你搬到另一个国家之后还能原样继续。"),
 
         _t("The money arrives on somebody else's schedule and in somebody else's volumes. The one "
            "illustrator publishing her actual income split has a twenty-year licensing practice "
@@ -884,14 +886,20 @@ _OPENERS = {
            "这条路内部的那个岔口，比清单上任何其他决定都更能改变结果：有没有出版社参与。"
            "有出版社，就不用出钱，家里也不堆书，发行能进入全国书店。"),
 
-        _t("Per copy a publisher pays roughly a tenth of what self-publishing keeps — ¥115–240 "
-           "against ¥3,635 — and the variable they introduce is their consent, which is neither "
-           "fast nor predictable. Self-publishing trades that for money up front and a room full "
-           "of copies until they move.",
+        # The per-copy figures live in the economics table two blocks down; this
+        # block gave the same ¥115-240 against ¥3,635 and the two read as one
+        # paragraph printed twice. The cost that is not in the table is the
+        # waiting, so that is what this says.
+        _t("With a publisher, the variable is their consent, and it moves on a timescale nobody "
+           "controls — a proposal can sit for months and come back as nothing. Their share of "
+           "each copy is the other half of that trade, and the economics below put a number on "
+           "it. Self-publishing removes the waiting by asking for the money up front, and leaves "
+           "a room full of copies until they move.",
 
-           "论每本，出版社付的大约是自出版留下的十分之一——115–240 日元对 3,635 日元——"
-           "而且他们引入的变量是「对方是否同意」，这既不快也不好预测。"
-           "自己出版换掉的是这一项，代价是先掏钱，以及在书卖动之前家里堆满。")),
+           "有出版社参与时，变量是对方同不同意，而这件事的时间表没有人能控制——"
+           "一份企划可能压上几个月，最后回来的是没有下文。"
+           "他们从每本里拿走的那一份是这笔交易的另一半，下面的账里有具体数字。"
+           "自己出版把等待这一项去掉了，代价是钱要先掏，而且在书卖动之前家里一直堆着。")),
 
     "on_assignment": _opener(
         _t("Editorial illustration, book covers, commissioned work. A brief arrives, the work is "
@@ -1019,10 +1027,14 @@ def _standing(record: dict) -> dict:
             f"{solos} solo shows and {groups} group shows, the most recent at Galerie LE MONDE in "
             "Harajuku.",
             f"{solos} 场个展、{groups} 场联展，最近的一场在原宿的 Galerie LE MONDE。"),
+        # NOT "six years of images already made" — the route's own first block
+        # opens on exactly that, and the two lines shared 42% of their content.
+        # A different true fact instead: the subject sells into categories the
+        # rest of the illustration market cannot reach.
         "work_goes_out": _t(
-            "Six years of images already made, and an archive that has so far been sold one way: "
-            "as originals.",
-            "六年积累下来的图像已经在了；这批东西到现在为止只以一种方式卖过——原作。"),
+            "A subject that sells into interiors, hospitality, stationery and publishing — "
+            "categories character work never reaches.",
+            "一个能卖进室内、酒店餐饮、文具和出版的题材——角色类作品到不了的那些品类。"),
         "between_covers": _t(
             f"{zines} zines, {pubs} publications, and six years of daily work to build a book "
             "from.",
