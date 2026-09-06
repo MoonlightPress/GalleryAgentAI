@@ -628,9 +628,9 @@ HTML = f'''<title>Saffron Strategy Draft</title>
 <div class="rv-frame-label">The app, from here down</div>
 <div class="sf-content">
   <div class="sf-tabs">{tabs}</div>
-  {outreach_html()}
   {futures_html()}
   {book_html()}
+  {outreach_html()}
   {doors_html()}
 </div>
 {JS}

@@ -2982,9 +2982,15 @@ export default function SaffronPage({ nav, tab: tabFromUrl, onTabChange }) {
                   <>
                     {SB('pathway', <StrategicPathway data={data.pathway} t={t} />)}
                     <SectionOpenContext.Provider value={false}>
-                      {SB('outreach', <TrackedSection page="observe" section="outreach_kit"><OutreachKit data={data.outreach_kit} lang={lang} /></TrackedSection>)}
                       {SB('futures', <TrackedSection page="observe" section="futures"><Futures data={data.futures} t={t} lang={lang} /></TrackedSection>)}
                       {SB('bookecon', <TrackedSection page="observe" section="book_economics"><BookEconomics data={data.book_economics} lang={lang} /></TrackedSection>)}
+                      {/* The letter goes last (Scott, 2026-09-06). It led the tab and was
+                          the wrong thing to open on: the futures and the book arithmetic
+                          are things to read, while the letter is a thing to act on, and an
+                          act-on item at the top reads as being asked to do something the
+                          moment the page loads. Last, it is there for whoever scrolls to
+                          it. */}
+                      {SB('outreach', <TrackedSection page="observe" section="outreach_kit"><OutreachKit data={data.outreach_kit} lang={lang} /></TrackedSection>)}
                       {/* 职业解锁树 (CareerDependencyMap) removed 2026-09-05. It was the app's
                           only career surface that never passed through an engine — a
                           hand-authored constant that had gone stale and was still sending
