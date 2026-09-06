@@ -88,561 +88,406 @@ def _t(en: str, zh: str) -> dict:
 _BOOK = reference_run()
 
 
-# ── Selling Direct, as a business scenario ───────────────────────────────────
+# ── The five routes ──────────────────────────────────────────────────────────
 #
-# Scott, 2026-09-06: "these are business scenarios. 'i want to self publish my
-# work' — 'ok, well, these are the advantages of doing that. these are the
-# difficulties. these are the types of things you can sell direct to consumers:
-# originals, prints, zines, postcards, keychains, commissions, calendars, etc.'
-# here are the economics of each. here are your break even points. here is how
-# you market them."
+# Rewritten 2026-09-06 to a structure an outside reviewer produced after reading
+# the whole tab. Four things it does that six of my drafts did not:
 #
-# And: "make that as effortless for her as possible."
+#   1. It has a thesis. "The useful question now is where another route gives
+#      you something the current one cannot," followed by four tests every route
+#      is then answerable to. My versions had five sections and no argument
+#      joining them.
+#   2. Headings are decisions, not topics. "Fill the gap between ¥2,200 and
+#      ¥31,900", not "How it works" — which I used as a heading three times.
+#   3. It defines nothing. "You already know how to organise a solo show. You
+#      have done it three times." She is a professional; the copy assumes it.
+#   4. It ends in five experiments, one per route. That layer did not exist.
 #
-# So this card is not a description of a kind of life. It is a scenario with an
-# advantages column, a difficulties column, every product she could actually
-# sell with the cost of each on BOTH fulfilment routes, and the moves that
-# follow. The fulfilment axis — print-on-demand against buying a run — was
-# missing entirely from every earlier draft, and it is the axis that decides
-# how much of her week this costs. She has never used print-on-demand.
+# Also: no "X is not Y, it is Z". Scott asked for that four times and it kept
+# coming back. Say what a thing is.
 #
-# Every figure below traces to one of three reports produced 2026-09-06:
-#   reports/direct_sales_pod_2026-09-06.md            (POD platforms)
-#   reports/direct_sales_goods_costs_2026-09-06.md    (printers, postage)
-#   reports/direct_sales_international_2026-09-06.md  (overseas, commissions)
-# plus reports/book_economics_2026-09-05.md for the art-book row. Nothing here
-# is estimated; where a number was not found, the row says so.
+# Figures unchanged - every one traces to the research reports of 2026-09-05/06.
+# Two claims that appeared in earlier drafts are NOT carried forward, because
+# they were never supported: that Colour Diary has functioned as a pitch to a
+# publisher (no record of it, and the publishing research found no evidence
+# either way that a finished book triggers acquisition), and the letter's
+# reference to a show she did not attend, fixed in outreach_kit_engine.
 
-_SELLING_DIRECT = {
-    # The order Scott spelled out on 2026-09-06, and the argument it makes:
-    #   here's what you have -> here's what you're missing (the middle) ->
-    #   here's what filling it would cost and what you'd keep -> holding stock
-    #   is the wrong way to do THESE particular things -> so, drop shipping,
-    #   here is what that is -> here is the chart for the items that suit
-    #   watercolour architecture specifically -> margins -> where to do it today.
-    #
-    # The filter matters as much as the numbers: "she wouldn't do T shirts
-    # because her work does not work for something like that." Apparel, mugs and
-    # phone cases are dropped from the chart even though the platforms offer
-    # them. What is left is paper, pigment and wall.
-    #
-    # Second person. No definitions of things she already knows - an earlier
-    # draft opened by explaining what selling direct means, to someone who has
-    # done it for years.
-    "have_label": _t("What you already have", "你已经有的"),
-    "have": _t(
-        "Two ends of a ladder. Postcards, zines and prints between ¥1,100 and ¥2,200, all "
-        "returning 75–99% because printed paper costs almost nothing to make. Then originals from "
-        "¥31,900 to ¥115,500, and commissions on top of that.",
-        "一道阶梯的两头。明信片、zine、画作印刷在 1,100 到 2,200 日元之间，"
-        "回报率 75–99%，因为印在纸上的东西几乎没有成本。另一头是 31,900 到 115,500 日元的原作，"
-        "再往上是委托。"),
-    "missing_label": _t("What you are missing", "你缺的那一段"),
-    "missing": _t(
-        "Everything between them. After ¥2,200 the next thing you sell costs fourteen times as "
-        "much. Someone who has bought a zine and a print and liked both has nothing to buy next — "
-        "the next step you offer them is a ¥31,900 painting. Most people who would happily spend "
-        "¥8,000 on you never get the chance.",
-        "中间全空着。2,200 日元之后，下一样东西贵了十四倍。"
-        "一个买过 zine 和印刷、并且都喜欢的人，接下来没有可买的了——你给他的下一级是 31,900 日元的原作。"
-        "大多数本来愿意在你这里花八千日元的人，根本没有机会花。"),
-    "fill_label": _t("What fills it, and what it would cost", "填进去的东西，以及成本"),
-    "fill_headers": [_t("", ""), _t("Sells for", "售价"), _t("Costs to make", "做出来要多少"),
-                     _t("You keep", "你留下")],
-    "fill": [
-        {"what": _t("Poster, A2", "海报，A2"), "price": _t("¥3,000", "3,000 日元"),
-         "cost": _t("¥1,400", "1,400 日元"), "keep": _t("¥1,465", "1,465 日元")},
-        {"what": _t("Poster, A1", "海报，A1"), "price": _t("¥5,000", "5,000 日元"),
-         "cost": _t("¥2,550", "2,550 日元"), "keep": _t("¥2,268", "2,268 日元")},
-        {"what": _t("Canvas, F3", "画布，F3"), "price": _t("¥7,000", "7,000 日元"),
-         "cost": _t("¥3,350", "3,350 日元"), "keep": _t("¥3,300", "3,300 日元")},
-        {"what": _t("Framed giclée, A4", "装裱微喷，A4"), "price": _t("¥20,000", "20,000 日元"),
-         "cost": _t("¥12,000", "12,000 日元"), "keep": _t("¥7,507", "7,507 日元")},
-        {"what": _t("Art book, 128pp", "画集，128 页"), "price": _t("¥4,950", "4,950 日元"),
-         "cost": _t("¥1,315 each, 300 at a time", "每本 1,315，一次 300 本"),
-         "keep": _t("¥3,635", "3,635 日元")},
-    ],
-    "why_not_stock_label": _t("Why not just print a batch", "为什么不干脆自己印一批"),
-    "why_not_stock": _t(
-        "Because these are the wrong things to hold. A hundred postcards is a padded envelope in "
-        "a cupboard; a hundred A1 posters is a tube rack, and every order is a trip to the post "
-        "office with something that cannot be folded. Canvases and frames are worse — bulky, "
-        "fragile, expensive to send and expensive to be wrong about. The one exception is the art "
-        "book, which cannot be made any other way, and which is why it is the only thing on that "
-        "list you would pay for up front.",
-        "因为这些恰恰是最不适合囤的东西。一百张明信片是柜子里的一个信封袋；"
-        "一百张 A1 海报是一整排纸筒，而且每一单都要抱着一件不能折的东西跑一趟邮局。"
-        "画布和画框更糟——占地方、易损、寄起来贵，押错了也贵。"
-        "唯一的例外是画集，它没有别的做法，这也是那份清单上唯一一样需要你先掏钱的东西。"),
-    "ds_label": _t("So: drop shipping", "所以：按需代发"),
-    "ds": _t(
-        "You upload the file once. When someone buys, the printer makes that one copy and posts it "
-        "to them under their own name — you never see the parcel, never buy stock, never go to the "
-        "post office. You are paid the difference between what it cost to make and what you "
-        "charged. Nothing is manufactured until it is sold, so listing something costs you nothing "
-        "at all.",
-        "你把文件传上去一次。有人下单时，印厂就做那一件，用他们自己的名义寄给买家——"
-        "你不会碰到包裹，不用进货，也不用跑邮局。你拿到的是售价和制作成本之间的差额。"
-        "在卖出去之前不会有任何东西被制作出来，所以挂一件商品上去，你一分钱都不用花。"),
-    "ds_fit_label": _t("Why it suits your work in particular", "为什么它特别适合你的作品"),
-    "ds_fit": [
-        _t("What these platforms are good at is flat, printed, pigment-on-paper things — posters, "
-           "postcards, framed prints, canvas, panels. That is your entire practice.",
-           "这些平台真正擅长的，就是平面的、印刷的、颜料落在纸上的东西——海报、明信片、"
-           "装裱印刷、画布、画板。而这正好就是你全部的创作。"),
-        _t("It is worst at apparel, mugs and phone cases, which is where most artists lose money "
-           "anyway and which your work would not sit well on regardless.",
-           "它最不擅长的是服装、马克杯和手机壳，而那本来就是多数创作者赔钱的地方，"
-           "你的作品放上去本来也不合适。"),
-        _t("Every one of the middle rungs above is bulky, fragile or both. Those are exactly the "
-           "items where not holding stock is worth the most.",
-           "上面那几级中间价位的东西，不是占地方就是易损，或者两样都占。"
-           "恰恰是这类东西，不囤货省下来的最多。"),
-        _t("On BOOTH the parcel goes out from ピクシブ株式会社. Your name and address are not on it.",
-           "在 BOOTH 上，包裹以「ピクシブ株式会社」的名义寄出，上面没有你的姓名和地址。"),
-    ],
-    "ds_chart_label": _t("What you could list this week, and what you would keep",
-                         "这个星期就能上架的东西，以及你能留下多少"),
-    "ds_chart_headers": [_t("", ""), _t("Sells for", "售价"), _t("You keep", "你留下"),
-                         _t("Margin", "毛利率")],
-    "ds_chart": [
-        {"what": _t("Poster, B3", "海报，B3"), "price": _t("¥2,480", "2,480 日元"),
-         "keep": _t("¥1,087", "1,087 日元"), "margin": _t("39%", "39%")},
-        {"what": _t("Poster, A2", "海报，A2"), "price": _t("¥3,000", "3,000 日元"),
-         "keep": _t("¥1,465", "1,465 日元"), "margin": _t("44%", "44%")},
-        {"what": _t("Poster, A1", "海报，A1"), "price": _t("¥5,000", "5,000 日元"),
-         "keep": _t("¥2,268", "2,268 日元"), "margin": _t("43%", "43%")},
-        {"what": _t("Framed giclée, A4", "装裱微喷，A4"), "price": _t("¥20,000", "20,000 日元"),
-         "keep": _t("¥7,507", "7,507 日元"), "margin": _t("38%", "38%")},
-        # The wall and paper goods a Japanese buyer expects from an illustrator,
-        # and the ones that sit in the missing band. The acrylic panel is the
-        # useful find - the research calls it "the closest thing to a framed
-        # print", and at ¥2,500 it lands in the gap for a fifth of the price of
-        # the giclée. No magnets: none of these platforms offer them.
-        {"what": _t("Acrylic panel — a wall piece, framed-print feel",
-                    "亚克力画板——挂墙的，接近装裱印刷的效果"),
-         "price": _t("¥2,500", "2,500 日元"),
-         "keep": _t("¥1,026", "1,026 日元"), "margin": _t("41%", "41%")},
-        {"what": _t("Acrylic block", "亚克力方块"), "price": _t("¥5,000", "5,000 日元"),
-         "keep": _t("¥1,365", "1,365 日元"), "margin": _t("27%", "27%")},
-        {"what": _t("Postcards, set of ten", "明信片，十张一套"), "price": _t("¥3,000", "3,000 日元"),
-         "keep": _t("¥1,055", "1,055 日元"), "margin": _t("31%", "31%")},
-        {"what": _t("Clear file", "文件夹"), "price": _t("¥1,600", "1,600 日元"),
-         "keep": _t("¥616", "616 日元"), "margin": _t("31%", "31%")},
-        {"what": _t("Masking tape", "和纸胶带"), "price": _t("¥1,600", "1,600 日元"),
-         "keep": _t("¥504", "504 日元"), "margin": _t("32%", "32%")},
-        {"what": _t("Stickers", "贴纸"), "price": _t("¥800", "800 日元"),
-         "keep": _t("¥436", "436 日元"), "margin": _t("36%", "36%")},
-    ],
-    "ds_note": _t(
-        "Lower percentages than printing your own — you are paying someone to hold the risk. On "
-        "the things you already sell in quantity, keep printing your own: a ten-pack of postcards "
-        "costs ¥170 in a run of a hundred against ¥1,835 on demand. Drop shipping is for the rungs "
-        "you do not have yet.",
-        "毛利率比自己印低——你付的是别人替你承担风险的钱。已经卖得动、量也起来的东西，继续自己印："
-        "一套十张的明信片，印一百套时成本 170 日元，按需印刷要 1,835 日元。"
-        "按需代发是用来补你还没有的那几级的。"),
-    "books_label": _t("Books you could make yourself", "你自己就能做的书"),
-    "books_note": _t(
-        "One rung on this ladder is a book, and the format decides everything. The result is "
-        "backwards from what you would expect: a hardcover printed in China pays for itself "
-        "sooner than a softcover printed in Japan, because the unit cost is lower and the cover "
-        "price is higher. Japanese offset hardcover cannot pay for itself at all — it would need "
-        "more copies sold than were printed.",
-        "这道阶梯上有一级是书，而做成什么形态，决定了一切。结论和直觉相反："
-        "在中国印的精装本，比在日本印的平装本更快回本，因为单价更低、定价更高。"
-        "在日本做胶印精装则永远回不了本——要卖掉的册数比印的还多。"),
-    "books_headers": [_t("", ""), _t("Each", "每本"), _t("You would pay", "你要先付"),
-                      _t("Sells for", "售价"), _t("Back at", "回本点")],
-    "books": [
-        {"what": _t("Zine, B5, 24pp, stapled — what you make now",
-                    "Zine，B5，24 页，骑马钉——你现在做的"),
-         "each": _t("¥498", "498 日元"), "outlay": _t("¥49,800 for 100", "印 100 本，49,800 日元"),
-         "price": _t("¥1,980", "1,980 日元"), "be": _t("34 of 100", "100 本里的 34 本")},
-        {"what": _t("Softcover, 210mm square, 128pp", "平装，210mm 方形，128 页"),
-         "each": _t("¥1,609", "1,609 日元"), "outlay": _t("¥482,700 for 300", "印 300 本，482,700 日元"),
-         "price": _t("¥4,400", "4,400 日元"), "be": _t("173 of 300", "300 本里的 173 本")},
-        {"what": _t("Softcover, A4, 128pp", "平装，A4，128 页"),
-         "each": _t("¥1,306", "1,306 日元"), "outlay": _t("¥653,000 for 500", "印 500 本，653,000 日元"),
-         "price": _t("¥4,400", "4,400 日元"), "be": _t("212 of 500", "500 本里的 212 本")},
-        {"what": _t("Hardcover, 128pp, printed in China", "精装，128 页，在中国印"),
-         "each": _t("¥1,315", "1,315 日元"), "outlay": _t("¥394,500 for 300", "印 300 本，394,500 日元"),
-         "price": _t("¥4,950", "4,950 日元"), "be": _t("109 of 300 — the best of these", "300 本里的 109 本——这几种里最好的")},
-        {"what": _t("Hardcover, B5 offset, printed in Japan", "精装，B5 胶印，在日本印"),
-         "each": _t("¥3,927", "3,927 日元"), "outlay": _t("¥1,963,500 for 500", "印 500 本，1,963,500 日元"),
-         "price": _t("¥5,500", "5,500 日元"),
-         "be": _t("1,249 — more than you printed", "1,249 本——比印的还多")},
-    ],
-    # Scott, 2026-09-06: "what about a small run as a way to entice publishers?"
-    # This reframes the whole book question. A run judged as a PRODUCT has to
-    # break even and small runs mostly cannot. A few copies judged as an OBJECT
-    # TO SHOW does not have to break even at all - it has to exist and look
-    # right. The research says so directly of Blurb: "never works as a resale
-    # product... it is a proofing and personal-copy tool." That is the use.
-    "proof_label": _t("Or a few copies, to put in front of someone",
-                      "或者只做几本，拿去给人看"),
-    "proof": _t(
-        "A print run and a calling card are different objects, and only one of them has to break "
-        "even. If the point is to hand a finished book to a publisher, a gallery or a shop buyer, "
-        "you do not need three hundred of them — you need three. Print-on-demand is hopeless for "
-        "reselling and ideal for exactly this, because there is no run to commit to at all. One "
-        "Blurb copy is ¥10,275 and three are about ¥31,000, against ¥394,500 for a run you could "
-        "actually sell. Colour Diary already did this job once.",
-        "一批货和一张名片是两种东西，只有一种需要回本。如果目的是把一本成品书递到出版社、"
-        "画廊或者书店买手手里，你不需要三百本——你需要三本。按需印刷拿来转卖是没戏的，"
-        "但拿来做这件事正合适，因为根本不存在要押上的印量。Blurb 一本 10,275 日元，三本约 31,000，"
-        "而能拿来卖的那种印量要 394,500。《Colour Diary》已经担任过一次这个角色。"),
-    "today_label": _t("Where to do it, today", "今天就可以去这几个地方"),
-    "today": [
-        {"name": _t("pixivFACTORY — posters, canvas, framed prints, postcards. Sells through BOOTH, "
-                    "which you can open in an afternoon.",
-                    "pixivFACTORY——海报、画布、装裱印刷、明信片。通过 BOOTH 销售，一个下午就能开店。"),
+_FRAME = _t(
+    "You already have a working practice: six years of paintings, an audience, direct sales, "
+    "commissions and a record of exhibitions. The useful question now is where another route "
+    "gives you something the current one cannot.\n\n"
+    "An original already earns ¥31,900–115,500. That is the benchmark. Anything added to the "
+    "practice should earn from work you have already made, reach buyers you cannot reach "
+    "yourself, increase what the rest of the work is worth, or create revenue without requiring "
+    "another original. The five routes below do different versions of that.",
+    "你已经有一套在运转的实践：六年的画、一群观众、直接销售、委托，以及一份展览记录。"
+    "现在有用的问题是：另一条路能给你什么，是现在这条给不了的。\n\n"
+    "一张原作现在就能卖 31,900–115,500 日元。这是基准。"
+    "任何要加进来的东西，都应该做到其中一件：让已经画完的作品再挣一次钱、"
+    "触达你自己够不到的买家、抬高其余作品的价值，或者在不用再画一张原作的前提下带来收入。"
+    "下面五条路，是这件事的五个不同版本。")
+
+
+_SELLING_DIRECT = [
+    {"kind": "prose", "label": _t("Fill the gap between ¥2,200 and ¥31,900",
+                                  "把 2,200 到 31,900 日元之间的空档填上"),
+     "text": _t(
+        "You already sell successfully at both ends: postcards, zines and prints at ¥1,100–2,200, "
+        "then originals beginning at ¥31,900. The missing part is the middle. Someone who has "
+        "bought a zine and a print has no way to spend ¥5,000, ¥10,000 or ¥20,000 with you — the "
+        "next purchase available is an original. The easiest test is to add that middle without "
+        "buying inventory first.",
+        "两头你都卖得很好：明信片、zine、画作印刷在 1,100–2,200 日元，原作从 31,900 日元起。"
+        "缺的是中间。一个买过 zine 和印刷的人，在你这里没有办法花掉 5,000、10,000 或者 20,000 日元——"
+        "他能买的下一样东西就是原作。最容易的试法，是先把中间那段补上，而不先囤货。")},
+    {"kind": "table", "label": _t("Start with three products", "先从三样东西开始"),
+     "headers": [_t("", ""), _t("Sells for", "售价"), _t("You keep", "你留下"), _t("Margin", "毛利率")],
+     "rows": [
+        {"cells": [_t("A2 poster", "A2 海报"), _t("¥3,000", "3,000 日元"),
+                   _t("¥1,465", "1,465 日元"), _t("44%", "44%")]},
+        {"cells": [_t("A1 poster", "A1 海报"), _t("¥5,000", "5,000 日元"),
+                   _t("¥2,268", "2,268 日元"), _t("43%", "43%")]},
+        {"cells": [_t("Framed giclée, A4", "装裱微喷，A4"), _t("¥20,000", "20,000 日元"),
+                   _t("¥7,507", "7,507 日元"), _t("38%", "38%")]},
+     ]},
+    {"kind": "prose", "text": _t(
+        "List them through on-demand production first. Each copy is made only when somebody "
+        "orders it, so the test requires no print run and no storage. The margin is lower than "
+        "printing yourself, and that is useful at this stage: the printer carries the inventory "
+        "risk while you find out whether the product has a market.",
+        "先用按需印刷上架。每一件都是有人下单之后才做，所以这次尝试不需要印量，也不需要地方放。"
+        "毛利率比自己印低，而这在现阶段是有用的：由印厂承担库存风险，你只负责弄清楚这样东西有没有市场。")},
+    {"kind": "prose", "text": _t(
+        "For products that already sell reliably, your existing model is better. A ten-pack of "
+        "postcards costs about ¥170 printed in a run of one hundred, against ¥1,835 on demand. "
+        "Keep those in-house. If one of the new formats begins selling consistently, batch "
+        "production becomes the second step.",
+        "已经卖得稳的东西，你现在的做法更好。一套十张的明信片，印一百套时成本约 170 日元，"
+        "按需印刷则要 1,835 日元。这些继续自己印。等新形态里有哪一样开始稳定卖动，再转成批量生产。")},
+    {"kind": "prose", "label": _t("The book is a different decision", "书是另一个层面的决定"),
+     "text": _t(
+        "A 128-page hardcover printed in China costs ¥394,500 for 300 copies. At ¥4,950 each, the "
+        "production cost is recovered after 109 sales, leaving 191 copies. The question is "
+        "therefore demand and speed, rather than margin.",
+        "128 页的精装本在中国印 300 本，需要 394,500 日元。定价 4,950 日元，卖出 109 本收回制作成本，"
+        "还剩 191 本。所以要判断的是需求和速度，而不是利润率。")},
+    {"kind": "table",
+     "headers": [_t("", ""), _t("Each", "每本"), _t("Up front", "先要付"),
+                 _t("Sells for", "售价"), _t("Cost recovered at", "回本点")],
+     "rows": [
+        {"cells": [_t("Current B5 zine, 24pp", "现在的 B5 zine，24 页"), _t("¥498", "498 日元"),
+                   _t("¥49,800 / 100", "49,800 / 100 本"), _t("¥1,980", "1,980 日元"), _t("34", "34")]},
+        {"cells": [_t("210mm square softcover, 128pp", "210mm 方形平装，128 页"), _t("¥1,609", "1,609 日元"),
+                   _t("¥482,700 / 300", "482,700 / 300 本"), _t("¥4,400", "4,400 日元"), _t("173", "173")]},
+        {"cells": [_t("A4 softcover, 128pp", "A4 平装，128 页"), _t("¥1,306", "1,306 日元"),
+                   _t("¥653,000 / 500", "653,000 / 500 本"), _t("¥4,400", "4,400 日元"), _t("212", "212")]},
+        {"cells": [_t("Hardcover, 128pp, China", "精装，128 页，中国印"), _t("¥1,315", "1,315 日元"),
+                   _t("¥394,500 / 300", "394,500 / 300 本"), _t("¥4,950", "4,950 日元"), _t("109", "109")]},
+     ]},
+    {"kind": "prose", "text": _t(
+        "For a book intended as a product, the Chinese hardcover has the strongest economics of "
+        "the formats checked. For a book intended to open another door, make three copies "
+        "instead: three Blurb copies cost about ¥31,000 and can go directly to a gallery or a "
+        "shop buyer. Publishers are a separate case — the three that accept submissions ask for a "
+        "proposal rather than a finished book.",
+        "如果这本书是要当商品卖，在查过的几种形态里，中国印的精装本经济上最划算。"
+        "如果这本书是用来敲另一扇门的，那就只做三本：Blurb 三本约 31,000 日元，"
+        "可以直接拿给画廊或书店买手。出版社是另一回事——接受投稿的那三家要的是企划书，不是成品书。")},
+    {"kind": "links", "label": _t("Where", "去哪里做"),
+     "items": [
+        {"name": _t("pixivFACTORY / BOOTH — the first test for posters, canvas and framed prints",
+                    "pixivFACTORY / BOOTH——海报、画布、装裱印刷的第一次试水"),
          "url": "https://factory.pixiv.net/"},
-        {"name": _t("SUZURI — stickers and smaller paper goods, no shop setup needed.",
-                    "SUZURI——贴纸和小件纸制品，不需要另外开店。"),
+        {"name": _t("SUZURI — smaller paper goods and low-risk experiments",
+                    "SUZURI——小件纸制品，低风险的尝试"),
          "url": "https://suzuri.jp/"},
-        {"name": _t("INPRNT — prints for buyers outside Japan, who none of the above will post to. "
-                    "Pays 50% of each sale.",
-                    "INPRNT——面向日本以外的买家，上面几家都不寄国外。每笔销售支付 50%。"),
+        {"name": _t("INPRNT — the useful addition for buyers outside Japan",
+                    "INPRNT——面向日本以外买家时，值得加上的一个"),
          "url": "https://www.inprnt.com/"},
-    ],
-}
-
-
-
-# ── The other four realms ────────────────────────────────────────────────────
-#
-# Each is a generic block list so the shape can follow the realm rather than a
-# fixed schema. Kinds: prose · note (inset) · list · table · links.
-#
-# Two rules Scott set on 2026-09-06, applied to all four:
-#
-#   1. Every realm is measured against what she ALREADY earns. One original is
-#      ¥31,900-115,500, with no client, no brief and no deadline. That is the
-#      yardstick, and it is stated even where a realm comes out worse - which
-#      commissions does, on the fee alone.
-#   2. Every realm states what it gives that ISN'T money. "Here is how this
-#      system works and it is not to your benefit financially" is a legitimate
-#      and useful thing for a section to say, but only if the non-monetary side
-#      is stated too. Publishing pays ¥115-240 a copy and buys national
-#      bookshop distribution; writing only the first half turns the section
-#      into "don't bother", which is not a description, it is a verdict.
-#
-# Sources, all 2026-09-06 unless noted:
-#   reports/galleries_2026-09-06.md
-#   reports/licensing_2026-09-06.md
-#   reports/publishing_2026-09-06.md
-#   reports/commissions_2026-09-06.md
-#   reports/book_economics_2026-09-05.md   (self-publishing comparison)
-
-_BASELINE_EN = "One of your originals is ¥31,900–115,500, with no client, no brief and no deadline. That is the number every one of these has to beat."
-_BASELINE_ZH = "你的一张原作是 31,900–115,500 日元，没有客户，没有要求，也没有交期。这几条路都要拿这个数字来比。"
+     ]},
+]
 
 
 _GALLERIES = [
-    {"kind": "prose", "label": _t("How it works", "这件事是怎么运作的"),
+    {"kind": "prose", "label": _t("Find a gallery that carries the exhibition risk",
+                                  "找一家愿意承担办展风险的画廊"),
      "text": _t(
-        "Three arrangements share the word gallery and they are not the same business. A rental "
-        "space sells you the room by the day. A consignment gallery hangs your work for nothing "
-        "and takes a share of what sells. A gallery that represents you carries the cost of the "
-        "show and takes a larger share, because its own income now depends on your prices going "
-        "up.",
-        "有三种安排共用「画廊」这个词，但它们是三门不同的生意。租赁空间是按天把场地卖给你。"
-        "寄售画廊免费替你挂画，卖掉了抽成。代理你的画廊则自己承担办展的费用，抽成也更高——"
-        "因为它自己的收入，从此取决于你的价格能不能往上走。")},
-    {"kind": "table", "label": _t("What each one costs before you earn anything",
-                                  "在你赚到第一块钱之前，每一种要花多少"),
-     "headers": [_t("", ""), _t("You pay", "你要付"), _t("They take", "他们抽"),
-                 _t("Paintings sold before you are even", "要卖掉几张画才打平")],
+        "You already know how to organise a solo show. You have done it three times. The next "
+        "useful gallery relationship is one that contributes what you currently supply yourself: "
+        "the room, the staffing, the collectors, the sales work and the financial risk.",
+        "你已经知道怎么办一场个展，办过三次了。下一段值得建立的画廊关系，"
+        "是能把你现在自己扛的那些东西接过去的：场地、看场的人、藏家、销售的活，以及资金上的风险。")},
+    {"kind": "table", "label": _t("The economics are unusually clear", "这笔账算得异常清楚"),
+     "headers": [_t("", ""), _t("You pay", "你付"), _t("They take", "他们抽"),
+                 _t("Sales before you are even", "打平前要卖掉")],
      "rows": [
-        {"cells": [_t("A gallery that represents you", "代理你的画廊"), _t("Nothing", "不用付"),
-                   _t("About 50%", "约 50%"), _t("None — the first sale is already profit",
-                                                 "一张都不用——第一笔成交就已经是赚的")]},
-        {"cells": [_t("Moon Gallery — rental", "Moon Gallery——租赁"),
-                   _t("¥100,000 for 5 days", "5 天 10 万日元"), _t("Nothing", "不抽"),
-                   _t("1", "1 张")]},
-        {"cells": [_t("Galerie LE MONDE — rental", "Galerie LE MONDE——租赁"),
-                   _t("¥374,000 for 12 days", "12 天 37.4 万日元"), _t("30%, and you pay for the DMs",
-                                                                     "30%，宣传明信片还要你自己出"),
-                   _t("6", "6 张")]},
+        {"cells": [_t("Representing gallery", "代理画廊"), _t("¥0", "0"), _t("about 50%", "约 50%"),
+                   _t("¥0", "0")]},
+        {"cells": [_t("Moon Gallery rental", "Moon Gallery 租赁"), _t("¥100,000 / 5 days", "10 万 / 5 天"),
+                   _t("0%", "0%"), _t("about one painting", "约一张画")]},
+        {"cells": [_t("Galerie LE MONDE rental", "Galerie LE MONDE 租赁"),
+                   _t("¥374,000 / 12 days", "37.4 万 / 12 天"), _t("30%", "30%"),
+                   _t("about six paintings", "约六张画")]},
      ]},
-    {"kind": "note", "text": _t(
-        "Which turns the usual complaint inside out. A gallery taking half sounds like the "
-        "expensive option and is the cheapest room you can stand in: it costs nothing to enter "
-        "and pays from the first sale. A rented room at ¥374,000 plus 30% only beats it once "
-        "you have sold ¥1.87 million of work in twelve days.",
-        "这就把平常那句抱怨整个翻了过来。「画廊要抽一半」听上去最贵，实际上是你能站进去的最便宜的一个房间："
-        "进场不要钱，第一笔成交就开始分钱。而 37.4 万日元加 30% 的租赁空间，"
-        "只有在十二天里卖出 187 万日元的作品之后，才会比它划算。")},
-    {"kind": "list", "label": _t("What it gives you that is not money",
-                                 "它给你的、不是钱的那部分"),
-     "items": [
-        _t("Buyers you would never have met. Everyone who has bought from you so far found you; a gallery's collectors are people who would not have.",
-           "你自己遇不到的买家。到目前为止买过你作品的人，都是自己找上门的；画廊的藏家是那些不会自己找上门的人。"),
-        _t("Someone whose own income depends on your prices rising. Nobody else in your working life has that incentive.",
-           "有一个人，他的收入取决于你的价格能不能涨上去。你的工作里没有第二个人有这个动机。"),
-        _t("A room, hung and lit and staffed, that you did not have to organise.",
-           "一个布置好、打好灯、有人看场的空间，而且不用你自己张罗。"),
-     ]},
-    {"kind": "prose", "label": _t("The door is unmarked, not locked", "门没有锁，只是没挂牌"),
+    {"kind": "prose", "text": _t(
+        "A 50% commission can look large in isolation. Against a ¥374,000 room fee plus 30%, "
+        "representation is cheaper until the rental exhibition reaches about ¥1.87 million in "
+        "sales. The more important difference is who brings the buyers. So far, people buying "
+        "your work have largely found you. Representation adds a collector base belonging to "
+        "somebody else.",
+        "单看 50% 的抽成，会觉得很高。但对比 37.4 万日元的场租再加 30%，"
+        "代理一直更划算，直到租场那次展览卖到约 187 万日元为止。"
+        "更重要的分别在于谁把买家带来。到目前为止，买你作品的人基本上是自己找到你的。"
+        "代理带来的，是一份属于别人的藏家名单。")},
+    {"kind": "prose", "label": _t("The next move", "下一步"),
      "text": _t(
-        "Eight Tokyo galleries were checked and none publishes a way in — but none publishes a "
-        "refusal either. The advice that Tokyo galleries take no submissions comes from artists, "
-        "never from a gallery, and nobody has ever quantified it. One gallery says the opposite "
-        "out loud: biscuit gallery runs an open call, free to enter, students eligible, with a "
-        "solo show as the prize.",
-        "查了东京的八家画廊，没有一家公开写着怎么投稿——但也没有一家写着不收。"
-        "「东京的画廊不接受投稿」这句话来自艺术家，从来不是来自画廊，而且没有人拿出过数据。"
-        "有一家反而把话说反了：biscuit gallery 公开办征集，免费报名，接受学生，奖品是一次个展。")},
-    {"kind": "links", "label": _t("Where to look", "可以从这几家看起"),
+        "Choose a small number of galleries where the work genuinely fits the programme. Visit "
+        "first. Then send five paintings from one coherent series and ask whether they would be "
+        "interested in seeing the work in person. A relationship with ten plausible rooms does "
+        "more than mail sent to a hundred implausible ones.",
+        "挑几家作品确实贴合其展览方向的画廊，数量不用多。先去看展。"
+        "然后寄五张同一个系列的画，问他们有没有兴趣看看实物。"
+        "和十个说得通的空间建立关系，比给一百个说不通的空间发信有用。")},
+    {"kind": "links", "label": _t("The immediate targets found in Tokyo",
+                                  "在东京找到的几个可以马上去的对象"),
      "items": [
-        {"name": _t("biscuit gallery — the one published open call, free, students eligible",
-                    "biscuit gallery——唯一一个公开的征集，免费，接受学生"),
+        {"name": _t("biscuit gallery — the clearest immediate route, because it publishes an open call. Free to enter, students eligible.",
+                    "biscuit gallery——最明确的一条现成的路，因为它公开办征集。免费报名，接受学生。"),
          "url": "https://biscuitgallery.com/"},
-        {"name": _t("GALLERY KOGURE — Jimbocho. Roster includes photorealist urban scenes in ink on paper",
-                    "GALLERY KOGURE——神保町。代理名单里有纸上水墨的写实城市景观"),
+        {"name": _t("GALLERY KOGURE — a close roster fit, including detailed urban work on paper",
+                    "GALLERY KOGURE——代理名单贴合度很高，包括纸上的细密城市题材"),
          "url": "https://gallerykogure.com/"},
-        {"name": _t("Tokyo Gallery + BTAP — six Chinese artists on the roster, three working in ink on paper",
-                    "Tokyo Gallery + BTAP——代理名单里有六位中国艺术家，其中三位做纸上水墨"),
+        {"name": _t("Tokyo Gallery + BTAP — a stronger China/Japan connection, six Chinese artists on the roster and several working in ink on paper",
+                    "Tokyo Gallery + BTAP——中日之间的联系更强，代理名单上有六位中国艺术家，其中几位做纸上水墨"),
          "url": "https://www.tokyo-gallery.com/"},
      ]},
-    {"kind": "note", "text": _t(_BASELINE_EN, _BASELINE_ZH)},
 ]
 
 
 _LICENSING = [
-    {"kind": "prose", "label": _t("How it works", "这件事是怎么运作的"),
+    {"kind": "prose", "label": _t("Let the archive earn again", "让已经画完的东西再挣一次钱"),
      "text": _t(
-        "They are not buying the painting. They are buying permission to use it — for this book, "
-        "in this country, for this long, in these formats. The painting stays yours and can be "
-        "licensed again to someone else afterwards. The price has almost nothing to do with the "
-        "picture and almost everything to do with the use.",
-        "他们买的不是那张画，是使用它的许可——用在这本书上，在这个国家，用这么久，用这几种形式。"
-        "画还是你的，之后还可以再授权给别人。价格几乎与画本身无关，几乎完全取决于用途。")},
-    {"kind": "table", "label": _t("The same painting, priced by what it is used for",
-                                  "同一张画，按用途定价"),
-     "headers": [_t("Used as", "用作"), _t("Pays", "价格")],
+        "Licensing has one unusual advantage for you: the inventory already exists. Six years of "
+        "daily painting is thousands of images that can produce income while the originals remain "
+        "yours. The value depends primarily on where and how an image is used.",
+        "对你来说，授权有一个别处没有的优势：库存已经在了。"
+        "六年的日课是好几千张图，它们可以在原作仍然属于你的情况下带来收入。"
+        "价值主要取决于一张图被用在哪里、怎么用。")},
+    {"kind": "table",
+     "headers": [_t("Use", "用途"), _t("Published rate", "公开费率")],
      "rows": [
-        {"cells": [_t("A small cut inside a magazine", "杂志内页的一小张插图"), _t("¥5,000", "5,000 日元")]},
-        {"cells": [_t("A book cover", "书籍封面"), _t("¥70,000", "70,000 日元")]},
-        {"cells": [_t("A magazine cover", "杂志封面"), _t("¥100,000", "100,000 日元")]},
-        {"cells": [_t("A calendar", "挂历"), _t("¥800,000", "800,000 日元")]},
+        {"cells": [_t("Small magazine illustration", "杂志内页小图"), _t("¥5,000", "5,000 日元")]},
+        {"cells": [_t("Book cover", "书籍封面"), _t("¥70,000", "70,000 日元")]},
+        {"cells": [_t("Magazine cover", "杂志封面"), _t("¥100,000", "100,000 日元")]},
+        {"cells": [_t("Calendar", "挂历"), _t("¥800,000", "800,000 日元")]},
      ]},
-    {"kind": "note", "text": _t(
-        "One image, a hundred and sixty times the range. This is the whole subject: what is being "
-        "sold is the use, so the first question about any offer is never how much, it is what for "
-        "and for how long. Japan's published rate card prices copyright transfer — 著作権譲渡, "
-        "handing it over permanently — at two to three times the licence fee. Anyone offering a "
-        "flat fee and expecting to own the picture is asking for a discount of two thirds.",
-        "同一张图，价格差一百六十倍。这就是这件事的全部：卖的是用途，"
-        "所以面对任何一个报价，第一个问题从来不是「多少钱」，而是「用来做什么、用多久」。"
-        "日本公开的费率表把「著作权转让」——也就是永久交出去——定在授权费的两到三倍。"
-        "有人开一个总价、又想连版权一起拿走，等于是在要一个三分之二的折扣。")},
-    {"kind": "prose", "label": _t("Why your existing paintings mostly cannot be covers",
-                                  "为什么你已经画好的画大多做不了封面"),
+    {"kind": "prose", "text": _t(
+        "That makes the licence terms as important as the fee: format, territory, duration, "
+        "exclusivity and reuse. Copyright transfer is priced at roughly two to three times a "
+        "normal licence in the published Japanese rate card. Keep that distinction explicit "
+        "whenever a buyer asks for permanent rights.",
+        "所以授权条款和费用同样重要：形式、地域、期限、独家与否、能不能再次使用。"
+        "在日本公开的费率表上，著作权转让的定价大约是普通授权的两到三倍。"
+        "只要对方要的是永久权利，就把这一条明确摆出来。")},
+    {"kind": "prose", "label": _t("Make a small cover-ready series", "画一小组能直接当封面用的"),
      "text": _t(
-        "A cover crops the image and puts type across it, so it needs empty space that was planned "
-        "for. Both Japanese authorities that publish licensing tariffs exclude altered images, and "
-        "one excludes covers by name for exactly this reason. The market for painterly, "
-        "figureless, atmospheric covers is real and growing — it is documented as a deliberate "
-        "move away from AI imagery — but it is reached by being commissioned to paint one, not by "
-        "licensing one already painted.",
-        "封面要裁切，还要在上面压字，所以它需要一块事先留出来的空白。"
-        "日本两家公布授权费率的机构都把「经过改动的图像」排除在外，其中一家更是直接点名排除封面，原因正在于此。"
-        "手绘的、没有人物的、讲氛围的封面，市场是真实的而且在扩大——有记录显示这是刻意在避开 AI 生成的图像——"
-        "但进入这个市场的方式是被委托去画一张，而不是把已经画好的授权出去。")},
-    {"kind": "prose", "label": _t("So paint some that can be", "那就画几张能当封面的"),
-     "text": _t(
-        "The thing stopping your existing work is compositional, not stylistic — the subject is "
-        "already what this market wants. A cover is taller than it is wide, gets cropped, and "
-        "needs a quiet area for the title, the author's name and a publisher's mark. Sky, fog, a "
-        "blank wall, water, an empty upper third. None of that is a different kind of painting "
-        "from the ones you already make; it is the same painting composed with a hole in it. And "
-        "since you paint every day anyway, a handful made deliberately to those proportions costs "
-        "you nothing you were not already spending.",
-        "挡住你现有作品的是构图，不是风格——题材本身正是这个市场要的。"
-        "封面比宽要高，会被裁切，还需要一块安静的地方放书名、作者名和出版社标志。"
-        "天空、雾、一面空墙、水面，或者上三分之一整片留白。"
-        "这些都不是另一种画法，还是你在画的那种画，只是构图时留了一个洞。"
-        "而且你本来每天都在画，按这个比例特意画上几张，并不会多花你什么。")},
-    {"kind": "note", "text": _t(
-        "That also opens two doors your back catalogue cannot use. Arcangel — a business that "
-        "exists only to sell book covers — keeps illustration as a top-level category beside "
-        "photography and pays contributors 50% of net, with no minimum before it pays out. Its "
-        "literary fiction collection is its smallest at 10,000 images, against 857,702 for "
-        "contemporary fiction. The corner you would be aiming at is the emptiest shelf in the "
-        "shop, which cuts both ways: less competition, and less traffic.",
-        "这样还会打开两扇你的旧作用不上的门。Arcangel——一家只做书封生意的公司——"
-        "把插画和摄影并列为一级分类，付给供稿人净额的 50%，而且没有起付门槛。"
-        "它的文学小说图库是最小的一个，只有一万张，而当代小说有八十五万七千多张。"
-        "你要瞄准的那个角落，是这家店里最空的一层货架——这一点是双向的：竞争少，来往的人也少。")},
-    {"kind": "list", "label": _t("What it gives you that is not money",
-                                 "它给你的、不是钱的那部分"),
+        "Your subject matter already fits the book market: architecture, atmosphere, interiors, "
+        "weather, light and quiet urban scenes. The compositional requirement is the part worth "
+        "designing for. Covers need room for typography and cropping, so paint a small group "
+        "vertically with intentional quiet areas — sky, fog, water, wall, shadow, an open upper "
+        "third. That gives art directors images they can build a cover around while keeping the "
+        "work recognisably yours. Five to ten paintings would be enough to begin.",
+        "你的题材本来就贴合图书市场：建筑、氛围、室内、天气、光，以及安静的城市场景。"
+        "值得专门去设计的，是构图上的要求。封面需要放字的地方，也需要能被裁切，"
+        "所以画一小组竖构图，留出有意为之的安静区域——天空、雾、水面、墙、阴影，或者上三分之一整片留白。"
+        "这样艺术总监就能围绕它做出一张封面，而作品看上去仍然一眼就是你的。五到十张就够开个头。")},
+    {"kind": "links", "label": _t("Then place them where art directors already look",
+                                  "然后把它们放到艺术总监本来就会去看的地方"),
      "items": [
-        _t("The work goes places you will never go, and keeps earning after you have stopped thinking about it.",
-           "作品会去到你永远不会去的地方，而且在你早就不再想着它之后，还在继续挣钱。"),
-        _t("Nothing new has to be painted. This is the only realm here where the inventory is already six years deep.",
-           "不需要新画一张。这是这里唯一一条「库存」已经积了六年的路。"),
-        _t("It does not care where you live or what visa you hold. The buyer is a company somewhere and the goods are files.",
-           "它不在意你住在哪里、拿的是什么签证。买家是某个地方的一家公司，交付的是文件。"),
-     ]},
-    {"kind": "links", "label": _t("Where to put the work", "把作品放到这些地方"),
-     "items": [
-        {"name": _t("イラストレーションファイルWeb — where Japanese art directors and book designers look",
-                    "イラストレーションファイルWeb——日本的艺术总监和装帧设计师会去看的地方"),
+        {"name": _t("イラストレーションファイルWeb — Japanese art directors and book designers",
+                    "イラストレーションファイルWeb——日本的艺术总监与装帧设计师"),
          "url": "https://www.illustration-file.com/"},
-        {"name": _t("amanaimages — Japanese stock licensing; ¥33,000–79,200 a cover licence",
-                    "amanaimages——日本的图像授权；一次封面授权 33,000–79,200 日元"),
+        {"name": _t("amanaimages — Japanese stock licensing; published cover licences are ¥33,000–79,200",
+                    "amanaimages——日本的图像授权；公开的封面授权价为 33,000–79,200 日元"),
          "url": "https://amanaimages.com/"},
-        {"name": _t("Arcangel — exists only to sell book covers, takes illustration, pays 50% of net",
-                    "Arcangel——只做书封生意，收插画，付净额的 50%"),
+        {"name": _t("Arcangel — specialised in book-cover imagery, accepts illustration, pays contributors 50% of net",
+                    "Arcangel——专做书封图像，收插画，付给供稿人净额的 50%"),
          "url": "https://arcangel.com/become-a-contributor/"},
-        {"name": _t("Bridgeman Studio — represents around a thousand artists for licensing, and says it is currently accepting submissions of illustration",
-                    "Bridgeman Studio——为约一千位艺术家做授权代理，并且写明目前正在接受插画投稿"),
+        {"name": _t("Bridgeman Studio — represents roughly a thousand artists and is currently accepting illustration submissions",
+                    "Bridgeman Studio——代理约一千位艺术家，目前正在接受插画投稿"),
          "url": "https://www.bridgemanimages.com/en/studio"},
      ]},
-    {"kind": "note", "text": _t(_BASELINE_EN, _BASELINE_ZH)},
 ]
 
 
 _PUBLISHING = [
-    {"kind": "prose", "label": _t("How it works", "这件事是怎么运作的"),
+    {"kind": "prose", "label": _t("Pitch a book that still needs to be made",
+                                  "提一本还没做出来的书"),
      "text": _t(
-        "A publisher takes on a book of your paintings, pays for the printing, puts it into "
-        "bookshops across the country and pays you a percentage of each copy. You put in no money "
-        "and hold no stock. They decide the format, the print run and the timing, and they decide "
-        "whether it happens at all.",
-        "出版社把一本你的画集接下来，出印刷的钱，把书铺到全国的书店，再按每一本给你一个百分比。"
-        "你不出钱，也不囤货。开本、印量、时间由他们定，做不做，也由他们定。")},
-    {"kind": "table", "label": _t("What a copy is worth, either way", "一本书，两种做法各值多少"),
-     "headers": [_t("", ""), _t("You keep per copy", "每本你留下"), _t("300 copies is worth", "300 本相当于")],
+        "The strongest publishing opportunity is a book concept with enough identity that a "
+        "publisher can imagine selling it. Your existing paintings establish that you can execute "
+        "it; the proposal establishes what the book is. That distinction matters because the "
+        "publishers checked ask for projects and proposals. In the comparable Tokyo architecture "
+        "title, forty of the fifty paintings were made after the deal was agreed.",
+        "出版这条路上最有力的机会，是一个面貌足够清楚、让出版社能想象出怎么卖的书的构想。"
+        "你已有的画证明你做得出来；企划书说明的是这本书到底是什么。"
+        "这个分别之所以重要，是因为查过的这几家出版社要的是企划和构想。"
+        "在那本可比的东京建筑画集里，五十张画中有四十张是在合同谈定之后才画的。")},
+    {"kind": "list", "label": _t("A strong proposal needs", "一份有力的企划书要有"),
+     "items": [
+        _t("the idea of the book", "这本书的构想"),
+        _t("why the paintings belong together", "这些画为什么属于同一本书"),
+        _t("a sample sequence", "一段样张的排序"),
+        _t("several finished works showing the visual language", "几张完成作品，用来呈现视觉语言"),
+        _t("what remains to be painted", "还有哪些要画"),
+        _t("the intended reader", "预设的读者"),
+        _t("a rough scale and format", "大致的规模与开本"),
+     ]},
+    {"kind": "prose", "text": _t(
+        "Your six-year archive gives you unusually strong material for that proposal, even if the "
+        "final book contains new work.",
+        "即使最后成书用的是新画的作品，你这六年的积累也让这份企划书有异常扎实的底子。")},
+    {"kind": "table", "label": _t("The economics", "这笔账"),
+     "headers": [_t("", ""), _t("You keep per copy", "每本你留下"), _t("300 copies", "300 本")],
      "rows": [
-        {"cells": [_t("Published by someone else", "由别人出版"),
-                   _t("¥115–240 · 5–8% of the pre-tax price", "115–240 日元 · 税前定价的 5–8%"),
+        {"cells": [_t("Publisher", "出版社出版"), _t("¥115–240", "115–240 日元"),
                    _t("¥34,500–72,000", "34,500–72,000 日元")]},
-        {"cells": [_t("Published by you", "自己出版"), _t("¥3,635", "3,635 日元"),
+        {"cells": [_t("Self-published hardcover", "自己出版的精装本"), _t("¥3,635", "3,635 日元"),
                    _t("¥1,090,500", "1,090,500 日元")]},
      ]},
-    {"kind": "note", "text": _t(
-        "One copy you sell yourself is worth sixteen to thirty-two that a publisher sells for you. "
-        "Selling three hundred yourself earns what a publisher earns you on five to sixteen "
-        "thousand. There is also no advance: the guaranteed portion is paid at the end of the "
-        "month of publication, not on signing. On the money alone this is the weakest thing on "
-        "this page.",
-        "你自己卖掉一本，抵得上出版社替你卖掉十六到三十二本。你自己卖三百本，"
-        "相当于出版社替你卖五千到一万六千本。而且没有预付：保证的那部分在出版当月月底结算，不是签约时给。"
-        "单看钱，这是这一页上最弱的一条。")},
-    {"kind": "list", "label": _t("What it gives you that is not money",
-                                 "它给你的、不是钱的那部分"),
+    {"kind": "prose", "text": _t(
+        "Publishing is weak as a per-copy revenue stream and strong as distribution. The "
+        "publisher's contribution is everything surrounding those royalties: financing the print "
+        "run, national bookshop distribution, an ISBN, production, inventory, and a publication "
+        "record that stays attached to your name. Those benefits make the most sense when the "
+        "book is expected to strengthen the rest of the practice as well as sell copies.",
+        "论每本能拿多少，出版是弱的；论发行，它是强的。"
+        "出版社真正提供的是围绕那点版税的一切：出印刷的钱、进入全国书店、一个 ISBN、"
+        "制作、库存，以及一条会一直挂在你名字上的出版记录。"
+        "当这本书除了卖出去，还被期待去带动其余的实践时，这些好处才最说得通。")},
+    {"kind": "links", "label": _t("Three publishers with a published route in",
+                                  "三家把入口写出来的出版社"),
      "items": [
-        _t("Bookshops across the country, which self-publishing cannot reach at any price. The Tokyo architecture books that ran past a hundred thousand copies were published by MdN, not by their author.",
-           "全国的书店——自出版无论花多少钱都进不去。那套卖过十万册的东京建筑画集，是由 MdN 出版的，不是作者自己出的。"),
-        _t("A permanent object with an ISBN, in libraries and in second-hand shops for decades.",
-           "一件有 ISBN 的、长久存在的东西，几十年里都会在图书馆和旧书店里。"),
-        _t("A credential that keeps working after the print run sells out, in every conversation with a gallery, a publisher or an art director.",
-           "一个在这一版卖完之后仍然有效的资历——面对画廊、出版社、艺术总监时，每一次谈话都用得上。"),
-     ]},
-    {"kind": "prose", "label": _t("What actually gets a book made", "真正促成一本书的是什么"),
-     "text": _t(
-        "A project, not a portfolio. Two international art publishers say outright that they do "
-        "not look at portfolios; they want a book that has been thought through. Of the fifty "
-        "paintings in the Tokyo architecture book, forty were made after the deal was signed — the "
-        "book was proposed and then painted, not assembled from what already existed. There is no "
-        "agent layer in Japan, so the proposal goes directly to the publisher.",
-        "他们要的是一个企划，不是一本作品集。两家国际艺术书出版社明说不看作品集，"
-        "他们想看的是一本已经想清楚的书。那本东京建筑画集里的五十张画，有四十张是在合同签下来之后才画的——"
-        "书是先提出来、再画出来的，不是把现成的东西凑一本。日本没有经纪人这一层，企划直接递给出版社。")},
-    {"kind": "links", "label": _t("The three doors that are actually published",
-                                  "真正把门写出来的三家"),
-     "items": [
-        {"name": _t("マール社 — an open call for proposals, and it says plainly: not self-publishing, we bear the cost, sold in bookshops nationwide. A month of silence is a no.",
-                    "マール社——公开征集企划，而且写得很清楚：这不是自费出版，费用由我社承担，在全国书店发售。一个月没有回音就是不通过。"),
+        {"name": _t("マール社 — accepts proposals directly and finances accepted books itself",
+                    "マール社——直接接受企划，通过后由他们出钱做书"),
          "url": "https://www.maar.com/"},
-        {"name": _t("青幻舎 — a dedicated proposal form: portfolio, a written plan, images.",
-                    "青幻舎——专门的企划投递表单：作品集、企划书、图像。"),
+        {"name": _t("青幻舎 — a dedicated proposal route asking for a plan, portfolio and images",
+                    "青幻舎——专门的企划投递通道，要企划书、作品集和图像"),
          "url": "https://www.seigensha.com/"},
-        {"name": _t("MdN — the publisher of the Tokyo architecture books; accepts portfolios and proposals.",
-                    "MdN——那套东京建筑画集的出版社；接受作品集与企划。"),
+        {"name": _t("MdN — accepts portfolios and proposals, and has already published successful Tokyo architecture books",
+                    "MdN——接受作品集与企划，并且已经出过卖得很好的东京建筑画集"),
          "url": "https://books.mdn.co.jp/"},
      ]},
-    {"kind": "note", "text": _t(_BASELINE_EN, _BASELINE_ZH)},
+    {"kind": "note", "text": _t(
+        "The next useful piece of work here is one book proposal, built well enough to send to "
+        "all three with small changes.",
+        "这条路上接下来真正有用的一件事，是把一份书的企划书做扎实，"
+        "扎实到只要小改一下就能同时递给这三家。")},
 ]
 
 
 _COMMISSIONS = [
-    {"kind": "prose", "label": _t("How it works", "这件事是怎么运作的"),
+    {"kind": "prose", "label": _t("Price the painting and the usage separately",
+                                  "画和用途，分开定价"),
      "text": _t(
-        "Two payments, not one. A fee for the work of painting it, and a licence for what they may "
-        "do with it afterwards. A single number with no terms attached is a buyout: they own the "
-        "picture, and you can never print it, sell it or license it again. Japan's published rate "
-        "card puts that at two to three times a normal fee, so it is a thing to be paid for, not "
-        "a thing to be assumed.",
-        "是两笔钱，不是一笔。一笔是画这张画的劳务费，另一笔是他们此后可以拿它做什么的授权。"
-        "只报一个总价、什么条件都不写，那就是买断：画归他们，你再也不能印它、卖它、把它授权出去。"
-        "日本公开的费率表把买断定在正常费用的两到三倍，所以那是要收钱的，不是默认送出去的。")},
-    {"kind": "table", "label": _t("What the national rate card says", "全国费率表上是怎么写的"),
-     "headers": [_t("", ""), _t("Pays", "价格")],
+        "A commission asks you to give up something your originals preserve: complete control "
+        "over the subject, the schedule and the finished image. So the fee has to compensate for "
+        "that, or the commission has to create value somewhere else.",
+        "接委托意味着交出一些你画自己作品时保有的东西：对题材、进度和最终画面的完全掌控。"
+        "所以要么费用能补偿这一点，要么这次委托得在别的地方产生价值。")},
+    {"kind": "table", "label": _t("The national rate card gives a useful floor",
+                                  "全国费率表给了一个有用的底线"),
+     "headers": [_t("Use", "用途"), _t("Published rate", "公开费率")],
      "rows": [
         {"cells": [_t("Book cover", "书籍封面"), _t("¥70,000", "70,000 日元")]},
         {"cells": [_t("Magazine cover", "杂志封面"), _t("¥100,000", "100,000 日元")]},
-        {"cells": [_t("A small illustration inside", "内页小图"), _t("¥5,000", "5,000 日元")]},
-        {"cells": [_t("Average across all jobs coordinated in a year", "一年里所有经手工作的平均值"),
-                   _t("¥71,327", "71,327 日元")]},
+        {"cells": [_t("Small internal illustration", "内页小图"), _t("¥5,000", "5,000 日元")]},
+        {"cells": [_t("Average coordinated job", "经手工作的平均值"), _t("¥71,327", "71,327 日元")]},
      ]},
-    {"kind": "note", "text": _t(
-        "Hand-painted watercolour is named in that card by name, in the second-highest of five "
-        "ranks. The rates above are the ones your medium is priced at, not a general figure.",
-        "手绘水彩在那份费率表里是被点名写出来的，属于五级中的第二高级。"
-        "上面这些价格，就是按你这个媒介定的，不是一个笼统的数字。")},
-    {"kind": "prose", "label": _t("And ¥70,000 is not very much", "而 70,000 日元并不算多"),
-     "text": _t(
-        "It is roughly one of your originals, which you already sell with no client, no brief and "
-        "no revisions. A hand-painted cover with sketch approval could take twenty to forty hours; "
-        "nobody publishes an hour count for watercolour, so that is an estimate rather than a "
-        "figure — but at the top of that range the fee is under ¥2,000 an hour. On the fee alone, "
-        "this pays worse than painting what you want and selling it.",
-        "这大约就是你的一张原作，而原作你现在就在卖，没有客户、没有要求、也不用改稿。"
-        "一张手绘封面加上草图确认，可能要花二十到四十个小时；水彩的工时没有人公布过，"
-        "所以这是估计而不是数据——但按上限算，时薪不到 2,000 日元。"
-        "单看这笔费用，它比你画自己想画的、然后卖掉，要差。")},
-    {"kind": "list", "label": _t("What makes it worth doing anyway",
-                                 "那为什么它仍然值得做"),
+    {"kind": "prose", "text": _t(
+        "Hand-painted watercolour sits in the second-highest of the five medium categories in "
+        "that rate card. A ¥70,000 cover is therefore close to the price of one of your existing "
+        "originals. The commercial job becomes more attractive when the licence expands, the "
+        "image is reused, or the publication brings the work to the next client. Secondary use "
+        "can pay 70%, 50%, 50% and 20% of the original fee as the same image is reused. That is "
+        "the part worth protecting.",
+        "在那份费率表的五个媒介档次里，手绘水彩排在第二高。"
+        "所以 70,000 日元一张封面，差不多就是你一张现有原作的价格。"
+        "当授权范围扩大、图像被再次使用，或者这次发表把作品带到下一个客户面前时，"
+        "商业委托才变得更有吸引力。同一张图被反复使用时，二次使用可以按原稿费的 "
+        "70%、50%、50%、20% 再付。值得护住的正是这一部分。")},
+    {"kind": "list", "label": _t("Build the terms before the enquiry arrives",
+                                 "在询问找上门之前，先把条款准备好"),
      "items": [
-        _t("¥70,000 is the bottom of the scale, not the top. The same painting is ¥800,000 as a calendar. What you are learning to price is the use, and the ceiling is eleven times a book cover.",
-           "70,000 是这个尺度的底部，不是顶部。同一张画用作挂历是 800,000。你要学会定价的是用途，而天花板是一张书封的十一倍。"),
-        _t("Secondary use pays again — 70%, 50%, 50% and 20% of the original fee as the same picture is reused. Painted once, paid four times.",
-           "二次使用会再付一次——按原稿费的 70%、50%、50%、20%，同一张图被反复使用。画一次，收四次钱。"),
-        _t("A credit is visible; a sold original is not. The private buyer takes the painting home and nobody sees it again. A published cover is how the next art director finds you.",
-           "署名是看得见的，卖掉的原作不是。私人买家把画带回家，从此没有人再看到它。而一张出版过的封面，是下一位艺术总监找到你的方式。"),
+        _t("Painting fee — the work required to make the image.",
+           "绘制费——做出这张图所需要的工作。"),
+        _t("Licence — where it may appear, for how long, in which countries, for which use.",
+           "授权——可以出现在哪里、用多久、在哪些国家、作什么用途。"),
+        _t("Additional use — a new fee when the same image is reused elsewhere.",
+           "追加使用——同一张图被用到别处时，另计一笔费用。"),
+        _t("Copyright transfer — a separate, substantially higher price when the client wants permanent ownership of the rights.",
+           "著作权转让——当客户想永久拥有这些权利时，单独计价，而且高出许多。"),
      ]},
-    {"kind": "note", "text": _t(
-        "If those three do not happen, commissions are worse than what you do now. That is the "
-        "honest test: not whether the first fee is good, but whether it leads to the second one.",
-        "如果这三件事没有发生，那么接委托比你现在做的事更差。这就是老实的判断标准："
-        "不是看第一笔钱好不好，而是看它有没有带来第二笔。")},
-    {"kind": "table", "label": _t("Who keeps the copyright, by platform", "各平台的版权归谁"),
-     "headers": [_t("", ""), _t("", "")],
+    {"kind": "prose", "text": _t(
+        "That turns an ambiguous “how much for a painting?” into something you can price "
+        "consistently.",
+        "这样一来，「画一张多少钱」这种含糊的问题，就变成了你可以稳定报价的东西。")},
+    {"kind": "table", "label": _t("Platform terms matter as well", "平台条款同样要紧"),
+     "headers": [_t("Platform", "平台"), _t("Copyright", "版权")],
      "rows": [
-        {"cells": [_t("Skeb", "Skeb"), _t("Transfer is forbidden outright — the artist keeps it",
-                                          "明确禁止转让——版权留在作者手里")]},
-        {"cells": [_t("ココナラ", "ココナラ"), _t("You keep copyright, but grant a near-unlimited licence to use it",
-                                                "版权归你，但授予对方一份近乎无限制的使用许可")]},
-        {"cells": [_t("SKIMA (opt販売)", "SKIMA（opt 販売）"),
-                   _t("Assigns copyright by default, including overseas — read before using",
-                      "默认转让版权，包括海外——用之前先看清楚")]},
+        {"cells": [_t("Skeb", "Skeb"), _t("Transfer prohibited; the artist retains it",
+                                          "禁止转让；版权留在作者手里")]},
+        {"cells": [_t("ココナラ", "ココナラ"),
+                   _t("Artist retains copyright while granting broad usage rights",
+                      "版权归作者，但授予对方很宽的使用权")]},
+        {"cells": [_t("SKIMA opt販売", "SKIMA opt 販売"),
+                   _t("Copyright assigned by default, including overseas rights",
+                      "默认转让版权，包括海外权利")]},
      ]},
-    {"kind": "links", "label": _t("Two doors open to you now, both cheap",
-                                  "现在就对你开着的两扇门，而且都不贵"),
+    {"kind": "links", "label": _t("Two useful doors now", "现在就有两扇有用的门"),
      "items": [
-        {"name": _t("ザ・チョイス — ¥1,500 to enter. Age, nationality and professional status are all explicitly irrelevant. Takes unframed originals.",
-                    "ザ・チョイス——报名费 1,500 日元。年龄、国籍、专业与否，明确写着一概不问。收不装裱的原作。"),
+        {"name": _t("ザ・チョイス — ¥1,500 entry; age, nationality and professional status explicitly unrestricted. Accepts unframed originals.",
+                    "ザ・チョイス——报名费 1,500 日元；年龄、国籍、是否职业都明确不设限。收不装裱的原作。"),
          "url": "https://www.genkosha.co.jp/illustration/choice.html"},
-        {"name": _t("HB FILE — ¥7,000, prints not originals. Win or lose, every entrant's file stays in the gallery for a year and is opened to designers and publishers.",
-                    "HB FILE——7,000 日元，交印刷品而不是原作。无论得奖与否，每位参加者的作品档案都会在画廊保存一年，向设计师和出版社开放。"),
+        {"name": _t("HB FILE — ¥7,000 entry; every entrant's file stays available to designers and publishers in the gallery for a year.",
+                    "HB FILE——报名费 7,000 日元；每位参加者的作品档案会在画廊向设计师和出版社开放一年。"),
          "url": "https://hbgallery.com/compe.html"},
      ]},
-    {"kind": "note", "text": _t(_BASELINE_EN, _BASELINE_ZH)},
+    {"kind": "note", "text": _t(
+        "Both are inexpensive ways to place the work in front of people who commission illustration.",
+        "这两条都很便宜，都是把作品放到「会下委托的人」眼前的方式。")},
 ]
+
+
+_FIRST_STEPS = {
+    "label": _t("What to do first", "先做什么"),
+    "intro": _t(
+        "These routes do not require a career change. Each can be tested with one small piece of "
+        "work.",
+        "这几条路都不需要你改变职业方向。每一条都可以用一件很小的事去试。"),
+    "steps": [
+        {"route": _t("Direct", "直接销售"),
+         "step": _t("List an A2 poster, an A1 poster and a framed A4 print on demand.",
+                    "用按需印刷上架一张 A2 海报、一张 A1 海报和一张装裱的 A4 印刷。")},
+        {"route": _t("Gallery", "画廊"),
+         "step": _t("Choose one gallery exhibition to attend, and prepare a five-image series link.",
+                    "选一场画廊的展去看，并准备好一个五张同系列作品的链接。")},
+        {"route": _t("Licensing", "授权"),
+         "step": _t("Make the first five vertical, cover-ready paintings.",
+                    "画出头五张竖构图、可以直接当封面用的画。")},
+        {"route": _t("Publishing", "出版"),
+         "step": _t("Turn one existing body of work into a one-page book concept.",
+                    "把已有的一组作品，写成一页纸的书的构想。")},
+        {"route": _t("Commissions", "委托"),
+         "step": _t("Write a reusable fee-and-licence template before the next enquiry arrives.",
+                    "在下一个询问到来之前，写好一份可以反复用的「费用＋授权」模板。")},
+    ],
+    "close": _t(
+        "That gives you five experiments. Their results will tell you much more than choosing one "
+        "of the five in advance.",
+        "这样你就有了五个实验。它们的结果能告诉你的，远比事先在五条路里挑一条要多。"),
+}
 
 FUTURES = [
     {
@@ -656,7 +501,7 @@ FUTURES = [
         # The business-scenario body. Only this card carries one so far; the
         # component falls back to the old shape for the other four, so they
         # keep working while they are converted one at a time.
-        "scenario": _SELLING_DIRECT,
+        "blocks": _SELLING_DIRECT,
         # Rewritten 2026-09-06. Two things were wrong with this card and they
         # were the same thing.
         #
@@ -676,8 +521,8 @@ FUTURES = [
         # a person already selling direct would not already have. All four are
         # measured, all four are actionable this week, and none of them is
         # visible from inside her own shop.
-        "tagline": _t("The audience is already there. What moves the number is the price, not the follower count.",
-                      "观众已经在了。真正让数字变动的是价格，不是粉丝数。"),
+        "tagline": _t("Your own shop, your own prices, everything above cost.",
+                      "自己的店，自己定价，成本之上全归你。"),
         "overview": _t(
             "Nothing on this path needs building — the shop runs, the work exists, about 26,000 "
             "people already follow it. What has never been tested is the middle of the price "
@@ -1039,8 +884,9 @@ def build(evidence: Optional[dict] = None) -> dict:
             "strengths": strengths.get(f["id"], []),
             "details": _details(f),
         } for f in FUTURES],
-        "note": _t(
-            "Five kinds of success, not five strategies. They are not exclusive, and the record "
-            "already sits on more than one of them.",
-            "五种「成功」，而不是五种策略。它们并不互斥，而现有的履历已经落在其中不止一条上。"),
+        # The frame the whole tab answers to, and the five experiments it ends
+        # on. Without these the five routes are five essays with nothing joining
+        # them - which is what six earlier drafts were.
+        "frame": _FRAME,
+        "first_steps": _FIRST_STEPS,
     }

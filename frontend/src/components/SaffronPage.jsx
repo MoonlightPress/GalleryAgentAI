@@ -429,6 +429,12 @@ class SectionErrorBoundary extends Component {
 // section with no prop inherits this context (true outside any provider, so
 // nothing changes for surfaces that don't opt in).
 const SectionOpenContext = createContext(true)
+// Every section's id, supplied by SB() below. Before this, 3 of 21 sections
+// passed a trackId and 3 of 10 on the Strategy tab had a TrackedSection, so the
+// telemetry lit three windows in a dark building — and we spent an evening
+// reasoning about what she reads from a sample that could only ever report
+// those three. Nobody decided that; it accreted. Now everything reports.
+const SectionIdContext = createContext(null)
 
 // trackId: when given, fires a real "she opened this" signal on the actual
 // click that expands the section — distinct from TrackedSection's ambient
@@ -439,13 +445,15 @@ const SectionOpenContext = createContext(true)
 // mount — only on a deliberate click.
 function SectionShell({ title, subtitle, summary, defaultOpen, trackId, children }) {
   const ctxDefault = useContext(SectionOpenContext)
+  const ctxId = useContext(SectionIdContext)
+  const sectionId = trackId ?? ctxId
   const initialOpen = defaultOpen !== undefined ? defaultOpen : ctxDefault
   const [open, setOpen] = useState(initialOpen)
   return (
     <section className={`sf-section${open ? '' : ' sf-section--closed'}`}>
       <button className="sf-toggle-header" onClick={() => setOpen(o => {
         const next = !o
-        if (next && trackId) track({ type: 'action', action: 'section_open', page: 'observe', section: trackId })
+        if (next && sectionId) track({ type: 'action', action: 'section_open', page: 'observe', section: sectionId })
         return next
       })}>
         <div className="sf-toggle-text">
@@ -1702,60 +1710,11 @@ function Disclosure({ d, lang, children }) {
   )
 }
 
-// A business scenario: what it gives, what's hard, the two fulfilment routes,
-// every product with the cost on each route, and where to start.
-//
-// Replaces the "kind of life" body for cards that carry a `scenario`. The old
-// body described a way of living; this one is a plan with numbers, which is
-// what "these are business scenarios" asked for. The product table is the
-// centre of it — it is the thing that was missing from every earlier draft, and
-// the fulfilment axis (print-on-demand against buying a run) is what decides
-// how much of her week any of it costs.
-// A price ladder, where it breaks, what fits in the break, and how to make each
-// rung. Four blocks, in that order.
-//
-// Scott, 2026-09-06: "aren't we proposing a funnel? here are the materials you
-// can produce and sell from cheapest to most expensive, noting margin?
-// escalation pathways?" — and the purpose the whole page serves: "she comes to
-// saffron for a framework of what an artist like her does to become successful
-// in the realms she chooses to participate in."
-//
-// Earlier versions of this body were a catalogue: eleven products, every cost,
-// no order and no argument. A catalogue answers "what exists", which Bible05's
-// closing Hard Truth names as the wrong question. A ladder answers "what
-// matters", because it has a shape and a break in it.
-// Hoisted out of ScenarioBody: components defined inside a render function are
-// re-created every pass, which remounts their whole subtree.
+// Each route is a generic block list, so it takes the shape its subject wants.
+// Kinds: prose · note (inset) · list · table · links. The engine owns the
+// sequence; this only knows how to draw each kind.
 const scPick = (o, lang) => (o && (o[lang] || o.en)) || ''
 
-function ScenTable({ headers, rows, cols, lang }) {
-  return (
-    <div className="sf-scen-tablewrap">
-      <table className="sf-scen-table">
-        <thead><tr>{headers.map((h, i) => <th key={i}>{scPick(h, lang)}</th>)}</tr></thead>
-        <tbody>
-          {rows.map((r, i) => (
-            <tr key={i}>
-              <th scope="row">{scPick(r.what, lang)}</th>
-              {cols.map((c, j) => (
-                <td key={j} className={c === 'price' || c === 'keep' ? 'sf-scen-price' : undefined}>
-                  {scPick(r[c], lang)}
-                </td>
-              ))}
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
-  )
-}
-
-// The order is the argument: what you have, what is missing, what would fill it
-// and at what cost, why holding stock is wrong for THOSE things, therefore drop
-// shipping, what that is, why it suits this work, the chart, where to go today.
-// The other four realms: a generic block list, so each takes the shape its
-// subject wants. Kinds: prose · note (inset) · list · table · links. The engine
-// owns the sequence; this only knows how to draw each kind.
 function RealmBlocks({ blocks, lang }) {
   return (
     <div className="sf-scen">
@@ -1822,74 +1781,6 @@ function RealmBlocks({ blocks, lang }) {
   )
 }
 
-function ScenarioBody({ s, lang }) {
-  const p = (k) => scPick(s[k], lang)
-  return (
-    <div className="sf-scen">
-      <div className="sf-block-label">{p('have_label')}</div>
-      <p className="sf-scen-para">{p('have')}</p>
-
-      <div className="sf-block-label">{p('missing_label')}</div>
-      <p className="sf-scen-gap">{p('missing')}</p>
-
-      <div className="sf-block-label">{p('fill_label')}</div>
-      <ScenTable headers={s.fill_headers} rows={s.fill} cols={['price', 'cost', 'keep']} lang={lang} />
-
-      <div className="sf-block-label">{p('why_not_stock_label')}</div>
-      <p className="sf-scen-para">{p('why_not_stock')}</p>
-
-      <div className="sf-block-label">{p('ds_label')}</div>
-      <p className="sf-scen-gap">{p('ds')}</p>
-
-      <div className="sf-block-label">{p('ds_fit_label')}</div>
-      <ul className="sf-scen-list">
-        {s.ds_fit.map((x, i) => <li key={i}>{scPick(x, lang)}</li>)}
-      </ul>
-
-      <div className="sf-block-label">{p('ds_chart_label')}</div>
-      <ScenTable headers={s.ds_chart_headers} rows={s.ds_chart} cols={['price', 'keep', 'margin']} lang={lang} />
-      <p className="sf-scen-note">{p('ds_note')}</p>
-
-      {/* Books are a rung on this ladder, not a separate realm - self-publishing
-          IS selling it yourself (Scott, 2026-09-06). Format decides everything,
-          and the ordering is counter-intuitive enough to be worth its own
-          table: a Chinese hardcover pays back sooner than a domestic softcover. */}
-      <div className="sf-block-label">{p('books_label')}</div>
-      <p className="sf-scen-para">{p('books_note')}</p>
-      <div className="sf-scen-tablewrap">
-        <table className="sf-scen-table">
-          <thead><tr>{s.books_headers.map((h, i) => <th key={i}>{scPick(h, lang)}</th>)}</tr></thead>
-          <tbody>
-            {s.books.map((r, i) => (
-              <tr key={i}>
-                <th scope="row">{scPick(r.what, lang)}</th>
-                <td>{scPick(r.each, lang)}</td>
-                <td>{scPick(r.outlay, lang)}</td>
-                <td className="sf-scen-price">{scPick(r.price, lang)}</td>
-                <td className="sf-scen-price">{scPick(r.be, lang)}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-
-      <div className="sf-block-label">{p('proof_label')}</div>
-      <p className="sf-scen-gap">{p('proof')}</p>
-
-      <div className="sf-block-label">{p('today_label')}</div>
-      <ul className="sf-scen-links">
-        {s.today.map((l, i) => (
-          <li key={i}>
-            <a href={l.url} target="_blank" rel="noreferrer" className="sf-ext-link">
-              {scPick(l.name, lang)} ↗
-            </a>
-          </li>
-        ))}
-      </ul>
-    </div>
-  )
-}
-
 function Future({ f, lang }) {
   const [open, setOpen] = useState(false)
   const pick = (o) => (o && (o[lang] || o.en)) || ''
@@ -1902,9 +1793,7 @@ function Future({ f, lang }) {
         </div>
         <span className={`sf-chevron${open ? ' sf-chevron--open' : ''}`}>▾</span>
       </button>
-      {open && (f.scenario
-        ? <div className="sf-future-body"><ScenarioBody s={f.scenario} lang={lang} /></div>
-        : f.blocks
+      {open && (f.blocks
         ? <div className="sf-future-body"><RealmBlocks blocks={f.blocks} lang={lang} /></div>
         : <div className="sf-future-body">
           <p className="sf-future-overview">{pick(f.overview)}</p>
@@ -1949,9 +1838,27 @@ function Futures({ data, t, lang }) {
       // and she has clicked five times in nine days. One tap, never two.
       defaultOpen
     >
+      {/* The frame the five routes answer to. Without it they are five essays
+          with nothing joining them. */}
+      {data.frame && <p className="sf-scen-frame">{pick(data.frame)}</p>}
       <div className="sf-futures">
         {data.futures.map(f => <Future key={f.id} f={f} lang={lang} />)}
       </div>
+      {data.first_steps && (
+        <div className="sf-firststeps">
+          <div className="sf-block-label">{pick(data.first_steps.label)}</div>
+          <p className="sf-scen-para">{pick(data.first_steps.intro)}</p>
+          <dl className="sf-firststeps-list">
+            {data.first_steps.steps.map((x, i) => (
+              <div key={i}>
+                <dt>{pick(x.route)}</dt>
+                <dd>{pick(x.step)}</dd>
+              </div>
+            ))}
+          </dl>
+          <p className="sf-scen-gap">{pick(data.first_steps.close)}</p>
+        </div>
+      )}
     </SectionShell>
   )
 }
@@ -3223,22 +3130,37 @@ export default function SaffronPage({ nav, tab: tabFromUrl, onTabChange }) {
               SB() wraps one child; the first section of a tab is open, the rest
               collapse to their summary (via SectionOpenContext). */}
           {(() => {
-            const SB = (k, node) => <SectionErrorBoundary key={`${tab}-${k}`}>{node}</SectionErrorBoundary>
+            // Every section gets its id and a viewport tracker, so all of them
+            // report scroll-into-view and click-to-open. Sections that already
+            // pass an explicit trackId keep it.
+            const SB = (k, node) => (
+              <SectionErrorBoundary key={`${tab}-${k}`}>
+                <SectionIdContext.Provider value={k}>
+                  <TrackedSection page="observe" section={k}>{node}</TrackedSection>
+                </SectionIdContext.Provider>
+              </SectionErrorBoundary>
+            )
             return (
               <>
                 {tab === 'strategy' && (
                   <>
-                    {SB('pathway', <StrategicPathway data={data.pathway} t={t} />)}
+                    {/* The five tracks lead the tab (Scott, 2026-09-06). The telemetry
+                        is unusually clear on this: across nine visits between July and
+                        September she has deliberately CLICKED OPEN exactly one section
+                        in the entire log — long_term_scenarios, which these replace —
+                        and returned to it four times. It is the one thing she reaches
+                        for. It should not be below anything. */}
                     <SectionOpenContext.Provider value={false}>
-                      {SB('futures', <TrackedSection page="observe" section="futures"><Futures data={data.futures} t={t} lang={lang} /></TrackedSection>)}
-                      {SB('bookecon', <TrackedSection page="observe" section="book_economics"><BookEconomics data={data.book_economics} lang={lang} /></TrackedSection>)}
+                      {SB('futures', <Futures data={data.futures} t={t} lang={lang} />)}
+                      {SB('pathway', <StrategicPathway data={data.pathway} t={t} />)}
+                      {SB('bookecon', <BookEconomics data={data.book_economics} lang={lang} />)}
                       {/* The letter goes last (Scott, 2026-09-06). It led the tab and was
                           the wrong thing to open on: the futures and the book arithmetic
                           are things to read, while the letter is a thing to act on, and an
                           act-on item at the top reads as being asked to do something the
                           moment the page loads. Last, it is there for whoever scrolls to
                           it. */}
-                      {SB('outreach', <TrackedSection page="observe" section="outreach_kit"><OutreachKit data={data.outreach_kit} lang={lang} /></TrackedSection>)}
+                      {SB('outreach', <OutreachKit data={data.outreach_kit} lang={lang} />)}
                       {/* 职业解锁树 (CareerDependencyMap) removed 2026-09-05. It was the app's
                           only career surface that never passed through an engine — a
                           hand-authored constant that had gone stale and was still sending

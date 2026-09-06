@@ -2712,6 +2712,22 @@ a.sf-readiness-col-name:hover { color: #c47a35; text-decoration: underline; }
   color: #4a3826; margin: 0 0 22px;
 }
 
+.sf-scen-frame {
+  font-family: Georgia, serif; font-size: 14px; line-height: 1.75;
+  color: #4a3826; margin: 0 0 22px; white-space: pre-line;
+}
+.sf-firststeps { margin-top: 26px; padding-top: 22px; border-top: 1px solid #e6d4b4; }
+.sf-firststeps-list { margin: 0 0 16px; }
+.sf-firststeps-list > div { display: grid; grid-template-columns: 108px 1fr; gap: 4px 14px; margin-bottom: 10px; }
+.sf-firststeps-list dt {
+  font-family: Georgia, serif; font-size: 11px; font-weight: bold; letter-spacing: 0.07em;
+  text-transform: uppercase; color: #c47a35; padding-top: 3px;
+}
+.sf-firststeps-list dd {
+  font-family: Georgia, serif; font-size: 13px; line-height: 1.65; color: #4a3826; margin: 0;
+}
+@media (max-width: 560px) { .sf-firststeps-list > div { grid-template-columns: 1fr; gap: 2px; } }
+
 .sf-scen-note {
   font-family: Georgia, serif; font-size: 12px; line-height: 1.62;
   color: #7a5c3a; font-style: italic; margin: 16px 0 20px;
