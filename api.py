@@ -3543,7 +3543,7 @@ def get_saffron():
         # An actual letter rather than advice about letters. The first
         # contact asks for nothing, so there is nothing to refuse.
         "outreach_kit":          build_outreach_kit(),
-        "futures":               build_futures(_load_json(DATA_DIR / "career_strategy_report.json", {}).get("career_evidence", {})),
+        "futures":               build_futures(),
         "press_features":        press_features,
         "collector_ecosystem":   collector_ecosystem,
         "collaboration_map":     collaboration_map,

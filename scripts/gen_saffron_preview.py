@@ -12,7 +12,7 @@ Two constraints from Scott, 2026-09-05:
      break-even SVG geometry. Only the review chrome at the top is invented, and
      it is set in a sans face so it never reads as part of the product.
 """
-import sys, json, html, os
+import sys, html, os
 
 sys.stdout.reconfigure(encoding='utf-8')
 
@@ -24,16 +24,8 @@ from engines import (futures_engine, book_economics_engine,          # noqa: E40
                      outreach_kit_engine, recurring_calendar_engine)
 
 
-def _evidence():
-    p = os.path.join(ROOT, 'memory', 'career_strategy_report.json')
-    try:
-        return json.load(open(p, encoding='utf-8')).get('career_evidence', {})
-    except (OSError, ValueError):
-        return {}
-
-
 D = {
-    'futures':  futures_engine.build(_evidence()),
+    'futures':  futures_engine.build(),
     'book':     book_economics_engine.build(),
     'outreach': outreach_kit_engine.build(),
     'calendar': recurring_calendar_engine.build(),
@@ -100,34 +92,55 @@ def outreach_html():
 
 
 # ── disclosures ──────────────────────────────────────────────────────────────
-def detail(d, body=None):
+def detail(label, body):
     """One lid, drawn open. Mirrors <Disclosure> in SaffronPage.jsx."""
-    if body is None:
-        if d['kind'] == 'list':
-            items = ''.join(f'<li>{both(i)}</li>' for i in d['items'])
-            foot = (f'<p class="sf-detail-foot"><strong>{both(d["footnote_label"])}:</strong> '
-                    f'{both(d["footnote"])}</p>') if d.get('footnote') else ''
-            body = f'<ul class="sf-future-requires">{items}</ul>{foot}'
-        else:
-            body = f'<p class="sf-detail-prose">{both(d["body"])}</p>'
-    return f'''
+    return f"""
         <div class="sf-detail sf-detail--open">
           <div class="sf-detail-head">
-            <span class="sf-detail-label">{both(d['label'])}</span>
+            <span class="sf-detail-label">{both(label)}</span>
             <span class="sf-chevron sf-chevron--sm sf-chevron--open">&#9662;</span>
           </div>
           <div class="sf-detail-body">{body}</div>
-        </div>'''
+        </div>"""
 
 
-# ── five futures ─────────────────────────────────────────────────────────────
+# ── five routes ──────────────────────────────────────────────────────────────
+def blocks_html(blocks):
+    """Mirrors RealmBlocks in SaffronPage.jsx: prose · note · list · links · table."""
+    out = []
+    for b in blocks:
+        label = (f'<div class="sf-block-label">{both(b["label"])}</div>'
+                 if b.get('label') else '')
+        k = b['kind']
+        if k == 'note':
+            out.append(f'<p class="sf-scen-gap">{both(b["text"])}</p>')
+        elif k == 'prose':
+            out.append(f'{label}<p class="sf-scen-para">{both(b["text"])}</p>')
+        elif k == 'list':
+            items = ''.join(f'<li>{both(x)}</li>' for x in b['items'])
+            out.append(f'{label}<ul class="sf-scen-list">{items}</ul>')
+        elif k == 'links':
+            items = ''.join(
+                f'<li><a class="sf-ext-link" href="{l["url"]}" target="_blank" '
+                f'rel="noreferrer">{both(l["name"])} &#8599;</a></li>' for l in b['items'])
+            out.append(f'{label}<ul class="sf-scen-links">{items}</ul>')
+        elif k == 'table':
+            head = ''.join(f'<th>{both(h)}</th>' for h in b['headers'])
+            rows = ''.join(
+                '<tr><th scope="row">{}</th>{}</tr>'.format(
+                    both(r['cells'][0]),
+                    ''.join(f'<td{" class='sf-scen-price'" if j == 0 else ""}>{both(c)}</td>'
+                            for j, c in enumerate(r['cells'][1:])))
+                for r in b['rows'])
+            out.append(f'{label}<div class="sf-scen-tablewrap"><table class="sf-scen-table">'
+                       f'<thead><tr>{head}</tr></thead><tbody>{rows}</tbody></table></div>')
+    return f'<div class="sf-scen">{"".join(out)}</div>'
+
+
 def futures_html():
     f = D['futures']
     cards = []
     for fu in f['futures']:
-        adv = ''.join(f'<li>{both(a)}</li>' for a in fu['advantages'])
-        strong = ''.join(f'<li>{both(s)}</li>' for s in fu['strengths'])
-        details = ''.join(detail(d) for d in fu['details'])
         cards.append(f'''
       <div class="sf-future sf-future--open">
         <div class="sf-future-head">
@@ -137,22 +150,22 @@ def futures_html():
           </div>
           <span class="sf-chevron sf-chevron--open">&#9662;</span>
         </div>
-        <div class="sf-future-body">
-          <p class="sf-future-overview">{both(fu['overview'])}</p>
-          <div class="sf-block-label">What this one gives that the others don&rsquo;t</div>
-          <ul class="sf-future-advantages">{adv}</ul>
-          <div class="sf-future-standing">
-            <div class="sf-block-label">Strengths on this path</div>
-            <ul class="sf-future-strengths">{strong}</ul>
-          </div>
-          <div class="sf-details">{details}</div>
-        </div>
+        <div class="sf-future-body">{blocks_html(fu['blocks'])}</div>
       </div>''')
-    return shell('Five possible futures', both(f['note']),
-                 f'<div class="sf-futures">{"".join(cards)}</div>',
-                 note='In the app each of the five is collapsed to its name and tagline, and the '
-                      'three blocks at the foot of each are behind their own lids. Everything is '
-                      'drawn open here so the copy can be read.')
+
+    fs = f['first_steps']
+    steps = ''.join(f'<div><dt>{both(x["route"])}</dt><dd>{both(x["step"])}</dd></div>'
+                    for x in fs['steps'])
+    body = (f'<p class="sf-scen-frame">{both(f["frame"])}</p>'
+            f'<div class="sf-futures">{"".join(cards)}</div>'
+            f'<div class="sf-firststeps">'
+            f'<div class="sf-block-label">{both(fs["label"])}</div>'
+            f'<p class="sf-scen-para">{both(fs["intro"])}</p>'
+            f'<dl class="sf-firststeps-list">{steps}</dl>'
+            f'<p class="sf-scen-gap">{both(fs["close"])}</p></div>')
+    return shell('Five possible futures', '', body,
+                 note='In the app each of the five is collapsed to its name and tagline. They '
+                      'are drawn open here so the copy can be read.')
 
 
 # ── what a book costs ────────────────────────────────────────────────────────
@@ -247,7 +260,7 @@ def book_html():
       <ul class="sf-pace-facts">{facts}</ul>
     </div>
 
-    <div class="sf-details">{detail({'label': b['detail_label'], 'kind': 'node'}, arithmetic)}</div>
+    <div class="sf-details">{detail(b['detail_label'], arithmetic)}</div>
     <p class="sf-be-caveat">{both(b['caveat'])}</p>'''
 
     return shell('What a book costs', both(b['note']), body,
@@ -625,24 +638,24 @@ HTML = f'''<title>Saffron Strategy Draft</title>
 
 <div class="rv-lede">
   <h1>Four sections, in English, drawn the way the site draws them</h1>
-  <p>The site is still running <code>08dea050</code> plus the hero art &mdash; none of this is live.
-     The text below is English so the tone can be read directly; the Chinese she actually sees is
-     one button away, underneath each block.</p>
+  <p>The live site is the rollback branch at <code>832c5ab1</code> plus the hero art &mdash; none of
+     this is live. The text below is English so the tone can be read directly; the Chinese she
+     actually sees is one button away, underneath each block.</p>
   <p>Everything is generated from the engines themselves, so this is the copy that would ship,
-     not a summary of it. Rewritten 5 September to drop the second person: no instructions,
-     no verdicts about her, no encouragement &mdash; conditions, mechanics and figures, with the
-     conclusion left to her.</p>
-  <p><strong>6 September.</strong> Three changes. The five futures were restructured &mdash; each is
-     now header, overview, <em>advantages of the track</em> (a comparison between the five that the
-     copy never actually made), <em>strengths on this path</em>, then dropdowns; the &ldquo;absent&rdquo;
-     half of the old ledger moved down inside &ldquo;what this path needs&rdquo;. Their names were
-     flattened to say what they are &mdash; &ldquo;No Gatekeepers&rdquo; and the rest were opaque.
-     And &ldquo;What a book costs&rdquo; was rebuilt around a single claim, with the route-by-route
-     arithmetic demoted to a disclosure.</p>
-  <p><strong>No second person anywhere.</strong> The Doors section still had five
-     &mdash; &ldquo;You qualify&hellip;&rdquo;, &ldquo;the world you already come from&rdquo;,
-     &ldquo;paintings you don&rsquo;t have to sell&rdquo; and two more, across English, Chinese and
-     Japanese. All rewritten. A scan of the rendered sections in every language now returns zero.</p>
+     not a summary of it.</p>
+  <p><strong>6 September.</strong> The five routes were rewritten to a structure an outside
+     reviewer produced after reading the whole tab. It opens on a thesis &mdash; <em>where does
+     another route give you something the current one cannot</em> &mdash; then answers every route
+     to it and ends on five experiments, one each. Headings are decisions rather than topics
+     (&ldquo;Fill the gap between &yen;2,200 and &yen;31,900&rdquo;, not &ldquo;How it works&rdquo;).
+     Each route is now a free list of blocks, so one with a single real finding says one thing
+     instead of padding out to five. The computed ledger of what she has and has not done is gone
+     with the schema that held it.</p>
+  <p><strong>The register changed with it.</strong> Second person, addressed to a working
+     professional: nothing is defined, nothing is explained back to her, and every route is
+     measured against what an original already earns her (&yen;31,900&ndash;115,500 with no client,
+     brief or deadline) &mdash; including where the route loses. Nothing is described by what it
+     is not.</p>
 </div>
 
 <div class="rv-frame-label">The app, from here down</div>

@@ -1615,10 +1615,7 @@ function BookEconomics({ data, lang }) {
       )}
 
       <div className="sf-details">
-        <Disclosure
-          lang={lang}
-          d={{ id: 'arithmetic', kind: 'node', label: data.detail_label }}
-        >
+        <Disclosure lang={lang} label={data.detail_label}>
           <BreakEvenChart options={data.options} lang={lang} />
           <div className="sf-be-rows">
             {viable.map((o, i) => (
@@ -1655,57 +1652,27 @@ function BookEconomics({ data, lang }) {
 // licensing is different daily work from chasing gallery shows.
 //
 // Nothing here prescribes a destination. She's self-taught, independent, and
-// runs everything herself; the section shows the range and lets her pick. Each
-// one leads with the life, gives the money plainly, lists kinds of things to
-// pursue rather than credentials to acquire, and puts the famous name last and
-// small. Collapsed by default — five futures open at once is a wall.
-// Reading order comes from the engine, not from here: header, overview,
-// advantages, strengths, then whatever it put in `details`. The old body laid
-// five prose blocks end to end and read as a wall ("this isn't very readable",
-// Scott 2026-09-06). Advantages is the comparison between tracks the copy never
-// made; strengths is the positive half of the old position ledger, promoted
-// above the fold, with the absent half moved down into the details block it
-// belongs to.
-const FT_LABELS = {
-  advantages: { zh: '这条路有、别的路没有的', ja: 'この道だけにあるもの', en: "What this one gives that the others don't" },
-  strengths:  { zh: '在这条路上已经有的', ja: 'この道ですでにあるもの', en: 'Strengths on this path' },
-  more:       { zh: '展开 ▾', ja: '開く ▾', en: 'Open ▾' },
-  less:       { zh: '收起', ja: '閉じる', en: 'Close' },
-}
-const ftL = (k, lang) => FT_LABELS[k][lang] || FT_LABELS[k].en
-
-// One lid. Label and body come from the engine, so a block can be added,
-// reordered or folded away in futures_engine without touching React. `kind:
-// 'node'` is the one case the engine can't describe — a chart — so the caller
-// passes children instead.
-function Disclosure({ d, lang, children }) {
+// runs everything herself; the section shows the range and lets her pick.
+// Collapsed by default — five futures open at once is a wall.
+//
+// The whole body of a route is `blocks`, and the engine owns its order and its
+// headings. Two earlier shapes lived here instead and both are gone: five prose
+// blocks end to end (a wall — "this isn't very readable", Scott 2026-09-06),
+// then a fixed overview/advantages/strengths/dropdowns schema every route wore
+// whether or not it had five parts to say.
+// One lid, for content React has to build itself — the break-even chart is the
+// only such case. Everything the engine can describe goes through RealmBlocks
+// instead, so this stays a wrapper and knows nothing about what is inside it.
+function Disclosure({ label, lang, children }) {
   const [open, setOpen] = useState(false)
   const pick = (o) => (o && (o[lang] || o.en)) || ''
-  if (!d) return null
   return (
     <div className={`sf-detail${open ? ' sf-detail--open' : ''}`}>
       <button className="sf-detail-head" onClick={() => setOpen(o => !o)} aria-expanded={open}>
-        <span className="sf-detail-label">{pick(d.label)}</span>
+        <span className="sf-detail-label">{pick(label)}</span>
         <span className={`sf-chevron sf-chevron--sm${open ? ' sf-chevron--open' : ''}`}>▾</span>
       </button>
-      {open && (
-        <div className="sf-detail-body">
-          {d.kind === 'node' && children}
-          {d.kind === 'list' && (
-            <>
-              <ul className="sf-future-requires">
-                {(d.items || []).map((s, i) => <li key={i}>{pick(s)}</li>)}
-              </ul>
-              {d.footnote && (
-                <p className="sf-detail-foot">
-                  <strong>{pick(d.footnote_label)}:</strong> {pick(d.footnote)}
-                </p>
-              )}
-            </>
-          )}
-          {d.kind === 'prose' && <p className="sf-detail-prose">{pick(d.body)}</p>}
-        </div>
-      )}
+      {open && <div className="sf-detail-body">{children}</div>}
     </div>
   )
 }
@@ -1793,33 +1760,11 @@ function Future({ f, lang }) {
         </div>
         <span className={`sf-chevron${open ? ' sf-chevron--open' : ''}`}>▾</span>
       </button>
-      {open && (f.blocks
-        ? <div className="sf-future-body"><RealmBlocks blocks={f.blocks} lang={lang} /></div>
-        : <div className="sf-future-body">
-          <p className="sf-future-overview">{pick(f.overview)}</p>
-
-          {!!f.advantages?.length && (
-            <>
-              <div className="sf-block-label">{ftL('advantages', lang)}</div>
-              <ul className="sf-future-advantages">
-                {f.advantages.map((a, i) => <li key={i}>{pick(a)}</li>)}
-              </ul>
-            </>
-          )}
-
-          {!!f.strengths?.length && (
-            <div className="sf-future-standing">
-              <div className="sf-block-label">{ftL('strengths', lang)}</div>
-              <ul className="sf-future-strengths">
-                {f.strengths.map((s, i) => <li key={i}>{pick(s)}</li>)}
-              </ul>
-            </div>
-          )}
-
-          <div className="sf-details">
-            {(f.details || []).map(d => <Disclosure key={d.id} d={d} lang={lang} />)}
-          </div>
-        </div>)}
+      {open && (
+        <div className="sf-future-body">
+          <RealmBlocks blocks={f.blocks} lang={lang} />
+        </div>
+      )}
     </div>
   )
 }

@@ -23,20 +23,23 @@ The tab is supposed to answer: *what does an artist like me do to build a career
 in the areas I choose to work in?* Five business areas, each with how the money
 works, what it costs, and where to go.
 
-## What it is being reviewed for
+## The rules this copy is written to
 
-The person who commissioned it has read the draft and says, repeatedly:
+An earlier draft was reviewed and rewritten on 6 September. Four faults were
+named and all four are meant to be gone; the first three keep coming back, so
+they are worth checking every time.
 
-1. **It patronises her.** She is a working professional. Passages that explain
-   what a gallery is, or what selling directly means, tell her things she has
-   done for years.
-2. **It describes instead of helping.** It reads as an encyclopedia entry about
-   an industry rather than something that changes what she does on Monday.
-3. **It keeps saying what things are NOT.** "X is not Y, it is Z." "The door is
-   unmarked, not locked." He has asked for this to stop several times and it
-   keeps reappearing. Say what a thing is.
-4. **The prose is weaker than the rest of the app**, which was written earlier
-   and reads better.
+1. **Never say what a thing is not.** No "X is not Y, it is Z", no "rather
+   than", no "the door is unmarked, not locked". Say what a thing is.
+2. **Never define anything.** She is a working professional with six years of
+   daily painting, eight zines and three solo shows. Explaining what a gallery
+   is, or what selling directly means, is the failure mode.
+3. **Second person.** "You", not "she".
+4. **Measure everything against her baseline.** One original earns
+   ¥31,900–115,500 with no client, brief or deadline. Say so even where a route
+   comes off worse for it.
+
+The tab describes paths and never judges whether her goals are realistic.
 
 Every figure in it is sourced — printer price tables, published rate cards,
 platform terms, gallery commission rates. **The research is not in question.
@@ -44,17 +47,21 @@ The writing and the usefulness are.**
 
 ## What would help
 
-A rewrite, or a diagnosis of what is wrong and how to fix it. Especially:
-where it condescends, where it pads, where it states a fact instead of an
-implication, and what it should say instead.
+Where it still condescends, where it pads, where it states a fact instead of an
+implication, and what it should say instead. She reads this on a 390px phone
+screen in roughly ninety seconds, in Chinese.
 
 ---
 
 # The five areas
 
+You already have a working practice: six years of paintings, an audience, direct sales, commissions and a record of exhibitions. The useful question now is where another route gives you something the current one cannot.
+
+An original already earns ¥31,900–115,500. That is the benchmark. Anything added to the practice should earn from work you have already made, reach buyers you cannot reach yourself, increase what the rest of the work is worth, or create revenue without requiring another original. The five routes below do different versions of that.
+
 ## Selling Direct
 
-*The audience is already there. What moves the number is the price, not the follower count.*
+*Your own shop, your own prices, everything above cost.*
 
 ### Fill the gap between ¥2,200 and ¥31,900
 
@@ -74,7 +81,7 @@ For products that already sell reliably, your existing model is better. A ten-pa
 
 ### The book is a different decision
 
-A 128-page hardcover printed in China costs ¥394,500 for 300 copies. At ¥4,950 each, the production cost is recovered after 109 sales, leaving 191 copies. The question is therefore demand and speed, rather than margin.
+A 128-page hardcover printed in China costs ¥394,500 for 300 copies. At ¥4,950 each, the production cost is recovered after 109 sales, leaving 191 copies. The question is therefore demand and speed.
 
 |   | Each | Up front | Sells for | Cost recovered at |
 |---|---|---|---|---|
@@ -226,6 +233,18 @@ That turns an ambiguous “how much for a painting?” into something you can pr
 - [HB FILE — ¥7,000 entry; every entrant's file stays available to designers and publishers in the gallery for a year.](https://hbgallery.com/compe.html)
 
 Both are inexpensive ways to place the work in front of people who commission illustration.
+
+## What to do first
+
+Each of these can be tested with one small piece of work, alongside everything already running.
+
+- **Direct** — List an A2 poster, an A1 poster and a framed A4 print on demand.
+- **Gallery** — Choose one gallery exhibition to attend, and prepare a five-image series link.
+- **Licensing** — Make the first five vertical, cover-ready paintings.
+- **Publishing** — Turn one existing body of work into a one-page book concept.
+- **Commissions** — Write a reusable fee-and-licence template before the next enquiry arrives.
+
+That gives you five experiments. Their results will tell you much more than choosing one of the five in advance.
 
 ---
 

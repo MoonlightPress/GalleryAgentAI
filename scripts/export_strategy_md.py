@@ -17,7 +17,10 @@ sys.stdout.reconfigure(encoding='utf-8')
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
-API = 'http://localhost:5177/api/saffron'
+# The Vite proxy first, because that is what the browser hits and so proves the
+# whole path; the backend directly as a fallback, because the copy comes from
+# api.py either way and the frontend need not be running to read it.
+APIS = ['http://localhost:5177/api/saffron', 'http://127.0.0.1:8001/api/saffron']
 OUT = os.path.join(ROOT, 'reports', 'saffron_strategy_for_review.md')
 
 
@@ -53,20 +56,23 @@ The tab is supposed to answer: *what does an artist like me do to build a career
 in the areas I choose to work in?* Five business areas, each with how the money
 works, what it costs, and where to go.
 
-## What it is being reviewed for
+## The rules this copy is written to
 
-The person who commissioned it has read the draft and says, repeatedly:
+An earlier draft was reviewed and rewritten on 6 September. Four faults were
+named and all four are meant to be gone; the first three keep coming back, so
+they are worth checking every time.
 
-1. **It patronises her.** She is a working professional. Passages that explain
-   what a gallery is, or what selling directly means, tell her things she has
-   done for years.
-2. **It describes instead of helping.** It reads as an encyclopedia entry about
-   an industry rather than something that changes what she does on Monday.
-3. **It keeps saying what things are NOT.** "X is not Y, it is Z." "The door is
-   unmarked, not locked." He has asked for this to stop several times and it
-   keeps reappearing. Say what a thing is.
-4. **The prose is weaker than the rest of the app**, which was written earlier
-   and reads better.
+1. **Never say what a thing is not.** No "X is not Y, it is Z", no "rather
+   than", no "the door is unmarked, not locked". Say what a thing is.
+2. **Never define anything.** She is a working professional with six years of
+   daily painting, eight zines and three solo shows. Explaining what a gallery
+   is, or what selling directly means, is the failure mode.
+3. **Second person.** "You", not "she".
+4. **Measure everything against her baseline.** One original earns
+   ¥31,900–115,500 with no client, brief or deadline. Say so even where a route
+   comes off worse for it.
+
+The tab describes paths and never judges whether her goals are realistic.
 
 Every figure in it is sourced — printer price tables, published rate cards,
 platform terms, gallery commission rates. **The research is not in question.
@@ -74,51 +80,12 @@ The writing and the usefulness are.**
 
 ## What would help
 
-A rewrite, or a diagnosis of what is wrong and how to fix it. Especially:
-where it condescends, where it pads, where it states a fact instead of an
-implication, and what it should say instead.
+Where it still condescends, where it pads, where it states a fact instead of an
+implication, and what it should say instead. She reads this on a 390px phone
+screen in roughly ninety seconds, in Chinese.
 
 ---
 """
-
-
-def render_scenario(s, out):
-    """Selling Direct carries its own body shape."""
-    order = [
-        ('have_label', 'have', 'p'), ('missing_label', 'missing', 'p'),
-        ('fill_label', None, 'fill'), ('why_not_stock_label', 'why_not_stock', 'p'),
-        ('ds_label', 'ds', 'p'), ('ds_fit_label', 'ds_fit', 'list'),
-        ('ds_chart_label', None, 'ds_chart'), (None, 'ds_note', 'p'),
-        ('books_label', 'books_note', 'p'), (None, None, 'books'),
-        ('proof_label', 'proof', 'p'), ('today_label', None, 'links'),
-    ]
-    for lbl, key, kind in order:
-        if lbl and s.get(lbl):
-            out.append(f'### {en(s[lbl])}\n')
-        if kind == 'p' and key and s.get(key):
-            out.append(en(s[key]) + '\n')
-        elif kind == 'list' and key:
-            for x in s.get(key, []):
-                out.append(f'- {en(x)}')
-            out.append('')
-        elif kind in ('fill', 'ds_chart', 'books'):
-            rows = s.get(kind if kind != 'fill' else 'fill', [])
-            heads = s.get(f'{kind}_headers') or s.get('fill_headers')
-            if kind == 'books':
-                heads, rows = s.get('books_headers'), s.get('books', [])
-            if not rows:
-                continue
-            cols = [k for k in ('what', 'price', 'cost', 'upfront', 'keep',
-                                'margin', 'each', 'outlay', 'be') if k in rows[0]]
-            out.append('| ' + ' | '.join(en(h) or ' ' for h in heads) + ' |')
-            out.append('|' + '---|' * len(heads))
-            for r in rows:
-                out.append('| ' + ' | '.join(en(r.get(c)) for c in cols) + ' |')
-            out.append('')
-        elif kind == 'links':
-            for l in s.get('today', []):
-                out.append(f'- [{en(l["name"])}]({l["url"]})')
-            out.append('')
 
 
 def render_blocks(blocks, out):
@@ -145,25 +112,41 @@ def render_blocks(blocks, out):
 
 
 def main():
-    try:
-        d = json.load(urllib.request.urlopen(API, timeout=45))
-    except Exception as exc:
-        print(f'could not reach {API}: {exc}\nStart the app first (start_mochi.bat).')
+    d = None
+    for api in APIS:
+        try:
+            d = json.load(urllib.request.urlopen(api, timeout=90))
+            break
+        except Exception as exc:
+            print(f'could not reach {api}: {exc}')
+    if d is None:
+        print('Start the app first (start_mochi.bat).')
         return 1
 
+    futures = d.get('futures') or {}
+    fut = futures.get('futures') or []
+
     out = [BRIEF]
-    fut = (d.get('futures') or {}).get('futures') or []
     out.append('# The five areas\n')
-    if (d.get('futures') or {}).get('note'):
-        out.append(f'*{en(d["futures"]["note"])}*\n')
+    # The frame and the closing experiments were missing from this export, so
+    # the reviewer who rewrote the routes never saw the argument joining them
+    # or the layer they end on. Both are on the page; both belong here.
+    if futures.get('frame'):
+        out.append(en(futures['frame']) + '\n')
 
     for f in fut:
         out.append(f'\n## {en(f["name"])}\n')
         out.append(f'*{en(f["tagline"])}*\n')
-        if f.get('scenario'):
-            render_scenario(f['scenario'], out)
-        elif f.get('blocks'):
-            render_blocks(f['blocks'], out)
+        render_blocks(f.get('blocks') or [], out)
+
+    fs = futures.get('first_steps')
+    if fs:
+        out.append(f'\n## {en(fs.get("label"))}\n')
+        out.append(en(fs.get('intro')) + '\n')
+        for x in fs.get('steps', []):
+            out.append(f'- **{en(x.get("route"))}** — {en(x.get("step"))}')
+        out.append('')
+        out.append(en(fs.get('close')) + '\n')
 
     book = d.get('book_economics')
     if book:

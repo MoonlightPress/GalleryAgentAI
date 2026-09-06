@@ -43,36 +43,32 @@ Her position across the five is deliberately uneven and that asymmetry is the
 most useful content here: one is far along and one is at zero, and neither is
 visible from where she stands.
 
-**Shape** (Scott, 2026-09-06: "this isn't very readable... it should be section
-header, overview, advantages of track, her strengths in it, then dropdowns for
-details"). Each future previously dumped five prose blocks in a row — life,
-money, requires, position, example — and read as a wall. The reading order is
-now:
+**Shape.** Each route is a flat list of blocks — `prose`, `note`, `list`,
+`table`, `links` — under a name and a tagline. `RealmBlocks` in
+`SaffronPage.jsx` knows how to draw each kind and nothing else; the sequence,
+the headings and the wording all live here, so a block can be added, reordered
+or dropped without touching React.
 
-    header      name + tagline
-    overview    two sentences, not a paragraph
-    advantages  what this one gives that the other four do not
-    strengths   what is already in place for it, computed from her record
-    details     money · what it needs · someone living it, each behind a lid
+Three earlier shapes are gone, and the reasons are worth keeping:
 
-Two of those are new framings rather than renamed blocks. **Advantages** is a
-comparison the copy never actually made: the old `life` paragraphs each buried
-one or two genuinely comparative claims ("the defining difference is not
-prestige, it is the direction the money runs") inside descriptive prose, and
-those are now pulled out and stated as comparisons. **Strengths** is the
-positive half of the old `position` ledger, promoted above the fold; the
-`absent` half moves down into the "what it needs" disclosure, where it belongs
-anyway, because leading with what she lacks is the thing this file exists to
-stop.
+  - *Five prose blocks end to end* — life, money, requires, position, example —
+    read as a wall (Scott, 2026-09-06: "this isn't very readable").
+  - *Header · overview · advantages · strengths · dropdowns* replaced it and
+    was better, but every route wore the same five-part costume whether or not
+    it had five parts to say. A fixed schema makes a route with one real
+    finding pad out to four.
+  - *A per-route `scenario` dict* was the Selling Direct experiment that proved
+    the block list; it was folded into the generic list once the other four
+    followed.
 
-The shape lives here rather than in `SaffronPage.jsx` — the component walks
-`details` and renders whatever the engine put in it, so a block can be added,
-reordered or folded away without touching React.
+The blocks carry what those fields carried, minus the padding. What they do
+not carry is the computed `strengths`/`absent` ledger, which read her record
+back to her — a professional with three solo shows does not need to be told
+she has three solo shows, and the ledger's other half was a list of what she
+lacks under a heading about what she has.
 """
 
-from typing import Optional
-
-from .book_economics_engine import reference_run
+from .book_economics_engine import DEFAULT_PRICE as _BOOK_PRICE, reference_run
 
 
 def _t(en: str, zh: str) -> dict:
@@ -165,13 +161,20 @@ _SELLING_DIRECT = [
         "production becomes the second step.",
         "已经卖得稳的东西，你现在的做法更好。一套十张的明信片，印一百套时成本约 170 日元，"
         "按需印刷则要 1,835 日元。这些继续自己印。等新形态里有哪一样开始稳定卖动，再转成批量生产。")},
+    # Every figure in this paragraph and in the "Hardcover, China" row below is
+    # read from book_economics_engine rather than typed. It was typed once and
+    # drifted — 107 here against that engine's computed 109 — and the same page
+    # then said two different things about the same run.
     {"kind": "prose", "label": _t("The book is a different decision", "书是另一个层面的决定"),
      "text": _t(
-        "A 128-page hardcover printed in China costs ¥394,500 for 300 copies. At ¥4,950 each, the "
-        "production cost is recovered after 109 sales, leaving 191 copies. The question is "
-        "therefore demand and speed, rather than margin.",
-        "128 页的精装本在中国印 300 本，需要 394,500 日元。定价 4,950 日元，卖出 109 本收回制作成本，"
-        "还剩 191 本。所以要判断的是需求和速度，而不是利润率。")},
+        f"A 128-page hardcover printed in China costs ¥{_BOOK['outlay_jpy']:,} for "
+        f"{_BOOK['run']} copies. At ¥{_BOOK_PRICE:,} each, the production cost is recovered "
+        f"after {_BOOK['breakeven_direct']} sales, leaving "
+        f"{_BOOK['run'] - _BOOK['breakeven_direct']} copies. The question is therefore demand "
+        "and speed.",
+        f"128 页的精装本在中国印 {_BOOK['run']} 本，需要 {_BOOK['outlay_jpy']:,} 日元。"
+        f"定价 {_BOOK_PRICE:,} 日元，卖出 {_BOOK['breakeven_direct']} 本收回制作成本，"
+        f"还剩 {_BOOK['run'] - _BOOK['breakeven_direct']} 本。所以要判断的是需求和速度。")},
     {"kind": "table",
      "headers": [_t("", ""), _t("Each", "每本"), _t("Up front", "先要付"),
                  _t("Sells for", "售价"), _t("Cost recovered at", "回本点")],
@@ -182,8 +185,12 @@ _SELLING_DIRECT = [
                    _t("¥482,700 / 300", "482,700 / 300 本"), _t("¥4,400", "4,400 日元"), _t("173", "173")]},
         {"cells": [_t("A4 softcover, 128pp", "A4 平装，128 页"), _t("¥1,306", "1,306 日元"),
                    _t("¥653,000 / 500", "653,000 / 500 本"), _t("¥4,400", "4,400 日元"), _t("212", "212")]},
-        {"cells": [_t("Hardcover, 128pp, China", "精装，128 页，中国印"), _t("¥1,315", "1,315 日元"),
-                   _t("¥394,500 / 300", "394,500 / 300 本"), _t("¥4,950", "4,950 日元"), _t("109", "109")]},
+        {"cells": [_t("Hardcover, 128pp, China", "精装，128 页，中国印"),
+                   _t(f"¥{_BOOK['unit_jpy']:,}", f"{_BOOK['unit_jpy']:,} 日元"),
+                   _t(f"¥{_BOOK['outlay_jpy']:,} / {_BOOK['run']}",
+                      f"{_BOOK['outlay_jpy']:,} / {_BOOK['run']} 本"),
+                   _t(f"¥{_BOOK_PRICE:,}", f"{_BOOK_PRICE:,} 日元"),
+                   _t(str(_BOOK['breakeven_direct']), str(_BOOK['breakeven_direct']))]},
      ]},
     {"kind": "prose", "text": _t(
         "For a book intended as a product, the Chinese hardcover has the strongest economics of "
@@ -463,9 +470,9 @@ _COMMISSIONS = [
 _FIRST_STEPS = {
     "label": _t("What to do first", "先做什么"),
     "intro": _t(
-        "These routes do not require a career change. Each can be tested with one small piece of "
-        "work.",
-        "这几条路都不需要你改变职业方向。每一条都可以用一件很小的事去试。"),
+        "Each of these can be tested with one small piece of work, alongside everything already "
+        "running.",
+        "每一条都可以用一件很小的事去试，和现在在做的一切并行。"),
     "steps": [
         {"route": _t("Direct", "直接销售"),
          "step": _t("List an A2 poster, an A1 poster and a framed A4 print on demand.",
@@ -498,77 +505,17 @@ FUTURES = [
         # translated. The texture moved down into the taglines, which is where a
         # reader has already agreed to spend a second.
         "name": _t("Selling Direct", "直接卖"),
-        # The business-scenario body. Only this card carries one so far; the
-        # component falls back to the old shape for the other four, so they
-        # keep working while they are converted one at a time.
+        # The card explained her own practice back to her for six drafts — "the
+        # work is made and distributed directly", "prints and postcards: low
+        # margin, steady volume". She has run a shop for years (Scott: "she
+        # already sells direct so you don't need to tell her what selling
+        # direct is"). A card about a thing she does daily earns its place only
+        # with something she does NOT already know. Hence the one finding it
+        # leads on: the gap between ¥2,200 and ¥31,900, which is invisible from
+        # inside her own shop because it is the part that isn't there.
         "blocks": _SELLING_DIRECT,
-        # Rewritten 2026-09-06. Two things were wrong with this card and they
-        # were the same thing.
-        #
-        # First, it explained her own practice back to her — "the work is made
-        # and distributed directly", "prints and postcards: low margin, steady
-        # volume". She has run a shop for years (Scott: "she already sells
-        # direct so you don't need to tell her what selling direct is"). A card
-        # about a thing she does daily has to earn its place with something she
-        # does NOT already know, or it is condescension with a heading.
-        #
-        # Second, every one of its four `requires` bullets and its exemplar were
-        # about recording an online course, under a heading about selling
-        # paintings. Teaching is a different life; it is out of this card
-        # entirely and parked rather than quietly folded somewhere else.
-        #
-        # What replaced both: the four findings in §5 of the book research that
-        # a person already selling direct would not already have. All four are
-        # measured, all four are actionable this week, and none of them is
-        # visible from inside her own shop.
         "tagline": _t("Your own shop, your own prices, everything above cost.",
                       "自己的店，自己定价，成本之上全归你。"),
-        "overview": _t(
-            "Nothing on this path needs building — the shop runs, the work exists, about 26,000 "
-            "people already follow it. What has never been tested is the middle of the price "
-            "ladder: zines at ¥1,980, originals from ¥31,900, and nothing in between.",
-            "这条路上没有什么要从头搭起来——店铺在运转，作品在，大约两万六千人已经在看。"
-            "从来没有被试过的，是价格阶梯的中段：zine 卖 1,980 日元，原作从 31,900 日元起，中间是空的。"),
-        "advantages": [
-            # NB: the source report's own summary says the 906-follower artist
-            # "produced fewer backers" than the 119K one — its table says 143
-            # against 309, so the summary sentence is wrong and the table is
-            # right. The finding is about RATE, not count: 15.8% against 0.26%.
-            # Stated as rate here.
-            _t("A follower count does not predict sales. Across the paired cases that could be checked, the share of an audience that actually bought ran from 0.26% to 15.8% — a sixtyfold spread — and the largest audience converted worst of all. Every named Japanese source asked the same question gave the same answer.",
-               "粉丝数预测不了销量。在能够核对的成对案例里，真正掏钱的人占观众的比例从 0.26% 到 15.8% 不等——相差六十倍——而其中观众最多的那一位，转化率最低。所有被问到这个问题的日文来源，答案都一样。"),
-            _t("The price is the lever. A Tokyo illustrator with 27,000 followers put a self-published art book out at ¥11,000 and sold 400 copies in four months — about ¥4 million. That price sits exactly in the empty middle of this shop's ladder.",
-               "价格才是那根杠杆。一位东京插画师，两万七千粉丝，自出版的画集定价 11,000 日元，四个月卖了 400 本——约四百万日元。这个价格，正落在这家店铺阶梯上空着的中段。"),
-            _t("Where the 26,000 live changes the arithmetic more than how many they are. Air mail to the US is ¥2,720 for a kilo — well over half the cover price of a ¥4,400 book, against ¥185 to post the same thing across Tokyo. That split is the largest unknown on this path, and it is one number inside her own Instagram insights.",
-               "这两万六千人住在哪里，比他们有多少人更能改变这笔账。寄一公斤到美国，航空小包 2,720 日元——超过一本 4,400 日元的书定价的一半；而同样一件东西寄到东京市内是 185 日元。这个比例是这条路上最大的未知数，而它就是 Instagram 后台里的一个数字。"),
-            _t("Under three centimetres thick is worth ¥465 on every parcel — ¥185 to post domestically instead of ¥650. It is decided at the design stage, before anything is printed, and the 428-page comparable was too thick for every cheap option.",
-               "厚度控制在三厘米以内，每一件包裹就省下 465 日元——国内寄件 185 日元，而不是 650 日元。这是在设计阶段、开印之前就定下来的事；那本 428 页的参照书，因为太厚，所有便宜的寄件方式都用不了。"),
-        ],
-        "money": _t(
-            "The costs on this path are small, fixed and mostly invisible until they have been "
-            "paid. BASE takes 6.6% plus ¥40 a sale — about ¥330 on a ¥4,400 item; its cheaper "
-            "plan only pays for itself past roughly 60 sales a month, so the standard one is the "
-            "right one for now. Domestic postage is ¥185 under three centimetres and ¥650 over. "
-            "Air mail abroad runs ¥1,250 to China, Korea or Taiwan, ¥2,130 to Europe and ¥2,720 "
-            "to the US on a kilo; the illustrator who published his figures says higher shipping "
-            "is what loses a sale between the cart and the checkout.",
-            "这条路上的成本不大、固定，而且往往要等付掉了才看得见。BASE 每笔抽 6.6% 加 40 日元——"
-            "一件 4,400 日元的商品大约 330 日元；它更便宜的方案要每月卖到六十件以上才划算，所以目前标准方案就是对的。"
-            "国内邮费：厚度三厘米以内 185 日元，超过则 650 日元。寄到国外，一公斤的航空小包："
-            "中国、韩国、台湾 1,250 日元，欧洲 2,130 日元，美国 2,720 日元；"
-            "那位公开过自己数字的插画师说，运费一高，订单就在结账那一步流失掉。"),
-        "requires": [
-            _t("One number, from her own Instagram insights: what share of the 26,000 are in Japan. Everything else on this path prices differently depending on it, and looking it up takes a minute.",
-               "一个数字，在自己的 Instagram 后台里：这两万六千人当中，有多大比例在日本。这条路上其余每一件事的定价都取决于它，而查一下只要一分钟。"),
-            _t("One object priced in the empty middle of the ladder — somewhere between ¥1,980 and ¥31,900. That band is where the ¥11,000 comparable sits, and it is the only part of this shop that has never been tried.",
-               "一件定价落在阶梯空档里的东西——在 1,980 和 31,900 日元之间。那本 11,000 日元的参照书正在这个区间，而这也是这家店铺唯一没试过的地方。"),
-            _t("Three centimetres, decided at the design stage. It is worth ¥465 on every parcel and cannot be changed after printing.",
-               "三厘米，在设计阶段就定下来。每件包裹省 465 日元，而且印完就改不了了。"),
-            _t("A way to reach the people who have already bought, that is not the feed. Where a wide spread in sales could be explained at all, an existing list was the thing that explained it.",
-               "一条能找到「已经买过的人」的通道，而不是靠信息流。凡是能解释销量为何差距如此之大的地方，能解释的那一项，都是一份已有的名单。"),
-        ],
-        "example": _t("タケウマ / studio_takeuma, in Tokyo: 27,000 followers — about the same audience — and a self-published 428-page art book at ¥11,000 that sold 400 copies in four months, roughly ¥4 million. He is an established commercial illustrator with a decade of bookshop relationships behind him, and it is one case, not a rate.",
-                      "タケウマ / studio_takeuma，在东京：两万七千粉丝——观众规模差不多——自出版一本 428 页的画集，定价 11,000 日元，四个月卖出 400 本，约四百万日元。他是有十几年资历的商业插画师，背后有长期的书店关系；这是一个案例，不是一个比率。"),
     },
     {
         "id": "someone_else_sells",
@@ -576,41 +523,6 @@ FUTURES = [
         "name": _t("Galleries", "画廊"),
         "tagline": _t("A gallery sells your originals and finds the buyers.",
                       "画廊卖你的原作，并且负责找买家。"),
-        "overview": _t(
-            "A gallery funds the show, takes a commission, and finds the buyers. Its own income "
-            "depends on collectors who come back.",
-            "画廊出钱办展、抽取佣金，并负责找买家。它自己的收入，取决于能不能找到会回头再买的藏家。"),
-        "advantages": [
-            _t("The defining difference is not prestige, it is the direction the money runs. In a rental arrangement the artist pays for the room; here the gallery pays for the show.",
-               "这条路真正的分别不在名气，而在钱的流向。租赁场地时，是艺术家付场地费；在这条路上，是画廊出钱办展。"),
-            _t("Per-painting prices rise for a structural reason: somebody whose own living depends on the price is the one arguing for it.",
-               "每张画的价格会上去，原因是结构性的：替这个价格争取的人，自己也靠它吃饭。"),
-            _t("A third arrangement sits between rental and representation and is worth more than either — an open call that pays the artist to exhibit. TOKAS gives ¥150,000 toward the work and charges nothing for the venue.",
-               "在租场地和被代理之间还有第三种安排，比哪一种都划算：反过来付钱给艺术家办展的公开征集。TOKAS 提供 15 万日元制作经费，场地不收费。"),
-            _t("Standing here carries into the other four. An exhibition record is the one credential a publisher, an art director and a licensing buyer all read the same way.",
-               "在这条路上的位置会带到其他四条路上去。展览履历是出版社、艺术总监和授权买家都会以同样方式去读的那一项。"),
-        ],
-        "money": _t(
-            "Commission replaces rent. A representing gallery takes 40–50%, more than a rental "
-            "gallery's cut, against no payment up front, production and promotion covered, and "
-            "buyers supplied. A third arrangement sits between the two and is worth more than "
-            "either: an open call that pays the artist to exhibit. TOKAS gives ¥150,000 toward "
-            "the work and charges nothing for the venue.",
-            "佣金取代租金。代理画廊抽 40–50%，比租赁画廊抽得更多；代价的另一端是不需要预先付钱、"
-            "制作与宣传由画廊承担、买家也由画廊带来。在两者之间还有第三种安排，比哪一种都划算："
-            "反过来付钱给艺术家办展的公开征集。TOKAS 提供 15 万日元制作经费，场地不收费。"),
-        "requires": [
-            _t("Ten paintings that hang together as one body. Every funded door and every gallery conversation opens on the same ten.",
-               "十张能作为一个整体挂在一起的画。每一个提供经费的项目、每一次与画廊的接触，面对的都是同样这十张。"),
-            _t("Applications to the venues that pay rather than charge: TOKAS-Emerging around June, OPEN SITE around February, Kyoto Art Center around October.",
-               "向那些付钱、而不是收钱的场地提交申请：TOKAS-Emerging 约在六月，OPEN SITE 约在二月，京都艺术中心约在十月。"),
-            _t("Two visits, as a viewer, to each gallery whose roster resembles the work. Tokyo galleries run no submission box; the route in is attendance and then a letter.",
-               "对每一家代理风格相近的画廊，以观众身份去两次。东京的画廊不设投稿箱，进入的方式是先到场，然后写信。"),
-            _t("A first letter that requests nothing but a viewing. It contains no proposal, so there is nothing in it to decline, and any reply is a specification.",
-               "一封只请求「看一下」的信。信里没有提案，所以没有什么可以被拒绝；而任何回复，本身就是一份要求说明。"),
-        ],
-        "example": _t("Where the road runs: Keita Morimoto paints night streets — a decade of them in Toronto before Tokyo — and is now with KOTARO NUKAGA in Japan and Almine Rech internationally, with work in the National Gallery of Canada and a 2025 solo at the 21st Century Museum in Kanazawa. That is far past a first gallery conversation, but it is the shape of the road.",
-                      "这条路通向哪里：森本启太画夜晚的街道——来东京之前，他在多伦多画了十年——如今在日本由 KOTARO NUKAGA 代理，国际上则是 Almine Rech，作品被加拿大国立美术馆收藏，2025 年在金泽21世纪美术馆办个展。这已经远远超出「第一次与画廊接触」的阶段，但那条路的形状就是这样。"),
     },
     {
         "id": "work_goes_out",
@@ -618,45 +530,6 @@ FUTURES = [
         "name": _t("Licensing", "图像授权"),
         "tagline": _t("Someone pays to use a painting you have already made.",
                       "有人付钱，使用你已经画好的一张画。"),
-        "overview": _t(
-            "Quiet money. Images are licensed — stationery, homeware, packaging, book covers, "
-            "brands — and other companies handle manufacture, distribution and sale.",
-            "安静的钱。图像被授权出去——文具、家居、包装、书封、品牌——生产、铺货、销售都由别的公司负责。"),
-        "advantages": [
-            _t("The only one that pays more than once for the same image. Everywhere else on this list, a thing is made and then sold once.",
-               "唯一一条同一张图可以反复收钱的路。这份清单上的其他每一条，都是做一件、卖一次。"),
-            _t("Public recognition is not part of the arrangement, and nothing here asks for new painting. It fits a practice that wants to keep painting and manage as little as possible.",
-               "这套安排里不包含公众知名度，也不要求为它另外画新作品。它适合一种想一直画下去、又尽量不去管别的事的工作方式。"),
-            _t("The one least affected by residence or visa status. The buyer is a company anywhere and the goods are files.",
-               "受居住地与签证状态影响最小的一条。买家可以是任何地方的公司，交付的是文件。"),
-            _t("Architecture and cityscape reach buyers character work does not: interiors, hospitality, stationery, publishing, travel.",
-               "建筑与城市题材能接触到角色类作品接触不到的买家：室内、酒店餐饮、文具、出版、旅行。"),
-        ],
-        "money": _t(
-            "Two shapes. A flat fee is one payment for one defined use: simple, and capped. A "
-            "royalty is a percentage of sales, ongoing and unbounded. One scale marker is worth "
-            "having before the work goes in: the one illustrator found publishing her actual "
-            "income split has a twenty-year licensing practice with M&S, John Lewis and "
-            "Unilever, and licensing is 3% of her income against 77% from teaching. It pays "
-            "well; it rarely pays most. Architecture and cityscape also licenses to a different "
-            "set of buyers than character work — interiors, hospitality, stationery, publishing, "
-            "travel.",
-            "两种形式。一次性买断是一笔钱换一次约定用途：简单，但有上限。分成是按销售额抽成，持续发生，没有上限。"
-            "投入之前有一个量级参考：目前找到的唯一一位公开自己收入构成的插画师，做了二十年授权，"
-            "客户包括 M&S、John Lewis、联合利华——授权占她收入的 3%，教学占 77%。"
-            "这条路可以赚钱，但很少成为收入的主要来源。另外，建筑与城市题材的授权对象和角色类作品完全不同："
-            "室内、酒店餐饮、文具、出版、旅行。"),
-        "requires": [
-            _t("A set of images that hold up small and repeat. Licensing buys pattern and mood; single masterpieces are not the unit of sale.",
-               "一组缩小之后依然成立、并且可以重复使用的图像。授权买的是图案与氛围；单张杰作不是这里的交易单位。"),
-            _t("Contact with the categories already using this kind of imagery: stationery manufacturers, hotel and café interiors, publishers commissioning covers.",
-               "与本来就在使用这类图像的领域建立接触：文具厂商、酒店与咖啡馆的室内、需要封面的出版社。"),
-            _t("Contract literacy on one specific point. An unlimited buyout signed over a body of work removes the ability to license it again, and that is the one mistake here that costs years rather than money.",
-               "在一个具体条款上的合同常识。对一批作品签下无限期买断，就等于放弃了日后再次授权它的可能；"
-               "这是这条路上唯一一种代价以年计、而不是以钱计的错误。"),
-        ],
-        "example": _t("No verified example yet. This entry stays empty rather than carrying an invented one.",
-                      "尚无经过核实的实例。此处留空，而不是填入一个杜撰的名字。"),
     },
     {
         "id": "between_covers",
@@ -664,225 +537,38 @@ FUTURES = [
         "name": _t("Publishing", "出版"),
         "tagline": _t("A publisher makes a book of your work, and pays for it.",
                       "由出版社把你的作品做成一本书，钱也由他们出。"),
-        "overview": _t(
-            "Books are the vehicle — not zines documenting a practice, but books bought because "
-            "they are books.",
-            "书是载体——不是记录创作过程的 zine，而是别人因为它是一本书才买下的书。"),
-        "advantages": [
-            _t("The only one of the five whose price is knowable before anything starts. Every other door on the list is an application and a wait.",
-               "五条路里唯一一条在开始之前就能知道价钱的。清单上其他每一扇门，都是先申请，然后等。"),
-            _t("The object works on the other four paths. A finished book is what a gallery, a publisher and an art director are each shown.",
-               "做出来的东西在其他四条路上都用得上。画廊、出版社、艺术总监——拿给他们看的都是同一本成品书。"),
-            _t("A book on a shelf finds strangers. It reaches people who will never see a post.",
-               "书摆在架子上，会被陌生人拿起来。它能到达那些永远不会看到一条帖子的人。"),
-            _t("The one fork inside this path changes more than any decision elsewhere on the list: whether a publisher is involved. With one there is no outlay and no inventory, and distribution reaches bookshops nationally, which self-publishing does not.",
-               "这条路内部的那个岔口，比清单上任何其他决定都更能改变结果：有没有出版社参与。有出版社，就不需要出钱，家里也不堆书，发行能进入全国书店——这是自出版做不到的。"),
-        ],
-        "money": _t(
-            f"Self-published, printed in China at {_BOOK['run']} copies: roughly "
-            f"¥{_BOOK['outlay_jpy']:,} up front, recovered at {_BOOK['breakeven_direct']} copies sold "
-            "directly. Printed in Japan at 100 copies it cannot break even at any sell-through; a "
-            "small run is only viable at a high cover price. With a publisher there is no outlay "
-            "and no inventory, the per-copy earning is roughly a tenth, and distribution reaches "
-            "bookshops nationally. The publisher carries volume and risk. The variable it "
-            "introduces is their consent. The whole arithmetic sits under “What a book "
-            "costs” further down this page.",
-            f"自己出版、在中国印 {_BOOK['run']} 本：前期约 {_BOOK['outlay_jpy']:,} 日元，"
-            f"直接卖出 {_BOOK['breakeven_direct']} 本回本。"
-            "在日本印 100 本，则无论卖得多好都无法回本；小批量只有在定价够高时才成立。"
-            "有出版社时，不需要出钱，家里也不堆书，每本大约只拿十分之一，但发行能进入全国书店。"
-            "出版社承担的是数量和风险。它引入的变量，是对方是否同意。"
-            "完整的算法在本页下面的「一本书要花多少钱」里。"),
-        "requires": [
-            _t("Material, which already exists: six years of daily work is more than a book needs.",
-               "材料——这一项已经具备：六年的日课，比做一本书所需要的还多。"),
-            _t("Quotes from a Japanese and a Chinese printer against the same specification. The prices quoted to a Chinese speaker and to a foreigner are not the same prices.",
-               "同一份规格，分别向日本和中国的印厂询价。报给中文使用者的价格，和报给外国人的价格，不是同一个价格。"),
-            _t("A channel plan that does not depend on the audience: consignment in a few shops plus one fair booth. If those cover the run, direct sales become upside rather than a requirement.",
-               "一套不依赖观众的销售计划：几家店的寄售，加一个书展摊位。如果这些能覆盖印量，"
-               "直接销售就从「必须」变成了「额外」。"),
-            _t("A finished object, if a publisher is the target. A self-published book is also the thing a publisher is shown; Colour Diary already performed that function once.",
-               "如果目标是出版社，还需要一个成品。自己出的书同时也是拿给出版社看的东西；《Colour Diary》已经承担过一次这个功能。"),
-        ],
-        "example": _t("Mateusz Urbanowicz: his Tokyo architecture books (Tokyo Storefronts, Tokyo at Night) are published by MdN rather than self-published, and the series has passed 100,000 copies in Japan. He sells originals himself and has no gallery.",
-                      "Mateusz Urbanowicz：他画东京建筑的书（《东京店构え》《东京夜行》）由 MdN 出版，不是自出版，这个系列在日本已经卖过十万册。原作由他自己销售，没有画廊代理。"),
     },
     {
         "id": "on_assignment",
         "blocks": _COMMISSIONS,
         "name": _t("Commissions", "委托"),
-        # The "only predictable monthly number" claim moved into advantages,
-        # where it belongs as a comparison; a tagline repeating it read twice.
         "tagline": _t("Someone pays you to paint something new, to a brief.",
                       "有人付钱请你按要求画一张新的。"),
-        "overview": _t(
-            "Editorial illustration, book covers, commissions. A brief arrives, the work is "
-            "delivered, payment follows a schedule.",
-            "杂志插画、书籍封面、委托创作。需求送来，稿件交付，按约定时间付款。"),
-        "advantages": [
-            _t("The only one of the five with a predictable monthly number. It is also the least romantic of them, and those two facts are the same fact.",
-               "五条路里唯一一条每月收入可以预期的。它也是最不浪漫的一条——这两件事其实是同一件事。"),
-            _t("The work is paid for before it exists. Everywhere else on this list the painting is made first and sold afterwards, if at all.",
-               "这里是先付钱、后有作品。这份清单上的其他每一条，都是先把画画出来，之后才谈卖不卖得掉。"),
-            _t("No inventory and no unsold stock. Nothing sits in a room waiting for a buyer.",
-               "没有库存，也没有卖不掉的存货。不会有东西堆在房间里等买家。"),
-            _t("Architecture and atmosphere are in specific demand for covers: literary fiction leans heavily on exactly this kind of image.",
-               "建筑与氛围类的画在封面上有明确需求：文学小说的封面，大量依赖的正是这一类图像。"),
-        ],
-        "money": _t(
-            "Per-commission fees, negotiated by scope of use. An agent takes 25–30% and supplies "
-            "work that would not otherwise appear, though a large share of working illustrators "
-            "operate without one and take commissions direct. Rates vary enormously by client, "
-            "which is the mechanism by which the portfolio shown determines the work offered.",
-            "按单收费，按使用范围议价。经纪人抽 25–30%，带来的是自己接触不到的工作；"
-            "不过相当一部分一直在接活的插画家并没有经纪人，都是直接对接。"
-            "不同客户之间价差极大——这正是「拿出什么作品集，就会被找去做什么活」的作用机制。"),
-        "requires": [
-            _t("A portfolio built around use rather than paintings. A cover mock-up reads to an art director in a way an exhibition photograph does not.",
-               "一份围绕「用途」而不是「画作」构建的作品集。对艺术总监而言，一个封面样稿的可读性，和一张展览照片完全不同。"),
-            _t("Entry to the industry's own competitions — The Choice, HB Gallery FILE. Those are where Japanese art directors look.",
-               "参加这个行业自己的比赛——The Choice、HB Gallery FILE。日本的艺术总监会去看的就是这些。"),
-            _t("Direct approach to publishers. Japanese literary publishers commission covers continuously.",
-               "直接联系出版社。日本的文学出版社持续在找人画封面。"),
-            _t("An agent, last. Representation follows a workload that needs managing; it does not precede it.",
-               "经纪人放在最后。代理是在有活要管之后才出现的，不在那之前。"),
-        ],
-        "example": _t("Tatsuro Kiuchi: book jackets, editorial and advertising — Ikeido Jun's novels, the New York Times, Penguin, Uniqlo. He works without an agent; commissions come direct.",
-                      "木内达朗：书籍封面、杂志插画与广告——池井户润的小说、《纽约时报》、企鹅出版、优衣库。他没有经纪人，工作直接找上门。"),
     },
 ]
 
 
-_MONEY_LABEL = _t("How the money works", "钱是怎么来的")
-_NEEDS_LABEL = _t("What this path needs", "这条路需要什么")
-_LIVING_LABEL = _t("Someone living it", "有人正在这样生活")
-_ABSENT_LABEL = _t("Of these, not in place yet", "这些里面，目前还没有的")
+def build() -> dict:
+    """The five routes, the frame they answer to, and the five experiments.
 
-
-def build(evidence: Optional[dict] = None) -> dict:
-    """Assemble each future in reading order: overview, advantages, strengths, details.
-
-    Strengths and the absent line are computed rather than authored, for two
-    reasons. The standings move as her record does, and a hardcoded "two solo
-    shows" goes stale the moment there is a third — which is exactly how the old
-    career copy ended up calling a 2023 group show her latest news. And prose
-    here drifts into assessment: an early version opened one entry with "further
-    along this one than any other", which is a compliment, not information.
-    Statements of what exists carry the same finding and pass no verdict.
-
-    The two halves used to sit side by side as a ledger under the heading
-    "Current position". They are split now: what is in place reads above the
-    fold as strengths, what is missing goes into the "what this path needs"
-    disclosure, attached to the list of conditions it actually belongs to. The
-    facts are identical; only what she meets first has changed.
+    No arguments. An earlier version took her computed career evidence and used
+    it to print a per-route ledger of what she has and has not done. Both halves
+    are gone: the "has" half read her own record back to a person who lived it,
+    and the "has not" half was a list of what she lacks, which is the thing this
+    file exists to stop. Her record still decides what the routes SAY — it is
+    why Selling Direct opens on a price gap rather than an explanation of
+    selling — but it is applied by whoever writes a block, not printed as a
+    scoreboard.
     """
-    ev = evidence or {}
-    solos = ev.get("solo_shows", 0)
-    groups = ev.get("confirmed_group_shows", 0)
-    pubs = ev.get("publications_confirmed", 0)
-
-    strengths = {
-        "no_gatekeepers": [
-            _t("Six years of daily work, published without a break.",
-               "六年日课，中间没有断过。"),
-            _t("An audience of about 26,000 that already exists — a launch here runs to people who are already looking.",
-               "一群已经存在的、约 2.6 万人的观众——这里的发布面向的是本来就在看的人。"),
-            # NOT "with its own buyers". Roughly three-quarters of the shop's
-            # orders are Scott's own, so shop VOLUME cannot be used to claim the
-            # audience converts — her prices are real data, her order counts are
-            # not (project_scott_is_in_the_data).
-            _t("A shop already running, with prices set and the listings live.",
-               "一个已经在运转的店铺，价格定好，商品在架。"),
-            _t(f"{pubs} publications already made and put out.",
-               f"{pubs} 本出版物，已经做出来并发行过。"),
-        ],
-        "someone_else_sells": [
-            _t(f"{groups} group shows and {solos} solo shows on the record.",
-               f"履历上有 {groups} 场联展、{solos} 场个展。"),
-            _t("Museum group exhibitions, and one showing outside Asia.",
-               "美术馆群展，以及一次亚洲以外的展出。"),
-            _t("A body of work already made at the scale a show needs.",
-               "已经画出来的、达到办一场展所需规模的作品。"),
-        ],
-        "work_goes_out": [
-            _t("Six years of images that repeat and hold up small — the raw material licensing buys.",
-               "六年积累的、可重复且缩小后依然成立的图像——正是授权所购买的原料。"),
-            _t("A subject that sells into categories character work never reaches.",
-               "一个能进入角色类作品到不了的品类的题材。"),
-            _t("A look that holds steady across six years — which is what a licensor buys, rather than any single image.",
-               "六年里稳定不变的一种面貌——授权方买的是这个，而不是某一张画。"),
-        ],
-        "between_covers": [
-            _t(f"{pubs} publications and eight zines already made and sold.",
-               f"{pubs} 本出版物、八本 zine，都已经做出来并卖过。"),
-            _t("Six years of daily work — more material than a book needs.",
-               "六年的日课——比做一本书所需要的材料还多。"),
-            _t("Colour Diary already did the job a publisher is shown.",
-               "《Colour Diary》已经承担过「拿给出版社看」的那个作用。"),
-            _t("Chinese-language negotiation with printers, which is the single largest lever on the cost.",
-               "能用中文和印厂谈——这是成本上最大的一个杠杆。"),
-        ],
-        "on_assignment": [
-            _t("Training in illustration and design, which is the training this field runs on.",
-               "插画与设计的科班训练——这个领域运转所依赖的正是这套训练。"),
-            _t("A subject Japanese literary publishers commission continuously.",
-               "一个日本文学出版社持续在找人画的题材。"),
-            _t("Six years of consistent delivery, which is what an art director is buying.",
-               "六年不间断的产出——艺术总监买的正是这个。"),
-        ],
-    }
-
-    absent = {
-        "no_gatekeepers": _t(
-            "Anything priced between ¥1,980 and ¥31,900, and a count of how many of the 26,000 "
-            "are in Japan.",
-            "1,980 到 31,900 日元之间的任何一件商品，以及一个数字：两万六千人里有多少在日本。"),
-        "someone_else_sells": _t(
-            "An exhibition funded by someone else. Every show on the record so far was paid for "
-            "from this side.",
-            "一场由别人出钱的展览。目前履历上的每一场，费用都出自这一侧。"),
-        "work_goes_out": _t(
-            "All of it. No licensing on record — the largest untouched category of the five.",
-            "全部。履历上没有任何授权记录——这是五条路里最大的一片空白。"),
-        "between_covers": _t(
-            "A book made to be bought as a book, and quotes from a Chinese printer against a "
-            "Japanese one.",
-            "一本作为「书」被买走的书，以及一份中国印厂与日本印厂的对比报价。"),
-        "on_assignment": _t(
-            "Commercial work on record, and a portfolio that shows use rather than paintings.",
-            "履历上的商业作品，以及一份展示「用途」而不是「画作」的作品集。"),
-    }
-
-    def _details(f: dict) -> list:
-        # Ordered as the questions arrive: how does it pay, what does it take,
-        # who is doing it. Each is one lid; four lids on a card is chrome.
-        return [
-            {"id": "money", "kind": "prose",
-             "label": _MONEY_LABEL, "body": f["money"]},
-            {"id": "needs", "kind": "list",
-             "label": _NEEDS_LABEL, "items": f["requires"],
-             "footnote_label": _ABSENT_LABEL, "footnote": absent.get(f["id"])},
-            {"id": "example", "kind": "prose",
-             "label": _LIVING_LABEL, "body": f["example"]},
-        ]
-
     return {
         "futures": [{
             "id": f["id"],
             "name": f["name"],
             "tagline": f["tagline"],
-            # A card with a `scenario` renders as a business scenario and
-            # ignores everything below it. Without one it falls back to the
-            # older shape, so the four cards still waiting to be converted keep
-            # working rather than going blank.
-            "scenario": f.get("scenario"),
-            # The other four realms: a generic block list, so each can take the
-            # shape its subject wants instead of a fixed schema.
-            "blocks": f.get("blocks"),
-            "overview": f["overview"],
-            "advantages": f["advantages"],
-            "strengths": strengths.get(f["id"], []),
-            "details": _details(f),
+            # A generic block list, so each route takes the shape its subject
+            # wants instead of wearing a fixed five-part schema whether or not
+            # it has five parts to say.
+            "blocks": f["blocks"],
         } for f in FUTURES],
         # The frame the whole tab answers to, and the five experiments it ends
         # on. Without these the five routes are five essays with nothing joining
