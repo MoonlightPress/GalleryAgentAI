@@ -1702,6 +1702,99 @@ function Disclosure({ d, lang, children }) {
   )
 }
 
+// A business scenario: what it gives, what's hard, the two fulfilment routes,
+// every product with the cost on each route, and where to start.
+//
+// Replaces the "kind of life" body for cards that carry a `scenario`. The old
+// body described a way of living; this one is a plan with numbers, which is
+// what "these are business scenarios" asked for. The product table is the
+// centre of it — it is the thing that was missing from every earlier draft, and
+// the fulfilment axis (print-on-demand against buying a run) is what decides
+// how much of her week any of it costs.
+// A price ladder, where it breaks, what fits in the break, and how to make each
+// rung. Four blocks, in that order.
+//
+// Scott, 2026-09-06: "aren't we proposing a funnel? here are the materials you
+// can produce and sell from cheapest to most expensive, noting margin?
+// escalation pathways?" — and the purpose the whole page serves: "she comes to
+// saffron for a framework of what an artist like her does to become successful
+// in the realms she chooses to participate in."
+//
+// Earlier versions of this body were a catalogue: eleven products, every cost,
+// no order and no argument. A catalogue answers "what exists", which Bible05's
+// closing Hard Truth names as the wrong question. A ladder answers "what
+// matters", because it has a shape and a break in it.
+// Hoisted out of ScenarioBody: components defined inside a render function are
+// re-created every pass, which remounts their whole subtree.
+const scPick = (o, lang) => (o && (o[lang] || o.en)) || ''
+
+function ScenTable({ headers, rows, cols, lang }) {
+  return (
+    <div className="sf-scen-tablewrap">
+      <table className="sf-scen-table">
+        <thead><tr>{headers.map((h, i) => <th key={i}>{scPick(h, lang)}</th>)}</tr></thead>
+        <tbody>
+          {rows.map((r, i) => (
+            <tr key={i}>
+              <th scope="row">{scPick(r.what, lang)}</th>
+              {cols.map((c, j) => (
+                <td key={j} className={c === 'price' || c === 'keep' ? 'sf-scen-price' : undefined}>
+                  {scPick(r[c], lang)}
+                </td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  )
+}
+
+// The order is the argument: what you have, what is missing, what would fill it
+// and at what cost, why holding stock is wrong for THOSE things, therefore drop
+// shipping, what that is, why it suits this work, the chart, where to go today.
+function ScenarioBody({ s, lang }) {
+  const p = (k) => scPick(s[k], lang)
+  return (
+    <div className="sf-scen">
+      <div className="sf-block-label">{p('have_label')}</div>
+      <p className="sf-scen-para">{p('have')}</p>
+
+      <div className="sf-block-label">{p('missing_label')}</div>
+      <p className="sf-scen-gap">{p('missing')}</p>
+
+      <div className="sf-block-label">{p('fill_label')}</div>
+      <ScenTable headers={s.fill_headers} rows={s.fill} cols={['price', 'cost', 'keep']} lang={lang} />
+
+      <div className="sf-block-label">{p('why_not_stock_label')}</div>
+      <p className="sf-scen-para">{p('why_not_stock')}</p>
+
+      <div className="sf-block-label">{p('ds_label')}</div>
+      <p className="sf-scen-gap">{p('ds')}</p>
+
+      <div className="sf-block-label">{p('ds_fit_label')}</div>
+      <ul className="sf-scen-list">
+        {s.ds_fit.map((x, i) => <li key={i}>{scPick(x, lang)}</li>)}
+      </ul>
+
+      <div className="sf-block-label">{p('ds_chart_label')}</div>
+      <ScenTable headers={s.ds_chart_headers} rows={s.ds_chart} cols={['price', 'keep', 'margin']} lang={lang} />
+      <p className="sf-scen-note">{p('ds_note')}</p>
+
+      <div className="sf-block-label">{p('today_label')}</div>
+      <ul className="sf-scen-links">
+        {s.today.map((l, i) => (
+          <li key={i}>
+            <a href={l.url} target="_blank" rel="noreferrer" className="sf-ext-link">
+              {scPick(l.name, lang)} ↗
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  )
+}
+
 function Future({ f, lang }) {
   const [open, setOpen] = useState(false)
   const pick = (o) => (o && (o[lang] || o.en)) || ''
@@ -1714,8 +1807,9 @@ function Future({ f, lang }) {
         </div>
         <span className={`sf-chevron${open ? ' sf-chevron--open' : ''}`}>▾</span>
       </button>
-      {open && (
-        <div className="sf-future-body">
+      {open && (f.scenario
+        ? <div className="sf-future-body"><ScenarioBody s={f.scenario} lang={lang} /></div>
+        : <div className="sf-future-body">
           <p className="sf-future-overview">{pick(f.overview)}</p>
 
           {!!f.advantages?.length && (
@@ -1739,8 +1833,7 @@ function Future({ f, lang }) {
           <div className="sf-details">
             {(f.details || []).map(d => <Disclosure key={d.id} d={d} lang={lang} />)}
           </div>
-        </div>
-      )}
+        </div>)}
     </div>
   )
 }

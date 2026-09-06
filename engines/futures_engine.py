@@ -88,6 +88,177 @@ def _t(en: str, zh: str) -> dict:
 _BOOK = reference_run()
 
 
+# ── Selling Direct, as a business scenario ───────────────────────────────────
+#
+# Scott, 2026-09-06: "these are business scenarios. 'i want to self publish my
+# work' — 'ok, well, these are the advantages of doing that. these are the
+# difficulties. these are the types of things you can sell direct to consumers:
+# originals, prints, zines, postcards, keychains, commissions, calendars, etc.'
+# here are the economics of each. here are your break even points. here is how
+# you market them."
+#
+# And: "make that as effortless for her as possible."
+#
+# So this card is not a description of a kind of life. It is a scenario with an
+# advantages column, a difficulties column, every product she could actually
+# sell with the cost of each on BOTH fulfilment routes, and the moves that
+# follow. The fulfilment axis — print-on-demand against buying a run — was
+# missing entirely from every earlier draft, and it is the axis that decides
+# how much of her week this costs. She has never used print-on-demand.
+#
+# Every figure below traces to one of three reports produced 2026-09-06:
+#   reports/direct_sales_pod_2026-09-06.md            (POD platforms)
+#   reports/direct_sales_goods_costs_2026-09-06.md    (printers, postage)
+#   reports/direct_sales_international_2026-09-06.md  (overseas, commissions)
+# plus reports/book_economics_2026-09-05.md for the art-book row. Nothing here
+# is estimated; where a number was not found, the row says so.
+
+_SELLING_DIRECT = {
+    # The order Scott spelled out on 2026-09-06, and the argument it makes:
+    #   here's what you have -> here's what you're missing (the middle) ->
+    #   here's what filling it would cost and what you'd keep -> holding stock
+    #   is the wrong way to do THESE particular things -> so, drop shipping,
+    #   here is what that is -> here is the chart for the items that suit
+    #   watercolour architecture specifically -> margins -> where to do it today.
+    #
+    # The filter matters as much as the numbers: "she wouldn't do T shirts
+    # because her work does not work for something like that." Apparel, mugs and
+    # phone cases are dropped from the chart even though the platforms offer
+    # them. What is left is paper, pigment and wall.
+    #
+    # Second person. No definitions of things she already knows - an earlier
+    # draft opened by explaining what selling direct means, to someone who has
+    # done it for years.
+    "have_label": _t("What you already have", "你已经有的"),
+    "have": _t(
+        "Two ends of a ladder. Postcards, zines and prints between ¥1,100 and ¥2,200, all "
+        "returning 75–99% because printed paper costs almost nothing to make. Then originals from "
+        "¥31,900 to ¥115,500, and commissions on top of that.",
+        "一道阶梯的两头。明信片、zine、画作印刷在 1,100 到 2,200 日元之间，"
+        "回报率 75–99%，因为印在纸上的东西几乎没有成本。另一头是 31,900 到 115,500 日元的原作，"
+        "再往上是委托。"),
+    "missing_label": _t("What you are missing", "你缺的那一段"),
+    "missing": _t(
+        "Everything between them. After ¥2,200 the next thing you sell costs fourteen times as "
+        "much. Someone who has bought a zine and a print and liked both has nothing to buy next — "
+        "the next step you offer them is a ¥31,900 painting. Most people who would happily spend "
+        "¥8,000 on you never get the chance.",
+        "中间全空着。2,200 日元之后，下一样东西贵了十四倍。"
+        "一个买过 zine 和印刷、并且都喜欢的人，接下来没有可买的了——你给他的下一级是 31,900 日元的原作。"
+        "大多数本来愿意在你这里花八千日元的人，根本没有机会花。"),
+    "fill_label": _t("What fills it, and what it would cost", "填进去的东西，以及成本"),
+    "fill_headers": [_t("", ""), _t("Sells for", "售价"), _t("Costs to make", "做出来要多少"),
+                     _t("You keep", "你留下")],
+    "fill": [
+        {"what": _t("Poster, A2", "海报，A2"), "price": _t("¥3,000", "3,000 日元"),
+         "cost": _t("¥1,400", "1,400 日元"), "keep": _t("¥1,465", "1,465 日元")},
+        {"what": _t("Poster, A1", "海报，A1"), "price": _t("¥5,000", "5,000 日元"),
+         "cost": _t("¥2,550", "2,550 日元"), "keep": _t("¥2,268", "2,268 日元")},
+        {"what": _t("Canvas, F3", "画布，F3"), "price": _t("¥7,000", "7,000 日元"),
+         "cost": _t("¥3,350", "3,350 日元"), "keep": _t("¥3,300", "3,300 日元")},
+        {"what": _t("Framed giclée, A4", "装裱微喷，A4"), "price": _t("¥20,000", "20,000 日元"),
+         "cost": _t("¥12,000", "12,000 日元"), "keep": _t("¥7,507", "7,507 日元")},
+        {"what": _t("Art book, 128pp", "画集，128 页"), "price": _t("¥4,950", "4,950 日元"),
+         "cost": _t("¥1,315 each, 300 at a time", "每本 1,315，一次 300 本"),
+         "keep": _t("¥3,635", "3,635 日元")},
+    ],
+    "why_not_stock_label": _t("Why not just print a batch", "为什么不干脆自己印一批"),
+    "why_not_stock": _t(
+        "Because these are the wrong things to hold. A hundred postcards is a padded envelope in "
+        "a cupboard; a hundred A1 posters is a tube rack, and every order is a trip to the post "
+        "office with something that cannot be folded. Canvases and frames are worse — bulky, "
+        "fragile, expensive to send and expensive to be wrong about. The one exception is the art "
+        "book, which cannot be made any other way, and which is why it is the only thing on that "
+        "list you would pay for up front.",
+        "因为这些恰恰是最不适合囤的东西。一百张明信片是柜子里的一个信封袋；"
+        "一百张 A1 海报是一整排纸筒，而且每一单都要抱着一件不能折的东西跑一趟邮局。"
+        "画布和画框更糟——占地方、易损、寄起来贵，押错了也贵。"
+        "唯一的例外是画集，它没有别的做法，这也是那份清单上唯一一样需要你先掏钱的东西。"),
+    "ds_label": _t("So: drop shipping", "所以：按需代发"),
+    "ds": _t(
+        "You upload the file once. When someone buys, the printer makes that one copy and posts it "
+        "to them under their own name — you never see the parcel, never buy stock, never go to the "
+        "post office. You are paid the difference between what it cost to make and what you "
+        "charged. Nothing is manufactured until it is sold, so listing something costs you nothing "
+        "at all.",
+        "你把文件传上去一次。有人下单时，印厂就做那一件，用他们自己的名义寄给买家——"
+        "你不会碰到包裹，不用进货，也不用跑邮局。你拿到的是售价和制作成本之间的差额。"
+        "在卖出去之前不会有任何东西被制作出来，所以挂一件商品上去，你一分钱都不用花。"),
+    "ds_fit_label": _t("Why it suits your work in particular", "为什么它特别适合你的作品"),
+    "ds_fit": [
+        _t("What these platforms are good at is flat, printed, pigment-on-paper things — posters, "
+           "postcards, framed prints, canvas, panels. That is your entire practice.",
+           "这些平台真正擅长的，就是平面的、印刷的、颜料落在纸上的东西——海报、明信片、"
+           "装裱印刷、画布、画板。而这正好就是你全部的创作。"),
+        _t("It is worst at apparel, mugs and phone cases, which is where most artists lose money "
+           "anyway and which your work would not sit well on regardless.",
+           "它最不擅长的是服装、马克杯和手机壳，而那本来就是多数创作者赔钱的地方，"
+           "你的作品放上去本来也不合适。"),
+        _t("Every one of the middle rungs above is bulky, fragile or both. Those are exactly the "
+           "items where not holding stock is worth the most.",
+           "上面那几级中间价位的东西，不是占地方就是易损，或者两样都占。"
+           "恰恰是这类东西，不囤货省下来的最多。"),
+        _t("On BOOTH the parcel goes out from ピクシブ株式会社. Your name and address are not on it.",
+           "在 BOOTH 上，包裹以「ピクシブ株式会社」的名义寄出，上面没有你的姓名和地址。"),
+    ],
+    "ds_chart_label": _t("What you could list this week, and what you would keep",
+                         "这个星期就能上架的东西，以及你能留下多少"),
+    "ds_chart_headers": [_t("", ""), _t("Sells for", "售价"), _t("You keep", "你留下"),
+                         _t("Margin", "毛利率")],
+    "ds_chart": [
+        {"what": _t("Poster, B3", "海报，B3"), "price": _t("¥2,480", "2,480 日元"),
+         "keep": _t("¥1,087", "1,087 日元"), "margin": _t("39%", "39%")},
+        {"what": _t("Poster, A2", "海报，A2"), "price": _t("¥3,000", "3,000 日元"),
+         "keep": _t("¥1,465", "1,465 日元"), "margin": _t("44%", "44%")},
+        {"what": _t("Poster, A1", "海报，A1"), "price": _t("¥5,000", "5,000 日元"),
+         "keep": _t("¥2,268", "2,268 日元"), "margin": _t("43%", "43%")},
+        {"what": _t("Framed giclée, A4", "装裱微喷，A4"), "price": _t("¥20,000", "20,000 日元"),
+         "keep": _t("¥7,507", "7,507 日元"), "margin": _t("38%", "38%")},
+        # The wall and paper goods a Japanese buyer expects from an illustrator,
+        # and the ones that sit in the missing band. The acrylic panel is the
+        # useful find - the research calls it "the closest thing to a framed
+        # print", and at ¥2,500 it lands in the gap for a fifth of the price of
+        # the giclée. No magnets: none of these platforms offer them.
+        {"what": _t("Acrylic panel — a wall piece, framed-print feel",
+                    "亚克力画板——挂墙的，接近装裱印刷的效果"),
+         "price": _t("¥2,500", "2,500 日元"),
+         "keep": _t("¥1,026", "1,026 日元"), "margin": _t("41%", "41%")},
+        {"what": _t("Acrylic block", "亚克力方块"), "price": _t("¥5,000", "5,000 日元"),
+         "keep": _t("¥1,365", "1,365 日元"), "margin": _t("27%", "27%")},
+        {"what": _t("Postcards, set of ten", "明信片，十张一套"), "price": _t("¥3,000", "3,000 日元"),
+         "keep": _t("¥1,055", "1,055 日元"), "margin": _t("31%", "31%")},
+        {"what": _t("Clear file", "文件夹"), "price": _t("¥1,600", "1,600 日元"),
+         "keep": _t("¥616", "616 日元"), "margin": _t("31%", "31%")},
+        {"what": _t("Masking tape", "和纸胶带"), "price": _t("¥1,600", "1,600 日元"),
+         "keep": _t("¥504", "504 日元"), "margin": _t("32%", "32%")},
+        {"what": _t("Stickers", "贴纸"), "price": _t("¥800", "800 日元"),
+         "keep": _t("¥436", "436 日元"), "margin": _t("36%", "36%")},
+    ],
+    "ds_note": _t(
+        "Lower percentages than printing your own — you are paying someone to hold the risk. On "
+        "the things you already sell in quantity, keep printing your own: a ten-pack of postcards "
+        "costs ¥170 in a run of a hundred against ¥1,835 on demand. Drop shipping is for the rungs "
+        "you do not have yet.",
+        "毛利率比自己印低——你付的是别人替你承担风险的钱。已经卖得动、量也起来的东西，继续自己印："
+        "一套十张的明信片，印一百套时成本 170 日元，按需印刷要 1,835 日元。"
+        "按需代发是用来补你还没有的那几级的。"),
+    "today_label": _t("Where to do it, today", "今天就可以去这几个地方"),
+    "today": [
+        {"name": _t("pixivFACTORY — posters, canvas, framed prints, postcards. Sells through BOOTH, "
+                    "which you can open in an afternoon.",
+                    "pixivFACTORY——海报、画布、装裱印刷、明信片。通过 BOOTH 销售，一个下午就能开店。"),
+         "url": "https://factory.pixiv.net/"},
+        {"name": _t("SUZURI — stickers and smaller paper goods, no shop setup needed.",
+                    "SUZURI——贴纸和小件纸制品，不需要另外开店。"),
+         "url": "https://suzuri.jp/"},
+        {"name": _t("INPRNT — prints for buyers outside Japan, who none of the above will post to. "
+                    "Pays 50% of each sale.",
+                    "INPRNT——面向日本以外的买家，上面几家都不寄国外。每笔销售支付 50%。"),
+         "url": "https://www.inprnt.com/"},
+    ],
+}
+
+
 FUTURES = [
     {
         "id": "no_gatekeepers",
@@ -97,6 +268,10 @@ FUTURES = [
         # translated. The texture moved down into the taglines, which is where a
         # reader has already agreed to spend a second.
         "name": _t("Selling Direct", "直接卖"),
+        # The business-scenario body. Only this card carries one so far; the
+        # component falls back to the old shape for the other four, so they
+        # keep working while they are converted one at a time.
+        "scenario": _SELLING_DIRECT,
         # Rewritten 2026-09-06. Two things were wrong with this card and they
         # were the same thing.
         #
@@ -462,6 +637,11 @@ def build(evidence: Optional[dict] = None) -> dict:
             "id": f["id"],
             "name": f["name"],
             "tagline": f["tagline"],
+            # A card with a `scenario` renders as a business scenario and
+            # ignores everything below it. Without one it falls back to the
+            # older shape, so the four cards still waiting to be converted keep
+            # working rather than going blank.
+            "scenario": f.get("scenario"),
             "overview": f["overview"],
             "advantages": f["advantages"],
             "strengths": strengths.get(f["id"], []),

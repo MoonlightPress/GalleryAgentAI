@@ -25,3 +25,4 @@ memory/backups/
 
 # stray file created when a bash-run script redirects to Windows NUL
 NUL
+heroes_to_redo/

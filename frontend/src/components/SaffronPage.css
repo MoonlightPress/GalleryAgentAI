@@ -8,15 +8,8 @@
 .saffron-hero {
   position: relative;
   width: 100%;
-  /* 56vh was ~630px of picture on a 1440p monitor — more than half the screen
-     before a single word of content, which is what "what the hell is this"
-     was looking at (Scott, 2026-09-06). Capped: it still scales with the
-     window, but it can never take more than 360px, so content is always above
-     the fold. min-height drops with it so short laptops aren't forced into a
-     340px band either. */
-  height: 38vh;
-  min-height: 220px;
-  max-height: 360px;
+  height: 56vh;
+  min-height: 340px;
   overflow: hidden;
   flex-shrink: 0;
   /* Same drop shadow as the footer, mirrored downward (matches the Mochi hero). */
@@ -39,7 +32,8 @@
    matching Mochi's 190px banner. */
 @media (max-width: 640px) {
   .saffron-hero { height: auto; min-height: 0; }
-  .saffron-hero-img { height: 190px; }
+  .saffron-hero-img { height: 190px;
+ }
 }
 
 /* ── Content wrapper ────────────────────────────────────────────────── */
@@ -2686,6 +2680,96 @@ a.sf-readiness-col-name:hover { color: #c47a35; text-decoration: underline; }
   border-top: 1px dashed #e0d0ae;
 }
 .sf-detail-foot strong { color: #a8763a; font-weight: bold; }
+
+/* ── Business scenario body ──────────────────────────────────────────────────
+   A plan with numbers rather than a description of a way of living. Tables are
+   the right form here: she is comparing a product against a product and a
+   fulfilment route against a route, which prose cannot hold. Dense tables are
+   normally against the house style on these pages, so these stay warm — no
+   grid lines, parchment banding, generous row padding — and scroll inside
+   themselves rather than pushing the page sideways. */
+.sf-scen-intro {
+  font-family: Georgia, serif; font-size: 13.5px; line-height: 1.7;
+  color: #4a3826; margin: 0 0 16px;
+}
+/* The break in the ladder is the finding, so it is the one thing set apart. */
+.sf-scen-gap {
+  font-family: Georgia, serif; font-size: 13px; line-height: 1.7; color: #4a3826;
+  background: #f7f4e8; border-left: 3px solid #c9a86a; border-radius: 0 7px 7px 0;
+  padding: 11px 13px; margin: 0 0 22px;
+}
+.sf-scen-price { color: #7a5030; font-weight: bold; white-space: nowrap; }
+.sf-scen-dim { color: #8a7563; }
+.sf-scen-advice p {
+  font-family: Georgia, serif; font-size: 13px; line-height: 1.7;
+  color: #4a3826; margin: 0 0 13px;
+}
+.sf-scen-advice p:last-child { margin-bottom: 0; }
+.sf-scen-advice strong { color: #7a5030; }
+
+.sf-scen-para {
+  font-family: Georgia, serif; font-size: 13px; line-height: 1.72;
+  color: #4a3826; margin: 0 0 22px;
+}
+
+.sf-scen-note {
+  font-family: Georgia, serif; font-size: 12px; line-height: 1.62;
+  color: #7a5c3a; font-style: italic; margin: 16px 0 20px;
+}
+.sf-scen-links { font-family: Georgia, serif; font-size: 12.5px; margin: 0; padding-left: 16px; list-style: none; }
+.sf-scen-links li { margin-bottom: 6px; }
+.sf-scen-links a { color: #b5701f; }
+.sf-scen-table--ladder tbody tr:last-child th,
+.sf-scen-table--ladder tbody tr:last-child td { padding-bottom: 4px; }
+
+.sf-scen-two {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 22px;
+}
+.sf-scen-list {
+  font-family: Georgia, serif; font-size: 12.5px; line-height: 1.62;
+  color: #4a3826; margin: 0; padding-left: 16px; list-style: none;
+}
+.sf-scen-list li { margin-bottom: 9px; position: relative; }
+.sf-scen-list li:last-child { margin-bottom: 0; }
+.sf-scen-list li::before {
+  content: ''; position: absolute; left: -13px; top: 0.62em;
+  width: 4px; height: 4px; border-radius: 50%; background: #8a9c6e;
+}
+/* The difficulties are stated as plainly as the advantages and coloured no more
+   alarmingly — a warm ochre, never a red. */
+.sf-block-label--hard { color: #a8763a; }
+.sf-scen-list--hard li::before { background: #c9a86a; }
+@media (max-width: 620px) { .sf-scen-two { grid-template-columns: 1fr; gap: 18px; } }
+
+.sf-scen-tablewrap { overflow-x: auto; margin: 0 0 22px; -webkit-overflow-scrolling: touch; }
+.sf-scen-table {
+  border-collapse: collapse; width: 100%; min-width: 460px;
+  font-family: Georgia, serif; font-size: 12px; line-height: 1.55; color: #4a3826;
+}
+.sf-scen-table th, .sf-scen-table td {
+  text-align: left; vertical-align: top; padding: 9px 12px 9px 0;
+  border-bottom: 1px solid #ece0c4;
+}
+.sf-scen-table thead th {
+  font-size: 10px; font-weight: bold; letter-spacing: 0.07em;
+  text-transform: uppercase; color: #a0885f; border-bottom-color: #dcc99f;
+  padding-bottom: 6px;
+}
+.sf-scen-table tbody th { font-weight: bold; color: #7a5030; white-space: nowrap; padding-right: 18px; }
+.sf-scen-table tbody tr:last-child th,
+.sf-scen-table tbody tr:last-child td { border-bottom: none; }
+.sf-scen-table--products tbody tr:nth-child(odd) { background: #fbf6ea; }
+
+/* Where to start. Numbered, because these do have an order — unlike the
+   condition lists elsewhere on the page, which deliberately are not. */
+.sf-scen-moves {
+  font-family: Georgia, serif; margin: 0; padding-left: 22px;
+  color: #4a3826; font-size: 12.5px;
+}
+.sf-scen-moves li { margin-bottom: 13px; }
+.sf-scen-moves li:last-child { margin-bottom: 0; }
+.sf-scen-move { display: block; font-weight: bold; color: #7a5030; line-height: 1.5; }
+.sf-scen-why { display: block; line-height: 1.62; margin-top: 3px; color: #5d4b3b; }
 
 /* The famous name goes last and small — the life matters, not the celebrity. */
 .sf-future-example {
