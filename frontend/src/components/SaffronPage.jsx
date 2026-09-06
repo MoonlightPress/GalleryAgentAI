@@ -1753,6 +1753,75 @@ function ScenTable({ headers, rows, cols, lang }) {
 // The order is the argument: what you have, what is missing, what would fill it
 // and at what cost, why holding stock is wrong for THOSE things, therefore drop
 // shipping, what that is, why it suits this work, the chart, where to go today.
+// The other four realms: a generic block list, so each takes the shape its
+// subject wants. Kinds: prose · note (inset) · list · table · links. The engine
+// owns the sequence; this only knows how to draw each kind.
+function RealmBlocks({ blocks, lang }) {
+  return (
+    <div className="sf-scen">
+      {blocks.map((b, i) => {
+        const label = b.label
+          ? <div className="sf-block-label" key={`l${i}`}>{scPick(b.label, lang)}</div>
+          : null
+        if (b.kind === 'note') {
+          return <p key={i} className="sf-scen-gap">{scPick(b.text, lang)}</p>
+        }
+        if (b.kind === 'prose') {
+          return <div key={i}>{label}<p className="sf-scen-para">{scPick(b.text, lang)}</p></div>
+        }
+        if (b.kind === 'list') {
+          return (
+            <div key={i}>{label}
+              <ul className="sf-scen-list">
+                {b.items.map((x, j) => <li key={j}>{scPick(x, lang)}</li>)}
+              </ul>
+            </div>
+          )
+        }
+        if (b.kind === 'links') {
+          return (
+            <div key={i}>{label}
+              <ul className="sf-scen-links">
+                {b.items.map((l, j) => (
+                  <li key={j}>
+                    <a href={l.url} target="_blank" rel="noreferrer" className="sf-ext-link">
+                      {scPick(l.name, lang)} ↗
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )
+        }
+        if (b.kind === 'table') {
+          return (
+            <div key={i}>{label}
+              <div className="sf-scen-tablewrap">
+                <table className="sf-scen-table">
+                  <thead><tr>{b.headers.map((h, j) => <th key={j}>{scPick(h, lang)}</th>)}</tr></thead>
+                  <tbody>
+                    {b.rows.map((r, j) => (
+                      <tr key={j}>
+                        <th scope="row">{scPick(r.cells[0], lang)}</th>
+                        {r.cells.slice(1).map((c, k) => (
+                          <td key={k} className={k === 0 ? 'sf-scen-price' : undefined}>
+                            {scPick(c, lang)}
+                          </td>
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          )
+        }
+        return null
+      })}
+    </div>
+  )
+}
+
 function ScenarioBody({ s, lang }) {
   const p = (k) => scPick(s[k], lang)
   return (
@@ -1780,6 +1849,32 @@ function ScenarioBody({ s, lang }) {
       <div className="sf-block-label">{p('ds_chart_label')}</div>
       <ScenTable headers={s.ds_chart_headers} rows={s.ds_chart} cols={['price', 'keep', 'margin']} lang={lang} />
       <p className="sf-scen-note">{p('ds_note')}</p>
+
+      {/* Books are a rung on this ladder, not a separate realm - self-publishing
+          IS selling it yourself (Scott, 2026-09-06). Format decides everything,
+          and the ordering is counter-intuitive enough to be worth its own
+          table: a Chinese hardcover pays back sooner than a domestic softcover. */}
+      <div className="sf-block-label">{p('books_label')}</div>
+      <p className="sf-scen-para">{p('books_note')}</p>
+      <div className="sf-scen-tablewrap">
+        <table className="sf-scen-table">
+          <thead><tr>{s.books_headers.map((h, i) => <th key={i}>{scPick(h, lang)}</th>)}</tr></thead>
+          <tbody>
+            {s.books.map((r, i) => (
+              <tr key={i}>
+                <th scope="row">{scPick(r.what, lang)}</th>
+                <td>{scPick(r.each, lang)}</td>
+                <td>{scPick(r.outlay, lang)}</td>
+                <td className="sf-scen-price">{scPick(r.price, lang)}</td>
+                <td className="sf-scen-price">{scPick(r.be, lang)}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <div className="sf-block-label">{p('proof_label')}</div>
+      <p className="sf-scen-gap">{p('proof')}</p>
 
       <div className="sf-block-label">{p('today_label')}</div>
       <ul className="sf-scen-links">
@@ -1809,6 +1904,8 @@ function Future({ f, lang }) {
       </button>
       {open && (f.scenario
         ? <div className="sf-future-body"><ScenarioBody s={f.scenario} lang={lang} /></div>
+        : f.blocks
+        ? <div className="sf-future-body"><RealmBlocks blocks={f.blocks} lang={lang} /></div>
         : <div className="sf-future-body">
           <p className="sf-future-overview">{pick(f.overview)}</p>
 
