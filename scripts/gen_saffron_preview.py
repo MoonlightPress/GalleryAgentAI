@@ -277,7 +277,14 @@ def doors_html():
             when = '<span class="sf-door-badge">Always open</span>'
             cls = ' sf-door--always'
         elif d.get('open_now'):
-            when = '<span class="sf-door-badge sf-door-badge--open">Open now</span>'
+            closes = ''
+            if d.get('closes_month'):
+                closes = (f'<span class="sf-door-closes">Closes {d["closes_day"]} '
+                          f'{MONTHS[int(d["closes_month"]) - 1]}')
+                if d.get('days_left') is not None and d['days_left'] <= 30:
+                    closes += f' &#183; {d["days_left"]} days left'
+                closes += '</span>'
+            when = f'<span class="sf-door-badge sf-door-badge--open">Open now</span>{closes}'
             cls = ' sf-door--open'
         else:
             m = MONTHS[int(d['opens_month']) - 1]
@@ -286,7 +293,11 @@ def doors_html():
                     if d.get('preparing_now') else '')
             when = f'<span class="sf-door-month">{m}{approx}</span>{prep}'
             cls = ''
+        note = (f'<p class="sf-door-note">{both(d["status_note"])}</p>'
+                if d.get('status_note') else '')
         w = f'<p class="sf-door-worth">{worth(d)}</p>' if d.get('in_paintings') else ''
+        fee = (f'<p class="sf-door-fee">Booth from {yen(d["entry_fee_jpy"])}</p>'
+               if d.get('entry_fee_jpy') else '')
         p = (f'<p class="sf-door-prep"><strong>Have ready:</strong> {both(d["prepare"])}</p>'
              if d.get('prepare') else '')
         return f'''
@@ -294,19 +305,22 @@ def doors_html():
         <div class="sf-door-when">{when}</div>
         <a class="sf-door-name sf-ext-link" href="{E(d['url'])}" target="_blank" rel="noopener">{both(d['name'])} &#8599;</a>
         <p class="sf-door-gives">{both(d['gives'])}</p>
-        {w}{p}
+        {note}{w}{fee}{p}
       </div>'''
 
+    soonest = next((d for d in c['doors'] if d.get('open_now') and d.get('days_left') is not None), None)
+    summary = (f"{c['open_now_count']} open today. The nearest one closes in "
+               f"{soonest['days_left']} days." if soonest else
+               'Nothing open today. Below is what opens next, soonest first.')
     body = ('<div class="sf-doors">'
             + ''.join(door(d) for d in c['doors'])
             + ''.join(door(a, always=True) for a in c['always_open'])
             + '</div>')
-    return shell('Doors that open again',
-                 f"{c['open_now_count']} open today, {c['preparing_now_count']} inside their "
-                 f"preparation lead time",
-                 body,
-                 note='This one sits on the <strong>Calendar</strong> tab, above the month grid '
-                      '&mdash; not on Strategy with the three above it.')
+    return shell('Doors that open again', summary, body,
+                 note='This one sits on the <strong>Calendar</strong> tab, above the month grid. '
+                      'Rebuilt 6 September: every entry re-checked against the institution&rsquo;s '
+                      'own page, real opening AND closing dates, and the green badge now requires '
+                      'a date read off an official page rather than an inferred one.')
 
 
 # ── page ─────────────────────────────────────────────────────────────────────
@@ -563,6 +577,12 @@ body{
 .sf-door-prep{font-family:Georgia,serif;font-size:12.5px;line-height:1.6;color:#6a5436;margin:6px 0 0;font-style:italic}
 .sf-door-prep strong{font-style:normal;color:#7a5c3a}
 .sf-door-worth{font-family:Georgia,serif;font-size:12px;color:#5a7a30;margin:5px 0 0;letter-spacing:.01em}
+.sf-door-closes{font-family:Georgia,serif;font-size:11.5px;font-weight:bold;letter-spacing:.02em;color:#8a5a1c}
+.sf-door-note{
+  font-family:Georgia,serif;font-size:12px;line-height:1.6;color:#7a5c3a;
+  background:#f6efe0;border-radius:6px;padding:7px 10px;margin:7px 0 0;
+}
+.sf-door-fee{font-family:Georgia,serif;font-size:12px;color:#8a6f4a;margin:5px 0 0}
 
 @media (max-width:640px){
   .sf-content{padding:0 12px 40px}

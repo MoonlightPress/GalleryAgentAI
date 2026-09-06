@@ -26,9 +26,24 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 HEROES = os.path.join(ROOT, 'frontend', 'src', 'assets', 'heroes')
 
-# The hero is full-bleed, so the binding constraint is the widest common
-# desktop viewport rather than anything about the layout. 1920 is the intended
-# size for the whole set; anything under it is being upscaled somewhere.
+# Two different faults, and only one of them is fatal. The first pass of this
+# script treated width as the whole story; measuring the hero band proved that
+# wrong, so the rule is split:
+#
+#   ASPECT is the hard failure. `.hero` is 56vh tall and full-bleed, so the band
+#   is ~3.17:1 on every common desktop (1920x1080, 1600x900, 2560x1440 all land
+#   there; a 1440x900 laptop is 2.86:1). Art at 3:1 therefore loses ~5% off the
+#   sides — invisible. Art at 4:1 loses ~29%, which is what "too zoomed in"
+#   actually looks like. No amount of resolution fixes it; the picture has to be
+#   redrawn or recomposed.
+#
+#   WIDTH is a warning. Art narrower than the band gets upscaled by the browser
+#   and reads soft on a desktop monitor while looking perfectly fine on a phone,
+#   where 1280 already exceeds the device pixels. Worth knowing, not worth
+#   blocking a deploy over, and NOT worth "fixing" by upscaling the file — a
+#   Lanczos pass to 1920 invents no detail, it only doubles the bytes.
+TARGET_RATIO = 3.0
+RATIO_TOLERANCE = 0.25      # 2.75-3.25 sits inside the band on every desktop
 MIN_WIDTH = 1920
 COMPANIONS = ('mochi', 'peppercorn', 'saffron')
 
@@ -59,22 +74,35 @@ def dimensions(path):
 
 
 def main():
-    problems = []
+    problems = []      # fatal: wrong shape, or an empty pool
+    warnings = []      # soft: correct shape, not enough pixels
     for who in COMPANIONS:
         files = sorted(glob.glob(os.path.join(HEROES, who, '*')))
         day = [f for f in files if NIGHT_TOKEN not in os.path.basename(f)]
         night = [f for f in files if NIGHT_TOKEN in os.path.basename(f)]
-        small = []
+        wrong_shape, soft = [], []
         for path in files:
             dim = dimensions(path)
+            name = os.path.basename(path)
             if dim is None:
-                problems.append(f'{who}: unreadable image header — {os.path.basename(path)}')
+                problems.append(f'{who}: unreadable image header — {name}')
+                continue
+            ratio = dim[0] / dim[1]
+            if abs(ratio - TARGET_RATIO) > RATIO_TOLERANCE:
+                wrong_shape.append((name, dim, ratio))
             elif dim[0] < MIN_WIDTH:
-                small.append((os.path.basename(path), dim))
+                soft.append((name, dim))
         print(f'{who:11} {len(files):3} files  ({len(day)} day / {len(night)} night)  '
-              f'{len(small)} under {MIN_WIDTH}px')
-        for name, dim in small:
-            problems.append(f'{who}: {name} is {dim[0]}x{dim[1]}, under {MIN_WIDTH}px wide')
+              f'{len(wrong_shape)} wrong shape, {len(soft)} soft')
+        for name, dim, ratio in wrong_shape:
+            problems.append(
+                f'{who}: {name} is {dim[0]}x{dim[1]} ({ratio:.2f}:1). The band is ~3.17:1, '
+                f'so roughly {round((1 - (TARGET_RATIO / ratio)) * 100)}% is cropped off the '
+                f'sides on a desktop. Recompose it — resolution will not help.')
+        for name, dim in soft:
+            warnings.append(f'{who}: {name} is {dim[0]}x{dim[1]} — right shape, upscaled '
+                            f'to {MIN_WIDTH}px by the browser, so it reads soft on a monitor '
+                            f'and fine on a phone.')
         # An empty pool means the page falls back to a blank hero at that time
         # of day — silent, and only visible after dark.
         if not day:
@@ -82,17 +110,21 @@ def main():
         if not night:
             problems.append(f'{who}: no NIGHT heroes (no filename carries "{NIGHT_TOKEN}")')
 
+    if warnings:
+        print(f'\n{len(warnings)} soft (not blocking — regenerate at {MIN_WIDTH} wide '
+              f'when convenient; do NOT upscale the existing files):')
+        for w in warnings[:6]:
+            print('  ' + w)
+        if len(warnings) > 6:
+            print(f'  ... and {len(warnings) - 6} more')
+
     if problems:
         print(f'\nFAIL — {len(problems)} problem(s):')
         for p in problems:
             print('  ' + p)
-        print('\nRegenerate the offenders at 1920x640 or wider. Upscaled hero art '
-              'reads as a tighter crop on desktop and is fine on a phone, which is '
-              'why it goes unnoticed.')
         return 1
 
-    print('\nOK — every hero is at least '
-          f'{MIN_WIDTH}px wide and both pools are populated.')
+    print('\nOK — every hero is the right shape and both pools are populated.')
     return 0
 
 

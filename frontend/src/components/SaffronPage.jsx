@@ -960,11 +960,28 @@ function localizeDeadline(raw, lang) {
 // have ready and by when, so a month with nothing open still has work in it.
 // Read-only by design: she clicks and reads, and has never used an input.
 const RC_LABELS = {
+  title:    { zh: '会再次打开的门', ja: 'また開く扉', en: 'Doors that open again' },
+  // Reads as "N open today, closing in N days" — the two facts worth having
+  // before any card. The engine computed both and nothing rendered them.
+  summary:  { zh: (o, s) => `今天有 ${o} 扇开着，最近的一扇 ${s} 天后关。`,
+              ja: (o, s) => `今日開いているのは${o}件、いちばん近い締切まであと${s}日。`,
+              en: (o, s) => `${o} open today. The nearest one closes in ${s} days.` },
+  summaryNone: { zh: '今天没有开着的。下面是接下来会开的，按时间排。',
+                 ja: '今日開いているものはない。以下はこれから開く順。',
+                 en: 'Nothing open today. Below is what opens next, soonest first.' },
   openNow:  { zh: '现在开着', ja: 'いま募集中', en: 'Open now' },
-  prepare:  { zh: '该开始准备了', ja: '準備を始める頃', en: 'Worth starting now' },
+  // "Closes 24 September" — when a door is open, the only number that matters
+  // is when it shuts, and no card carried one.
+  closes:   { zh: (m, d) => `${m}${d} 日截止`, ja: (m, d) => `${m}${d}日締切`,
+              en: (m, d) => `Closes ${d} ${m}` },
+  daysLeft: { zh: (n) => `还有 ${n} 天`, ja: (n) => `あと${n}日`, en: (n) => `${n} days left` },
+  // The zh was 「该开始准备了」 — the "it's time you did X" construction, a nudge
+  // aimed at her where the English only observes. Neutral now.
+  prepare:  { zh: '现在着手正合适', ja: '準備を始める頃', en: 'Worth starting now' },
   ready:    { zh: '要准备好的', ja: '用意しておくもの', en: 'Have ready' },
   approx:   { zh: '时间为估计', ja: '時期は推定', en: 'timing approximate' },
   always:   { zh: '常年开着', ja: '通年', en: 'Always open' },
+  fee:      { zh: (n) => `展位费 ${n} 起`, ja: (n) => `ブース ${n} から`, en: (n) => `Booth from ${n}` },
   months:   { zh: ['一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'],
               ja: ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'],
               en: ['January','February','March','April','May','June','July','August','September','October','November','December'] },
@@ -973,9 +990,16 @@ const RC_LABELS = {
   // her. Her own shop prices (¥31,900–115,500) set the range. Third person: the
   // English read "paintings you don't have to sell" and this page addresses
   // nobody (Scott, 2026-09-06).
+  //
+  // Split by KIND. A restricted production budget is not income, and saying
+  // "paintings that don't have to be sold" about a venue-and-printing budget
+  // equates the two. A prize exactly one entrant wins gets no line at all.
   worth:    { zh: (r) => `≈ ${r} 张不必卖掉的画`,
               ja: (r) => `≈ ${r}点、売らずに済む絵`,
               en: (r) => `≈ ${r} paintings that don't have to be sold` },
+  worthProd:{ zh: (r) => `制作预算，约等于 ${r} 张画的开销`,
+              ja: (r) => `制作予算、絵 ${r}点ぶんの費用`,
+              en: (r) => `a production budget, about what ${r} paintings would cover` },
   worthKind:{ zh: (r) => `画材，约等于 ${r} 张画`,
               ja: (r) => `画材、絵 ${r}点ぶん`,
               en: (r) => `materials, about ${r} paintings' worth` },
@@ -985,43 +1009,70 @@ const rcL = (k, lang) => RC_LABELS[k][lang] || RC_LABELS[k].en
 function RecurringDoors({ data, lang }) {
   if (!data || !data.doors?.length) return null
   const pick = (o) => (o && (o[lang] || o.en)) || ''
+  const yen = (n) => '¥' + n.toLocaleString('en-US')
+  const months = rcL('months', lang)
+  // Fullwidth brackets are right for zh/ja and wrong for English, which was
+  // rendering "October（timing approximate）".
+  const paren = (s) => (lang === 'en' ? ` (${s})` : `（${s}）`)
   const worthLine = (d) => {
-    const key = d.amount_in_kind ? 'worthKind' : 'worth'
+    const key = d.amount_kind === 'in_kind' ? 'worthKind'
+      : d.amount_kind === 'production' ? 'worthProd' : 'worth'
     const fn = RC_LABELS[key][lang] || RC_LABELS[key].en
     const p = d.in_paintings
     return fn(p.same ? p.fewest : `${p.fewest}–${p.most}`)
   }
+  const soonest = data.doors.find(d => d.open_now && d.days_left != null)
+
+  const card = (d, always = false) => (
+    <div key={d.id} className={`sf-door${d.open_now ? ' sf-door--open' : ''}${always ? ' sf-door--always' : ''}`}>
+      <div className="sf-door-when">
+        {always
+          ? <span className="sf-door-badge">{rcL('always', lang)}</span>
+          : d.open_now
+            ? <>
+                <span className="sf-door-badge sf-door-badge--open">{rcL('openNow', lang)}</span>
+                {d.closes_month && (
+                  <span className="sf-door-closes">
+                    {rcL('closes', lang)(months[d.closes_month - 1], d.closes_day)}
+                    {d.days_left != null && d.days_left <= 30 &&
+                      ` · ${rcL('daysLeft', lang)(d.days_left)}`}
+                  </span>
+                )}
+              </>
+            : <span className="sf-door-month">
+                {months[d.opens_month - 1]}{d.certain ? '' : paren(rcL('approx', lang))}
+              </span>}
+        {!always && !d.open_now && d.preparing_now && (
+          <span className="sf-door-badge">{rcL('prepare', lang)}</span>
+        )}
+      </div>
+      <a className="sf-door-name sf-ext-link" href={d.url} target="_blank" rel="noreferrer">
+        {pick(d.name)} ↗
+      </a>
+      <p className="sf-door-gives">{pick(d.gives)}</p>
+      {/* A condition on the door itself — suspended, already full — never a
+          remark about her. Placed above the money so it is read first. */}
+      {d.status_note && <p className="sf-door-note">{pick(d.status_note)}</p>}
+      {d.in_paintings && <p className="sf-door-worth">{worthLine(d)}</p>}
+      {d.entry_fee_jpy && <p className="sf-door-fee">{rcL('fee', lang)(yen(d.entry_fee_jpy))}</p>}
+      {/* always_open entries dropped this entirely, so the one door with no
+          barrier at all was the only card with nothing to have ready. */}
+      {d.prepare && <p className="sf-door-prep"><strong>{rcL('ready', lang)}:</strong> {pick(d.prepare)}</p>}
+    </div>
+  )
+
   return (
-    <div className="sf-doors">
-      {data.doors.map(d => (
-        <div key={d.id} className={`sf-door${d.open_now ? ' sf-door--open' : ''}`}>
-          <div className="sf-door-when">
-            {d.open_now
-              ? <span className="sf-door-badge sf-door-badge--open">{rcL('openNow', lang)}</span>
-              : <span className="sf-door-month">
-                  {rcL('months', lang)[d.opens_month - 1]}{d.certain ? '' : `（${rcL('approx', lang)}）`}
-                </span>}
-            {!d.open_now && d.preparing_now && (
-              <span className="sf-door-badge">{rcL('prepare', lang)}</span>
-            )}
-          </div>
-          <a className="sf-door-name sf-ext-link" href={d.url} target="_blank" rel="noreferrer">
-            {pick(d.name)} ↗
-          </a>
-          <p className="sf-door-gives">{pick(d.gives)}</p>
-          {d.in_paintings && <p className="sf-door-worth">{worthLine(d)}</p>}
-          <p className="sf-door-prep"><strong>{rcL('ready', lang)}:</strong> {pick(d.prepare)}</p>
-        </div>
-      ))}
-      {data.always_open?.map(a => (
-        <div key={a.id} className="sf-door sf-door--always">
-          <div className="sf-door-when"><span className="sf-door-badge">{rcL('always', lang)}</span></div>
-          <a className="sf-door-name sf-ext-link" href={a.url} target="_blank" rel="noreferrer">
-            {pick(a.name)} ↗
-          </a>
-          <p className="sf-door-gives">{pick(a.gives)}</p>
-        </div>
-      ))}
+    <div className="sf-doors-block">
+      <h3 className="sf-doors-title">{rcL('title', lang)}</h3>
+      <p className="sf-doors-summary">
+        {soonest
+          ? (RC_LABELS.summary[lang] || RC_LABELS.summary.en)(data.open_now_count, soonest.days_left)
+          : rcL('summaryNone', lang)}
+      </p>
+      <div className="sf-doors">
+        {data.doors.map(d => card(d))}
+        {data.always_open?.map(a => card(a, true))}
+      </div>
     </div>
   )
 }
