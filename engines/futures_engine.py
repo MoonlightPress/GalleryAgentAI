@@ -13,15 +13,15 @@ These are not strategies, they are *kinds of success*. They have real tension �
 licensing work is different daily work from gallery work — so choosing between
 them means something, while "gallery or publishing" did not.
 
-The names are deliberately flat: "Selling Direct", "Gallery Representation",
-"Licensing the Images", "Making Books", "Commissioned Work". An earlier set was
-written for atmosphere ("No Gatekeepers", "The Work Goes Out Without You") and
-was killed on sight — a title nobody can decode has failed, and it fails harder
-in translation. The atmosphere lives in the tagline, one line down, where a
-reader has already agreed to spend a second. The `id` keys still carry the old
-phrasing; they are internal and stable, and renaming them would buy nothing.
+The names are deliberately flat: "Selling Direct", "Galleries", "Licensing",
+"Publishing", "Commissions". An earlier set was written for atmosphere ("No
+Gatekeepers", "The Work Goes Out Without You") and was killed on sight — a title
+nobody can decode has failed, and it fails harder in translation. The atmosphere
+lives in the tagline, one line down, where a reader has already agreed to spend
+a second. The `id` keys still carry the old phrasing; they are internal and
+stable, and renaming them would buy nothing.
 
-Four rules, each learned the hard way:
+Five rules, each learned the hard way:
 
 1. **No prescribed destination.** She is self-taught, independent, and runs
    everything herself; a system that tells such a person what to want reads as
@@ -29,19 +29,26 @@ Four rules, each learned the hard way:
 2. **Types of things to pursue, not credentials to acquire.** "A museum solo and
    critical press are required" is a wall. "This one is built out of art book
    fairs and consignment" is something to start on Tuesday.
-3. **Money framed as what a door gives**, never as what anything has cost her.
-4. **Describe, do not address** (Scott, 2026-09-05). The first draft of this file
-   was written in the second person and full of encouragement — "further along
-   this one than any other", "the record is real", "one of them answers". She did
-   not ask for reassurance or for advice; she reads this for possibilities. So
-   every path is stated as a set of conditions and mechanics, in the third
-   person, with no imperatives, no verdicts about her, and no promises. The
-   `position` ledger is facts on both sides — what is in place and what is
-   absent — and lets the reader draw the conclusion.
+3. **Money framed as what a door gives**, never as what anything has cost her,
+   and measured against what an original already earns her: ¥31,900–115,500 with
+   no client, brief or deadline. That benchmark is stated even where a route
+   comes off worse for it.
+4. **Second person, and no verdicts** (Scott, 2026-09-05/06). "You", addressed
+   to a working professional — no imperatives, no encouragement, no promises,
+   and no assessment of how she is doing. An intermediate draft swapped to the
+   third person to kill the encouragement; it killed the address as well, and
+   the address was worth keeping. Conditions, mechanics and figures; the
+   conclusion is hers.
+5. **Nothing is defined and nothing is described by negation.** She has six
+   years of daily painting, eight zines and three solo shows: explaining what a
+   gallery is, or what selling directly means, is the failure mode. And no "X is
+   not Y, it is Z", no "rather than", no ", not the follower count" — Scott has
+   asked four times and it keeps returning. Say what a thing is.
 
 Her position across the five is deliberately uneven and that asymmetry is the
 most useful content here: one is far along and one is at zero, and neither is
-visible from where she stands.
+visible from where she stands. The `standing` line on each collapsed route is
+where that asymmetry is legible in one pass.
 
 **Shape.** Each route is a flat list of blocks — `prose`, `note`, `list`,
 `table`, `links` — under a name and a tagline. `RealmBlocks` in
@@ -67,6 +74,8 @@ back to her — a professional with three solo shows does not need to be told
 she has three solo shows, and the ledger's other half was a list of what she
 lacks under a heading about what she has.
 """
+
+from typing import Optional
 
 from .book_economics_engine import DEFAULT_PRICE as _BOOK_PRICE, reference_run
 
@@ -548,23 +557,78 @@ FUTURES = [
 ]
 
 
-def build() -> dict:
+def _standing(record: dict) -> dict:
+    """One line per route, in the collapsed header under the tagline.
+
+    The five routes sit closed by default, so what she actually sees is five
+    names and five taglines carrying equal weight, with nothing saying which one
+    she is already standing next to. This line is what makes the list navigable
+    in the second before she picks one to open.
+
+    It is a statement of what exists, never a grade. A reviewer proposed the
+    graded form — "strongest fit", "promising, untested", "selective fit", with
+    a note that one route has "not yet much evidence of commercial demand" — and
+    that is three rules at once: Bible11 ("Saffron describes. She does not
+    rank."), the no-verdicts rule this file was rewritten under, and the
+    negation rule. The facts underneath the grades were sound, so the facts are
+    here and the grades are not.
+
+    The counts are read from her record for the reason the old ledger was: a
+    hardcoded "two solo shows" goes stale the day there is a third, which is
+    exactly how earlier career copy ended up calling a 2023 group show her
+    latest news. Note that this is one line where the removed ledger was a
+    four-bullet panel with a list of what she lacks attached — the difference is
+    the point, not the arithmetic.
+    """
+    solos = record.get("solo_shows", 0)
+    groups = record.get("confirmed_group_shows", 0)
+    pubs = record.get("publications_confirmed", 0)
+    zines = record.get("zines", 0)
+    return {
+        "no_gatekeepers": _t(
+            "About 26,000 followers and a shop already running, with a price ladder that stops at "
+            "¥2,200 and starts again at ¥31,900.",
+            "大约两万六千人在看，店铺已经在运转；价格阶梯停在 2,200 日元，再往上直接跳到 31,900。"),
+        "someone_else_sells": _t(
+            f"{solos} solo shows and {groups} group shows, every room so far paid for from your "
+            "side.",
+            f"{solos} 场个展、{groups} 场联展；到目前为止，每一个场地的钱都出自你这边。"),
+        "work_goes_out": _t(
+            "Six years of images already made, and an archive that has so far been sold one way: "
+            "as originals.",
+            "六年积累下来的图像已经在了；这批东西到现在为止只以一种方式卖过——原作。"),
+        "between_covers": _t(
+            f"{zines} zines, {pubs} publications, and six years of daily work to build a book "
+            "from.",
+            f"{zines} 本 zine、{pubs} 本出版物，还有六年的日课可以从中做出一本书。"),
+        "on_assignment": _t(
+            "Illustration and design training, and a subject Japanese literary publishers buy "
+            "covers in.",
+            "科班的插画与设计训练，以及一个日本文学出版社会买来做封面的题材。"),
+    }
+
+
+def build(record: Optional[dict] = None) -> dict:
     """The five routes, the frame they answer to, and the five experiments.
 
-    No arguments. An earlier version took her computed career evidence and used
-    it to print a per-route ledger of what she has and has not done. Both halves
-    are gone: the "has" half read her own record back to a person who lived it,
-    and the "has not" half was a list of what she lacks, which is the thing this
-    file exists to stop. Her record still decides what the routes SAY — it is
-    why Selling Direct opens on a price gap rather than an explanation of
-    selling — but it is applied by whoever writes a block, not printed as a
-    scoreboard.
+    `record` supplies the counts in the standing lines and nothing else — see
+    `_standing`. An earlier version took the same numbers and printed a
+    per-route ledger of what she has and has not done; both halves are gone, and
+    the argument is back only for the one line that replaced them.
+
+    Her record still decides what the routes SAY — it is why Selling Direct
+    opens on a price gap instead of an explanation of selling — but that is
+    applied by whoever writes a block, never printed as a scoreboard.
     """
+    standing = _standing(record or {})
     return {
         "futures": [{
             "id": f["id"],
             "name": f["name"],
             "tagline": f["tagline"],
+            # Read in the collapsed row, so it is the one thing here written to
+            # be useful without opening anything.
+            "standing": standing.get(f["id"]),
             # A generic block list, so each route takes the shape its subject
             # wants instead of wearing a fixed five-part schema whether or not
             # it has five parts to say.

@@ -63,6 +63,8 @@ An original already earns ¥31,900–115,500. That is the benchmark. Anything ad
 
 *Your own shop, your own prices, everything above cost.*
 
+About 26,000 followers and a shop already running, with a price ladder that stops at ¥2,200 and starts again at ¥31,900.
+
 ### Fill the gap between ¥2,200 and ¥31,900
 
 You already sell successfully at both ends: postcards, zines and prints at ¥1,100–2,200, then originals beginning at ¥31,900. The missing part is the middle. Someone who has bought a zine and a print has no way to spend ¥5,000, ¥10,000 or ¥20,000 with you — the next purchase available is an original. The easiest test is to add that middle without buying inventory first.
@@ -102,6 +104,8 @@ For a book intended as a product, the Chinese hardcover has the strongest econom
 
 *A gallery sells your originals and finds the buyers.*
 
+3 solo shows and 8 group shows, every room so far paid for from your side.
+
 ### Find a gallery that carries the exhibition risk
 
 You already know how to organise a solo show. You have done it three times. The next useful gallery relationship is one that contributes what you currently supply yourself: the room, the staffing, the collectors, the sales work and the financial risk.
@@ -130,6 +134,8 @@ Choose a small number of galleries where the work genuinely fits the programme. 
 
 *Someone pays to use a painting you have already made.*
 
+Six years of images already made, and an archive that has so far been sold one way: as originals.
+
 ### Let the archive earn again
 
 Licensing has one unusual advantage for you: the inventory already exists. Six years of daily painting is thousands of images that can produce income while the originals remain yours. The value depends primarily on where and how an image is used.
@@ -157,6 +163,8 @@ Your subject matter already fits the book market: architecture, atmosphere, inte
 ## Publishing
 
 *A publisher makes a book of your work, and pays for it.*
+
+8 zines, 2 publications, and six years of daily work to build a book from.
 
 ### Pitch a book that still needs to be made
 
@@ -194,6 +202,8 @@ The next useful piece of work here is one book proposal, built well enough to se
 ## Commissions
 
 *Someone pays you to paint something new, to a brief.*
+
+Illustration and design training, and a subject Japanese literary publishers buy covers in.
 
 ### Price the painting and the usage separately
 

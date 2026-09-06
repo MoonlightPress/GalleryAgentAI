@@ -3543,7 +3543,15 @@ def get_saffron():
         # An actual letter rather than advice about letters. The first
         # contact asks for nothing, so there is nothing to refuse.
         "outreach_kit":          build_outreach_kit(),
-        "futures":               build_futures(),
+        # Counts only, for the one standing line on each collapsed route. The
+        # zine count lives on the profile rather than in career_evidence, which
+        # counts publications; both are read so neither can go stale in copy.
+        "futures":               build_futures({
+            **_load_json(DATA_DIR / "career_strategy_report.json", {}).get("career_evidence", {}),
+            "zines": (_load_json(DATA_DIR / "artist_master_profile.json", {})
+                      .get("market_presence", {}).get("price_points", {})
+                      .get("zines_artbooks", {}).get("count_listed", 0)),
+        }),
         "press_features":        press_features,
         "collector_ecosystem":   collector_ecosystem,
         "collaboration_map":     collaboration_map,

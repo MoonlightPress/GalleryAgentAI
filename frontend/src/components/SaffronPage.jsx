@@ -1757,6 +1757,13 @@ function Future({ f, lang }) {
         <div>
           <div className="sf-future-name">{pick(f.name)}</div>
           <div className="sf-future-tagline">{pick(f.tagline)}</div>
+          {/* Where she is on this route, in one line, readable without opening
+              anything — the five sit closed by default and were otherwise five
+              equal doors. A statement of what exists, never a grade: the
+              proposal this answers came with "strongest fit" / "promising,
+              untested" labels, and Saffron describes rather than ranks
+              (Bible11). */}
+          {f.standing && <div className="sf-future-standing">{pick(f.standing)}</div>}
         </div>
         <span className={`sf-chevron${open ? ' sf-chevron--open' : ''}`}>▾</span>
       </button>

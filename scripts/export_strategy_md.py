@@ -137,6 +137,10 @@ def main():
     for f in fut:
         out.append(f'\n## {en(f["name"])}\n')
         out.append(f'*{en(f["tagline"])}*\n')
+        # The standing line — what she sees in the collapsed row, before
+        # choosing which route to open. It belongs at the top here too.
+        if f.get('standing'):
+            out.append(en(f['standing']) + '\n')
         render_blocks(f.get('blocks') or [], out)
 
     fs = futures.get('first_steps')

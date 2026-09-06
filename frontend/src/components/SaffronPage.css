@@ -2588,6 +2588,14 @@ a.sf-readiness-col-name:hover { color: #c47a35; text-decoration: underline; }
   font-family: Georgia, serif; font-size: 12.5px; font-style: italic;
   color: #8a6f4a; margin-top: 3px; line-height: 1.45;
 }
+/* Where she stands on this route, read in the closed row. Upright against the
+   italic tagline above it so the two do not blur, and quieter than both — it
+   answers "which of these am I nearest", which is a smaller question than the
+   name and the tagline are answering. */
+.sf-future-standing {
+  font-family: Georgia, serif; font-size: 12px; color: #7a6448;
+  margin-top: 6px; line-height: 1.55; max-width: 46em;
+}
 
 .sf-future-body { padding: 0 15px 15px; }
 

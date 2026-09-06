@@ -20,12 +20,29 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 sys.path.insert(0, ROOT)
 
+import json                                                          # noqa: E402
+
 from engines import (futures_engine, book_economics_engine,          # noqa: E402
                      outreach_kit_engine, recurring_calendar_engine)
 
 
+def _record():
+    """The counts behind the standing lines — same two files api.py reads."""
+    def load(name):
+        try:
+            with open(os.path.join(ROOT, 'memory', name), encoding='utf-8') as fh:
+                return json.load(fh)
+        except (OSError, ValueError):
+            return {}
+    return {
+        **load('career_strategy_report.json').get('career_evidence', {}),
+        'zines': (load('artist_master_profile.json').get('market_presence', {})
+                  .get('price_points', {}).get('zines_artbooks', {}).get('count_listed', 0)),
+    }
+
+
 D = {
-    'futures':  futures_engine.build(),
+    'futures':  futures_engine.build(_record()),
     'book':     book_economics_engine.build(),
     'outreach': outreach_kit_engine.build(),
     'calendar': recurring_calendar_engine.build(),
@@ -147,6 +164,7 @@ def futures_html():
           <div>
             <div class="sf-future-name">{both(fu['name'])}</div>
             <div class="sf-future-tagline">{both(fu['tagline'])}</div>
+            <div class="sf-future-standing">{both(fu['standing'])}</div>
           </div>
           <span class="sf-chevron sf-chevron--open">&#9662;</span>
         </div>
@@ -164,8 +182,8 @@ def futures_html():
             f'<dl class="sf-firststeps-list">{steps}</dl>'
             f'<p class="sf-scen-gap">{both(fs["close"])}</p></div>')
     return shell('Five possible futures', '', body,
-                 note='In the app each of the five is collapsed to its name and tagline. They '
-                      'are drawn open here so the copy can be read.')
+                 note='In the app each of the five is collapsed to its name, tagline and standing '
+                      'line. They are drawn open here so the copy can be read.')
 
 
 # ── what a book costs ────────────────────────────────────────────────────────
@@ -466,36 +484,9 @@ body{
 .sf-future--open{background:#fffaf0;border-color:#d8c79a}
 .sf-future-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 15px}
 .sf-future-name{font-family:Georgia,serif;font-size:15px;font-weight:bold;color:#7a5030}
+.sf-future-standing{font-family:Georgia,serif;font-size:12px;color:#7a6448;margin-top:6px;line-height:1.55;max-width:46em}
 .sf-future-tagline{font-family:Georgia,serif;font-size:12.5px;font-style:italic;color:#8a6f4a;margin-top:3px;line-height:1.45}
 .sf-future-body{padding:0 15px 15px}
-.sf-future-overview{font-family:Georgia,serif;font-size:13.5px;line-height:1.7;color:#4a3826;margin:0 0 18px}
-.sf-future-advantages,.sf-future-requires{
-  font-family:Georgia,serif;font-size:13px;line-height:1.65;color:#4a3826;
-  margin:4px 0 18px;padding-left:18px;list-style:none;
-}
-.sf-future-advantages li,.sf-future-requires li{margin-bottom:9px;position:relative}
-.sf-future-advantages li::before,.sf-future-requires li::before{
-  content:'';position:absolute;left:-14px;top:.65em;width:5px;height:5px;
-  border-radius:50%;background:#c9a86a;
-}
-.sf-future-standing{
-  background:#f7f4e8;border-left:3px solid #c9a86a;border-radius:0 7px 7px 0;
-  padding:11px 13px 9px;margin-bottom:16px;
-}
-.sf-future-strengths{
-  font-family:Georgia,serif;font-size:12.5px;line-height:1.62;color:#4a3826;
-  margin:0;padding-left:16px;list-style:none;
-}
-.sf-future-strengths li{margin-bottom:7px;position:relative}
-.sf-future-strengths li:last-child{margin-bottom:0}
-.sf-future-strengths li::before{
-  content:'';position:absolute;left:-13px;top:.62em;width:4px;height:4px;
-  border-radius:50%;background:#8a9c6e;
-}
-.sf-future-example{font-family:Georgia,serif;font-size:12px;line-height:1.6;color:#7a5c3a;margin:0;font-style:italic}
-.sf-future-example strong{font-style:normal}
-
-/* ── disclosures (drawn open here; one tap in the app) ───────────────────── */
 .sf-details{display:flex;flex-direction:column;gap:1px}
 .sf-detail{border-top:1px solid #ece0c4}
 .sf-detail:last-child{border-bottom:1px solid #ece0c4}
@@ -509,13 +500,6 @@ body{
 }
 .sf-chevron--sm{font-size:14px;margin-top:0}
 .sf-detail-body{padding:2px 2px 14px}
-.sf-detail-prose{font-family:Georgia,serif;font-size:13px;line-height:1.7;color:#4a3826;margin:0}
-.sf-detail-body .sf-future-requires{margin:0}
-.sf-detail-foot{
-  font-family:Georgia,serif;font-size:12.5px;line-height:1.6;color:#6a5436;
-  margin:12px 0 0;padding-top:10px;border-top:1px dashed #e0d0ae;
-}
-.sf-detail-foot strong{color:#a8763a;font-weight:bold}
 
 /* ── what a book costs ───────────────────────────────────────────────────── */
 .sf-be-claim{font-family:Georgia,serif;font-size:15px;line-height:1.68;color:#3d2b1a;margin:0 0 14px}
