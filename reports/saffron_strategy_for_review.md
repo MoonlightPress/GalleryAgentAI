@@ -71,13 +71,13 @@ About 26,000 followers and a shop already running, with a price ladder that stop
 
 ### What this is
 
-You decide what a thing costs, and what is left after materials and postage stays with you — no commission, no split, nothing withheld until a gallery settles up. Everything on this route can start this week, because none of it waits on somebody else agreeing first.
+Work goes out through your own shop — listings you write, prices you set, parcels you pack — and the money arrives per sale, as it sells. Postcards, zines, prints and originals all already run this way, alongside commissions taken directly.
 
 ### What it gives you that the others don't
 
-A follower count does not predict sales. Across the paired cases that could be checked, the share of an audience that actually bought ran from 0.26% to 15.8%, and the largest audience of the set converted worst — so the size of the number is not what decides this. Price is. A Tokyo illustrator with 27,000 followers, about your reach, published an art book at ¥11,000 and sold 400 copies in four months, roughly ¥4 million.
+You keep the whole margin. A gallery takes about half of a sale, a publisher leaves ¥115–240 of a ¥4,400 book, and a licence pays once for a use somebody else has defined — here everything above cost stays on your side. You set the price rather than arguing for it, and nothing waits on an application, a jury or somebody's programme, so a decision made on Monday can be earning by Friday. None of the other four can do that.
 
-Two smaller levers decide most of the rest. Where those 26,000 live changes the arithmetic more than how many they are, since air mail runs ¥2,720 a kilo to the US against ¥185 across Tokyo, and that split is one figure inside your own Instagram insights. And anything under three centimetres thick is worth ¥465 on every domestic parcel — decided at the design stage, before anything is printed.
+It also starts from something the others have to build first. The audience is already there and already looking, so a new product reaches it the same afternoon, with no introduction to arrange and nobody's permission to wait for.
 
 ### What you'd be taking on
 
@@ -98,6 +98,10 @@ You already sell successfully at both ends: postcards, zines and prints at ¥1,1
 List them through on-demand production first. Each copy is made only when somebody orders it, so the test requires no print run and no storage. The margin is lower than printing yourself. That is useful at this stage: the printer is carrying the inventory risk while you find out whether the product has a market.
 
 For products that already sell reliably, your existing model is better. A ten-pack of postcards costs about ¥170 when printed in a run of one hundred, against ¥1,835 on demand. Keep those in-house. If one of the new formats begins selling consistently, batch production becomes the second step.
+
+### What decides whether it sells
+
+A follower count does not predict sales. Across the paired cases that could be checked, the share of an audience that actually bought ran from 0.26% to 15.8%, and the largest audience of the set converted worst. Price is the lever instead: a Tokyo illustrator with 27,000 followers, about the same reach, published an art book at ¥11,000 and sold 400 copies in four months, roughly ¥4 million. Two smaller levers decide most of the rest. Where those 26,000 live changes the arithmetic more than how many they are, since air mail runs ¥2,720 a kilo to the US against ¥185 across Tokyo — and that split is one figure inside your own Instagram insights. And anything under three centimetres thick is worth ¥465 on every domestic parcel, decided at the design stage, before anything is printed.
 
 ### The book is a different decision
 
@@ -132,7 +136,7 @@ A gallery funds the show, takes a commission and finds the buyers. Its own incom
 
 The difference that matters is the direction the money runs: in a rental you pay for the room, and here the gallery pays for the show. Prices rise for a structural reason as well, since the person arguing for yours makes their own living from it.
 
-A third arrangement sits between the two and is worth more than either — an open call that pays the artist to exhibit. TOKAS gives ¥150,000 toward the work and charges nothing for the venue. And standing on this route carries into the other four: an exhibition record is the one credential a publisher, an art director and a licensing buyer all read the same way.
+And standing on this route carries into the other four: an exhibition record is the one credential a publisher, an art director and a licensing buyer all read the same way, which is true of nothing else on this list.
 
 ### What you'd be taking on
 
@@ -165,6 +169,12 @@ Choose a small number of galleries where the work genuinely fits the programme. 
 - [biscuit gallery — the clearest immediate route because it publishes an open call. Entry is free and students are eligible.](https://biscuitgallery.com/)
 - [GALLERY KOGURE — a close roster fit, including detailed urban work on paper](https://gallerykogure.com/)
 - [Tokyo Gallery + BTAP — a stronger China/Japan connection, with six Chinese artists currently on the roster and several artists working with ink on paper](https://www.tokyo-gallery.com/)
+
+### A third arrangement, worth more than either
+
+Between renting a room and being represented sits an open call that pays the artist to exhibit. TOKAS gives ¥150,000 toward the work and charges nothing for the venue, and its open calls run on a fixed yearly cycle, so they can be planned for rather than waited on.
+
+- [TOKAS — open calls and application dates for all its programmes](https://www.tokyoartsandspace.jp/en/application/index.html)
 
 This is a narrower list than a directory of Tokyo galleries. That is useful. Gallery outreach works better as a relationship with ten plausible rooms than as mail sent to a hundred implausible ones.
 
@@ -261,9 +271,7 @@ Books as the object — bought because they are books, sitting in shops and on s
 
 ### What it gives you that the others don't
 
-This is the only route whose price is knowable before anything starts; every other door on the list is an application and a wait. The object also works on all four of the others — a finished book is what a gallery, a publisher and an art director are each shown — and a book on a shelf finds strangers, reaching people who will never see a post.
-
-The fork inside this route changes more than any decision elsewhere on the list: whether a publisher is involved. With one there is no outlay and no inventory, and distribution reaches bookshops nationally.
+This is the only route whose price is knowable before anything starts; every other door on the list is an application and a wait. The object also works on all four of the others — a finished book is what a gallery, a publisher and an art director are each shown — and a book on a shelf finds strangers, reaching people who will never see a post. With a publisher there is no outlay and no inventory either, and distribution reaches bookshops nationally, which nothing else here offers at all.
 
 ### What you'd be taking on
 
@@ -314,9 +322,7 @@ Editorial illustration, book covers, commissioned work. A brief arrives, the wor
 
 ### What it gives you that the others don't
 
-It is the only one of the five with a predictable monthly number, and it is the least romantic of them — those two facts are the same fact. The work is paid for before it exists, where everywhere else the painting is made first and sold afterwards, if at all, and there is no inventory and no unsold stock waiting in a room.
-
-Architecture and atmosphere are in specific demand for covers: literary fiction leans heavily on exactly this kind of image.
+It is the only one of the five with a predictable monthly number, and it is the least romantic of them — those two facts are the same fact. The work is paid for before it exists, where everywhere else the painting is made first and sold afterwards, if at all, and there is no inventory and no unsold stock waiting in a room. It is the only route here where the work is commissioned before it is made, so whether anybody wants it is answered before the first mark.
 
 ### What you'd be taking on
 
@@ -333,7 +339,7 @@ A commission asks you to give up something your originals preserve: complete con
 | Small internal illustration | ¥5,000 |
 | Average coordinated job | ¥71,327 |
 
-Hand-painted watercolour sits in the second-highest of the five medium categories in that rate card. A ¥70,000 cover is therefore close to the price of one of your existing originals. The commercial job becomes more attractive when the licence expands, the image is reused, or the publication brings the work to the next client. Secondary use can pay 70%, 50%, 50% and 20% of the original fee as the same image is reused. That is the part worth protecting.
+Architecture and atmosphere are in specific demand for covers: literary fiction leans heavily on exactly this kind of image. Hand-painted watercolour sits in the second-highest of the five medium categories in that rate card. A ¥70,000 cover is therefore close to the price of one of your existing originals. The commercial job becomes more attractive when the licence expands, the image is reused, or the publication brings the work to the next client. Secondary use can pay 70%, 50%, 50% and 20% of the original fee as the same image is reused. That is the part worth protecting.
 
 ### Build the terms before the enquiry arrives
 

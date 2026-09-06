@@ -226,6 +226,27 @@ _SELLING_DIRECT = [
     # read from book_economics_engine rather than typed. It was typed once and
     # drifted — 107 here against that engine's computed 109 — and the same page
     # then said two different things about the same run.
+    {"kind": "prose", "label": _t("What decides whether it sells", "什么决定卖不卖得动"),
+     "text": _t(
+        "A follower count does not predict sales. Across the paired cases that could be checked, "
+        "the share of an audience that actually bought ran from 0.26% to 15.8%, and the largest "
+        "audience of the set converted worst. Price is the lever instead: a Tokyo illustrator "
+        "with 27,000 followers, about the same reach, published an art book at ¥11,000 and sold "
+        "400 copies in four months, roughly ¥4 million. "
+        "Two smaller levers decide most of the rest. Where those 26,000 live changes the "
+        "arithmetic more than how many they are, since air mail runs ¥2,720 a kilo to the US "
+        "against ¥185 across Tokyo — and that split is one figure inside your own Instagram "
+        "insights. And anything under three centimetres thick is worth ¥465 on every domestic "
+        "parcel, decided at the design stage, before anything is printed.",
+
+        "粉丝数预测不了销量。在能够核对的成对案例里，真正掏钱的人占观众的比例从 0.26% 到 15.8%，"
+        "而其中观众最多的那一位转化率最低。真正的杠杆是价格：一位东京插画师，两万七千粉丝，"
+        "规模和你差不多，自出版的画集定价 11,000 日元，四个月卖了 400 本，约四百万日元。"
+        "剩下的大半由两个小一些的杠杆决定。这两万六千人住在哪里，比他们有多少人更能改变这笔账——"
+        "航空小包寄一公斤到美国 2,720 日元，寄到东京市内 185 日元——"
+        "而这个比例就是你自己 Instagram 后台里的一个数字。"
+        "另外，厚度控制在三厘米以内，每件国内包裹省 465 日元；这是在设计阶段、开印之前就定下的。")},
+
     {"kind": "prose", "label": _t("The book is a different decision", "书是另一个层面的决定"),
      "text": _t(
         f"A 128-page hardcover printed in China costs ¥{_BOOK['outlay_jpy']:,} for "
@@ -386,6 +407,25 @@ _GALLERIES = [
         {"name": _t("Tokyo Gallery + BTAP — a stronger China/Japan connection, with six Chinese artists currently on the roster and several artists working with ink on paper",
                     "Tokyo Gallery + BTAP——中日之间的联系更强，代理名单上有六位中国艺术家，其中几位做纸上水墨"),
          "url": "https://www.tokyo-gallery.com/"},
+     ]},
+
+    {"kind": "prose", "label": _t("A third arrangement, worth more than either",
+                                  "还有第三种安排，比哪一种都划算"),
+     "text": _t(
+        "Between renting a room and being represented sits an open call that pays the artist to "
+        "exhibit. TOKAS gives ¥150,000 toward the work and charges nothing for the venue, and its "
+        "open calls run on a fixed yearly cycle, so they can be planned for rather than waited "
+        "on.",
+
+        "在租场地和被代理之间，还有一种安排：反过来付钱给艺术家办展的公开征集。"
+        "TOKAS 提供 15 万日元制作经费，场地不收费；它的公开征集按固定的年度周期走，"
+        "所以这是可以提前安排的事，不用干等。")},
+
+    {"kind": "links",
+     "items": [
+        {"name": _t("TOKAS — open calls and application dates for all its programmes",
+                    "TOKAS——各项目的公开征集与申请时间"),
+         "url": "https://www.tokyoartsandspace.jp/en/application/index.html"},
      ]},
 
     {"kind": "note", "text": _t(
@@ -601,6 +641,8 @@ _COMMISSIONS = [
      ]},
 
     {"kind": "prose", "text": _t(
+        "Architecture and atmosphere are in specific demand for covers: literary fiction leans "
+        "heavily on exactly this kind of image. "
         "Hand-painted watercolour sits in the second-highest of the five medium categories in "
         "that rate card. "
         "A ¥70,000 cover is therefore close to the price of one of your existing originals. The "
@@ -610,6 +652,7 @@ _COMMISSIONS = [
         "reused. "
         "That is the part worth protecting.",
 
+        "建筑与氛围类的画在封面上有明确需求：文学小说的封面，大量依赖的正是这一类图像。"
         "那份费率表的五个媒介档次里，手绘水彩排在第二高。"
         "所以 70,000 日元一张封面，差不多就是你一张现有原作的价钱。"
         "当授权范围扩大、图像被再次使用，或者这次发表把作品带到下一个客户面前时，"
@@ -750,35 +793,40 @@ _OPENERS = {
         # the standing line, this block and "Fill the gap" used to state the
         # ¥2,200-to-¥31,900 break, so the first screen said one thing three
         # times.
-        _t("You decide what a thing costs, and what is left after materials and postage stays "
-           "with you — no commission, no split, nothing withheld until a gallery settles up. "
-           "Everything on this route can start this week, because none of it waits on somebody "
-           "else agreeing first.",
+        # Mechanics only. The comparison against the other four belongs in the
+        # next block, which is what its heading promises.
+        _t("Work goes out through your own shop — listings you write, prices you set, parcels you "
+           "pack — and the money arrives per sale, as it sells. Postcards, zines, prints and "
+           "originals all already run this way, alongside commissions taken directly.",
 
-           "东西卖多少钱由你定，扣掉材料和邮费之后剩下的全归你——没有抽成，没有分账，"
-           "也不会有一笔钱压在画廊那里等着结。"
-           "这条路上的任何一件事这周就能开始，因为没有一件需要先等别人点头。"),
+           "作品通过你自己的店铺出去——文案你写、价格你定、包裹你打——"
+           "钱按每一笔销售走，卖掉一件到一件。"
+           "明信片、zine、印刷品和原作现在都是这样在走，直接接的委托也是。"),
 
-        _t("A follower count does not predict sales. Across the paired cases that could be "
-           "checked, the share of an audience that actually bought ran from 0.26% to 15.8%, and "
-           "the largest audience of the set converted worst — so the size of the number is not "
-           "what decides this. Price is. A Tokyo illustrator with 27,000 followers, about your "
-           "reach, published an art book at ¥11,000 and sold 400 copies in four months, roughly "
-           "¥4 million.\n\n"
-           "Two smaller levers decide most of the rest. Where those 26,000 live changes the "
-           "arithmetic more than how many they are, since air mail runs ¥2,720 a kilo to the US "
-           "against ¥185 across Tokyo, and that split is one figure inside your own Instagram "
-           "insights. And anything under three centimetres thick is worth ¥465 on every domestic "
-           "parcel — decided at the design stage, before anything is printed.",
+        # This block used to hold the four research findings — follower
+        # conversion, the ¥11,000 comparable, shipping geography, the three-
+        # centimetre threshold. All good, none of them an answer to "what does
+        # this give me that the other four don't": they describe how the route
+        # works, which is a briefing where a comparison was promised. They moved
+        # into the body, next to the products table where they are operational.
+        # The other four routes' upsides blocks are genuinely comparative; this
+        # was the odd one out, and it is the first route she opens.
+        _t("You keep the whole margin. A gallery takes about half of a sale, a publisher leaves "
+           "¥115–240 of a ¥4,400 book, and a licence pays once for a use somebody else has "
+           "defined — here everything above cost stays on your side. You set the price rather "
+           "than arguing for it, and nothing waits on an application, a jury or somebody's "
+           "programme, so a decision made on Monday can be earning by Friday. None of the other "
+           "four can do that.\n\n"
+           "It also starts from something the others have to build first. The audience is already "
+           "there and already looking, so a new product reaches it the same afternoon, with no "
+           "introduction to arrange and nobody's permission to wait for.",
 
-           "粉丝数预测不了销量。在能够核对的成对案例里，真正掏钱的人占观众的比例从 0.26% 到 15.8%，"
-           "而其中观众最多的那一位转化率最低——所以决定这件事的不是数字大小，是价格。"
-           "一位东京插画师，两万七千粉丝，和你的规模差不多，自出版的画集定价 11,000 日元，"
-           "四个月卖了 400 本，约四百万日元。\n\n"
-           "剩下的大半由两个小一些的杠杆决定。这两万六千人住在哪里，比他们有多少人更能改变这笔账——"
-           "航空小包寄一公斤到美国 2,720 日元，寄到东京市内 185 日元——"
-           "而这个比例就是你自己 Instagram 后台里的一个数字。"
-           "另外，厚度在三厘米以内的东西，每件国内包裹省 465 日元；这是在设计阶段、开印之前就定下来的。"),
+           "整个毛利都归你。画廊抽走一笔销售的大约一半，出版社在一本 4,400 日元的书里给你留下 "
+           "115–240 日元，授权是按别人定好的用途一次性付钱——在这条路上，成本之上的全部留在你这边。"
+           "价格是你定的，不需要替它争取；也没有任何一件事要等申请、等评审、等别人的排期，"
+           "所以周一做的决定，周五就可能在挣钱。其他四条路没有一条做得到。\n\n"
+           "它的起点也是别的路要先搭出来的东西。观众已经在了，而且已经在看，"
+           "所以一件新东西当天下午就能到他们眼前，不用安排引荐，也不用等谁点头。"),
 
         _t("All of it stays yours: the listing, the photography, the packing, the postage, the "
            "customer emails, and the stock in the room. Volume comes from your own audience and "
@@ -803,18 +851,15 @@ _OPENERS = {
         _t("The difference that matters is the direction the money runs: in a rental you pay for "
            "the room, and here the gallery pays for the show. Prices rise for a structural reason "
            "as well, since the person arguing for yours makes their own living from it.\n\n"
-           "A third arrangement sits between the two and is worth more than either — an open call "
-           "that pays the artist to exhibit. TOKAS gives ¥150,000 toward the work and charges "
-           "nothing for the venue. And standing on this route carries into the other four: an "
-           "exhibition record is the one credential a publisher, an art director and a licensing "
-           "buyer all read the same way.",
+           "And standing on this route carries into the other four: an exhibition record is the "
+           "one credential a publisher, an art director and a licensing buyer all read the same "
+           "way, which is true of nothing else on this list.",
 
            "真正的分别在于钱的流向：租场地是你付房租，这条路上是画廊出钱办展。"
            "价格会上去还有一个结构性的原因——替你的价格争取的那个人，自己也靠它吃饭。\n\n"
-           "在两者之间还有第三种安排，比哪一种都划算：反过来付钱给艺术家办展的公开征集。"
-           "TOKAS 提供 15 万日元制作经费，场地不收费。"
            "另外，在这条路上的位置会带到其他四条路上去——"
-           "展览履历是出版社、艺术总监和授权买家都会以同样方式去读的那一项。"),
+           "展览履历是出版社、艺术总监和授权买家都会以同样方式去读的那一项，"
+           "这份清单上没有第二样东西有这个作用。"),
 
         _t("Roughly half of each sale, and a say in what shows and when. Representation is also "
            "slow to start: the route in is attendance, then a letter, then months. And a "
@@ -875,16 +920,14 @@ _OPENERS = {
            "door on the list is an application and a wait. The object also works on all four of "
            "the others — a finished book is what a gallery, a publisher and an art director are "
            "each shown — and a book on a shelf finds strangers, reaching people who will never "
-           "see a post.\n\n"
-           "The fork inside this route changes more than any decision elsewhere on the list: "
-           "whether a publisher is involved. With one there is no outlay and no inventory, and "
-           "distribution reaches bookshops nationally.",
+           "see a post. With a publisher there is no outlay and no inventory either, and "
+           "distribution reaches bookshops nationally, which nothing else here offers at all.",
 
            "这是五条路里唯一一条在开始之前就知道价钱的；清单上其他每一扇门，都是先申请，然后等。"
            "做出来的东西在其他四条路上也都用得上——画廊、出版社、艺术总监，拿给他们看的是同一本成品书——"
-           "而书摆在架子上会被陌生人拿起来，到达那些永远不会看到一条帖子的人。\n\n"
-           "这条路内部的那个岔口，比清单上任何其他决定都更能改变结果：有没有出版社参与。"
-           "有出版社，就不用出钱，家里也不堆书，发行能进入全国书店。"),
+           "而书摆在架子上会被陌生人拿起来，到达那些永远不会看到一条帖子的人。"
+           "有出版社参与时，同样不用出钱、家里不堆书，而且发行能进入全国书店；"
+           "这一点这份清单上别处完全没有。"),
 
         # The per-copy figures live in the economics table two blocks down; this
         # block gave the same ¥115-240 against ¥3,635 and the two read as one
@@ -912,14 +955,14 @@ _OPENERS = {
         _t("It is the only one of the five with a predictable monthly number, and it is the least "
            "romantic of them — those two facts are the same fact. The work is paid for before it "
            "exists, where everywhere else the painting is made first and sold afterwards, if at "
-           "all, and there is no inventory and no unsold stock waiting in a room.\n\n"
-           "Architecture and atmosphere are in specific demand for covers: literary fiction leans "
-           "heavily on exactly this kind of image.",
+           "all, and there is no inventory and no unsold stock waiting in a room. It is the only "
+           "route here where the work is commissioned before it is made, so whether anybody "
+           "wants it is answered before the first mark.",
 
            "五条路里只有这一条每月收入可以预期，也是最不浪漫的一条——这两件事其实是同一件事。"
            "这里是先付钱、后有作品；其他每一条都是先把画画出来，之后才谈卖不卖得掉。"
-           "没有库存，也没有卖不掉的存货堆在房间里。\n\n"
-           "建筑与氛围类的画在封面上有明确需求：文学小说的封面，大量依赖的正是这一类图像。"),
+           "没有库存，也没有卖不掉的存货堆在房间里。"
+           "这也是这里唯一一条「先被委托、后动笔」的路——有没有人要，在落第一笔之前就有答案了。"),
 
         _t("The subject, the schedule and the finished image stop being entirely yours. A ¥70,000 "
            "cover is close to what one of your own originals earns with no brief attached to it. "
