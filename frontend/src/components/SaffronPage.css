@@ -2640,9 +2640,37 @@ a.sf-readiness-col-name:hover { color: #c47a35; text-decoration: underline; }
   padding: 11px 13px; margin: 0 0 22px;
 }
 .sf-scen-price { color: #7a5030; font-weight: bold; white-space: nowrap; }
+/* pre-line, because the engine writes these in paragraphs and the paragraphing
+   is the pacing. One prose block is several short paragraphs more often than it
+   is one long one — a wall of text is what this section was rebuilt to stop. */
 .sf-scen-para {
   font-family: Georgia, serif; font-size: 13px; line-height: 1.72;
-  color: #4a3826; margin: 0 0 22px;
+  color: #4a3826; margin: 0 0 22px; white-space: pre-line;
+}
+
+/* Four things quoted separately, so they read as four. Same shape as the
+   what-to-do-first list at the foot of the section. */
+.sf-scen-defs { margin: 0 0 22px; }
+.sf-scen-defs > div { margin-bottom: 12px; }
+.sf-scen-defs > div:last-child { margin-bottom: 0; }
+.sf-scen-defs dt {
+  font-family: Georgia, serif; font-size: 12.5px; font-weight: bold; color: #7a5030;
+  line-height: 1.5;
+}
+.sf-scen-defs dd {
+  font-family: Georgia, serif; font-size: 12.5px; line-height: 1.62;
+  color: #5d4b3b; margin: 2px 0 0;
+}
+
+/* The letter, inside the Galleries route. Same treatment as the standalone
+   letter section it replaces — a mincho face, a paper ground, line breaks kept,
+   because this one is meant to be copied out. */
+.sf-scen-letter {
+  font-family: "Hiragino Mincho ProN", "Yu Mincho", Georgia, serif;
+  font-size: 12.5px; line-height: 1.85; color: #3d2b1a;
+  background: #fffdf7; border: 1px solid #e6d9bd; border-radius: 8px;
+  padding: 14px 15px; margin: 0 0 22px;
+  white-space: pre-wrap; overflow-wrap: break-word;
 }
 
 .sf-scen-frame {

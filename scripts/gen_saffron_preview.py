@@ -136,6 +136,12 @@ def blocks_html(blocks):
         elif k == 'list':
             items = ''.join(f'<li>{both(x)}</li>' for x in b['items'])
             out.append(f'{label}<ul class="sf-scen-list">{items}</ul>')
+        elif k == 'defs':
+            rows = ''.join(f'<div><dt>{both(x["term"])}</dt><dd>{both(x["body"])}</dd></div>'
+                           for x in b['items'])
+            out.append(f'{label}<dl class="sf-scen-defs">{rows}</dl>')
+        elif k == 'letter':
+            out.append(f'{label}<pre class="sf-scen-letter" lang="ja">{E(b["text"])}</pre>')
         elif k == 'links':
             items = ''.join(
                 f'<li><a class="sf-ext-link" href="{l["url"]}" target="_blank" '

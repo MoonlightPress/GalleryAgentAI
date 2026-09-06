@@ -1457,6 +1457,13 @@ function PublicationLandscape({ data, t }) {
 // nothing in it to refuse, silence costs nothing, and whatever comes back is a
 // specification she can build toward — which turns a gatekeeper from a yes/no
 // into a source of information.
+//
+// Unrendered since 2026-09-07: the letter and the six conventions now sit
+// inside the Galleries route, where the sentence that makes you want a letter
+// is. Kept because re-adding one line at the section list restores it, and
+// because `outreach_kit_engine` — which it reads — is still the source the
+// Galleries route imports from.
+// eslint-disable-next-line no-unused-vars
 function OutreachKit({ data, lang }) {
   const [open, setOpen] = useState(false)
   if (!data?.letter_ja) return null
@@ -1701,6 +1708,33 @@ function RealmBlocks({ blocks, lang }) {
               <ul className="sf-scen-list">
                 {b.items.map((x, j) => <li key={j}>{scPick(x, lang)}</li>)}
               </ul>
+            </div>
+          )
+        }
+        // A term and what it means, for things quoted separately — the four
+        // parts of a commission fee. A flat list runs them together; the point
+        // is that they are four prices, not one.
+        if (b.kind === 'defs') {
+          return (
+            <div key={i}>{label}
+              <dl className="sf-scen-defs">
+                {b.items.map((x, j) => (
+                  <div key={j}>
+                    <dt>{scPick(x.term, lang)}</dt>
+                    <dd>{scPick(x.body, lang)}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+          )
+        }
+        // The Japanese letter, set as written. It is the one thing on the page
+        // meant to be copied out rather than read, so it keeps its line breaks
+        // and never switches language with the interface.
+        if (b.kind === 'letter') {
+          return (
+            <div key={i}>{label}
+              <pre className="sf-scen-letter" lang="ja">{b.text}</pre>
             </div>
           )
         }
@@ -3106,13 +3140,25 @@ export default function SaffronPage({ nav, tab: tabFromUrl, onTabChange }) {
                       {SB('futures', <Futures data={data.futures} t={t} lang={lang} />)}
                       {SB('pathway', <StrategicPathway data={data.pathway} t={t} />)}
                       {SB('bookecon', <BookEconomics data={data.book_economics} lang={lang} />)}
-                      {/* The letter goes last (Scott, 2026-09-06). It led the tab and was
-                          the wrong thing to open on: the futures and the book arithmetic
-                          are things to read, while the letter is a thing to act on, and an
-                          act-on item at the top reads as being asked to do something the
-                          moment the page loads. Last, it is there for whoever scrolls to
-                          it. */}
-                      {SB('outreach', <OutreachKit data={data.outreach_kit} lang={lang} />)}
+                      {/* The letter moved INSIDE the Galleries route (2026-09-07), where
+                          Scott's source document puts it: it follows "send five paintings
+                          and ask whether they would be interested", which is the sentence
+                          that makes you want a letter. The six Tokyo conventions went with
+                          it. Both are still read from outreach_kit_engine — futures_engine
+                          imports them rather than retyping — so there is one copy of the
+                          letter and one place to fix it.
+
+                          This section is therefore no longer rendered: it would repeat
+                          both, and the page is read on a phone in about ninety seconds.
+                          The component and its engine stay; re-adding the line below is
+                          the whole of the undo.
+
+                          It had been deliberately placed last (Scott, 2026-09-06) because
+                          an act-on item at the top of the page reads as being asked to do
+                          something the moment it loads. That still holds — and inside
+                          Galleries it now sits behind a closed route, which is one step
+                          further from the top than last place was. */}
+                      {/* {SB('outreach', <OutreachKit data={data.outreach_kit} lang={lang} />)} */}
                       {/* 职业解锁树 (CareerDependencyMap) removed 2026-09-05. It was the app's
                           only career surface that never passed through an engine — a
                           hand-authored constant that had gone stale and was still sending

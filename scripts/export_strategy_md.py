@@ -99,6 +99,11 @@ def render_blocks(blocks, out):
             for x in b['items']:
                 out.append(f'- {en(x)}')
             out.append('')
+        elif k == 'defs':
+            for x in b['items']:
+                out.append(f'**{en(x["term"])}** — {en(x["body"])}\n')
+        elif k == 'letter':
+            out.append('```\n' + (b['text'] or '') + '\n```\n')
         elif k == 'links':
             for l in b['items']:
                 out.append(f'- [{en(l["name"])}]({l["url"]})')
