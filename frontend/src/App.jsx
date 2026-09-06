@@ -15,6 +15,7 @@ import { track } from './utils/track'
 import { createVisibilityTracker } from './utils/dwell'
 import { setCache, getCache } from './utils/apiCache'
 import { isNightNow } from './utils/timeOfDay'
+import { parseHash, formatHash, sameRoute } from './utils/route'
 
 const SaffronPage = lazy(() => import('./components/SaffronPage'))
 const PeppercornPage = lazy(() => import('./components/PeppercornPage'))
@@ -75,7 +76,36 @@ function AtelierFooter({ page }) {
 }
 
 export default function App() {
-  const [page, setPage] = useState('discover')
+  // The URL is the source of truth for which companion is showing, so a link
+  // can point at Saffron (#observe) or one of her tabs (#observe/calendar),
+  // refresh keeps her place, and back/forward walk the companions she visited.
+  // No hash = discover, exactly as before; an unknown hash falls back to it too.
+  const [route, setRoute] = useState(() => parseHash(window.location.hash))
+  const { page, tab } = route
+
+  // The browser owns the state: every navigation writes the hash, and we only
+  // ever read it back out here. One path in, so a click and a back button do
+  // precisely the same thing.
+  useEffect(() => {
+    const onHashChange = () => {
+      setRoute(prev => {
+        const next = parseHash(window.location.hash)
+        return sameRoute(prev, next) ? prev : next
+      })
+    }
+    window.addEventListener('hashchange', onHashChange)
+    // A hash can change between first render and this effect attaching.
+    onHashChange()
+    return () => window.removeEventListener('hashchange', onHashChange)
+  }, [])
+
+  const navigate = (nextPage, nextTab = null) => {
+    const next = parseHash(formatHash(nextPage, nextTab))
+    if (sameRoute(route, next)) return
+    // Assigning the hash pushes a history entry, which is what makes back work.
+    window.location.hash = formatHash(nextPage, nextTab)
+  }
+  const setPage = (nextPage) => navigate(nextPage)
 
   // UX-research beacon: report the opening page and each page change so they
   // show up live in Discord. Best-effort; never blocks or breaks the UI.
@@ -179,7 +209,14 @@ export default function App() {
         {page === 'discover' && <AtelierFooter page="discover" />}
         {(page === 'observe' || page === 'refine') && (
           <Suspense fallback={<PageFallback page={page} />}>
-            {page === 'observe' && <SaffronPage nav={nav} onNav={setPage} />}
+            {page === 'observe' && (
+              <SaffronPage
+                nav={nav}
+                onNav={setPage}
+                tab={tab}
+                onTabChange={(key) => navigate('observe', key)}
+              />
+            )}
             {page === 'refine'  && <PeppercornPage nav={nav} />}
             {/* Footer lives INSIDE Suspense so it stays hidden until the page
                 resolves — no footer floating on the blank fallback mid-switch.

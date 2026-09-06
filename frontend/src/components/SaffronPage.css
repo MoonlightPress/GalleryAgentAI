@@ -2556,29 +2556,95 @@ a.sf-readiness-col-name:hover { color: #c47a35; text-decoration: underline; }
 }
 
 .sf-future-body { padding: 0 15px 15px; }
-.sf-future-life,
-.sf-future-money {
-  font-family: Georgia, serif; font-size: 13px; line-height: 1.7;
-  color: #4a3826; margin: 0 0 4px;
-}
-.sf-future-life { margin-bottom: 14px; }
 
-.sf-future-steps {
+/* Two sentences, set slightly larger than the body beneath it so the eye lands
+   here first. The block it replaces was a five-sentence paragraph and the card
+   opened onto a wall of text. */
+.sf-future-overview {
+  font-family: Georgia, serif; font-size: 13.5px; line-height: 1.7;
+  color: #4a3826; margin: 0 0 18px;
+}
+
+/* Advantages — the comparison between tracks. Same bullet treatment as the
+   conditions list, because these are also statements rather than steps. */
+.sf-future-advantages {
   font-family: Georgia, serif; font-size: 13px; line-height: 1.65;
-  color: #4a3826; margin: 4px 0 14px; padding-left: 20px;
+  color: #4a3826; margin: 4px 0 18px; padding-left: 18px; list-style: none;
 }
-.sf-future-steps li { margin-bottom: 7px; }
+.sf-future-advantages li { margin-bottom: 9px; position: relative; }
+.sf-future-advantages li::before {
+  content: ''; position: absolute; left: -14px; top: 0.65em;
+  width: 5px; height: 5px; border-radius: 50%; background: #c9a86a;
+}
 
-/* Where she already stands — computed from her real record, and the most
-   useful line in each card, so it gets the accent. */
+/* Conditions, not instructions — so no ordered list. A numbered sequence would
+   claim these happen in an order, and read as a set of orders (Scott,
+   2026-09-05: "she wants possibilities and solutions", not advice). */
+.sf-future-requires {
+  font-family: Georgia, serif; font-size: 13px; line-height: 1.65;
+  color: #4a3826; margin: 4px 0 14px; padding-left: 18px; list-style: none;
+}
+.sf-future-requires li { margin-bottom: 7px; position: relative; }
+.sf-future-requires li::before {
+  content: ''; position: absolute; left: -14px; top: 0.65em;
+  width: 5px; height: 5px; border-radius: 50%; background: #c9a86a;
+}
+
+/* Strengths — computed from her real record, stated as facts about what exists.
+   Deliberately NOT a green "you're doing well" panel: the surface is neutral
+   parchment and it earns its inset from the label, not from a verdict colour.
+   This used to be one half of a two-sided ledger with "Absent" sitting directly
+   beneath it; the absent half now lives inside the "what this path needs"
+   disclosure, so the first thing read is what is there. */
 .sf-future-standing {
-  background: #f7f4e8; border-left: 3px solid #8fc98a;
-  border-radius: 0 7px 7px 0; padding: 10px 13px; margin-bottom: 12px;
+  background: #f7f4e8; border-left: 3px solid #c9a86a;
+  border-radius: 0 7px 7px 0; padding: 11px 13px 9px; margin-bottom: 16px;
 }
-.sf-future-standing p {
-  font-family: Georgia, serif; font-size: 12.5px; line-height: 1.65;
-  color: #3f5a34; margin: 0;
+.sf-future-strengths {
+  font-family: Georgia, serif; font-size: 12.5px; line-height: 1.62;
+  color: #4a3826; margin: 0; padding-left: 16px; list-style: none;
 }
+.sf-future-strengths li { margin-bottom: 7px; position: relative; }
+.sf-future-strengths li:last-child { margin-bottom: 0; }
+.sf-future-strengths li::before {
+  content: ''; position: absolute; left: -13px; top: 0.62em;
+  width: 4px; height: 4px; border-radius: 50%; background: #8a9c6e;
+}
+
+/* ── Disclosures ─────────────────────────────────────────────────────────────
+   The rest of each future, and the route-by-route book arithmetic. A lid rather
+   than a heading, because everything under one is an answer to a question that
+   only some readers are asking. Rows are quiet until touched — no filled
+   buttons, nothing that reads as a call to action. */
+.sf-details { display: flex; flex-direction: column; gap: 1px; }
+.sf-detail { border-top: 1px solid #ece0c4; }
+.sf-detail:last-child { border-bottom: 1px solid #ece0c4; }
+.sf-detail-head {
+  width: 100%; display: flex; align-items: center; justify-content: space-between;
+  gap: 12px; padding: 9px 2px; background: transparent; border: none;
+  cursor: pointer; text-align: left;
+}
+.sf-detail-head:hover .sf-detail-label { color: #a05e1c; }
+.sf-detail-head:focus-visible { outline: 2px solid #c49a3e; outline-offset: 2px; }
+.sf-detail-label {
+  font-family: Georgia, serif; font-size: 11px; font-weight: bold;
+  letter-spacing: 0.08em; text-transform: uppercase; color: #c47a35;
+}
+.sf-chevron--sm { font-size: 14px; margin-top: 0; }
+.sf-detail-body { padding: 2px 2px 14px; }
+.sf-detail-prose {
+  font-family: Georgia, serif; font-size: 13px; line-height: 1.7;
+  color: #4a3826; margin: 0;
+}
+.sf-detail-body .sf-future-requires { margin: 0; }
+
+/* What is not in place yet — kept, but read last and read quietly. */
+.sf-detail-foot {
+  font-family: Georgia, serif; font-size: 12.5px; line-height: 1.6;
+  color: #6a5436; margin: 12px 0 0; padding-top: 10px;
+  border-top: 1px dashed #e0d0ae;
+}
+.sf-detail-foot strong { color: #a8763a; font-weight: bold; }
 
 /* The famous name goes last and small — the life matters, not the celebrity. */
 .sf-future-example {
@@ -2586,3 +2652,141 @@ a.sf-readiness-col-name:hover { color: #c47a35; text-decoration: underline; }
   color: #7a5c3a; margin: 0; font-style: italic;
 }
 .sf-future-example strong { font-style: normal; }
+
+/* ── What a book costs ───────────────────────────────────────────────────────
+   The section leads with a claim now. It used to open on the chart, then three
+   route rows, then a pricing note, then a caveat — four points and nothing
+   holding them together ("i don't even know what it's trying to say", Scott
+   2026-09-06). Order is claim → the loss-leader answer → who carries the outlay
+   → how fast copies move → the arithmetic behind a lid. */
+
+/* The claim. Set larger than anything else in the section, because everything
+   below it is evidence for this sentence. */
+.sf-be-claim {
+  font-family: Georgia, serif; font-size: 15px; line-height: 1.68;
+  color: #3d2b1a; margin: 0 0 14px;
+}
+/* The direct answer to "so it's a loss leader?" — inset, so it reads as a reply
+   rather than as more prose. */
+.sf-be-answer {
+  font-family: Georgia, serif; font-size: 13px; line-height: 1.68;
+  color: #4a3826; background: #f7f4e8; border-left: 3px solid #c9a86a;
+  border-radius: 0 7px 7px 0; padding: 11px 13px; margin: 0 0 24px;
+}
+
+/* The fork. Two columns of the same six rows, so the comparison reads across.
+   Neither column is styled as the recommendation — the whole point is that the
+   choice is hers and both are real. */
+.sf-fork { margin-bottom: 24px; }
+.sf-fork-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.sf-fork-col {
+  background: #fffaf0; border: 1px solid #e6d9bd; border-radius: 9px;
+  padding: 12px 14px 10px;
+}
+.sf-fork-name {
+  font-family: Georgia, serif; font-size: 13.5px; font-weight: bold;
+  color: #7a5030; margin-bottom: 10px;
+  padding-bottom: 8px; border-bottom: 1px solid #ece0c4;
+}
+.sf-fork-rows { margin: 0; }
+.sf-fork-row { margin-bottom: 9px; }
+.sf-fork-row:last-child { margin-bottom: 0; }
+.sf-fork-row dt {
+  font-family: Georgia, serif; font-size: 10px; font-weight: bold;
+  letter-spacing: 0.07em; text-transform: uppercase; color: #a0885f;
+  margin-bottom: 2px;
+}
+.sf-fork-row dd {
+  font-family: Georgia, serif; font-size: 12.5px; line-height: 1.55;
+  color: #4a3826; margin: 0;
+}
+.sf-fork-note {
+  font-family: Georgia, serif; font-size: 12px; line-height: 1.62;
+  color: #7a5c3a; font-style: italic; margin: 12px 0 0;
+}
+@media (max-width: 560px) {
+  .sf-fork-cols { grid-template-columns: 1fr; }
+}
+
+/* The pace — the numbers that set the timeline, which is the thing the cost
+   side cannot tell her. */
+.sf-pace { margin-bottom: 20px; }
+.sf-pace-facts {
+  font-family: Georgia, serif; font-size: 12.5px; line-height: 1.65;
+  color: #4a3826; margin: 0; padding-left: 18px; list-style: none;
+}
+.sf-pace-facts li { margin-bottom: 9px; position: relative; }
+.sf-pace-facts li:last-child { margin-bottom: 0; }
+.sf-pace-facts li::before {
+  content: ''; position: absolute; left: -14px; top: 0.65em;
+  width: 5px; height: 5px; border-radius: 50%; background: #c9a86a;
+}
+
+/* One hue on the chart, because this is a single measure (copies to break even)
+   rather than several identities. Feasibility rides on geometry plus a written
+   label, never on colour, so it holds up under any colour vision and in
+   greyscale. */
+.sf-be-fig { margin: 4px 0 18px; }
+.sf-be-svg { width: 100%; height: auto; display: block; }
+.sf-be-label {
+  font-family: Georgia, serif; font-size: 7px; fill: #6a5436;
+}
+.sf-be-val {
+  font-family: Georgia, serif; font-size: 7px; fill: #7a5c3a; font-style: italic;
+}
+.sf-be-cap {
+  font-family: Georgia, serif; font-size: 11.5px; color: #8a6f4a;
+  font-style: italic; margin-top: 6px;
+}
+
+.sf-be-rows { display: flex; flex-direction: column; gap: 11px; }
+.sf-be-row {
+  padding: 10px 13px; background: #fffaf0;
+  border-left: 3px solid #d8c79a; border-radius: 0 7px 7px 0;
+}
+.sf-be-row-head {
+  font-family: Georgia, serif; font-size: 13.5px; font-weight: bold; color: #7a5030;
+}
+.sf-be-row-num {
+  font-family: Georgia, serif; font-size: 12.5px; color: #4a3826; margin-top: 3px;
+}
+.sf-be-ok { color: #5a7a30; }
+.sf-be-no { color: #9a7040; font-style: italic; }
+.sf-be-row-note {
+  font-family: Georgia, serif; font-size: 12px; line-height: 1.55;
+  color: #6a5436; margin-top: 5px;
+}
+
+.sf-be-highprice {
+  font-family: Georgia, serif; font-size: 12.5px; line-height: 1.65;
+  color: #3f5a34; background: #f7f4e8; border-left: 3px solid #8fc98a;
+  border-radius: 0 7px 7px 0; padding: 10px 13px; margin: 14px 0 0;
+}
+.sf-be-caveat {
+  font-family: Georgia, serif; font-size: 12px; line-height: 1.6;
+  color: #7a5c3a; font-style: italic; margin: 12px 0 0;
+}
+.sf-be-val--in { fill: #6b4420; }
+.sf-be-tick {
+  font-family: Georgia, serif; font-size: 6.5px; fill: #8a6f4a; font-style: italic;
+}
+
+/* ── The first letter ────────────────────────────────────────────────────────
+   A real draft, set as preformatted text so its line breaks survive — this is
+   meant to be copied, not admired. */
+.sf-ok-note {
+  font-family: Georgia, serif; font-size: 12.5px; font-style: italic;
+  color: #7a5c3a; margin: 0 0 10px;
+}
+.sf-ok-letter {
+  font-family: "Hiragino Mincho ProN", "Yu Mincho", Georgia, serif;
+  font-size: 12.5px; line-height: 1.85; color: #3d2b1a;
+  background: #fffdf7; border: 1px solid #e6d9bd; border-radius: 8px;
+  padding: 14px 15px; margin: 0 0 12px;
+  white-space: pre-wrap; overflow-wrap: break-word;
+}
+.sf-ok-rules {
+  font-family: Georgia, serif; font-size: 12.5px; line-height: 1.7;
+  color: #4a3826; margin: 10px 0 0; padding-left: 20px;
+}
+.sf-ok-rules li { margin-bottom: 8px; }

@@ -105,6 +105,50 @@ DERIVED_TRANSLATIONS = ("why_it_fits_zh", "why_it_fits_ja")
 # of about this length arrives as a sentence that fits her card whole.
 MAX_WHY_CHARS = 220
 
+# Model + list price in USD per million tokens, used to print what a run cost —
+# a backlog pass is ~1,000 calls and whoever pays for it should not have to
+# infer the bill from token counts.
+#
+# Why Sonnet 5 rather than Haiku: the prompt is ~3.7k tokens of fixed rules and
+# fixed facts about her, and only ~40 tokens of per-entry detail. Haiku 4.5
+# cannot cache that — its minimum cacheable prefix is 4,096 tokens, so a
+# marked-up 3.7k block silently caches nothing and every call pays full price
+# for the same text. Sonnet 5's minimum is 1,024, so the prefix is written once
+# and read back at a tenth of the price for the rest of the run. That makes the
+# stronger model the CHEAPER one here (~$0.0017/call against ~$0.0032 for
+# uncached Haiku). Do not "optimize" this back to Haiku without re-checking
+# that table — the saving is a rounding error and the cache disappears.
+MODEL = "claude-sonnet-5"
+PRICE_IN_PER_M  = 2.00
+PRICE_OUT_PER_M = 10.00
+CACHE_WRITE_MULT = 1.25   # writing the prefix costs 1.25x an input token
+CACHE_READ_MULT  = 0.10   # reading it back costs a tenth
+
+
+def SYSTEM_BLOCK():
+    """The stable prompt, marked cacheable. Same object shape every call."""
+    return [{"type": "text",
+             "text": system_prompt(),
+             "cache_control": {"type": "ephemeral"}}]
+
+
+# Sonnet 5 thinks by default. Rewriting one sentence against a fixed rule set is
+# not a reasoning task, and thinking tokens bill at the output rate — left on,
+# a 60-token budget was spent entirely on thinking and returned no sentence.
+NO_THINKING = {"type": "disabled"}
+
+
+def first_text(response) -> str:
+    """The response's text, wherever it sits in the content list.
+
+    content[0] is not reliably the answer — with thinking enabled it is a
+    ThinkingBlock, and reaching straight for .text raises AttributeError.
+    """
+    for block in response.content:
+        if getattr(block, "type", "") == "text":
+            return block.text
+    return ""
+
 
 def _follower_count() -> str:
     """Read her real follower count from the profile (never hardcode a literal).
@@ -218,6 +262,9 @@ def is_weak(opp: dict) -> tuple:
 
     if not why.strip():
         return True, "empty"
+    # The tier ladder is internal scoring, never something she should read.
+    if tier_leak(why) or tier_leak(opp.get("why_it_fits_zh", "")):
+        return True, "names the internal tier framework"
     if why.strip() == one_sent.strip():
         return True, "identical to one_sentence"
     if len(why.strip()) < 40:
@@ -250,10 +297,21 @@ def is_weak(opp: dict) -> tuple:
     zh = opp.get("why_it_fits_zh") or ""
     if zh and not has_personal_hook(zh):
         return True, "no her-specific clause (zh)"
+    # A line where the system talks about itself instead of to her. The
+    # generator already refuses to WRITE one, but lines predating that guard
+    # are sitting in the data — "I cannot write this line without seeing the
+    # venue's actual requirements" was live on a publication_targets entry,
+    # invisible to every other check here because it happens to mention her
+    # watercolor diary. Checked in both languages, since either can reach her.
+    if meta_problem(why) or meta_problem(zh):
+        return True, "system talking about itself"
     return False, ""
 
 
 _TIER_TAG_RE = re.compile(r"tier\s*\d", re.I)
+
+# Built once per process; see system_prompt().
+_SYSTEM_CACHE = None
 
 
 def _today_str() -> str:
@@ -320,27 +378,35 @@ _META_PATTERNS = (
 )
 _META_RE = re.compile("|".join(_META_PATTERNS), re.I)
 
+# The tier ladder is an internal scoring concept. It has now leaked to her card
+# twice — once via bucket names fed to the model, once invented by the model
+# itself — so it is caught on output as well as kept out of the prompt.
+_TIER_RE = re.compile(r"\btier[\s\-]?[1-4]\b|[一二三四]级(?:途径|机会|目标)|第[一二三四]级", re.I)
+
+
+def tier_leak(text: str) -> bool:
+    """True when a line names the internal tier ladder in any language."""
+    return bool(_TIER_RE.search(text or ""))
+
 
 def meta_problem(text: str) -> bool:
     """True when the line talks about the system's own limits instead of to her."""
     return bool(_META_RE.search(text or ""))
 
 
-def build_prompt(opp: dict) -> str:
-    title    = opp.get("title") or opp.get("name") or "Unknown"
-    one_sent = opp.get("one_sentence") or ""
-    category = opp.get("category") or opp.get("category_label") or ""
-    city     = opp.get("city") or ""
-    tags     = opp.get("tags") or []
-    deadline = opp.get("deadline") or ""
-    fees     = opp.get("fees") or opp.get("fee") or ""
-    why_old  = opp.get("why") or opp.get("why_this_fits_short") or ""
-    # Internal taxonomy is kept OUT of the prompt entirely. The bucket name and
-    # the "Tier1" tag are how "a concrete Tier-1 route" reached her card face:
-    # a model handed the vocabulary will eventually use it.
-    tags_str = ", ".join(str(t) for t in tags if t and not _TIER_TAG_RE.search(str(t)))
+def system_prompt() -> str:
+    """The stable half of the prompt — everything that does not vary by entry.
 
-    return f"""You are writing the one sentence GEGYjiji reads underneath an opportunity on her own
+    Split out from the per-entry half so it can be sent as a cached system
+    block. A backlog pass is ~1,000 calls and this text is ~4,300 tokens of the
+    ~4,700 in each one; without caching the run pays full price to re-read her
+    profile and the same rules a thousand times over. Cached, the repeat reads
+    cost a tenth of that. Nothing here may vary between calls — one changed
+    byte invalidates the prefix for every subsequent entry.
+    """
+    global _SYSTEM_CACHE
+    if _SYSTEM_CACHE is None:
+        _SYSTEM_CACHE = f"""You are writing the one sentence GEGYjiji reads underneath an opportunity on her own
 app — the line that tells her why THIS one is worth her attention. She reads it in Chinese; it is
 written in English first and translated faithfully, so whatever you write must survive translation.
 
@@ -348,14 +414,6 @@ WHO SHE IS (draw on these facts; invent nothing beyond them):
 {artist_facts()}
 
 Today's date: {_today_str()}
-Venue/Opportunity: {title}
-What it is: {one_sent}
-Category: {category}
-City: {city}
-Deadline (as recorded, may be stale): {deadline or '(unknown)'}
-Fee: {fees or '(unknown)'}
-Tags: {tags_str}
-Previous why note: {why_old[:200] if why_old else '(none)'}
 
 === NEVER SEND HER AT A DATE THAT HAS ALREADY PASSED ===
 Compare any date you are about to write against today's date above. If the recorded deadline is in
@@ -470,7 +528,35 @@ Her card renders exactly what you write. So: no Markdown (no *asterisks* around 
 quotation marks around the whole line, no preamble, and NEVER append a character count or any note
 about your own answer — "(174 characters)" is printed onto her card verbatim.
 
-Output the 1-2 sentences only, nothing else. Under {MAX_WHY_CHARS} characters."""
+Output the 1-2 sentences only, nothing else. Under {MAX_WHY_CHARS} characters.
+
+The specific opportunity follows in the next message."""
+    return _SYSTEM_CACHE
+
+
+def build_prompt(opp: dict) -> str:
+    """The per-entry half: just this opportunity's facts."""
+    title    = opp.get("title") or opp.get("name") or "Unknown"
+    one_sent = opp.get("one_sentence") or ""
+    category = opp.get("category") or opp.get("category_label") or ""
+    city     = opp.get("city") or ""
+    tags     = opp.get("tags") or []
+    deadline = opp.get("deadline") or ""
+    fees     = opp.get("fees") or opp.get("fee") or ""
+    why_old  = opp.get("why") or opp.get("why_this_fits_short") or ""
+    # Internal taxonomy is kept OUT of the prompt entirely. The bucket name and
+    # the "Tier1" tag are how "a concrete Tier-1 route" reached her card face:
+    # a model handed the vocabulary will eventually use it.
+    tags_str = ", ".join(str(t) for t in tags if t and not _TIER_TAG_RE.search(str(t)))
+
+    return f"""Venue/Opportunity: {title}
+What it is: {one_sent}
+Category: {category}
+City: {city}
+Deadline (as recorded, may be stale): {deadline or '(unknown)'}
+Fee: {fees or '(unknown)'}
+Tags: {tags_str}
+Previous why note: {why_old[:200] if why_old else '(none)'}"""
 
 
 def _servable(opp: dict) -> bool:
@@ -562,18 +648,35 @@ def main(only=(), limit=0, dry_run=False, force=False, backlog=False, workers=1)
     updated = 0
     errors  = 0
     done    = 0
-    lock    = threading.Lock()
+    tok_in      = 0
+    tok_out     = 0
+    tok_cache_r = 0
+    tok_cache_w = 0
+    lock        = threading.Lock()
+
+    def count(usage):
+        """Fold one response's token usage into the run totals."""
+        nonlocal tok_in, tok_out, tok_cache_r, tok_cache_w
+        with lock:
+            tok_in      += usage.input_tokens
+            tok_out     += usage.output_tokens
+            tok_cache_r += getattr(usage, "cache_read_input_tokens", 0) or 0
+            tok_cache_w += getattr(usage, "cache_creation_input_tokens", 0) or 0
 
     def rewrite(job):
         """Generate one line. Returns (opp_idx, new_why or None, note)."""
         opp_idx, opp, reason = job
+        nonlocal tok_in, tok_out, tok_cache_r, tok_cache_w
         prompt = build_prompt(opp)
         response = client.messages.create(
-            model="claude-haiku-4-5-20251001",
+            model=MODEL,
             max_tokens=200,
+            system=SYSTEM_BLOCK(),
+            thinking=NO_THINKING,
             messages=[{"role": "user", "content": prompt}],
         )
-        new_why = sanitize(response.content[0].text)
+        count(response.usage)
+        new_why = sanitize(first_text(response))
         if not new_why or len(new_why) <= 20:
             return opp_idx, None, "SKIPPED (empty response)"
         # One retry when the line came back with nothing of her in it,
@@ -603,8 +706,10 @@ def main(only=(), limit=0, dry_run=False, force=False, backlog=False, workers=1)
             )
         if notes:
             retry = client.messages.create(
-                model="claude-haiku-4-5-20251001",
+                model=MODEL,
                 max_tokens=200,
+                system=SYSTEM_BLOCK(),
+                thinking=NO_THINKING,
                 messages=[
                     {"role": "user", "content": prompt},
                     {"role": "assistant", "content": new_why},
@@ -612,7 +717,8 @@ def main(only=(), limit=0, dry_run=False, force=False, backlog=False, workers=1)
                      " ".join(notes) + " Output the sentence only."},
                 ],
             )
-            retried = sanitize(retry.content[0].text)
+            count(retry.usage)
+            retried = sanitize(first_text(retry))
             if retried and len(retried) > 20:
                 new_why = retried
         new_why = _trim_to_sentence(new_why, MAX_WHY_CHARS)
@@ -678,7 +784,16 @@ def main(only=(), limit=0, dry_run=False, force=False, backlog=False, workers=1)
             time.sleep(0.3)
 
     save()
+    cost = (
+        tok_in        / 1e6 * PRICE_IN_PER_M
+        + tok_out     / 1e6 * PRICE_OUT_PER_M
+        + tok_cache_w / 1e6 * PRICE_IN_PER_M * CACHE_WRITE_MULT
+        + tok_cache_r / 1e6 * PRICE_IN_PER_M * CACHE_READ_MULT
+    )
     print(f"\nDone. {updated}/{len(targets)} entries updated. {errors} errors.")
+    print(f"Tokens: {tok_in:,} in / {tok_out:,} out / "
+          f"{tok_cache_r:,} cache-read / {tok_cache_w:,} cache-write")
+    print(f"Estimated cost at list price: ~${cost:.2f}")
     if updated:
         print("Cleared why_it_fits_zh / why_it_fits_ja on updated entries — "
               "content_translation_engine.py will regenerate them.")

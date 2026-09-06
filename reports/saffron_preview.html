@@ -1,0 +1,762 @@
+<title>Saffron Strategy Draft</title>
+
+<style>
+/* Values lifted from the app: index.css tokens and SaffronPage.css.
+   Single-theme on purpose — the app sets color-scheme: light and this page
+   exists to show what the app looks like. */
+:root{
+  --parchment:#EEE0C2; --paper:#FFFAF3; --ink:#3d2b20; --ink-medium:#5d4b3b;
+  --ink-muted:#8a7563; --border:#e6d4b8; --gold:#c49a3e;
+  --rv-ink:#4a4034; --rv-bg:#efe7d6; --rv-line:#d9cbaa;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{color-scheme:light}
+body{
+  margin:0;background:var(--parchment);color:var(--ink);
+  font-family:Georgia,'Palatino Linotype',serif;font-size:16px;line-height:1.5;
+  -webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;
+}
+
+/* ── review chrome (not part of the product; sans so it never reads as one) ── */
+.rv-bar{
+  position:sticky;top:0;z-index:60;background:var(--rv-bg);
+  border-bottom:1px solid var(--rv-line);
+  box-shadow:0 2px 6px rgba(80,55,30,.07);
+}
+.rv-bar-in{
+  max-width:880px;margin:0 auto;padding:10px 20px;
+  display:flex;align-items:center;gap:14px;flex-wrap:wrap;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",sans-serif;
+  font-size:12.5px;color:var(--rv-ink);
+}
+.rv-tag{
+  font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;font-weight:600;
+  color:#8a5a1c;border:1px solid #cfa964;border-radius:2px;padding:2px 7px;white-space:nowrap;
+}
+.rv-bar-sp{flex:1 1 auto;min-width:8px}
+.rv-toggle{
+  font:inherit;font-weight:600;cursor:pointer;white-space:nowrap;
+  background:var(--paper);color:var(--rv-ink);
+  border:1px solid var(--rv-line);border-radius:20px;padding:5px 14px;
+}
+.rv-toggle:hover{border-color:#b99a5e;color:#6b4420}
+.rv-toggle[aria-pressed="true"]{background:#6b5638;border-color:#6b5638;color:#f7efdd}
+.rv-toggle:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.rv-lede{
+  max-width:880px;margin:0 auto;padding:26px 20px 6px;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",sans-serif;
+  font-size:13.5px;line-height:1.65;color:#5f5342;
+}
+.rv-lede h1{
+  font-family:Georgia,serif;font-size:24px;font-weight:bold;color:#3d2b1a;
+  margin:0 0 8px;letter-spacing:.01em;
+}
+.rv-lede p{margin:0 0 8px;max-width:60ch}
+.rv-lede code,.rv-note code{
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.92em;
+  background:#e7dcc4;padding:1px 5px;border-radius:3px;
+}
+.rv-note{
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",sans-serif;
+  font-size:12px;line-height:1.6;color:#7d6f5b;
+  background:#f3ecdb;border:1px dashed #d9cbaa;border-radius:8px;
+  padding:8px 12px;margin-top:16px;
+}
+.rv-frame-label{
+  max-width:880px;margin:34px auto 0;padding:0 20px;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",sans-serif;
+  font-size:10.5px;letter-spacing:.11em;text-transform:uppercase;font-weight:600;color:#8f8064;
+}
+
+/* the Chinese she reads, revealed by the toggle */
+.zh-alt{
+  display:block;margin-top:5px;color:#8a7563;font-size:.94em;line-height:1.72;
+  border-left:2px solid #ddcba2;padding-left:9px;
+}
+.sf-future-name .zh-alt,.sf-door-name .zh-alt,.sf-section-title .zh-alt{border-left:0;padding-left:0}
+
+/* ── app: content column and tab bar ─────────────────────────────────────── */
+.sf-content{max-width:960px;margin:0 auto;padding:0 24px 48px;width:100%}
+.sf-tabs{
+  display:flex;flex-wrap:wrap;justify-content:center;gap:2px;padding:12px 16px;
+  background:#FAF4E6;border-bottom:1px solid #e8d5a8;
+  box-shadow:0 3px 8px rgba(120,90,30,.06);margin:0 0 8px;
+}
+.sf-tab{
+  font-family:Georgia,serif;font-size:.98rem;color:#8a7350;background:transparent;
+  border:none;border-bottom:2px solid transparent;padding:6px 16px;
+}
+.sf-tab--active{color:#3d2b1a;font-weight:bold;border-bottom-color:#c49a3e}
+
+.sf-section{
+  max-width:820px;width:calc(100% - 36px);margin:0 auto 16px;padding:26px 30px;
+  background:#fbf5e6;border:1px solid #e6d4b4;border-radius:14px;
+  box-shadow:0 1px 4px rgba(120,90,30,.04);
+}
+.sf-section:first-of-type{margin-top:12px}
+.sf-toggle-header{display:flex;align-items:flex-start;justify-content:space-between;gap:16px}
+.sf-toggle-text{display:flex;flex-direction:column;gap:6px}
+.sf-section-title{font-family:Georgia,serif;font-size:22px;font-weight:bold;color:#3d2b1a;margin:0;letter-spacing:.01em}
+.sf-section-subtitle{font-family:Georgia,serif;font-size:14px;color:#8b6a3e;font-style:italic;margin:0}
+.sf-chevron{font-size:20px;color:#c4a06a;flex-shrink:0;margin-top:2px;line-height:1;display:inline-block}
+.sf-chevron--open{transform:rotate(180deg)}
+.sf-section-body{margin-top:32px}
+.sf-block-label{
+  font-family:Georgia,serif;font-size:11px;font-weight:bold;letter-spacing:.08em;
+  text-transform:uppercase;color:#c47a35;margin-bottom:14px;
+}
+.sf-ext-link{text-decoration:none}
+.sf-ext-link:hover{color:#c47a35;text-decoration:underline}
+
+/* ── the first letter ────────────────────────────────────────────────────── */
+.sf-ok-intro{font-family:Georgia,serif;font-size:13.5px;line-height:1.72;color:#4a3826;margin:0 0 14px}
+.sf-ok-letter{
+  font-family:"Hiragino Mincho ProN","Yu Mincho",Georgia,serif;
+  font-size:12.5px;line-height:1.85;color:#3d2b1a;background:#fffdf7;
+  border:1px solid #e6d9bd;border-radius:8px;padding:14px 15px;margin:0 0 12px;
+  white-space:pre-wrap;overflow-wrap:break-word;
+}
+.sf-ok-note{font-family:Georgia,serif;font-size:12.5px;font-style:italic;color:#7a5c3a;margin:0 0 22px}
+.sf-ok-rules{font-family:Georgia,serif;font-size:12.5px;line-height:1.7;color:#4a3826;margin:10px 0 0;padding-left:20px}
+.sf-ok-rules li{margin-bottom:10px}
+
+/* ── five futures ────────────────────────────────────────────────────────── */
+.sf-futures{display:flex;flex-direction:column;gap:10px}
+.sf-future{border:1px solid #e6d9bd;border-radius:9px;background:#fffdf7;overflow:hidden}
+.sf-future--open{background:#fffaf0;border-color:#d8c79a}
+.sf-future-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 15px}
+.sf-future-name{font-family:Georgia,serif;font-size:15px;font-weight:bold;color:#7a5030}
+.sf-future-tagline{font-family:Georgia,serif;font-size:12.5px;font-style:italic;color:#8a6f4a;margin-top:3px;line-height:1.45}
+.sf-future-body{padding:0 15px 15px}
+.sf-future-overview{font-family:Georgia,serif;font-size:13.5px;line-height:1.7;color:#4a3826;margin:0 0 18px}
+.sf-future-advantages,.sf-future-requires{
+  font-family:Georgia,serif;font-size:13px;line-height:1.65;color:#4a3826;
+  margin:4px 0 18px;padding-left:18px;list-style:none;
+}
+.sf-future-advantages li,.sf-future-requires li{margin-bottom:9px;position:relative}
+.sf-future-advantages li::before,.sf-future-requires li::before{
+  content:'';position:absolute;left:-14px;top:.65em;width:5px;height:5px;
+  border-radius:50%;background:#c9a86a;
+}
+.sf-future-standing{
+  background:#f7f4e8;border-left:3px solid #c9a86a;border-radius:0 7px 7px 0;
+  padding:11px 13px 9px;margin-bottom:16px;
+}
+.sf-future-strengths{
+  font-family:Georgia,serif;font-size:12.5px;line-height:1.62;color:#4a3826;
+  margin:0;padding-left:16px;list-style:none;
+}
+.sf-future-strengths li{margin-bottom:7px;position:relative}
+.sf-future-strengths li:last-child{margin-bottom:0}
+.sf-future-strengths li::before{
+  content:'';position:absolute;left:-13px;top:.62em;width:4px;height:4px;
+  border-radius:50%;background:#8a9c6e;
+}
+.sf-future-example{font-family:Georgia,serif;font-size:12px;line-height:1.6;color:#7a5c3a;margin:0;font-style:italic}
+.sf-future-example strong{font-style:normal}
+
+/* ── disclosures (drawn open here; one tap in the app) ───────────────────── */
+.sf-details{display:flex;flex-direction:column;gap:1px}
+.sf-detail{border-top:1px solid #ece0c4}
+.sf-detail:last-child{border-bottom:1px solid #ece0c4}
+.sf-detail-head{
+  width:100%;display:flex;align-items:center;justify-content:space-between;
+  gap:12px;padding:9px 2px;text-align:left;
+}
+.sf-detail-label{
+  font-family:Georgia,serif;font-size:11px;font-weight:bold;letter-spacing:.08em;
+  text-transform:uppercase;color:#c47a35;
+}
+.sf-chevron--sm{font-size:14px;margin-top:0}
+.sf-detail-body{padding:2px 2px 14px}
+.sf-detail-prose{font-family:Georgia,serif;font-size:13px;line-height:1.7;color:#4a3826;margin:0}
+.sf-detail-body .sf-future-requires{margin:0}
+.sf-detail-foot{
+  font-family:Georgia,serif;font-size:12.5px;line-height:1.6;color:#6a5436;
+  margin:12px 0 0;padding-top:10px;border-top:1px dashed #e0d0ae;
+}
+.sf-detail-foot strong{color:#a8763a;font-weight:bold}
+
+/* ── what a book costs ───────────────────────────────────────────────────── */
+.sf-be-claim{font-family:Georgia,serif;font-size:15px;line-height:1.68;color:#3d2b1a;margin:0 0 14px}
+.sf-be-answer{
+  font-family:Georgia,serif;font-size:13px;line-height:1.68;color:#4a3826;
+  background:#f7f4e8;border-left:3px solid #c9a86a;border-radius:0 7px 7px 0;
+  padding:11px 13px;margin:0 0 24px;
+}
+.sf-fork{margin-bottom:24px}
+.sf-fork-cols{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.sf-fork-col{background:#fffaf0;border:1px solid #e6d9bd;border-radius:9px;padding:12px 14px 10px}
+.sf-fork-name{
+  font-family:Georgia,serif;font-size:13.5px;font-weight:bold;color:#7a5030;
+  margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid #ece0c4;
+}
+.sf-fork-rows{margin:0}
+.sf-fork-row{margin-bottom:9px}
+.sf-fork-row:last-child{margin-bottom:0}
+.sf-fork-row dt{
+  font-family:Georgia,serif;font-size:10px;font-weight:bold;letter-spacing:.07em;
+  text-transform:uppercase;color:#a0885f;margin-bottom:2px;
+}
+.sf-fork-row dd{font-family:Georgia,serif;font-size:12.5px;line-height:1.55;color:#4a3826;margin:0}
+.sf-fork-note{font-family:Georgia,serif;font-size:12px;line-height:1.62;color:#7a5c3a;font-style:italic;margin:12px 0 0}
+.sf-pace{margin-bottom:20px}
+.sf-pace-facts{
+  font-family:Georgia,serif;font-size:12.5px;line-height:1.65;color:#4a3826;
+  margin:0;padding-left:18px;list-style:none;
+}
+.sf-pace-facts li{margin-bottom:9px;position:relative}
+.sf-pace-facts li:last-child{margin-bottom:0}
+.sf-pace-facts li::before{
+  content:'';position:absolute;left:-14px;top:.65em;width:5px;height:5px;
+  border-radius:50%;background:#c9a86a;
+}
+
+.sf-be-fig{margin:4px 0 22px}
+.sf-be-svg{width:100%;height:auto;display:block}
+.sf-be-label{font-family:Georgia,serif;font-size:7px;fill:#6a5436}
+.sf-be-val{font-family:Georgia,serif;font-size:7px;fill:#7a5c3a;font-style:italic}
+.sf-be-val--in{fill:#6b4420}
+.sf-be-tick{font-family:Georgia,serif;font-size:6.5px;fill:#8a6f4a;font-style:italic}
+.sf-be-cap{font-family:Georgia,serif;font-size:11.5px;color:#8a6f4a;font-style:italic;margin-top:6px}
+.sf-be-rows{display:flex;flex-direction:column;gap:11px}
+.sf-be-row{padding:10px 13px;background:#fffaf0;border-left:3px solid #d8c79a;border-radius:0 7px 7px 0}
+.sf-be-row-head{font-family:Georgia,serif;font-size:13.5px;font-weight:bold;color:#7a5030}
+.sf-be-row-num{font-family:Georgia,serif;font-size:12.5px;color:#4a3826;margin-top:3px}
+.sf-be-ok{color:#5a7a30}
+.sf-be-no{color:#9a7040;font-style:italic}
+.sf-be-row-note{font-family:Georgia,serif;font-size:12px;line-height:1.55;color:#6a5436;margin-top:5px}
+.sf-be-highprice{
+  font-family:Georgia,serif;font-size:12.5px;line-height:1.65;color:#3f5a34;
+  background:#f7f4e8;border-left:3px solid #8fc98a;border-radius:0 7px 7px 0;
+  padding:10px 13px;margin:16px 0 0;
+}
+.sf-be-caveat{font-family:Georgia,serif;font-size:12px;line-height:1.6;color:#7a5c3a;font-style:italic;margin:12px 0 0}
+
+/* ── doors ───────────────────────────────────────────────────────────────── */
+.sf-doors{display:flex;flex-direction:column;gap:12px}
+.sf-door{padding:12px 15px;background:#fffaf0;border-left:3px solid #d8c79a;border-radius:0 8px 8px 0}
+.sf-door--open{border-left-color:#5a7a30;background:#fbfcf5}
+.sf-door--always{border-left-color:#c4a03a}
+.sf-door-when{display:flex;align-items:center;gap:8px;margin-bottom:5px;flex-wrap:wrap}
+.sf-door-month{font-family:Georgia,serif;font-size:11px;font-weight:bold;letter-spacing:.06em;text-transform:uppercase;color:#9a7040}
+.sf-door-badge{
+  font-family:Georgia,serif;font-size:11px;color:#7a5c3a;background:#f4ead6;
+  border:1px solid #ddcba2;border-radius:20px;padding:1px 9px;white-space:nowrap;
+}
+.sf-door-badge--open{color:#2e6626;background:#eef7e6;border-color:#8fc98a;font-weight:bold}
+.sf-door-name{font-family:Georgia,serif;font-size:14px;font-weight:bold;color:#b5701f;display:inline-block}
+.sf-door-gives{font-family:Georgia,serif;font-size:12.5px;line-height:1.6;color:#4a3826;margin:4px 0 0}
+.sf-door-prep{font-family:Georgia,serif;font-size:12.5px;line-height:1.6;color:#6a5436;margin:6px 0 0;font-style:italic}
+.sf-door-prep strong{font-style:normal;color:#7a5c3a}
+.sf-door-worth{font-family:Georgia,serif;font-size:12px;color:#5a7a30;margin:5px 0 0;letter-spacing:.01em}
+
+@media (max-width:640px){
+  .sf-content{padding:0 12px 40px}
+  .sf-section{width:100%;padding:20px 18px;border-radius:12px}
+  .sf-tabs{flex-wrap:nowrap;justify-content:flex-start;overflow-x:auto;padding:10px 12px}
+  .sf-tab{flex-shrink:0}
+  .rv-lede{padding:20px 16px 4px}
+}
+@media (max-width:560px){
+  .sf-fork-cols{grid-template-columns:1fr}
+}
+</style>
+<div class="rv-bar"><div class="rv-bar-in">
+  <span class="rv-tag">Local &middot; not deployed</span>
+  <span>Saffron &rarr; Strategy, rendered in the app&rsquo;s own CSS</span>
+  <span class="rv-bar-sp"></span>
+  <button type="button" class="rv-toggle" id="zh-toggle" aria-pressed="false">Show the Chinese she reads</button>
+</div></div>
+
+<div class="rv-lede">
+  <h1>Four sections, in English, drawn the way the site draws them</h1>
+  <p>The site is still running <code>08dea050</code> plus the hero art &mdash; none of this is live.
+     The text below is English so the tone can be read directly; the Chinese she actually sees is
+     one button away, underneath each block.</p>
+  <p>Everything is generated from the engines themselves, so this is the copy that would ship,
+     not a summary of it. Rewritten 5 September to drop the second person: no instructions,
+     no verdicts about her, no encouragement &mdash; conditions, mechanics and figures, with the
+     conclusion left to her.</p>
+  <p><strong>6 September.</strong> Three changes. The five futures were restructured &mdash; each is
+     now header, overview, <em>advantages of the track</em> (a comparison between the five that the
+     copy never actually made), <em>strengths on this path</em>, then dropdowns; the &ldquo;absent&rdquo;
+     half of the old ledger moved down inside &ldquo;what this path needs&rdquo;. Their names were
+     flattened to say what they are &mdash; &ldquo;No Gatekeepers&rdquo; and the rest were opaque.
+     And &ldquo;What a book costs&rdquo; was rebuilt around a single claim, with the route-by-route
+     arithmetic demoted to a disclosure.</p>
+  <p><strong>No second person anywhere.</strong> The Doors section still had five
+     &mdash; &ldquo;You qualify&hellip;&rdquo;, &ldquo;the world you already come from&rdquo;,
+     &ldquo;paintings you don&rsquo;t have to sell&rdquo; and two more, across English, Chinese and
+     Japanese. All rewritten. A scan of the rendered sections in every language now returns zero.</p>
+</div>
+
+<div class="rv-frame-label">The app, from here down</div>
+<div class="sf-content">
+  <div class="sf-tabs"><button class="sf-tab" type="button" tabindex="-1">Overview</button><button class="sf-tab" type="button" tabindex="-1">Position</button><button class="sf-tab sf-tab--active" type="button" tabindex="-1">Strategy</button><button class="sf-tab" type="button" tabindex="-1">Landscape</button><button class="sf-tab" type="button" tabindex="-1">Peers</button><button class="sf-tab" type="button" tabindex="-1">Calendar</button></div>
+  
+<section class="sf-section">
+  <div class="sf-toggle-header">
+    <div class="sf-toggle-text">
+      <h2 class="sf-section-title">The first letter<span class="zh-alt" hidden>第一封信</span></h2>
+      <p class="sf-section-subtitle">Tokyo galleries do not run submission boxes; the route in is attendance and then a letter. A first letter that works is short — the show attended, three sentences of introduction, one link, five paintings. It contains no request, so there is nothing in it to refuse, and any reply is a specification.<span class="zh-alt" hidden>东京的画廊不设投稿箱；进入的方式是先到场，然后写信。有效的第一封信很短——去看过的那场展、三句话的自我介绍、一个链接、五张画。信里没有任何请求，所以没有什么可以被拒绝；而任何一句回复，本身就是一份要求说明。</span></p>
+    </div>
+    <span class="sf-chevron sf-chevron--open">&#9662;</span>
+  </div>
+  <div class="rv-note">The six conventions sit behind a &ldquo;show me&rdquo; toggle in the app; opened here.</div>
+  <div class="sf-section-body">
+    <p class="sf-ok-note">Addressed to Gallery Kogure, the closest roster match found. The body holds for any of them with the first paragraph changed.<span class="zh-alt" hidden>这封写给 Gallery Kogure——目前找到的、代理风格最接近的一家。换掉第一段，正文对任何一家都成立。</span></p>
+    <pre class="sf-ok-letter" lang="ja">件名：作品を見ていただけますでしょうか — 水彩・GEGYjiji
+
+ギャラリー小暮 ご担当者様
+
+はじめまして。東京で水彩を描いております GEGYjiji と申します。
+先日「A Little Gem」を拝見し、紙の小さな作品を大切に扱われる場だと感じ、
+ご連絡いたしました。
+
+2020年から毎日一枚の水彩を描き続けており、東京の街角や室内、
+建築とそこに射す光を主題にしています。今年、原宿の Galerie LE MONDE で
+個展を開催しました。これまでに上海と東京で個展を3回、天津・台州の
+美術館でのグループ展にも参加しています。
+
+作品5点を下記にまとめております。
+もしご興味をお持ちいただけましたら、実物をお持ちして
+ご覧いただければ幸いです。
+
+［リンク］
+
+GEGYjiji
+@gegyjiji</pre>
+    <div class="sf-block-label">Six things that are true in Tokyo specifically<span class="zh-alt" hidden>在东京，这六件事是真的</span> &#9662;</div>
+    <ul class="sf-ok-rules"><li>One link — Instagram, or a single web album. Attachments from an unknown sender routinely go unopened.<span class="zh-alt" hidden>一个链接——Instagram，或者一个网页相册。来自陌生寄件人的附件，通常不会被打开。</span></li><li>Five images from one series, rather than a selection across the practice. The judgement being made is whether the work holds a wall, not how many kinds of thing it can be.<span class="zh-alt" hidden>五张，来自同一个系列，而不是跨越整个创作的选集。对方要判断的是这批作品能不能撑起一面墙，而不是它能有多少种面貌。</span></li><li>The sentence naming which of their shows was attended is the one part of the letter that cannot be fabricated, and the part that gets read twice.<span class="zh-alt" hidden>写明去看过他们哪一场展的那句话，是整封信里唯一无法伪造的部分，也是会被读两遍的部分。</span></li><li>The first letter asks for a viewing, not a show. A request for a show is a proposal, and a proposal is something that can be declined.<span class="zh-alt" hidden>第一封信请求的是「看一下」，不是一次展览。请求展览就成了提案，而提案是可以被否决的。</span></li><li>Silence at ten days indicates the letter was not seen rather than refused. A second letter three months later, at the next opening, comes from someone who has by then been twice.<span class="zh-alt" hidden>十天没有回音，通常意味着信没有被看到，而不是被拒绝。三个月后下一场展开幕时写第二封，寄信人已经是「来过两次的人」。</span></li><li>Sizes and prices are left out until they are asked for. Included unprompted, the letter becomes a quote sheet.<span class="zh-alt" hidden>尺寸和价格在对方问起之前不写。没被问就写上，信就变成了一份报价单。</span></li></ul></div>
+</section>
+  
+<section class="sf-section">
+  <div class="sf-toggle-header">
+    <div class="sf-toggle-text">
+      <h2 class="sf-section-title">Five possible futures</h2>
+      <p class="sf-section-subtitle">Five kinds of success, not five strategies. They are not exclusive, and the record already sits on more than one of them.<span class="zh-alt" hidden>五种「成功」，而不是五种策略。它们并不互斥，而现有的履历已经落在其中不止一条上。</span></p>
+    </div>
+    <span class="sf-chevron sf-chevron--open">&#9662;</span>
+  </div>
+  <div class="rv-note">In the app each of the five is collapsed to its name and tagline, and the three blocks at the foot of each are behind their own lids. Everything is drawn open here so the copy can be read.</div>
+  <div class="sf-section-body"><div class="sf-futures">
+      <div class="sf-future sf-future--open">
+        <div class="sf-future-head">
+          <div>
+            <div class="sf-future-name">Selling Direct<span class="zh-alt" hidden>直接卖</span></div>
+            <div class="sf-future-tagline">The audience is the asset. Nothing stands between the work and the people who buy it.<span class="zh-alt" hidden>观众本身就是资产。作品与买家之间没有任何中间人。</span></div>
+          </div>
+          <span class="sf-chevron sf-chevron--open">&#9662;</span>
+        </div>
+        <div class="sf-future-body">
+          <p class="sf-future-overview">The work is made and distributed directly. No gallery commission, no publisher deciding the next book, no client revisions.<span class="zh-alt" hidden>作品由本人制作，直接送到买家手里。没有画廊抽成，没有出版社决定下一本书，没有客户提修改意见。</span></p>
+          <div class="sf-block-label">What this one gives that the others don&rsquo;t</div>
+          <ul class="sf-future-advantages"><li>The only one of the five where nobody is positioned to say no. The exposure here is not rejection, it is continuity — income tracks how regularly the work appears.<span class="zh-alt" hidden>五条路里唯一一条没有人站在能拒绝的位置上的。这条路的风险不是被拒绝，而是持续性——收入与作品出现的规律程度直接相关。</span></li><li>Nothing built here can be withdrawn by another party&#x27;s decision. A gallery roster, a publisher&#x27;s list and a client relationship can each end from the other side; an audience cannot be taken back.<span class="zh-alt" hidden>这里建起来的东西，不会因为另一方的一个决定而消失。画廊的代理名单、出版社的书目、客户关系，都可能由对方那一头结束；观众不会被收回去。</span></li><li>The fastest answer of the five. Sales data arrives within weeks of a launch, where an application takes most of a year to come back.<span class="zh-alt" hidden>五条路里回音最快的一条。发布后几周内就有销售数据，而一份申请要等上大半年才有回音。</span></li><li>The only one with a layer that stops scaling with hours. A recorded course is made once and sold indefinitely; everywhere else on this list, payment follows each thing made.<span class="zh-alt" hidden>唯一一条有「不随时间线性增长」那一层的路。录制课程做一次，可以长期卖下去；这份清单上的其他每一条，都是做一件、收一次钱。</span></li></ul>
+          <div class="sf-future-standing">
+            <div class="sf-block-label">Strengths on this path</div>
+            <ul class="sf-future-strengths"><li>Six years of daily work, published without a break.<span class="zh-alt" hidden>六年日课，中间没有断过。</span></li><li>An audience of about 26,000 that already exists — a launch here runs to people who are already looking.<span class="zh-alt" hidden>一群已经存在的、约 2.6 万人的观众——这里的发布面向的是本来就在看的人。</span></li><li>A shop already operating, with its own buyers.<span class="zh-alt" hidden>一个已经在运转的店铺，有自己的买家。</span></li><li>2 publications already sold straight to that audience.<span class="zh-alt" hidden>2 本出版物，已经直接卖给了这群观众。</span></li></ul>
+          </div>
+          <div class="sf-details">
+        <div class="sf-detail sf-detail--open">
+          <div class="sf-detail-head">
+            <span class="sf-detail-label">How the money works<span class="zh-alt" hidden>钱是怎么来的</span></span>
+            <span class="sf-chevron sf-chevron--sm sf-chevron--open">&#9662;</span>
+          </div>
+          <div class="sf-detail-body"><p class="sf-detail-prose">Three layers, ascending in both what they pay and what they cost to set up. Prints and postcards: low margin, steady volume. Editions and originals: high margin, low volume. A recorded course: made once, sold indefinitely. The first two scale with hours worked. The third is the layer that converts an audience into an income, because it stops scaling with hours.<span class="zh-alt" hidden>三层，收入与前期投入同时递增。版画与明信片：利润低，但走量稳定。限量与原作：利润高，但数量少。录制课程：做一次，可以长期卖下去。前两层的收入与投入的时间成正比；第三层之所以是把观众转化为收入的那一层，正是因为它不再与时间成正比。</span></p></div>
+        </div>
+        <div class="sf-detail sf-detail--open">
+          <div class="sf-detail-head">
+            <span class="sf-detail-label">What this path needs<span class="zh-alt" hidden>这条路需要什么</span></span>
+            <span class="sf-chevron sf-chevron--sm sf-chevron--open">&#9662;</span>
+          </div>
+          <div class="sf-detail-body"><ul class="sf-future-requires"><li>A subject narrow enough to teach. For architectural painting that is usually perspective and the handling of light, rather than painting in general.<span class="zh-alt" hidden>一个窄到可以教的主题。就建筑绘画而言，通常是透视与光的处理，而不是「怎么画画」。</span></li><li>Three to five hours of recorded video. A course at this scale is a recording, not a curriculum.<span class="zh-alt" hidden>三到五小时的录制视频。这个规模的课程是一段录像，不是一套教学大纲。</span></li><li>An audience that already exists. The launch runs to the people following the work; no new audience is involved.<span class="zh-alt" hidden>一群已经存在的观众。发布面向的是已经在看作品的人，不涉及新观众。</span></li><li>About a month to a verdict. Sales data arrives within weeks of launch rather than after a year.<span class="zh-alt" hidden>大约一个月就能看到结论。销售数据在发布后几周内出现，而不是一年之后。</span></li></ul><p class="sf-detail-foot"><strong>Of these, not in place yet<span class="zh-alt" hidden>这些里面，目前还没有的</span>:</strong> The layer that does not scale with hours: no course, no recorded product.<span class="zh-alt" hidden>不随时间线性增长的那一层：没有课程，没有可复制销售的产品。</span></p></div>
+        </div>
+        <div class="sf-detail sf-detail--open">
+          <div class="sf-detail-head">
+            <span class="sf-detail-label">Someone living it<span class="zh-alt" hidden>有人正在这样生活</span></span>
+            <span class="sf-chevron sf-chevron--sm sf-chevron--open">&#9662;</span>
+          </div>
+          <div class="sf-detail-body"><p class="sf-detail-prose">Ohn Mar Win: over 80,000 students on Skillshare. By her own published figures, teaching is 77% of her income and licensing 3%. That position took eleven years.<span class="zh-alt" hidden>Ohn Mar Win：Skillshare 上有八万多名学生。按她本人公开的数字，教学占其收入的 77%，授权占 3%。这个状态用了十一年。</span></p></div>
+        </div></div>
+        </div>
+      </div>
+      <div class="sf-future sf-future--open">
+        <div class="sf-future-head">
+          <div>
+            <div class="sf-future-name">Gallery Representation<span class="zh-alt" hidden>画廊代理</span></div>
+            <div class="sf-future-tagline">A gallery does the selling, the pricing, and the finding of buyers.<span class="zh-alt" hidden>由画廊来销售、定价，并且负责找买家。</span></div>
+          </div>
+          <span class="sf-chevron sf-chevron--open">&#9662;</span>
+        </div>
+        <div class="sf-future-body">
+          <p class="sf-future-overview">A gallery funds the show, takes a commission, and finds the buyers. Its own income depends on collectors who come back.<span class="zh-alt" hidden>画廊出钱办展、抽取佣金，并负责找买家。它自己的收入，取决于能不能找到会回头再买的藏家。</span></p>
+          <div class="sf-block-label">What this one gives that the others don&rsquo;t</div>
+          <ul class="sf-future-advantages"><li>The defining difference is not prestige, it is the direction the money runs. In a rental arrangement the artist pays for the room; here the gallery pays for the show.<span class="zh-alt" hidden>这条路真正的分别不在名气，而在钱的流向。租赁场地时，是艺术家付场地费；在这条路上，是画廊出钱办展。</span></li><li>Per-painting prices rise for a structural reason: somebody whose own living depends on the price is the one arguing for it.<span class="zh-alt" hidden>每张画的价格会上去，原因是结构性的：替这个价格争取的人，自己也靠它吃饭。</span></li><li>A third arrangement sits between rental and representation and is worth more than either — an open call that pays the artist to exhibit. TOKAS gives ¥150,000 toward the work and charges nothing for the venue.<span class="zh-alt" hidden>在租场地和被代理之间还有第三种安排，比哪一种都划算：反过来付钱给艺术家办展的公开征集。TOKAS 提供 15 万日元制作经费，场地不收费。</span></li><li>Standing here carries into the other four. An exhibition record is the one credential a publisher, an art director and a licensing buyer all read the same way.<span class="zh-alt" hidden>在这条路上的位置会带到其他四条路上去。展览履历是出版社、艺术总监和授权买家都会以同样方式去读的那一项。</span></li></ul>
+          <div class="sf-future-standing">
+            <div class="sf-block-label">Strengths on this path</div>
+            <ul class="sf-future-strengths"><li>8 group shows and 3 solo shows on the record.<span class="zh-alt" hidden>履历上有 8 场联展、3 场个展。</span></li><li>Museum group exhibitions, and one showing outside Asia.<span class="zh-alt" hidden>美术馆群展，以及一次亚洲以外的展出。</span></li><li>A body of work already made at the scale a show needs.<span class="zh-alt" hidden>已经画出来的、达到办一场展所需规模的作品。</span></li></ul>
+          </div>
+          <div class="sf-details">
+        <div class="sf-detail sf-detail--open">
+          <div class="sf-detail-head">
+            <span class="sf-detail-label">How the money works<span class="zh-alt" hidden>钱是怎么来的</span></span>
+            <span class="sf-chevron sf-chevron--sm sf-chevron--open">&#9662;</span>
+          </div>
+          <div class="sf-detail-body"><p class="sf-detail-prose">Commission replaces rent. A representing gallery takes 40–50%, more than a rental gallery&#x27;s cut, against no payment up front, production and promotion covered, and buyers supplied. A third arrangement sits between the two and is worth more than either: an open call that pays the artist to exhibit. TOKAS gives ¥150,000 toward the work and charges nothing for the venue.<span class="zh-alt" hidden>佣金取代租金。代理画廊抽 40–50%，比租赁画廊抽得更多；代价的另一端是不需要预先付钱、制作与宣传由画廊承担、买家也由画廊带来。在两者之间还有第三种安排，比哪一种都划算：反过来付钱给艺术家办展的公开征集。TOKAS 提供 15 万日元制作经费，场地不收费。</span></p></div>
+        </div>
+        <div class="sf-detail sf-detail--open">
+          <div class="sf-detail-head">
+            <span class="sf-detail-label">What this path needs<span class="zh-alt" hidden>这条路需要什么</span></span>
+            <span class="sf-chevron sf-chevron--sm sf-chevron--open">&#9662;</span>
+          </div>
+          <div class="sf-detail-body"><ul class="sf-future-requires"><li>Ten paintings that hang together as one body. Every funded door and every gallery conversation opens on the same ten.<span class="zh-alt" hidden>十张能作为一个整体挂在一起的画。每一个提供经费的项目、每一次与画廊的接触，面对的都是同样这十张。</span></li><li>Applications to the venues that pay rather than charge: TOKAS-Emerging around June, OPEN SITE around February, Kyoto Art Center around October.<span class="zh-alt" hidden>向那些付钱、而不是收钱的场地提交申请：TOKAS-Emerging 约在六月，OPEN SITE 约在二月，京都艺术中心约在十月。</span></li><li>Two visits, as a viewer, to each gallery whose roster resembles the work. Tokyo galleries run no submission box; the route in is attendance and then a letter.<span class="zh-alt" hidden>对每一家代理风格相近的画廊，以观众身份去两次。东京的画廊不设投稿箱，进入的方式是先到场，然后写信。</span></li><li>A first letter that requests nothing but a viewing. It contains no proposal, so there is nothing in it to decline, and any reply is a specification.<span class="zh-alt" hidden>一封只请求「看一下」的信。信里没有提案，所以没有什么可以被拒绝；而任何回复，本身就是一份要求说明。</span></li></ul><p class="sf-detail-foot"><strong>Of these, not in place yet<span class="zh-alt" hidden>这些里面，目前还没有的</span>:</strong> An exhibition funded by someone else. Every show on the record so far was paid for from this side.<span class="zh-alt" hidden>一场由别人出钱的展览。目前履历上的每一场，费用都出自这一侧。</span></p></div>
+        </div>
+        <div class="sf-detail sf-detail--open">
+          <div class="sf-detail-head">
+            <span class="sf-detail-label">Someone living it<span class="zh-alt" hidden>有人正在这样生活</span></span>
+            <span class="sf-chevron sf-chevron--sm sf-chevron--open">&#9662;</span>
+          </div>
+          <div class="sf-detail-body"><p class="sf-detail-prose">Where the road runs: Keita Morimoto paints night streets — a decade of them in Toronto before Tokyo — and is now with KOTARO NUKAGA in Japan and Almine Rech internationally, with work in the National Gallery of Canada and a 2025 solo at the 21st Century Museum in Kanazawa. That is far past a first gallery conversation, but it is the shape of the road.<span class="zh-alt" hidden>这条路通向哪里：森本启太画夜晚的街道——来东京之前，他在多伦多画了十年——如今在日本由 KOTARO NUKAGA 代理，国际上则是 Almine Rech，作品被加拿大国立美术馆收藏，2025 年在金泽21世纪美术馆办个展。这已经远远超出「第一次与画廊接触」的阶段，但那条路的形状就是这样。</span></p></div>
+        </div></div>
+        </div>
+      </div>
+      <div class="sf-future sf-future--open">
+        <div class="sf-future-head">
+          <div>
+            <div class="sf-future-name">Licensing the Images<span class="zh-alt" hidden>图像授权</span></div>
+            <div class="sf-future-tagline">Images on things, manufactured and sold by other companies.<span class="zh-alt" hidden>图像出现在各种东西上，由别的公司生产和销售。</span></div>
+          </div>
+          <span class="sf-chevron sf-chevron--open">&#9662;</span>
+        </div>
+        <div class="sf-future-body">
+          <p class="sf-future-overview">Quiet money. Images are licensed — stationery, homeware, packaging, book covers, brands — and other companies handle manufacture, distribution and sale.<span class="zh-alt" hidden>安静的钱。图像被授权出去——文具、家居、包装、书封、品牌——生产、铺货、销售都由别的公司负责。</span></p>
+          <div class="sf-block-label">What this one gives that the others don&rsquo;t</div>
+          <ul class="sf-future-advantages"><li>The only one that pays more than once for the same image. Everywhere else on this list, a thing is made and then sold once.<span class="zh-alt" hidden>唯一一条同一张图可以反复收钱的路。这份清单上的其他每一条，都是做一件、卖一次。</span></li><li>Public recognition is not part of the arrangement, and nothing here asks for new painting. It fits a practice that wants to keep painting and manage as little as possible.<span class="zh-alt" hidden>这套安排里不包含公众知名度，也不要求为它另外画新作品。它适合一种想一直画下去、又尽量不去管别的事的工作方式。</span></li><li>The one least affected by residence or visa status. The buyer is a company anywhere and the goods are files.<span class="zh-alt" hidden>受居住地与签证状态影响最小的一条。买家可以是任何地方的公司，交付的是文件。</span></li><li>Architecture and cityscape reach buyers character work does not: interiors, hospitality, stationery, publishing, travel.<span class="zh-alt" hidden>建筑与城市题材能接触到角色类作品接触不到的买家：室内、酒店餐饮、文具、出版、旅行。</span></li></ul>
+          <div class="sf-future-standing">
+            <div class="sf-block-label">Strengths on this path</div>
+            <ul class="sf-future-strengths"><li>Six years of images that repeat and hold up small — the raw material licensing buys.<span class="zh-alt" hidden>六年积累的、可重复且缩小后依然成立的图像——正是授权所购买的原料。</span></li><li>A subject that sells into categories character work never reaches.<span class="zh-alt" hidden>一个能进入角色类作品到不了的品类的题材。</span></li><li>A look that holds steady across six years — which is what a licensor buys, rather than any single image.<span class="zh-alt" hidden>六年里稳定不变的一种面貌——授权方买的是这个，而不是某一张画。</span></li></ul>
+          </div>
+          <div class="sf-details">
+        <div class="sf-detail sf-detail--open">
+          <div class="sf-detail-head">
+            <span class="sf-detail-label">How the money works<span class="zh-alt" hidden>钱是怎么来的</span></span>
+            <span class="sf-chevron sf-chevron--sm sf-chevron--open">&#9662;</span>
+          </div>
+          <div class="sf-detail-body"><p class="sf-detail-prose">Two shapes. A flat fee is one payment for one defined use: simple, and capped. A royalty is a percentage of sales, ongoing and unbounded. One scale marker is worth having before the work goes in: the one illustrator found publishing her actual income split has a twenty-year licensing practice with M&amp;S, John Lewis and Unilever, and licensing is 3% of her income against 77% from teaching. It pays well; it rarely pays most. Architecture and cityscape also licenses to a different set of buyers than character work — interiors, hospitality, stationery, publishing, travel.<span class="zh-alt" hidden>两种形式。一次性买断是一笔钱换一次约定用途：简单，但有上限。分成是按销售额抽成，持续发生，没有上限。投入之前有一个量级参考：目前找到的唯一一位公开自己收入构成的插画师，做了二十年授权，客户包括 M&amp;S、John Lewis、联合利华——授权占她收入的 3%，教学占 77%。这条路可以赚钱，但很少成为收入的主要来源。另外，建筑与城市题材的授权对象和角色类作品完全不同：室内、酒店餐饮、文具、出版、旅行。</span></p></div>
+        </div>
+        <div class="sf-detail sf-detail--open">
+          <div class="sf-detail-head">
+            <span class="sf-detail-label">What this path needs<span class="zh-alt" hidden>这条路需要什么</span></span>
+            <span class="sf-chevron sf-chevron--sm sf-chevron--open">&#9662;</span>
+          </div>
+          <div class="sf-detail-body"><ul class="sf-future-requires"><li>A set of images that hold up small and repeat. Licensing buys pattern and mood; single masterpieces are not the unit of sale.<span class="zh-alt" hidden>一组缩小之后依然成立、并且可以重复使用的图像。授权买的是图案与氛围；单张杰作不是这里的交易单位。</span></li><li>Contact with the categories already using this kind of imagery: stationery manufacturers, hotel and café interiors, publishers commissioning covers.<span class="zh-alt" hidden>与本来就在使用这类图像的领域建立接触：文具厂商、酒店与咖啡馆的室内、需要封面的出版社。</span></li><li>Contract literacy on one specific point. An unlimited buyout signed over a body of work removes the ability to license it again, and that is the one mistake here that costs years rather than money.<span class="zh-alt" hidden>在一个具体条款上的合同常识。对一批作品签下无限期买断，就等于放弃了日后再次授权它的可能；这是这条路上唯一一种代价以年计、而不是以钱计的错误。</span></li></ul><p class="sf-detail-foot"><strong>Of these, not in place yet<span class="zh-alt" hidden>这些里面，目前还没有的</span>:</strong> All of it. No licensing on record — the largest untouched category of the five.<span class="zh-alt" hidden>全部。履历上没有任何授权记录——这是五条路里最大的一片空白。</span></p></div>
+        </div>
+        <div class="sf-detail sf-detail--open">
+          <div class="sf-detail-head">
+            <span class="sf-detail-label">Someone living it<span class="zh-alt" hidden>有人正在这样生活</span></span>
+            <span class="sf-chevron sf-chevron--sm sf-chevron--open">&#9662;</span>
+          </div>
+          <div class="sf-detail-body"><p class="sf-detail-prose">No verified example yet. This entry stays empty rather than carrying an invented one.<span class="zh-alt" hidden>尚无经过核实的实例。此处留空，而不是填入一个杜撰的名字。</span></p></div>
+        </div></div>
+        </div>
+      </div>
+      <div class="sf-future sf-future--open">
+        <div class="sf-future-head">
+          <div>
+            <div class="sf-future-name">Making Books<span class="zh-alt" hidden>做书</span></div>
+            <div class="sf-future-tagline">The book is the work, not a record of it.<span class="zh-alt" hidden>书本身就是作品，而不是作品的记录。</span></div>
+          </div>
+          <span class="sf-chevron sf-chevron--open">&#9662;</span>
+        </div>
+        <div class="sf-future-body">
+          <p class="sf-future-overview">Books are the vehicle — not zines documenting a practice, but books bought because they are books.<span class="zh-alt" hidden>书是载体——不是记录创作过程的 zine，而是别人因为它是一本书才买下的书。</span></p>
+          <div class="sf-block-label">What this one gives that the others don&rsquo;t</div>
+          <ul class="sf-future-advantages"><li>The only one of the five whose price is knowable before anything starts. Every other door on the list is an application and a wait.<span class="zh-alt" hidden>五条路里唯一一条在开始之前就能知道价钱的。清单上其他每一扇门，都是先申请，然后等。</span></li><li>The object works on the other four paths. A finished book is what a gallery, a publisher and an art director are each shown.<span class="zh-alt" hidden>做出来的东西在其他四条路上都用得上。画廊、出版社、艺术总监——拿给他们看的都是同一本成品书。</span></li><li>A book on a shelf finds strangers. It reaches people who will never see a post.<span class="zh-alt" hidden>书摆在架子上，会被陌生人拿起来。它能到达那些永远不会看到一条帖子的人。</span></li><li>The one fork inside this path changes more than any decision elsewhere on the list: whether a publisher is involved. With one there is no outlay and no inventory, and distribution reaches bookshops nationally, which self-publishing does not.<span class="zh-alt" hidden>这条路内部的那个岔口，比清单上任何其他决定都更能改变结果：有没有出版社参与。有出版社，就不需要出钱，家里也不堆书，发行能进入全国书店——这是自出版做不到的。</span></li></ul>
+          <div class="sf-future-standing">
+            <div class="sf-block-label">Strengths on this path</div>
+            <ul class="sf-future-strengths"><li>2 publications and eight zines already made and sold.<span class="zh-alt" hidden>2 本出版物、八本 zine，都已经做出来并卖过。</span></li><li>Six years of daily work — more material than a book needs.<span class="zh-alt" hidden>六年的日课——比做一本书所需要的材料还多。</span></li><li>Colour Diary already did the job a publisher is shown.<span class="zh-alt" hidden>《Colour Diary》已经承担过「拿给出版社看」的那个作用。</span></li><li>Chinese-language negotiation with printers, which is the single largest lever on the cost.<span class="zh-alt" hidden>能用中文和印厂谈——这是成本上最大的一个杠杆。</span></li></ul>
+          </div>
+          <div class="sf-details">
+        <div class="sf-detail sf-detail--open">
+          <div class="sf-detail-head">
+            <span class="sf-detail-label">How the money works<span class="zh-alt" hidden>钱是怎么来的</span></span>
+            <span class="sf-chevron sf-chevron--sm sf-chevron--open">&#9662;</span>
+          </div>
+          <div class="sf-detail-body"><p class="sf-detail-prose">Self-published, printed in China at 300 copies: roughly ¥394,500 up front, recovered at 109 copies sold directly. Printed in Japan at 100 copies it cannot break even at any sell-through; a small run is only viable at a high cover price. With a publisher there is no outlay and no inventory, the per-copy earning is roughly a tenth, and distribution reaches bookshops nationally. The publisher carries volume and risk. The variable it introduces is their consent. The whole arithmetic sits under “What a book costs” further down this page.<span class="zh-alt" hidden>自己出版、在中国印 300 本：前期约 394,500 日元，直接卖出 109 本回本。在日本印 100 本，则无论卖得多好都无法回本；小批量只有在定价够高时才成立。有出版社时，不需要出钱，家里也不堆书，每本大约只拿十分之一，但发行能进入全国书店。出版社承担的是数量和风险。它引入的变量，是对方是否同意。完整的算法在本页下面的「一本书要花多少钱」里。</span></p></div>
+        </div>
+        <div class="sf-detail sf-detail--open">
+          <div class="sf-detail-head">
+            <span class="sf-detail-label">What this path needs<span class="zh-alt" hidden>这条路需要什么</span></span>
+            <span class="sf-chevron sf-chevron--sm sf-chevron--open">&#9662;</span>
+          </div>
+          <div class="sf-detail-body"><ul class="sf-future-requires"><li>Material, which already exists: six years of daily work is more than a book needs.<span class="zh-alt" hidden>材料——这一项已经具备：六年的日课，比做一本书所需要的还多。</span></li><li>Quotes from a Japanese and a Chinese printer against the same specification. The prices quoted to a Chinese speaker and to a foreigner are not the same prices.<span class="zh-alt" hidden>同一份规格，分别向日本和中国的印厂询价。报给中文使用者的价格，和报给外国人的价格，不是同一个价格。</span></li><li>A channel plan that does not depend on the audience: consignment in a few shops plus one fair booth. If those cover the run, direct sales become upside rather than a requirement.<span class="zh-alt" hidden>一套不依赖观众的销售计划：几家店的寄售，加一个书展摊位。如果这些能覆盖印量，直接销售就从「必须」变成了「额外」。</span></li><li>A finished object, if a publisher is the target. A self-published book is also the thing a publisher is shown; Colour Diary already performed that function once.<span class="zh-alt" hidden>如果目标是出版社，还需要一个成品。自己出的书同时也是拿给出版社看的东西；《Colour Diary》已经承担过一次这个功能。</span></li></ul><p class="sf-detail-foot"><strong>Of these, not in place yet<span class="zh-alt" hidden>这些里面，目前还没有的</span>:</strong> A book made to be bought as a book, and quotes from a Chinese printer against a Japanese one.<span class="zh-alt" hidden>一本作为「书」被买走的书，以及一份中国印厂与日本印厂的对比报价。</span></p></div>
+        </div>
+        <div class="sf-detail sf-detail--open">
+          <div class="sf-detail-head">
+            <span class="sf-detail-label">Someone living it<span class="zh-alt" hidden>有人正在这样生活</span></span>
+            <span class="sf-chevron sf-chevron--sm sf-chevron--open">&#9662;</span>
+          </div>
+          <div class="sf-detail-body"><p class="sf-detail-prose">Mateusz Urbanowicz: his Tokyo architecture books (Tokyo Storefronts, Tokyo at Night) are published by MdN rather than self-published, and the series has passed 100,000 copies in Japan. He sells originals himself and has no gallery.<span class="zh-alt" hidden>Mateusz Urbanowicz：他画东京建筑的书（《东京店构え》《东京夜行》）由 MdN 出版，不是自出版，这个系列在日本已经卖过十万册。原作由他自己销售，没有画廊代理。</span></p></div>
+        </div></div>
+        </div>
+      </div>
+      <div class="sf-future sf-future--open">
+        <div class="sf-future-head">
+          <div>
+            <div class="sf-future-name">Commissioned Work<span class="zh-alt" hidden>接委托</span></div>
+            <div class="sf-future-tagline">Client work. Somebody asks for the picture, and pays for it.<span class="zh-alt" hidden>客户工作。有人来要这张画，并且付钱。</span></div>
+          </div>
+          <span class="sf-chevron sf-chevron--open">&#9662;</span>
+        </div>
+        <div class="sf-future-body">
+          <p class="sf-future-overview">Editorial illustration, book covers, commissions. A brief arrives, the work is delivered, payment follows a schedule.<span class="zh-alt" hidden>杂志插画、书籍封面、委托创作。需求送来，稿件交付，按约定时间付款。</span></p>
+          <div class="sf-block-label">What this one gives that the others don&rsquo;t</div>
+          <ul class="sf-future-advantages"><li>The only one of the five with a predictable monthly number. It is also the least romantic of them, and those two facts are the same fact.<span class="zh-alt" hidden>五条路里唯一一条每月收入可以预期的。它也是最不浪漫的一条——这两件事其实是同一件事。</span></li><li>The work is paid for before it exists. Everywhere else on this list the painting is made first and sold afterwards, if at all.<span class="zh-alt" hidden>这里是先付钱、后有作品。这份清单上的其他每一条，都是先把画画出来，之后才谈卖不卖得掉。</span></li><li>No inventory and no unsold stock. Nothing sits in a room waiting for a buyer.<span class="zh-alt" hidden>没有库存，也没有卖不掉的存货。不会有东西堆在房间里等买家。</span></li><li>Architecture and atmosphere are in specific demand for covers: literary fiction leans heavily on exactly this kind of image.<span class="zh-alt" hidden>建筑与氛围类的画在封面上有明确需求：文学小说的封面，大量依赖的正是这一类图像。</span></li></ul>
+          <div class="sf-future-standing">
+            <div class="sf-block-label">Strengths on this path</div>
+            <ul class="sf-future-strengths"><li>Training in illustration and design, which is the training this field runs on.<span class="zh-alt" hidden>插画与设计的科班训练——这个领域运转所依赖的正是这套训练。</span></li><li>A subject Japanese literary publishers commission continuously.<span class="zh-alt" hidden>一个日本文学出版社持续在找人画的题材。</span></li><li>Six years of consistent delivery, which is what an art director is buying.<span class="zh-alt" hidden>六年不间断的产出——艺术总监买的正是这个。</span></li></ul>
+          </div>
+          <div class="sf-details">
+        <div class="sf-detail sf-detail--open">
+          <div class="sf-detail-head">
+            <span class="sf-detail-label">How the money works<span class="zh-alt" hidden>钱是怎么来的</span></span>
+            <span class="sf-chevron sf-chevron--sm sf-chevron--open">&#9662;</span>
+          </div>
+          <div class="sf-detail-body"><p class="sf-detail-prose">Per-commission fees, negotiated by scope of use. An agent takes 25–30% and supplies work that would not otherwise appear, though a large share of working illustrators operate without one and take commissions direct. Rates vary enormously by client, which is the mechanism by which the portfolio shown determines the work offered.<span class="zh-alt" hidden>按单收费，按使用范围议价。经纪人抽 25–30%，带来的是自己接触不到的工作；不过相当一部分一直在接活的插画家并没有经纪人，都是直接对接。不同客户之间价差极大——这正是「拿出什么作品集，就会被找去做什么活」的作用机制。</span></p></div>
+        </div>
+        <div class="sf-detail sf-detail--open">
+          <div class="sf-detail-head">
+            <span class="sf-detail-label">What this path needs<span class="zh-alt" hidden>这条路需要什么</span></span>
+            <span class="sf-chevron sf-chevron--sm sf-chevron--open">&#9662;</span>
+          </div>
+          <div class="sf-detail-body"><ul class="sf-future-requires"><li>A portfolio built around use rather than paintings. A cover mock-up reads to an art director in a way an exhibition photograph does not.<span class="zh-alt" hidden>一份围绕「用途」而不是「画作」构建的作品集。对艺术总监而言，一个封面样稿的可读性，和一张展览照片完全不同。</span></li><li>Entry to the industry&#x27;s own competitions — The Choice, HB Gallery FILE. Those are where Japanese art directors look.<span class="zh-alt" hidden>参加这个行业自己的比赛——The Choice、HB Gallery FILE。日本的艺术总监会去看的就是这些。</span></li><li>Direct approach to publishers. Japanese literary publishers commission covers continuously.<span class="zh-alt" hidden>直接联系出版社。日本的文学出版社持续在找人画封面。</span></li><li>An agent, last. Representation follows a workload that needs managing; it does not precede it.<span class="zh-alt" hidden>经纪人放在最后。代理是在有活要管之后才出现的，不在那之前。</span></li></ul><p class="sf-detail-foot"><strong>Of these, not in place yet<span class="zh-alt" hidden>这些里面，目前还没有的</span>:</strong> Commercial work on record, and a portfolio that shows use rather than paintings.<span class="zh-alt" hidden>履历上的商业作品，以及一份展示「用途」而不是「画作」的作品集。</span></p></div>
+        </div>
+        <div class="sf-detail sf-detail--open">
+          <div class="sf-detail-head">
+            <span class="sf-detail-label">Someone living it<span class="zh-alt" hidden>有人正在这样生活</span></span>
+            <span class="sf-chevron sf-chevron--sm sf-chevron--open">&#9662;</span>
+          </div>
+          <div class="sf-detail-body"><p class="sf-detail-prose">Tatsuro Kiuchi: book jackets, editorial and advertising — Ikeido Jun&#x27;s novels, the New York Times, Penguin, Uniqlo. He works without an agent; commissions come direct.<span class="zh-alt" hidden>木内达朗：书籍封面、杂志插画与广告——池井户润的小说、《纽约时报》、企鹅出版、优衣库。他没有经纪人，工作直接找上门。</span></p></div>
+        </div></div>
+        </div>
+      </div></div></div>
+</section>
+  
+<section class="sf-section">
+  <div class="sf-toggle-header">
+    <div class="sf-toggle-text">
+      <h2 class="sf-section-title">What a book costs</h2>
+      <p class="sf-section-subtitle">A print run is the only item on this list with a price that can be known in advance. Everything else is an application and a wait.<span class="zh-alt" hidden>在这份清单上，印一本书是唯一一件事先就能知道价钱的事。其余每一样，都是先申请，然后等。</span></p>
+    </div>
+    <span class="sf-chevron sf-chevron--open">&#9662;</span>
+  </div>
+  <div class="rv-note">Cover price &yen;4,950, ~128pp full-colour hardcover, consignment at 70/30. Every figure sourced in <code>reports/book_economics_2026-09-05.md</code>. The route-by-route arithmetic is behind a lid in the app; drawn open here. Routes that cannot break even appear on the chart and are left out of the list below it.</div>
+  <div class="sf-section-body">
+    <p class="sf-be-claim">What a book costs can be worked out to the yen before anything starts. How fast the copies sell cannot be worked out at all. That gap — a fixed price against an open-ended sell-through — is the whole of the decision, and carrying it is what a publisher is.<span class="zh-alt" hidden>做一本书要花多少钱，可以在开始之前精确到日元算出来；能卖多快，则完全算不出来。一头是固定的价钱，另一头是没有底的销售速度——要决定的全部就是这个落差，而把这个落差接过去，正是出版社的作用。</span></p>
+    <p class="sf-be-answer">It is not a loss. ¥394,500 buys 300 copies; the run is back at 109 sold and the other 191 are profit. It is slow, which is a different thing — and the pace below is what makes it slow.<span class="zh-alt" hidden>它不是亏本生意。¥394,500 换来 300 本；卖到第 109 本回本，剩下的 191 本是净赚。它慢，但慢和亏是两回事——下面的数字说明的是它为什么慢。</span></p>
+
+    <div class="sf-fork">
+      <div class="sf-block-label">Who carries the ¥394,500<span class="zh-alt" hidden>这 ¥394,500 由谁来出</span></div>
+      <div class="sf-fork-cols">
+        <div class="sf-fork-col sf-fork-col--self">
+          <div class="sf-fork-name">Self-published<span class="zh-alt" hidden>自己出版</span></div>
+          <dl class="sf-fork-rows"><div class="sf-fork-row"><dt>Up front</dt><dd>¥394,500 — 300 copies, printed in China, landed in Tokyo<span class="zh-alt" hidden>¥394,500——300 本，在中国印，运抵东京</span></dd></div><div class="sf-fork-row"><dt>Back at</dt><dd>109 copies of 300; the other 191 are profit<span class="zh-alt" hidden>300 本里的第 109 本；剩下 191 本是净赚</span></dd></div><div class="sf-fork-row"><dt>Per copy</dt><dd>¥3,635 on a direct sale<span class="zh-alt" hidden>直接卖出，¥3,635</span></dd></div><div class="sf-fork-row"><dt>Reach</dt><dd>Own shop, a few consignment shops, one fair booth at a time<span class="zh-alt" hidden>自己的店铺、几家寄售的书店、一次一个展位</span></dd></div><div class="sf-fork-row"><dt>Where the copies sit</dt><dd>300 hardcovers in a room until they move<span class="zh-alt" hidden>300 本精装书堆在房间里，直到卖完</span></dd></div><div class="sf-fork-row"><dt>The variable</dt><dd>How long 109 copies takes<span class="zh-alt" hidden>卖到第 109 本要多久</span></dd></div></dl>
+        </div>
+        <div class="sf-fork-col sf-fork-col--publisher">
+          <div class="sf-fork-name">With a publisher<span class="zh-alt" hidden>有出版社</span></div>
+          <dl class="sf-fork-rows"><div class="sf-fork-row"><dt>Up front</dt><dd>Nothing<span class="zh-alt" hidden>不用付</span></dd></div><div class="sf-fork-row"><dt>Back at</dt><dd>Nothing to get back<span class="zh-alt" hidden>没有要收回的钱</span></dd></div><div class="sf-fork-row"><dt>Per copy</dt><dd>A royalty. 8–10% of cover is the Japanese convention — around ¥400–¥500 here, against ¥3,635 direct. Convention, not an offer: nobody has quoted a rate.<span class="zh-alt" hidden>版税。日本的惯例是定价的 8–10%，在这里大约 ¥400–¥500，对比自己直接卖的 ¥3,635。这是行业惯例，不是谁开出的条件——目前没有任何出版社报过价。</span></dd></div><div class="sf-fork-row"><dt>Reach</dt><dd>Bookshops nationally<span class="zh-alt" hidden>全国的书店</span></dd></div><div class="sf-fork-row"><dt>Where the copies sit</dt><dd>The publisher&#x27;s warehouse<span class="zh-alt" hidden>出版社的仓库</span></dd></div><div class="sf-fork-row"><dt>The variable</dt><dd>Their consent<span class="zh-alt" hidden>对方同不同意</span></dd></div></dl>
+        </div></div>
+      <p class="sf-fork-note">Mateusz Urbanowicz&#x27;s Tokyo books — Tokyo Storefronts, Tokyo at Night — are published by MdN rather than self-published, and the series has passed 100,000 copies in Japan. Self-publishing has no route to that number; equally, no self-published run waits for anyone&#x27;s permission. That is the whole of the trade.<span class="zh-alt" hidden>Mateusz Urbanowicz 画东京的那两本书——《东京店构え》《东京夜行》——由 MdN 出版，不是自出版，这个系列在日本卖过十万册。自出版没有任何途径能到那个数字；反过来，自出版也不需要等谁点头。这就是这笔交易的全部内容。</span></p>
+    </div>
+
+    <div class="sf-pace">
+      <div class="sf-block-label">How fast copies actually move<span class="zh-alt" hidden>书实际上卖得有多快</span></div>
+      <ul class="sf-pace-facts"><li>The median at a Japanese art book fair is 20–25 copies. On fairs alone, 109 copies is 5–6 of them.<span class="zh-alt" hidden>日本艺术书展的中位数是 20–25 本。只靠书展的话，109 本要摆 5–6 次摊。</span></li><li>The cheapest Tokyo Art Book Fair booth is ¥16,500, with no commission on sales. At these costs it pays for itself in 5 copies — inside the first hour.<span class="zh-alt" hidden>东京艺术书展最便宜的展位是 ¥16,500，销售不抽成。按这里的成本，卖 5 本就回本了——第一个小时之内。</span></li><li>Consignment at the standard 70/30 only clears when the landed cost is under roughly ¥1,500 a copy, which among these routes means China at 300 or more. Run size and sales channel are therefore one decision, not two.<span class="zh-alt" hidden>按 70/30 的标准寄售分成，落地成本要低于大约 ¥1,500 才有得赚，在这几条路里就是中国印 300 本以上。所以印多少和在哪里卖是同一个决定，不是两个。</span></li></ul>
+    </div>
+
+    <div class="sf-details">
+        <div class="sf-detail sf-detail--open">
+          <div class="sf-detail-head">
+            <span class="sf-detail-label">The arithmetic, route by route<span class="zh-alt" hidden>每一条路的算法</span></span>
+            <span class="sf-chevron sf-chevron--sm sf-chevron--open">&#9662;</span>
+          </div>
+          <div class="sf-detail-body">
+  <figure class="sf-be-fig">
+    <svg viewBox="0 0 300 150" class="sf-be-svg" role="img" aria-label="What a book costs">
+      
+      <g>
+        <text x="0" y="20" class="sf-be-label">100 &#183; Printed in China</text>
+        <rect x="104" y="11" width="188.00" height="14" rx="3"
+              fill="#c47a35" opacity="0.3" />
+        <line x1="129.07" y1="8" x2="129.07" y2="27"
+              stroke="#7a5c3a" stroke-width="1.5" />
+        <text x="109" y="21" class="sf-be-val sf-be-val--in">can&#39;t pay for itself</text>
+      </g>
+      <g>
+        <text x="0" y="46" class="sf-be-label">300 &#183; Printed in China</text>
+        <rect x="104" y="37" width="27.32" height="14" rx="3"
+              fill="#c47a35" opacity="0.92" />
+        <line x1="179.20" y1="34" x2="179.20" y2="53"
+              stroke="#7a5c3a" stroke-width="1.5" />
+        <text x="136.32" y="47" class="sf-be-val">109</text>
+      </g>
+      <g>
+        <text x="0" y="72" class="sf-be-label">500 &#183; Printed in China</text>
+        <rect x="104" y="63" width="27.57" height="14" rx="3"
+              fill="#c47a35" opacity="0.92" />
+        <line x1="229.33" y1="60" x2="229.33" y2="79"
+              stroke="#7a5c3a" stroke-width="1.5" />
+        <text x="136.57" y="73" class="sf-be-val">110</text>
+      </g>
+      <g>
+        <text x="0" y="98" class="sf-be-label">100 &#183; Printed in Japan, digital</text>
+        <rect x="104" y="89" width="188.00" height="14" rx="3"
+              fill="#c47a35" opacity="0.3" />
+        <line x1="129.07" y1="86" x2="129.07" y2="105"
+              stroke="#7a5c3a" stroke-width="1.5" />
+        <text x="109" y="99" class="sf-be-val sf-be-val--in">can&#39;t pay for itself</text>
+      </g>
+      <g>
+        <text x="0" y="124" class="sf-be-label">500 &#183; Printed in Japan, offset A4</text>
+        <rect x="104" y="115" width="188.00" height="14" rx="3"
+              fill="#c47a35" opacity="0.3" />
+        <line x1="229.33" y1="112" x2="229.33" y2="131"
+              stroke="#7a5c3a" stroke-width="1.5" />
+        <text x="109" y="125" class="sf-be-val sf-be-val--in">can&#39;t pay for itself</text>
+      </g>
+      <text x="229.33" y="146" class="sf-be-tick" text-anchor="middle">printed</text>
+    </svg>
+    <figcaption class="sf-be-cap">A bar past the marker means selling more copies than exist.</figcaption>
+  </figure><div class="sf-be-rows">
+      <div class="sf-be-row">
+        <div class="sf-be-row-head">300 &#183; Printed in China<span class="zh-alt" hidden>在中国印</span></div>
+        <div class="sf-be-row-num">&yen;394,500 up front &#183;
+          109 copies to break even<span class="sf-be-ok"> &#183; works on consignment</span></div>
+        <div class="sf-be-row-note">Landed in Tokyo, freight included. These are the prices quoted to an English speaker; the same specification asked for in Chinese is a different price.<span class="zh-alt" hidden>运抵东京、含运费。这些是报给英语使用者的价格；同一份规格用中文去问，是另一个价格。</span></div>
+      </div>
+      <div class="sf-be-row">
+        <div class="sf-be-row-head">500 &#183; Printed in China<span class="zh-alt" hidden>在中国印</span></div>
+        <div class="sf-be-row-num">&yen;445,000 up front &#183;
+          110 copies to break even<span class="sf-be-ok"> &#183; works on consignment</span></div>
+        <div class="sf-be-row-note">Landed in Tokyo, freight included. These are the prices quoted to an English speaker; the same specification asked for in Chinese is a different price.<span class="zh-alt" hidden>运抵东京、含运费。这些是报给英语使用者的价格；同一份规格用中文去问，是另一个价格。</span></div>
+      </div></div><p class="sf-be-highprice">The same 100-copy run priced at ¥11,000 pays for itself at 41 copies. A small run is not rescued by selling harder; it is rescued by the price on the cover.<span class="zh-alt" hidden>同样是印 100 本，如果定价 11,000 日元，卖 41 本就能回本。小批量不是靠多卖救回来的，是靠封底那个价格。</span></p></div>
+        </div></div>
+    <p class="sf-be-caveat">Break-even is knowable; how many copies sell is not. Every figure here is sourced; the sell-through numbers are medians from other people&#x27;s fairs, not a forecast.<span class="zh-alt" hidden>回本的数字可以算出来，能卖多少本却算不出来。这里每一个数字都有出处；而销售数字是别人书展的中位数，不是预测。</span></p></div>
+</section>
+  
+<section class="sf-section">
+  <div class="sf-toggle-header">
+    <div class="sf-toggle-text">
+      <h2 class="sf-section-title">Doors that open again</h2>
+      <p class="sf-section-subtitle">2 open today, 7 inside their preparation lead time</p>
+    </div>
+    <span class="sf-chevron sf-chevron--open">&#9662;</span>
+  </div>
+  <div class="rv-note">This one sits on the <strong>Calendar</strong> tab, above the month grid &mdash; not on Strategy with the three above it.</div>
+  <div class="sf-section-body"><div class="sf-doors">
+      <div class="sf-door sf-door--open">
+        <div class="sf-door-when"><span class="sf-door-badge sf-door-badge--open">Open now</span></div>
+        <a class="sf-door-name sf-ext-link" href="https://www.artscouncil-tokyo.jp/grants/startup-grant-program/" target="_blank" rel="noopener">Arts Council Tokyo Startup Grant<span class="zh-alt" hidden>东京艺术委员会 创业期扶持金</span> &#8599;</a>
+        <p class="sf-door-gives">Up to ¥300,000 for a public activity in Tokyo. No nationality clause. Three rounds a year, so a missed one comes round again.<span class="zh-alt" hidden>在东京的公开活动最高 30 万日元。无国籍限制。一年三轮，错过一轮还有下一轮。</span></p>
+        <p class="sf-door-worth">&asymp; 3&ndash;9 paintings that don&rsquo;t have to be sold</p><p class="sf-door-prep"><strong>Have ready:</strong> A show that was already going to happen — this funds the thing, not a new idea.<span class="zh-alt" hidden>一个本来就打算做的展览——它资助的是这件事本身，不是一个新点子。</span></p>
+      </div>
+      <div class="sf-door sf-door--open">
+        <div class="sf-door-when"><span class="sf-door-badge sf-door-badge--open">Open now</span></div>
+        <a class="sf-door-name sf-ext-link" href="https://www.tokyoartsandspace.jp/application/index.html" target="_blank" rel="noopener">TOKAS residencies (local + exchange)<span class="zh-alt" hidden>TOKAS 驻地（国内・交流）</span> &#8599;</a>
+        <p class="sf-door-gives">60–90 days in Sumida with a production fee, or ~3 fully funded months in Taipei, Seoul or Helsinki. Nationality unrestricted.<span class="zh-alt" hidden>在墨田驻留 60–90 天并有制作费，或全额资助约 3 个月，前往台北、首尔或赫尔辛基。不限国籍。</span></p>
+        <p class="sf-door-prep"><strong>Have ready:</strong> A reason to be somewhere — what the place would change about the work.<span class="zh-alt" hidden>一个「为什么要去那里」的理由——那个地方会让作品发生什么变化。</span></p>
+      </div>
+      <div class="sf-door">
+        <div class="sf-door-when"><span class="sf-door-month">October</span><span class="sf-door-badge">Worth starting now</span></div>
+        <a class="sf-door-name sf-ext-link" href="https://www.asianculturalcouncil.org/grant-opportunities" target="_blank" rel="noopener">Asian Cultural Council fellowship<span class="zh-alt" hidden>亚洲文化协会 个人奖助</span> &#8599;</a>
+        <p class="sf-door-gives">Up to US$35,000. The Mainland China track runs on citizenship rather than residence — where an applicant lives does not matter.<span class="zh-alt" hidden>最高 3.5 万美元。凭中国国籍即可申请中国大陆项目——住在哪里并不影响资格。</span></p>
+        <p class="sf-door-prep"><strong>Have ready:</strong> References, and a plan for months rather than weeks. Start early; this is the longest form on the list.<span class="zh-alt" hidden>推荐人，以及一份以「月」而不是「周」为单位的计划。早点开始——这是清单上最长的一份申请。</span></p>
+      </div>
+      <div class="sf-door">
+        <div class="sf-door-when"><span class="sf-door-month">October (timing approximate)</span><span class="sf-door-badge">Worth starting now</span></div>
+        <a class="sf-door-name sf-ext-link" href="https://hbgallery.com/compe.html" target="_blank" rel="noopener">HB Gallery FILE competition<span class="zh-alt" hidden>HB Gallery FILE 大赛</span> &#8599;</a>
+        <p class="sf-door-gives">No eligibility restriction. Five grand-prize winners each get a one-week solo in Omotesando.<span class="zh-alt" hidden>无资格限制。五位大奖得主各获得表参道的一周个展。</span></p>
+        <p class="sf-door-prep"><strong>Have ready:</strong> 15–20 works chosen as a set — this one is judged by art directors, not curators.<span class="zh-alt" hidden>15–20 张作为一组来选的作品——评审是艺术总监，不是策展人。</span></p>
+      </div>
+      <div class="sf-door">
+        <div class="sf-door-when"><span class="sf-door-month">October</span><span class="sf-door-badge">Worth starting now</span></div>
+        <a class="sf-door-name sf-ext-link" href="https://www.tagboat.com/artevent/independenttokyo2026/index.php" target="_blank" rel="noopener">Independent Tokyo<span class="zh-alt" hidden>Independent Tokyo</span> &#8599;</a>
+        <p class="sf-door-gives">Screened by the organiser, with 20–30 gallerists judging on the floor. The recognised way galleries find new artists.<span class="zh-alt" hidden>由主办方筛选，现场有 20–30 位画廊主担任评审。是画廊发掘新艺术家的公认渠道。</span></p>
+        <p class="sf-door-prep"><strong>Have ready:</strong> One coherent wall, and a short answer to the question every gallerist on the floor asks — what is being made at the moment.<span class="zh-alt" hidden>一面完整连贯的墙，和一句能回答「最近在做什么」的简短说明——现场每一位画廊主都会问这句。</span></p>
+      </div>
+      <div class="sf-door">
+        <div class="sf-door-when"><span class="sf-door-month">October (timing approximate)</span><span class="sf-door-badge">Worth starting now</span></div>
+        <a class="sf-door-name sf-ext-link" href="https://www.kac.or.jp/open_call/" target="_blank" rel="noopener">Kyoto Art Center Co-program<span class="zh-alt" hidden>京都艺术中心 Co-program</span> &#8599;</a>
+        <p class="sf-door-gives">The best-funded open call found anywhere in Japan — up to ¥1,000,000 for a solo, plus six weeks of studio.<span class="zh-alt" hidden>目前在日本找到的经费最充裕的公开征集——个展最高 100 万日元，外加六周工作室。</span></p>
+        <p class="sf-door-worth">&asymp; 9&ndash;31 paintings that don&rsquo;t have to be sold</p><p class="sf-door-prep"><strong>Have ready:</strong> A project, not a portfolio — they fund something being made, not something finished.<span class="zh-alt" hidden>要的是一个项目，而不是作品集——他们资助的是正在发生的创作，不是已完成的东西。</span></p>
+      </div>
+      <div class="sf-door">
+        <div class="sf-door-when"><span class="sf-door-month">October</span><span class="sf-door-badge">Worth starting now</span></div>
+        <a class="sf-door-name sf-ext-link" href="https://www.nomurafoundation.or.jp/culture/art_ov01.html" target="_blank" rel="noopener">Nomura Foundation<span class="zh-alt" hidden>野村财团 艺术文化助成</span> &#8599;</a>
+        <p class="sf-door-gives">Up to ¥1,000,000. No nationality, residency or age clause. International exchange counts — a China–Japan show fits the criteria as written.<span class="zh-alt" hidden>最高 100 万日元。无国籍、居住地或年龄限制。国际交流也在范围内——一场中日交流展正符合其评选标准。</span></p>
+        <p class="sf-door-worth">&asymp; 9&ndash;31 paintings that don&rsquo;t have to be sold</p><p class="sf-door-prep"><strong>Have ready:</strong> A partner on the other side — this one wants two places, not one.<span class="zh-alt" hidden>另一边要有个合作方——这个项目要的是两个地方，而不是一个。</span></p>
+      </div>
+      <div class="sf-door">
+        <div class="sf-door-when"><span class="sf-door-month">November</span></div>
+        <a class="sf-door-name sf-ext-link" href="https://www.spiral.co.jp/artcat/sicf" target="_blank" rel="noopener">SICF (Spiral, Aoyama)<span class="zh-alt" hidden>SICF（青山 Spiral）</span> &#8599;</a>
+        <p class="sf-door-gives">Juried, artist-direct, no age or nationality limit. Grand Prize is a solo show in Spiral&#x27;s Atrium plus ¥500,000.<span class="zh-alt" hidden>评审制，艺术家可直接报名，不限年龄与国籍。大奖是在 Spiral 中庭举办个展，外加 50 万日元。</span></p>
+        <p class="sf-door-worth">&asymp; 4&ndash;16 paintings that don&rsquo;t have to be sold</p><p class="sf-door-prep"><strong>Have ready:</strong> Work that reads from across a room — the booth is seen at a distance first.<span class="zh-alt" hidden>要能从远处一眼看住的作品——展位首先是被远远看见的。</span></p>
+      </div>
+      <div class="sf-door">
+        <div class="sf-door-when"><span class="sf-door-month">December (timing approximate)</span></div>
+        <a class="sf-door-name sf-ext-link" href="https://faam.city.fukuoka.lg.jp/residence/requirement/" target="_blank" rel="noopener">Fukuoka Asian Art Museum residency<span class="zh-alt" hidden>福冈亚洲美术馆 驻地</span> &#8599;</a>
+        <p class="sf-door-gives">A museum-hosted residency ending in an exhibition. Built for artists working across Asia — neither residence nor nationality restricted.<span class="zh-alt" hidden>由美术馆主办、以展览收尾的驻地项目。专为在亚洲各地创作的艺术家而设——不限居住地与国籍。</span></p>
+        <p class="sf-door-prep"><strong>Have ready:</strong> The two-city practice is the application — say what moving between them does to the work.<span class="zh-alt" hidden>往返两座城市的创作本身就是申请内容——说清楚在两地之间移动对作品做了什么。</span></p>
+      </div>
+      <div class="sf-door">
+        <div class="sf-door-when"><span class="sf-door-month">December (timing approximate)</span></div>
+        <a class="sf-door-name sf-ext-link" href="https://biscuitgallery.com/gridnext-2026/" target="_blank" rel="noopener">biscuit gallery — &quot;grid next&quot;<span class="zh-alt" hidden>biscuit gallery「grid next」</span> &#8599;</a>
+        <p class="sf-door-gives">Free to enter, free to exhibit, students welcome — and one entrant is given a solo show.<span class="zh-alt" hidden>免费报名、免费参展，接受学生——其中一位可获得个展。</span></p>
+        <p class="sf-door-prep"><strong>Have ready:</strong> Nothing to buy and nothing to lose — the only cost is choosing the work.<span class="zh-alt" hidden>不用花钱，也没什么可失去的——唯一的成本是把作品选出来。</span></p>
+      </div>
+      <div class="sf-door">
+        <div class="sf-door-when"><span class="sf-door-month">February</span></div>
+        <a class="sf-door-name sf-ext-link" href="https://www.tokyoartsandspace.jp/application/schedule.html" target="_blank" rel="noopener">TOKAS OPEN SITE<span class="zh-alt" hidden>TOKAS OPEN SITE</span> &#8599;</a>
+        <p class="sf-door-gives">¥400,000 exhibition grant, no age limit, solo proposals accepted.<span class="zh-alt" hidden>40 万日元展览经费，不限年龄，接受个展提案。</span></p>
+        <p class="sf-door-worth">&asymp; 3&ndash;13 paintings that don&rsquo;t have to be sold</p><p class="sf-door-prep"><strong>Have ready:</strong> The same body of work, plus a written plan for how it fills a room.<span class="zh-alt" hidden>同一批作品，外加一份「它如何撑起一个空间」的书面构想。</span></p>
+      </div>
+      <div class="sf-door">
+        <div class="sf-door-when"><span class="sf-door-month">April (timing approximate)</span></div>
+        <a class="sf-door-name sf-ext-link" href="https://www.holbein.co.jp/scholarship.html" target="_blank" rel="noopener">Holbein Scholarship<span class="zh-alt" hidden>好乐门（Holbein）奖学金</span> &#8599;</a>
+        <p class="sf-door-gives">¥300,000 of materials over a year, from a watercolor manufacturer. Residence in Japan, no nationality clause.<span class="zh-alt" hidden>一年内价值 30 万日元的画材，来自一家水彩颜料厂商。在日本居住即可，无国籍限制。</span></p>
+        <p class="sf-door-worth">materials, about 3&ndash;9 paintings' worth</p><p class="sf-door-prep"><strong>Have ready:</strong> Almost nothing — the medium match is already the argument.<span class="zh-alt" hidden>几乎不需要准备——媒介本身就是最好的理由。</span></p>
+      </div>
+      <div class="sf-door">
+        <div class="sf-door-when"><span class="sf-door-month">April (timing approximate)</span></div>
+        <a class="sf-door-name sf-ext-link" href="https://tokyoartbookfair.com/en/about/" target="_blank" rel="noopener">Tokyo Art Book Fair<span class="zh-alt" hidden>东京艺术书展 TABF</span> &#8599;</a>
+        <p class="sf-door-gives">A booth among zines, artist books, and the people who buy them. This is the printed-matter circuit, not the gallery one.<span class="zh-alt" hidden>在 zine、艺术家书和买这些东西的人当中占一个展位。这是印刷品的圈子，不是画廊的圈子。</span></p>
+        <p class="sf-door-prep"><strong>Have ready:</strong> Something printed and finished. Three months is the production time, not the paperwork.<span class="zh-alt" hidden>一件印好、做完的东西。三个月说的是制作时间，不是填表时间。</span></p>
+      </div>
+      <div class="sf-door">
+        <div class="sf-door-when"><span class="sf-door-month">June</span></div>
+        <a class="sf-door-name sf-ext-link" href="https://www.tokyoartsandspace.jp/application/schedule.html" target="_blank" rel="noopener">TOKAS-Emerging<span class="zh-alt" hidden>TOKAS-Emerging（东京都现代美术空间）</span> &#8599;</a>
+        <p class="sf-door-gives">Free venue, ¥150,000 production grant, install and PR handled. Japan-resident, any nationality, under 35.<span class="zh-alt" hidden>免费场地、15 万日元制作经费，布展与宣传都由他们负责。在日本居住即可，不限国籍，35 岁以下。</span></p>
+        <p class="sf-door-worth">&asymp; 1&ndash;5 paintings that don&rsquo;t have to be sold</p><p class="sf-door-prep"><strong>Have ready:</strong> A proposal and ten paintings that hang together as one body.<span class="zh-alt" hidden>一份展览提案，和十张能作为一个整体挂在一起的画。</span></p>
+      </div>
+      <div class="sf-door sf-door--always">
+        <div class="sf-door-when"><span class="sf-door-badge">Always open</span></div>
+        <a class="sf-door-name sf-ext-link" href="https://www.elizabethgreenshieldsfoundation.org/" target="_blank" rel="noopener">Elizabeth Greenshields Foundation<span class="zh-alt" hidden>Elizabeth Greenshields 基金会</span> &#8599;</a>
+        <p class="sf-door-gives">Built for exactly this: representational painting, ages 18–41, students explicitly eligible, and no citizenship or residency requirement at all.<span class="zh-alt" hidden>几乎是为这种情况量身设的：具象绘画，18–41 岁，明确接受学生申请，且完全没有国籍或居住地要求。</span></p>
+        <p class="sf-door-prep"><strong>Have ready:</strong> Rolling — there is no date to miss.<span class="zh-alt" hidden>常年接受申请——没有会错过的截止日期。</span></p>
+      </div></div></div>
+</section>
+</div>
+
+<script>
+(function () {
+  var btn = document.getElementById('zh-toggle');
+  btn.addEventListener('click', function () {
+    var on = btn.getAttribute('aria-pressed') !== 'true';
+    btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+    btn.textContent = on ? 'Hide the Chinese' : 'Show the Chinese she reads';
+    var nodes = document.querySelectorAll('.zh-alt');
+    for (var i = 0; i < nodes.length; i++) nodes[i].hidden = !on;
+  });
+})();
+</script>

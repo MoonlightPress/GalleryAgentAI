@@ -17,6 +17,8 @@ from engines.profile_sync import apply_peppercorn_edits
 from engines.why_hook import why_line_problem
 from engines.recurring_calendar_engine import build as build_recurring_calendar
 from engines.futures_engine import build as build_futures
+from engines.book_economics_engine import build as build_book_economics
+from engines.outreach_kit_engine import build as build_outreach_kit
 from engines.regen import spawn_draft_regen
 from engines.notify import notify_discord
 from engines.visit_tracking import (register_visit, describe_event, mark_visitor,
@@ -3511,6 +3513,12 @@ def get_saffron():
         # (Gallery / Publication / Both — where "both" was the obvious answer
         # and she was already doing both). Standings computed from her live
         # record so they cannot go stale the way authored copy did.
+        # The only item on her list with a knowable cost. Everything else is
+        # an application and a wait.
+        "book_economics":        build_book_economics(),
+        # An actual letter rather than advice about letters. The first
+        # contact asks for nothing, so there is nothing to refuse.
+        "outreach_kit":          build_outreach_kit(),
         "futures":               build_futures(_load_json(DATA_DIR / "career_strategy_report.json", {}).get("career_evidence", {})),
         "press_features":        press_features,
         "collector_ecosystem":   collector_ecosystem,

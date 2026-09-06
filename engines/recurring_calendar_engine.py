@@ -22,6 +22,13 @@ inferred rather than read off an official page are marked `certain: False`.
 The `prepare` field is the point of the whole thing. Four of the seven career
 levers currently tell her to 留意 ("watch for") a call — which is dead waiting.
 A lead time turns that into work she can do in a month when nothing is open.
+
+Third person throughout, in all three languages — the same rule
+`futures_engine` documents. Five strings addressed her directly ("A show you
+were going to do anyway", "You qualify for the Mainland China track", "the
+printed-matter world you already come from", 「为你这种情况设的」, and the
+"paintings you don't have to sell" label in `SaffronPage.jsx`) and were rewritten
+2026-09-06. The page describes; it does not talk to anyone.
 """
 
 from datetime import date
@@ -104,9 +111,9 @@ DOORS = [
             "由主办方筛选，现场有 20–30 位画廊主担任评审。是画廊发掘新艺术家的公认渠道。",
             "主催者による選考、当日は20〜30名のギャラリストが審査。ギャラリーが新しい作家を見つける定番の場。"),
         "prepare": _t(
-            "One coherent wall, and a short answer to \"what are you working on now.\"",
-            "一面完整连贯的墙，和一句「你最近在做什么」的简短回答。",
-            "一面ぶんのまとまりと、「いま何を作っているか」への短い答え。"),
+            "One coherent wall, and a short answer to the question every gallerist on the floor asks — what is being made at the moment.",
+            "一面完整连贯的墙，和一句能回答「最近在做什么」的简短说明——现场每一位画廊主都会问这句。",
+            "一面ぶんのまとまりと、会場のギャラリストが必ず訊く「いま何を作っているか」への短い答え。"),
     },
     {
         "id": "hb_file",
@@ -160,8 +167,8 @@ DOORS = [
             "在东京的公开活动最高 30 万日元。无国籍限制。一年三轮，错过一轮还有下一轮。",
             "都内での公開活動に最大30万円。国籍条項なし。年3回あるので、逃しても次がある。"),
         "prepare": _t(
-            "A show you were going to do anyway — this funds the thing, not a new idea.",
-            "一个你本来就打算做的展览——它资助的是这件事本身，不是一个新点子。",
+            "A show that was already going to happen — this funds the thing, not a new idea.",
+            "一个本来就打算做的展览——它资助的是这件事本身，不是一个新点子。",
             "もともとやる予定だった展示でいい——新しい企画ではなく、その実施に出る助成。"),
     },
     {
@@ -184,7 +191,7 @@ DOORS = [
         "opens_month": 10, "prepare_lead": 3, "certain": True,
         "url": "https://www.asianculturalcouncil.org/grant-opportunities",
         "gives": _t(
-            "Up to US$35,000. You qualify for the Mainland China track by citizenship — where you live doesn't matter.",
+            "Up to US$35,000. The Mainland China track runs on citizenship rather than residence — where an applicant lives does not matter.",
             "最高 3.5 万美元。凭中国国籍即可申请中国大陆项目——住在哪里并不影响资格。",
             "最大35,000米ドル。中国籍で中国本土枠の対象——居住地は問われない。"),
         "prepare": _t(
@@ -226,9 +233,9 @@ DOORS = [
         "opens_month": 4, "prepare_lead": 3, "certain": False,
         "url": "https://tokyoartbookfair.com/en/about/",
         "gives": _t(
-            "A booth in the printed-matter world you already come from — zines, artist books, and the people who buy them.",
-            "在你本来就来自的那个印刷品世界里有一个展位——zine、艺术家书，以及会买它们的人。",
-            "もともとあなたがいる印刷物の世界でのブース——zine、アーティストブック、そしてそれを買う人たち。"),
+            "A booth among zines, artist books, and the people who buy them. This is the printed-matter circuit, not the gallery one.",
+            "在 zine、艺术家书和买这些东西的人当中占一个展位。这是印刷品的圈子，不是画廊的圈子。",
+            "zine、アーティストブック、そしてそれを買う人たちの中に置くブース。画廊ではなく、印刷物の側の場。"),
         "prepare": _t(
             "Something printed and finished. Three months is the production time, not the paperwork.",
             "一件印好、做完的东西。三个月说的是制作时间，不是填表时间。",
@@ -245,7 +252,7 @@ ALWAYS_OPEN = [
         "url": "https://www.elizabethgreenshieldsfoundation.org/",
         "gives": _t(
             "Built for exactly this: representational painting, ages 18–41, students explicitly eligible, and no citizenship or residency requirement at all.",
-            "几乎是为你这种情况设的：具象绘画，18–41 岁，明确接受学生申请，且完全没有国籍或居住地要求。",
+            "几乎是为这种情况量身设的：具象绘画，18–41 岁，明确接受学生申请，且完全没有国籍或居住地要求。",
             "まさにこの条件のための助成：具象絵画、18〜41歳、学生も明確に対象、国籍も居住地も問わない。"),
         "prepare": _t("Rolling — there is no date to miss.", "常年接受申请——没有会错过的截止日期。", "通年受付——逃す締切がない。"),
     },

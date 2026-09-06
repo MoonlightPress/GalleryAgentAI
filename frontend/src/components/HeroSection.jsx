@@ -85,7 +85,8 @@ export default function HeroSection() {
         <source srcSet={hero.webp} type="image/webp" />
         <img
           src={hero.png}
-          alt={night ? "Mochi's atelier at night, watching the fireworks" : "Mochi's watercolor atelier"}
+          alt=""
+          draggable={false}
           className="hero-img"
           style={{ objectPosition: `center ${focalY}%` }}
           width={hero.width}

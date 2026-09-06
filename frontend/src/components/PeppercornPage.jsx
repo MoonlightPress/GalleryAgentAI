@@ -2052,7 +2052,7 @@ export default function PeppercornPage({ nav }) {
 
       {/* Ambient mouse illustration */}
       <div className="pp-mouse-ambient">
-        <img src={isNightNow() ? peppercornHeroNight : peppercornHero} alt="Peppercorn" className="pp-mouse-img" />
+        <img src={isNightNow() ? peppercornHeroNight : peppercornHero} alt="" draggable={false} className="pp-mouse-img" />
       </div>
 
       {nav}

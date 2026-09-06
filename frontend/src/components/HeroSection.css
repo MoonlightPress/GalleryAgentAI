@@ -23,6 +23,11 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  /* The paintings are unnamed and rotate; nothing should reveal a title or a
+     filename on hover or drag. alt is empty (decorative) on all three
+     companions' heroes for the same reason. */
+  -webkit-user-drag: none;
+  user-select: none;
   /* object-position is set inline per image from a measured focal point
      (scripts/gen_hero_poem_tone.py). The old fixed 30%/28% was tuned for
      the first illustration; the 2026-09-04 set sits at 49-61%, so a low

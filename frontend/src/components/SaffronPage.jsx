@@ -970,10 +970,12 @@ const RC_LABELS = {
               en: ['January','February','March','April','May','June','July','August','September','October','November','December'] },
   // Money means little to a painter as a number and a lot as paintings. This is
   // a sentence about what a door hands over — never about what anything cost
-  // her. Her own shop prices (¥31,900–115,500) set the range.
+  // her. Her own shop prices (¥31,900–115,500) set the range. Third person: the
+  // English read "paintings you don't have to sell" and this page addresses
+  // nobody (Scott, 2026-09-06).
   worth:    { zh: (r) => `≈ ${r} 张不必卖掉的画`,
               ja: (r) => `≈ ${r}点、売らずに済む絵`,
-              en: (r) => `≈ ${r} paintings you don't have to sell` },
+              en: (r) => `≈ ${r} paintings that don't have to be sold` },
   worthKind:{ zh: (r) => `画材，约等于 ${r} 张画`,
               ja: (r) => `画材、絵 ${r}点ぶん`,
               en: (r) => `materials, about ${r} paintings' worth` },
@@ -1380,6 +1382,205 @@ function PublicationLandscape({ data, t }) {
   )
 }
 
+// ── The first letter ────────────────────────────────────────────────────────
+//
+// An actual email rather than advice about emails. "Build relationships with
+// galleries" never becomes an action; a draft she can change the name on does.
+//
+// The idea it encodes is Scott's: the first contact asks for nothing. There is
+// nothing in it to refuse, silence costs nothing, and whatever comes back is a
+// specification she can build toward — which turns a gatekeeper from a yes/no
+// into a source of information.
+function OutreachKit({ data, lang }) {
+  const [open, setOpen] = useState(false)
+  if (!data?.letter_ja) return null
+  const pick = (o) => (o && (o[lang] || o.en)) || ''
+  return (
+    <SectionShell
+      title={pick(data.title)}
+      subtitle={pick(data.intro)}
+      summary={pick(data.intro)}
+      trackId="outreach_kit"
+      defaultOpen
+    >
+      <p className="sf-ok-note">{pick(data.letter_note)}</p>
+      {/* Japanese, because that is the language she would actually send in. */}
+      <pre className="sf-ok-letter" lang="ja">{data.letter_ja}</pre>
+
+      <button className="sf-shy-tips-toggle" onClick={() => setOpen(o => !o)}>
+        {open ? (RC_LABELS.less?.[lang] || 'Close') : pick(data.rules_label) + ' ▾'}
+      </button>
+      {open && (
+        <ul className="sf-ok-rules">
+          {data.rules.map((r, i) => <li key={i}>{pick(r)}</li>)}
+        </ul>
+      )}
+    </SectionShell>
+  )
+}
+
+// ── What a book costs ───────────────────────────────────────────────────────
+//
+// The one thing on her list with a price you can know before you start. She has
+// said she wants another book and has six years of daily work plus eight zines,
+// so the useful contribution is not advice about whether — it is the arithmetic
+// of the thing she is going to do anyway.
+//
+// The chart draws copies-needed-to-break-even against copies-printed. That
+// comparison is the whole reason it is a chart and not a table: when the bar
+// overshoots the run marker, the option cannot pay for itself at ANY
+// sell-through, and printing 100 — the intuitive move — is exactly that case.
+// Feasibility is carried by geometry and a direct label, never by colour alone,
+// so it survives any kind of colour vision and prints in greyscale.
+const BE_LABELS = {
+  title:    { zh: '一本书要花多少钱', ja: '本にかかる費用', en: 'What a book costs' },
+  needed:   { zh: '要卖出', ja: '売る必要', en: 'copies to break even' },
+  printed:  { zh: '印了', ja: '刷った数', en: 'printed' },
+  cannot:   { zh: '这样印回不了本', ja: '回収できない', en: "can't pay for itself" },
+  outlay:   { zh: '先付', ja: '先払い', en: 'up front' },
+  consign:  { zh: '可以寄售', ja: '委託できる', en: 'works on consignment' },
+  noconsign:{ zh: '寄售会亏', ja: '委託は赤字', en: 'consignment loses money' },
+  chartNote:{ zh: '柱子超过刻度，就表示要卖的比印的还多。', ja: '棒が目盛りを超えたら、刷った数より多く売る必要がある。',
+              en: 'A bar past the marker means selling more copies than exist.' },
+}
+const beL = (k, lang) => BE_LABELS[k][lang] || BE_LABELS[k].en
+
+function BreakEvenChart({ options, lang }) {
+  // One hue: this is a single measure, not several identities. Feasibility is
+  // carried by geometry (does the bar pass the run marker?) plus a written
+  // label, never by colour, so it survives any colour vision and greyscale.
+  const INK = '#c47a35', RULE = '#7a5c3a'
+  const rows = options.filter(o => o.route !== 'japan_offset' || o.run === 500)
+  const max = Math.max(...rows.map(o => o.run)) * 1.5
+  const W = 300, BAR = 14, GAP = 26, PAD = 104, RIGHT = 8
+  const H = rows.length * GAP + 20
+  const x = (v) => PAD + Math.min(v / max, 1) * (W - PAD - RIGHT)
+
+  return (
+    <figure className="sf-be-fig">
+      <svg viewBox={`0 0 ${W} ${H}`} className="sf-be-svg" role="img" aria-label={beL('title', lang)}>
+        {rows.map((o, i) => {
+          const y = i * GAP + 10
+          // A route whose unit cost exceeds the cover price can never break
+          // even; drawing its bar to the full width shows it running off the
+          // end, which is the truth. Drawing it to zero (its literal
+          // break-even) read as "needs almost nothing" - the exact inverse.
+          const runX = x(o.run)
+          const barEnd = o.impossible ? W - RIGHT : x(o.breakeven_direct)
+          return (
+            <g key={i}>
+              <text x="0" y={y + 10} className="sf-be-label">
+                {o.run} · {o.route_name[lang] || o.route_name.en}
+              </text>
+              <rect x={PAD} y={y + 1} width={Math.max(2, barEnd - PAD)} height={BAR}
+                    rx="3" fill={INK} opacity={o.impossible ? 0.3 : 0.92} />
+              {/* how many copies exist - the bar passing this means selling more than you made */}
+              <line x1={runX} y1={y - 2} x2={runX} y2={y + BAR + 3} stroke={RULE} strokeWidth="1.5" />
+              {o.impossible
+                ? <text x={PAD + 5} y={y + 11} className="sf-be-val sf-be-val--in">{beL('cannot', lang)}</text>
+                : <text x={barEnd + 5} y={y + 11} className="sf-be-val">{o.breakeven_direct}</text>}
+            </g>
+          )
+        })}
+        {/* label the marker once rather than on every row */}
+        <text x={x(rows[rows.length - 1].run)} y={H - 4} className="sf-be-tick" textAnchor="middle">
+          {beL('printed', lang)}
+        </text>
+      </svg>
+      <figcaption className="sf-be-cap">{beL('chartNote', lang)}</figcaption>
+    </figure>
+  )
+}
+
+// No `t`: every string in this section is engine-supplied or in BE_LABELS, so
+// the shared translation table has nothing to contribute.
+function BookEconomics({ data, lang }) {
+  if (!data?.options?.length) return null
+  const pick = (o) => (o && (o[lang] || o.en)) || ''
+  const yen = (n) => '¥' + n.toLocaleString('en-US')
+  const viable = data.options.filter(o => !o.impossible)
+
+  // The section had four points and no claim ("i don't even know what it's
+  // trying to say", Scott 2026-09-06). It now makes one: the cost is knowable,
+  // the sell-through isn't, and absorbing that gap is what a publisher is. The
+  // fork answers "so this is why you have a publisher"; the pace answers "is it
+  // a loss leader"; and the route-by-route arithmetic — the old headline —
+  // drops behind a lid as evidence for both.
+  return (
+    <SectionShell
+      title={beL('title', lang)}
+      subtitle={pick(data.note)}
+      summary={pick(data.note)}
+      trackId="book_economics"
+      defaultOpen
+    >
+      {data.claim && <p className="sf-be-claim">{pick(data.claim)}</p>}
+      {data.not_a_loss && <p className="sf-be-answer">{pick(data.not_a_loss)}</p>}
+
+      {data.fork && (
+        <div className="sf-fork">
+          <div className="sf-block-label">{pick(data.fork.label)}</div>
+          <div className="sf-fork-cols">
+            {data.fork.columns.map(c => (
+              <div key={c.id} className={`sf-fork-col sf-fork-col--${c.id}`}>
+                <div className="sf-fork-name">{pick(c.name)}</div>
+                <dl className="sf-fork-rows">
+                  {data.fork.row_labels.map((rl, i) => (
+                    <div className="sf-fork-row" key={i}>
+                      <dt>{pick(rl)}</dt>
+                      <dd>{pick(c.values[i])}</dd>
+                    </div>
+                  ))}
+                </dl>
+              </div>
+            ))}
+          </div>
+          {data.fork.note && <p className="sf-fork-note">{pick(data.fork.note)}</p>}
+        </div>
+      )}
+
+      {data.pace && (
+        <div className="sf-pace">
+          <div className="sf-block-label">{pick(data.pace.label)}</div>
+          <ul className="sf-pace-facts">
+            {data.pace.facts.map((f, i) => <li key={i}>{pick(f)}</li>)}
+          </ul>
+        </div>
+      )}
+
+      <div className="sf-details">
+        <Disclosure
+          lang={lang}
+          d={{ id: 'arithmetic', kind: 'node', label: data.detail_label }}
+        >
+          <BreakEvenChart options={data.options} lang={lang} />
+          <div className="sf-be-rows">
+            {viable.map((o, i) => (
+              <div key={i} className="sf-be-row">
+                <div className="sf-be-row-head">
+                  {o.run} · {pick(o.route_name)}
+                </div>
+                <div className="sf-be-row-num">
+                  {yen(o.outlay_jpy)} {beL('outlay', lang)} · {o.breakeven_direct} {beL('needed', lang)}
+                  {o.consignment_viable
+                    ? <span className="sf-be-ok"> · {beL('consign', lang)}</span>
+                    : <span className="sf-be-no"> · {beL('noconsign', lang)}</span>}
+                </div>
+                <div className="sf-be-row-note">{pick(o.route_note)}</div>
+              </div>
+            ))}
+          </div>
+          {data.high_price_case && (
+            <p className="sf-be-highprice">{pick(data.high_price_case.note)}</p>
+          )}
+        </Disclosure>
+      </div>
+
+      <p className="sf-be-caveat">{pick(data.caveat)}</p>
+    </SectionShell>
+  )
+}
+
 // Five kinds of success, replacing the three "long-term scenarios".
 //
 // The old section asked her to choose between Gallery, Publication, and Both —
@@ -1392,22 +1593,63 @@ function PublicationLandscape({ data, t }) {
 // one leads with the life, gives the money plainly, lists kinds of things to
 // pursue rather than credentials to acquire, and puts the famous name last and
 // small. Collapsed by default — five futures open at once is a wall.
+// Reading order comes from the engine, not from here: header, overview,
+// advantages, strengths, then whatever it put in `details`. The old body laid
+// five prose blocks end to end and read as a wall ("this isn't very readable",
+// Scott 2026-09-06). Advantages is the comparison between tracks the copy never
+// made; strengths is the positive half of the old position ledger, promoted
+// above the fold, with the absent half moved down into the details block it
+// belongs to.
 const FT_LABELS = {
-  money:  { zh: '钱是怎么来的', ja: 'お金の入り方', en: 'How the money works' },
-  steps:  { zh: '这条路是靠什么长起来的', ja: 'この道の育て方', en: 'What builds it' },
-  you:    { zh: '你现在在哪里', ja: 'いまの立ち位置', en: 'Where you already are' },
-  living: { zh: '有人正在这样生活', ja: 'こう生きている人', en: 'Someone living it' },
-  more:   { zh: '展开 ▾', ja: '開く ▾', en: 'Open ▾' },
-  less:   { zh: '收起', ja: '閉じる', en: 'Close' },
+  advantages: { zh: '这条路有、别的路没有的', ja: 'この道だけにあるもの', en: "What this one gives that the others don't" },
+  strengths:  { zh: '在这条路上已经有的', ja: 'この道ですでにあるもの', en: 'Strengths on this path' },
+  more:       { zh: '展开 ▾', ja: '開く ▾', en: 'Open ▾' },
+  less:       { zh: '收起', ja: '閉じる', en: 'Close' },
 }
 const ftL = (k, lang) => FT_LABELS[k][lang] || FT_LABELS[k].en
+
+// One lid. Label and body come from the engine, so a block can be added,
+// reordered or folded away in futures_engine without touching React. `kind:
+// 'node'` is the one case the engine can't describe — a chart — so the caller
+// passes children instead.
+function Disclosure({ d, lang, children }) {
+  const [open, setOpen] = useState(false)
+  const pick = (o) => (o && (o[lang] || o.en)) || ''
+  if (!d) return null
+  return (
+    <div className={`sf-detail${open ? ' sf-detail--open' : ''}`}>
+      <button className="sf-detail-head" onClick={() => setOpen(o => !o)} aria-expanded={open}>
+        <span className="sf-detail-label">{pick(d.label)}</span>
+        <span className={`sf-chevron sf-chevron--sm${open ? ' sf-chevron--open' : ''}`}>▾</span>
+      </button>
+      {open && (
+        <div className="sf-detail-body">
+          {d.kind === 'node' && children}
+          {d.kind === 'list' && (
+            <>
+              <ul className="sf-future-requires">
+                {(d.items || []).map((s, i) => <li key={i}>{pick(s)}</li>)}
+              </ul>
+              {d.footnote && (
+                <p className="sf-detail-foot">
+                  <strong>{pick(d.footnote_label)}:</strong> {pick(d.footnote)}
+                </p>
+              )}
+            </>
+          )}
+          {d.kind === 'prose' && <p className="sf-detail-prose">{pick(d.body)}</p>}
+        </div>
+      )}
+    </div>
+  )
+}
 
 function Future({ f, lang }) {
   const [open, setOpen] = useState(false)
   const pick = (o) => (o && (o[lang] || o.en)) || ''
   return (
     <div className={`sf-future${open ? ' sf-future--open' : ''}`}>
-      <button className="sf-future-head" onClick={() => setOpen(o => !o)}>
+      <button className="sf-future-head" onClick={() => setOpen(o => !o)} aria-expanded={open}>
         <div>
           <div className="sf-future-name">{pick(f.name)}</div>
           <div className="sf-future-tagline">{pick(f.tagline)}</div>
@@ -1416,26 +1658,29 @@ function Future({ f, lang }) {
       </button>
       {open && (
         <div className="sf-future-body">
-          <p className="sf-future-life">{pick(f.life)}</p>
+          <p className="sf-future-overview">{pick(f.overview)}</p>
 
-          <div className="sf-block-label">{ftL('money', lang)}</div>
-          <p className="sf-future-money">{pick(f.money)}</p>
+          {!!f.advantages?.length && (
+            <>
+              <div className="sf-block-label">{ftL('advantages', lang)}</div>
+              <ul className="sf-future-advantages">
+                {f.advantages.map((a, i) => <li key={i}>{pick(a)}</li>)}
+              </ul>
+            </>
+          )}
 
-          <div className="sf-block-label">{ftL('steps', lang)}</div>
-          <ol className="sf-future-steps">
-            {f.steps.map((s, i) => <li key={i}>{pick(s)}</li>)}
-          </ol>
-
-          {f.standing && (
+          {!!f.strengths?.length && (
             <div className="sf-future-standing">
-              <div className="sf-block-label">{ftL('you', lang)}</div>
-              <p>{pick(f.standing)}</p>
+              <div className="sf-block-label">{ftL('strengths', lang)}</div>
+              <ul className="sf-future-strengths">
+                {f.strengths.map((s, i) => <li key={i}>{pick(s)}</li>)}
+              </ul>
             </div>
           )}
 
-          <p className="sf-future-example">
-            <strong>{ftL('living', lang)}:</strong> {pick(f.example)}
-          </p>
+          <div className="sf-details">
+            {(f.details || []).map(d => <Disclosure key={d.id} d={d} lang={lang} />)}
+          </div>
         </div>
       )}
     </div>
@@ -2616,11 +2861,17 @@ function SaffronIntro() {
   )
 }
 
-export default function SaffronPage({ nav }) {
+// `tab`/`onTabChange` let the URL drive which tab is showing (#observe/calendar),
+// so a link can point at one and back/forward walk between them. They're
+// optional: with neither prop the page keeps its own tab state as before.
+export default function SaffronPage({ nav, tab: tabFromUrl, onTabChange }) {
   const [rawData,    setRawData]    = useState(() => getCache('/api/saffron') ?? null)
   const [rawCareer,  setRawCareer]  = useState(() => getCache('/api/career_strategy') ?? null)
   const [error,      setError]      = useState(null)
-  const [tab,        setTab]        = useState('strategy')
+  const [tabLocal,   setTab]        = useState(tabFromUrl || 'strategy')
+  // Controlled when the parent is routing (so Back from #observe/calendar to
+  // #observe really does return to the first tab); self-managed otherwise.
+  const tab = onTabChange ? (tabFromUrl || 'strategy') : tabLocal
   const { t, lang } = useLanguage()
 
   const loadSaffron = () => {
@@ -2669,6 +2920,7 @@ export default function SaffronPage({ nav }) {
   ]
   function goTab(key) {
     setTab(key)
+    onTabChange?.(key)
     track({ type: 'nav', page: 'observe', section: key })
     // Land the new tab's FIRST section just below the sticky nav + tab bar — not
     // behind them. Scrolling to sf-content's raw top tucked the section header
@@ -2689,7 +2941,7 @@ export default function SaffronPage({ nav }) {
   return (
     <div className="saffron-page">
       <section className="saffron-hero">
-        <img src={isNightNow() ? saffronHeroNight : saffronHero} alt="Saffron's wide view" className="saffron-hero-img" />
+        <img src={isNightNow() ? saffronHeroNight : saffronHero} alt="" draggable={false} className="saffron-hero-img" />
       </section>
       {nav}
 
@@ -2730,7 +2982,9 @@ export default function SaffronPage({ nav }) {
                   <>
                     {SB('pathway', <StrategicPathway data={data.pathway} t={t} />)}
                     <SectionOpenContext.Provider value={false}>
+                      {SB('outreach', <TrackedSection page="observe" section="outreach_kit"><OutreachKit data={data.outreach_kit} lang={lang} /></TrackedSection>)}
                       {SB('futures', <TrackedSection page="observe" section="futures"><Futures data={data.futures} t={t} lang={lang} /></TrackedSection>)}
+                      {SB('bookecon', <TrackedSection page="observe" section="book_economics"><BookEconomics data={data.book_economics} lang={lang} /></TrackedSection>)}
                       {/* 职业解锁树 (CareerDependencyMap) removed 2026-09-05. It was the app's
                           only career surface that never passed through an engine — a
                           hand-authored constant that had gone stale and was still sending
