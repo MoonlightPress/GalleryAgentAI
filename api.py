@@ -2626,22 +2626,37 @@ def get_saffron():
         "July","August","September","October","November","December",
     ]
 
-    def _parse_month(dl_str):
+    # The calendar used to bucket by month NAME and discard the year: it parsed
+    # a real date, took `.month` off it, and threw the rest away. A deadline of
+    # 2025-11-20 therefore filed under November and rendered as something coming
+    # up. On 2026-09-06 that put 16 dead 2025 dates in November against 10 live
+    # 2026 ones, and 17 against 7 in December — more than half of some months
+    # were dates that had already gone (Scott: "almost all of these dates are
+    # 2025"). Slots are (year, month) now, and anything past is dropped.
+    _cal_today = datetime.now(timezone.utc).date()
+
+    def _cal_slot(dl_str):
+        """(year, month) for a deadline. None if unparseable or already past."""
         if not dl_str:
             return None
-        # Try structured parse first (ISO / JP / EN formats)
+        # Structured parse first (ISO / JP / EN formats) — this one knows the year.
         dt = _parse_deadline_date({"deadline": dl_str})
         if dt:
-            return MONTH_NAMES[dt.month - 1]
-        # Fall back to month-name text scan
-        for m in MONTH_NAMES:
-            if m.lower() in dl_str.lower():
-                return m
+            when = dt.date()
+            return None if when < _cal_today else (when.year, when.month)
+        # Fall back to a month-name scan. There is no year in the text, so the
+        # only honest reading is the next time that month comes round.
+        low = dl_str.lower()
+        for i, m in enumerate(MONTH_NAMES, start=1):
+            if m.lower() in low:
+                return (_cal_today.year if i >= _cal_today.month
+                        else _cal_today.year + 1, i)
         return None
 
-    monthly: dict[str, list] = {m: [] for m in MONTH_NAMES}
+    monthly: dict[tuple, list] = {}
     rolling_opps = []
     unknown_dl_count = 0
+    past_dl_count = 0
 
     def _cal_url(o):
         return o.get("submission_page") or o.get("official_website") or o.get("url_final") or ""
@@ -2657,10 +2672,10 @@ def get_saffron():
                 "url": _cal_url(opp),
             })
             continue
-        month = _parse_month(dl)
-        if month:
+        slot = _cal_slot(dl)
+        if slot:
             _dt = _parse_deadline_date({"deadline": dl})
-            monthly[month].append({
+            monthly.setdefault(slot, []).append({
                 "name": opp.get("name", ""),
                 "name_zh": opp.get("name_zh", ""),
                 "name_ja": opp.get("name_ja", ""),
@@ -2669,22 +2684,31 @@ def get_saffron():
                 "category": opp.get("category", ""),
                 "url": _cal_url(opp),
             })
+        elif dl and _parse_deadline_date({"deadline": dl}):
+            past_dl_count += 1          # parsed fine, but the date has gone
         else:
             unknown_dl_count += 1
 
-    _current_month_idx = datetime.now(timezone.utc).month  # 1-based
+    # A rolling twelve months from now, in real chronological order. The old
+    # filter was `month_index >= current_month`, which could only ever show the
+    # rest of THIS calendar year — so from September it showed four months and
+    # nothing at all in the new year, while the highest-value doors open in
+    # spring. Each month now carries its year so January reads as January 2027.
+    _cal_horizon = [((_cal_today.year + (_cal_today.month - 1 + n) // 12),
+                     ((_cal_today.month - 1 + n) % 12) + 1) for n in range(12)]
     calendar_months = [
-        {"month": m, "opportunities": monthly[m]}
-        for i, m in enumerate(MONTH_NAMES, start=1)
-        if monthly[m] and i >= _current_month_idx
+        {"month": MONTH_NAMES[m - 1], "year": y,
+         "opportunities": sorted(monthly[(y, m)], key=lambda o: o["date"] or "9999")}
+        for (y, m) in _cal_horizon if monthly.get((y, m))
     ]
 
     seasonal_calendar = {
         "months": calendar_months,
         "rolling": rolling_opps,
         "unknown_deadline_count": unknown_dl_count,
+        "past_deadline_count": past_dl_count,
         "total_opportunities": len(opps),
-        "coverage_note": f"{unknown_dl_count} of {len(opps)} opportunities have no confirmed deadline — the calendar is partial and reflects only verified dates.",
+        "coverage_note": f"{unknown_dl_count} of {len(opps)} opportunities have no confirmed deadline, and {past_dl_count} have deadlines that have already passed — the calendar shows only dates still ahead.",
         "preparation_lead_times": {
             "open_calls": "2–4 weeks before deadline for portfolio selection and statement",
             "residencies": "4–8 weeks for full application (proposal, references, CV)",

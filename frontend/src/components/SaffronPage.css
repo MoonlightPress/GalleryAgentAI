@@ -661,6 +661,11 @@
   color: #c47a35;
   padding-top: 2px;
 }
+/* Quieter than the month, but present — the grid spans a year boundary now. */
+.sf-cal-month-year {
+  font-weight: normal;
+  color: #a0885f;
+}
 
 .sf-cal-opps {
   display: flex;

@@ -1163,7 +1163,14 @@ function SeasonalCalendar({ data, t, lang, recurring }) {
         <div className="sf-calendar">
           {data.months.map((m, i) => (
             <div key={i} className="sf-cal-month">
-              <div className="sf-cal-month-name">{monthLabel(m.month)}</div>
+              {/* The year has to be on the label. The grid now runs a rolling
+                  twelve months, so January is next January — and a bare
+                  "January" beside a bare "November" reads as this year for
+                  both. */}
+              <div className="sf-cal-month-name">
+                {monthLabel(m.month)}
+                {m.year && <span className="sf-cal-month-year"> {m.year}</span>}
+              </div>
               <div className="sf-cal-opps">{m.opportunities.map((o, j) => oppRow(o, j))}</div>
             </div>
           ))}
