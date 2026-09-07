@@ -6,7 +6,7 @@ import hashlib
 import os
 import subprocess
 from collections import Counter
-from datetime import datetime, timezone
+from datetime import datetime, timezone, date as _date
 from pathlib import Path
 from fastapi import FastAPI, HTTPException, Request, BackgroundTasks
 from fastapi.middleware.cors import CORSMiddleware
@@ -1351,6 +1351,67 @@ def _feed_order_key(item: dict):
     return (2, -((_deadline_max_date(item) or datetime.min.date()).toordinal()))
 
 
+# Dates the copy itself calls a deadline. The `deadline` FIELD can hold the
+# wrong date entirely — CSPWC arrived with "September 19, 2026" in it, which is
+# the day the exhibition closes, while its own summary said entries shut on
+# 30 June. A future exhibition date in a deadline field passes every guard we
+# have, so the card was served as her High Impact Move 69 days after the door
+# shut. The guard was working perfectly on a wrong value.
+#
+# So: read the dates the prose labels as a deadline and let them contradict the
+# field. Extraction can put the wrong date in a field; it is much less likely to
+# also write the wrong date into a sentence that says "closes".
+_PROSE_DEADLINE_RE = re.compile(
+    r"(?:截止|締切|節切|deadline|closes?|due|until)"
+    r"\D{0,14}("
+    r"20\d\d年\s*\d{1,2}月\s*\d{1,2}日"
+    r"|[A-Za-z]{3,9}\.?\s+\d{1,2},\s*20\d\d"
+    r"|20\d\d-\d{2}-\d{2}"
+    r")", re.I)
+
+_PROSE_DEADLINE_FIELDS = ("summary", "summary_zh", "summary_ja", "overview", "overview_zh",
+                          "why_it_fits", "why_it_fits_zh", "description")
+
+
+def _prose_deadline_passed(item: dict, today=None) -> bool:
+    """True when the entry's own prose names a deadline that has already gone.
+
+    Only ever ADDS a reason to hold something back; it never rescues an entry
+    the date field already condemned.
+    """
+    today = today or _date.today()
+    for f in _PROSE_DEADLINE_FIELDS:
+        for m in _PROSE_DEADLINE_RE.finditer(str(item.get(f) or "")):
+            d = _parse_loose_date(m.group(1))
+            if d and d < today:
+                return True
+    return False
+
+
+def _parse_loose_date(text: str):
+    """A date out of free prose, in the three shapes these sources actually use."""
+    t = str(text)
+    m = re.search(r"(20\d\d)年\s*(\d{1,2})月\s*(\d{1,2})日", t)
+    if m:
+        try: return _date(int(m[1]), int(m[2]), int(m[3]))
+        except ValueError: return None
+    m = re.search(r"([A-Za-z]{3,9})\.?\s+(\d{1,2}),\s*(20\d\d)", t)
+    if m:
+        mo = _MONTH_NAMES.get(m[1][:3].lower())
+        if mo:
+            try: return _date(int(m[3]), mo, int(m[2]))
+            except ValueError: return None
+    m = re.search(r"(20\d\d)-(\d{2})-(\d{2})", t)
+    if m:
+        try: return _date(int(m[1]), int(m[2]), int(m[3]))
+        except ValueError: return None
+    return None
+
+
+_MONTH_NAMES = {m: i for i, m in enumerate(
+    ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"], 1)}
+
+
 def _deadline_passed(item: dict, today=None) -> bool:
     """True only when a concrete, non-recurring deadline date is clearly in the past.
     Evaluated at serve time so a deadline that passes between monthly passes is caught
@@ -1368,6 +1429,12 @@ def _deadline_passed(item: dict, today=None) -> bool:
         _n = str(item.get("name") or item.get("title") or "").lower()
         if not _DATED_CALL_RE.search(_n):
             return False
+    # The entry's own prose can contradict its deadline field, and when it does
+    # the prose is the one to believe — see _prose_deadline_passed. Placed after
+    # the evergreen exemption on purpose, so relationship venues keep exactly
+    # the behaviour they had; this only ever closes a door, never opens one.
+    if _prose_deadline_passed(item, today):
+        return True
     raw = str(item.get("deadline") or "").strip()
     if not raw:
         return False
@@ -2680,7 +2747,7 @@ def get_saffron():
                 "name_zh": opp.get("name_zh", ""),
                 "name_ja": opp.get("name_ja", ""),
                 "deadline": dl,
-                "date": _dt.date().isoformat() if _dt else "",
+                "date": _date().isoformat() if _dt else "",
                 "category": opp.get("category", ""),
                 "url": _cal_url(opp),
             })
