@@ -154,11 +154,20 @@ You already know how to organise a solo show. You have done it three times. The 
 | Moon Gallery rental | ¥100,000 / 5 days | 0% | about one painting |
 | Galerie LE MONDE, 12-day solo | ¥374,000 / 12 days | 30% | about six paintings |
 
-What a fee at LE MONDE bought was the selection. That gallery chooses who shows: the director picks illustrators from the work itself and from recommendations by illustrators already showing there, and says he is looking at whether somebody connects to a particular kind of commercial job. The dates came with being chosen.
+### What the August show leaves you holding
 
-Against that, the arithmetic of representation. A 50% commission can look large in isolation; against a ¥374,000 fee plus 30%, representation is cheaper until an exhibition reaches about ¥1.87 million in sales.
+It is the newest thing on your record, and the newest credit is what a first letter is built around — every gallery below reads it before it reads anything else.
 
-The more important difference is who brings the buyers. So far, people buying your work have found you. Representation adds a collector base belonging to somebody else.
+It carries more than a date, because that room is not for hire. The director selects, from the work and from recommendations by illustrators already showing there. So it reads as having been chosen, and it keeps saying that for as long as it is recent, which is the argument for spending it now rather than next year.
+
+It also puts you in a pool with a documented next step: every illustrator on the agency's roster showed at the gallery first. They are closed to new artists at the moment, so staying in contact is the whole of the move — and the riso studio in the same building is a reason to be there, with the zines rather than the paintings.
+
+### Same building
+
+- [Studio LE MONDE — risograph, Tuesday to Sunday 12:00–19:00, booked as a session with staff. contact@studiolemonde.com](https://www.studiolemonde.com/)
+- [Agence LE MONDE — the roster it draws from, and who that roster works for: McDonald's, Asahi, Mizuho, ANNA SUI, GUCCI, Quarto, Pokémon. Not taking anyone on as of September 2026.](https://www.agencelemonde.com/)
+
+Against that, the arithmetic of representation. A 50% commission can look large in isolation; against a ¥374,000 fee plus 30%, representation is cheaper until an exhibition reaches about ¥1.87 million in sales. The more important difference is who brings the buyers. So far, people buying your work have found you. Representation adds a collector base belonging to somebody else.
 
 ### The next move
 

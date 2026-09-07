@@ -367,22 +367,58 @@ _GALLERIES = [
                    _t("about six paintings", "约六张画")]},
      ]},
 
-       {"kind": "prose", "text": _t(
-        "What a fee at LE MONDE bought was the selection. That gallery chooses who shows: the "
-        "director picks illustrators from the work itself and from recommendations by "
-        "illustrators already showing there, and says he is looking at whether somebody connects "
-        "to a particular kind of commercial job. The dates came with being chosen.\n\n"
+       # NOT a description of what LE MONDE is. "i do think you're leaning too hard
+    # into what lemonde is and does. she knows, she already did it. it should be
+    # talking about what that accomplished and what she can do with it now that
+    # she's done it" (Scott, 2026-09-07). The show is an asset she is holding,
+    # five weeks old; the question is what it is good for.
+    #
+    # The links below were deleted by accident in b22b800d — a reorder of the
+    # paragraph above sliced from it to "The next move" and took the block in
+    # between with it, after Scott had already said once not to cut this
+    # material. Restored.
+    {"kind": "prose", "label": _t("What the August show leaves you holding",
+                                  "八月那场展给你留下了什么"),
+     "text": _t(
+        "It is the newest thing on your record, and the newest credit is what a first letter is "
+        "built around — every gallery below reads it before it reads anything else.\n\n"
+        "It carries more than a date, because that room is not for hire. The director selects, "
+        "from the work and from recommendations by illustrators already showing there. So it "
+        "reads as having been chosen, and it keeps saying that for as long as it is recent, which "
+        "is the argument for spending it now rather than next year.\n\n"
+        "It also puts you in a pool with a documented next step: every illustrator on the "
+        "agency's roster showed at the gallery first. They are closed to new artists at the "
+        "moment, so staying in contact is the whole of the move — and the riso studio in the same "
+        "building is a reason to be there, with the zines rather than the paintings.",
+
+        "它是你履历上最新的一项，而最新的那一项，正是一封初次去信要围着写的东西——"
+        "下面每一家画廊，都会先读它，再读别的。\n\n"
+        "它带来的不只是一个日期，因为那个空间不对外出租。主理人选人，"
+        "从作品本身、以及已经在那里办展的插画家的推荐里选。所以它读起来是「被选中过」，"
+        "而且只要还新，它就一直在说这句话——这也正是趁现在用掉它、而不是等到明年的理由。\n\n"
+        "它还把你放进了一个有明确下一步的圈子：经纪公司名单上的每一位，都是先在画廊办过展。"
+        "他们目前不接新人，所以要做的全部就是保持联系——"
+        "而同一栋楼里的孔版印刷工作室就是一个去那里的理由，带 zine 去，不是带画。")},
+
+    {"kind": "links", "label": _t("Same building", "同一栋楼里"),
+     "items": [
+        {"name": _t("Studio LE MONDE — risograph, Tuesday to Sunday 12:00–19:00, booked as a session with staff. contact@studiolemonde.com",
+                    "Studio LE MONDE——孔版印刷，周二至周日 12:00–19:00，按有工作人员在场的时段预约。contact@studiolemonde.com"),
+         "url": "https://www.studiolemonde.com/"},
+        {"name": _t("Agence LE MONDE — the roster it draws from, and who that roster works for: McDonald's, Asahi, Mizuho, ANNA SUI, GUCCI, Quarto, Pokémon. Not taking anyone on as of September 2026.",
+                    "Agence LE MONDE——它选人的那个池子，以及那份名单在为谁工作：麦当劳、朝日啤酒、瑞穗银行、ANNA SUI、GUCCI、Quarto、宝可梦。截至 2026 年 9 月不接新人。"),
+         "url": "https://www.agencelemonde.com/"},
+     ]},
+
+    {"kind": "prose", "text": _t(
         "Against that, the arithmetic of representation. A 50% commission can look large in "
         "isolation; against a ¥374,000 fee plus 30%, representation is cheaper until an "
-        "exhibition reaches about ¥1.87 million in sales.\n\n"
-        "The more important difference is who brings the buyers. So far, people buying your work "
-        "have found you. Representation adds a collector base belonging to somebody else.",
+        "exhibition reaches about ¥1.87 million in sales. The more important difference is "
+        "who brings the buyers. So far, people buying your work have found you. Representation "
+        "adds a collector base belonging to somebody else.",
 
-        "在 LE MONDE，那笔钱换到的是「被选中」。那家画廊挑人：主理人从作品本身、"
-        "以及已经在那里办展的插画家的推荐里选人，并且说他看的是这个人能接上哪一类商业工作。"
-        "档期是选上了才给的。\n\n"
         "另一边是代理的账。单看 50% 的抽成会觉得高；"
-        "拿 374,000 日元的场地费再加 30% 抽成来比，只要那场展卖不到约 187 万日元，代理都更划算。\n\n"
+        "拿 374,000 日元的场地费再加 30% 抽成来比，只要那场展卖不到约 187 万日元，代理都更划算。"
         "更要紧的分别在于：买家是谁带来的。到现在为止，买你画的人是自己找到你的。"
         "代理带来的，是一份原本属于别人的藏家名单。")},
 
