@@ -139,6 +139,8 @@ def blocks_html(blocks):
         elif k == 'component':
             if b['id'] == 'book_economics':
                 out.append(detail(b['label'], book_body()))
+            elif b['id'] == 'publisher_fork':
+                out.append(detail(b['label'], fork_body()))
         elif k == 'defs':
             rows = ''.join(f'<div><dt>{both(x["term"])}</dt><dd>{both(x["body"])}</dd></div>'
                            for x in b['items'])
@@ -297,6 +299,28 @@ def be_svg():
   </figure>'''
 
 
+def fork_body():
+    """Who carries the outlay — mirrors <PublisherFork>, inside Publishing."""
+    b = D['book']
+    fk = b['fork']
+    cols = []
+    for c in fk['columns']:
+        vals = ''.join(
+            f'<div class="sf-fork-row"><dt>{t(lab)}</dt><dd>{both(v)}</dd></div>'
+            for lab, v in zip(fk['row_labels'], c['values']))
+        cols.append(f'''
+        <div class="sf-fork-col sf-fork-col--{c['id']}">
+          <div class="sf-fork-name">{both(c['name'])}</div>
+          <dl class="sf-fork-rows">{vals}</dl>
+        </div>''')
+    return f'''
+    <div class="sf-fork">
+      <div class="sf-block-label">{both(fk['label'])}</div>
+      <div class="sf-fork-cols">{''.join(cols)}</div>
+      <p class="sf-fork-note">{both(fk['note'])}</p>
+    </div>'''
+
+
 def book_body():
     b = D['book']
     rows = []
@@ -336,12 +360,6 @@ def book_body():
     body = f'''
     <p class="sf-be-claim">{both(b['claim'])}</p>
     <p class="sf-be-answer">{both(b['not_a_loss'])}</p>
-
-    <div class="sf-fork">
-      <div class="sf-block-label">{both(fk['label'])}</div>
-      <div class="sf-fork-cols">{''.join(cols)}</div>
-      <p class="sf-fork-note">{both(fk['note'])}</p>
-    </div>
 
     <div class="sf-pace">
       <div class="sf-block-label">{both(b['pace']['label'])}</div>

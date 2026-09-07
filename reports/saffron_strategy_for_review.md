@@ -116,6 +116,8 @@ A 128-page hardcover printed in China costs ¥394,500 for 300 copies. At ¥4,950
 
 For a book intended as a product, the Chinese hardcover has the strongest economics of the formats checked. For a book intended to open another door, make three copies instead. Three Blurb copies cost about ¥31,000 and can go directly to a publisher, gallery or shop buyer. Colour Diary has already shown that a finished book can function this way.
 
+### Whether a print run can pay for itself
+
 ### Where
 
 - [pixivFACTORY / BOOTH — first test for posters, canvas and framed prints](https://factory.pixiv.net/)
@@ -302,9 +304,9 @@ Publishing is weak as a per-copy revenue stream and strong as distribution.
 | Publisher | ¥115–240 | ¥34,500–72,000 |
 | Self-published hardcover | ¥3,635 | ¥1,090,500 |
 
-The publisher's contribution is everything surrounding those royalties: financing the print run, national bookshop distribution, ISBN, production, inventory and a publication record that remains attached to your name. Those benefits make the most sense when the book is expected to strengthen the rest of the practice as well as sell copies.
+The publisher's contribution is everything surrounding those royalties: financing the print run, national bookshop distribution, ISBN, production, inventory and a publication record that remains attached to your name. Those benefits make the most sense when the book is expected to strengthen the rest of the practice as well as sell copies. The other side of the fork — paying a printer yourself, and what a run has to sell to come back — is worked out under Selling Direct.
 
-### What the book itself costs to make
+### Who carries the ¥394,500
 
 ### Three publishers with a published route in
 

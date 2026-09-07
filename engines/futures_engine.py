@@ -289,6 +289,14 @@ _SELLING_DIRECT = [
         "如果这本书是用来敲另一扇门的，那就只做三本。Blurb 三本约 31,000 日元，"
         "可以直接拿给出版社、画廊或者书店买手。《Colour Diary》已经证明成品书能起到这个作用。")},
 
+    # "What a book costs" was a standalone section until 2026-09-07 and then
+    # briefly sat in Publishing. It belongs here: every figure in it is about
+    # paying a printer, posting parcels and placing copies in shops, which is
+    # this route. Publishing keeps the half that is about a publisher.
+    {"kind": "component", "id": "book_economics",
+     "label": _t("Whether a print run can pay for itself",
+                 "一批印量能不能把钱赚回来")},
+
     {"kind": "links", "label": _t("Where", "去哪里做"),
      "items": [
         {"name": _t("pixivFACTORY / BOOTH — first test for posters, canvas and framed prints",
@@ -604,21 +612,21 @@ _PUBLISHING = [
         "print run, national bookshop distribution, ISBN, production, inventory and a publication "
         "record that remains attached to your name. "
         "Those benefits make the most sense when the book is expected to strengthen the rest of "
-        "the practice as well as sell copies.",
+        "the practice as well as sell copies. The other side of the fork — paying a printer "
+        "yourself, and what a run has to sell to come back — is worked out under Selling Direct.",
 
         "出版社真正给的是围着那点版税的一切：出印刷的钱、进全国书店、一个 ISBN、制作、库存，"
         "还有一条会一直挂在你名字上的出版记录。"
-        "当这本书除了卖出去，还被指望去带动其余的实践时，这些好处才最说得通。")},
+        "当这本书除了卖出去，还被指望去带动其余的实践时，这些好处才最说得通。"
+        "岔口的另一边——自己付钱给印厂，以及一批印量要卖掉多少才回得来——算在「直接卖」那一条里。")},
 
-    # "What a book costs" was a standalone section until 2026-09-07, sitting
-    # apart from the two routes that already discuss books. Its own claim says
-    # what it is for — the cost is knowable to the yen, the sell-through is not,
-    # and carrying that gap is what a publisher is — which makes it evidence for
-    # the fork directly above, not a section. Behind a lid, because it answers a
-    # question only some readers are asking at this point.
-    {"kind": "component", "id": "book_economics",
-     "label": _t("What the book itself costs to make",
-                 "做出这本书本身要花多少钱")},
+    # Who carries the outlay — the one real publisher-vs-self comparison in the
+    # book material, and the only part of it that belongs on this side. The
+    # print arithmetic went to Selling Direct, because printing a book, posting
+    # it and putting it in shops IS selling direct (Scott, 2026-09-07); drawing
+    # the same comparison in both routes buys nothing.
+    {"kind": "component", "id": "publisher_fork",
+     "label": _t("Who carries the ¥394,500", "394,500 日元由谁来出")},
 
     {"kind": "links", "label": _t("Three publishers with a published route in",
                                   "三家把入口写出来的出版社"),

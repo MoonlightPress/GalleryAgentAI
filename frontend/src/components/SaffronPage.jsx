@@ -1642,6 +1642,38 @@ function BreakEvenChart({ options, lang }) {
   )
 }
 
+// Who carries the outlay — the one genuinely publisher-vs-self comparison in
+// the book material, so it sits in the Publishing route while the print
+// arithmetic sits in Selling Direct. Printing, posting and consigning a book
+// yourself IS selling direct (Scott, 2026-09-07); a publisher doing it is a
+// different route, and the two do not need the comparison drawn twice.
+function PublisherFork({ data, lang }) {
+  const pick = (o) => (o && (o[lang] || o.en)) || ''
+  if (!data?.fork) return null
+  return (
+
+      <div className="sf-fork">
+        <div className="sf-block-label">{pick(data.fork.label)}</div>
+        <div className="sf-fork-cols">
+          {data.fork.columns.map(c => (
+            <div key={c.id} className={`sf-fork-col sf-fork-col--${c.id}`}>
+              <div className="sf-fork-name">{pick(c.name)}</div>
+              <dl className="sf-fork-rows">
+                {data.fork.row_labels.map((rl, i) => (
+                  <div className="sf-fork-row" key={i}>
+                    <dt>{pick(rl)}</dt>
+                    <dd>{pick(c.values[i])}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+          ))}
+        </div>
+        {data.fork.note && <p className="sf-fork-note">{pick(data.fork.note)}</p>}
+      </div>
+  )
+}
+
 // No `t`: every string in this section is engine-supplied or in BE_LABELS, so
 // the shared translation table has nothing to contribute.
 function BookEconomics({ data, lang }) {
@@ -1660,28 +1692,6 @@ function BookEconomics({ data, lang }) {
     <>
       {data.claim && <p className="sf-be-claim">{pick(data.claim)}</p>}
       {data.not_a_loss && <p className="sf-be-answer">{pick(data.not_a_loss)}</p>}
-
-      {data.fork && (
-        <div className="sf-fork">
-          <div className="sf-block-label">{pick(data.fork.label)}</div>
-          <div className="sf-fork-cols">
-            {data.fork.columns.map(c => (
-              <div key={c.id} className={`sf-fork-col sf-fork-col--${c.id}`}>
-                <div className="sf-fork-name">{pick(c.name)}</div>
-                <dl className="sf-fork-rows">
-                  {data.fork.row_labels.map((rl, i) => (
-                    <div className="sf-fork-row" key={i}>
-                      <dt>{pick(rl)}</dt>
-                      <dd>{pick(c.values[i])}</dd>
-                    </div>
-                  ))}
-                </dl>
-              </div>
-            ))}
-          </div>
-          {data.fork.note && <p className="sf-fork-note">{pick(data.fork.note)}</p>}
-        </div>
-      )}
 
       {data.pace && (
         <div className="sf-pace">
@@ -3222,7 +3232,10 @@ export default function SaffronPage({ nav, tab: tabFromUrl, onTabChange }) {
                         for. It should not be below anything. */}
                     <SectionOpenContext.Provider value={false}>
                       {SB('futures', <Futures data={data.futures} t={t} lang={lang}
-                        components={{ book_economics: <BookEconomics data={data.book_economics} lang={lang} /> }} />)}
+                        components={{
+                          book_economics: <BookEconomics data={data.book_economics} lang={lang} />,
+                          publisher_fork: <PublisherFork data={data.book_economics} lang={lang} />,
+                        }} />)}
                       {SB('pathway', <StrategicPathway data={data.pathway} t={t} />)}
                       {/* "What a book costs" moved INSIDE the Publishing route on
                           2026-09-07. It was a standalone section about the same subject
