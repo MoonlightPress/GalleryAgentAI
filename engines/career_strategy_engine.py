@@ -8,6 +8,7 @@ Output: memory/career_strategy_report.json
 """
 
 import json
+import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -493,9 +494,28 @@ def _act_grant_urgency() -> dict:
             "en_short": "closes September 24", "zh_short": "9月24日截止"}
 
 
+def _first_publication(profile: dict) -> tuple:
+    """(title, year, years_since) for her first published book, from the profile.
+
+    Both the title and the year used to be typed into the copy below, along with
+    "five years and a great deal of work later" — correct in 2026 and wrong every
+    year after, which is the same staleness that once had a 2023 group show
+    described as her latest news. All three are derived now.
+    """
+    pubs = (profile.get("career_history", {}) or {}).get("publications") or []
+    for pub in pubs:
+        m = re.search(r"(19|20)\d{2}", str(pub.get("date", "")))
+        if m:
+            year = int(m.group(0))
+            title = str(pub.get("title", "")).split(" (")[0].strip()
+            return title or "the first book", year, max(0, datetime.now(timezone.utc).year - year)
+    return "", 0, 0
+
+
 def _next_tier_levers(solo_shows: int, has_international: bool, has_jws: bool,
                       has_representation: bool, has_residency: bool,
-                      has_grant: bool, publications: int) -> list:
+                      has_grant: bool, publications: int,
+                      first_pub: tuple = ("Colour Diary", 2021, 0)) -> list:
     """The graduated ladder for an artist who already has solo + institutional
     + international credits (Scott, 2026-06-25). She is past foundation-building;
     these are the real next levers, every one framed as a door to walk through —
@@ -916,23 +936,31 @@ def _next_tier_levers(solo_shows: int, has_international: bool, has_jws: bool,
             "action_zh": "在 Colour Diary 之后，规划下一本书或zine。",
         })
     else:
+        _pt, _py, _yrs = first_pub
+        # Spelled out in English prose; Chinese takes the digit, as the rest of
+        # the page does.
+        _words = ("no", "a", "two", "three", "four", "five", "six", "seven",
+                  "eight", "nine", "ten")
+        _pn = ("a year" if _yrs == 1
+               else f"{_words[_yrs] if _yrs < len(_words) else _yrs} years")
+        _pz = f"{_yrs} 年过去" if _yrs != 1 else "一年过去"
         levers.append({
             "gap_id":   "monograph",
-            "gap":      "A new book or monograph beyond Colour Diary (2021)",
-            "gap_zh":   "在 Colour Diary（2021）之后，出一本新书或个人画册",
+            "gap":      f"A new book or monograph beyond {_pt} ({_py})",
+            "gap_zh":   f"在 {_pt}（{_py}）之后，出一本新书或个人画册",
             "detail":   (
-                "Colour Diary (2021) was your first solo collection — five years and a great deal "
+                f"{_pt} ({_py}) was your first solo collection — {_pn} and a great deal "
                 "of work later, a new book or monograph would gather the recent practice and give "
                 "galleries, fairs, and press a single object to engage with."
             ),
             "detail_zh": (
-                "Colour Diary（2021）是你的首部个人作品集——五年过去，作品已积累许多，"
+                f"{_pt}（{_py}）是你的首部个人作品集——{_pz}，作品已积累许多，"
                 "一本新书或个人画册能把近期的创作汇聚起来，"
                 "也为画廊、博览会与媒体提供一个可以共同关注的整体。"
             ),
             "priority": "low",
-            "action":   "Gather the work made since Colour Diary toward a second book or monograph.",
-            "action_zh": "把 Colour Diary 之后的创作汇整起来，朝第二本书或个人画册推进。",
+            "action":   f"Gather the work made since {_pt} toward a second book or monograph.",
+            "action_zh": f"把 {_pt} 之后的创作汇整起来，朝第二本书或个人画册推进。",
         })
 
     return levers
@@ -942,7 +970,8 @@ def _blocking_gaps(group_shows: int, has_solo: bool, has_institutional: bool,
                    has_international: bool, has_jws: bool,
                    *, solo_shows: int = 0, has_representation: bool = False,
                    has_residency: bool = False, has_grant: bool = False,
-                   publications: int = 0) -> list:
+                   publications: int = 0,
+                   first_pub: tuple = ("Colour Diary", 2021, 0)) -> list:
     gaps = []
 
     # Framed as opportunities ahead, not deficits. The whole readiness surface
@@ -969,7 +998,7 @@ def _blocking_gaps(group_shows: int, has_solo: bool, has_institutional: bool,
         return _next_tier_levers(
             solo_shows or (1 if has_solo else 0),
             has_international, has_jws, has_representation,
-            has_residency, has_grant, publications,
+            has_residency, has_grant, publications, first_pub,
         )
 
     if group_shows < 3:
@@ -1223,6 +1252,7 @@ def build_career_strategy_report():
         solo_shows=solo_shows, has_representation=has_representation,
         has_residency=has_residency, has_grant=has_grant,
         publications=publications,
+        first_pub=_first_publication(profile),
     )
 
     # ── Level + single next unlock (Saffron hybrid reframe) ───────────────────
