@@ -66,9 +66,9 @@ RULES = [
     _t("The sentence naming which of their shows was attended is the one part of the letter that cannot be fabricated, and the part that gets read twice.",
        "写明去看过他们哪一场展的那句话，是整封信里唯一无法伪造的部分，也是会被读两遍的部分。"),
     _t("The first letter asks for a viewing, not a show. A request for a show is a proposal, and a proposal is something that can be declined.",
-       "第一封信请求的是「看一下」，不是一次展览。请求展览就成了提案，而提案是可以被否决的。"),
+       "第一封信请求的是“看一下”，不是一次展览。请求展览就成了提案，而提案是可以被否决的。"),
     _t("Silence at ten days indicates the letter was not seen rather than refused. A second letter three months later, at the next opening, comes from someone who has by then been twice.",
-       "十天没有回音，通常意味着信没有被看到，而不是被拒绝。三个月后下一场展开幕时写第二封，寄信人已经是「来过两次的人」。"),
+       "十天没有回音，通常意味着信没有被看到，而不是被拒绝。三个月后下一场展开幕时写第二封，寄信人已经是“来过两次的人”。"),
     _t("Sizes and prices are left out until they are asked for. Included unprompted, the letter becomes a quote sheet.",
        "尺寸和价格在对方问起之前不写。没被问就写上，信就变成了一份报价单。"),
 ]

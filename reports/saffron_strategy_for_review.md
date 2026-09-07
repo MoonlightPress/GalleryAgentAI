@@ -183,7 +183,7 @@ FACE 2027 takes submissions from 7 September to 8 October, and shows the selecte
 
 HAGI ART in Yanaka writes its remit as young artists' solo and group shows, art-book markets, and exhibitions about architecture, culture and daily life — and charges no venue fee at all, running the programme on the café below it. It selects on a written concept, so it takes a proposal by email rather than a booking.
 
-Gallery KAZE in Kichijoji is ¥110,000 for six days with no commission on sales, in 40m² with twenty metres of wall. It has a watercolour solo booked this October — 青山一樹, 「水彩でえがく情景」 — and its 2027 calendar is still mostly open. Four originals at your prices cover the room.
+Gallery KAZE in Kichijoji is ¥110,000 for six days with no commission on sales, in 40m² with twenty metres of wall. It has a watercolour solo booked this October——青山一樹, 「水彩でえがく情景」——and its 2027 calendar is still mostly open. Four originals at your prices cover the room.
 
 Moon Gallery you already know: ¥100,000 for five days, no commission, and nobody has to sit the room.
 
@@ -327,8 +327,8 @@ The publisher's contribution is everything surrounding those royalties: financin
 
 ### Three publishers with a published route in
 
-- [マール社 — 「いつでも、どなたでも」, and no publishing record required. If a proposal is taken they publish at their own expense, with nationwide bookshop distribution. A reply comes inside a month; nothing is returned.](https://www.maar.com/plan)
-- [青幻舎 — a form for proposals only: a portfolio showing the work, your history and profile, plus a plan and image files, attachments up to 10MB](https://www.seigensha.com/proposal-contact/)
+- [マール社——「いつでも、どなたでも」, and no publishing record required. If a proposal is taken they publish at their own expense, with nationwide bookshop distribution. A reply comes inside a month; nothing is returned.](https://www.maar.com/plan)
+- [青幻舎——a form for proposals only: a portfolio showing the work, your history and profile, plus a plan and image files, attachments up to 10MB](https://www.seigensha.com/proposal-contact/)
 - [MdN — publisher of the Tokyo Storefronts books, so this exact kind of book is already on their list. They publish no submission route, so an approach goes through their general enquiry form.](https://books.mdn.co.jp/contact/)
 
 The next useful piece of work here is therefore one book proposal, built well enough to send to all three with small changes.
@@ -353,7 +353,7 @@ The subject, the schedule and the finished image stop being entirely yours. A ¥
 
 ### The painting and the usage, priced separately
 
-A commission asks you to give up something your originals preserve: complete control over the subject, schedule and finished image. So the fee has to compensate for that, or the commission has to create value somewhere else. The national rate card gives a useful floor:
+Either the fee compensates for what a brief takes, or the commission creates value somewhere else. The national rate card gives a useful floor:
 
 | Use | Published rate |
 |---|---|
