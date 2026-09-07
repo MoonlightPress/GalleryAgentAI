@@ -2747,7 +2747,7 @@ def get_saffron():
                 "name_zh": opp.get("name_zh", ""),
                 "name_ja": opp.get("name_ja", ""),
                 "deadline": dl,
-                "date": _date().isoformat() if _dt else "",
+                "date": _dt.date().isoformat() if _dt else "",
                 "category": opp.get("category", ""),
                 "url": _cal_url(opp),
             })
