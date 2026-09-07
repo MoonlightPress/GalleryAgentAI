@@ -546,6 +546,12 @@ body{
   font-family:Georgia,serif;font-size:11px;font-weight:bold;letter-spacing:.08em;
   text-transform:uppercase;color:#c47a35;margin-bottom:14px;
 }
+/* Headings inside a route are a long read on a phone, not dashboard tags. */
+.sf-scen .sf-block-label,.sf-firststeps .sf-block-label{
+  font-size:14.5px;letter-spacing:.01em;text-transform:none;color:#7a5030;
+  line-height:1.45;margin-top:34px;margin-bottom:10px;
+}
+.sf-scen>div:first-child .sf-block-label{margin-top:0}
 .sf-ext-link{text-decoration:none}
 .sf-ext-link:hover{color:#c47a35;text-decoration:underline}
 
@@ -570,19 +576,21 @@ body{
 .sf-future-standing{font-family:Georgia,serif;font-size:12px;color:#7a6448;margin-top:6px;line-height:1.55;max-width:46em}
 .sf-future-tagline{font-family:Georgia,serif;font-size:12.5px;font-style:italic;color:#8a6f4a;margin-top:3px;line-height:1.45}
 .sf-future-body{padding:0 15px 15px}
-.sf-details{display:flex;flex-direction:column;gap:1px}
-.sf-detail{border-top:1px solid #ece0c4}
-.sf-detail:last-child{border-bottom:1px solid #ece0c4}
+.sf-details{display:flex;flex-direction:column;gap:8px;margin:4px 0 22px}
+.sf-detail{
+  background:#f7f4e8;border:1px solid #e6d9bd;border-radius:8px;
+  border-left:3px solid #c9a86a;overflow:hidden;
+}
+.sf-detail--open{background:#fffdf7;border-left-color:#c47a35}
 .sf-detail-head{
   width:100%;display:flex;align-items:center;justify-content:space-between;
-  gap:12px;padding:9px 2px;text-align:left;
+  gap:12px;padding:12px 14px;text-align:left;
 }
 .sf-detail-label{
-  font-family:Georgia,serif;font-size:11px;font-weight:bold;letter-spacing:.08em;
-  text-transform:uppercase;color:#c47a35;
+  font-family:Georgia,serif;font-size:13.5px;font-weight:bold;line-height:1.45;color:#7a5030;
 }
-.sf-chevron--sm{font-size:14px;margin-top:0}
-.sf-detail-body{padding:2px 2px 14px}
+.sf-chevron--sm{font-size:16px;margin-top:0;color:#c47a35;flex-shrink:0}
+.sf-detail-body{padding:0 14px 14px}
 
 /* ── what a book costs ───────────────────────────────────────────────────── */
 .sf-be-claim{font-family:Georgia,serif;font-size:15px;line-height:1.68;color:#3d2b1a;margin:0 0 14px}

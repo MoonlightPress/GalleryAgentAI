@@ -1650,10 +1650,11 @@ function BreakEvenChart({ options, lang }) {
 function PublisherFork({ data, lang }) {
   const pick = (o) => (o && (o[lang] || o.en)) || ''
   if (!data?.fork) return null
+  // No heading inside. `fork.label` is what the engine already puts on the lid
+  // you press to get here, so rendering it again repeated the line immediately
+  // under itself (Scott, 2026-09-07). The lid is the heading.
   return (
-
       <div className="sf-fork">
-        <div className="sf-block-label">{pick(data.fork.label)}</div>
         <div className="sf-fork-cols">
           {data.fork.columns.map(c => (
             <div key={c.id} className={`sf-fork-col sf-fork-col--${c.id}`}>
