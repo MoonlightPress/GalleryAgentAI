@@ -1,0 +1,224 @@
+/* SaffronV2 — only what the new surfaces need. Everything the reused sections
+   render still comes from SaffronPage.css, so the two pages stay in one skin. */
+
+.saffron-v2 .v2-flag {
+  font-family: Georgia, serif;
+  font-size: 11.5px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  margin: 0 0 14px;
+}
+.saffron-v2 .v2-flag code {
+  font-family: Consolas, Menlo, monospace;
+  text-transform: none;
+  letter-spacing: 0;
+  background: #f6eddd;
+  padding: 1px 5px;
+  border-radius: 2px;
+}
+
+/* ── pulse ─────────────────────────────────────────────────────────────── */
+.v2-pulse {
+  background: #fbf3e4;
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--gold);
+  border-radius: 3px;
+  padding: 14px 16px;
+  margin-bottom: 20px;
+}
+.v2-pulse-head {
+  font-family: Georgia, serif;
+  font-size: 12px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  margin: 0 0 9px;
+}
+.v2-pulse-row {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  font-family: Georgia, serif;
+  font-size: 14.5px;
+  color: var(--ink);
+  margin-bottom: 3px;
+}
+.v2-pulse-n {
+  font-family: Consolas, Menlo, monospace;
+  font-variant-numeric: tabular-nums;
+  font-size: 16px;
+  min-width: 2.4em;
+  text-align: right;
+}
+.v2-pulse-n--zero { color: var(--ink-muted); }
+.v2-pulse-say {
+  margin: 10px 0 0;
+  padding-top: 9px;
+  border-top: 1px dotted var(--border);
+  font-family: Georgia, serif;
+  font-size: 13.5px;
+  font-style: italic;
+  color: var(--ink-medium);
+}
+
+.v2-tabs { margin-bottom: 20px; }
+
+.v2-block { margin-bottom: 26px; }
+.v2-h {
+  font-family: Georgia, serif;
+  font-size: 19px;
+  font-weight: normal;
+  margin: 0 0 2px;
+  color: var(--ink);
+}
+.v2-sub {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  color: var(--ink-muted);
+  margin: 0 0 14px;
+}
+
+/* ── year strip ────────────────────────────────────────────────────────── */
+.v2-yearstrip {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 5px;
+}
+@media (min-width: 720px) {
+  .v2-yearstrip { grid-template-columns: repeat(12, 1fr); }
+}
+.v2-ys {
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: #fffdf9;
+  padding: 7px 3px 6px;
+  text-align: center;
+  cursor: pointer;
+  font-family: Georgia, serif;
+  transition: background 0.12s ease, border-color 0.12s ease;
+}
+.v2-ys:hover { background: #f9f1e2; }
+.v2-ys:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+.v2-ys--on { background: var(--ink); border-color: var(--ink); }
+.v2-ys--on .v2-ys-m,
+.v2-ys--on .v2-ys-n { color: var(--paper); }
+.v2-ys--on .v2-ys-door { background: var(--paper); }
+.v2-ys--quiet { background: transparent; border-style: dashed; }
+.v2-ys-m {
+  display: block;
+  font-size: 10px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
+.v2-ys-n {
+  display: block;
+  font-family: Consolas, Menlo, monospace;
+  font-variant-numeric: tabular-nums;
+  font-size: 15px;
+  line-height: 1.35;
+  color: var(--ink);
+}
+.v2-ys-n--none { color: var(--ink-muted); }
+.v2-ys-doors {
+  display: flex;
+  gap: 2px;
+  justify-content: center;
+  height: 5px;
+  margin-top: 1px;
+}
+.v2-ys-door {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #c47a35;
+  display: block;
+}
+.v2-ys-key {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+  font-family: Georgia, serif;
+  font-size: 11.5px;
+  color: var(--ink-muted);
+  margin: 10px 0 20px;
+}
+.v2-ys-key span { display: flex; align-items: center; gap: 5px; }
+
+/* ── the month you tapped ──────────────────────────────────────────────── */
+.v2-month {
+  border-top: 1px solid var(--border);
+  padding-top: 16px;
+}
+.v2-month-h {
+  font-family: Georgia, serif;
+  font-size: 17px;
+  font-weight: normal;
+  margin: 0 0 2px;
+  color: var(--ink);
+}
+.v2-month-yr { color: var(--ink-muted); font-size: 14px; }
+.v2-month-sub {
+  font-family: Georgia, serif;
+  font-size: 12.5px;
+  color: var(--ink-muted);
+  margin: 0 0 12px;
+}
+.v2-month-empty {
+  font-family: Georgia, serif;
+  font-size: 13.5px;
+  font-style: italic;
+  color: var(--ink-muted);
+  margin: 0;
+}
+.v2-list { list-style: none; margin: 0; padding: 0; }
+.v2-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 14px;
+  padding: 8px 0;
+  border-bottom: 1px solid #f0e6d4;
+}
+.v2-list li:last-child { border-bottom: 0; }
+.v2-list-name {
+  font-family: Georgia, serif;
+  font-size: 13.5px;
+  color: var(--ink);
+  text-decoration: none;
+  min-width: 0;
+}
+.v2-list-name:hover { text-decoration: underline; }
+.v2-list-when {
+  font-family: Consolas, Menlo, monospace;
+  font-size: 11.5px;
+  color: var(--ink-muted);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+.v2-more {
+  background: none;
+  border: 0;
+  padding: 10px 0 0;
+  font-family: Georgia, serif;
+  font-size: 12.5px;
+  color: var(--ink-muted);
+  cursor: pointer;
+}
+.v2-more:hover { color: var(--ink); }
+
+.v2-coverage {
+  font-family: Georgia, serif;
+  font-size: 12px;
+  font-style: italic;
+  color: var(--ink-muted);
+  margin: 20px 0 0;
+  padding-top: 12px;
+  border-top: 1px dotted var(--border);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .v2-ys { transition: none; }
+}

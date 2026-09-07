@@ -1,7 +1,9 @@
 // Best-effort UX beacon. Posts a usage event to /api/event with the anonymous,
 // stable per-browser visitor id attached. Never throws into the UI.
 
-function visitorId() {
+// Exported so a page can ask the API "what changed since I last looked"
+// using the same anonymous id the beacon already attaches.
+export function visitorId() {
   try {
     let v = localStorage.getItem('mochi_vid')
     if (!v) {

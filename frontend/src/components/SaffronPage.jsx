@@ -406,6 +406,20 @@ const SF_JA = {
   "Solid for this stage, especially with a solo collection so early": "この段階としては堅実——とりわけ、早くから初の個人作品集を出していることは大きい",
 }
 
+// The same translation the page does to its own payload, exported so a second
+// page can reuse the sections without re-deriving the map. Dynamic opportunity
+// strings come from the payload's own `_i18n` (rebuilt from live data every run,
+// so it survives pipeline updates); the static authored prose comes from the
+// SF_* constants above.
+export function saffronTx(raw, lang) {
+  if (!raw) return raw
+  if (lang === 'zh') return deepTranslate(raw, { ...(raw?._i18n?.zh || {}), ...SF_ZH, ...SF_ZH_PEERS, ...SF_ZH_CV })
+  if (lang === 'ja') return deepTranslate(raw, { ...(raw?._i18n?.ja || {}), ...SF_JA })
+  return raw
+}
+
+export { SectionErrorBoundary, SectionOpenContext, SectionIdContext }
+
 class SectionErrorBoundary extends Component {
   constructor(props) { super(props); this.state = { error: null } }
   static getDerivedStateFromError(err) { return { error: err } }
@@ -443,7 +457,7 @@ const SectionIdContext = createContext(null)
 // long_term_scenarios" reading turned out to measure scroll speed past a
 // closed accordion, not engagement). Never fires on the initial default-open
 // mount — only on a deliberate click.
-function SectionShell({ title, subtitle, summary, defaultOpen, trackId, children }) {
+export function SectionShell({ title, subtitle, summary, defaultOpen, trackId, children }) {
   const ctxDefault = useContext(SectionOpenContext)
   const ctxId = useContext(SectionIdContext)
   const sectionId = trackId ?? ctxId
@@ -470,7 +484,7 @@ function SectionShell({ title, subtitle, summary, defaultOpen, trackId, children
   )
 }
 
-function EmptyState({ message }) {
+export function EmptyState({ message }) {
   return <p className="sf-empty-state">{message}</p>
 }
 
@@ -614,7 +628,7 @@ function AddShowInline({ t, onChanged }) {
   )
 }
 
-function CareerPosition({ data, t, onChanged }) {
+export function CareerPosition({ data, t, onChanged }) {
   const { lang } = useLanguage()
   const ig = data.social.find(s => s.platform === 'Instagram')
   // Her record is the exhibitions + publications. Social handles, education, and
@@ -713,7 +727,7 @@ const PEER_LINK = {
   'Lian Quan Zhen': 'https://www.lianspainting.com/',  // no IG; official site
 }
 
-function ComparableArtists({ artists, t }) {
+export function ComparableArtists({ artists, t }) {
   // Show a generous set (Scott, 2026-06-26: "needs more people"). With the new
   // verified peers sorted ahead by fit, this keeps her existing good comps AND
   // the closer daily-diary / illustration-community ones.
@@ -783,7 +797,7 @@ function ShyTips({ text, lang }) {
   )
 }
 
-function StrategicPathway({ data, t }) {
+export function StrategicPathway({ data, t }) {
   const { lang } = useLanguage()
   const done    = data.steps.filter(s => s.done).length
   const summary = `${data.goal} · ${done} / ${data.steps.length}`
@@ -1014,7 +1028,7 @@ const RC_LABELS = {
 }
 const rcL = (k, lang) => RC_LABELS[k][lang] || RC_LABELS[k].en
 
-function RecurringDoors({ data, lang }) {
+export function RecurringDoors({ data, lang }) {
   if (!data || !data.doors?.length) return null
   const pick = (o) => (o && (o[lang] || o.en)) || ''
   const yen = (n) => '¥' + n.toLocaleString('en-US')
@@ -1208,7 +1222,7 @@ function SeasonalCalendar({ data, t, lang, recurring }) {
   )
 }
 
-function PressFeatures({ data, t }) {
+export function PressFeatures({ data, t }) {
   const total   = data.confirmed.length
   const summary = t('sf.sum.pressFeatures', { n: total, s: total !== 1 ? 's' : '' })
   return (
@@ -1647,7 +1661,7 @@ function BreakEvenChart({ options, lang }) {
 // arithmetic sits in Selling Direct. Printing, posting and consigning a book
 // yourself IS selling direct (Scott, 2026-09-07); a publisher doing it is a
 // different route, and the two do not need the comparison drawn twice.
-function PublisherFork({ data, lang }) {
+export function PublisherFork({ data, lang }) {
   const pick = (o) => (o && (o[lang] || o.en)) || ''
   if (!data?.fork) return null
   // No heading inside. `fork.label` is what the engine already puts on the lid
@@ -1677,7 +1691,7 @@ function PublisherFork({ data, lang }) {
 
 // No `t`: every string in this section is engine-supplied or in BE_LABELS, so
 // the shared translation table has nothing to contribute.
-function BookEconomics({ data, lang }) {
+export function BookEconomics({ data, lang }) {
   if (!data?.options?.length) return null
   const pick = (o) => (o && (o[lang] || o.en)) || ''
   const yen = (n) => '¥' + n.toLocaleString('en-US')
@@ -1905,7 +1919,7 @@ function Future({ f, lang, components }) {
   )
 }
 
-function Futures({ data, t, lang, components }) {
+export function Futures({ data, t, lang, components }) {
   if (!data?.futures?.length) return null
   const pick = (o) => (o && (o[lang] || o.en)) || ''
   return (
@@ -2096,7 +2110,7 @@ function VenueTrackerRow({ v, lang, t }) {
   )
 }
 
-function VenueTracker({ data, t }) {
+export function VenueTracker({ data, t }) {
   const { lang } = useLanguage()
   const active = data.active ?? 0
   const summary = active > 0
@@ -2253,7 +2267,7 @@ function PressPitchMap({ t, lang }) {
 
 // ── Grant Landscape ────────────────────────────────────────────────────────
 
-function GrantLandscape({ t, lang }) {
+export function GrantLandscape({ t, lang }) {
   const d = localizeDeep(GRANT_LANDSCAPE, lang)
   const grants = d.items.filter(item => item.name)
   const strategyNote = d.items.find(item => item.category_note)
@@ -2965,7 +2979,7 @@ function TargetsList({ targets, lang }) {
   )
 }
 
-function CareerReadiness({ data, cadenceTip, onChanged }) {
+export function CareerReadiness({ data, cadenceTip, onChanged }) {
   const { t, lang } = useLanguage()
   const [showMore, setShowMore] = useState(false)
   if (!data) return null

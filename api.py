@@ -6,7 +6,7 @@ import hashlib
 import os
 import subprocess
 from collections import Counter
-from datetime import datetime, timezone, date as _date
+from datetime import datetime, timezone, timedelta, date as _date
 from pathlib import Path
 from fastapi import FastAPI, HTTPException, Request, BackgroundTasks
 from fastapi.middleware.cors import CORSMiddleware
@@ -4141,6 +4141,102 @@ async def add_membership(request: Request):
     _save_her_data(mpath, master)
     _refresh_career_strategy()
     return {"ok": True, "entry": entry}
+
+
+@app.get("/api/saffron_pulse")
+def get_saffron_pulse(visitor_id: str = "", since: str = ""):
+    """What changed since she last looked — the one thing Saffron never had.
+
+    Bible08's tone examples for this page are all deltas ("Twelve watercolor open
+    calls have closed since your last visit. Two new ones opened."), and no
+    surface computes one. Everything here comes from fields that already exist:
+    `added_at` on the catalogue and the per-visitor last-seen already kept in
+    usage_state.json — no new scrape, no new pipeline step.
+
+    `since` resolves in this order: an explicit query param, then this visitor's
+    last flush, then 30 days back. An unknown visitor gets the fallback rather
+    than an error, so the first load of a new browser still says something true.
+    """
+    today = datetime.now(timezone.utc).date()
+
+    baseline = None
+    if since:
+        try:
+            baseline = _date.fromisoformat(since[:10])
+        except ValueError:
+            baseline = None
+    if baseline is None and visitor_id:
+        seen = _load_json(USAGE_STATE_PATH, {}) or {}
+        stamp = seen.get(visitor_id)
+        if stamp:
+            try:
+                baseline = _date.fromisoformat(str(stamp)[:10])
+            except ValueError:
+                baseline = None
+    resolved_from = "explicit" if since and baseline else ("visit" if baseline else "default")
+    if baseline is None:
+        baseline = today - timedelta(days=30)
+
+    opps = _load_json(DEPLOY_DIR / "compact_opportunities.json", [])
+    if isinstance(opps, dict):
+        opps = opps.get("items", [])
+    # The browse surface she actually sees — same filter the opportunity list uses.
+    opps = [o for o in opps
+            if o.get("exclusive_primary_bucket") not in ("reject", "low_priority")]
+
+    horizon = today + timedelta(days=30)
+    new_items, closed_items, closing_items = [], [], []
+    dated_ahead = 0
+
+    for o in opps:
+        added = str(o.get("added_at") or "")[:10]
+        if added:
+            try:
+                if _date.fromisoformat(added) > baseline:
+                    new_items.append(o)
+            except ValueError:
+                pass
+        dt = _parse_deadline_date(o)
+        if not dt:
+            continue
+        when = dt.date()
+        if when > today:
+            dated_ahead += 1
+            if when <= horizon:
+                closing_items.append((when, o))
+        elif when > baseline:
+            closed_items.append(o)
+
+    closing_items.sort(key=lambda pair: pair[0])
+
+    def _card(o, when=None):
+        return {
+            "name": o.get("name", ""),
+            "name_zh": o.get("name_zh", ""),
+            "name_ja": o.get("name_ja", ""),
+            "category": o.get("category", ""),
+            "deadline": o.get("deadline", ""),
+            "date": when.isoformat() if when else "",
+            "url": (o.get("submission_page") or o.get("official_website")
+                    or o.get("url_final") or ""),
+        }
+
+    return {
+        "since": baseline.isoformat(),
+        "since_source": resolved_from,
+        "generated_for": today.isoformat(),
+        "new_count": len(new_items),
+        "closed_count": len(closed_items),
+        "closing_count": len(closing_items),
+        "new": [_card(o) for o in new_items[:12]],
+        "closing": [_card(o, w) for w, o in closing_items[:12]],
+        # Said out loud rather than hidden: the calendar can only ever show the
+        # slice that carries a date we can read.
+        "coverage": {
+            "served": len(opps),
+            "dated_ahead": dated_ahead,
+        },
+    }
 
 
 @app.get("/api/tracker")

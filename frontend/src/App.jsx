@@ -20,12 +20,17 @@ import { parseHash, formatHash, sameRoute } from './utils/route'
 
 const SaffronPage = lazy(() => import('./components/SaffronPage'))
 const PeppercornPage = lazy(() => import('./components/PeppercornPage'))
+// The Saffron restructure prototype, reachable only at #observe2 (or /mochi2,
+// which nginx redirects here). Lazy like the others so it costs nothing to
+// anyone who never opens it.
+const SaffronV2 = lazy(() => import('./components/SaffronV2'))
 
 function PageFallback({ page }) {
   const { t } = useLanguage()
   // Each companion gets its own loading line: bird's-eye view (Saffron),
   // looking for crumbs (Peppercorn), find something good (Mochi).
-  const key = page === 'observe' ? 'sf.loading' : page === 'refine' ? 'loading.peppercorn' : 'opps.loading'
+  const key = (page === 'observe' || page === 'observe2') ? 'sf.loading'
+    : page === 'refine' ? 'loading.peppercorn' : 'opps.loading'
   return (
     <p className="page-loading" style={{ minHeight: '80vh', display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center', fontStyle: 'italic', padding: '3rem 1rem', color: 'var(--muted)' }}>
       {t(key)}
@@ -213,7 +218,7 @@ export default function App() {
         )}
         {page === 'discover' && <TrackedSection section="tracker"><TrackerSection /></TrackedSection>}
         {page === 'discover' && <AtelierFooter page="discover" />}
-        {(page === 'observe' || page === 'refine') && (
+        {(page === 'observe' || page === 'observe2' || page === 'refine') && (
           <Suspense fallback={<PageFallback page={page} />}>
             {page === 'observe' && (
               <SaffronPage
@@ -223,6 +228,7 @@ export default function App() {
                 onTabChange={(key) => navigate('observe', key)}
               />
             )}
+            {page === 'observe2' && <SaffronV2 nav={nav} />}
             {page === 'refine'  && <PeppercornPage nav={nav} />}
             {/* Footer lives INSIDE Suspense so it stays hidden until the page
                 resolves — no footer floating on the blank fallback mid-switch.

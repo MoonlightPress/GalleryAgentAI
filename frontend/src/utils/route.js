@@ -9,7 +9,11 @@
 // Anything unrecognised degrades to discover rather than erroring — a stale or
 // mistyped link should land her somewhere useful, never on a blank screen.
 
-export const PAGES = ['discover', 'observe', 'refine']
+// 'observe2' is the Saffron restructure prototype. It is deliberately NOT in
+// the nav — the only way in is typing the hash (or /mochi2, which nginx
+// redirects here), so she cannot land on it by accident while it is being
+// worked on. Remove it from this list to retire the prototype.
+export const PAGES = ['discover', 'observe', 'observe2', 'refine']
 
 // Saffron's sub-tabs, in the order SaffronPage renders them. Only 'observe'
 // carries a tab today; the others ignore the second segment.

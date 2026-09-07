@@ -31,8 +31,16 @@ test('sloppy hashes still resolve', () => {
 
 test('an unrecognised hash falls back to discover instead of erroring', () => {
   assert.deepEqual(parseHash('#nonsense'), { page: 'discover', tab: null })
-  assert.deepEqual(parseHash('#observe2'), { page: 'discover', tab: null })
+  // '#observe2' used to live here as the near-miss example — it is a real page
+    // now (the Saffron restructure prototype), so the near-miss moved up a digit.
+    assert.deepEqual(parseHash('#observe3'), { page: 'discover', tab: null })
   assert.deepEqual(parseHash('#section-open_calls'), { page: 'discover', tab: null })
+})
+
+test('the observe2 prototype resolves, and takes no tab', () => {
+  assert.deepEqual(parseHash('#observe2'), { page: 'observe2', tab: null })
+  // Tabs are Saffron's alone; observe2 manages its own in component state.
+  assert.deepEqual(parseHash('#observe2/calendar'), { page: 'observe2', tab: null })
 })
 
 test('an unknown tab keeps the page and drops the tab', () => {
