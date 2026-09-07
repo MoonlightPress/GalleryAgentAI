@@ -122,7 +122,7 @@ For a book intended as a product, the Chinese hardcover has the strongest econom
 
 - [pixivFACTORY / BOOTH — first test for posters, canvas and framed prints](https://factory.pixiv.net/)
 - [SUZURI — useful for smaller paper goods and low-risk experiments](https://suzuri.jp/)
-- [INPRNT — the useful addition for buyers outside Japan](https://www.inprnt.com/)
+- [INPRNT — the useful addition for buyers outside Japan. Artists there choose who joins, so it takes three images and a vote; the answer comes by email in about 48 hours.](https://www.inprnt.com/application/)
 
 ## Galleries
 
@@ -276,7 +276,7 @@ Your subject matter already fits the book market: architecture, atmosphere, inte
 - [イラストレーションファイルWeb — where Japanese art directors and book designers look for illustrators, and the form for being listed in it](https://i.fileweb.jp/blog/file_oubo)
 - [amanaimages — Japanese stock licensing; published cover licences are ¥33,000–79,200](https://amanaimages.com/)
 - [Arcangel — specialised in book-cover imagery, accepts illustration and pays contributors 50% of net](https://arcangel.com/become-a-contributor/)
-- [Bridgeman Studio — represents roughly a thousand artists for licensing and is currently accepting illustration submissions](https://www.bridgemanimages.com/en/studio)
+- [Bridgeman Studio — open to illustration; apply with three to five images and they review those alongside your online presence. Both exclusive and non-exclusive contracts exist, and non-exclusive leaves you free to license elsewhere.](https://partner-hub.bridgemanimages.com/en/apply-now)
 
 This route can begin with work you already own and expand through paintings designed specifically for commercial use.
 
@@ -327,9 +327,9 @@ The publisher's contribution is everything surrounding those royalties: financin
 
 ### Three publishers with a published route in
 
-- [マール社 — accepts proposals directly and finances accepted books itself](https://www.maar.com/)
-- [青幻舎 — has a dedicated proposal route asking for a plan, portfolio and images](https://www.seigensha.com/)
-- [MdN — accepts portfolios and proposals and has already published successful Tokyo architecture books](https://books.mdn.co.jp/)
+- [マール社 — 「いつでも、どなたでも」, and no publishing record required. If a proposal is taken they publish at their own expense, with nationwide bookshop distribution. A reply comes inside a month; nothing is returned.](https://www.maar.com/plan)
+- [青幻舎 — a form for proposals only: a portfolio showing the work, your history and profile, plus a plan and image files, attachments up to 10MB](https://www.seigensha.com/proposal-contact/)
+- [MdN — publisher of the Tokyo Storefronts books, so this exact kind of book is already on their list. They publish no submission route, so an approach goes through their general enquiry form.](https://books.mdn.co.jp/contact/)
 
 The next useful piece of work here is therefore one book proposal, built well enough to send to all three with small changes.
 
@@ -386,8 +386,8 @@ That turns an ambiguous “How much for a painting?” into something you can pr
 
 ### Two useful doors now
 
-- [ザ・チョイス — ¥1,500 entry; age, nationality and professional status are explicitly unrestricted. Accepts unframed originals.](https://illustration-mag.jp/choice)
-- [HB FILE — ¥7,000 entry; every entrant's file remains available to designers and publishers in the gallery for a year.](https://hbgallery.com/compe.html)
+- [ザ・チョイス — ¥1,500 flat, whether you enter one work or five. It runs four times a year with a different judge each round, and every selected work goes forward to the annual prize. Age, nationality and professional or amateur status are all explicitly unrestricted. Pay through Peatix before the postal deadline, which falls a day earlier than the deadline for the work itself.](https://illustration-mag.jp/regular)
+- [HB FILE — ¥7,000, currently vol.37, and previously published work is accepted, so six years of finished paintings is already the portfolio. Every entrant's file stays available to designers and publishers in the gallery for a year; the top prizes are a week's solo show at HB Gallery in Omotesando.](https://hbgallery.com/compe.html)
 
 Both are inexpensive ways to place the work in front of people who commission illustration.
 

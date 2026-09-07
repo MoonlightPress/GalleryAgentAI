@@ -313,9 +313,14 @@ _SELLING_DIRECT = [
         {"name": _t("SUZURI — useful for smaller paper goods and low-risk experiments",
                     "SUZURI——小件纸制品，低风险的尝试"),
          "url": "https://suzuri.jp/"},
-        {"name": _t("INPRNT — the useful addition for buyers outside Japan",
-                    "INPRNT——面向日本以外的买家时，值得加上的一个"),
-         "url": "https://www.inprnt.com/"},
+        # The old link went to the shop front, which reads as "just sign up" —
+        # and INPRNT does not work that way. Artists join by invitation from an
+        # existing seller, or by applying with three images that the artists
+        # already there vote on. Saying so turns a wall back into a door with a
+        # handle on it; the answer arrives in about two days either way.
+        {"name": _t("INPRNT — the useful addition for buyers outside Japan. Artists there choose who joins, so it takes three images and a vote; the answer comes by email in about 48 hours.",
+                    "INPRNT——面向日本以外的买家时，值得加上的一个。谁能进由已在站内的作者投票决定，所以要交三张图；结果大约 48 小时内邮件通知。"),
+         "url": "https://www.inprnt.com/application/"},
      ]},
 ]
 
@@ -613,9 +618,13 @@ _LICENSING = [
         {"name": _t("Arcangel — specialised in book-cover imagery, accepts illustration and pays contributors 50% of net",
                     "Arcangel——专做书封图像，收插画，付给供稿人净额的 50%"),
          "url": "https://arcangel.com/become-a-contributor/"},
-        {"name": _t("Bridgeman Studio — represents roughly a thousand artists for licensing and is currently accepting illustration submissions",
-                    "Bridgeman Studio——代理约一千位艺术家做授权，目前正在接受插画投稿"),
-         "url": "https://www.bridgemanimages.com/en/studio"},
+        # The link used to point at /en/studio, which is the marketing page and
+        # carries no way in — checked 2026-09-07, no submission route on it at
+        # all. This is the actual application: pre-register with 3-5 images, and
+        # they review those alongside your existing online presence.
+        {"name": _t("Bridgeman Studio — open to illustration; apply with three to five images and they review those alongside your online presence. Both exclusive and non-exclusive contracts exist, and non-exclusive leaves you free to license elsewhere.",
+                    "Bridgeman Studio——接受插画；投三到五张图申请，他们连同你现有的网上呈现一起看。合约分独家与非独家两种，非独家可以同时在别处授权。"),
+         "url": "https://partner-hub.bridgemanimages.com/en/apply-now"},
      ]},
 
     {"kind": "note", "text": _t(
@@ -700,15 +709,20 @@ _PUBLISHING = [
     {"kind": "links", "label": _t("Three publishers with a published route in",
                                   "三家把入口写出来的出版社"),
      "items": [
-        {"name": _t("マール社 — accepts proposals directly and finances accepted books itself",
-                    "マール社——直接接受企划，通过之后由他们出钱做书"),
-         "url": "https://www.maar.com/"},
-        {"name": _t("青幻舎 — has a dedicated proposal route asking for a plan, portfolio and images",
-                    "青幻舎——有专门的企划投递通道，要企划书、作品集和图像"),
-         "url": "https://www.seigensha.com/"},
-        {"name": _t("MdN — accepts portfolios and proposals and has already published successful Tokyo architecture books",
-                    "MdN——接受作品集与企划，而且已经出过卖得很好的东京建筑画集"),
-         "url": "https://books.mdn.co.jp/"},
+        # All three used to point at a homepage, the one page that does not
+        # tell you how to get in. Checked 2026-09-07: maar and seigensha both
+        # run real submission routes, and MdN publishes exactly this kind of
+        # book but states no route, so its line says what is true instead of
+        # implying a door.
+        {"name": _t("マール社 — 「いつでも、どなたでも」, and no publishing record required. If a proposal is taken they publish at their own expense, with nationwide bookshop distribution. A reply comes inside a month; nothing is returned.",
+                    "マール社——「いつでも、どなたでも」，也不要求你出过书。企划一旦被采用，由他们出钱出版，并进入全国书店。一个月内回复；寄去的东西不退。"),
+         "url": "https://www.maar.com/plan"},
+        {"name": _t("青幻舎 — a form for proposals only: a portfolio showing the work, your history and profile, plus a plan and image files, attachments up to 10MB",
+                    "青幻舎——只走企划投递专用表单：作品集（作品、活动经历、简介）、企划书、图像数据，附件上限 10MB"),
+         "url": "https://www.seigensha.com/proposal-contact/"},
+        {"name": _t("MdN — publisher of the Tokyo Storefronts books, so this exact kind of book is already on their list. They publish no submission route, so an approach goes through their general enquiry form.",
+                    "MdN——《东京店构え》系列就是他们出的，所以这一类书本来就在他们的书目里。他们没有公开投稿通道，要从一般咨询表单去问。"),
+         "url": "https://books.mdn.co.jp/contact/"},
      ]},
 
     {"kind": "note", "text": _t(
@@ -807,11 +821,15 @@ _COMMISSIONS = [
 
     {"kind": "links", "label": _t("Two useful doors now", "现在就有两扇有用的门"),
      "items": [
-        {"name": _t("ザ・チョイス — ¥1,500 entry; age, nationality and professional status are explicitly unrestricted. Accepts unframed originals.",
-                    "ザ・チョイス——报名费 1,500 日元；年龄、国籍、是否职业都明确不设限。收不装裱的原作。"),
-         "url": "https://illustration-mag.jp/choice"},
-        {"name": _t("HB FILE — ¥7,000 entry; every entrant's file remains available to designers and publishers in the gallery for a year.",
-                    "HB FILE——报名费 7,000 日元；每位参加者的作品档案会在画廊向设计师和出版社开放一年。"),
+        # Checked 2026-09-07. Two things the old line missed and both matter:
+        # the fee is flat for up to five works, and the competition runs four
+        # times a year, so a round that has closed is a wait of months rather
+        # than a year.
+        {"name": _t("ザ・チョイス — ¥1,500 flat, whether you enter one work or five. It runs four times a year with a different judge each round, and every selected work goes forward to the annual prize. Age, nationality and professional or amateur status are all explicitly unrestricted. Pay through Peatix before the postal deadline, which falls a day earlier than the deadline for the work itself.",
+                    "ザ・チョイス——统一 1,500 日元，投一张和投五张一个价。一年办四次，每次换一位评审，入选作品都会进入年度奖。年龄、国籍、职业或业余，全都明确不设限。报名费通过 Peatix 预付，缴费截止在寄件截止的前一天。"),
+         "url": "https://illustration-mag.jp/regular"},
+        {"name": _t("HB FILE — ¥7,000, currently vol.37, and previously published work is accepted, so six years of finished paintings is already the portfolio. Every entrant's file stays available to designers and publishers in the gallery for a year; the top prizes are a week's solo show at HB Gallery in Omotesando.",
+                    "HB FILE——7,000 日元，目前是第 37 回，接受已经发表过的作品，所以六年画完的东西本身就是作品集。每位参加者的档案会在画廊向设计师和出版社开放一年；最高奖是在表参道 HB Gallery 办一周个展。"),
          "url": "https://hbgallery.com/compe.html"},
      ]},
 
