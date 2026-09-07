@@ -395,19 +395,35 @@ _GALLERIES = [
         "挑几家展览方向确实合得上的画廊，数量不用多。"
         "先去看展。之后寄五张同一个系列的画，问他们有没有兴趣看看实物。")},
 
-    {"kind": "links", "label": _t("The immediate targets found in Tokyo are:",
-                                  "在东京找到的、可以马上去的几家："),
+    # Checked one by one on 2026-09-07 and this list came back one for three.
+    # GALLERY KOGURE is gone: the claim was "a close roster fit, including
+    # detailed urban work on paper", and its roster of ~35 is lacquer, mixed
+    # media, photography and sculpture with no architectural or watercolour
+    # specialism visible at all. Tokyo Gallery + BTAP moved out of "immediate":
+    # the six-Chinese-artists claim is exactly right, and the roster also holds
+    # Xu Bing, which puts it in tier 4 — CLAUDE.md is explicit that tier 4 never
+    # appears as something to act on now.
+    {"kind": "links", "label": _t("The immediate target found in Tokyo",
+                                  "在东京找到的、可以马上去的一家"),
      "items": [
-        {"name": _t("biscuit gallery — the clearest immediate route because it publishes an open call. Entry is free and students are eligible.",
-                    "biscuit gallery——最明确的一条现成的路，因为它公开办征集。报名免费，学生也可以。"),
-         "url": "https://biscuitgallery.com/"},
-        {"name": _t("GALLERY KOGURE — a close roster fit, including detailed urban work on paper",
-                    "GALLERY KOGURE——代理名单贴合度很高，包括纸上的细密城市题材"),
-         "url": "https://gallerykogure.com/"},
-        {"name": _t("Tokyo Gallery + BTAP — a stronger China/Japan connection, with six Chinese artists currently on the roster and several artists working with ink on paper",
-                    "Tokyo Gallery + BTAP——中日之间的联系更强，代理名单上有六位中国艺术家，其中几位做纸上水墨"),
-         "url": "https://www.tokyo-gallery.com/"},
+        {"name": _t("biscuit gallery — its grid next open call has run every year since 2024. No application fee and no display fee, open to students and to artists under about forty who have not shown there before. The 2026 round took applications from late December to 30 April for an August show, so the next window opens around December.",
+                    "biscuit gallery——它的 grid next 公开征集从 2024 年起每年都办。不收报名费，也不收展位费，面向学生以及大约四十岁以下、此前没有在那里展过的作者。2026 那一轮的申请是十二月底到四月三十日，展览在八月，所以下一个窗口大约在十二月打开。"),
+         "url": "https://biscuitgallery.com/gridnext-2026/"},
      ]},
+
+    {"kind": "prose", "label": _t("Where this work sits higher up the same market",
+                                  "同一个市场再往上，这类作品在哪里"),
+     "text": _t(
+        "Tokyo Gallery + BTAP has been running since 1950 and keeps six Chinese artists on its "
+        "roster, several of them working in ink and watercolour on paper — the same materials, "
+        "shown at the top of this market. Xu Bing is on that roster too, which places the gallery "
+        "several stages further along than a first letter reaches. It is worth knowing as the "
+        "shape of the ceiling.",
+
+        "Tokyo Gallery + BTAP 从 1950 年开到现在，代理名单上有六位中国艺术家，"
+        "其中几位用的就是纸上水墨与水彩——同样的材料，出现在这个市场的顶端。"
+        "徐冰也在这份名单上，这说明它比一封初次去信能够到的位置要靠前好几段。"
+        "把它记住，是为了知道天花板长什么样。")},
 
     {"kind": "prose", "label": _t("A third arrangement, worth more than either",
                                   "还有第三种安排，比哪一种都划算"),
@@ -511,9 +527,9 @@ _LICENSING = [
 
     {"kind": "links",
      "items": [
-        {"name": _t("イラストレーションファイルWeb — Japanese art directors and book designers",
-                    "イラストレーションファイルWeb——日本的艺术总监与装帧设计师"),
-         "url": "https://www.illustration-file.com/"},
+        {"name": _t("イラストレーションファイルWeb — where Japanese art directors and book designers look for illustrators, and the form for being listed in it",
+                    "イラストレーションファイルWeb——日本的艺术总监和装帧设计师找插画师的地方，以及申请收录的表格"),
+         "url": "https://i.fileweb.jp/blog/file_oubo"},
         {"name": _t("amanaimages — Japanese stock licensing; published cover licences are ¥33,000–79,200",
                     "amanaimages——日本的图像授权；公开的封面授权价为 33,000–79,200 日元"),
          "url": "https://amanaimages.com/"},
@@ -706,7 +722,7 @@ _COMMISSIONS = [
      "items": [
         {"name": _t("ザ・チョイス — ¥1,500 entry; age, nationality and professional status are explicitly unrestricted. Accepts unframed originals.",
                     "ザ・チョイス——报名费 1,500 日元；年龄、国籍、是否职业都明确不设限。收不装裱的原作。"),
-         "url": "https://www.genkosha.co.jp/illustration/choice.html"},
+         "url": "https://illustration-mag.jp/choice"},
         {"name": _t("HB FILE — ¥7,000 entry; every entrant's file remains available to designers and publishers in the gallery for a year.",
                     "HB FILE——报名费 7,000 日元；每位参加者的作品档案会在画廊向设计师和出版社开放一年。"),
          "url": "https://hbgallery.com/compe.html"},

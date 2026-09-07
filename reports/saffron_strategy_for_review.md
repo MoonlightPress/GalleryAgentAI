@@ -164,11 +164,13 @@ A 50% gallery commission can look large in isolation. Against a ¥374,000 fee pl
 
 Choose a small number of galleries where the work genuinely fits the programme. Visit first. Then send five paintings from one coherent series and ask whether they would be interested in seeing the work in person.
 
-### The immediate targets found in Tokyo are:
+### The immediate target found in Tokyo
 
-- [biscuit gallery — the clearest immediate route because it publishes an open call. Entry is free and students are eligible.](https://biscuitgallery.com/)
-- [GALLERY KOGURE — a close roster fit, including detailed urban work on paper](https://gallerykogure.com/)
-- [Tokyo Gallery + BTAP — a stronger China/Japan connection, with six Chinese artists currently on the roster and several artists working with ink on paper](https://www.tokyo-gallery.com/)
+- [biscuit gallery — its grid next open call has run every year since 2024. No application fee and no display fee, open to students and to artists under about forty who have not shown there before. The 2026 round took applications from late December to 30 April for an August show, so the next window opens around December.](https://biscuitgallery.com/gridnext-2026/)
+
+### Where this work sits higher up the same market
+
+Tokyo Gallery + BTAP has been running since 1950 and keeps six Chinese artists on its roster, several of them working in ink and watercolour on paper — the same materials, shown at the top of this market. Xu Bing is on that roster too, which places the gallery several stages further along than a first letter reaches. It is worth knowing as the shape of the ceiling.
 
 ### A third arrangement, worth more than either
 
@@ -252,7 +254,7 @@ That makes the licence terms as important as the fee: format, territory, duratio
 
 Your subject matter already fits the book market: architecture, atmosphere, interiors, weather, light and quiet urban scenes. The compositional requirement is the part worth designing for. Covers need room for typography and cropping. Paint a small group vertically, with intentional quiet areas — sky, fog, water, wall, shadow or an open upper third. That gives art directors images they can actually build a cover around while keeping the work recognisably yours. Five to ten paintings would be enough to create the beginning of a licensing portfolio. Then place them where art directors already look:
 
-- [イラストレーションファイルWeb — Japanese art directors and book designers](https://www.illustration-file.com/)
+- [イラストレーションファイルWeb — where Japanese art directors and book designers look for illustrators, and the form for being listed in it](https://i.fileweb.jp/blog/file_oubo)
 - [amanaimages — Japanese stock licensing; published cover licences are ¥33,000–79,200](https://amanaimages.com/)
 - [Arcangel — specialised in book-cover imagery, accepts illustration and pays contributors 50% of net](https://arcangel.com/become-a-contributor/)
 - [Bridgeman Studio — represents roughly a thousand artists for licensing and is currently accepting illustration submissions](https://www.bridgemanimages.com/en/studio)
@@ -363,7 +365,7 @@ That turns an ambiguous “How much for a painting?” into something you can pr
 
 ### Two useful doors now
 
-- [ザ・チョイス — ¥1,500 entry; age, nationality and professional status are explicitly unrestricted. Accepts unframed originals.](https://www.genkosha.co.jp/illustration/choice.html)
+- [ザ・チョイス — ¥1,500 entry; age, nationality and professional status are explicitly unrestricted. Accepts unframed originals.](https://illustration-mag.jp/choice)
 - [HB FILE — ¥7,000 entry; every entrant's file remains available to designers and publishers in the gallery for a year.](https://hbgallery.com/compe.html)
 
 Both are inexpensive ways to place the work in front of people who commission illustration.
