@@ -1,11 +1,12 @@
 {
-  "total_visits": 41,
+  "total_visits": 74,
   "first_seen": "2026-06-25",
-  "days_active": 5,
-  "last_notified_date": "2026-07-14",
+  "days_active": 7,
+  "last_notified_date": "2026-09-07",
   "visitor_ids": [
     "c9ae110e-ec72-4b9e-9cf2-b25151926dff",
     "4e29716b-3782-495d-9562-d394d9c0dcb4",
-    "test-bot-gate"
+    "test-bot-gate",
+    "7659d7ea-0b6b-4633-ab5f-8e5b1e2fa812"
   ]
 }

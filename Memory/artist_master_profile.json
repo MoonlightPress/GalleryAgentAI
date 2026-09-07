@@ -614,8 +614,22 @@
       "prints": {
         "jpy": 2200,
         "count_listed": 8
+      },
+      "postcards": {
+        "pack_6_jpy": 1100,
+        "pack_10_jpy": 1980,
+        "per_card_jpy": "183-198 (derived)",
+        "sold_singly": false,
+        "_source": "Scott, 2026-09-06",
+        "_note": "Sold in PACKS only. That makes her cheapest possible purchase 1,100 yen, not ~200 yen - so she has an entry PRODUCT but not an entry PRICE. Per-card she is at 183-198, which matches the 150-200 yen that a named practitioner reports postcards actually selling for at galleries and events; the pack is what moves that into a considered purchase rather than an impulse one."
       }
     },
+    "commissions": {
+      "pricing": "negotiated per piece",
+      "_source": "Scott, 2026-09-06",
+      "_note": "No published rate. Researched comparable: a Western 8x10 watercolour house portrait runs 31,000-39,000 yen, which brackets her originals floor of 31,900. Japanese commission platforms (Kokonara, SKIMA) pay roughly half that before an 11-22% cut."
+    },
+    "_catalogue_completeness": "COMPLETE as of 2026-09-06, confirmed by Scott: postcards (6-pack 1,100 / 10-pack 1,980), zines (1,980), prints (2,200), originals (31,900-115,500), and negotiated commissions. There are NO stickers, badges, magnets, calendars or other goods - she does not sell them. Earlier passes recorded only three categories and a later one inferred from that omission that she had no entry tier at all, which was wrong twice over. If a product tier is absent from this list it is absent from her practice; if this list is ever doubted, check the shop or ask rather than infer.",
     "_correction": "2026-09-04: an earlier pass concluded from her public shop that she had no portfolio, website or email. She has these materials; they are simply not visible to this system. Absence from public sources is NOT absence. Do not generate replacements for materials she already owns - the system's value is analysis she lacks (CV ordering for a Japanese reader, eligibility mapping, break-even math), never re-making her own work.",
     "_volume_caveat": "PRICES here are valid and usable. SALES VOLUME is not: shop order history does not represent market demand and must never be used to derive a conversion rate, an audience-monetisation estimate, or any 'your audience buys' claim. Real direct-sale demand is UNKNOWN. Any model needing a sell-through figure must take it as an explicit input, never infer one from shop history."
   }
