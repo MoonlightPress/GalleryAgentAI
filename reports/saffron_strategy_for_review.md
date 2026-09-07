@@ -114,7 +114,7 @@ A 128-page hardcover printed in China costs ¥394,500 for 300 copies. At ¥4,950
 | A4 softcover, 128pp | ¥1,306 | ¥653,000 / 500 | ¥4,400 | 212 |
 | Hardcover, 128pp, China | ¥1,315 | ¥394,500 / 300 | ¥4,950 | 109 |
 
-For a book intended as a product, the Chinese hardcover has the strongest economics of the formats checked. For a book intended to open another door, make three copies instead. Three Blurb copies cost about ¥31,000 and can go directly to a publisher, gallery or shop buyer. Colour Diary has already shown that a finished book can function this way.
+For a book intended as a product, the Chinese hardcover has the strongest economics of the formats checked. For a book intended to open another door, make three copies instead. Three Blurb copies cost about ¥31,000 and can go directly to a publisher, gallery or shop buyer.
 
 ### Whether a print run can pay for itself
 

@@ -142,18 +142,27 @@ _OUTREACH = _build_outreach()
 #
 # Figures unchanged - every one traces to the research reports of 2026-09-05/06.
 #
-# ⚠ ONE CLAIM HERE IS UNVERIFIED, and is in the copy because Scott's source
-# document has it (2026-09-06): "Colour Diary has already shown that a finished
-# book can function this way", under Selling Direct. A verification pass on
-# 2026-09-05 pulled the stronger form of the same claim — that Colour Diary had
-# functioned as a pitch to a publisher — after finding no record of it, and the
-# publishing research found no evidence either way that a finished book triggers
-# acquisition. The weaker form as written may well be true (it was a real
-# published book that went to shops); it has not been checked. Verify or cut it.
+# Two claims about her own history were removed for lack of any evidence, and
+# both should stay out.
 #
-# The second claim that pass removed is still out: the letter's reference to a
-# show she had not attended. `outreach_kit_engine` keeps that line a placeholder,
-# and the letter is imported from there rather than retyped.
+#   Colour Diary as a door-opener — "Colour Diary has already shown that a
+#   finished book can function this way", under Selling Direct. It came in from
+#   Scott's source document on 2026-09-06 after a verification pass had already
+#   pulled a stronger form of the same claim the day before. Asked directly on
+#   2026-09-07 he said: "i don't know how she did colour diary. she did it when
+#   she was 20. i don't know anything else about it." Nobody on this side of the
+#   app knows whether that book was ever put in front of a publisher, a gallery
+#   or a buyer, so the sentence is gone. The Blurb-three-copies point stands on
+#   its own without it.
+#
+#   The letter's reference to a show she had not attended. `outreach_kit_engine`
+#   keeps that line a placeholder, and the letter is imported from there rather
+#   than retyped, so there is one copy to keep honest.
+#
+# NB an unchecked date: the profile and `ibm_email_writer` both record Colour
+# Diary as October 2021, which would make her about 22. Scott remembers 20.
+# Nothing in the Strategy tab depends on the date, but `career_strategy_engine`
+# writes copy around "Colour Diary (2021)" that would be wrong if the profile is.
 
 _FRAME = _t(
     "You already have a working practice: six years of paintings, an audience, direct sales, "
@@ -282,12 +291,11 @@ _SELLING_DIRECT = [
         "For a book intended as a product, the Chinese hardcover has the strongest economics of "
         "the formats checked. "
         "For a book intended to open another door, make three copies instead. Three Blurb copies "
-        "cost about ¥31,000 and can go directly to a publisher, gallery or shop buyer. Colour "
-        "Diary has already shown that a finished book can function this way.",
+        "cost about ¥31,000 and can go directly to a publisher, gallery or shop buyer.",
 
         "如果这本书是当商品卖，在查过的几种做法里，中国印的精装本账最划算。"
         "如果这本书是用来敲另一扇门的，那就只做三本。Blurb 三本约 31,000 日元，"
-        "可以直接拿给出版社、画廊或者书店买手。《Colour Diary》已经证明成品书能起到这个作用。")},
+        "可以直接拿给出版社、画廊或者书店买手。")},
 
     # "What a book costs" was a standalone section until 2026-09-07 and then
     # briefly sat in Publishing. It belongs here: every figure in it is about
