@@ -377,26 +377,36 @@ _GALLERIES = [
     # paragraph above sliced from it to "The next move" and took the block in
     # between with it, after Scott had already said once not to cut this
     # material. Restored.
+    # NOT a description of what LE MONDE is. "she knows, she already did it. it
+    # should be talking about what that accomplished and what she can do with it
+    # now that she's done it" (Scott, 2026-09-07).
+    #
+    # All three paragraphs opened on 它 in an earlier draft, which a cold reader
+    # called monotonous and template-like, and the section never named the show
+    # in its own body — the antecedent lived only in the heading. Each paragraph
+    # now opens on a different thing: the show, the room, the step after it.
     {"kind": "prose", "label": _t("What the August show leaves you holding",
                                   "八月那场展给你留下了什么"),
      "text": _t(
-        "It is the newest thing on your record, and the newest credit is what a first letter is "
-        "built around — every gallery below reads it before it reads anything else.\n\n"
-        "It carries more than a date, because that room is not for hire. The director selects, "
-        "from the work and from recommendations by illustrators already showing there. So it "
-        "reads as having been chosen, and it keeps saying that for as long as it is recent, which "
-        "is the argument for spending it now rather than next year.\n\n"
-        "It also puts you in a pool with a documented next step: every illustrator on the "
-        "agency's roster showed at the gallery first. They are closed to new artists at the "
-        "moment, so staying in contact is the whole of the move — and the riso studio in the same "
-        "building is a reason to be there, with the zines rather than the paintings.",
+        "The show at Galerie LE MONDE is the newest thing on your record, and the newest credit "
+        "is what a first letter is built around — every gallery below reads it before it reads "
+        "anything else.\n\n"
+        "That room is not for hire, so what it carries is more than a date. The director selects, "
+        "from the work and from recommendations by illustrators already showing there, so the "
+        "credit reads as having been chosen — and it keeps saying that for as long as it is "
+        "recent. Which is the argument for spending it now rather than next year.\n\n"
+        "There is a documented next step attached to it, too: every illustrator on the agency's "
+        "roster showed at the gallery first. They are closed to new artists at the moment, so "
+        "staying in contact is the whole of the move — and the riso studio in the same building "
+        "is a reason to go back, with the zines rather than the paintings.",
 
-        "它是你履历上最新的一项，而最新的这一项，正是第一封信要围着写的内容——"
-        "下面每一家画廊，都会先读它，再读别的。\n\n"
-        "它带来的不只是一个日期，因为那个空间不对外出租。主理人是看作品本身、以及已经在那里办展的插画家的推荐来选人的。"
-        "所以它读起来是“被选中过”，"
-        "而且只要还新，它就一直在说这句话——这也正是趁现在用上它、而不是等到明年的理由。\n\n"
-        "它还给你接上了一个有明确下一步的圈子：经纪公司名单上的每一位，都是先在画廊办过展的。"
+        "在 Galerie LE MONDE 的那场个展，是你履历上最新的一项；"
+        "而最新的这一项，正是第一封信要围着写的内容——下面每一家画廊，都会先读它，再读别的。\n\n"
+        "那个空间不对外出租，所以它带来的不只是一个日期。"
+        "主理人是看作品本身、以及已经在那里办展的插画家的推荐来选人的，"
+        "所以这一项读起来是“被选中过”，而且只要还新，它就一直在说这句话。"
+        "这也正是趁现在用上它、而不是等到明年的理由。\n\n"
+        "后面还接着一个明确的下一步：经纪公司名单上的每一位，都是先在画廊办过展的。"
         "他们目前不接新人，所以现在能做的就是保持联系——"
         "而同一栋楼里的孔版印刷工作室，本身就是一个再去一趟的由头，带 zine 去，不是带画。")},
 

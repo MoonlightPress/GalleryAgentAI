@@ -156,11 +156,11 @@ You already know how to organise a solo show. You have done it three times. The 
 
 ### What the August show leaves you holding
 
-It is the newest thing on your record, and the newest credit is what a first letter is built around — every gallery below reads it before it reads anything else.
+The show at Galerie LE MONDE is the newest thing on your record, and the newest credit is what a first letter is built around — every gallery below reads it before it reads anything else.
 
-It carries more than a date, because that room is not for hire. The director selects, from the work and from recommendations by illustrators already showing there. So it reads as having been chosen, and it keeps saying that for as long as it is recent, which is the argument for spending it now rather than next year.
+That room is not for hire, so what it carries is more than a date. The director selects, from the work and from recommendations by illustrators already showing there, so the credit reads as having been chosen — and it keeps saying that for as long as it is recent. Which is the argument for spending it now rather than next year.
 
-It also puts you in a pool with a documented next step: every illustrator on the agency's roster showed at the gallery first. They are closed to new artists at the moment, so staying in contact is the whole of the move — and the riso studio in the same building is a reason to be there, with the zines rather than the paintings.
+There is a documented next step attached to it, too: every illustrator on the agency's roster showed at the gallery first. They are closed to new artists at the moment, so staying in contact is the whole of the move — and the riso studio in the same building is a reason to go back, with the zines rather than the paintings.
 
 ### Same building
 
