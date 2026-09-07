@@ -337,7 +337,7 @@ The next useful piece of work here is therefore one book proposal, built well en
 
 *Someone pays you to paint something new, to a brief.*
 
-Illustration and design training, and a subject Japanese literary publishers buy covers in.
+Six years of delivering to a daily schedule, and a subject Japanese literary publishers buy covers in.
 
 ### What this is
 

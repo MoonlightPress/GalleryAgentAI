@@ -23,18 +23,19 @@ stable, and renaming them would buy nothing.
 
 Five rules, each learned the hard way:
 
-1. **No prescribed destination.** She trained in illustration and design at a
-   specialist university, and she runs every part of this herself; a system that
-   tells such a person what to want reads as presumptuous however good the
-   research is. Show the range; the choice is hers.
+1. **No prescribed destination.** She is self-taught, independent, and runs
+   everything herself; a system that tells such a person what to want reads as
+   presumptuous however good the research is. Show the range; the choice is hers.
 
-   This rule said "self-taught" until 2026-09-07, which is wrong and was load
-   bearing: `artist_master_profile` records illustration and design at Beijing
-   Fashion Institute, and notes the distinction that actually matters — a
-   specialist design school rather than a fine-arts academy, so her formation is
-   illustrator-community rooted rather than gallery-track. A reviewer briefed
-   off this docstring duly "corrected" a true sentence in the copy. Say what she
-   is, not what she is not.
+   "Self-taught" is how SHE presents herself (Scott, 2026-09-07), and that is
+   what the copy answers to. `artist_master_profile` does record illustration
+   and design at Beijing Fashion Institute — a specialist design school rather
+   than a fine-arts academy — so the two are not in conflict so much as
+   describing different things: a qualification on one side, and on the other
+   how a painter who taught herself watercolour every day for six years accounts
+   for her own practice. A Chinese reader flagged a standing line that called
+   this 科班 (academy-trained); she was right, and it is gone. Where her account
+   of herself and a database field disagree about who she is, hers wins.
 2. **Types of things to pursue, not credentials to acquire.** "A museum solo and
    critical press are required" is a wall. "This one is built out of art book
    fairs and consignment" is something to start on Tuesday.
@@ -183,12 +184,12 @@ _FRAME = _t(
     "another original.\n\n"
     "The five routes below do different versions of that.",
 
-    "你已经有一套运转起来的实践：六年的画、一群观众、直接销售、委托，还有一份展览履历。\n\n"
-    "现在值得问的是：换一条路，能拿到什么是现在这条拿不到的。\n\n"
-    "一张原作已经能卖到 31,900–115,500 日元，这是衡量的基准。往这套实践里再加东西，"
-    "至少要做到其中一件：让画完的作品再挣一次钱，触到你自己够不着的买家，"
-    "把其余作品的价值抬上去，或者不必再画一张原作也能有收入。\n\n"
-    "下面五条路，各自是这件事的一个版本。")
+    "你已经有一套跑起来的创作和生意：六年的画、一批固定的读者、直接销售、委托，还有一份展览履历。\n\n"
+    "现在值得问的是：换一条路，能拿到什么现在这条路上拿不到的东西。\n\n"
+    "一张原作已经能卖到 31,900–115,500 日元，后面所有的账都拿这个数来比。往里面再加东西，"
+    "至少要做到其中一件：让画完的作品再挣一次钱，卖给你自己够不着的买家，"
+    "把其余作品的价钱一起带上去，或者不必再画一张原作也能有收入。\n\n"
+    "下面五条路，做的都是这同一件事，只是做法不同。")
 
 
 _SELLING_DIRECT = [
@@ -203,10 +204,10 @@ _SELLING_DIRECT = [
         "The easiest test is to add that middle without buying inventory first.",
 
         "两头你都卖得动：明信片、zine、印刷品在 1,100–2,200 日元，原作从 31,900 日元起。"
-        "空的是中间那一段。"
+        "断掉的是中间那一段。"
         "一个买过 zine、买过印刷品的人，在你这里花不掉 5,000、10,000 或者 20,000 日元——"
         "再往上就直接是原作了。"
-        "最省事的试法，是先把中间补上，而且不先囤货。")},
+        "最省事的办法，是先把中间那段补上，而且不用先囤货。")},
 
     {"kind": "table", "label": _t("Start with three products", "先从三样东西开始"),
      "headers": [_t("", ""), _t("Sells for", "售价"), _t("You keep", "你拿到"), _t("Margin", "毛利率")],
@@ -225,7 +226,7 @@ _SELLING_DIRECT = [
         "The margin is lower than printing yourself. That is useful at this stage: the printer is "
         "carrying the inventory risk while you find out whether the product has a market.",
 
-        "先用按需印刷上架。有人下单才做一件，所以这一轮试验不用起印量，也不用地方堆货。"
+        "先用按需印刷上架。有人下单才做一件，所以这一轮试验没有起印量，也不占地方堆货。"
         "毛利率比自己印低。现阶段这反而有用：库存的风险压在印厂那边，"
         "你只要弄清楚这样东西有没有人买。")},
 
@@ -257,12 +258,12 @@ _SELLING_DIRECT = [
         "insights. And anything under three centimetres thick is worth ¥465 on every domestic "
         "parcel, decided at the design stage, before anything is printed.",
 
-        "粉丝数预测不了销量。在能够核对的成对案例里，真正掏钱的人占观众的比例从 0.26% 到 15.8%，"
-        "而其中观众最多的那一位转化率最低。真正的杠杆是价格：一位东京插画师，两万七千粉丝，"
+        "粉丝数预测不了销量。在能查到具体数字的几个案例里，真正掏钱的人占观众的比例从 0.26% 到 15.8%，"
+        "而其中观众最多的那一位转化率最低。真正起作用的是价格：一位东京插画师，两万七千粉丝，"
         "规模和你差不多，自出版的画集定价 11,000 日元，四个月卖了 400 本，约四百万日元。"
-        "剩下的大半由两个小一些的杠杆决定。这两万六千人住在哪里，比他们有多少人更能改变这笔账——"
+        "剩下的大半，由另外两件小一点的事决定。这两万六千人住在哪里，比他们有多少人更能改变这笔账——"
         "航空小包寄一公斤到美国 2,720 日元，寄到东京市内 185 日元——"
-        "而这个比例就是你自己 Instagram 后台里的一个数字。"
+        "而这个比例，你自己的 Instagram 后台里就有。"
         "另外，厚度控制在三厘米以内，每件国内包裹省 465 日元；这是在设计阶段、开印之前就定下的。")},
 
     {"kind": "prose", "label": _t("The book is a different decision", "书是另一个层面的决定"),
@@ -328,7 +329,7 @@ _SELLING_DIRECT = [
         # already there vote on. Saying so turns a wall back into a door with a
         # handle on it; the answer arrives in about two days either way.
         {"name": _t("INPRNT — the useful addition for buyers outside Japan. Artists there choose who joins, so it takes three images and a vote; the answer comes by email in about 48 hours.",
-                    "INPRNT——面向日本以外的买家时，值得加上的一个。谁能进由已在站内的作者投票决定，所以要交三张图；结果大约 48 小时内邮件通知。"),
+                    "INPRNT——面向日本以外的买家时，值得加上的一个。谁能进由已在站内的创作者投票决定，所以要交三张图；结果大约 48 小时内邮件通知。"),
          "url": "https://www.inprnt.com/application/"},
      ]},
 ]
@@ -344,9 +345,9 @@ _GALLERIES = [
         "The economics are unusually clear.",
 
         "办个展你已经会了，办过三次。"
-        "下一段值得建立的画廊关系，要能接过你现在自己扛的那几样：场地、看场的人、藏家、"
+        "下一段值得建立的画廊关系，要能接过你现在自己扛的那几样：场地、守场的人手、藏家、"
         "销售的活，还有资金上的风险。"
-        "这笔账算得异常清楚。")},
+        "这笔账算得特别清楚。")},
 
     {"kind": "table",
      "headers": [_t("", ""), _t("You pay", "你付"), _t("They take", "他们抽"),
@@ -378,11 +379,11 @@ _GALLERIES = [
         "So far, people buying your work have largely found you. Representation adds a collector "
         "base belonging to somebody else.",
 
-        "单看 50% 的抽成会觉得高。对着 374,000 日元的费用再加 30% 来算，代理一直更便宜，"
-        "直到那场展卖到约 187 万日元为止。"
+        "单看 50% 的抽成会觉得高。拿 374,000 日元的场地费再加 30% 抽成来比，"
+        "只要那场展卖不到约 187 万日元，代理都更划算。"
         "这个比法算清了钱，却漏掉了在 LE MONDE 那笔费用换到的东西。那家画廊挑人："
         "主理人从作品本身、以及已经在那里办展的插画家的推荐里选人，"
-        "并且说他看的是这个人能接上哪一类商业工作。档期是跟着「被选中」一起来的。"
+        "并且说他看的是这个人能接上哪一类商业工作。档期是选上了才给的。"
         "更要紧的分别在于：买家是谁带来的。"
         "到现在为止，买你画的人基本上是自己找上门的。代理带来的，"
         "是一份原本属于别人的藏家名单。")},
@@ -476,9 +477,9 @@ _GALLERIES = [
         "Moon Gallery you already know: ¥100,000 for five days, no commission, and nobody has to "
         "sit the room.",
 
-        "谷中的 HAGI ART 把自己的方向写得很清楚：年轻作者的个展与联展、艺术书市集，"
+        "谷中的 HAGI ART 把自己的方向写得很清楚：年轻创作者的个展与联展、艺术书市集，"
         "以及关于建筑、文化与日常生活的展览——而且完全不收场地费，"
-        "整个项目靠楼下的咖啡店养着。它按企划书选人，所以要发邮件提方案，不是订档期。\n\n"
+        "整个项目靠楼下的咖啡店养着。它按方案选人，所以要发邮件提方案，不是订档期。\n\n"
         "吉祥寺的 Gallery KAZE，六天 11 万日元，销售不抽成，40 平方米、20 米挂画墙。"
         "今年十月那里有一场水彩个展——青山一树，《水彩でえがく情景》——2027 年的档期大半还空着。"
         "按你的价格，卖出四张原作就能覆盖场地。\n\n"
@@ -487,7 +488,7 @@ _GALLERIES = [
     {"kind": "links",
      "items": [
         {"name": _t("HAGI ART, Yanaka — no venue fee; proposals go to info@hagiso.com as two A4 PDFs, a portfolio and a concept written for the space",
-                    "HAGI ART，谷中——不收场地费；企划寄到 info@hagiso.com，两份 A4 PDF：作品集，以及一份专为这个空间写的展览构想"),
+                    "HAGI ART，谷中——不收场地费；方案寄到 info@hagiso.com，两份 A4 PDF：作品集，以及一份专为这个空间写的展览构想"),
          "url": "https://hagiso.com/hagiart-concept/"},
         {"name": _t("Gallery KAZE, Kichijoji — ¥110,000 for six days, no sales commission, equipment included",
                     "Gallery KAZE，吉祥寺——六天 11 万日元，销售不抽成，设备可借"),
@@ -498,7 +499,7 @@ _GALLERIES = [
                                   "以及每年都会再来一次的公开征集"),
      "items": [
         {"name": _t("biscuit gallery — its grid next open call has run every year since 2024. No application fee and no display fee, open to students and to artists under about forty who have not shown there before. The 2026 round took applications from late December to 30 April for an August show, so the next window opens around December.",
-                    "biscuit gallery——它的 grid next 公开征集从 2024 年起每年都办。不收报名费，也不收展位费，面向学生以及大约四十岁以下、此前没有在那里展过的作者。2026 那一轮的申请是十二月底到四月三十日，展览在八月，所以下一个窗口大约在十二月打开。"),
+                    "biscuit gallery——它的 grid next 公开征集从 2024 年起每年都办。不收报名费，也不收展位费，面向学生以及大约四十岁以下、此前没有在那里展过的创作者。2026 那一轮的申请是十二月底到四月三十日，展览在八月，所以下一个窗口大约在十二月打开。"),
          "url": "https://biscuitgallery.com/gridnext-2026/"},
      ]},
 
@@ -513,7 +514,7 @@ _GALLERIES = [
 
         "Tokyo Gallery + BTAP 从 1950 年开到现在，代理名单上有六位中国艺术家，"
         "其中几位用的就是纸上水墨与水彩——同样的材料，出现在这个市场的顶端。"
-        "徐冰也在这份名单上，这说明它比一封初次去信能够到的位置要靠前好几段。"
+        "徐冰也在这份名单上——这家画廊远不是一封陌生来信够得着的。"
         "把它记住，是为了知道天花板长什么样。")},
 
     {"kind": "prose", "label": _t("A third arrangement, worth more than either",
@@ -541,7 +542,7 @@ _GALLERIES = [
         "hundred implausible ones.",
 
         "这份名单比一本东京画廊名录短得多，短正是它的用处。"
-        "和十个说得通的空间建立关系，比给一百个说不通的空间发信管用。")},
+        "和十个真正对得上的空间建立关系，比给一百个不对路的空间发信管用。")},
 
     {"kind": "prose", "label": _t("The first letter", "第一封信"),
      "text": _t(
@@ -573,7 +574,7 @@ _LICENSING = [
         "The value depends primarily on where and how an image is used:",
 
         "授权对你有一个别处没有的优势：库存已经在了。"
-        "六年的日课是好几千张图，它们可以在原作仍然归你的情况下带来收入。"
+        "六年每天画下来是好几千张图，原作还是你的，同时还能挣钱。"
         "值多少钱，主要看一张图被用在哪里、怎么用：")},
 
     {"kind": "table",
@@ -610,10 +611,10 @@ _LICENSING = [
 
         "你的题材本来就贴合图书市场：建筑、氛围、室内、天气、光，还有安静的城市场景。"
         "值得专门去设计的，是构图上的要求。"
-        "封面要放得下字，也要经得起裁切。画一小组竖构图，留出有意为之的安静区域——"
+        "封面要放得下字，也要经得起裁切。画一小组竖构图，特意留出安静的区域——"
         "天空、雾、水面、墙、阴影，或者上三分之一整片留白。"
         "这样艺术总监手上就有了能围着它做封面的图，而作品看上去还是一眼就认得出是你的。"
-        "五到十张，就够开出一个授权作品集的头。"
+        "五到十张，一个授权作品集的开头就有了。"
         "然后把它们放到艺术总监本来就会去看的地方：")},
 
     {"kind": "links",
@@ -632,7 +633,7 @@ _LICENSING = [
         # all. This is the actual application: pre-register with 3-5 images, and
         # they review those alongside your existing online presence.
         {"name": _t("Bridgeman Studio — open to illustration; apply with three to five images and they review those alongside your online presence. Both exclusive and non-exclusive contracts exist, and non-exclusive leaves you free to license elsewhere.",
-                    "Bridgeman Studio——接受插画；投三到五张图申请，他们连同你现有的网上呈现一起看。合约分独家与非独家两种，非独家可以同时在别处授权。"),
+                    "Bridgeman Studio——接受插画；投三到五张图申请，他们会连同你现在网上的作品一起看。合约分独家与非独家两种，非独家可以同时在别处授权。"),
          "url": "https://partner-hub.bridgemanimages.com/en/apply-now"},
      ]},
 
@@ -657,11 +658,11 @@ _PUBLISHING = [
         "the deal was agreed. "
         "A strong proposal therefore needs:",
 
-        "出版这条路上最有力的机会，是一个面貌足够清楚、让出版社能想象出怎么卖的书的构想。"
-        "你已有的画证明你做得出来；企划书说明的是这本书到底是什么。"
-        "这个分别之所以要紧，是因为查过的这几家出版社要的是企划和构想。"
-        "那本可比的东京建筑画集，五十张画里有四十张是在合同谈定之后才画的。"
-        "所以一份有力的企划书要有：")},
+        "出版这条路上最有力的，是一个选题构想清楚到出版社一听就知道怎么卖。"
+        "你已有的画证明你做得出来；方案说明的是这本书到底是什么。"
+        "这个分别之所以要紧，是因为查过的这几家出版社要的是方案和构想。"
+        "拿来对照的那本东京建筑画集，五十张画里有四十张是在合同谈定之后才画的。"
+        "所以一份有力的方案要有：")},
 
     {"kind": "list",
      "items": [
@@ -678,7 +679,7 @@ _PUBLISHING = [
         "Your six-year archive gives you unusually strong material for that proposal even if the "
         "final book contains new work.",
 
-        "即使最后成书用的是新画的作品，你这六年的积累也让这份企划书有异常扎实的底子。")},
+        "即使最后成书用的是新画的作品，你这六年的积累也让这份方案有特别扎实的底子。")},
 
     {"kind": "prose", "label": _t("The economics", "这笔账"),
      "text": _t(
@@ -702,10 +703,10 @@ _PUBLISHING = [
         "the practice as well as sell copies. The other side of the fork — paying a printer "
         "yourself, and what a run has to sell to come back — is worked out under Selling Direct.",
 
-        "出版社真正给的是围着那点版税的一切：出印刷的钱、进全国书店、一个 ISBN、制作、库存，"
+        "出版社真正给的是版税之外的那一整套：出印刷的钱、进全国书店、一个 ISBN、制作、库存，"
         "还有一条会一直挂在你名字上的出版记录。"
-        "当这本书除了卖出去，还被指望去带动其余的实践时，这些好处才最说得通。"
-        "岔口的另一边——自己付钱给印厂，以及一批印量要卖掉多少才回得来——算在「直接卖」那一条里。")},
+        "当这本书除了卖出去，还要带动你手上其他的事时，这些好处才最说得通。"
+        "岔口的另一边——自己付钱给印厂，以及一批印量要卖掉多少才回得来——算在“直接卖”那一条里。")},
 
     # Who carries the outlay — the one real publisher-vs-self comparison in the
     # book material, and the only part of it that belongs on this side. The
@@ -724,10 +725,10 @@ _PUBLISHING = [
         # book but states no route, so its line says what is true instead of
         # implying a door.
         {"name": _t("マール社 — 「いつでも、どなたでも」, and no publishing record required. If a proposal is taken they publish at their own expense, with nationwide bookshop distribution. A reply comes inside a month; nothing is returned.",
-                    "マール社——「いつでも、どなたでも」，也不要求你出过书。企划一旦被采用，由他们出钱出版，并进入全国书店。一个月内回复；寄去的东西不退。"),
+                    "マール社——「いつでも、どなたでも」，也不要求你出过书。方案一旦被采用，由他们出钱出版，并进入全国书店。一个月内回复；寄去的东西不退。"),
          "url": "https://www.maar.com/plan"},
         {"name": _t("青幻舎 — a form for proposals only: a portfolio showing the work, your history and profile, plus a plan and image files, attachments up to 10MB",
-                    "青幻舎——只走企划投递专用表单：作品集（作品、活动经历、简介）、企划书、图像数据，附件上限 10MB"),
+                    "青幻舎——只走方案投递专用表单：作品集（作品、活动经历、简介）、方案、图像数据，附件上限 10MB"),
          "url": "https://www.seigensha.com/proposal-contact/"},
         {"name": _t("MdN — publisher of the Tokyo Storefronts books, so this exact kind of book is already on their list. They publish no submission route, so an approach goes through their general enquiry form.",
                     "MdN——《东京店构え》系列就是他们出的，所以这一类书本来就在他们的书目里。他们没有公开投稿通道，要从一般咨询表单去问。"),
@@ -738,7 +739,7 @@ _PUBLISHING = [
         "The next useful piece of work here is therefore one book proposal, built well enough to "
         "send to all three with small changes.",
 
-        "所以这条路上接下来真正有用的一件事，是把一份书的企划书做扎实，"
+        "所以这条路上接下来真正有用的一件事，是把一份书的方案做扎实，"
         "扎实到只要小改一下就能同时递给这三家。")},
 ]
 
@@ -812,7 +813,7 @@ _COMMISSIONS = [
         "consistently. "
         "Platform terms matter as well:",
 
-        "这样一来，「画一张多少钱」这种含糊的问题，就变成了你可以稳定报价的东西。"
+        "这样一来，“画一张多少钱”这种含糊的问题，就变成了一个你能稳定报价的问题。"
         "平台条款同样要紧：")},
 
     {"kind": "table",
@@ -838,13 +839,13 @@ _COMMISSIONS = [
                     "ザ・チョイス——统一 1,500 日元，投一张和投五张一个价。一年办四次，每次换一位评审，入选作品都会进入年度奖。年龄、国籍、职业或业余，全都明确不设限。报名费通过 Peatix 预付，缴费截止在寄件截止的前一天。"),
          "url": "https://illustration-mag.jp/regular"},
         {"name": _t("HB FILE — ¥7,000, currently vol.37, and previously published work is accepted, so six years of finished paintings is already the portfolio. Every entrant's file stays available to designers and publishers in the gallery for a year; the top prizes are a week's solo show at HB Gallery in Omotesando.",
-                    "HB FILE——7,000 日元，目前是第 37 回，接受已经发表过的作品，所以六年画完的东西本身就是作品集。每位参加者的档案会在画廊向设计师和出版社开放一年；最高奖是在表参道 HB Gallery 办一周个展。"),
+                    "HB FILE——7,000 日元，目前是第 37 届，接受已经发表过的作品，所以六年画完的东西本身就是作品集。每位投稿者的档案会在画廊向设计师和出版社开放一年；最高奖是在表参道 HB Gallery 办一周个展。"),
          "url": "https://hbgallery.com/compe.html"},
      ]},
 
     {"kind": "note", "text": _t(
         "Both are inexpensive ways to place the work in front of people who commission illustration.",
-        "这两条都很便宜，都是把作品放到「会下委托的人」眼前的方式。")},
+        "这两条都很便宜，都是把作品放到“会下委托的人”眼前的方式。")},
 ]
 
 
@@ -869,12 +870,12 @@ _FIRST_STEPS = {
                     "把已有的一组作品，写成一页纸的书的构想。")},
         {"route": _t("Commissions", "委托"),
          "step": _t("write a reusable fee-and-licence template before the next enquiry arrives.",
-                    "在下一个询问到来之前，写好一份可以反复用的「费用＋授权」模板。")},
+                    "在下一个询问到来之前，写好一份可以反复用的“费用＋授权”模板。")},
     ],
     "close": _t(
         "That gives you five experiments. Their results will tell you much more than choosing one "
         "of the five in advance.",
-        "这样你就有了五个实验。它们的结果能告诉你的，远比事先在五条路里挑一条要多。"),
+        "这样你就有了五个实验。五个实验做下来，你知道的会比现在坐着挑一条路多得多。"),
 }
 
 
@@ -930,7 +931,7 @@ _OPENERS = {
            "originals all already run this way, alongside commissions taken directly.",
 
            "作品通过你自己的店铺出去——文案你写、价格你定、包裹你打——"
-           "钱按每一笔销售走，卖掉一件到一件。"
+           "钱是一笔一笔进来的，卖一件收一件。"
            "明信片、zine、印刷品和原作现在都是这样在走，直接接的委托也是。"),
 
         # This block used to hold the four research findings — follower
@@ -951,11 +952,11 @@ _OPENERS = {
            "there and already looking, so a new product reaches it the same afternoon, with no "
            "introduction to arrange and nobody's permission to wait for.",
 
-           "整个毛利都归你。画廊抽走一笔销售的大约一半，出版社在一本 4,400 日元的书里给你留下 "
-           "115–240 日元，授权是按别人定好的用途一次性付钱——在这条路上，成本之上的全部留在你这边。"
+           "整个毛利都归你。每卖一张，画廊抽走大约一半；一本 4,400 日元的书，出版社分给你 "
+           "115–240 日元，授权是按别人定好的用途一次性付钱——在这条路上，成本以外的钱全是你的。"
            "价格是你定的，不需要替它争取；也没有任何一件事要等申请、等评审、等别人的排期，"
            "所以周一做的决定，周五就可能在挣钱。其他四条路没有一条做得到。\n\n"
-           "它的起点也是别的路要先搭出来的东西。观众已经在了，而且已经在看，"
+           "别的路要先把读者搭起来，这条路一开始就有。观众已经在了，而且已经在看，"
            "所以一件新东西当天下午就能到他们眼前，不用安排引荐，也不用等谁点头。"),
 
         _t("All of it stays yours: the listing, the photography, the packing, the postage, the "
@@ -965,8 +966,8 @@ _OPENERS = {
            "advance.",
 
            "所有环节都还在你手上：上架、拍照、打包、寄件、回客户邮件，还有堆在房间里的货。"
-           "销量只来自你自己的观众，没有别的来源，所以淡的月份是同时到处都淡。"
-           "批量印刷用承担风险换来更好的毛利——卖不掉的那些，钱是先付掉的。")),
+           "销量只来自你自己的读者，没有第二个来源，所以一淡就是全线一起淡。"
+           "批量印刷毛利更高，代价是风险你自己扛——卖不掉的那些，钱是先付掉的。")),
 
     "someone_else_sells": _opener(
         _t("A gallery funds the show, takes a commission and finds the buyers. Its own income "
@@ -976,7 +977,7 @@ _OPENERS = {
 
            "画廊出钱办展、抽佣金，并且负责找买家。它自己的收入取决于会回头再买的藏家，"
            "所以它介绍给你的人，是它打算长期留住的人——"
-           "这也是为什么代理往往抬高的是单张画卖多少，而不只是卖掉几张。"),
+           "所以代理往往抬的是单张画的价，而不只是多卖几张。"),
 
         _t("The difference that matters is the direction the money runs: in a rental you pay for "
            "the room, and here the gallery pays for the show. Prices rise for a structural reason "
@@ -985,8 +986,8 @@ _OPENERS = {
            "one credential a publisher, an art director and a licensing buyer all read the same "
            "way, which is true of nothing else on this list.",
 
-           "真正的分别在于钱的流向：租场地是你付房租，这条路上是画廊出钱办展。"
-           "价格会上去还有一个结构性的原因——替你的价格争取的那个人，自己也靠它吃饭。\n\n"
+           "真正的分别在于钱的流向：租场地是你付场地费，这条路上是画廊出钱办展。"
+           "价格会上去还有一层原因——帮你抬价的那个人，自己也靠这个吃饭。\n\n"
            "另外，在这条路上的位置会带到其他四条路上去——"
            "展览履历是出版社、艺术总监和授权买家都会以同样方式去读的那一项，"
            "这份清单上没有第二样东西有这个作用。"),
@@ -997,7 +998,7 @@ _OPENERS = {
            "quiet year on yours.",
 
            "每一笔销售的大约一半，以及展什么、什么时候展的部分决定权。"
-           "代理这件事起步也慢：进入的方式是先到场，然后写信，然后等上几个月。"
+           "代理这件事起步也慢：路径是先去看展，再写信，然后等上几个月。"
            "而且画廊的注意力跟着它自己的展览计划走，所以它清淡的一年，也是你清淡的一年。")),
 
     "work_goes_out": _opener(
@@ -1019,9 +1020,9 @@ _OPENERS = {
            "that would survive a move to another country unchanged.",
 
            "五条路里，只有这一条能为同一张图反复收钱；其他每一条都是做一件、卖一次。"
-           "它不要求你另外画新东西，也不包含公众知名度，"
-           "所以它适合一种想一直画下去、其余的事尽量少管的工作方式。\n\n"
-           "它也是受你住在哪里、签证是什么影响最小的一条——买家可以是任何地方的公司，交付的是文件；"
+           "它不要求你另外画新东西，也不会带来公众知名度，"
+           "所以你要是只想一直画下去、别的事尽量少管，这条路合适。\n\n"
+           "住在哪里、签证是什么，对这条路的影响也最小——买家可以是任何地方的公司，交付的是文件；"
            "五条路里，只有这一条在你搬到另一个国家之后还能原样继续。"),
 
         _t("The money arrives on somebody else's schedule and in somebody else's volumes. The one "
@@ -1032,7 +1033,7 @@ _OPENERS = {
            "years rather than yen.",
 
            "钱按别人的时间表、别人的销量到账。"
-           "目前找到的唯一一位公开自己收入构成的插画师，做了二十年授权，客户包括 M&S、John Lewis、联合利华——"
+           "查到的插画师里，只有一位公开过自己的收入构成：做了二十年授权，客户包括 M&S、John Lewis、联合利华——"
            "授权只占她收入的 3%。价值在条款里，"
            "而对一批作品签下无限期买断，就等于放弃了日后再次授权它的可能；"
            "这是这条路上唯一一种代价以年计、而不是以钱计的错误。")),
@@ -1042,7 +1043,7 @@ _OPENERS = {
            "with an ISBN and a distributor behind them. With a publisher, they finance the print "
            "run and carry the inventory; you supply the work and the idea of the book.",
 
-           "书作为一件东西——别人因为它是一本书才买下它，摆在店里、架子上，"
+           "书本身就是一件商品——别人是冲着它是一本书才买的，摆在店里、架子上，"
            "背后有 ISBN 和发行商。有出版社参与时，印刷的钱和库存由他们承担；"
            "你出的是作品，和这本书的构想。"),
 
@@ -1055,7 +1056,7 @@ _OPENERS = {
 
            "这是五条路里唯一一条在开始之前就知道价钱的；清单上其他每一扇门，都是先申请，然后等。"
            "做出来的东西在其他四条路上也都用得上——画廊、出版社、艺术总监，拿给他们看的是同一本成品书——"
-           "而书摆在架子上会被陌生人拿起来，到达那些永远不会看到一条帖子的人。"
+           "而书摆在架子上，陌生人会拿起来翻——这些人永远刷不到你的帖子。"
            "有出版社参与时，同样不用出钱、家里不堆书，而且发行能进入全国书店；"
            "这一点这份清单上别处完全没有。"),
 
@@ -1069,17 +1070,17 @@ _OPENERS = {
            "it. Self-publishing removes the waiting by asking for the money up front, and leaves "
            "a room full of copies until they move.",
 
-           "有出版社参与时，变量是对方同不同意，而这件事的时间表没有人能控制——"
-           "一份企划可能压上几个月，最后回来的是没有下文。"
+           "有出版社参与时，不确定的只有一件事：对方点不点头，而这件事的时间表没有人能控制——"
+           "一份方案可能压上几个月，最后石沉大海。"
            "他们从每本里拿走的那一份是这笔交易的另一半，下面的账里有具体数字。"
-           "自己出版把等待这一项去掉了，代价是钱要先掏，而且在书卖动之前家里一直堆着。")),
+           "自己出版没有等待这回事，代价是钱要先掏，而且在书卖动之前家里一直堆着。")),
 
     "on_assignment": _opener(
         _t("Editorial illustration, book covers, commissioned work. A brief arrives, the work is "
            "delivered, payment follows a schedule, and the fee is set against how widely the "
            "image will be used rather than how long it took.",
 
-           "杂志插画、书籍封面、委托创作。需求送来，稿件交付，按约定时间付款；"
+           "杂志插画、书籍封面、委托创作。对方提需求，你交稿，按约定时间付款；"
            "费用是按这张图会被用到多广来定的，而不是按你画了多久。"),
 
         _t("It is the only one of the five with a predictable monthly number, and it is the least "
@@ -1092,7 +1093,7 @@ _OPENERS = {
            "五条路里只有这一条每月收入可以预期，也是最不浪漫的一条——这两件事其实是同一件事。"
            "这里是先付钱、后有作品；其他每一条都是先把画画出来，之后才谈卖不卖得掉。"
            "没有库存，也没有卖不掉的存货堆在房间里。"
-           "这也是这里唯一一条「先被委托、后动笔」的路——有没有人要，在落第一笔之前就有答案了。"),
+           "这也是这里唯一一条“先被委托、后动笔”的路——有没有人要，在落第一笔之前就有答案了。"),
 
         _t("The subject, the schedule and the finished image stop being entirely yours. A ¥70,000 "
            "cover is close to what one of your own originals earns with no brief attached to it. "
@@ -1101,7 +1102,7 @@ _OPENERS = {
 
            "题材、进度和最终画面不再完全是你的。"
            "一张 70,000 日元的封面，和你自己一张原作挣到的差不多，而原作没有附带任何要求。"
-           "另外，不同客户之间价差极大——这正是「拿出什么作品集，就会被找去做什么活」的作用机制。")),
+           "另外，不同客户之间价差极大——所以才有那句话：你拿什么作品集，就接到什么活。")),
 }
 
 
@@ -1188,7 +1189,7 @@ def _standing(record: dict) -> dict:
         "no_gatekeepers": _t(
             "About 26,000 followers and a shop already running, with a price ladder that stops at "
             "¥2,200 and starts again at ¥31,900.",
-            "大约两万六千人在看，店铺已经在运转；价格阶梯停在 2,200 日元，再往上直接跳到 31,900。"),
+            "大约两万六千人在看着，店铺已经在跑；价位到 2,200 日元就断了，再往上直接跳到 31,900。"),
         # NOT "every room so far paid for from your side", which was here until
         # 2026-09-07. It graded her choices, and it graded them on a premise that
         # is probably wrong: Galerie LE MONDE is an illustration-world gallery
@@ -1213,9 +1214,9 @@ def _standing(record: dict) -> dict:
             "from.",
             f"{zines} 本 zine、{pubs} 本出版物，还有六年的日课可以从中做出一本书。"),
         "on_assignment": _t(
-            "Illustration and design training, and a subject Japanese literary publishers buy "
-            "covers in.",
-            "科班的插画与设计训练，以及一个日本文学出版社会买来做封面的题材。"),
+            "Six years of delivering to a daily schedule, and a subject Japanese literary "
+            "publishers buy covers in.",
+            "六年每天按时把画交出来，以及一个日本文学出版社会买来做封面的题材。"),
     }
 
 
