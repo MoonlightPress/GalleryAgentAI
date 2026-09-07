@@ -15,6 +15,7 @@ import { track } from './utils/track'
 import { createVisibilityTracker } from './utils/dwell'
 import { setCache, getCache } from './utils/apiCache'
 import { isNightNow } from './utils/timeOfDay'
+import { prefetchCompanionHeroes } from './utils/heroImages'
 import { parseHash, formatHash, sameRoute } from './utils/route'
 
 const SaffronPage = lazy(() => import('./components/SaffronPage'))
@@ -161,14 +162,19 @@ export default function App() {
     }
   }, [])
 
-  // Once Discover is up, warm the other companions in the background — both their
-  // code chunks AND their data into the shared cache — so switching is instant
-  // instead of a blank loading screen (Scott: "load saffron once mochi is done so
-  // if she goes there it's already loaded").
+  // Once Discover is up, warm the other companions in the background — their code
+  // chunks, their data into the shared cache, AND their hero art — so switching is
+  // instant instead of a blank loading screen (Scott: "load saffron once mochi is
+  // done so if she goes there it's already loaded").
+  //
+  // The hero art was the piece this effect used to miss: chunk and data arrived
+  // early, then the page still sat there fetching a cold ~300 KB painting, which
+  // is what "3 seconds even when switching sections" actually was.
   useEffect(() => {
     const warm = () => {
       import('./components/SaffronPage')
       import('./components/PeppercornPage')
+      prefetchCompanionHeroes(isNightNow())
       for (const url of ['/api/saffron', '/api/career_strategy', '/api/peppercorn']) {
         if (getCache(url)) continue
         fetch(url).then(r => (r.ok ? r.json() : null)).then(d => { if (d) setCache(url, d) }).catch(() => { /* best-effort warm */ })

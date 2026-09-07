@@ -51,3 +51,39 @@ export const peppercornHero      = pickRandom(pool(peppercornGlob, false))
 export const peppercornHeroNight = pickRandom(pool(peppercornGlob, true))
 export const saffronHero         = pickRandom(pool(saffronGlob, false))
 export const saffronHeroNight    = pickRandom(pool(saffronGlob, true))
+
+// Warm the other companions' heroes while she reads Mochi's page.
+//
+// Why this is needed at all: the hero art rotates, so the file the page asks
+// for has usually never been fetched before. The cache headers are right
+// (immutable, max-age=1y) and the cache still can't help — a fresh URL is a
+// guaranteed miss by design. Peppercorn's hero is the heaviest single asset on
+// the site, and its request cannot even START until React has rendered the
+// page, so tapping the mouse meant waiting on a cold ~300 KB download with
+// nothing on screen. App.jsx already warms the other pages' code chunks and API
+// data on idle; the picture was the piece still missing.
+//
+// The URLs above are chosen once at module load, so this prefetches exactly
+// what the other pages will ask for — nothing speculative.
+//
+// `new Image()` rather than `<link rel="prefetch">`: Safari doesn't implement
+// rel=prefetch, and she's on an iPhone. An Image() populates the HTTP cache in
+// every browser, and the caller runs it from requestIdleCallback so it stays
+// out of the way of the page that's actually on screen.
+export function prefetchCompanionHeroes(night) {
+  // Don't spend someone else's data plan on a page they may never open.
+  const conn = navigator.connection
+  if (conn && (conn.saveData || /(^|-)2g$/.test(conn.effectiveType || ''))) return []
+
+  const urls = night
+    ? [peppercornHeroNight, saffronHeroNight]
+    : [peppercornHero, saffronHero]
+
+  const wanted = urls.filter(Boolean)
+  for (const url of wanted) {
+    const img = new Image()
+    img.decoding = 'async'
+    img.src = url
+  }
+  return wanted
+}

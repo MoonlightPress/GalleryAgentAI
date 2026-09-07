@@ -2050,9 +2050,20 @@ export default function PeppercornPage({ nav }) {
   return (
     <div className="peppercorn-page">
 
-      {/* Ambient mouse illustration */}
+      {/* Ambient mouse illustration. Intrinsic dims (all Peppercorn art is
+          1920x640) reserve the band so the page below doesn't jump once the
+          painting lands; high priority because it is the top of the page. */}
       <div className="pp-mouse-ambient">
-        <img src={isNightNow() ? peppercornHeroNight : peppercornHero} alt="" draggable={false} className="pp-mouse-img" />
+        <img
+          src={isNightNow() ? peppercornHeroNight : peppercornHero}
+          alt=""
+          draggable={false}
+          className="pp-mouse-img"
+          width={1920}
+          height={640}
+          fetchPriority="high"
+          decoding="async"
+        />
       </div>
 
       {nav}
