@@ -136,6 +136,9 @@ def blocks_html(blocks):
         elif k == 'list':
             items = ''.join(f'<li>{both(x)}</li>' for x in b['items'])
             out.append(f'{label}<ul class="sf-scen-list">{items}</ul>')
+        elif k == 'component':
+            if b['id'] == 'book_economics':
+                out.append(detail(b['label'], book_body()))
         elif k == 'defs':
             rows = ''.join(f'<div><dt>{both(x["term"])}</dt><dd>{both(x["body"])}</dd></div>'
                            for x in b['items'])
@@ -294,7 +297,7 @@ def be_svg():
   </figure>'''
 
 
-def book_html():
+def book_body():
     b = D['book']
     rows = []
     for o in b['options']:
@@ -348,12 +351,7 @@ def book_html():
     <div class="sf-details">{detail(b['detail_label'], arithmetic)}</div>
     <p class="sf-be-caveat">{both(b['caveat'])}</p>'''
 
-    return shell('What a book costs', both(b['note']), body,
-                 note=f'Cover price {yen(b["price_jpy"])}, ~128pp full-colour hardcover, '
-                      'consignment at 70/30. Every figure sourced in '
-                      '<code>reports/book_economics_2026-09-05.md</code>. The route-by-route '
-                      'arithmetic is behind a lid in the app; drawn open here. Routes that cannot '
-                      'break even appear on the chart and are left out of the list below it.')
+    return body
 
 
 # ── doors that open again ────────────────────────────────────────────────────
@@ -736,7 +734,6 @@ HTML = f'''<meta charset="utf-8">
 <div class="sf-content">
   <div class="sf-tabs">{tabs}</div>
   {futures_html()}
-  {book_html()}
   {outreach_html()}
   {doors_html()}
 </div>

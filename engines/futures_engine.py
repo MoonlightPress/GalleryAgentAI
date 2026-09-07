@@ -610,6 +610,16 @@ _PUBLISHING = [
         "还有一条会一直挂在你名字上的出版记录。"
         "当这本书除了卖出去，还被指望去带动其余的实践时，这些好处才最说得通。")},
 
+    # "What a book costs" was a standalone section until 2026-09-07, sitting
+    # apart from the two routes that already discuss books. Its own claim says
+    # what it is for — the cost is knowable to the yen, the sell-through is not,
+    # and carrying that gap is what a publisher is — which makes it evidence for
+    # the fork directly above, not a section. Behind a lid, because it answers a
+    # question only some readers are asking at this point.
+    {"kind": "component", "id": "book_economics",
+     "label": _t("What the book itself costs to make",
+                 "做出这本书本身要花多少钱")},
+
     {"kind": "links", "label": _t("Three publishers with a published route in",
                                   "三家把入口写出来的出版社"),
      "items": [

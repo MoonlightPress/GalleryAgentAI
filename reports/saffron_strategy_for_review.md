@@ -304,6 +304,8 @@ Publishing is weak as a per-copy revenue stream and strong as distribution.
 
 The publisher's contribution is everything surrounding those royalties: financing the print run, national bookshop distribution, ISBN, production, inventory and a publication record that remains attached to your name. Those benefits make the most sense when the book is expected to strengthen the rest of the practice as well as sell copies.
 
+### What the book itself costs to make
+
 ### Three publishers with a published route in
 
 - [マール社 — accepts proposals directly and finances accepted books itself](https://www.maar.com/)
@@ -388,7 +390,7 @@ That gives you five experiments. Their results will tell you much more than choo
 
 What a book costs can be worked out to the yen before anything starts. How fast the copies sell cannot be worked out at all. That gap — a fixed price against an open-ended sell-through — is the whole of the decision, and carrying it is what a publisher is.
 
-It is not a loss. ¥394,500 buys 300 copies; the run is back at 109 sold and the other 191 are profit. It is slow, which is a different thing — and the pace below is what makes it slow.
+The money comes back, on a long timescale. ¥394,500 buys 300 copies; the run is paid off at 109 sold and the other 191 are profit. Slow is the accurate word for it, and the pace below is what makes it slow.
 
 ---
 

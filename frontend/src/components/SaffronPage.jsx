@@ -1657,13 +1657,7 @@ function BookEconomics({ data, lang }) {
   // a loss leader"; and the route-by-route arithmetic — the old headline —
   // drops behind a lid as evidence for both.
   return (
-    <SectionShell
-      title={beL('title', lang)}
-      subtitle={pick(data.note)}
-      summary={pick(data.note)}
-      trackId="book_economics"
-      defaultOpen
-    >
+    <>
       {data.claim && <p className="sf-be-claim">{pick(data.claim)}</p>}
       {data.not_a_loss && <p className="sf-be-answer">{pick(data.not_a_loss)}</p>}
 
@@ -1724,7 +1718,7 @@ function BookEconomics({ data, lang }) {
       </div>
 
       <p className="sf-be-caveat">{pick(data.caveat)}</p>
-    </SectionShell>
+    </>
   )
 }
 
@@ -1766,7 +1760,7 @@ function Disclosure({ label, lang, children }) {
 // sequence; this only knows how to draw each kind.
 const scPick = (o, lang) => (o && (o[lang] || o.en)) || ''
 
-function RealmBlocks({ blocks, lang }) {
+function RealmBlocks({ blocks, lang, components }) {
   return (
     <div className="sf-scen">
       {blocks.map((b, i) => {
@@ -1802,6 +1796,19 @@ function RealmBlocks({ blocks, lang }) {
                   </div>
                 ))}
               </dl>
+            </div>
+          )
+        }
+        // A piece React has to build — the book arithmetic, which contains a
+        // chart. The engine says where it goes and what the lid is called; the
+        // map below says what to draw. Folded rather than inline because it is
+        // evidence for the fork above it, not the argument itself.
+        if (b.kind === 'component') {
+          const node = components?.[b.id]
+          if (!node) return null
+          return (
+            <div key={i} className="sf-details">
+              <Disclosure lang={lang} label={b.label}>{node}</Disclosure>
             </div>
           )
         }
@@ -1859,7 +1866,7 @@ function RealmBlocks({ blocks, lang }) {
   )
 }
 
-function Future({ f, lang }) {
+function Future({ f, lang, components }) {
   const [open, setOpen] = useState(false)
   const pick = (o) => (o && (o[lang] || o.en)) || ''
   return (
@@ -1880,14 +1887,14 @@ function Future({ f, lang }) {
       </button>
       {open && (
         <div className="sf-future-body">
-          <RealmBlocks blocks={f.blocks} lang={lang} />
+          <RealmBlocks blocks={f.blocks} lang={lang} components={components} />
         </div>
       )}
     </div>
   )
 }
 
-function Futures({ data, t, lang }) {
+function Futures({ data, t, lang, components }) {
   if (!data?.futures?.length) return null
   const pick = (o) => (o && (o[lang] || o.en)) || ''
   return (
@@ -1905,7 +1912,7 @@ function Futures({ data, t, lang }) {
           with nothing joining them. */}
       {data.frame && <p className="sf-scen-frame">{pick(data.frame)}</p>}
       <div className="sf-futures">
-        {data.futures.map(f => <Future key={f.id} f={f} lang={lang} />)}
+        {data.futures.map(f => <Future key={f.id} f={f} lang={lang} components={components} />)}
       </div>
       {data.first_steps && (
         <div className="sf-firststeps">
@@ -3214,9 +3221,17 @@ export default function SaffronPage({ nav, tab: tabFromUrl, onTabChange }) {
                         and returned to it four times. It is the one thing she reaches
                         for. It should not be below anything. */}
                     <SectionOpenContext.Provider value={false}>
-                      {SB('futures', <Futures data={data.futures} t={t} lang={lang} />)}
+                      {SB('futures', <Futures data={data.futures} t={t} lang={lang}
+                        components={{ book_economics: <BookEconomics data={data.book_economics} lang={lang} /> }} />)}
                       {SB('pathway', <StrategicPathway data={data.pathway} t={t} />)}
-                      {SB('bookecon', <BookEconomics data={data.book_economics} lang={lang} />)}
+                      {/* "What a book costs" moved INSIDE the Publishing route on
+                          2026-09-07. It was a standalone section about the same subject
+                          two routes already covered, and its purpose was not legible
+                          from where it sat (Scott: "i'm not really sure the purpose of
+                          that section"). Its own claim says what it is for — the cost is
+                          knowable, the sell-through is not, and carrying that gap is what
+                          a publisher is — which makes it the evidence for Publishing's
+                          fork rather than a section of its own. */}
                       {/* The letter moved INSIDE the Galleries route (2026-09-07), where
                           Scott's source document puts it: it follows "send five paintings
                           and ask whether they would be interested", which is the sentence

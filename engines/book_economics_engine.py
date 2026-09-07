@@ -216,12 +216,18 @@ def build(price_jpy: int = DEFAULT_PRICE) -> dict:
         "而把这个落差接过去，正是出版社的作用。")
 
     # The loss-leader question, answered outright rather than left to inference.
+    # Opened "It is not a loss" / 「它不是亏本生意」 until 2026-09-07 — the
+    # negation pattern the copy rules keep catching, and it plants the word
+    # "loss" in the reader's head to argue with it. The money is the same; it
+    # now says what the outlay buys and calls the thing by its real name, which
+    # is slow.
     not_a_loss = _t(
-        f"It is not a loss. {_fen(ref['outlay_jpy'])} buys {ref['run']} copies; the run is back at "
-        f"{ref['breakeven_direct']} sold and the other {left} are profit. It is slow, which is a "
-        f"different thing — and the pace below is what makes it slow.",
-        f"它不是亏本生意。{_fen(ref['outlay_jpy'])} 换来 {ref['run']} 本；卖到第 {ref['breakeven_direct']} 本回本，"
-        f"剩下的 {left} 本是净赚。它慢，但慢和亏是两回事——下面的数字说明的是它为什么慢。")
+        f"The money comes back, on a long timescale. {_fen(ref['outlay_jpy'])} buys {ref['run']} "
+        f"copies; the run is paid off at {ref['breakeven_direct']} sold and the other {left} are "
+        f"profit. Slow is the accurate word for it, and the pace below is what makes it slow.",
+        f"钱是能回来的，只是周期长。{_fen(ref['outlay_jpy'])} 换来 {ref['run']} 本；"
+        f"卖到第 {ref['breakeven_direct']} 本这批印量就付清了，剩下的 {left} 本是净赚。"
+        f"准确的说法是「慢」——下面的数字说明的正是它为什么慢。")
 
     # ── the fork: who carries the outlay ─────────────────────────────────────
     # Same six rows on both sides so the comparison reads across, not down.
