@@ -1499,67 +1499,144 @@ function OutreachKit({ data, lang }) {
 // so the useful contribution is not advice about whether — it is the arithmetic
 // of the thing she is going to do anyway.
 //
-// The chart draws copies-needed-to-break-even against copies-printed. That
-// comparison is the whole reason it is a chart and not a table: when the bar
-// overshoots the run marker, the option cannot pay for itself at ANY
-// sell-through, and printing 100 — the intuitive move — is exactly that case.
-// Feasibility is carried by geometry and a direct label, never by colour alone,
-// so it survives any kind of colour vision and prints in greyscale.
+// The chart plots each option against ITS OWN print run: the whole bar is the
+// copies that option prints, the fill is how many of them have to sell before
+// the money comes back. Normalising that way is what makes the thing readable —
+// on a shared absolute axis the 300-run (109 copies) and the 500-run (110) sat
+// a third of a pixel apart, and telling those two apart is the entire point of
+// the section. As a share of what you actually printed they are 36% and 22%.
+//
+// It also gives every row one shared right-hand edge, so "copies printed" stops
+// being a per-row tick at a different x each line (labelled once, under a tick
+// belonging to some other row) and becomes the end of the bar itself. One
+// quantity, one grammar, one limit.
+//
+// Feasibility is carried four ways — the grouping, the sentence on the row, the
+// fill spilling past the run's edge, and a hatch — so it survives any colour
+// vision, greyscale printing, and forced-colors. Colour only reinforces.
 const BE_LABELS = {
   title:    { zh: '一本书要花多少钱', ja: '本にかかる費用', en: 'What a book costs' },
-  needed:   { zh: '要卖出', ja: '売る必要', en: 'copies to break even' },
-  printed:  { zh: '印了', ja: '刷った数', en: 'printed' },
-  cannot:   { zh: '这样印回不了本', ja: '回収できない', en: "can't pay for itself" },
-  outlay:   { zh: '先付', ja: '先払い', en: 'up front' },
+  // Interpolated rather than glued after the number: Chinese puts the verb
+  // first, so "{n} 要卖出" rendered as "109 要卖出", which is the wrong order.
+  // English keeps the number in front. Same fix pattern as `runOf`/`vOk`.
+  needed:   { zh: '要卖出 {n} 本', ja: '{n} 部売る必要', en: '{n} copies to break even' },
+  outlay:   { zh: '先付 {v}', ja: '{v} 先払い', en: '{v} up front' },
   consign:  { zh: '可以寄售', ja: '委託できる', en: 'works on consignment' },
   noconsign:{ zh: '寄售会亏', ja: '委託は赤字', en: 'consignment loses money' },
-  chartNote:{ zh: '柱子超过刻度，就表示要卖的比印的还多。', ja: '棒が目盛りを超えたら、刷った数より多く売る必要がある。',
-              en: 'A bar past the marker means selling more copies than exist.' },
+  lead:     { zh: '{b} 种印法里，只有 {a} 种能把钱赚回来。',
+              en: 'Of {b} ways to print it, {a} can pay for themselves.' },
+  grpOk:    { zh: '能回本', en: 'Pays for itself' },
+  grpNo:    { zh: '回不了本', en: 'Never pays for itself' },
+  runOf:    { zh: '印 {n} 本', en: '{n} copies' },
+  vOk:      { zh: '卖 {n} 本回本 · 印量的 {p}%', en: 'sell {n} · {p}% of the run' },
+  vOver:    { zh: '要卖 {n} 本 · {x} 倍印量', en: 'needs {n} · {x}× the run' },
+  vNever:   { zh: '每卖一本都在亏', en: 'loses money on every copy' },
+  // "selling out still is not enough" was the negation pattern again (rule 5 in
+  // futures_engine's docstring). Same arithmetic, said positively: the run sells
+  // out and money is still owed.
+  chartNote:{ zh: '整条＝那一种印法印出来的数量；填色的部分＝要卖掉多少才回本。填色漫出右边，表示整批卖光之后成本仍有缺口。',
+              en: 'The whole bar is the copies printed; the filled part is how many must sell to get the money back. A fill running past the right edge means the run sells out and the cost is still owed.' },
 }
 const beL = (k, lang) => BE_LABELS[k][lang] || BE_LABELS[k].en
+const beF = (k, lang, vars) =>
+  Object.keys(vars).reduce((s, v) => s.replace('{' + v + '}', vars[v]), beL(k, lang))
+
+// Track geometry. RUN is where the print run ends; RUN..BE_W is the overflow
+// lane, reserved on every row so a bar that spills is spilling past the same
+// edge everywhere. Drawn with preserveAspectRatio="none" so the bar stretches
+// to the column width while the text beside it stays HTML at a real font size —
+// CJK at 7px inside a scaled viewBox was most of why the old one was unreadable.
+const BE_RUN = 300, BE_W = 340, BE_H = 14
+
+function BeTrack({ over, ratio }) {
+  const w = over ? BE_W : Math.max(3, BE_RUN * ratio)
+  return (
+    <svg className="sf-be-track" viewBox={`0 0 ${BE_W} ${BE_H}`} preserveAspectRatio="none"
+         aria-hidden="true" focusable="false">
+      <rect x="0" y="1" width={BE_RUN} height={BE_H - 2} rx="2" className="sf-be-bed" />
+      {/* the hatch is set in CSS, not as a fill attribute: a CSS `fill` rule
+          beats a presentation attribute, so an attribute here would be ignored */}
+      <rect x="0" y="1" width={w} height={BE_H - 2}
+            className={over ? 'sf-be-fill sf-be-fill--over' : 'sf-be-fill'}
+            mask={over ? 'url(#sfBeFade)' : undefined} />
+      {/* the edge of what exists — same x on every row, drawn over the fill so a
+          spill reads as crossing it rather than as a longer bar */}
+      <line x1={BE_RUN} x2={BE_RUN} y1="0" y2={BE_H} className="sf-be-edge"
+            vectorEffect="non-scaling-stroke" />
+    </svg>
+  )
+}
 
 function BreakEvenChart({ options, lang }) {
-  // One hue: this is a single measure, not several identities. Feasibility is
-  // carried by geometry (does the bar pass the run marker?) plus a written
-  // label, never by colour, so it survives any colour vision and greyscale.
-  const INK = '#c47a35', RULE = '#7a5c3a'
-  const rows = options.filter(o => o.route !== 'japan_offset' || o.run === 500)
-  const max = Math.max(...rows.map(o => o.run)) * 1.5
-  const W = 300, BAR = 14, GAP = 26, PAD = 104, RIGHT = 8
-  const H = rows.length * GAP + 20
-  const x = (v) => PAD + Math.min(v / max, 1) * (W - PAD - RIGHT)
+  const rows = options
+    .filter(o => o.route !== 'japan_offset' || o.run === 500)
+    .map(o => {
+      // japan_offset loses money on every copy at every run, so it has no
+      // break-even number at all — ratio Infinity, and it says so in words
+      // rather than drawing a bar that implies a quantity.
+      const be = o.breakeven_direct
+      const ratio = (be == null || !o.run) ? Infinity : be / o.run
+      return { ...o, be, ratio, ok: !o.impossible && ratio <= 1 }
+    })
+    .sort((a, b) => (a.ratio === b.ratio ? 0 : a.ratio < b.ratio ? -1 : 1))
+
+  const groups = [
+    [beL('grpOk', lang), rows.filter(r => r.ok)],
+    [beL('grpNo', lang), rows.filter(r => !r.ok)],
+  ]
+
+  const verdict = (r) =>
+    r.be == null ? beL('vNever', lang)
+      : r.ok ? beF('vOk', lang, { n: r.be, p: Math.round(r.ratio * 100) })
+        : beF('vOver', lang, { n: r.be, x: (Math.round(r.ratio * 10) / 10).toFixed(1) })
 
   return (
     <figure className="sf-be-fig">
-      <svg viewBox={`0 0 ${W} ${H}`} className="sf-be-svg" role="img" aria-label={beL('title', lang)}>
-        {rows.map((o, i) => {
-          const y = i * GAP + 10
-          // A route whose unit cost exceeds the cover price can never break
-          // even; drawing its bar to the full width shows it running off the
-          // end, which is the truth. Drawing it to zero (its literal
-          // break-even) read as "needs almost nothing" - the exact inverse.
-          const runX = x(o.run)
-          const barEnd = o.impossible ? W - RIGHT : x(o.breakeven_direct)
-          return (
-            <g key={i}>
-              <text x="0" y={y + 10} className="sf-be-label">
-                {o.run} · {o.route_name[lang] || o.route_name.en}
-              </text>
-              <rect x={PAD} y={y + 1} width={Math.max(2, barEnd - PAD)} height={BAR}
-                    rx="3" fill={INK} opacity={o.impossible ? 0.3 : 0.92} />
-              {/* how many copies exist - the bar passing this means selling more than you made */}
-              <line x1={runX} y1={y - 2} x2={runX} y2={y + BAR + 3} stroke={RULE} strokeWidth="1.5" />
-              {o.impossible
-                ? <text x={PAD + 5} y={y + 11} className="sf-be-val sf-be-val--in">{beL('cannot', lang)}</text>
-                : <text x={barEnd + 5} y={y + 11} className="sf-be-val">{o.breakeven_direct}</text>}
-            </g>
-          )
-        })}
-        {/* label the marker once rather than on every row */}
-        <text x={x(rows[rows.length - 1].run)} y={H - 4} className="sf-be-tick" textAnchor="middle">
-          {beL('printed', lang)}
-        </text>
+      <p className="sf-be-lead">
+        {beF('lead', lang, { a: rows.filter(r => r.ok).length, b: rows.length })}
+      </p>
+      <svg className="sf-be-defs" aria-hidden="true" focusable="false">
+        <defs>
+          {/* the hatch is the greyscale/CVD channel for "this one cannot work" */}
+          <pattern id="sfBeHatch" width="5" height="5" patternUnits="userSpaceOnUse"
+                   patternTransform="rotate(45)">
+            <rect width="5" height="5" fill="#c47a35" opacity="0.18" />
+            <line x1="0" y1="0" x2="0" y2="5" stroke="#c47a35" strokeWidth="1.7" opacity="0.7" />
+          </pattern>
+          {/* a spilled bar fades out at the right edge instead of stopping — it
+              is meant to read as continuing off the page, which it does */}
+          <linearGradient id="sfBeFadeG" gradientUnits="userSpaceOnUse"
+                          x1={BE_RUN} y1="0" x2={BE_W} y2="0">
+            <stop offset="0" stopColor="#fff" />
+            <stop offset="1" stopColor="#fff" stopOpacity="0" />
+          </linearGradient>
+          <mask id="sfBeFade" maskUnits="userSpaceOnUse" x="0" y="0" width={BE_W} height={BE_H}>
+            <rect x="0" y="0" width={BE_W} height={BE_H} fill="url(#sfBeFadeG)" />
+          </mask>
+        </defs>
       </svg>
+
+      {groups.map(([heading, list]) => (list.length ? (
+        <div className="sf-be-grp" key={heading}>
+          <div className="sf-be-grp-head">{heading}</div>
+          <ul className="sf-be-opts">
+            {list.map(r => (
+              <li key={r.route + '-' + r.run}
+                  className={'sf-be-opt' + (r.ok ? '' : ' sf-be-opt--no')}>
+                <div className="sf-be-opt-head">
+                  <span className="sf-be-opt-name">
+                    {r.route_name[lang] || r.route_name.en}
+                    <span className="sf-be-opt-run"> · {beF('runOf', lang, { n: r.run })}</span>
+                  </span>
+                  <span className="sf-be-opt-val">{verdict(r)}</span>
+                </div>
+                <BeTrack over={!r.ok} ratio={r.ratio} />
+              </li>
+            ))}
+          </ul>
+        </div>
+      ) : null))}
+
       <figcaption className="sf-be-cap">{beL('chartNote', lang)}</figcaption>
     </figure>
   )
@@ -1631,7 +1708,7 @@ function BookEconomics({ data, lang }) {
                   {o.run} · {pick(o.route_name)}
                 </div>
                 <div className="sf-be-row-num">
-                  {yen(o.outlay_jpy)} {beL('outlay', lang)} · {o.breakeven_direct} {beL('needed', lang)}
+                  {beF('outlay', lang, { v: yen(o.outlay_jpy) })} · {beF('needed', lang, { n: o.breakeven_direct })}
                   {o.consignment_viable
                     ? <span className="sf-be-ok"> · {beL('consign', lang)}</span>
                     : <span className="sf-be-no"> · {beL('noconsign', lang)}</span>}

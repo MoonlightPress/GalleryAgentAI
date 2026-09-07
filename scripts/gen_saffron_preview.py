@@ -193,43 +193,104 @@ def futures_html():
 
 
 # ── what a book costs ────────────────────────────────────────────────────────
+BE_RUN, BE_W, BE_H = 300, 340, 14
+
+BE_DEFS = f'''
+  <svg class="sf-be-defs" aria-hidden="true" focusable="false"><defs>
+    <pattern id="sfBeHatch" width="5" height="5" patternUnits="userSpaceOnUse"
+             patternTransform="rotate(45)">
+      <rect width="5" height="5" fill="#c47a35" opacity="0.18" />
+      <line x1="0" y1="0" x2="0" y2="5" stroke="#c47a35" stroke-width="1.7" opacity="0.7" />
+    </pattern>
+    <linearGradient id="sfBeFadeG" gradientUnits="userSpaceOnUse"
+                    x1="{BE_RUN}" y1="0" x2="{BE_W}" y2="0">
+      <stop offset="0" stop-color="#fff" />
+      <stop offset="1" stop-color="#fff" stop-opacity="0" />
+    </linearGradient>
+    <mask id="sfBeFade" maskUnits="userSpaceOnUse" x="0" y="0" width="{BE_W}" height="{BE_H}">
+      <rect x="0" y="0" width="{BE_W}" height="{BE_H}" fill="url(#sfBeFadeG)" />
+    </mask>
+  </defs></svg>'''
+
+
+def be_track(over, ratio):
+    """One bar, same geometry as BeTrack in SaffronPage.jsx."""
+    w = BE_W if over else max(3.0, BE_RUN * ratio)
+    # the hatch is set in CSS, not as a fill attribute — a CSS `fill` rule beats
+    # a presentation attribute, so an attribute here would be silently ignored
+    paint = (' class="sf-be-fill sf-be-fill--over" mask="url(#sfBeFade)"'
+             if over else ' class="sf-be-fill"')
+    return f'''
+        <svg class="sf-be-track" viewBox="0 0 {BE_W} {BE_H}" preserveAspectRatio="none"
+             aria-hidden="true" focusable="false">
+          <rect x="0" y="1" width="{BE_RUN}" height="{BE_H - 2}" rx="2" class="sf-be-bed" />
+          <rect x="0" y="1" width="{w:.2f}" height="{BE_H - 2}"{paint} />
+          <line x1="{BE_RUN}" x2="{BE_RUN}" y1="0" y2="{BE_H}" class="sf-be-edge"
+                vector-effect="non-scaling-stroke" />
+        </svg>'''
+
+
 def be_svg():
-    """The app's own chart, same geometry as BreakEvenChart in SaffronPage.jsx."""
-    opts = [o for o in D['book']['options']
-            if o['route'] != 'japan_offset' or o['run'] == 500]
-    INK, RULE = '#c47a35', '#7a5c3a'
-    W, BAR, GAP, PAD, RIGHT = 300, 14, 26, 104, 8
-    mx = max(o['run'] for o in opts) * 1.5
-    H = len(opts) * GAP + 20
+    """The app's own chart, same form and geometry as BreakEvenChart in SaffronPage.jsx.
 
-    def x(v):
-        return PAD + min(v / mx, 1) * (W - PAD - RIGHT)
+    Each bar is that option's own print run; the fill is the share of it that has
+    to sell before the outlay is back. A fill that runs past the run's edge means
+    the option cannot pay for itself however well it sells.
+    """
+    rows = []
+    for o in D['book']['options']:
+        if o['route'] == 'japan_offset' and o['run'] != 500:
+            continue
+        be = o['breakeven_direct']
+        ratio = float('inf') if (be is None or not o['run']) else be / o['run']
+        rows.append({**o, 'be': be, 'ratio': ratio,
+                     'ok': (not o['impossible']) and ratio <= 1})
+    rows.sort(key=lambda r: r['ratio'])
 
-    g = []
-    for i, o in enumerate(opts):
-        y = i * GAP + 10
-        run_x = x(o['run'])
-        bar_end = (W - RIGHT) if o['impossible'] else x(o['breakeven_direct'])
-        val = (f'<text x="{PAD + 5}" y="{y + 11}" class="sf-be-val sf-be-val--in">'
-               f"can&#39;t pay for itself</text>" if o['impossible'] else
-               f'<text x="{bar_end + 5:.2f}" y="{y + 11}" class="sf-be-val">{o["breakeven_direct"]}</text>')
-        g.append(f'''
-      <g>
-        <text x="0" y="{y + 10}" class="sf-be-label">{o['run']} &#183; {t(o['route_name'])}</text>
-        <rect x="{PAD}" y="{y + 1}" width="{max(2, bar_end - PAD):.2f}" height="{BAR}" rx="3"
-              fill="{INK}" opacity="{0.3 if o['impossible'] else 0.92}" />
-        <line x1="{run_x:.2f}" y1="{y - 2}" x2="{run_x:.2f}" y2="{y + BAR + 3}"
-              stroke="{RULE}" stroke-width="1.5" />
-        {val}
-      </g>''')
-    tick_x = x(opts[-1]['run'])
+    def verdict(r):
+        if r['be'] is None:
+            return ('loses money on every copy',
+                    '每卖一本都在亏')
+        if r['ok']:
+            return (f'sell {r["be"]} &#183; {round(r["ratio"] * 100)}% of the run',
+                    f'卖 {r["be"]} 本回本 · 印量的 {round(r["ratio"] * 100)}%')
+        return (f'needs {r["be"]} &#183; {r["ratio"]:.1f}&#215; the run',
+                f'要卖 {r["be"]} 本 · {r["ratio"]:.1f} 倍印量')
+
+    def group(heading_en, heading_zh, sel):
+        items = [r for r in rows if r['ok'] is sel]
+        if not items:
+            return ''
+        lis = []
+        for r in items:
+            v_en, v_zh = verdict(r)
+            lis.append(f'''
+      <li class="sf-be-opt{'' if r['ok'] else ' sf-be-opt--no'}">
+        <div class="sf-be-opt-head">
+          <span class="sf-be-opt-name">{t(r['route_name'])}{zh(r['route_name'])}<span
+            class="sf-be-opt-run"> &#183; {r['run']} copies<span class="zh-alt" hidden> · 印 {r['run']} 本</span></span></span>
+          <span class="sf-be-opt-val">{v_en}<span class="zh-alt" hidden>{v_zh}</span></span>
+        </div>{be_track(not r['ok'], r['ratio'])}
+      </li>''')
+        return f'''
+    <div class="sf-be-grp">
+      <div class="sf-be-grp-head">{heading_en}<span class="zh-alt" hidden>{heading_zh}</span></div>
+      <ul class="sf-be-opts">{''.join(lis)}</ul>
+    </div>'''
+
+    n_ok = sum(1 for r in rows if r['ok'])
+    lead = (f'Of {len(rows)} ways to print it, {n_ok} can pay for themselves.'
+            f'<span class="zh-alt" hidden>{len(rows)} 种印法里，只有 {n_ok} 种能把钱赚回来。</span>')
+    note = ('The whole bar is the copies printed; the filled part is how many must sell to get '
+            'the money back. A fill running off the right means selling out still is not enough.'
+            '<span class="zh-alt" hidden>整条＝那一种印法印出来的数量；填色的部分＝要卖掉多少才回本。'
+            '填色漫出右边，就是全部卖光也不够。</span>')
     return f'''
   <figure class="sf-be-fig">
-    <svg viewBox="0 0 {W} {H}" class="sf-be-svg" role="img" aria-label="What a book costs">
-      {''.join(g)}
-      <text x="{tick_x:.2f}" y="{H - 4}" class="sf-be-tick" text-anchor="middle">printed</text>
-    </svg>
-    <figcaption class="sf-be-cap">A bar past the marker means selling more copies than exist.</figcaption>
+    <p class="sf-be-lead">{lead}</p>{BE_DEFS}
+    {group('Pays for itself', '能回本', True)}
+    {group('Never pays for itself', '回不了本', False)}
+    <figcaption class="sf-be-cap">{note}</figcaption>
   </figure>'''
 
 
@@ -543,12 +604,33 @@ body{
 }
 
 .sf-be-fig{margin:4px 0 22px}
-.sf-be-svg{width:100%;height:auto;display:block}
-.sf-be-label{font-family:Georgia,serif;font-size:7px;fill:#6a5436}
-.sf-be-val{font-family:Georgia,serif;font-size:7px;fill:#7a5c3a;font-style:italic}
-.sf-be-val--in{fill:#6b4420}
-.sf-be-tick{font-family:Georgia,serif;font-size:6.5px;fill:#8a6f4a;font-style:italic}
-.sf-be-cap{font-family:Georgia,serif;font-size:11.5px;color:#8a6f4a;font-style:italic;margin-top:6px}
+.sf-be-defs{position:absolute;width:0;height:0;overflow:hidden}
+.sf-be-lead{font-family:Georgia,serif;font-size:13.5px;line-height:1.62;color:#3d2b1a;margin:0 0 15px}
+.sf-be-grp{max-width:460px;margin-bottom:17px}
+.sf-be-grp:last-of-type{margin-bottom:0}
+.sf-be-grp-head{
+  font-family:Georgia,serif;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;
+  color:#8a6f4a;padding-bottom:4px;border-bottom:1px solid #e2d6b8;margin-bottom:10px;
+}
+.sf-be-opts{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px}
+.sf-be-opt-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 10px;margin-bottom:4px}
+.sf-be-opt-name{font-family:Georgia,serif;font-size:12.5px;color:#4a3826}
+.sf-be-opt-run{color:#a0885f}
+.sf-be-opt-val{
+  font-family:Georgia,serif;font-size:12px;color:#7a5c3a;white-space:nowrap;
+  margin-left:auto;font-variant-numeric:tabular-nums;
+}
+.sf-be-opt--no .sf-be-opt-val{color:#8a6f4a;font-style:italic}
+.sf-be-track{display:block;width:100%;height:14px}
+.sf-be-bed{fill:#ece2cc}
+.sf-be-fill{fill:#c47a35}
+.sf-be-fill--over{fill:url(#sfBeHatch)}
+.sf-be-edge{stroke:#7a5c3a;stroke-width:1.4}
+@media (max-width:560px){
+  .sf-be-opt-name{font-size:11.5px}
+  .sf-be-opt-val{font-size:11px}
+}
+.sf-be-cap{font-family:Georgia,serif;font-size:11.5px;color:#8a6f4a;font-style:italic;line-height:1.55;margin-top:12px}
 .sf-be-rows{display:flex;flex-direction:column;gap:11px}
 .sf-be-row{padding:10px 13px;background:#fffaf0;border-left:3px solid #d8c79a;border-radius:0 7px 7px 0}
 .sf-be-row-head{font-family:Georgia,serif;font-size:13.5px;font-weight:bold;color:#7a5030}
@@ -617,7 +699,9 @@ tabs = ''.join(
     f'<button class="sf-tab{" sf-tab--active" if x == "Strategy" else ""}" type="button" tabindex="-1">{x}</button>'
     for x in TABS)
 
-HTML = f'''<title>Saffron Strategy Draft</title>
+HTML = f'''<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Saffron Strategy Draft</title>
 {CSS}
 <div class="rv-bar"><div class="rv-bar-in">
   <span class="rv-tag">Local &middot; not deployed</span>

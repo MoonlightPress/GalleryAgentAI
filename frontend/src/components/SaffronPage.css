@@ -2789,21 +2789,54 @@ a.sf-readiness-col-name:hover { color: #c47a35; text-decoration: underline; }
   width: 5px; height: 5px; border-radius: 50%; background: #c9a86a;
 }
 
-/* One hue on the chart, because this is a single measure (copies to break even)
-   rather than several identities. Feasibility rides on geometry plus a written
-   label, never on colour, so it holds up under any colour vision and in
-   greyscale. */
+/* One hue, one measure: the share of a print run that has to sell before the
+   money comes back. Every bar's full length is that option's own run, so the
+   bars are directly comparable and the run's edge is the same x on every row.
+   Feasibility rides on the grouping, the sentence, the spill past that edge and
+   a hatch — never on colour — so it holds under any colour vision and in
+   greyscale. All the type is HTML at a real size; only the bar is SVG. */
 .sf-be-fig { margin: 4px 0 18px; }
-.sf-be-svg { width: 100%; height: auto; display: block; }
-.sf-be-label {
-  font-family: Georgia, serif; font-size: 7px; fill: #6a5436;
+.sf-be-defs { position: absolute; width: 0; height: 0; overflow: hidden; }
+.sf-be-lead {
+  font-family: Georgia, serif; font-size: 13.5px; line-height: 1.62;
+  color: #3d2b1a; margin: 0 0 15px;
 }
-.sf-be-val {
-  font-family: Georgia, serif; font-size: 7px; fill: #7a5c3a; font-style: italic;
+.sf-be-grp { max-width: 460px; margin-bottom: 17px; }
+.sf-be-grp:last-of-type { margin-bottom: 0; }
+.sf-be-grp-head {
+  font-family: Georgia, serif; font-size: 10.5px; letter-spacing: .1em;
+  text-transform: uppercase; color: #8a6f4a;
+  padding-bottom: 4px; border-bottom: 1px solid #e2d6b8; margin-bottom: 10px;
+}
+.sf-be-opts {
+  list-style: none; margin: 0; padding: 0;
+  display: flex; flex-direction: column; gap: 12px;
+}
+.sf-be-opt-head {
+  display: flex; flex-wrap: wrap; align-items: baseline;
+  gap: 2px 10px; margin-bottom: 4px;
+}
+.sf-be-opt-name { font-family: Georgia, serif; font-size: 12.5px; color: #4a3826; }
+.sf-be-opt-run { color: #a0885f; }
+.sf-be-opt-val {
+  font-family: Georgia, serif; font-size: 12px; color: #7a5c3a;
+  white-space: nowrap; margin-left: auto; font-variant-numeric: tabular-nums;
+}
+.sf-be-opt--no .sf-be-opt-val { color: #8a6f4a; font-style: italic; }
+.sf-be-track { display: block; width: 100%; height: 14px; }
+.sf-be-bed { fill: #ece2cc; }
+.sf-be-fill { fill: #c47a35; }
+/* must follow .sf-be-fill: a CSS fill beats the presentation attribute, so the
+   hatch has to be declared here or it is silently ignored */
+.sf-be-fill--over { fill: url(#sfBeHatch); }
+.sf-be-edge { stroke: #7a5c3a; stroke-width: 1.4; }
+@media (max-width: 560px) {
+  .sf-be-opt-name { font-size: 11.5px; }
+  .sf-be-opt-val { font-size: 11px; }
 }
 .sf-be-cap {
   font-family: Georgia, serif; font-size: 11.5px; color: #8a6f4a;
-  font-style: italic; margin-top: 6px;
+  font-style: italic; line-height: 1.55; margin-top: 12px;
 }
 
 .sf-be-rows { display: flex; flex-direction: column; gap: 11px; }
@@ -2832,10 +2865,6 @@ a.sf-readiness-col-name:hover { color: #c47a35; text-decoration: underline; }
 .sf-be-caveat {
   font-family: Georgia, serif; font-size: 12px; line-height: 1.6;
   color: #7a5c3a; font-style: italic; margin: 12px 0 0;
-}
-.sf-be-val--in { fill: #6b4420; }
-.sf-be-tick {
-  font-family: Georgia, serif; font-size: 6.5px; fill: #8a6f4a; font-style: italic;
 }
 
 /* ── The first letter ────────────────────────────────────────────────────────
