@@ -42,6 +42,13 @@ def blocks(bs, out):
             for r in b['rows']:
                 out.append('| ' + ' | '.join(zh(c) for c in r['cells']) + ' |')
             out.append('')
+        elif k == 'component':
+            # A disclosure whose body React builds. Dropping it silently printed
+            # a heading with nothing under it, and the first cold reader
+            # reasonably reported the file as truncated. Say what is behind the
+            # lid instead.
+            out.append(f'（这一节后面是一块可以展开的内容：{zh(b["label"])}。'
+                       f'本次导出未包含，因为它由页面另行绘制。）\n')
         elif k == 'letter':
             out.append('（此处是一封日文邮件范本，不在本次审阅范围内。）\n')
 

@@ -23,9 +23,18 @@ stable, and renaming them would buy nothing.
 
 Five rules, each learned the hard way:
 
-1. **No prescribed destination.** She is self-taught, independent, and runs
-   everything herself; a system that tells such a person what to want reads as
-   presumptuous however good the research is. Show the range; the choice is hers.
+1. **No prescribed destination.** She trained in illustration and design at a
+   specialist university, and she runs every part of this herself; a system that
+   tells such a person what to want reads as presumptuous however good the
+   research is. Show the range; the choice is hers.
+
+   This rule said "self-taught" until 2026-09-07, which is wrong and was load
+   bearing: `artist_master_profile` records illustration and design at Beijing
+   Fashion Institute, and notes the distinction that actually matters — a
+   specialist design school rather than a fine-arts academy, so her formation is
+   illustrator-community rooted rather than gallery-track. A reviewer briefed
+   off this docstring duly "corrected" a true sentence in the copy. Say what she
+   is, not what she is not.
 2. **Types of things to pursue, not credentials to acquire.** "A museum solo and
    critical press are required" is a wall. "This one is built out of art book
    fairs and consignment" is something to start on Tuesday.
