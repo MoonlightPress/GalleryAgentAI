@@ -166,7 +166,24 @@ A 50% gallery commission can look large in isolation. Against a ¥374,000 fee pl
 
 Choose a small number of galleries where the work genuinely fits the programme. Visit first. Then send five paintings from one coherent series and ask whether they would be interested in seeing the work in person.
 
-### The immediate target found in Tokyo
+### Open now, and closing on 8 October
+
+FACE 2027 takes submissions from 7 September to 8 October, and shows the selected work at SOMPO Museum in Nishi-Shinjuku next March. Watercolour is named in the accepted media, alongside oil, acrylic, mineral pigment, printmaking, dyeing and photography. There is no nationality clause and no residency clause — the only practical requirement is getting the work there, by courier in late October or by hand on the 7th or 8th of November. Entry is ¥7,000. Works can be up to 200 × 170cm and there is no minimum size, so a small painting is eligible. Alongside the main prizes there is a U30 Frontier Award of ¥300,000 for anyone born on or after 1 April 1997.
+
+- [FACE 2027 — the call, the delivery dates and the entry form](https://www.sompo-museum.org/news/2026/face2027/)
+
+### Three rooms in Tokyo that take the work as it is
+
+HAGI ART in Yanaka writes its remit as young artists' solo and group shows, art-book markets, and exhibitions about architecture, culture and daily life — and charges no venue fee at all, running the programme on the café below it. It selects on a written concept, so it takes a proposal by email rather than a booking.
+
+Gallery KAZE in Kichijoji is ¥110,000 for six days with no commission on sales, in 40m² with twenty metres of wall. It has a watercolour solo booked this October — 青山一樹, 「水彩でえがく情景」 — and its 2027 calendar is still mostly open. Four originals at your prices cover the room.
+
+Moon Gallery you already know: ¥100,000 for five days, no commission, and nobody has to sit the room.
+
+- [HAGI ART, Yanaka — no venue fee; proposals go to info@hagiso.com as two A4 PDFs, a portfolio and a concept written for the space](https://hagiso.com/hagiart-concept/)
+- [Gallery KAZE, Kichijoji — ¥110,000 for six days, no sales commission, equipment included](https://gallery-kaze.jp/exhibition/)
+
+### And the open call that comes round again
 
 - [biscuit gallery — its grid next open call has run every year since 2024. No application fee and no display fee, open to students and to artists under about forty who have not shown there before. The 2026 round took applications from late December to 30 April for an August show, so the next window opens around December.](https://biscuitgallery.com/gridnext-2026/)
 

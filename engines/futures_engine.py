@@ -419,8 +419,69 @@ _GALLERIES = [
     # the six-Chinese-artists claim is exactly right, and the roster also holds
     # Xu Bing, which puts it in tier 4 — CLAUDE.md is explicit that tier 4 never
     # appears as something to act on now.
-    {"kind": "links", "label": _t("The immediate target found in Tokyo",
-                                  "在东京找到的、可以马上去的一家"),
+    # Researched and verified 2026-09-07 against each venue's own page. The
+    # route had exactly one door before this, and its window was shut until
+    # December. FACE is first because it is open today and closes on the 8th.
+    {"kind": "prose", "label": _t("Open now, and closing on 8 October",
+                                  "现在开放，10 月 8 日截止"),
+     "text": _t(
+        "FACE 2027 takes submissions from 7 September to 8 October, and shows the selected work "
+        "at SOMPO Museum in Nishi-Shinjuku next March. Watercolour is named in the accepted "
+        "media, alongside oil, acrylic, mineral pigment, printmaking, dyeing and photography. "
+        "There is no nationality clause and no residency clause — the only practical requirement "
+        "is getting the work there, by courier in late October or by hand on the 7th or 8th of "
+        "November. Entry is ¥7,000. Works can be up to 200 × 170cm and there is no minimum size, "
+        "so a small painting is eligible. Alongside the main prizes there is a U30 Frontier Award "
+        "of ¥300,000 for anyone born on or after 1 April 1997.",
+
+        "FACE 2027 的收件期是 9 月 7 日到 10 月 8 日，入选作品明年三月在西新宿的 SOMPO 美术馆展出。"
+        "接受的媒介里明确写着水彩，和油画、丙烯、岩彩、版画、染色、摄影并列。"
+        "没有国籍限制，也没有居住地限制——实际上要过的只有一关：把作品送到，"
+        "十月下旬用快递，或者十一月七、八号本人送去。报名费 7,000 日元。"
+        "尺寸上限 200 × 170 厘米，没有下限，所以小幅作品也可以投。"
+        "除了主要奖项，还有一个 30 万日元的 U30 Frontier 奖，面向 1997 年 4 月 1 日之后出生的人。")},
+
+    {"kind": "links",
+     "items": [
+        {"name": _t("FACE 2027 — the call, the delivery dates and the entry form",
+                    "FACE 2027——征集要项、送件日期与报名表"),
+         "url": "https://www.sompo-museum.org/news/2026/face2027/"},
+     ]},
+
+    {"kind": "prose", "label": _t("Three rooms in Tokyo that take the work as it is",
+                                  "东京有三个空间，接受这样的作品"),
+     "text": _t(
+        "HAGI ART in Yanaka writes its remit as young artists' solo and group shows, art-book "
+        "markets, and exhibitions about architecture, culture and daily life — and charges no "
+        "venue fee at all, running the programme on the café below it. It selects on a written "
+        "concept, so it takes a proposal by email rather than a booking.\n\n"
+        "Gallery KAZE in Kichijoji is ¥110,000 for six days with no commission on sales, in 40m² "
+        "with twenty metres of wall. It has a watercolour solo booked this October — 青山一樹, "
+        "「水彩でえがく情景」 — and its 2027 calendar is still mostly open. Four originals at your "
+        "prices cover the room.\n\n"
+        "Moon Gallery you already know: ¥100,000 for five days, no commission, and nobody has to "
+        "sit the room.",
+
+        "谷中的 HAGI ART 把自己的方向写得很清楚：年轻作者的个展与联展、艺术书市集，"
+        "以及关于建筑、文化与日常生活的展览——而且完全不收场地费，"
+        "整个项目靠楼下的咖啡店养着。它按企划书选人，所以要发邮件提方案，不是订档期。\n\n"
+        "吉祥寺的 Gallery KAZE，六天 11 万日元，销售不抽成，40 平方米、20 米挂画墙。"
+        "今年十月那里有一场水彩个展——青山一树，《水彩でえがく情景》——2027 年的档期大半还空着。"
+        "按你的价格，卖出四张原作就能覆盖场地。\n\n"
+        "Moon Gallery 你已经熟悉了：五天 10 万日元，不抽成，也不需要人守场。")},
+
+    {"kind": "links",
+     "items": [
+        {"name": _t("HAGI ART, Yanaka — no venue fee; proposals go to info@hagiso.com as two A4 PDFs, a portfolio and a concept written for the space",
+                    "HAGI ART，谷中——不收场地费；企划寄到 info@hagiso.com，两份 A4 PDF：作品集，以及一份专为这个空间写的展览构想"),
+         "url": "https://hagiso.com/hagiart-concept/"},
+        {"name": _t("Gallery KAZE, Kichijoji — ¥110,000 for six days, no sales commission, equipment included",
+                    "Gallery KAZE，吉祥寺——六天 11 万日元，销售不抽成，设备可借"),
+         "url": "https://gallery-kaze.jp/exhibition/"},
+     ]},
+
+    {"kind": "links", "label": _t("And the open call that comes round again",
+                                  "以及每年都会再来一次的公开征集"),
      "items": [
         {"name": _t("biscuit gallery — its grid next open call has run every year since 2024. No application fee and no display fee, open to students and to artists under about forty who have not shown there before. The 2026 round took applications from late December to 30 April for an August show, so the next window opens around December.",
                     "biscuit gallery——它的 grid next 公开征集从 2024 年起每年都办。不收报名费，也不收展位费，面向学生以及大约四十岁以下、此前没有在那里展过的作者。2026 那一轮的申请是十二月底到四月三十日，展览在八月，所以下一个窗口大约在十二月打开。"),
