@@ -83,11 +83,11 @@ It also starts from something the others have to build first. The audience is al
 
 All of it stays yours: the listing, the photography, the packing, the postage, the customer emails, and the stock in the room. Volume comes from your own audience and from nowhere else, so a quiet month is quiet everywhere at once. A print run buys the better margin by taking on the risk — the copies that do not sell were paid for in advance.
 
-### Fill the gap between ¥2,200 and ¥31,900
+### The gap between ¥2,200 and ¥31,900
 
 You already sell successfully at both ends: postcards, zines and prints at ¥1,100–2,200, then originals beginning at ¥31,900. The missing part is the middle. Someone who has bought a zine and a print has no way to spend ¥5,000, ¥10,000 or ¥20,000 with you. The next purchase available is an original. The easiest test is to add that middle without buying inventory first.
 
-### Start with three products
+### Three products to start with
 
 |   | Sells for | You keep | Margin |
 |---|---|---|---|
@@ -144,7 +144,7 @@ And standing on this route carries into the other four: an exhibition record is 
 
 Roughly half of each sale, and a say in what shows and when. Representation is also slow to start: the route in is attendance, then a letter, then months. And a gallery's attention follows its own programme, so a quiet year on their side is a quiet year on yours.
 
-### Find a gallery that carries the exhibition risk
+### A gallery that carries the exhibition risk
 
 You already know how to organise a solo show. You have done it three times. The next useful gallery relationship is one that contributes something you currently supply yourself: the room, staffing, collectors, sales work and financial risk. The economics are unusually clear.
 
@@ -154,13 +154,11 @@ You already know how to organise a solo show. You have done it three times. The 
 | Moon Gallery rental | ¥100,000 / 5 days | 0% | about one painting |
 | Galerie LE MONDE, 12-day solo | ¥374,000 / 12 days | 30% | about six paintings |
 
-A 50% gallery commission can look large in isolation. Against a ¥374,000 fee plus 30%, representation is cheaper until that exhibition reaches about ¥1.87 million in sales. That comparison covers the money and misses what the fee bought at LE MONDE. The gallery chooses who shows: the director picks illustrators from the work itself and from recommendations by illustrators already showing there, and says he is looking at whether somebody connects to a particular kind of commercial job. The dates came with being chosen. The more important difference is who brings the buyers. So far, people buying your work have largely found you. Representation adds a collector base belonging to somebody else.
+What a fee at LE MONDE bought was the selection. That gallery chooses who shows: the director picks illustrators from the work itself and from recommendations by illustrators already showing there, and says he is looking at whether somebody connects to a particular kind of commercial job. The dates came with being chosen.
 
-### The same address, three businesses
+Against that, the arithmetic of representation. A 50% commission can look large in isolation; against a ¥374,000 fee plus 30%, representation is cheaper until an exhibition reaches about ¥1.87 million in sales.
 
-- [Agence LE MONDE — the illustration agency the gallery's director also runs. Roster of about ten; clients include McDonald's, Asahi, Mizuho, ANNA SUI, GUCCI, Quarto and Pokémon. Every illustrator on it showed at the gallery first. The site says it is not recruiting at the moment.](https://www.agencelemonde.com/)
-- [Studio LE MONDE — risograph studio in the same building, open since September 2023. Tuesday to Sunday, 12:00–19:00, printing booked as a session with staff. contact@studiolemonde.com](https://www.studiolemonde.com/)
-- [Galerie LE MONDE — exhibition enquiries go by email, then a usage form. Six days ¥198,000, twelve days ¥374,000. hello@galerielemonde.com](https://www.galerielemonde.com/about)
+The more important difference is who brings the buyers. So far, people buying your work have found you. Representation adds a collector base belonging to somebody else.
 
 ### The next move
 
@@ -227,14 +225,7 @@ GEGYjiji
 @gegyjiji
 ```
 
-### Six things that are true in Tokyo specifically
-
-- One link — Instagram, or a single web album. Attachments from an unknown sender routinely go unopened.
-- Five images from one series, rather than a selection across the practice. The judgement being made is whether the work holds a wall, not how many kinds of thing it can be.
-- The sentence naming which of their shows was attended is the one part of the letter that cannot be fabricated, and the part that gets read twice.
-- The first letter asks for a viewing, not a show. A request for a show is a proposal, and a proposal is something that can be declined.
-- Silence at ten days indicates the letter was not seen rather than refused. A second letter three months later, at the next opening, comes from someone who has by then been twice.
-- Sizes and prices are left out until they are asked for. Included unprompted, the letter becomes a quote sheet.
+Silence at ten days indicates the letter was not seen rather than refused. A second letter three months later, at the next opening, comes from someone who has by then been twice.
 
 ## Licensing
 
@@ -256,7 +247,7 @@ It is also the route least affected by where you live or what your visa says, si
 
 The money arrives on somebody else's schedule and in somebody else's volumes. The one illustrator publishing her actual income split has a twenty-year licensing practice with M&S, John Lewis and Unilever, and licensing is 3% of what she earns. The terms are where the value sits, and an unlimited buyout signed across a body of work removes the ability to license it again — the one mistake on this route that costs years rather than yen.
 
-### Let the archive earn again
+### The archive, earning a second time
 
 Licensing has one unusual advantage for you: the inventory already exists. Six years of daily painting is thousands of images that can potentially produce income while the originals remain yours. The value depends primarily on where and how an image is used:
 
@@ -269,7 +260,7 @@ Licensing has one unusual advantage for you: the inventory already exists. Six y
 
 That makes the licence terms as important as the fee: format, territory, duration, exclusivity and reuse. Copyright transfer is priced at roughly two to three times a normal licence in the published Japanese rate card. Keep that distinction explicit whenever a buyer asks for permanent rights.
 
-### Make a small cover-ready series
+### A small cover-ready series
 
 Your subject matter already fits the book market: architecture, atmosphere, interiors, weather, light and quiet urban scenes. The compositional requirement is the part worth designing for. Covers need room for typography and cropping. Paint a small group vertically, with intentional quiet areas — sky, fog, water, wall, shadow or an open upper third. That gives art directors images they can actually build a cover around while keeping the work recognisably yours. Five to ten paintings would be enough to create the beginning of a licensing portfolio. Then place them where art directors already look:
 
@@ -298,7 +289,7 @@ This is the only route whose price is knowable before anything starts; every oth
 
 With a publisher, the variable is their consent, and it moves on a timescale nobody controls — a proposal can sit for months and come back as nothing. Their share of each copy is the other half of that trade, and the economics below put a number on it. Self-publishing removes the waiting by asking for the money up front, and leaves a room full of copies until they move.
 
-### Pitch a book that still needs to be made
+### A book that still needs to be made
 
 The strongest publishing opportunity is a book concept with enough identity that a publisher can imagine selling it. Your existing paintings establish that you can execute it. The proposal establishes what the book is. That distinction matters because the publishers checked ask for projects and proposals. In the comparable Tokyo architecture title, forty of the fifty paintings were made after the deal was agreed. A strong proposal therefore needs:
 
@@ -351,7 +342,7 @@ It is the only one of the five with a predictable monthly number, and it is the 
 
 The subject, the schedule and the finished image stop being entirely yours. A ¥70,000 cover is close to what one of your own originals earns with no brief attached to it. And rates vary enormously between clients, which is the mechanism by which the portfolio you show decides which clients arrive.
 
-### Price the painting and the usage separately
+### The painting and the usage, priced separately
 
 A commission asks you to give up something your originals preserve: complete control over the subject, schedule and finished image. So the fee has to compensate for that, or the commission has to create value somewhere else. The national rate card gives a useful floor:
 
@@ -364,7 +355,7 @@ A commission asks you to give up something your originals preserve: complete con
 
 Architecture and atmosphere are in specific demand for covers: literary fiction leans heavily on exactly this kind of image. Hand-painted watercolour sits in the second-highest of the five medium categories in that rate card. A ¥70,000 cover is therefore close to the price of one of your existing originals. The commercial job becomes more attractive when the licence expands, the image is reused, or the publication brings the work to the next client. Secondary use can pay 70%, 50%, 50% and 20% of the original fee as the same image is reused. That is the part worth protecting.
 
-### Build the terms before the enquiry arrives
+### The terms, ready before the enquiry
 
 For every commercial commission, quote these separately:
 
@@ -376,13 +367,7 @@ For every commercial commission, quote these separately:
 
 **Copyright transfer** — A separate, substantially higher price when the client wants permanent ownership of the rights.
 
-That turns an ambiguous “How much for a painting?” into something you can price consistently. Platform terms matter as well:
-
-| Platform | Copyright |
-|---|---|
-| Skeb | Transfer prohibited; artist retains it |
-| ココナラ | Artist retains copyright while granting broad usage rights |
-| SKIMA opt販売 | Copyright assigned by default, including overseas rights |
+That turns an ambiguous “How much for a painting?” into something you can price consistently.
 
 ### Two useful doors now
 
@@ -393,15 +378,16 @@ Both are inexpensive ways to place the work in front of people who commission il
 
 ## What to do first
 
-These routes do not require a career change. Each can be tested with one small piece of work.
+One of these has a date on it. The rest keep, and they are not the same size — two are an afternoon, three are a piece of work.
 
-- **Direct** — list an A2 poster, A1 poster and framed A4 print on demand.
-- **Gallery** — choose one gallery exhibition to attend and prepare a five-image series link.
-- **Licensing** — make the first five vertical, cover-ready paintings.
-- **Publishing** — turn one existing body of work into a one-page book concept.
-- **Commissions** — write a reusable fee-and-licence template before the next enquiry arrives.
+- **Before 8 October** — FACE 2027 — ¥7,000, watercolour named in the accepted media, no minimum size.
+- **Selling Direct** — An afternoon: list an A2 poster, an A1 poster and a framed A4 print on demand.
+- **Galleries** — An afternoon: pick one show to go and see, and get a five-image series link ready.
+- **Licensing** — A piece of work: the first five vertical, cover-ready paintings.
+- **Publishing** — A piece of work: one existing body of work written up as a one-page book idea.
+- **Commissions** — A piece of work: a reusable fee-and-licence template, written before the next enquiry.
 
-That gives you five experiments. Their results will tell you much more than choosing one of the five in advance.
+Five experiments. What they tell you will be worth more than picking one of the five from here.
 
 ---
 

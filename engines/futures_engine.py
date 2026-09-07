@@ -193,8 +193,8 @@ _FRAME = _t(
 
 
 _SELLING_DIRECT = [
-    {"kind": "prose", "label": _t("Fill the gap between ¥2,200 and ¥31,900",
-                                  "把 2,200 到 31,900 日元之间的空档补上"),
+    {"kind": "prose", "label": _t("The gap between ¥2,200 and ¥31,900",
+                                  "2,200 到 31,900 日元之间的空档"),
      "text": _t(
         "You already sell successfully at both ends: postcards, zines and prints at ¥1,100–2,200, "
         "then originals beginning at ¥31,900. "
@@ -209,7 +209,7 @@ _SELLING_DIRECT = [
         "再往上就直接是原作了。"
         "最省事的办法，是先把中间那段补上，而且不用先囤货。")},
 
-    {"kind": "table", "label": _t("Start with three products", "先从三样东西开始"),
+    {"kind": "table", "label": _t("Three products to start with", "可以先做的三样东西"),
      "headers": [_t("", ""), _t("Sells for", "售价"), _t("You keep", "你拿到"), _t("Margin", "毛利率")],
      "rows": [
         {"cells": [_t("A2 poster", "A2 海报"), _t("¥3,000", "3,000 日元"),
@@ -336,8 +336,8 @@ _SELLING_DIRECT = [
 
 
 _GALLERIES = [
-    {"kind": "prose", "label": _t("Find a gallery that carries the exhibition risk",
-                                  "找一家愿意承担办展风险的画廊"),
+    {"kind": "prose", "label": _t("A gallery that carries the exhibition risk",
+                                  "愿意承担办展风险的画廊"),
      "text": _t(
         "You already know how to organise a solo show. You have done it three times. "
         "The next useful gallery relationship is one that contributes something you currently "
@@ -367,55 +367,24 @@ _GALLERIES = [
                    _t("about six paintings", "约六张画")]},
      ]},
 
-    {"kind": "prose", "text": _t(
-        "A 50% gallery commission can look large in isolation. Against a ¥374,000 fee plus 30%, "
-        "representation is cheaper until that exhibition reaches about ¥1.87 million in sales. "
-        "That comparison covers the money and misses what the fee bought at LE MONDE. The gallery "
-        "chooses who shows: the director picks illustrators from the work itself and from "
-        "recommendations by illustrators already showing there, and says he is looking at whether "
-        "somebody connects to a particular kind of commercial job. The dates came with being "
-        "chosen. "
-        "The more important difference is who brings the buyers. "
-        "So far, people buying your work have largely found you. Representation adds a collector "
-        "base belonging to somebody else.",
+       {"kind": "prose", "text": _t(
+        "What a fee at LE MONDE bought was the selection. That gallery chooses who shows: the "
+        "director picks illustrators from the work itself and from recommendations by "
+        "illustrators already showing there, and says he is looking at whether somebody connects "
+        "to a particular kind of commercial job. The dates came with being chosen.\n\n"
+        "Against that, the arithmetic of representation. A 50% commission can look large in "
+        "isolation; against a ¥374,000 fee plus 30%, representation is cheaper until an "
+        "exhibition reaches about ¥1.87 million in sales.\n\n"
+        "The more important difference is who brings the buyers. So far, people buying your work "
+        "have found you. Representation adds a collector base belonging to somebody else.",
 
-        "单看 50% 的抽成会觉得高。拿 374,000 日元的场地费再加 30% 抽成来比，"
-        "只要那场展卖不到约 187 万日元，代理都更划算。"
-        "这个比法算清了钱，却漏掉了在 LE MONDE 那笔费用换到的东西。那家画廊挑人："
-        "主理人从作品本身、以及已经在那里办展的插画家的推荐里选人，"
-        "并且说他看的是这个人能接上哪一类商业工作。档期是选上了才给的。"
-        "更要紧的分别在于：买家是谁带来的。"
-        "到现在为止，买你画的人基本上是自己找上门的。代理带来的，"
-        "是一份原本属于别人的藏家名单。")},
-
-    # The find of 2026-09-07. Same director, same address, two more businesses,
-    # and she has already been through the gallery door. The agency line says
-    # "not recruiting" because the site says so — a route stated as open when it
-    # is closed is the failure this file keeps catching.
-    #
-    # This block was cut once, same day, on the reasoning that she showed there
-    # in August and knows all of it. Scott put it back: "bragging about how
-    # important that gallery is will make her feel great. she should see what a
-    # great thing she just did." Do not cut it again.
-    #
-    # The line that separates this from the padding rule two rules up: these are
-    # facts about LE MONDE, not assessments of her. Naming the roster and the
-    # clients says what the institution is and lets her weigh what showing there
-    # was worth. "You did well to show there" would be the version that breaks
-    # the rule, and it is not what is written here.
-    {"kind": "links", "label": _t("The same address, three businesses",
-                                  "同一个地址，三门生意"),
-     "items": [
-        {"name": _t("Agence LE MONDE — the illustration agency the gallery's director also runs. Roster of about ten; clients include McDonald's, Asahi, Mizuho, ANNA SUI, GUCCI, Quarto and Pokémon. Every illustrator on it showed at the gallery first. The site says it is not recruiting at the moment.",
-                    "Agence LE MONDE——画廊主理人同时经营的插画经纪公司。代理约十位；客户包括麦当劳、朝日啤酒、瑞穗银行、ANNA SUI、GUCCI、Quarto、宝可梦。名单上的每一位都是先在画廊办过展。网站写明目前不招募。"),
-         "url": "https://www.agencelemonde.com/"},
-        {"name": _t("Studio LE MONDE — risograph studio in the same building, open since September 2023. Tuesday to Sunday, 12:00–19:00, printing booked as a session with staff. contact@studiolemonde.com",
-                    "Studio LE MONDE——同一栋楼里的孔版印刷工作室，2023 年 9 月起。周二至周日 12:00–19:00，印刷按有工作人员在场的时段预约。contact@studiolemonde.com"),
-         "url": "https://www.studiolemonde.com/"},
-        {"name": _t("Galerie LE MONDE — exhibition enquiries go by email, then a usage form. Six days ¥198,000, twelve days ¥374,000. hello@galerielemonde.com",
-                    "Galerie LE MONDE——办展先发邮件谈，再填使用申请表。六天 198,000 日元，十二天 374,000 日元。hello@galerielemonde.com"),
-         "url": "https://www.galerielemonde.com/about"},
-     ]},
+        "在 LE MONDE，那笔钱换到的是「被选中」。那家画廊挑人：主理人从作品本身、"
+        "以及已经在那里办展的插画家的推荐里选人，并且说他看的是这个人能接上哪一类商业工作。"
+        "档期是选上了才给的。\n\n"
+        "另一边是代理的账。单看 50% 的抽成会觉得高；"
+        "拿 374,000 日元的场地费再加 30% 抽成来比，只要那场展卖不到约 187 万日元，代理都更划算。\n\n"
+        "更要紧的分别在于：买家是谁带来的。到现在为止，买你画的人是自己找到你的。"
+        "代理带来的，是一份原本属于别人的藏家名单。")},
 
     {"kind": "prose", "label": _t("The next move", "下一步"),
      "text": _t(
@@ -561,12 +530,18 @@ _GALLERIES = [
     # not been to. One copy of the letter, one place to fix it.
     {"kind": "letter", "text": _OUTREACH["letter_ja"]},
 
-    {"kind": "list", "label": _OUTREACH["rules_label"], "items": _OUTREACH["rules"]},
+    # Six conventions became one. A painter with three solo shows has written
+    # these emails; being told that attachments from strangers go unopened and
+    # that prices go in only when asked is etiquette she already practises, and
+    # a cold Chinese reader called the whole list "here is how to approach a
+    # gallery, dear". The one item she flagged as genuinely new is the reframe
+    # of silence, so that is what survives.
+    {"kind": "note", "text": _OUTREACH["rules"][4]},
 ]
 
 
 _LICENSING = [
-    {"kind": "prose", "label": _t("Let the archive earn again", "让已经画完的东西再挣一次钱"),
+    {"kind": "prose", "label": _t("The archive, earning a second time", "已经画完的东西，再挣一次钱"),
      "text": _t(
         "Licensing has one unusual advantage for you: the inventory already exists. "
         "Six years of daily painting is thousands of images that can potentially produce income "
@@ -597,7 +572,7 @@ _LICENSING = [
         "在日本公开的费率表上，著作权转让的定价大约是普通授权的两到三倍。"
         "只要对方要的是永久权利，就把这一条摆到明面上。")},
 
-    {"kind": "prose", "label": _t("Make a small cover-ready series", "画一小组能直接当封面用的"),
+    {"kind": "prose", "label": _t("A small cover-ready series", "一小组能直接当封面用的画"),
      "text": _t(
         "Your subject matter already fits the book market: architecture, atmosphere, interiors, "
         "weather, light and quiet urban scenes. "
@@ -646,8 +621,8 @@ _LICENSING = [
 
 
 _PUBLISHING = [
-    {"kind": "prose", "label": _t("Pitch a book that still needs to be made",
-                                  "提一本还没做出来的书"),
+    {"kind": "prose", "label": _t("A book that still needs to be made",
+                                  "一本还没做出来的书"),
      "text": _t(
         "The strongest publishing opportunity is a book concept with enough identity that a "
         "publisher can imagine selling it. "
@@ -745,8 +720,8 @@ _PUBLISHING = [
 
 
 _COMMISSIONS = [
-    {"kind": "prose", "label": _t("Price the painting and the usage separately",
-                                  "画和用途，分开定价"),
+    {"kind": "prose", "label": _t("The painting and the usage, priced separately",
+                                  "画和用途，分开计价"),
      "text": _t(
         "A commission asks you to give up something your originals preserve: complete control "
         "over the subject, schedule and finished image. "
@@ -787,8 +762,8 @@ _COMMISSIONS = [
         "同一张图反复被用时，二次使用可以按原稿费的 70%、50%、50%、20% 再付。"
         "要护住的正是这一部分。")},
 
-    {"kind": "prose", "label": _t("Build the terms before the enquiry arrives",
-                                  "在询问找上门之前，先把条款准备好"),
+    {"kind": "prose", "label": _t("The terms, ready before the enquiry",
+                                  "在询问到来之前就备好的条款"),
      "text": _t(
         "For every commercial commission, quote these separately:",
         "每一次商业委托，这四项分开报价：")},
@@ -808,26 +783,15 @@ _COMMISSIONS = [
                     "客户想永久拥有这些权利时，单独计价，而且高出许多。")},
      ]},
 
+    # The Skeb / ココナラ / SKIMA copyright table was cut on 2026-09-07. It argued
+    # against the page it sat on: Licensing says her subject reaches buyers
+    # character work cannot, and then this sent her to three character-commission
+    # platforms. It was also the least relevant thing in the route.
     {"kind": "prose", "text": _t(
         "That turns an ambiguous “How much for a painting?” into something you can price "
-        "consistently. "
-        "Platform terms matter as well:",
+        "consistently.",
 
-        "这样一来，“画一张多少钱”这种含糊的问题，就变成了一个你能稳定报价的问题。"
-        "平台条款同样要紧：")},
-
-    {"kind": "table",
-     "headers": [_t("Platform", "平台"), _t("Copyright", "版权")],
-     "rows": [
-        {"cells": [_t("Skeb", "Skeb"), _t("Transfer prohibited; artist retains it",
-                                          "禁止转让；版权留在作者手里")]},
-        {"cells": [_t("ココナラ", "ココナラ"),
-                   _t("Artist retains copyright while granting broad usage rights",
-                      "版权归作者，但授予对方很宽的使用权")]},
-        {"cells": [_t("SKIMA opt販売", "SKIMA opt 販売"),
-                   _t("Copyright assigned by default, including overseas rights",
-                      "默认转让版权，包括海外权利")]},
-     ]},
+        "这样一来，“画一张多少钱”这种含糊的问题，就变成了一个你能稳定报价的问题。")},
 
     {"kind": "links", "label": _t("Two useful doors now", "现在就有两扇有用的门"),
      "items": [
@@ -851,31 +815,42 @@ _COMMISSIONS = [
 
 _FIRST_STEPS = {
     "label": _t("What to do first", "先做什么"),
+    # Three things the first cold reader was right about. FACE was buried at the
+    # 40% mark and absent from this list, and it is the ONLY dated item in the
+    # whole tab — so it goes first, with the date on it. The route names now
+    # match the five section headings exactly, because she has to map the
+    # summary back to the sections in about four seconds. And the five stopped
+    # claiming to be small when two of them were projects: five cover-ready
+    # paintings and a book proposal are not 一件很小的事, and saying so made the
+    # close read as five more things to worry about.
     "intro": _t(
-        "These routes do not require a career change. Each can be tested with one small piece of "
-        "work.",
-        "这几条路都不要求你改变职业方向。每一条都可以用一件很小的事去试。"),
+        "One of these has a date on it. The rest keep, and they are not the same size — two are "
+        "an afternoon, three are a piece of work.",
+        "其中一件有截止日期。其余的都不着急，而且它们大小不一样——两件是一个下午的事，三件是要动手做的活。"),
     "steps": [
-        {"route": _t("Direct", "直接销售"),
-         "step": _t("list an A2 poster, A1 poster and framed A4 print on demand.",
-                    "用按需印刷上架一张 A2 海报、一张 A1 海报和一张装裱的 A4 印刷。")},
-        {"route": _t("Gallery", "画廊"),
-         "step": _t("choose one gallery exhibition to attend and prepare a five-image series link.",
-                    "选一场画廊的展去看，并准备好一个五张同系列作品的链接。")},
-        {"route": _t("Licensing", "授权"),
-         "step": _t("make the first five vertical, cover-ready paintings.",
-                    "画出头五张竖构图、可以直接当封面用的画。")},
+        {"route": _t("Before 8 October", "10 月 8 日之前"),
+         "step": _t("FACE 2027 — ¥7,000, watercolour named in the accepted media, no minimum size.",
+                    "FACE 2027——7,000 日元，接受的媒介里写明水彩，尺寸没有下限。")},
+        {"route": _t("Selling Direct", "直接卖"),
+         "step": _t("An afternoon: list an A2 poster, an A1 poster and a framed A4 print on demand.",
+                    "一个下午：用按需印刷上架一张 A2 海报、一张 A1 海报和一张装裱的 A4 印刷。")},
+        {"route": _t("Galleries", "画廊"),
+         "step": _t("An afternoon: pick one show to go and see, and get a five-image series link ready.",
+                    "一个下午：挑一场展去看，把一个五张同系列作品的链接准备好。")},
+        {"route": _t("Licensing", "图像授权"),
+         "step": _t("A piece of work: the first five vertical, cover-ready paintings.",
+                    "要动手做的：头五张竖构图、可以直接当封面用的画。")},
         {"route": _t("Publishing", "出版"),
-         "step": _t("turn one existing body of work into a one-page book concept.",
-                    "把已有的一组作品，写成一页纸的书的构想。")},
+         "step": _t("A piece of work: one existing body of work written up as a one-page book idea.",
+                    "要动手做的：把已有的一组作品，写成一页纸的书的构想。")},
         {"route": _t("Commissions", "委托"),
-         "step": _t("write a reusable fee-and-licence template before the next enquiry arrives.",
-                    "在下一个询问到来之前，写好一份可以反复用的“费用＋授权”模板。")},
+         "step": _t("A piece of work: a reusable fee-and-licence template, written before the next enquiry.",
+                    "要动手做的：一份可以反复用的「费用＋授权」模板，趁还没有人来问先写好。")},
     ],
     "close": _t(
-        "That gives you five experiments. Their results will tell you much more than choosing one "
-        "of the five in advance.",
-        "这样你就有了五个实验。五个实验做下来，你知道的会比现在坐着挑一条路多得多。"),
+        "Five experiments. What they tell you will be worth more than picking one of the five "
+        "from here.",
+        "五个实验做下来，你知道的会比现在坐着挑一条路多得多。"),
 }
 
 
