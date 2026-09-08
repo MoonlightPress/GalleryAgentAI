@@ -253,9 +253,21 @@
     "xiaohongshu": {
       "platform": "小红书 / Xiaohongshu (RED)",
       "handle": null,
-      "followers": null,
-      "note": "Confirmed present by Scott 2026-09-08. Handle and follower count not yet recorded — the profile tracked Instagram only, so any surface reasoning about a Chinese-language audience was working from a blank where a real account exists.",
+      "followers": "44k",
+      "followers_approx": 44000,
+      "note": "Confirmed present by Scott 2026-09-08, follower count given by Scott the same day. Her LARGEST audience on record — 44k on Xiaohongshu against 27k on Instagram — so a Chinese-language audience is not a thing to build, it is the thing she already has most of. Handle still not recorded. The profile tracked Instagram alone until now, which is why earlier surfaces advised her to start an account she has had for years.",
       "verified": "2026-09-08 (Scott)"
+    },
+    "bilibili": {
+      "platform": "哔哩哔哩 / Bilibili",
+      "uid": 36798889,
+      "url": "https://space.bilibili.com/36798889",
+      "followers": "7.5k",
+      "followers_approx": 7514,
+      "content": "Painting-process / speed-paint videos of her watercolour work.",
+      "_source": "URL from Scott 2026-09-08; follower count read the same day from Bilibili's own public API (api.bilibili.com/x/relation/stat?vmid=36798889), so this figure is measured rather than stated.",
+      "note": "SHE ALREADY FILMS HER PROCESS — never write anything suggesting she start. This is the second platform in one day that the system had recorded as absent and that turned out to have existed for years (see xiaohongshu above). Same failure both times: treating 'not in this profile' as 'not happening'.",
+      "verified": "2026-09-08 (Bilibili public API)"
     },
     "_note": "Instagram is still the only platform referenced in OUTREACH. This list is for reasoning about audience, not for what goes in an email."
   },

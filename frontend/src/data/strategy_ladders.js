@@ -71,7 +71,7 @@ export const STATES = {
   },
   a_found: {
     label: T('An audience that found you', '一群自己找上来的读者'),
-    detail: T('About 27,000 on the daily-diary account, built without advertising. That is an audience, and it is the base the rest of this ladder multiplies.', '每日日记账号上大约 27,000 人，没有投过广告。这已经是一群受众，也是这条阶梯往上乘算的基数。'),
+    detail: T('About 27,000 on the Instagram diary and about 44,000 on Xiaohongshu, built without advertising on either. That is an audience, and it is the base the rest of this ladder multiplies.', 'Instagram 日记大约 27,000 人，小红书大约 44,000 人，两边都没有投过广告。这已经是一群受众，也是这条阶梯往上乘算的基数。'),
   },
   a_series: {
     label: T('Work that continues rather than accumulates', '会延续的作品，而不是堆积的作品'),
@@ -79,22 +79,22 @@ export const STATES = {
   },
   a_motion: {
     label: T('The work seen in motion', '被看见的作画过程'),
-    detail: T('Watercolour spreading into wet paper is one of the very few things a still image cannot show, and it is the single change on this ladder that asks for no extra painting — the camera watches work already being done.', '水彩在湿纸上化开，是静止图像几乎唯一拍不到的东西；而且这是这条阶梯上唯一不要求你多画一张的改变——镜头拍的，是本来就在做的事。'),
+    detail: T('Already yours: you film the painting and the recordings go up on Bilibili, where about 7,500 people follow you for them. Watercolour spreading into wet paper is one of the very few things a still image cannot show, and you are the only person who can film yours.', '这一级你已经做到了：你会拍作画过程，成片发在 B 站，那边大约有 7,500 人是为此关注你的。水彩在湿纸上化开，是静止图像几乎唯一拍不到的东西——而你的过程，只有你拍得出来。'),
     treatment: {
-      open: T('Why this one matters more than the rest', '为什么这一级比其它几级都重要'),
+      open: T('What having this already is worth', '已经有了这一级，意味着什么'),
       hide: T('Close', '收起'),
       blocks: [
         { label: T('What it changes', '它改变了什么'),
           text: T('A finished painting competes with every other finished painting. A painting being made competes with almost nothing, because the moment pigment hits wet paper cannot be screenshotted, described, or reproduced by anyone else. It is the one thing in your practice that is structurally yours.', '一张画完的画，要和所有画完的画竞争。一张正在被画的画几乎没有对手——颜料落在湿纸上的那一瞬间，没法截图、没法转述，也没有别人能复制。这是你的实践里，结构上唯一属于你自己的东西。'),
         },
-        { label: T('Why it costs nothing', '为什么它没有额外成本'),
-          text: T('Every other state on this ladder asks for something new — a series to invent, a platform to learn, a person to write to. This one asks for a phone on a stand pointing at a desk you are already sitting at, for work you are already doing daily. The material is a by-product.', '这条阶梯上其它每一级都要求一件新的事——想一个系列、学一个平台、给一个人写信。这一级只要求一部架好的手机，对着你本来就坐着的桌子，拍你本来每天都在做的事。素材是副产品。'),
+        { label: T('What it already cost you', '你已经付出的成本'),
+          text: T('Nothing extra, which is the point. Every other state on this ladder asks for something new — a series to invent, a platform to learn, a person to write to. This one is a by-product of a desk you already sit at daily, and you have been generating it for a while.', '没有额外成本，而这正是关键。这条阶梯上其它每一级都要求一件新的事——想一个系列、学一个平台、给一个人写信。这一级只是你每天都要坐的那张桌子的副产品，而且你已经产出了一阵子了。'),
         },
         { label: T('What is worth filming', '值得拍的是什么'),
           text: T('Not the whole painting. The moments where the medium does something a viewer cannot predict — a wash spreading into damp paper, salt or a dry brush breaking a flat area, the first dark going into a pale one, lifting colour back out with a clean brush. Architecture gives you hard edges to cut against soft ones, which is the contrast that holds attention.', '不是整张画。是媒介做出观众预料不到的事的那些瞬间——一片洗染在潮纸上化开、盐或干笔破开一块平涂、第一笔重色落进浅色里、用干净笔把颜色再吸出来。建筑给了你硬边，去和软边形成对比——留住注意力的正是这种反差。'),
         },
-        { label: T('Where it goes', '它发到哪里'),
-          text: T('The same file works everywhere without re-editing, which is what makes it the natural partner to a second audience elsewhere — one recording, several places, no translation, because nobody needs language to watch paint move.', '同一个文件到哪儿都能用，不用重剪——所以它天然是「在别处的第二群受众」那一级的搭档：拍一次，发几个地方，不需要翻译，因为看颜料流动不需要语言。'),
+        { label: T('Where else the same file goes', '同一个文件还能去哪里'),
+          text: T('Bilibili has them. The same file needs no re-editing and no translation to sit on the Instagram side too, because nobody needs language to watch paint move — so the one thing that already crosses both your audiences unchanged is currently only being shown to one of them.', 'B 站上已经有了。同一个文件不用重剪、也不用翻译，就能同样放在 Instagram 那边——因为看颜料流动不需要语言。也就是说，唯一一样在你两群读者之间原样成立的东西，眼下只给其中一边看。'),
         },
         { label: T('Where this sits', '它在什么位置'),
           text: T('It is not only an audience state. A named series becomes far easier to sustain when each entry has a second life as a recording, and a brand deciding whether to license a look is reassured by seeing it made by hand.', '它不只属于受众这一条。当每一张画都还有「一段录像」这第二次生命时，一个有名字的系列会容易维持得多；而正在考虑授权的品牌，看到这种面貌是手工做出来的，会更放心。'),
@@ -109,8 +109,8 @@ export const STATES = {
   a_second: {
     label: T('An audience in Chinese as well as on Instagram',
              '中文世界里也有读者，不只是 Instagram'),
-    detail: T('You already hold both: about 27,000 on the Instagram diary, and a Xiaohongshu account the system did not know about until someone said so. Two audiences, in two languages, for one body of work.',
-              '这两边你都已经有了：Instagram 上的日记大约 27,000 人，以及一个小红书账号——在有人说起之前，系统并不知道它存在。两种语言，两群读者，同一批画。'),
+    detail: T('You already hold both, and the Chinese side is the bigger one: about 44,000 on Xiaohongshu against about 27,000 on the Instagram diary. Two audiences, in two languages, for one body of work.',
+              '这两边你都已经有了，而且中文这边更大：小红书大约 44,000 人，Instagram 上的日记大约 27,000 人。两种语言，两群读者，同一批画。'),
     treatment: {
       open: T('What having both is worth', '同时有这两边，意味着什么'),
       hide: T('Close', '收起'),
@@ -124,19 +124,23 @@ export const STATES = {
                   '他们用不同的货币买东西、被不同的算法找到，而且不会因为某一个平台改了推荐方式就一起消失。为一个市场定价印出来的东西，不用再做新的，就能卖进另一个。'),
         },
         { label: T('Where the video fits', '影片放在这里的位置'),
-          text: T('Once painting is being filmed, the same file plays on Bilibili and in short-video feeds without re-editing — and watching paint move needs no language at all. That is the one thing that travels across both audiences unchanged.',
-                  '一旦开始拍作画的过程，同一个文件不用重剪就能发到 B 站和短影片流里——而看颜料流动完全不需要语言。这是唯一一样东西，在两边都原样成立。'),
+          text: T('You already film the painting, and about 7,500 people follow those recordings on Bilibili. The same file needs no re-editing and no translation to play on the English side too — watching paint move needs no language at all, so it is the one thing that travels across every audience unchanged.',
+                  '你已经在拍作画过程了，B 站上大约有 7,500 人是为这些影片关注你的。同一个文件不用重剪、也不用翻译，就能同样发到英文那边——看颜料流动完全不需要语言，所以它是唯一一样在所有受众之间都原样成立的东西。'),
+        },
+        { label: T('Which one is actually bigger', '究竟哪一边更大'),
+          text: T('Xiaohongshu, by a wide margin — about 44,000 there against about 27,000 on Instagram. Worth knowing because every outreach email this system writes still names Instagram and only Instagram, which means the platform being shown to galleries is the smaller half of your reach.',
+                  '小红书，而且差得不少——那边大约 44,000 人，Instagram 大约 27,000 人。值得知道，是因为这个系统写的每一封对外邮件里，提到的平台仍然只有 Instagram；也就是说，摆到画廊面前的，是你影响力里较小的那一半。'),
         },
         { label: T('What is still not known', '还不知道的部分'),
-          text: T('How big the Chinese side is. The profile records the account with no follower count beside it, so nothing on this page can say what it is worth, or which of the two audiences is actually the larger one. Instagram is still the only platform an outreach email mentions.',
-                  '中文这边到底有多大。档案里记下了这个账号，旁边却没有粉丝数，所以这一页说不出它值多少，也说不出两边究竟哪一边更大。对外邮件里提到的平台，仍然只有 Instagram。'),
+          text: T('How much the three overlap. Counting Bilibili as well, about 78,500 follows are on record across the Chinese and English sides — but that is a ceiling on reach, not a count of people.',
+                  '三边有多少是同一批人。把 B 站也算进来，中文与英文两侧合计记录在案的关注大约 78,500——但这是触达的上限，不是真实的人数。'),
         },
       ],
     },
   },
   a_inbound: {
     label: T('An audience that arrives without being asked', '不用去找、自己会来的受众'),
-    detail: T('The state the rest of this ladder is for. At scale a print run stops being a gamble — your best route breaks even at 109 copies, which is one follower in 240 today and one in 4,600 at half a million.', '这条阶梯上其余的一切，都是为了到达这个状态。到了这个规模，印一版书不再是赌博——你最好的印制方案 109 本回本，按今天的受众是 240 人里有 1 人，到五十万时是 4,600 人里有 1 人。'),
+    detail: T('The state the rest of this ladder is for. At scale a print run stops being a gamble — your best route breaks even at 109 copies, which is one follower in 240 on the Instagram diary alone, one in 650 if both audiences are counted, and one in 4,600 at half a million.', '这条阶梯上其余的一切，都是为了到达这个状态。到了这个规模，印一版书不再是赌博——你最好的印制方案 109 本回本：只按 Instagram 日记算是 240 人里有 1 人，两边一起算是 650 人里有 1 人，到五十万时是 4,600 人里有 1 人。'),
   },
 
   // ── licensing ──────────────────────────────────────────────────────────────
@@ -239,10 +243,15 @@ export function evidence(data, careerData) {
     a_cadence: 'yes',
     a_look: yn(shows > 0),
     a_found: 'yes',
-    // The system has never looked at whether a series has a name, whether she
-    // films, or who she has worked with. None of these are absences.
+    // The system has never looked at whether a series has a name, or who she
+    // has worked with. Neither is an absence.
     a_series: 'unknown',
-    a_motion: 'unknown',
+    // Reached. She films the painting and posts it to Bilibili (Scott,
+    // 2026-09-08). Second time in one session that a state this file called
+    // unmeasured turned out to be something she had been doing for years — the
+    // first was Xiaohongshu. When a state is 'unknown', ask before writing
+    // anything that reads as "you could start".
+    a_motion: 'yes',
     a_borrowed: 'unknown',
     // Reached. She has been on Xiaohongshu all along; the profile recorded
     // Instagram alone, so this rendered as a gap and the page advised her to
