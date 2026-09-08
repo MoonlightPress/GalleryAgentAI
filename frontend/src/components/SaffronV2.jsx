@@ -24,7 +24,7 @@ import {
   saffronTx,
   RecurringDoors, GrantLandscape,
   CareerPosition, ComparableArtists, VenueTracker, PressFeatures,
-  Futures, StrategicPathway, BookEconomics, PublisherFork,
+  Futures, BookEconomics, PublisherFork,
   SectionOpenContext, SectionErrorBoundary,
 } from './SaffronPage'
 import { saffronHero, saffronHeroNight } from '../utils/heroImages'
@@ -63,7 +63,6 @@ const PULSE_COPY = {
 
 const V2_COPY = {
   en: {
-    tabs: ['Five futures', 'The year', 'Where you stand'],
     year: 'The year ahead', yearSub: 'Dated entries · dots are doors that open that month',
     keyDoor: 'a door opens', keyNone: '— nothing dated yet',
     dated: (n) => `${n} dated`, nothingDated: 'Nothing dated yet',
@@ -73,7 +72,6 @@ const V2_COPY = {
     loading: 'Saffron is looking…',
   },
   zh: {
-    tabs: ['五种将来', '这一年', '你所处的位置'],
     year: '未来一年', yearSub: '有日期的条目 · 圆点表示当月开放的门',
     keyDoor: '有门开放', keyNone: '— 暂无日期',
     dated: (n) => `${n} 条有日期`, nothingDated: '暂无有日期的条目',
@@ -83,7 +81,6 @@ const V2_COPY = {
     loading: 'Saffron 正在观察…',
   },
   ja: {
-    tabs: ['五つの未来', 'この一年', '現在地'],
     year: 'これからの一年', yearSub: '日付のある項目 · 点はその月に開く扉',
     keyDoor: '扉が開く', keyNone: '— 日付未定',
     dated: (n) => `${n} 件に日付あり`, nothingDated: '日付のある項目はまだありません',
@@ -301,7 +298,16 @@ export default function SaffronV2({ nav }) {
   if (error) return <div className="sf-error">{t('sf.error')}</div>
   if (!data) return <div className="sf-loading">{c.loading}</div>
 
-  const TABS = [['forward', c.tabs[0]], ['moving', c.tabs[1]], ['standing', c.tabs[2]]]
+  // The three surviving tabs keep the names the app already uses. Renaming them
+  // was scope creep on my part: `sf.cat.*` are established, already translated
+  // (策略 / 戦略, 日历 / カレンダー, 概况 / プロフィール), and she has read them for
+  // months. The consolidation that mattered is 5 -> 3 — People & Press folds
+  // into Profile, Money dies except Grants — not what the survivors are called.
+  const TABS = [
+    ['forward',  t('sf.cat.strategy')],
+    ['moving',   t('sf.cat.calendar')],
+    ['standing', t('sf.cat.profile')],
+  ]
   const SB = (k, node) => <SectionErrorBoundary key={`${tab}-${k}`}>{node}</SectionErrorBoundary>
 
   return (
@@ -367,6 +373,20 @@ export default function SaffronV2({ nav }) {
           </>
         )}
 
+        {/* StrategicPathway is deliberately NOT rendered here (2026-09-08, Scott).
+            Its computed goal is "Gallery representation and a sustained
+            international record" and its eight steps are the institutional
+            ladder — publication, group shows, museum shows, solo shows. Sitting
+            beside five routes it silently ranks them: one gets a destination and
+            a timeline, the other four get described. But she does not have to do
+            galleries. Selling direct, licensing, publishing and commissions are
+            destinations, not waypoints on the way to a gallery, and each route
+            already carries her real standing in it.
+
+            The component and its engine are untouched — it still renders on the
+            live Saffron page. Re-adding one line below is the whole of the undo.
+            The open question it leaves is whether the OTHER four routes deserve
+            the same "where you are on this one" ladder the gallery route got. */}
         {tab === 'forward' && (
           <SectionOpenContext.Provider value={false}>
             {SB('futures', <Futures data={data.futures} t={t} lang={lang}
@@ -374,7 +394,6 @@ export default function SaffronV2({ nav }) {
                 book_economics: <BookEconomics data={data.book_economics} lang={lang} />,
                 publisher_fork: <PublisherFork data={data.book_economics} lang={lang} />,
               }} />)}
-            {SB('pathway', <StrategicPathway data={data.pathway} t={t} />)}
           </SectionOpenContext.Provider>
         )}
       </div>
