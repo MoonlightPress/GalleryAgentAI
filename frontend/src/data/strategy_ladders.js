@@ -71,7 +71,7 @@ export const STATES = {
   },
   a_found: {
     label: T('An audience that found you', '一群自己找上来的读者'),
-    detail: T('About 27,000 on the Instagram diary and about 44,000 on Xiaohongshu, built without advertising on either. That is an audience, and it is the base the rest of this ladder multiplies.', 'Instagram 日记大约 27,000 人，小红书大约 44,000 人，两边都没有投过广告。这已经是一群受众，也是这条阶梯往上乘算的基数。'),
+    detail: T('About 89,300 on X, 44,000 on Xiaohongshu, 27,000 on the Instagram diary and 7,500 on Bilibili — roughly 168,000 follows in total, none of them advertised for. That is an audience, and it is the base the rest of this ladder multiplies.', 'X 上大约 89,300 人，小红书 44,000 人，Instagram 日记 27,000 人，B 站 7,500 人——合计大约 168,000 个关注，没有一个是买来的。这已经是一群受众，也是这条阶梯往上乘算的基数。'),
   },
   a_series: {
     label: T('Work that continues rather than accumulates', '会延续的作品，而不是堆积的作品'),
@@ -110,8 +110,8 @@ export const STATES = {
   a_weekly: {
     label: T('The painting videos reaching the audiences that never see them',
              '让作画影片抵达那些从没看过的人'),
-    detail: T('You have already done this once and it worked better than anything else on your record: six weekly flip-throughs in 2023 that reached 55,000, 49,000 and 16,000 people. None of it is on Instagram or X, where the 27,000 have never seen any of it.',
-              '这件事你已经做成过一次，而且成绩比你记录里的任何东西都好：2023 年连续六周的翻翻乐，触达了 55,000、49,000、16,000 人。这些一条都没有发到 Instagram 或 X——那边的 27,000 人从来没看过。'),
+    detail: T('You have already done this once and it worked better than anything else on your record: six weekly flip-throughs in 2023 that reached 55,000, 49,000 and 16,000 people. None of the 38 files is on X or Instagram — where 89,300 and 27,000 people have never seen any of it.',
+              '这件事你已经做成过一次，而且成绩比你记录里的任何东西都好：2023 年连续六周的翻翻乐，触达了 55,000、49,000、16,000 人。这 38 条一条都没有发到 X 或 Instagram——那边的 89,300 人和 27,000 人从来没看过。'),
     treatment: {
       open: T('What your own channel already proved', '你自己的频道已经证明了什么'),
       hide: T('Close', '收起'),
@@ -146,8 +146,8 @@ export const STATES = {
   a_second: {
     label: T('An audience in Chinese as well as on Instagram',
              '中文世界里也有读者，不只是 Instagram'),
-    detail: T('You already hold both, and the Chinese side is the bigger one: about 44,000 on Xiaohongshu against about 27,000 on the Instagram diary. Two audiences, in two languages, for one body of work.',
-              '这两边你都已经有了，而且中文这边更大：小红书大约 44,000 人，Instagram 上的日记大约 27,000 人。两种语言，两群读者，同一批画。'),
+    detail: T('You already hold both, and the Chinese side is the larger of those two: about 44,000 on Xiaohongshu against about 27,000 on the Instagram diary, plus 7,500 on Bilibili. Two languages, more than one audience, one body of work.',
+              '这两边你都已经有了，而且中文这边更大：小红书大约 44,000 人，Instagram 上的日记大约 27,000 人，再加上 B 站 7,500 人。两种语言，不止一群读者，同一批画。'),
     treatment: {
       open: T('What having both is worth', '同时有这两边，意味着什么'),
       hide: T('Close', '收起'),
@@ -161,23 +161,23 @@ export const STATES = {
                   '他们用不同的货币买东西、被不同的算法找到，而且不会因为某一个平台改了推荐方式就一起消失。为一个市场定价印出来的东西，不用再做新的，就能卖进另一个。'),
         },
         { label: T('Where the video fits', '影片放在这里的位置'),
-          text: T('You already film the painting, and about 7,500 people follow those recordings on Bilibili. The same file needs no re-editing and no translation to play on the English side too — watching paint move needs no language at all, so it is the one thing that travels across every audience unchanged.',
-                  '你已经在拍作画过程了，B 站上大约有 7,500 人是为这些影片关注你的。同一个文件不用重剪、也不用翻译，就能同样发到英文那边——看颜料流动完全不需要语言，所以它是唯一一样在所有受众之间都原样成立的东西。'),
+          text: T('You already film the painting, and about 7,500 people follow those recordings on Bilibili. The same file needs no re-editing and no translation to play on the other accounts too — watching paint move needs no language at all, so it is the one thing that travels across every audience unchanged, whatever each of them reads in.',
+                  '你已经在拍作画过程了，B 站上大约有 7,500 人是为这些影片关注你的。同一个文件不用重剪、也不用翻译，就能同样发到其他账号——看颜料流动完全不需要语言，所以不管各边的人读什么语言，它都是唯一一样原样成立的东西。'),
         },
-        { label: T('Which one is actually bigger', '究竟哪一边更大'),
-          text: T('Xiaohongshu, by a wide margin — about 44,000 there against about 27,000 on Instagram. Worth knowing because every outreach email this system writes still names Instagram and only Instagram, which means the platform being shown to galleries is the smaller half of your reach.',
-                  '小红书，而且差得不少——那边大约 44,000 人，Instagram 大约 27,000 人。值得知道，是因为这个系统写的每一封对外邮件里，提到的平台仍然只有 Instagram；也就是说，摆到画廊面前的，是你影响力里较小的那一半。'),
+        { label: T('Which account is actually the biggest', '究竟哪个账号最大'),
+          text: T('Not Instagram, and not Xiaohongshu — it is X, at about 89,300, more than three times the Instagram diary. Xiaohongshu is second at 44,000. Worth knowing because every outreach email this system writes names Instagram and only Instagram, so galleries are being shown about a sixth of your reach.',
+                  '既不是 Instagram，也不是小红书——是 X，大约 89,300 人，是 Instagram 日记的三倍多。小红书第二，44,000 人。值得知道，是因为这个系统写的每一封对外邮件都只提 Instagram；也就是说，摆到画廊面前的，大约只有你影响力的六分之一。'),
         },
         { label: T('What is still not known', '还不知道的部分'),
-          text: T('How much the three overlap. Counting Bilibili as well, about 78,500 follows are on record across the Chinese and English sides — but that is a ceiling on reach, not a count of people.',
-                  '三边有多少是同一批人。把 B 站也算进来，中文与英文两侧合计记录在案的关注大约 78,500——但这是触达的上限，不是真实的人数。'),
+          text: T('How much the four overlap, so the ~168,000 total is a ceiling on reach rather than a count of people. And what language the X audience actually reads in — that has never been recorded, so nothing here should assume it.',
+                  '四个账号之间有多少是同一批人——所以大约 168,000 这个总数是触达的上限，而不是真实人数。以及 X 那边的读者到底用什么语言阅读：这一项从来没有记录过，所以这里不该做任何假设。'),
         },
       ],
     },
   },
   a_inbound: {
     label: T('An audience that arrives without being asked', '不用去找、自己会来的受众'),
-    detail: T('The state the rest of this ladder is for. At scale a print run stops being a gamble — your best route breaks even at 109 copies, which is one follower in 240 on the Instagram diary alone, one in 650 if both audiences are counted, and one in 4,600 at half a million.', '这条阶梯上其余的一切，都是为了到达这个状态。到了这个规模，印一版书不再是赌博——你最好的印制方案 109 本回本：只按 Instagram 日记算是 240 人里有 1 人，两边一起算是 650 人里有 1 人，到五十万时是 4,600 人里有 1 人。'),
+    detail: T('The state the rest of this ladder is for. At scale a print run stops being a gamble — your best route breaks even at 109 copies, which is one follower in 240 on the Instagram diary alone, and one in 1,500 across everything you already have.', '这条阶梯上其余的一切，都是为了到达这个状态。到了这个规模，印一版书不再是赌博——你最好的印制方案 109 本回本：只按 Instagram 日记算是 240 人里有 1 人；把你已经拥有的全部算进来，是 1,500 人里有 1 人。'),
   },
 
   // ── licensing ──────────────────────────────────────────────────────────────

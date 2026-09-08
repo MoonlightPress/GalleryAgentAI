@@ -280,6 +280,20 @@
       "note": "SHE ALREADY FILMS HER PROCESS — never write anything suggesting she start. This is the second platform in one day that the system had recorded as absent and that turned out to have existed for years (see xiaohongshu above). Same failure both times: treating 'not in this profile' as 'not happening'.",
       "verified": "2026-09-08 (Bilibili public API)"
     },
+    "twitter_x": {
+      "platform": "X / Twitter",
+      "handle": "@GegYjiji",
+      "followers": "89.3k",
+      "followers_approx": 89300,
+      "_source": "Scott, 2026-09-08.",
+      "note": "HER LARGEST AUDIENCE BY A WIDE MARGIN — more than Instagram and Xiaohongshu combined would suggest at a glance, and 3.3x Instagram. This confirms the long-standing '~90k' figure was always Twitter, never Instagram; that mix-up is now settled. What language its audience reads in is NOT recorded and must not be guessed.",
+      "outreach": "EXCLUDED from outreach emails by Scott's standing decision - Instagram only. That rule is unchanged by this number. But note the cost it now carries explicitly: outreach represents her at 27k when her real total is ~168k, i.e. under a sixth. Worth Scott revisiting deliberately; do not quietly change it."
+    },
+    "_totals": {
+      "sum_of_followers": 167814,
+      "_caution": "A CEILING ON REACH, NOT A HEADCOUNT. Overlap between the four accounts has never been measured, so this number must never be presented as 'people'.",
+      "ranking": "X 89.3k > Xiaohongshu 44k > Instagram 27k > Bilibili 7.5k"
+    },
     "_note": "Instagram is still the only platform referenced in OUTREACH. This list is for reasoning about audience, not for what goes in an email."
   },
   "career_history": {
