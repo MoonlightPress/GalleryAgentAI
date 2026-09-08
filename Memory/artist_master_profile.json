@@ -3,7 +3,7 @@
     "visual_profile_version": 2,
     "artist_name": "GEGYjiji",
     "artist_handle": "GEGYjiji",
-    "age": 27,
+    "age": 26,
     "nationality": "Chinese",
     "hometown": "Changsha, China",
     "current_city": "Tokyo, Japan / Beijing, China (based between both)",
@@ -249,7 +249,15 @@
       "next_milestone": 50000,
       "note": "Primary platform. Daily watercolor diary since 2020. Instagram is the platform galleries, publishers, and curators use for discovery — outreach references Instagram only.",
       "verified": "2026-06-10 (artist-stated)"
-    }
+    },
+    "xiaohongshu": {
+      "platform": "小红书 / Xiaohongshu (RED)",
+      "handle": null,
+      "followers": null,
+      "note": "Confirmed present by Scott 2026-09-08. Handle and follower count not yet recorded — the profile tracked Instagram only, so any surface reasoning about a Chinese-language audience was working from a blank where a real account exists.",
+      "verified": "2026-09-08 (Scott)"
+    },
+    "_note": "Instagram is still the only platform referenced in OUTREACH. This list is for reasoning about audience, not for what goes in an email."
   },
   "career_history": {
     "research_date": "2026-06-02",
@@ -421,10 +429,10 @@
         "type": "solo show",
         "venue": "Lemonde Tokyo",
         "city": "Tokyo, Japan (Harajuku)",
-        "dates": "August 25, 2026 – approx. September 6, 2026 (end date unconfirmed; believed to run through the Sunday)",
-        "significance": "Current show (as of Sept 2026) — third solo exhibition on record",
-        "confidence": "reported secondhand (2026-09-03), not yet independently verified — confirm exact end date and venue spelling",
-        "source": "reported secondhand, not yet cross-checked against a public listing"
+        "dates": "August 25 – September 6, 2026",
+        "significance": "Third solo exhibition on record, and her first at a Harajuku gallery. Closed 6 September 2026.",
+        "confidence": "confirmed (artist, via Scott 2026-09-08)",
+        "source": "artist's own account, confirmed 2026-09-08"
       }
     ],
     "gallery_representation": "none confirmed",
