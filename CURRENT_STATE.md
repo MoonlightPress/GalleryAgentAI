@@ -4,7 +4,44 @@
 covers the volatile *what's true right now*. When the two disagree, this file wins —
 and whoever notices the drift should fix it here. Keep this file short.
 
-_Last updated: 2026-08-20_
+_Last updated: 2026-09-08_
+
+## DEPLOYED 2026-09-08 — Saffron defect pass (live, verified in the browser)
+
+Six commits, `d472417c`..`3f7afa37`, shipped via `bash deploy.sh` and checked on the
+rendered page in zh (not just the API).
+
+- **Four live-page defects fixed on `/mochi`.** Career Momentum was charting 51
+  pipeline-imported CRM rows as her outreach and calling a painter with 13 confirmed
+  exhibitions "a quiet stretch"; it now reads her record (13 shows, `steady`). Timing
+  Intelligence was charting **729 already-expired deadlines** as peak season off a
+  parser that took the largest month NAME and ignored the year — now on
+  `parse_deadline_date`, real peaks Sept 57 / Oct 33 / Jan 23, and the four buckets
+  reconcile to 1,395. Pricing showed her own prices back to her as invented "Tokyo
+  market observation" — now served from the profile. `editorial@bijutsutecho.com` was
+  fabricated and is gone (their contact page publishes no address; the route is a form).
+- **Saffron section cards** 16px → 28px; they read as one stack at 16 on a cream ground.
+- **Audience data is now real:** Xiaohongshu **44k**, Instagram 27k, Bilibili **7,514**
+  (uid 36798889, handle 不好意思挤一挤). Bilibili follower count is *measured* from
+  Bilibili's public API, not stated.
+- **Her video performance is measured** and on the profile under
+  `social_presence.bilibili.measured_performance`: short (<2:30) median **9,975** views
+  vs long **1,172** — 8.5×, 8 of her top 9 short. Best run ever: six weekly 1–2 min
+  sketchbook flip-throughs, May–June 2023, up to **55,023** views (~7× her follower
+  count). The long real-time process videos underperform by ~10×. **Length is not the
+  lesson** — recent short uploads did not repeat it; the 2023 run had a hook.
+- **Ladders (`/mochi2`)**: `a_motion` yes / new `a_weekly` no (distribution is the real
+  gap) / `a_series` corrected yes. "A following" previously had **no next step at all**
+  because every unreached rung was `unknown`.
+
+**Two infrastructure gaps found, one fixed:** `deploy.sh`'s 502-guard only greps
+top-level `^from engines\.`, so a function-local engine import ships nothing and dies at
+*request* time — `deadline_normaliser.py` added to the ship list and imported at top
+level. Still open: `npm test` runs `lint:changed`, which covers `App.jsx`,
+`SaffronV2.jsx` and `utils/` but **not `SaffronPage.jsx`** (it has 3 pre-existing lint
+errors — 2 dead components — clear those and it can join the list).
+
+_Older entry below is from the August pass and has not been re-verified._
 
 ## IN FLIGHT (2026-08-20 evening) — the August paid pass is mid-run
 
