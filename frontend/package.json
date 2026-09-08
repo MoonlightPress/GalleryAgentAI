@@ -7,8 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "test": "node --test \"src/**/*.test.js\"",
-    "preview": "vite preview"
+    "test": "npm run lint:changed && node --test \"src/**/*.test.js\"",
+    "preview": "vite preview",
+    "lint:changed": "eslint src/App.jsx src/components/SaffronV2.jsx src/utils"
   },
   "dependencies": {
     "react": "^19.2.6",

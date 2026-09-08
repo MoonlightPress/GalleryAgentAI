@@ -1,31 +1,3 @@
-        {/* Restored 2026-09-08. Removing it was my misreading: I took the pathway
-            for the gallery route wearing a crown, because its goal is gallery
-            representation. Scott's correction — the two are different axes, not
-            rivals. The five routes are practical overviews of a domain: what it
-            is, what it pays, what she'd be taking on. The pathway is an ORDER OF
-            ACTION. Not one-to-one: gallery representation, an international
-            record, licensing deals and a large audience draw on overlapping
-            requirements in different sequences.
-
-            What is still wrong, and is the real work: the order is hardcoded to
-            one destination, and the seven levers behind it are all institutional
-            (representation, solo venue quality, art fairs, residency, grant,
-            critical press, monograph). There is no lever for an audience, a price
-            ladder, a lookbook or a publisher relationship — so no reordering can
-            reach licensing or a large following. The pool needs to be
-            destination-neutral before the sequence can be destination-dependent. */}
-        {tab === 'forward' && (
-          <SectionOpenContext.Provider value={false}>
-            {SB('futures', <Futures data={data.futures} t={t} lang={lang}
-              components={{
-                book_economics: <BookEconomics data={data.book_economics} lang={lang} />,
-                publisher_fork: <PublisherFork data={data.book_economics} lang={lang} />,
-              }} />)}
-            {SB('pathway', <StrategicPathway data={data.pathway} t={t} />)}
-            {SB('ladders', <Ladders data={data} careerData={careerData} lang={lang} />)}
-          </SectionOpenContext.Provider>
-        )}
-
 // SaffronV2 — the proposed restructure, live, at #observe2.
 //
 // Not linked from anywhere. It reads the same endpoints as the real page, so
@@ -339,10 +311,11 @@ function YearStrip({ slots, selected, onSelect, lang, calMonths }) {
 }
 
 // ── The month you tapped ─────────────────────────────────────────────────────
-function MonthPanel({ slot, lang, calMonths, t }) {
+// Keyed by slot in the caller, so switching months remounts and `expanded`
+// resets on its own — no effect, no cascading render.
+function MonthPanel({ slot, lang, calMonths }) {
   const [expanded, setExpanded] = useState(false)
   const c = cp(lang)
-  useEffect(() => { setExpanded(false) }, [slot?.key])
   if (!slot) return null
 
   const locName = (o) =>
@@ -455,11 +428,11 @@ export default function SaffronV2({ nav }) {
     return out
   }, [data])
 
-  useEffect(() => {
-    if (!selected && slots.length) setSelected(slots[0].key)
-  }, [slots, selected])
-
-  const slot = slots.find(s => s.key === selected) || slots[0] || null
+  // Derived, not stored: with no explicit choice the current month is the one
+  // showing. Writing that into state from an effect meant an extra render and a
+  // frame where nothing was selected.
+  const selectedKey = selected || slots[0]?.key || null
+  const slot = slots.find(s => s.key === selectedKey) || null
   const monthDoors = slot ? { ...data?.recurring_calendar, doors: slot.doors } : null
 
   const goTab = (key) => {
@@ -512,12 +485,12 @@ export default function SaffronV2({ nav }) {
               <p className="v2-sub">{c.yearSub}</p>
               <YearStrip
                 slots={slots}
-                selected={selected}
+                selected={selectedKey}
                 onSelect={(k) => { setSelected(k); track({ type: 'action', action: 'v2_month', name: k }) }}
                 lang={lang}
                 calMonths={calMonths}
               />
-              <MonthPanel slot={slot} lang={lang} calMonths={calMonths} t={t} />
+              <MonthPanel key={slot?.key} slot={slot} lang={lang} calMonths={calMonths} />
             </div>
 
             {slot?.doors.length > 0 && SB('doors', <RecurringDoors data={monthDoors} lang={lang} />)}
@@ -545,20 +518,16 @@ export default function SaffronV2({ nav }) {
           </>
         )}
 
-        {/* StrategicPathway is deliberately NOT rendered here (2026-09-08, Scott).
-            Its computed goal is "Gallery representation and a sustained
-            international record" and its eight steps are the institutional
-            ladder — publication, group shows, museum shows, solo shows. Sitting
-            beside five routes it silently ranks them: one gets a destination and
-            a timeline, the other four get described. But she does not have to do
-            galleries. Selling direct, licensing, publishing and commissions are
-            destinations, not waypoints on the way to a gallery, and each route
-            already carries her real standing in it.
+        {/* Restored 2026-09-08. Removing it was my misreading: I read the pathway
+            as the gallery route wearing a crown, because its goal is gallery
+            representation. Scott's correction: the two are different axes. A
+            Pathway is a place — what a domain is, what it pays, what she would be
+            taking on. A Strategy is a route: an order of action toward a named
+            goal. Nothing requires them to correspond.
 
-            The component and its engine are untouched — it still renders on the
-            live Saffron page. Re-adding one line below is the whole of the undo.
-            The open question it leaves is whether the OTHER four routes deserve
-            the same "where you are on this one" ladder the gallery route got. */}
+            Below it, the Strategy ladders — three goals over one shared task
+            pool, specced in docs/NEXT_PHASE_strategies.md. The ladders are
+            hardcoded; the ticks are read from her live record. */}
         {tab === 'forward' && (
           <SectionOpenContext.Provider value={false}>
             {SB('futures', <Futures data={data.futures} t={t} lang={lang}
@@ -566,6 +535,8 @@ export default function SaffronV2({ nav }) {
                 book_economics: <BookEconomics data={data.book_economics} lang={lang} />,
                 publisher_fork: <PublisherFork data={data.book_economics} lang={lang} />,
               }} />)}
+            {SB('pathway', <StrategicPathway data={data.pathway} t={t} />)}
+            {SB('ladders', <Ladders data={data} careerData={careerData} lang={lang} />)}
           </SectionOpenContext.Provider>
         )}
       </div>
