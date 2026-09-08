@@ -3,18 +3,25 @@
 .saffron-page {
   display: flex;
   flex-direction: column;
-  /* Positioning context for PaperAccents, which pins its strips to the page
-     edges. isolation keeps their mix-blend-mode:multiply from reaching past this
-     subtree and darkening the nav above it. */
+  /* Positioning context for PaperAccents.
+
+     `isolation` does two jobs: it stops the accents' mix-blend-mode:multiply
+     reaching past this subtree to darken the nav, AND it creates the stacking
+     context that keeps their z-index:-1 from escaping behind .app's own
+     background, where they would be invisible.
+
+     The explicit background is required, not cosmetic: a negative-z child paints
+     above its parent's background but below in-flow content, so this cream is
+     what the accents actually multiply against. Without it they would blend
+     against nothing and their white ground would stay white.
+
+     NB: do NOT lift the children with `.saffron-page > * { position: relative }`
+     to get them above the accents. `nav` is passed in as a prop and rendered
+     here as a direct child — it is the sticky site nav, and that rule silently
+     turns its `position: sticky` into `relative` and drops z-index 40 to 1. */
   position: relative;
   isolation: isolate;
-}
-
-/* Content sits above the accents; the accents are z-index 0. Without this the
-   multiply blend would darken the text itself. */
-.saffron-page > *:not(.paper-accents) {
-  position: relative;
-  z-index: 1;
+  background: var(--parchment);
 }
 
 .saffron-hero {

@@ -4,10 +4,15 @@
    white ground the art was painted on multiplies to nothing against the cream
    page, and only the pigment darkens. It also means they must never sit above
    text: multiply would darken the glyphs too. z-index 0 against content at 1. */
+/* z-index -1, not 0. A positioned element at z-index:0 paints ABOVE in-flow
+   text, which would put the accents over her words and multiply the glyphs
+   darker. At -1 they paint above .saffron-page's own background and below every
+   piece of content, with no need to lift the content — which matters, because
+   lifting the children breaks the sticky nav rendered among them. */
 .paper-accents {
   position: absolute;
   inset: 0;
-  z-index: 0;
+  z-index: -1;
   pointer-events: none;
   overflow: hidden;
 }
