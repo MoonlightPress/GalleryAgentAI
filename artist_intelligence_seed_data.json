@@ -5,7 +5,12 @@
       "region": "Taiwan",
       "medium": "watercolor",
       "fit_reason": "atmospheric urban and interior watercolor, quiet scenes, strong tonal control. Built international credibility from a Taiwan base through IWS competitions.",
-      "shared_traits": ["atmospheric watercolor", "quiet observation", "Asia-based career", "architectural subjects"],
+      "shared_traits": [
+        "atmospheric watercolor",
+        "quiet observation",
+        "Asia-based career",
+        "architectural subjects"
+      ],
       "use_as": "Primary career-path reference for building international watercolor credibility from an Asian base."
     },
     {
@@ -13,7 +18,12 @@
       "region": "Japan / USA",
       "medium": "watercolor",
       "fit_reason": "Japanese watercolor painter, urban and travel subjects, light and understated atmosphere. Has exhibited with AWS and NWS — Japan-rooted identity with international visibility.",
-      "shared_traits": ["Japan-connected identity", "urban and travel watercolor", "quiet atmospheric palette", "watercolor societies"],
+      "shared_traits": [
+        "Japan-connected identity",
+        "urban and travel watercolor",
+        "quiet atmospheric palette",
+        "watercolor societies"
+      ],
       "use_as": "Reference for Japan-origin watercolor career with international reach."
     },
     {
@@ -21,7 +31,12 @@
       "region": "USA",
       "medium": "watercolor",
       "fit_reason": "Architectural watercolor — buildings, urban light, atmosphere, quiet structural observation. Large-format architectural studies with dramatic mood.",
-      "shared_traits": ["architecture and urban environments", "atmospheric light", "watercolor medium", "mood-first approach"],
+      "shared_traits": [
+        "architecture and urban environments",
+        "atmospheric light",
+        "watercolor medium",
+        "mood-first approach"
+      ],
       "use_as": "Primary reference for architectural watercolor practice and aesthetic."
     },
     {
@@ -29,7 +44,12 @@
       "region": "UK",
       "medium": "watercolor",
       "fit_reason": "British architectural watercolorist known for Edinburgh and UK urban scenes. Has exhibited in London and internationally.",
-      "shared_traits": ["architecture and urban buildings", "watercolor medium", "observation-based practice", "structural and atmospheric balance"],
+      "shared_traits": [
+        "architecture and urban buildings",
+        "watercolor medium",
+        "observation-based practice",
+        "structural and atmospheric balance"
+      ],
       "use_as": "Reference for building an architectural watercolor career with direct-to-collector sales."
     },
     {
@@ -37,23 +57,24 @@
       "region": "USA (Chinese-American)",
       "medium": "watercolor",
       "fit_reason": "Chinese-born watercolorist integrating Chinese ink painting sensibility with Western watercolor technique. AWS member.",
-      "shared_traits": ["Chinese artistic formation", "Western watercolor practice", "cross-cultural career", "watercolor medium"],
+      "shared_traits": [
+        "Chinese artistic formation",
+        "Western watercolor practice",
+        "cross-cultural career",
+        "watercolor medium"
+      ],
       "use_as": "Reference for cross-cultural watercolor identity — Chinese training meeting international exhibition contexts."
-    },
-    {
-      "name": "Japan Watercolor Society (日本水彩画会) exhibitors",
-      "region": "Japan",
-      "medium": "watercolor",
-      "fit_reason": "Annual national exhibition — Tier 3 credibility target. Contemporary Japanese watercolor practitioners working at the level she is building toward.",
-      "shared_traits": ["Japan-based", "watercolor medium", "annual exhibition culture", "national institutional credibility"],
-      "use_as": "Reference ecosystem for Japan active watercolor exhibition community."
     },
     {
       "name": "Alvaro Castagnet",
       "region": "Uruguay / Australia",
       "medium": "watercolor",
       "fit_reason": "Urban watercolor with loose, atmospheric style; strong international exhibition record built from a non-Western base. AWS signature member.",
-      "shared_traits": ["urban scenes", "atmospheric loose watercolor", "international career from non-Western base"],
+      "shared_traits": [
+        "urban scenes",
+        "atmospheric loose watercolor",
+        "international career from non-Western base"
+      ],
       "use_as": "Reference for building international watercolor exhibition record through society competitions."
     },
     {
@@ -61,8 +82,51 @@
       "region": "UK",
       "medium": "watercolor",
       "fit_reason": "Prominent UK watercolor practitioner and author. Style is loose and expressive — very different from GEGYjiji's quiet urban register. Community reference only.",
-      "shared_traits": ["watercolor medium", "international watercolor community", "publishing and teaching path"],
+      "shared_traits": [
+        "watercolor medium",
+        "international watercolor community",
+        "publishing and teaching path"
+      ],
       "use_as": "Community reference only. Do NOT use as stylistic reference or aesthetic comparison."
+    },
+    {
+      "name": "Mateusz Urbanowicz",
+      "region": "Japan (Tokyo)",
+      "medium": "watercolor",
+      "fit_reason": "Tokyo architecture in watercolor - storefronts, streets, the city as an ongoing subject. Books with MdN (Tokyo Storefronts, Tokyo at Night); the series has passed 100,000 copies. Sells originals himself, no gallery.",
+      "shared_traits": [
+        "architecture and urban environments",
+        "Tokyo as subject",
+        "watercolor medium",
+        "books from a daily practice"
+      ],
+      "use_as": "Closest match for a city-as-subject watercolor practice that became books."
+    },
+    {
+      "name": "Tatsuro Kiuchi (木内達朗)",
+      "region": "Japan (Tokyo)",
+      "medium": "digital / painterly illustration",
+      "fit_reason": "Atmospheric space for book jackets, editorial and advertising - Ikeido Jun's novels, the New York Times, Penguin, Uniqlo. Works without an agent; commissions come direct.",
+      "shared_traits": [
+        "atmosphere and quiet observation",
+        "Japan-based",
+        "illustration-side practice",
+        "interior and exterior space"
+      ],
+      "use_as": "Reference for the commissioned/editorial route, and proof it runs without an agent."
+    },
+    {
+      "name": "Ohn Mar Win",
+      "region": "UK",
+      "medium": "watercolor / illustration",
+      "fit_reason": "Twenty-year practice across licensing and teaching. Publishes her own income breakdown: teaching 77%, licensing 3% - the clearest evidence available of what each route actually pays.",
+      "shared_traits": [
+        "watercolor medium",
+        "illustration-side practice",
+        "audience-funded income",
+        "self-published numbers"
+      ],
+      "use_as": "Evidence for what a course and a licensing practice really earn."
     }
   ],
   "publisher_matches": [
