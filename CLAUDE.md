@@ -202,6 +202,8 @@ Warm watercolor atelier overall. The CSS design tokens from `mochi_app.py` (arch
 - Today's Focus is always three items — the pipeline must surface exactly three actionable items, not a ranked list of fifty
 - Never introduce cold blue/grey colour schemes, dense tables, or aggressive CTAs on any of the three pages
 - Empty states get warm copy and a small illustration, not "No data found"
+- **Voice: Saffron is second person, Mochi is third.** Saffron speaks to her — "you have about 27,000 followers", "your record". Describing her in the third person on Saffron reads as a case file about the person reading it. Second person is not the same as instructing: "you have X" states a fact, "send X" assigns a chore, and only the second is against the no-chiding rule. (`recurring_calendar_engine`'s docstring used to say "third person throughout"; it had generalised its own impersonality into a house rule and cost a day's copy in 2026-09.)
+- **Never render "we have no data" as an absence.** A state the system has never measured is not a gap she has failed to close. `frontend/src/data/strategy_ladders.js` carries the contract: `'yes' | 'no' | 'unknown'`, where only a real `'no'` may be offered as a next step. A boolean here produced advice telling her to start a Xiaohongshu account she had had for years, because the profile tracked Instagram alone and the blank read as a gap.
 
 ## Career Strategy Framework
 

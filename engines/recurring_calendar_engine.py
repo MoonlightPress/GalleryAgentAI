@@ -23,8 +23,16 @@ The `prepare` field is the point of the whole thing. Four of the seven career
 levers currently tell her to 留意 ("watch for") a call — which is dead waiting.
 A lead time turns that into work she can do in a month when nothing is open.
 
-Third person throughout, in all three languages — the same rule
-`futures_engine` documents. Five strings addressed her directly ("A show you
+VOICE: Saffron is SECOND person — it speaks to her ("you have", "your record").
+Mochi is third. This module happens to be impersonal: it describes doors, not
+her, so 0 of its 144 rendered strings use either person, and that is correct.
+
+What the paragraph below originally said was "third person throughout", which
+misread this module's impersonality as a house rule and stated it as one. On
+2026-09-08 that sent the Saffron strategy ladders out written about her in the
+third person, which reads as a case file to the person it is about. The five
+strings it corrected were genuinely wrong — they ASSIGNED work — but the fix for
+an imperative is to describe, not to switch person. Five strings addressed her directly ("A show you
 were going to do anyway", "You qualify for the Mainland China track", "the
 printed-matter world you already come from", 「为你这种情况设的」, and the
 "paintings you don't have to sell" label in `SaffronPage.jsx`) and were rewritten
