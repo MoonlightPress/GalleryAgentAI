@@ -257,48 +257,23 @@
    against a hairline-separated row — so the two read as the same kind of thing.
    The one addition is the "also counts toward" line, which is the reason the
    section exists: it says which single task moves more than one goal. */
-.v2-ladders { margin-top: 8px; }
-
-.v2-ladder {
-  margin-bottom: 30px;
-  padding-bottom: 4px;
-}
-.v2-ladder-head {
+/* Each ladder renders as an .sf-future block — a bordered, rounded card, the
+   same idiom as Pathways. Those get their separation from `.sf-futures { gap:
+   10px }`; this container had no gap at all, so three bordered cards stacked
+   with their borders flush against each other (Scott, twice: "they're touching").
+   A little more than Pathways' 10px because these carry a third line. */
+.v2-ladders {
+  margin-top: 8px;
   display: flex;
-  align-items: baseline;
-  justify-content: space-between;
+  flex-direction: column;
   gap: 14px;
-  margin-bottom: 7px;
 }
-.v2-ladder-name {
-  font-family: Georgia, serif;
-  font-size: 17px;
-  font-weight: bold;
-  color: #3d2b1a;
-  margin: 0;
-}
-.v2-ladder-count {
-  font-family: Georgia, serif;
-  font-size: 12.5px;
-  font-style: italic;
-  color: #8b6a3e;
-  white-space: nowrap;
-}
-/* One quiet rule showing how far along she already is. No number on it — the
-   count beside the name says that, and two of the same fact competes. */
-.v2-ladder-bar {
-  height: 3px;
-  background: #f0e3c4;
-  border-radius: 2px;
-  overflow: hidden;
-  margin-bottom: 10px;
-}
-.v2-ladder-bar-fill {
-  display: block;
-  height: 100%;
-  background: #7a9e7e;
-  border-radius: 2px;
-}
+/* .v2-ladder, .v2-ladder-head/-name/-count/-bar/-bar-fill removed 2026-09-08:
+   nothing rendered any of them. Ladder() outputs .sf-future markup (name,
+   tagline, standing) reusing the Pathways idiom, so these were an earlier
+   design left behind. Keeping them cost real time — the dead
+   `.v2-ladder { margin-bottom: 30px }` was read as proof the cards were
+   already spaced when in fact the container had no gap at all. */
 
 .v2-rungs { list-style: none; margin: 0; padding: 0; }
 .v2-rung {
