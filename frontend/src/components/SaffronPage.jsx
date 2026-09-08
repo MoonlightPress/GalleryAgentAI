@@ -2784,12 +2784,32 @@ function ReadinessCorrection({ t, onChanged }) {
 }
 
 // Which exhibition `type` satisfies each readiness gap (jws is handled separately).
+// Which exhibition-log `type` clears which gap.
+//
+// This map used to hold only the four foundation gaps — and she cleared all four
+// long ago, so NONE of her seven live gaps (gallery_representation,
+// solo_venue_quality, art_fairs, residency, grant, critical_press, monograph)
+// appeared in it. With a `|| 'group'` fallback underneath, pressing "I already
+// did this" on the GRANT lever posted a GROUP SHOW to /api/exhibition_log,
+// inflating `_count_group_shows` — which api.py calls "THE single canonical
+// app-wide number" and Peppercorn and the benchmarks both read. One tap, silent,
+// and it moved her tier readiness.
+//
+// The log only understands group / solo / institutional / residency. The other
+// gaps are cleared from artist_master_profile.career_history — awards for a
+// grant, gallery_representation for representation — which this form cannot
+// write. So they are absent here deliberately, and GAP_LOGGABLE hides the button
+// rather than writing the wrong row.
 const GAP_TYPE = {
   group_shows:        'group',
   solo_show:          'solo',
   institutional_show: 'institutional',
   international_show: 'group',
+  solo_venue_quality: 'solo',
+  residency:          'residency',
 }
+// jws is handled separately, via /api/membership.
+const GAP_LOGGABLE = (gapId) => gapId === 'jws' || gapId in GAP_TYPE
 
 // "I already did this" — a per-gap form that records the evidence that clears
 // the gap (a show via /api/exhibition_log, or society membership via
@@ -2806,6 +2826,10 @@ function GapCorrectionForm({ gap, onChanged }) {
   const [busy, setBusy] = useState(false)
   const isJws = gap.gap_id === 'jws'
 
+  // No button at all for a gap this form cannot record. Offering one that
+  // silently writes the wrong kind of row is worse than offering nothing.
+  if (!GAP_LOGGABLE(gap.gap_id)) return null
+
   async function submit() {
     setBusy(true)
     try {
@@ -2818,7 +2842,8 @@ function GapCorrectionForm({ gap, onChanged }) {
         await fetch('/api/exhibition_log', {
           method: 'POST', headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
-            type: GAP_TYPE[gap.gap_id] || 'group',
+            // Unmapped gaps never reach here — GAP_LOGGABLE returns early above.
+            type: GAP_TYPE[gap.gap_id],
             venue: venue.trim(), date: date.trim(),
             city: city.trim(), country: country.trim(),
             confidence, outcome: 'shown',
