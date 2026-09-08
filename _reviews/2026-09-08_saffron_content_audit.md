@@ -210,3 +210,37 @@ blocks that survived audit best are the ones that already did (`PRESS_PITCH_MAP`
 has `contact_url`; `PRICING_INTELLIGENCE` now reads from the profile). The blocks
 that failed worst have neither — `LICENSING_LANDSCAPE` contains zero URLs and zero
 dates in 114 lines.
+
+---
+
+## STATUS: acted on, same day (commits 7245f7ea, d1978cbf, 3c70a595)
+
+Everything ranked above has been fixed and deployed, verified against the served
+bundle. Two corrections from Scott changed what the fixes should say:
+
+- **Sales.** Four originals have sold, ever — Scott bought **three**; one had
+  already sold. So finding 7 was wrong on the count *and* wrong in kind: it
+  credited the market with what a friend did. The claim was **removed**, not
+  corrected, and `market_presence._sales_known` now carries the rule.
+- **Cats.** The 2026-09-05 `subject_correction` overcorrected. Scott: *"she does
+  paint cats… she does paint a lot of cats. I just don't think it's really what
+  she is the best at."* Cats are **reordered below architecture, not erased.**
+
+Deliberately NOT done: surfacing the ¥300k Arts Council Tokyo grant to her
+(Scott: "don't worry about the art council thing. she probably won't even look
+at it"). The grants block itself was still corrected.
+
+One fix declined on principle: the audit noted `bangjoy1992` has 118K on X
+versus 5K on Instagram, but it verified only the follower count, never the
+handle. Switching the link would have meant guessing a URL — the exact failure
+this audit exists to catch — so the verified Instagram link stayed.
+
+Two things this exposed about the toolchain, both worth keeping:
+
+1. **Six of my own edits added `_zh` keys that already existed further down the
+   same object.** In JS the last key wins, so every corrected English string
+   would have rendered beside its stale Chinese. `eslint no-dupe-keys` caught
+   all six — lint is load-bearing for correctness here, not just style.
+2. **`git add memory/...` silently matched nothing** (the tree is `Memory/`), so
+   the profile changes missed their commit and were only noticed because the
+   commit reported two files instead of three.
