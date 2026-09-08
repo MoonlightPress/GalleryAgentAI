@@ -14,9 +14,11 @@
 // Each ladder ends in a TERMINAL state that is the goal itself, so the shape of
 // the climb is visible from the top rung down.
 //
-// Third person throughout, per the rule recurring_calendar_engine documents.
-// (Note: StrategicPathway's own details are still second person — "your CV" —
-// which is an unfixed remnant, not the standard.)
+// SECOND person (Scott, 2026-09-08). recurring_calendar_engine's docstring says
+// third — "the page describes; it does not talk to anyone" — but the rest of this
+// page speaks to her directly, and describing someone in the third person to
+// their face reads as a case file. Second person here is still descriptive, not
+// instructive: "you have about 27,000 followers" states a fact.
 
 // UI is Chinese and English only — LANGUAGES is ['zh','en'], so a `ja` string
 // here could never render. Japanese belongs in the outreach email engines,
@@ -69,7 +71,7 @@ export const STATES = {
   },
   a_found: {
     label: T('An audience that found you', '一群自己找上来的读者'),
-    detail: T('About 26,000 on the daily-diary account, built without advertising. That is an audience, and it is the base the rest of this ladder multiplies.', '每日日记账号上大约 26,000 人，没有投过广告。这已经是一群受众，也是这条阶梯往上乘算的基数。'),
+    detail: T('About 27,000 on the daily-diary account, built without advertising. That is an audience, and it is the base the rest of this ladder multiplies.', '每日日记账号上大约 27,000 人，没有投过广告。这已经是一群受众，也是这条阶梯往上乘算的基数。'),
   },
   a_series: {
     label: T('Work that continues rather than accumulates', '会延续的作品，而不是堆积的作品'),
@@ -105,29 +107,29 @@ export const STATES = {
     detail: T('The fastest growth is borrowed rather than built — a shared zine, a two-person show, a trade of features. Twelve artists working in adjacent territory are already mapped; none approached.', '增长最快的方式是借来的，而不是攒出来的——一本合印的 zine、一个双人展、互相介绍。已经梳理出十二位在相邻领域创作的艺术家，尚未接触任何一位。'),
   },
   a_second: {
-    label: T('An audience in Chinese, not only on Instagram',
-             '中文世界里的读者，而不只是 Instagram 上的'),
-    detail: T('Everything the system knows about your audience is one Instagram account with about 27,000 followers. The obvious second one is Chinese — your first language, and a market where "a Chinese artist living in Tokyo, painting the city" is a genre people already follow rather than a thing that needs explaining.',
-              '系统知道的关于你受众的一切，就只有一个大约 27,000 人的 Instagram 账号。第二群显而易见是中文的——那是你的母语，而且在那个市场里，「一个住在东京、画这座城市的中国画家」本身就是有人在追的题材，不需要额外解释。'),
+    label: T('An audience in Chinese as well as on Instagram',
+             '中文世界里也有读者，不只是 Instagram'),
+    detail: T('You already hold both: about 27,000 on the Instagram diary, and a Xiaohongshu account the system did not know about until someone said so. Two audiences, in two languages, for one body of work.',
+              '这两边你都已经有了：Instagram 上的日记大约 27,000 人，以及一个小红书账号——在有人说起之前，系统并不知道它存在。两种语言，两群读者，同一批画。'),
     treatment: {
-      open: T('Which platforms, and why that one first', '具体是哪些平台，为什么先是那一个'),
+      open: T('What having both is worth', '同时有这两边，意味着什么'),
       hide: T('Close', '收起'),
       blocks: [
-        { label: T('Xiaohongshu first', '先是小红书'),
-          text: T('It is the closest match to what you already make: city scenes, interiors, daily life, and travel in Japan are among the most-read things on it, and the captions would be in your own language rather than a second one. Nothing here has to be made — the paintings exist, and the cost is the posting.',
-                  '它和你已经在做的东西最贴近：城市街景、室内、日常生活、在日本的旅行，本来就是那上面阅读量最高的几类内容，而且配文可以用你自己的语言写，而不是第二语言。这一级不需要新画什么——画都在，成本只是「发」这个动作。'),
+        { label: T('Why Xiaohongshu suits this work', '为什么小红书适合这些画'),
+          text: T('City scenes, interiors, daily life and Japan are among the most-read things on it, and the captions are in your first language rather than a second one. A Chinese artist living in Tokyo painting the city is a genre people already follow there — it needs no explaining.',
+                  '城市街景、室内、日常生活、日本，本来就是那上面阅读量最高的几类，而且配文用的是你的母语，不是第二语言。一个住在东京、画这座城市的中国画家，在那边本身就是有人在追的题材——不需要解释。'),
         },
-        { label: T('Then wherever the video goes', '然后是影片能去的地方'),
-          text: T('Once painting is being filmed, the same file plays on Bilibili and on short-video feeds without re-editing. Watching paint move needs no language at all, which is why this state and the one about filming are worth doing in that order.',
-                  '一旦开始拍作画过程，同一个文件不用重剪就能发到 B 站和短影片流里。看颜料流动完全不需要语言——所以「被看见的作画过程」和这一级，值得按这个顺序做。'),
+        { label: T('What two audiences give that one does not', '两群读者比一群多出什么'),
+          text: T('They buy in different currencies, are found by different algorithms, and do not disappear together when one platform changes how it shows work. A print run priced for one market can be sold into the other without making anything new.',
+                  '他们用不同的货币买东西、被不同的算法找到，而且不会因为某一个平台改了推荐方式就一起消失。为一个市场定价印出来的东西，不用再做新的，就能卖进另一个。'),
         },
-        { label: T('What it is actually for', '它到底是为了什么'),
-          text: T('Not a bigger number. A second audience buys in a different currency, is found by a different algorithm, and does not disappear if one platform changes how it shows work. It is the difference between one audience and a practice that has readers.',
-                  '不是为了数字更大。第二群读者用另一种货币买东西、被另一套算法找到，而且不会因为某一个平台改了推荐方式就一起消失。这是「有一个账号的受众」和「有读者的创作」之间的差别。'),
+        { label: T('Where the video fits', '影片放在这里的位置'),
+          text: T('Once painting is being filmed, the same file plays on Bilibili and in short-video feeds without re-editing — and watching paint move needs no language at all. That is the one thing that travels across both audiences unchanged.',
+                  '一旦开始拍作画的过程，同一个文件不用重剪就能发到 B 站和短影片流里——而看颜料流动完全不需要语言。这是唯一一样东西，在两边都原样成立。'),
         },
-        { label: T('What the system does not know', '系统不知道的部分'),
-          text: T('Whether you are already posting there. The profile records one platform and one follower count, so this state is marked unreached because nothing contradicts it — not because anyone checked.',
-                  '你是不是已经在那边发了。档案里只记着一个平台、一个粉丝数，所以这一级被标成未达成，只是因为没有任何信息与之相反——不是因为有人去核实过。'),
+        { label: T('What is still not known', '还不知道的部分'),
+          text: T('How big the Chinese side is. The profile records the account with no follower count beside it, so nothing on this page can say what it is worth, or which of the two audiences is actually the larger one. Instagram is still the only platform an outreach email mentions.',
+                  '中文这边到底有多大。档案里记下了这个账号，旁边却没有粉丝数，所以这一页说不出它值多少，也说不出两边究竟哪一边更大。对外邮件里提到的平台，仍然只有 Instagram。'),
         },
       ],
     },
@@ -202,36 +204,60 @@ export const GOALS = [
 export const alsoServes = (stateId, goalId) =>
   GOALS.filter((g) => g.id !== goalId && g.ladder.includes(stateId))
 
-// Reached-ness reads her live record. Anything the system genuinely cannot see
-// returns false rather than guessing — an unearned tick is worse than a blank rung.
+// Three states, not two. The first version returned a bare boolean, so "we
+// checked and the answer is no" and "nobody has ever looked" both rendered as an
+// empty circle — and the page then advised her to go and do things she was
+// already doing. That is exactly what happened with Xiaohongshu: the profile
+// tracked Instagram alone, the state read as unreached, and the treatment told
+// her to start an account that exists (Scott, 2026-09-08).
+//
+//   'yes'     — her record says so
+//   'no'      — her record says so, and it is a real absence
+//   'unknown' — the system has never measured this. NOT a gap, and never advice.
+//
+// Most of the audience and licensing ladders are honestly 'unknown', because the
+// system has never tracked a lookbook, a series name, a video, or a licence. The
+// engine specced in docs/NEXT_PHASE_strategies.md inherits this contract.
 export function evidence(data, careerData) {
   const ev = careerData?.career_evidence || {}
   const shows = (data?.career_position?.exhibitions || []).length
+  const yn = (b) => (b ? 'yes' : 'no')
   return {
-    g_publication: (ev.publications_confirmed || 0) > 0,
-    g_group: (ev.confirmed_group_shows || 0) >= 3,
-    g_institutional: !!ev.has_institutional_show,
-    g_solo: !!ev.has_solo_show,
-    g_international: !!ev.has_international_show,
-    g_press: false,
-    g_representation: !!ev.has_representation,
-    g_fairs: false,
+    // Gallery — the career engine measures all of this, so yes/no are both real.
+    g_publication: yn((ev.publications_confirmed || 0) > 0),
+    g_group: yn((ev.confirmed_group_shows || 0) >= 3),
+    g_institutional: yn(!!ev.has_institutional_show),
+    g_solo: yn(!!ev.has_solo_show),
+    g_international: yn(!!ev.has_international_show),
+    // A real 'no': three features are on record and all three reproduce.
+    g_press: 'no',
+    // A real 'no': the profile records gallery_representation as none confirmed.
+    g_representation: yn(!!ev.has_representation),
+    // Nobody tracks fair participation anywhere in the system.
+    g_fairs: 'unknown',
 
-    a_cadence: true,
-    a_look: shows > 0,
-    a_found: true,
-    a_series: false,
-    a_motion: false,
-    a_borrowed: false,
-    a_second: false,
-    a_inbound: false,
+    a_cadence: 'yes',
+    a_look: yn(shows > 0),
+    a_found: 'yes',
+    // The system has never looked at whether a series has a name, whether she
+    // films, or who she has worked with. None of these are absences.
+    a_series: 'unknown',
+    a_motion: 'unknown',
+    a_borrowed: 'unknown',
+    // Reached. She has been on Xiaohongshu all along; the profile recorded
+    // Instagram alone, so this rendered as a gap and the page advised her to
+    // start an account she already had (Scott, 2026-09-08).
+    a_second: 'yes',
+    a_inbound: 'unknown',
 
-    l_reproduces: true,
-    l_inprint: (ev.publications_confirmed || 0) > 0,
-    l_lookbook: false,
-    l_findable: false,
-    l_first: false,
-    l_repeat: false,
-    l_inbound: false,
+    l_reproduces: 'yes',
+    l_inprint: yn((ev.publications_confirmed || 0) > 0),
+    // Never measured: no lookbook field, no directory listing check, no licence
+    // log. Rendering these as gaps was the bug.
+    l_lookbook: 'unknown',
+    l_findable: 'unknown',
+    l_first: 'unknown',
+    l_repeat: 'unknown',
+    l_inbound: 'unknown',
   }
 }

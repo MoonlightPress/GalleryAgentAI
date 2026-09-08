@@ -101,10 +101,14 @@ const LADDER_COPY = {
   en: { title: 'Strategies', sub: 'Different goals, overlapping tasks, different orders',
         done: (a, b) => `${a} of ${b} already reached`, also: 'Also counts toward',
         nextUp: 'Next:',
+        unknown: (n) => `${n} not measured`,
+        notMeasured: 'The system has never checked this',
         proto: 'Prototype — the ladders are written by hand; the ticks are read from your record.' },
   zh: { title: '推进策略', sub: '不同的目标，重叠的事项，不同的顺序',
         done: (a, b) => `${b} 级里已经到了 ${a} 级`, also: '同时也算进',
         nextUp: '下一级：',
+        unknown: (n) => `${n} 级没有查过`,
+        notMeasured: '系统从来没有核实过这一项',
         proto: '原型——阶梯是手写的，勾选是从你的记录里读出来的。' },
   ja: { title: '進め方', sub: '目標ごとに、重なる項目を、違う順番で',
         done: (a, b) => `${b} 件中 ${a} 件はすでに満たしている`, also: '次にも効く',
@@ -136,17 +140,24 @@ function Ladders({ data, careerData, lang }) {
 // One goal: a closed card showing where she stands, opening onto the states.
 function Ladder({ g, done, c, pick }) {
   const [open, setOpen] = useState(false)
-  const hit = g.ladder.filter((x) => done[x]).length
-  const next = g.ladder.find((x) => !done[x])
+  const hit = g.ladder.filter((x) => done[x] === 'yes').length
+  const unknown = g.ladder.filter((x) => done[x] === 'unknown').length
+  // "Next" is the first REAL absence. An unmeasured state is not a next step —
+  // pointing at one is how the page ended up telling her to start a Xiaohongshu
+  // account she already had.
+  const next = g.ladder.find((x) => done[x] === 'no')
   const nextLabel = next ? pick(STATES[next]?.label) : ''
   return (
     <div className={`sf-future${open ? ' sf-future--open' : ''}`}>
       <button className="sf-future-head" onClick={() => setOpen((o) => !o)} aria-expanded={open}>
         <div>
           <div className="sf-future-name">{pick(g.name)}</div>
-          <div className="sf-future-tagline">{c.done(hit, g.ladder.length)}</div>
-          {/* Where she is on this ladder, readable without opening it — the same
-              job f.standing does on a Pathway card. */}
+          <div className="sf-future-tagline">
+            {c.done(hit, g.ladder.length)}
+            {unknown > 0 && <span className="v2-unknown-count"> · {c.unknown(unknown)}</span>}
+          </div>
+          {/* Where she is, readable without opening it. Only a real absence is
+              offered as next; unmeasured states are counted, not pointed at. */}
           {nextLabel && <div className="sf-future-standing">{c.nextUp} {nextLabel}</div>}
         </div>
         <span className={`sf-chevron${open ? ' sf-chevron--open' : ''}`}>▾</span>
@@ -157,15 +168,22 @@ function Ladder({ g, done, c, pick }) {
             {g.ladder.map((x) => {
               const st = STATES[x]
               if (!st) return null
-              const isDone = done[x]
+              const state = done[x]
               const isNext = x === next
               const shared = alsoServes(x, g.id)
-              const cls = isDone ? 'sf-step--done' : isNext ? 'sf-step--blocking' : 'sf-step--pending'
+              const cls = state === 'yes' ? 'sf-step--done'
+                : state === 'unknown' ? 'sf-step--pending v2-step--unknown'
+                  : isNext ? 'sf-step--blocking' : 'sf-step--pending'
               return (
                 <div key={x} className={`sf-step ${cls}`}>
-                  <div className="sf-step-marker">{isDone ? '\u2713' : isNext ? '\u25b6' : '\u25cb'}</div>
+                  <div className="sf-step-marker">
+                    {state === 'yes' ? '\u2713' : state === 'unknown' ? '?' : isNext ? '\u25b6' : '\u25cb'}
+                  </div>
                   <div className="sf-step-body">
                     <div className="sf-step-label">{pick(st.label)}</div>
+                    {/* An unmeasured state says so before it says anything else,
+                        so nothing below it reads as a thing she has not done. */}
+                    {state === 'unknown' && <div className="v2-unknown-tag">{c.notMeasured}</div>}
                     <div className="sf-step-detail">{pick(g.why?.[x]) || pick(st.detail)}</div>
                     {st.treatment && <Treatment t={st.treatment} pick={pick} />}
                     {shared.length > 0 && (
