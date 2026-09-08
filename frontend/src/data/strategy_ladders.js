@@ -75,7 +75,7 @@ export const STATES = {
   },
   a_series: {
     label: T('Work that continues rather than accumulates', '会延续的作品，而不是堆积的作品'),
-    detail: T('A diary is watched; a named, numbered, continuing series is followed, because it gives a reason to come back for the next one. Six years of work with no named body inside it.', '日记是被看的；一个有名字、有编号、还在继续的系列是被追的——因为它给人回来看下一张的理由。六年的作品里，还没有一个被命名的系列。'),
+    detail: T('A diary is watched; a named, numbered, continuing series is followed, because it gives a reason to come back for the next one. You already group work this way — 一天和四季, 彩色日记翻翻乐 and 365日永恒如新 are all named and numbered.', '日记是被看的；一个有名字、有编号、还在继续的系列是被追的——因为它给人回来看下一张的理由。你其实已经这样归类过作品了：《一天和四季》《彩色日记翻翻乐》《365日永恒如新》都是有名字、有编号的。'),
   },
   a_motion: {
     label: T('The work seen in motion', '被看见的作画过程'),
@@ -110,27 +110,31 @@ export const STATES = {
   a_weekly: {
     label: T('The painting videos reaching the audiences that never see them',
              '让作画影片抵达那些从没看过的人'),
-    detail: T('You already make these. About 7,500 people on Bilibili get them; the 27,000 on Instagram and the X account do not. One a week, posted where it stays — that is the whole of it, and it asks for nothing you are not already filming.',
-              '这些影片你本来就在做。B 站大约 7,500 人能看到；Instagram 上的 27,000 人和 X 上的账号看不到。每周一条，发在会留下来的地方——就这么多，而且不需要你多拍任何东西。'),
+    detail: T('You have already done this once and it worked better than anything else on your record: six weekly flip-throughs in 2023 that reached 55,000, 49,000 and 16,000 people. None of it is on Instagram or X, where the 27,000 have never seen any of it.',
+              '这件事你已经做成过一次，而且成绩比你记录里的任何东西都好：2023 年连续六周的翻翻乐，触达了 55,000、49,000、16,000 人。这些一条都没有发到 Instagram 或 X——那边的 27,000 人从来没看过。'),
     treatment: {
-      open: T('What "posted where it stays" means', '「发在会留下来的地方」是什么意思'),
+      open: T('What your own channel already proved', '你自己的频道已经证明了什么'),
       hide: T('Close', '收起'),
       blocks: [
+        { label: T('Short beats long by 8.5x — on your channel, not in general', '短片是长片的 8.5 倍——这是你自己频道的数字，不是通则'),
+          text: T('Of your 33 measurable videos, the ones under two and a half minutes have a median of about 9,975 views. The ones over it: about 1,172. Eight of your top nine are short. The long real-time sessions — the 14 to 21 minute ones — sit around 1,200 to 5,400 for far more work.',
+                  '你有 33 条能看到数据的影片：两分半以内的，播放中位数约 9,975；超过两分半的，约 1,172。你最好的九条里有八条是短片。那些 14 到 21 分钟的实时录制，播放大多在 1,200 到 5,400 之间——付出多得多，回报少得多。'),
+        },
+        { label: T('But it was never just the length', '但起作用的从来不只是长度'),
+          text: T('Your recent short ones did not repeat it — 0:36 last August got 139. What the 2023 run had was a hook: a finished 365-day book, numbered episodes, released one a week. People came back for the next one. That is the part worth keeping, and it is not a filming technique.',
+                  '你最近的短片没有重现那个结果——去年八月那条 0:36 的只有 139 播放。2023 年那一轮有的是一个「钩子」：一本画完的 365 天日记、编好号的集数、每周一条。人们是回来看下一集的。值得保留的是这件事，而它跟拍摄技巧无关。'),
+        },
+        { label: T('Once a week, and you have done it', '每周一条，而且你做到过'),
+          text: T('Those six went out weekly for six weeks straight. That cadence is not a thing to learn; it is a thing to repeat. The 55,000 one reached about seven times your follower count there, which means it travelled well past the people who already follow you.',
+                  '那六条是连续六周、每周一条发出去的。这个节奏不需要学，只需要再做一次。播放 55,000 的那条，大约是你在那边粉丝数的七倍——也就是说，它远远走出了已经关注你的人。'),
+        },
         { label: T('Not stories', '不要只发限时动态'),
-          text: T('A story is gone in 24 hours, so it reaches only whoever happened to open the app that day and leaves nothing behind for the curator who finds you in March. A feed post or a reel stays. If it has to be a story, save it to Highlights afterwards so it is still there.',
-                  '限时动态 24 小时就没了——它只触达那天刚好打开 App 的人，而三月份才找到你的策展人什么也看不到。发在主页或做成 Reels，它就会留下。如果只能发限时动态，事后请存进精选（Highlights），让它还在那儿。'),
+          text: T('When these do go to Instagram: a story is gone in 24 hours, so it reaches whoever opened the app that day and leaves nothing for the curator who finds you in March. A feed post or a reel stays. If it has to be a story, save it to Highlights afterwards. Timelapse is fine — the spread of pigment often reads better sped up than in real time.',
+                  '等这些真的发到 Instagram 时：限时动态 24 小时就没了，只触达那天打开 App 的人，三月份才找到你的策展人什么也看不到。发在主页或做成 Reels，它会留下；如果只能发限时动态，事后存进精选。延时完全可以——颜料化开的过程，压缩过往往比实时更好看。'),
         },
-        { label: T('Once a week', '每周一条'),
-          text: T('Often enough to be a reason to come back, rare enough that it never becomes a second job. It is a floor, not a target — one a week is the point at which an account reads as active rather than dormant.',
-                  '频率高到足以让人有理由回来，又低到不会变成第二份工作。这是下限，不是指标——每周一条，正是一个账号从「沉寂」变成「在更新」的分界。'),
-        },
-        { label: T('Timelapse is fine', '延时摄影完全可以'),
-          text: T('Speed is not what makes it work. The thing that cannot be screenshotted is pigment moving into wet paper, and a timelapse shows that as well as real time does — often better, because the spread reads faster than the eye sees it.',
-                  '起作用的不是速度。没法被截图的，是颜料渗进湿纸的那个过程；延时拍出来一样成立——往往还更好，因为化开的过程被压缩得比肉眼看到的更清楚。'),
-        },
-        { label: T('Both places, not one', '两边都要，不是只选一边'),
-          text: T('The same file needs no re-editing and no translation to go up in all three places, because watching paint move needs no language. Posting it to one is the only reason it currently reaches one.',
-                  '同一个文件不用重剪、也不用翻译，就能同时发到三个地方——因为看颜料流动不需要语言。它现在只触达一边，唯一的原因就是只发了一边。'),
+        { label: T('The files already exist', '这些文件本来就有'),
+          text: T('Thirty-eight of them. They need no re-editing and no translation to go up in the other two places, because watching paint move needs no language. Posting them to one place is the only reason they reach one place.',
+                  '三十八条。它们不用重剪、也不用翻译就能发到另外两个地方——因为看颜料流动不需要语言。它们现在只触达一边，唯一的原因就是只发了一边。'),
         },
       ],
     },
@@ -276,9 +280,13 @@ export function evidence(data, careerData) {
     a_cadence: 'yes',
     a_look: yn(shows > 0),
     a_found: 'yes',
-    // The system has never looked at whether a series has a name, or who she
-    // has worked with. Neither is an absence.
-    a_series: 'unknown',
+    // Third instance of the same bug in one session, and the worst of the three:
+    // this was 'unknown' while its copy asserted "six years of work with no
+    // named body inside it" — an unmeasured state rendered as an absence, in the
+    // one file that carries the rule against exactly that. It is also false. Her
+    // Bilibili channel groups work into three named, numbered collections
+    // (一天和四季 / 彩色日记翻翻乐 / 365日永恒如新), read 2026-09-08.
+    a_series: 'yes',
     // Reached. She films the painting and posts it to Bilibili (Scott,
     // 2026-09-08). Second time in one session that a state this file called
     // unmeasured turned out to be something she had been doing for years — the

@@ -261,10 +261,21 @@
     "bilibili": {
       "platform": "哔哩哔哩 / Bilibili",
       "uid": 36798889,
+      "handle": "不好意思挤一挤",
       "url": "https://space.bilibili.com/36798889",
       "followers": "7.5k",
       "followers_approx": 7514,
-      "content": "Painting-process / speed-paint videos of her watercolour work.",
+      "uploads": 38,
+      "still_active": "yes - most recent upload 2026-08-17",
+      "content": "Watercolour: sketchbook flip-throughs, long real-time painting sessions, and some vlogs.",
+      "measured_performance": {
+        "_source": "Read 2026-09-08 from her public Bilibili channel (33 of 38 uploads had view counts visible). Views are Bilibili's own numbers, not estimates.",
+        "finding": "SHORT BEATS LONG BY 8.5x ON HER OWN CHANNEL. Videos under 2:30 have a median of 9,975 views; videos over 2:30 have a median of 1,172. Eight of her top nine videos are under 2:30.",
+        "the_run_that_worked": "Six consecutive WEEKLY episodes, 2023-05-14 to 2023-06-18, each 1:23-2:01, of the '坚持366天每天画水彩的水彩本翻翻乐' series — flip-throughs of a COMPLETED 365-day sketchbook. Views: 55,023 / 49,353 / 16,182 / 10,567 / 10,224 / 4,520. The 55k one reached ~7x her follower count, i.e. it left her own audience entirely. This is the single most successful measurable run on any platform of hers we can see.",
+        "what_underperforms": "The long real-time process videos ('水彩记录纯享版', 14-21 min) got 1,202 / 2,028 / 2,123 / 2,323 / 5,448 — roughly a tenth of the flip-throughs, for vastly more effort.",
+        "the_subtlety": "Length alone is NOT the trick. Her recent short uploads (2026-08-17, 0:36, 139 views; 2024-09-18, 1:56, 864 views) are short and did NOT repeat the result. What the 2023 run had that they lack is a HOOK — a finished 365-day book, a numbered series, a weekly release. Do not reduce this finding to 'post shorter'.",
+        "_caution": "This says what performs on BILIBILI. Nothing here has been measured on Instagram or X, where none of these videos are posted at all."
+      },
       "_source": "URL from Scott 2026-09-08; follower count read the same day from Bilibili's own public API (api.bilibili.com/x/relation/stat?vmid=36798889), so this figure is measured rather than stated.",
       "note": "SHE ALREADY FILMS HER PROCESS — never write anything suggesting she start. This is the second platform in one day that the system had recorded as absent and that turned out to have existed for years (see xiaohongshu above). Same failure both times: treating 'not in this profile' as 'not happening'.",
       "verified": "2026-09-08 (Bilibili public API)"
