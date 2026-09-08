@@ -123,52 +123,70 @@ function Ladders({ data, careerData, lang }) {
       <p className="v2-sub">{c.sub}</p>
 
       {GOALS.map((g) => {
-        const total = g.ladder.length
         const hit = g.ladder.filter((t) => done[t]).length
         const next = g.ladder.find((t) => !done[t])
         return (
           <div key={g.id} className="v2-ladder">
             <div className="v2-ladder-head">
               <h3 className="v2-ladder-name">{pick(g.name)}</h3>
-              <span className="v2-ladder-count">{c.done(hit, total)}</span>
+              <span className="v2-ladder-count">{c.done(hit, g.ladder.length)}</span>
             </div>
-            <div className="v2-ladder-bar">
-              <span className="v2-ladder-bar-fill" style={{ width: `${(hit / total) * 100}%` }} />
-            </div>
-            <ol className="v2-rungs">
-              {g.ladder.map((t, i) => {
+            {/* Same markup as the career pathway above — sf-step, sf-step-marker,
+                sf-step-body — rather than a lookalike, so the two read as one kind
+                of object instead of two things that nearly match. */}
+            <div className="sf-steps">
+              {g.ladder.map((t) => {
                 const st = STATES[t]
                 if (!st) return null
                 const isDone = done[t]
                 const isNext = t === next
                 const shared = alsoServes(t, g.id)
-                const state = isDone ? 'done' : isNext ? 'next' : 'later'
-                // The reason this rung matters HERE. A shared task argues
-                // differently per goal; where a goal has no override the task's
-                // own "what" stands.
-                const detail = pick(g.why?.[t]) || pick(st.detail)
+                const cls = isDone ? 'sf-step--done' : isNext ? 'sf-step--blocking' : 'sf-step--pending'
                 return (
-                  <li key={t} className={`v2-rung v2-rung--${state}`}>
-                    <span className="v2-rung-mark">{isDone ? '✓' : isNext ? '▸' : '○'}</span>
-                    <div className="v2-rung-body">
-                      <p className="v2-rung-label">
-                        <span className="v2-rung-n">{i + 1}</span>{pick(st.label)}
-                      </p>
-                      <p className="v2-rung-what">{detail}</p>
+                  <div key={t} className={`sf-step ${cls}`}>
+                    <div className="sf-step-marker">{isDone ? '✓' : isNext ? '▶' : '○'}</div>
+                    <div className="sf-step-body">
+                      <div className="sf-step-label">{pick(st.label)}</div>
+                      <div className="sf-step-detail">{pick(g.why?.[t]) || pick(st.detail)}</div>
+                      {st.treatment && <Treatment t={st.treatment} pick={pick} />}
                       {shared.length > 0 && (
-                        <p className="v2-rung-also">
+                        <div className="v2-rung-also">
                           {c.also} {shared.map((x) => pick(x.name)).join(' · ')}
-                        </p>
+                        </div>
                       )}
                     </div>
-                  </li>
+                  </div>
                 )
               })}
-            </ol>
+            </div>
           </div>
         )
       })}
       <p className="v2-ladder-proto">{c.proto}</p>
+    </div>
+  )
+}
+
+// A state that carries more than a paragraph opens into one. Closed by default —
+// a ladder should stay readable in one scroll, and the depth is for the rung she
+// stops on.
+function Treatment({ t, pick }) {
+  const [open, setOpen] = useState(false)
+  return (
+    <div className="v2-treatment">
+      <button className="v2-treatment-toggle" onClick={() => setOpen((v) => !v)}>
+        {pick(open ? t.hide : t.open)}
+      </button>
+      {open && (
+        <div className="v2-treatment-body">
+          {t.blocks.map((b, i) => (
+            <div key={i} className="v2-treat-block">
+              {b.label && <div className="v2-treat-label">{pick(b.label)}</div>}
+              <p className="v2-treat-text">{pick(b.text)}</p>
+            </div>
+          ))}
+        </div>
+      )}
     </div>
   )
 }

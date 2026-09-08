@@ -375,3 +375,41 @@
 }
 .v2-rung--later .v2-rung-what { color: #8a7563; }
 .v2-rung-label { margin: 0; }
+
+/* A state that opens into a treatment. Sits inside sf-step-body, so it inherits
+   the pathway's indent and reads as part of the rung rather than a new object. */
+.v2-treatment { margin-top: 8px; }
+.v2-treatment-toggle {
+  background: none;
+  border: 0;
+  padding: 0;
+  font-family: Georgia, serif;
+  font-size: 12.5px;
+  font-style: italic;
+  color: #b5701f;
+  cursor: pointer;
+  border-bottom: 1px solid #e6d4b8;
+}
+.v2-treatment-toggle:hover { border-bottom-color: #b5701f; }
+.v2-treatment-body {
+  margin-top: 12px;
+  padding-left: 13px;
+  border-left: 2px solid #eadcb8;
+}
+.v2-treat-block { margin-bottom: 13px; }
+.v2-treat-block:last-child { margin-bottom: 0; }
+.v2-treat-label {
+  font-family: Georgia, serif;
+  font-size: 11px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #8b6a3e;
+  margin-bottom: 3px;
+}
+.v2-treat-text {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  line-height: 1.7;
+  color: #4a3826;
+  margin: 0;
+}
