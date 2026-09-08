@@ -355,3 +355,23 @@
   padding-top: 12px;
   border-top: 1px solid #efe3cb;
 }
+
+/* Numbered, because these are progressive states in a sequence — the same
+   reading the career pathway above them uses. */
+.v2-rung-n {
+  display: inline-block;
+  min-width: 1.5em;
+  color: #b3a695;
+  font-weight: normal;
+}
+.v2-rung--done .v2-rung-n { color: #8fb08f; }
+.v2-rung--next .v2-rung-n { color: #d8a878; }
+.v2-rung-what {
+  margin: 4px 0 0;
+  font-family: Georgia, serif;
+  font-size: 13px;
+  line-height: 1.65;
+  color: #6b5844;
+}
+.v2-rung--later .v2-rung-what { color: #8a7563; }
+.v2-rung-label { margin: 0; }

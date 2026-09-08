@@ -20,6 +20,7 @@
 import { useState, useEffect, useMemo } from 'react'
 import { useLanguage } from '../i18n/LanguageContext'
 import { track, visitorId } from '../utils/track'
+import { STATES, GOALS, alsoServes, evidence } from '../data/strategy_ladders'
 import {
   saffronTx,
   RecurringDoors, GrantLandscape,
@@ -96,94 +97,18 @@ const pc = (lang) => PULSE_COPY[lang] || PULSE_COPY.en
 const MONTH_EN = ['January', 'February', 'March', 'April', 'May', 'June',
   'July', 'August', 'September', 'October', 'November', 'December']
 
-// ── Strategies: a ladder of tasks per goal ───────────────────────────────────
-//
-// PROTOTYPE. The ladders below are hardcoded here on purpose — the engine that
-// should own them is specced in docs/NEXT_PHASE_strategies.md and deliberately
-// not built yet. Done-ness IS real: every task reads her live record through
-// `evidence`, so nothing here is a mock of her progress, only of the structure.
-//
-// A goal is a name plus an ORDER of task ids. The pool is shared, and the same
-// task sits in more than one ladder at different positions — which is the whole
-// point. `also` is computed, never typed: it falls out of the ladders.
-
-const TASKS = {
-  body_of_work:        { en: 'Ten paintings that hang together as one thing',   zh: '十张能作为一个整体挂在一起的画',       ja: '一つのまとまりとして掛けられる十点' },
-  group_shows:         { en: 'A record of showing alongside others',            zh: '与他人同场展出的记录',                 ja: '他の作家と並んで見せた記録' },
-  solo_shows:          { en: 'Her own room',                                    zh: '属于自己的展间',                       ja: '自分ひとりの部屋' },
-  institutional_show:  { en: 'A museum or public institution',                  zh: '美术馆或公共机构',                     ja: '美術館または公共機関' },
-  better_solo_venues:  { en: 'Larger rooms than a café or a small gallery',     zh: '比咖啡馆和小画廊更大的场地',           ja: 'カフェや小さな画廊より大きな会場' },
-  critical_press:      { en: 'Written about, rather than featured',             zh: '被评论，而不只是被转载',               ja: '紹介ではなく、論じられること' },
-  art_fairs:           { en: 'A fair, where collectors are',                    zh: '藏家所在的艺博会',                     ja: 'コレクターのいるフェア' },
-  representation:      { en: 'A gallery that sells on her behalf',              zh: '代理她销售的画廊',                     ja: '代わりに売ってくれる画廊' },
-
-  daily_cadence:       { en: 'A rhythm of new work that does not stop',         zh: '不停下来的创作节奏',                   ja: '途切れない制作のリズム' },
-  recognisable_style:  { en: 'One look, legible at thumbnail size',             zh: '缩略图大小也认得出的一种面貌',         ja: 'サムネイルでもわかる一つの佇まい' },
-  named_series:        { en: 'A series with a name, not only a diary',          zh: '一个有名字的系列，而不只是日记',       ja: '日記だけでなく、名前のある連作' },
-  process_video:       { en: 'The painting in motion, not only the result',     zh: '作画的过程，而不只是结果',             ja: '結果だけでなく、描いている時間' },
-  cross_platform:      { en: 'The same work where other audiences already are', zh: '把同样的作品放到别的受众所在之处',     ja: '別の観客がすでにいる場所にも同じ作品を' },
-  price_ladder_middle: { en: 'Something between ¥2,200 and ¥31,900',            zh: '在 2,200 日元与 31,900 日元之间的东西', ja: '2,200円と31,900円のあいだの何か' },
-
-  lookbook:            { en: 'Ten to twenty works as product mockups, one PDF', zh: '十到二十件作品的产品效果图，一份 PDF', ja: '製品モックアップ10〜20点、PDF一つ' },
-  findable_licensing:  { en: 'Listed where art directors look',                 zh: '出现在美术总监会看的地方',             ja: 'アートディレクターが見る場所に載る' },
-  first_licence:       { en: 'One paid usage, at any size',                     zh: '第一笔授权，多小都算',                 ja: '規模を問わず、最初の一件' },
-}
-
-const GOALS = [
-  { id: 'gallery_success', en: 'Gallery success', zh: '画廊这条路', ja: '画廊での成功',
-    ladder: ['body_of_work', 'group_shows', 'solo_shows', 'institutional_show',
-             'better_solo_venues', 'critical_press', 'art_fairs', 'representation'] },
-  { id: 'a_following', en: 'A following', zh: '一群固定的读者', ja: '見てくれる人たち',
-    ladder: ['daily_cadence', 'recognisable_style', 'named_series',
-             'process_video', 'cross_platform', 'price_ladder_middle'] },
-  { id: 'intl_licensing', en: 'International licensing', zh: '国际授权', ja: '海外のライセンス',
-    ladder: ['recognisable_style', 'named_series', 'lookbook',
-             'findable_licensing', 'first_licence', 'critical_press'] },
-]
-
-// Which OTHER goals each task also serves — derived, so it cannot drift.
-const alsoServes = (taskId, goalId) =>
-  GOALS.filter(g => g.id !== goalId && g.ladder.includes(taskId))
-
-// Done-ness from her live record. Anything we genuinely cannot see returns
-// false rather than guessing — an unearned tick is worse than a blank rung.
-function evidence(data, careerData) {
-  const ev   = careerData?.career_evidence || {}
-  const pos  = data?.career_position || {}
-  const shows = (pos.exhibitions || []).length
-  const press = (data?.press_features?.confirmed || []).length
-  return {
-    body_of_work:        shows > 0,
-    group_shows:         (ev.confirmed_group_shows || 0) >= 3,
-    solo_shows:          !!ev.has_solo_show,
-    institutional_show:  !!ev.has_institutional_show,
-    better_solo_venues:  false,
-    critical_press:      press >= 3,
-    art_fairs:           false,
-    representation:      !!ev.has_representation,
-
-    daily_cadence:       true,
-    recognisable_style:  true,
-    named_series:        false,
-    process_video:       false,
-    cross_platform:      false,
-    price_ladder_middle: false,
-
-    lookbook:            false,
-    findable_licensing:  false,
-    first_licence:       false,
-  }
-}
-
 const LADDER_COPY = {
   en: { title: 'Strategies', sub: 'Different goals, overlapping tasks, different orders',
-        done: (a, b) => `${a} of ${b} already true`, also: 'also counts toward',
+        done: (a, b) => `${a} of ${b} already true`, also: 'Also counts toward',
+        where: 'Where she stands —',
         proto: 'Prototype — the ladders are written by hand; the ticks are read from her record.' },
   zh: { title: '推进策略', sub: '不同的目标，重叠的事项，不同的顺序',
         done: (a, b) => `${b} 项里已经成立 ${a} 项`, also: '同时也算进',
+        where: '目前的情况——',
         proto: '原型——阶梯是手写的，勾选是从她的记录里读出来的。' },
   ja: { title: '進め方', sub: '目標ごとに、重なる項目を、違う順番で',
         done: (a, b) => `${b} 件中 ${a} 件はすでに満たしている`, also: '次にも効く',
+        where: '現状——',
         proto: 'プロトタイプ——梯子は手書き、チェックは記録から読んでいます。' },
 }
 
@@ -200,34 +125,42 @@ function Ladders({ data, careerData, lang }) {
       {GOALS.map((g) => {
         const total = g.ladder.length
         const hit = g.ladder.filter((t) => done[t]).length
-        // The first rung she has not reached — the only one drawn as current.
         const next = g.ladder.find((t) => !done[t])
         return (
           <div key={g.id} className="v2-ladder">
             <div className="v2-ladder-head">
-              <h3 className="v2-ladder-name">{pick(g)}</h3>
+              <h3 className="v2-ladder-name">{pick(g.name)}</h3>
               <span className="v2-ladder-count">{c.done(hit, total)}</span>
             </div>
             <div className="v2-ladder-bar">
               <span className="v2-ladder-bar-fill" style={{ width: `${(hit / total) * 100}%` }} />
             </div>
             <ol className="v2-rungs">
-              {g.ladder.map((t) => {
+              {g.ladder.map((t, i) => {
+                const st = STATES[t]
+                if (!st) return null
                 const isDone = done[t]
                 const isNext = t === next
                 const shared = alsoServes(t, g.id)
                 const state = isDone ? 'done' : isNext ? 'next' : 'later'
+                // The reason this rung matters HERE. A shared task argues
+                // differently per goal; where a goal has no override the task's
+                // own "what" stands.
+                const detail = pick(g.why?.[t]) || pick(st.detail)
                 return (
                   <li key={t} className={`v2-rung v2-rung--${state}`}>
                     <span className="v2-rung-mark">{isDone ? '✓' : isNext ? '▸' : '○'}</span>
-                    <span className="v2-rung-body">
-                      <span className="v2-rung-label">{pick(TASKS[t])}</span>
+                    <div className="v2-rung-body">
+                      <p className="v2-rung-label">
+                        <span className="v2-rung-n">{i + 1}</span>{pick(st.label)}
+                      </p>
+                      <p className="v2-rung-what">{detail}</p>
                       {shared.length > 0 && (
-                        <span className="v2-rung-also">
-                          {c.also} {shared.map(s => pick(s)).join(' · ')}
-                        </span>
+                        <p className="v2-rung-also">
+                          {c.also} {shared.map((x) => pick(x.name)).join(' · ')}
+                        </p>
                       )}
-                    </span>
+                    </div>
                   </li>
                 )
               })}
