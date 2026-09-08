@@ -36,6 +36,25 @@ class FollowerCountStrTests(unittest.TestCase):
         for m in ({}, {"social_presence": {"instagram": {"followers": "26k"}}}):
             self.assertNotIn("90", follower_count_str(m))
 
+    def test_reads_a_named_platform(self):
+        master = {"social_presence": {
+            "instagram": {"followers": "27k"},
+            "twitter_x": {"followers": "89.3k"},
+        }}
+        self.assertEqual(follower_count_str(master, "twitter_x"), "89.3k")
+        # The default must stay Instagram so existing callers are unaffected.
+        self.assertEqual(follower_count_str(master), "27k")
+
+    def test_non_instagram_platform_returns_empty_when_missing(self):
+        """A platform the profile has not recorded must yield "", never the
+        Instagram fallback. ibm_email_writer omits the whole X line on "", so an
+        unrecorded count can never be invented into an email to a real venue —
+        which is how the 90k ended up on the Instagram line in the first place."""
+        self.assertEqual(follower_count_str({}, "twitter_x"), "")
+        self.assertEqual(follower_count_str({"social_presence": {}}, "bilibili"), "")
+        self.assertEqual(
+            follower_count_str({"social_presence": {"twitter_x": {}}}, "twitter_x"), "")
+
 
 class ApplyPeppercornEditsTests(unittest.TestCase):
     """When the artist edits her statement in Peppercorn, that edit must reach

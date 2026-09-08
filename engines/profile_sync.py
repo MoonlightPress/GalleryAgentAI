@@ -82,18 +82,22 @@ def clear_drafts_stale(master: dict) -> dict:
 _FOLLOWER_FALLBACK = "26k"
 
 
-def follower_count_str(master: dict) -> str:
-    """Return her Instagram follower count as a short display string (e.g. "26k").
+def follower_count_str(master: dict, platform: str = "instagram") -> str:
+    """Return a follower count as a short display string (e.g. "26k").
 
     Reads the canonical artist_master_profile.json structure:
-      social_presence.instagram.followers      ("26k")  -> preferred
-      social_presence.instagram.followers_approx (26000) -> compacted to "26k"
-    Falls back to ``_FOLLOWER_FALLBACK`` if neither is present, so a malformed
-    profile can never silently inject a wrong number (or crash a prompt build).
+      social_presence.<platform>.followers        ("26k")  -> preferred
+      social_presence.<platform>.followers_approx (26000)  -> compacted to "26k"
+
+    ``platform`` defaults to instagram so existing callers are unchanged. Only
+    instagram falls back to ``_FOLLOWER_FALLBACK`` — for any other platform a
+    missing count returns "", because inventing a number for a platform the
+    profile has not recorded is exactly the failure this helper exists to
+    prevent. Callers must handle "" by omitting the platform entirely.
     """
     sp = (master or {}).get("social_presence")
     sp = sp if isinstance(sp, dict) else {}
-    insta = sp.get("instagram")
+    insta = sp.get(platform)
     insta = insta if isinstance(insta, dict) else {}
 
     disp = insta.get("followers")
@@ -109,4 +113,4 @@ def follower_count_str(master: dict) -> str:
             return (f"{k:.0f}k" if abs(k - round(k)) < 0.05 else f"{k:.1f}k")
         return str(n)
 
-    return _FOLLOWER_FALLBACK
+    return _FOLLOWER_FALLBACK if platform == "instagram" else ""

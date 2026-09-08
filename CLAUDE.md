@@ -249,16 +249,27 @@ accounts differ by 12×, so always name the platform.
 
 The old "Instagram ~90k" error is closed: the 90k was always Twitter.
 
-**The "don't mention Twitter in outreach" line is NOT a deliberate policy — it is
-an accident, and it is under review.** `ibm_email_writer.py` says "Do NOT mention
-Twitter or X". Traced to `d102a401` (2026-06-08), whose real intent was cosmetic
-— *one* handle in a cold email instead of two — and which in the same edit moved
-Twitter's ~90,000 onto the Instagram line, creating the error the project then
-spent months undoing. The count got fixed; this clause never did. It survived a
-full engine rewrite and hardened into a house rule here. **Scott did not make it**
-(asked 2026-09-08, did not recognise it). Net effect: outreach cites 27k when her
-largest, English-speaking audience is 89.3k. Do not change the engine until Scott
-rules — but do not cite this as his decision either.
+**Outreach may cite X — the old "never mention Twitter" line is gone (2026-09-08).**
+It was never a policy. It came from `d102a401` (2026-06-08), whose real intent was
+cosmetic — *one* handle in a cold email instead of two — and which in the same
+edit moved Twitter's ~90,000 onto the Instagram line, creating the error the
+project then spent months undoing. The count got fixed; the clause never did, and
+it hardened into a house rule here, cited for three months as Scott's decision.
+He lifted it the moment he was asked: *"you can mention x, i don't know why that
+would be a rule."*
+
+`ibm_email_writer.py` now emits **one** handle per email — two in a first approach
+reads like a media kit — chosen by audience: **X for English-language and
+international venues** (largest, English-speaking, illustration-community),
+**Instagram for Japanese venues** and wherever the daily diary is the point.
+Counts come from the profile via `follower_count_str(profile, platform)`, which
+returns `""` for a platform with no recorded count so the line is omitted rather
+than invented.
+
+**The general lesson, since this is the second one:** a rule stated in a doc with
+no rationale should be traced to its commit before being obeyed or repeated. This
+one and `recurring_calendar_engine`'s "third person throughout" were both local
+fixes that generalised themselves into policy, and both cost real work.
 
 ## Development Posture
 

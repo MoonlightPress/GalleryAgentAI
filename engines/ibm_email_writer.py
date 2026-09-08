@@ -79,8 +79,28 @@ def load_artist_context() -> str:
     insta   = handles.get("instagram", "@gegyjiji")
     followers = follower_count_str(profile)
 
+    # X is her LARGEST audience (89.3k vs Instagram's 27k) and reads English.
+    # It was excluded from these emails from 2026-06-08 to 2026-09-08 — not by
+    # anyone's decision, but as a leftover from a cosmetic "one link, not two"
+    # edit that also mis-filed Twitter's follower count onto Instagram. Scott
+    # lifted it on 2026-09-08: "you can mention x, i don't know why that would
+    # be a rule." Emitted only when the profile actually records a count, so a
+    # missing figure omits the line instead of inventing one.
+    x_handle = handles.get("twitter_x", "")
+    x_followers = follower_count_str(profile, "twitter_x")
+    handle_lines = [
+        f"Instagram: {insta} (https://www.instagram.com/gegyjiji/) "
+        f"(~{followers} followers, daily watercolor diary)"
+    ]
+    if x_handle and x_followers:
+        handle_lines.append(
+            f"X: {x_handle} (https://x.com/GegYjiji) (~{x_followers} followers — her largest "
+            "audience, English-speaking, rooted in the illustration community)"
+        )
+    handles_block = "\n".join(handle_lines)
+
     ctx = f"""Name: GEGYjiji (ジェジー / GEGY挤挤)
-Instagram: {insta} (https://www.instagram.com/gegyjiji/) (~{followers} followers, daily watercolor diary)
+{handles_block}
 Based: Tokyo (originally from Hunan Province, China; Beijing Fashion Institute — illustration/design)
 
 Key works (use ONLY these — no invented awards, residencies, representation, sales, or follower numbers):
@@ -111,6 +131,7 @@ Career stage: building exhibition history and relationships; NO gallery represen
 _ARTIST_CONTEXT_FALLBACK = """
 Name: GEGYjiji (ジェジー / 挤挤)
 Instagram: @gegyjiji (~27,000 followers, daily watercolor diary)
+X: @GegYjiji (~89,300 followers — her largest audience, English-speaking)
 Based: Tokyo. Watercolor. Daily diary practice since 2020. Colour Diary (2021).
 """.strip()
 
@@ -311,7 +332,7 @@ HARD RULES:
 - ONE practice-statement, phrased freshly. Describe her work as painting ORDINARY PLACES and the quiet atmosphere of everyday life — lead this draft with {place_hint}. Name a PLACE or its feeling in one natural sentence. Do NOT list objects or colours, and NEVER catalogue "red walls / alleyways / pools / green ponds" (赤い壁／路地／プール／緑の池) — an inventory of things reads like a form letter, not a person.
 - NAME ONE work that fits: Colour Diary + the daily diary for zine/book/café/consignment; Tide from China for gallery/exhibition contexts. Don't dump her whole CV — a café needs only the diary + Colour Diary.
 - DEADLINE: if a real FUTURE deadline is given above, mention it. Do not ask for information that is already public.
-- Mention Instagram @gegyjiji (https://www.instagram.com/gegyjiji/) once, naturally. No Twitter/X. Leave a clean slot for her name + portfolio link at the sign-off.
+- Mention exactly ONE account once, naturally — never both; two handles in a first approach reads like a media kit. Choose by audience: X @GegYjiji (https://x.com/GegYjiji) for English-language and international venues, since it is her largest audience and an illustration-community one; Instagram @gegyjiji (https://www.instagram.com/gegyjiji/) for Japanese venues and anywhere the daily watercolor diary is the point. Leave a clean slot for her name + portfolio link at the sign-off.
 - Render the venue's name in the email's own language; do not embed Japanese script inside an English sentence (or vice-versa).
 - Plain text only. No markdown, asterisks, or [brackets]. NEVER use em dashes (— or ―); use commas, periods, or 、。 instead. Subject and body must agree (edition numbers, years). Sign off as: GEGYjiji
 
