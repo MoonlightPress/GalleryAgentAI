@@ -251,3 +251,107 @@
 @media (prefers-reduced-motion: reduce) {
   .v2-ys { transition: none; }
 }
+
+/* ── Strategies: a ladder per goal ─────────────────────────────────────────
+   Same idiom as the pathway steps in SaffronPage.css — a small round marker
+   against a hairline-separated row — so the two read as the same kind of thing.
+   The one addition is the "also counts toward" line, which is the reason the
+   section exists: it says which single task moves more than one goal. */
+.v2-ladders { margin-top: 8px; }
+
+.v2-ladder {
+  margin-bottom: 30px;
+  padding-bottom: 4px;
+}
+.v2-ladder-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 7px;
+}
+.v2-ladder-name {
+  font-family: Georgia, serif;
+  font-size: 17px;
+  font-weight: bold;
+  color: #3d2b1a;
+  margin: 0;
+}
+.v2-ladder-count {
+  font-family: Georgia, serif;
+  font-size: 12.5px;
+  font-style: italic;
+  color: #8b6a3e;
+  white-space: nowrap;
+}
+/* One quiet rule showing how far along she already is. No number on it — the
+   count beside the name says that, and two of the same fact competes. */
+.v2-ladder-bar {
+  height: 3px;
+  background: #f0e3c4;
+  border-radius: 2px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.v2-ladder-bar-fill {
+  display: block;
+  height: 100%;
+  background: #7a9e7e;
+  border-radius: 2px;
+}
+
+.v2-rungs { list-style: none; margin: 0; padding: 0; }
+.v2-rung {
+  display: flex;
+  gap: 13px;
+  padding: 9px 0;
+  border-bottom: 1px solid #f6ecd8;
+}
+.v2-rung:last-child { border-bottom: none; }
+.v2-rung-mark {
+  width: 21px;
+  height: 21px;
+  flex: 0 0 21px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Georgia, serif;
+  font-size: 11px;
+  background: #f4ead6;
+  color: #b3a695;
+  margin-top: 1px;
+}
+.v2-rung--done .v2-rung-mark { background: #eef4e6; color: #5a7a30; font-weight: bold; }
+.v2-rung--next .v2-rung-mark { background: #fdf0e8; color: #c47a35; }
+
+.v2-rung-body { min-width: 0; }
+.v2-rung-label {
+  display: block;
+  font-family: Georgia, serif;
+  font-size: 14px;
+  color: #4a3826;
+  line-height: 1.5;
+}
+.v2-rung--done .v2-rung-label { color: #5a7a30; }
+.v2-rung--next .v2-rung-label { color: #c47a35; font-weight: bold; }
+.v2-rung--later .v2-rung-label { color: #8a7563; }
+
+.v2-rung-also {
+  display: block;
+  font-family: Georgia, serif;
+  font-size: 12px;
+  font-style: italic;
+  color: #9a8a70;
+  margin-top: 3px;
+}
+
+.v2-ladder-proto {
+  font-family: Georgia, serif;
+  font-size: 12px;
+  font-style: italic;
+  color: #9a8a70;
+  margin: 0;
+  padding-top: 12px;
+  border-top: 1px solid #efe3cb;
+}
