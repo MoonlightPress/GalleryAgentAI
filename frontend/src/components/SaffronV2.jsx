@@ -25,7 +25,7 @@ import {
   saffronTx,
   RecurringDoors, GrantLandscape,
   CareerPosition, ComparableArtists, VenueTracker, PressFeatures,
-  Futures, StrategicPathway, BookEconomics, PublisherFork,
+  Futures, BookEconomics, PublisherFork,
   SectionOpenContext, SectionErrorBoundary, SectionShell,
 } from './SaffronPage'
 import { saffronHero, saffronHeroNight } from '../utils/heroImages'
@@ -101,11 +101,11 @@ const LADDER_COPY = {
   en: { title: 'Strategies', sub: 'Different goals, overlapping tasks, different orders',
         done: (a, b) => `${a} of ${b} already reached`, also: 'Also counts toward',
         nextUp: 'Next:',
-        proto: 'Prototype — the ladders are written by hand; the ticks are read from her record.' },
+        proto: 'Prototype — the ladders are written by hand; the ticks are read from your record.' },
   zh: { title: '推进策略', sub: '不同的目标，重叠的事项，不同的顺序',
         done: (a, b) => `${b} 级里已经到了 ${a} 级`, also: '同时也算进',
         nextUp: '下一级：',
-        proto: '原型——阶梯是手写的，勾选是从她的记录里读出来的。' },
+        proto: '原型——阶梯是手写的，勾选是从你的记录里读出来的。' },
   ja: { title: '進め方', sub: '目標ごとに、重なる項目を、違う順番で',
         done: (a, b) => `${b} 件中 ${a} 件はすでに満たしている`, also: '次にも効く',
         where: '現状——',
@@ -502,7 +502,11 @@ export default function SaffronV2({ nav }) {
                 book_economics: <BookEconomics data={data.book_economics} lang={lang} />,
                 publisher_fork: <PublisherFork data={data.book_economics} lang={lang} />,
               }} />)}
-            {SB('pathway', <StrategicPathway data={data.pathway} t={t} />)}
+            {/* StrategicPathway is not rendered here: it is titled "Strategies"
+                and so is Ladders, so the tab carried the section twice. The
+                ladders supersede it — its eight steps ARE the gallery_success
+                ladder, and two more sit beside them. It still renders on the live
+                Saffron page, untouched. */}
             {SB('ladders', <Ladders data={data} careerData={careerData} lang={lang} />)}
           </SectionOpenContext.Provider>
         )}

@@ -858,7 +858,10 @@ _COMMISSIONS = [
 
 
 _FIRST_STEPS = {
-    "label": _t("What to do first", "先做什么"),
+    # "What to do first" / "先做什么" read as an order of business she owed
+    # someone. It is five optional experiments, none of them due — the heading
+    # now offers rather than instructs (Scott, 2026-09-08).
+    "label": _t("Good places to start", "几个不错的起点"),
     # Three things the first cold reader was right about. FACE was buried at the
     # 40% mark and absent from this list, and it is the ONLY dated item in the
     # whole tab — so it goes first, with the date on it. The route names now
@@ -892,9 +895,9 @@ _FIRST_STEPS = {
                     "要动手做的：一份可以反复用的“费用＋授权”模板，趁还没有人来问先写好。")},
     ],
     "close": _t(
-        "Five experiments. What they tell you will be worth more than picking one of the five "
+        "Five experiments. What they turn up is worth more than choosing between the five "
         "from here.",
-        "五个实验做下来，你会比现在挑来挑去清楚得多。"),
+        "五个实验做下来，会比现在凭空挑选清楚得多。"),
 }
 
 
