@@ -21,7 +21,13 @@
      turns its `position: sticky` into `relative` and drops z-index 40 to 1. */
   position: relative;
   isolation: isolate;
-  background: var(--parchment);
+  /* The page background the visual pass was actually for (docs/NEXT_PHASE_
+     saffron_visual_pass.md): texture-plain-CHOSEN, tiled — it was picked over the
+     floral wash specifically because it repeats without an obvious seam. The
+     colour token stays as the fallback/blend base beneath it, same pattern as
+     the nav's wash in Nav.css. Card/section fills are untouched for now — whether
+     they get textured too is still an open question, not decided here. */
+  background: url('../assets/texture/paper-wash.webp') repeat, var(--parchment);
 }
 
 .saffron-hero {
