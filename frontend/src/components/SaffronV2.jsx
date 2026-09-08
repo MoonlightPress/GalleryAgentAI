@@ -32,28 +32,30 @@ import { isNightNow } from '../utils/timeOfDay'
 import './SaffronPage.css'
 import './SaffronV2.css'
 
+// The first version of this was a scoreboard — 0 new / 24 closed / 49 closing —
+// sitting above the tabs. Counts of things she cannot act on are not
+// information: she never saw the 24 that closed, and 49 is not a number anyone
+// reads. So it is one sentence now, it lives inside the year tab where time is
+// the subject, and when something IS new it names the thing rather than tallying
+// it.
 const PULSE_COPY = {
   en: {
-    since: (d) => `Since you last looked · ${d}`,
-    fallback: (d) => `In the last month · since ${d}`,
-    isNew: 'new', closed: 'closed', closing: 'closing within the month',
-    quiet: 'Nothing new this time — the search runs monthly, and the last one was August.',
+    quiet: (d) => `Nothing new since ${d}. The search runs about once a month.`,
+    some: (n, d) => n === 1
+      ? `One new thing since ${d}.`
+      : `${n} new things since ${d}.`,
     coverage: (ahead, served) =>
-      `${ahead} of ${served} entries carry a date we can read. The rest are undated or already gone.`,
+      `${ahead} of ${served} entries carry a date we can read; the rest are undated or already past.`,
   },
   zh: {
-    since: (d) => `自你上次查看 · ${d}`,
-    fallback: (d) => `最近一个月 · 自 ${d}`,
-    isNew: '新增', closed: '已截止', closing: '本月内截止',
-    quiet: '这次没有新的——检索每月进行一次，上一次是八月。',
+    quiet: (d) => `自 ${d} 起没有新的。检索大约每月一次。`,
+    some: (n, d) => `自 ${d} 起，新增 ${n} 条。`,
     coverage: (ahead, served) =>
       `${served} 条中有 ${ahead} 条带着可读的日期，其余的没有日期，或已经过去。`,
   },
   ja: {
-    since: (d) => `前回ご覧になってから · ${d}`,
-    fallback: (d) => `この一か月 · ${d} 以降`,
-    isNew: '新着', closed: '締切済み', closing: '今月中に締切',
-    quiet: '今回は新着なし——検索は月に一度で、前回は八月でした。',
+    quiet: (d) => `${d} 以降、新しいものはありません。検索は月に一度ほどです。`,
+    some: (n, d) => `${d} 以降、新しいものが ${n} 件。`,
     coverage: (ahead, served) =>
       `${served} 件のうち ${ahead} 件に読み取れる日付があります。残りは日付がないか、すでに過ぎています。`,
   },
@@ -61,9 +63,9 @@ const PULSE_COPY = {
 
 const V2_COPY = {
   en: {
-    tabs: ['What’s moving', 'Where you stand', 'Ways forward'],
+    tabs: ['Five futures', 'The year', 'Where you stand'],
     year: 'The year ahead', yearSub: 'Dated entries · dots are doors that open that month',
-    keyDoor: 'a door opens', keyNone: 'nothing dated yet',
+    keyDoor: 'a door opens', keyNone: '— nothing dated yet',
     dated: (n) => `${n} dated`, nothingDated: 'Nothing dated yet',
     doorsHere: (n) => n === 1 ? '1 door opens this month' : `${n} doors open this month`,
     more: (n) => `Show the other ${n}`, less: 'Show fewer',
@@ -71,9 +73,9 @@ const V2_COPY = {
     loading: 'Saffron is looking…',
   },
   zh: {
-    tabs: ['正在发生', '你所处的位置', '可以走的路'],
+    tabs: ['五种将来', '这一年', '你所处的位置'],
     year: '未来一年', yearSub: '有日期的条目 · 圆点表示当月开放的门',
-    keyDoor: '有门开放', keyNone: '暂无日期',
+    keyDoor: '有门开放', keyNone: '— 暂无日期',
     dated: (n) => `${n} 条有日期`, nothingDated: '暂无有日期的条目',
     doorsHere: (n) => `本月有 ${n} 扇门开放`,
     more: (n) => `显示其余 ${n} 条`, less: '收起',
@@ -81,9 +83,9 @@ const V2_COPY = {
     loading: 'Saffron 正在观察…',
   },
   ja: {
-    tabs: ['動いているもの', '現在地', '進める道'],
+    tabs: ['五つの未来', 'この一年', '現在地'],
     year: 'これからの一年', yearSub: '日付のある項目 · 点はその月に開く扉',
-    keyDoor: '扉が開く', keyNone: '日付未定',
+    keyDoor: '扉が開く', keyNone: '— 日付未定',
     dated: (n) => `${n} 件に日付あり`, nothingDated: '日付のある項目はまだありません',
     doorsHere: (n) => `今月は ${n} 件の扉が開きます`,
     more: (n) => `残り ${n} 件を表示`, less: '折りたたむ',
@@ -97,27 +99,27 @@ const pc = (lang) => PULSE_COPY[lang] || PULSE_COPY.en
 const MONTH_EN = ['January', 'February', 'March', 'April', 'May', 'June',
   'July', 'August', 'September', 'October', 'November', 'December']
 
-// ── Pulse: the one genuinely new surface ─────────────────────────────────────
+// ── Pulse: one line, and it names things rather than counting them ──────────
 function Pulse({ pulse, lang }) {
   if (!pulse) return null
   const c = pc(lang)
-  const head = pulse.since_source === 'visit' ? c.since(pulse.since) : c.fallback(pulse.since)
-  const rows = [
-    ['new', pulse.new_count, c.isNew],
-    ['closed', pulse.closed_count, c.closed],
-    ['closing', pulse.closing_count, c.closing],
-  ]
+  const n = pulse.new_count
+  const when = pulse.since
+  const locName = (o) =>
+    (lang === 'zh' && o.name_zh) ? o.name_zh : (lang === 'ja' && o.name_ja) ? o.name_ja : o.name
   return (
-    <div className="v2-pulse">
-      <p className="v2-pulse-head">{head}</p>
-      {rows.map(([k, n, label]) => (
-        <div key={k} className="v2-pulse-row">
-          <span className={`v2-pulse-n${n === 0 ? ' v2-pulse-n--zero' : ''}`}>{n}</span>
-          <span>{label}</span>
-        </div>
-      ))}
-      {pulse.new_count === 0 && <p className="v2-pulse-say">{c.quiet}</p>}
-    </div>
+    <p className="v2-pulse">
+      {n === 0 ? c.quiet(when) : c.some(n, when)}
+      {n > 0 && (
+        <span className="v2-pulse-names">
+          {pulse.new.slice(0, 3).map((o, i) => (
+            <a key={i} className="v2-pulse-name" href={o.url || undefined} target="_blank" rel="noreferrer">
+              {locName(o)}
+            </a>
+          ))}
+        </span>
+      )}
+    </p>
   )
 }
 
@@ -129,33 +131,39 @@ function Pulse({ pulse, lang }) {
 // same twelve cells and June reads honestly — nothing scraped, one door.
 function YearStrip({ slots, selected, onSelect, lang, calMonths }) {
   const c = cp(lang)
+  // The wash is a share of the busiest month, so the tallest column is always
+  // full and the shape reads the same whatever the absolute numbers are. Floored
+  // at 6% so a month with one entry still shows a tint rather than nothing.
+  const peak = Math.max(1, ...slots.map(s => s.dated))
   return (
     <div className="v2-year">
       <div className="v2-yearstrip">
         {slots.map((s) => {
           const on = s.key === selected
-          const quiet = s.dated === 0 && s.doors.length === 0
+          const fill = s.dated === 0 ? 0 : Math.max(6, Math.round((s.dated / peak) * 100))
           return (
             <button
               key={s.key}
-              className={`v2-ys${on ? ' v2-ys--on' : ''}${quiet ? ' v2-ys--quiet' : ''}`}
+              className={`v2-ys${on ? ' v2-ys--on' : ''}`}
+              style={{ '--fill': `${fill}%` }}
               onClick={() => onSelect(s.key)}
               aria-pressed={on}
+              title={`${calMonths[s.month - 1]} ${s.year}`}
             >
-              <span className="v2-ys-m">{calMonths[s.month - 1]}</span>
-              <span className={`v2-ys-n${s.dated === 0 ? ' v2-ys-n--none' : ''}`}>
-                {s.dated === 0 ? '—' : s.dated}
-              </span>
               <span className="v2-ys-doors">
                 {s.doors.map((d) => <i key={d.id} className="v2-ys-door" />)}
               </span>
+              <span className={`v2-ys-n${s.dated === 0 ? ' v2-ys-n--none' : ''}`}>
+                {s.dated === 0 ? '—' : s.dated}
+              </span>
+              <span className="v2-ys-m">{calMonths[s.month - 1]}</span>
             </button>
           )
         })}
       </div>
       <p className="v2-ys-key">
         <span><i className="v2-ys-door" /> {c.keyDoor}</span>
-        <span>— {c.keyNone}</span>
+        <span>{c.keyNone}</span>
       </p>
     </div>
   )
@@ -222,7 +230,10 @@ export default function SaffronV2({ nav }) {
   const [rawCareer, setRawCareer] = useState(null)
   const [pulse, setPulse] = useState(null)
   const [error, setError] = useState(null)
-  const [tab, setTab] = useState('moving')
+  // Futures leads. It contradicts Bible08, which says Saffron does not advise —
+  // but it is the only section she has ever deliberately opened, four separate
+  // times, and the behaviour is better evidence than the document.
+  const [tab, setTab] = useState('forward')
   const [selected, setSelected] = useState(null)
 
   useEffect(() => {
@@ -290,7 +301,7 @@ export default function SaffronV2({ nav }) {
   if (error) return <div className="sf-error">{t('sf.error')}</div>
   if (!data) return <div className="sf-loading">{c.loading}</div>
 
-  const TABS = [['moving', c.tabs[0]], ['standing', c.tabs[1]], ['forward', c.tabs[2]]]
+  const TABS = [['forward', c.tabs[0]], ['moving', c.tabs[1]], ['standing', c.tabs[2]]]
   const SB = (k, node) => <SectionErrorBoundary key={`${tab}-${k}`}>{node}</SectionErrorBoundary>
 
   return (
@@ -304,8 +315,6 @@ export default function SaffronV2({ nav }) {
         <p className="v2-flag">
           Prototype · <code>#observe2</code> · not linked from anywhere
         </p>
-
-        <Pulse pulse={pulse} lang={lang} />
 
         <div className="sf-tabs v2-tabs">
           {TABS.map(([key, label]) => (
@@ -321,6 +330,7 @@ export default function SaffronV2({ nav }) {
           <>
             <div className="v2-block">
               <h2 className="v2-h">{c.year}</h2>
+              <Pulse pulse={pulse} lang={lang} />
               <p className="v2-sub">{c.yearSub}</p>
               <YearStrip
                 slots={slots}

@@ -1071,6 +1071,12 @@
   padding: 2px 8px;
   border-radius: 8px;
 }
+/* One warm ramp, deepest = most urgent. Ordinal, so a single hue at three
+   intensities rather than three different colours — and the pill still spells
+   the level out, so colour is reinforcement, never the only carrier. */
+.sf-venue-priority--high   { color: #8f3f12; background: #f9dfc6; font-weight: bold; }
+.sf-venue-priority--medium { color: #96601f; background: #fdf0d8; }
+.sf-venue-priority--low    { color: #6f5f4d; background: #f1eadd; }
 
 .sf-venue-last {
   font-family: Georgia, serif;

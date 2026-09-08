@@ -801,10 +801,18 @@ export function StrategicPathway({ data, t }) {
   const { lang } = useLanguage()
   const done    = data.steps.filter(s => s.done).length
   const summary = `${data.goal} · ${done} / ${data.steps.length}`
+  // The title used to be "Pathway: {goal}", which read as one named route from a
+  // catalogue of them — inviting "Pathway: Internet famous" as a sibling that does
+  // not exist. But the first fix ("The steps from here") overcorrected into
+  // claiming to be THE path, and it is not: it is the one route her current record
+  // points at, and she is free to take another — the five futures sitting directly
+  // above it are exactly those alternatives. "One way from here" says both: a real
+  // sequence, and not the only one. The destination moves to the subtitle, where
+  // the timeline already lives.
   return (
     <SectionShell
-      title={t('sf.sec.pathway', { goal: data.goal })}
-      subtitle={t('sf.sub.pathway', { timeline: data.timeline_estimate })}
+      title={t('sf.sec.pathway')}
+      subtitle={t('sf.sub.pathway', { goal: data.goal, timeline: data.timeline_estimate })}
       summary={summary}
     >
       <div className="sf-steps">
@@ -2085,7 +2093,15 @@ function VenueTrackerRow({ v, lang, t }) {
         <a className="sf-venue-name sf-ext-link" href={sfSearch(`${v.name} ${v.city || ''}`)} target="_blank" rel="noreferrer">{v.name} ↗</a>
         <span className="sf-venue-type">{v.type} · {v.city}</span>
         <span className="sf-venue-status" style={{ color: venueStatusColor(cur.status) }}>{venueStatusLabel(cur.status, lang)}</span>
-        {v.priority && <span className="sf-venue-priority">{t('sf.venue.priority', { n: v.priority })}</span>}
+        {/* The pill was one flat amber whatever the priority was, so the eight
+            rooms that matter looked exactly like the eleven that don't. One warm
+            ramp: deepest for high, muted for low. The word is still in the label,
+            so colour is never carrying the meaning on its own. */}
+        {v.priority && (
+          <span className={`sf-venue-priority sf-venue-priority--${String(v.priority).toLowerCase()}`}>
+            {t('sf.venue.priority', { n: v.priority })}
+          </span>
+        )}
         <button className="sf-venue-edit" onClick={() => setEditing(e => !e)}>
           {editing ? (VENUE_CANCEL[lang] || VENUE_CANCEL.en) : (VENUE_EDIT[lang] || VENUE_EDIT.en)}
         </button>

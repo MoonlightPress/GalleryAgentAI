@@ -3033,6 +3033,23 @@ def get_saffron():
     crm_list = crm_raw.get("contacts", []) if isinstance(crm_raw, dict) else crm_raw
     crm_list = _normalize_contact_priorities(crm_list)
 
+    _VENUE_PRIORITY_ORDER = {"high": 0, "medium": 1, "low": 2}
+    # How far the relationship has actually travelled — used only to break ties
+    # inside a priority band, so an engaged room sits above an untouched one.
+    _VENUE_STATUS_ORDER = {
+        "relationship": 0, "ongoing": 1, "responded": 2, "submitted": 3,
+        "sent_inquiry": 4, "contacted": 5, "in_contact": 6, "ready_to_review": 7,
+        "researching": 8, "cold": 9, "not_a_fit": 10,
+    }
+
+    def _venue_rank(c):
+        ca = c.get("crm_analysis") or {}
+        return (
+            _VENUE_PRIORITY_ORDER.get(str(ca.get("priority", "")).lower(), 3),
+            _VENUE_STATUS_ORDER.get(str(c.get("status", "")).lower(), 9),
+            str(c.get("name", "")).lower(),
+        )
+
     venue_tracker = {
         "tracked": [
             {
@@ -3045,7 +3062,7 @@ def get_saffron():
                 "priority":       (c.get("crm_analysis") or {}).get("priority", ""),
                 "next_action":    (c.get("crm_analysis") or {}).get("next_action", ""),
             }
-            for c in crm_list
+            for c in sorted(crm_list, key=_venue_rank)
         ],
         "total": len(crm_list),
         # An "active relationship" is a venue we've actually engaged: contacted at
