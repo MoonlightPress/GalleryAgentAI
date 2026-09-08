@@ -16,7 +16,6 @@ import {
   PRESS_PITCH_MAP,
   GRANT_LANDSCAPE,
   REVENUE_STREAMS,
-  CAREER_DEPENDENCY_MAP,
   PRICING_INTELLIGENCE,
   COLLABORATION_MAP,
   COLLECTOR_ECOSYSTEM,
@@ -412,6 +411,13 @@ const SF_JA = {
 // strings come from the payload's own `_i18n` (rebuilt from live data every run,
 // so it survives pipeline updates); the static authored prose comes from the
 // SF_* constants above.
+// saffronTx is a translation helper, not a component, and SaffronV2 imports it
+// alongside the section components. Splitting it into its own module is a
+// cross-file refactor; the cost of leaving it is a slower hot-reload in dev and
+// nothing at runtime. Scoped rather than left standing so this file can sit in
+// `lint:changed`, which is where no-dupe-keys catches stale _zh translations
+// shadowing corrected ones — that bit six times in one session.
+// eslint-disable-next-line react-refresh/only-export-components
 export function saffronTx(raw, lang) {
   if (!raw) return raw
   if (lang === 'zh') return deepTranslate(raw, { ...(raw?._i18n?.zh || {}), ...SF_ZH, ...SF_ZH_PEERS, ...SF_ZH_CV })
@@ -1972,68 +1978,6 @@ export function Futures({ data, t, lang, components }) {
   )
 }
 
-function LongTermScenarios({ data, t }) {
-  // These are her three possible LIVES, not bets. We label them by FIT/alignment,
-  // never probability — and no dream-path gets a red "unlikely" tag. Red (#b03020)
-  // is retired here; the lowest band is a warm neutral, not a warning.
-  const FIT_COLORS = { high: '#5a7a30', moderate: '#c47a35', low: '#a07a45' }
-  // fit/alignment relabel: 高→最契合, 中→契合, 低→可选 (most-fitting / fitting /
-  // an option) — kept local so it overrides the en/ja/zh "probability" strings
-  // without touching the shared translations file.
-  const FIT_LABELS = {
-    zh: { high: '最契合', moderate: '契合', low: '可选' },
-    ja: { high: '最も合う', moderate: '合う', low: '選択肢' },
-    en: { high: 'best fit', moderate: 'good fit', low: 'an option' },
-  }
-  const { lang } = useLanguage()
-  const fitLabel = (p) => (FIT_LABELS[lang] || FIT_LABELS.en)[p] || (FIT_LABELS.en[p] || p)
-  const summary = `3 paths · ${data.horizon}`
-  return (
-    <SectionShell
-      title={t('sf.sec.longTerm')}
-      subtitle={t('sf.sub.longTerm', { horizon: data.horizon })}
-      summary={summary}
-      trackId="long_term_scenarios"
-    >
-      <div className="sf-scenarios">
-        {data.scenarios.map((s, i) => (
-          <div key={i} className="sf-scenario">
-            <div className="sf-scenario-header">
-              <div>
-                <div className="sf-scenario-name">{s.name}</div>
-                <div className="sf-scenario-tagline">{s.tagline}</div>
-              </div>
-              <span
-                className="sf-scenario-prob"
-                style={{ color: FIT_COLORS[s.probability] || '#7a5030' }}
-              >
-                {fitLabel(s.probability)}
-              </span>
-            </div>
-            <p className="sf-scenario-desc">{s.description}</p>
-            <div className="sf-block-label" style={{ marginTop: 14 }}>{t('sf.label.requiresNow')}</div>
-            <ul className="sf-scenario-requires">
-              {s.requires_now.map((r, j) => <li key={j}>{r}</li>)}
-            </ul>
-            <div className="sf-scenario-footer">
-              <div className="sf-scenario-bottleneck">
-                <strong>{t('sf.label.bottleneck')}</strong> {s.bottleneck}
-              </div>
-              <div className="sf-scenario-signal">
-                <strong>{t('sf.label.rightIf')}</strong> {s.best_fit_signal}
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
-      <div className="sf-pathway-callout sf-pathway-next" style={{ marginTop: 28 }}>
-        <div className="sf-callout-label">{t('sf.label.saffronView')}</div>
-        <p className="sf-callout-text">{data.saffron_view}</p>
-      </div>
-    </SectionShell>
-  )
-}
-
 // A real tracker, not a list (Scott, 2026-06-26): each venue's status, last-
 // contacted date and a note are editable and persist to contact_memory.json via
 // PATCH /api/contacts/{name} — the same store Peppercorn writes to, so the two
@@ -2409,54 +2353,6 @@ function RevenueStreams({ t, lang }) {
 }
 
 // ── Career Dependency Map ──────────────────────────────────────────────────
-
-const MILESTONE_DOT_COLORS = {
-  current: '#16a34a',
-  next:    '#d97706',
-  future:  '#9ca3af',
-  horizon: '#9ca3af',
-}
-
-function CareerDependencyMap({ t, lang }) {
-  const d = CAREER_DEPENDENCY_MAP
-  return (
-    <SectionShell title={t(d.titleKey)} summary={t(d.summaryKey)}>
-      <div className="sf-depmap">
-        {d.milestones.map((milestone, mi) => {
-          const dotColor = MILESTONE_DOT_COLORS[milestone.status] || '#9ca3af'
-          const phaseKey = `sf.depmap.${milestone.status}`
-          const phaseLabel = t(phaseKey) || milestone.label
-          return (
-            <div key={mi} className={`sf-depmap-milestone sf-depmap-milestone--${milestone.status}`}>
-              <div className="sf-depmap-milestone-header">
-                <span className="sf-depmap-dot" style={{ background: dotColor }} />
-                <span className="sf-depmap-phase-label">{phaseLabel}</span>
-              </div>
-              <div className="sf-depmap-items">
-                {milestone.items.map((item, ii) => (
-                  <div key={ii} className="sf-depmap-item">
-                    <div className="sf-depmap-complete">
-                      <span className="sf-depmap-complete-label">{t('sf.depmap.completes')}</span>
-                      {locF(item, 'complete', lang)}
-                    </div>
-                    <div className="sf-depmap-unlocks">
-                      <span className="sf-depmap-unlocks-label">{t('sf.depmap.unlocks')}</span>
-                      <ul className="sf-depmap-unlocks-list">
-                        {(locF(item, 'unlocks', lang) || item.unlocks || []).map((unlock, ui) => (
-                          <li key={ui}>{unlock}</li>
-                        ))}
-                      </ul>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          )
-        })}
-      </div>
-    </SectionShell>
-  )
-}
 
 // ── Career Momentum Tracker ────────────────────────────────────────────────
 

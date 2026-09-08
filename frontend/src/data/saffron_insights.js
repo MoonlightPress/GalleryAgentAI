@@ -32,7 +32,7 @@ export const LICENSING_LANDSCAPE = {
   "where_to_start": "Two things cost nothing and can be done today: put \"licensing available\" and a contact link in your bio, and put 10–20 works into one PDF shown as product mock-ups. Neither is a guarantee of anything — nobody publishes how these deals actually originate — but they are what a brand needs to find and picture before a conversation can start at all.",
   "where_to_start_zh": "有两件事不花钱、今天就能做：在简介里写上「接受授权合作」并放一个联系方式链接；把 10–20 件作品做成产品效果图，整理成一个 PDF。这两件事都不保证什么——没有人公开过这类合作到底是怎么开始的——但它们是品牌方能找到你、并想象得出成品的前提。",
   "lead": "Your watercolor and stationery-leaning work suits calendars, postcards and greeting cards, washi tape and stickers, and notebook and planner covers. Two Japanese brands verifiably license illustrators for exactly this: Hobonichi, through its standing Artist Collection line, and Mark's, through EDiT.",
-  "lead_zh": "你的水彩、以及偏文具感的那一部分作品，适合日历、明信片与贺卡、和纸胶带与贴纸，以及笔记本和手帐封面。有两个日本品牌确实在为这类东西签约插画师：ほぼ日（通过常设的「アーティストコレクション」系列）和 Mark's（通过 EDiT）。",
+  "lead_zh": "你的水彩，尤其偏文具感的那一部分，适合日历、明信片和贺卡、和纸胶带和贴纸，还有笔记本和手账封面。有两个日本品牌确实在为这类东西签约插画师：ほぼ日（通过常设的「アーティストコレクション」系列）和 Mark's（通过 EDiT）。",
   "items": [
     {
       "category": "Japanese Stationery Brands",
@@ -42,7 +42,7 @@ export const LICENSING_LANDSCAPE = {
           "name": "Hobonichi",
           "name_zh": "ほぼ日",
           "note": "Verified: they run a standing Artist Collection line for Techo covers, and the 2027 edition includes named illustrators. Not verified, and worth knowing before you spend time on it: they publish no submission or discovery route at all — their only public address is order support. The one real entry route was an open call that closed in 2010. If you tag, the live tag is #ほぼ日手帳.",
-          "note_zh": "已核实：他们有常设的「アーティストコレクション」手帐封面系列，2027 年版里有具名的插画师。没有核实、而且在投入时间前值得知道的是：他们完全没有公开任何投稿或选人的入口——唯一的公开邮箱是订单客服。真正存在过的入口是一次公开征集，2010 年就结束了。如果要打标签，现在在用的是 #ほぼ日手帳。",
+          "note_zh": "已核实：他们有常设的「アーティストコレクション」手账封面系列，2027 年版上写了插画师的名字。有一件事没能核实，但在花时间之前值得知道：他们完全没有公开任何投稿或选人的入口——唯一的公开邮箱是订单客服。真正存在过的入口是一次公开征集，2010 年就结束了。如果要打标签，现在在用的是 #ほぼ日手帳。",
           "tier": "medium_term"
         },
         {
@@ -56,7 +56,7 @@ export const LICENSING_LANDSCAPE = {
           "name": "Mark's Inc.",
           "name_zh": "Mark's Inc.",
           "note": "Verified: the EDiT line licenses illustrators for planner covers — the 2026 edition ran 79 cover variants, including a collaboration with a painter. No submissions route is published, and an earlier claim here that they are \"open to submissions from Japanese-resident artists\" was invented; there is no such rule and no such door.",
-          "note_zh": "已核实：EDiT 系列确实为手帐封面签约插画师——2026 年版做了 79 种封面，其中包括一次与画家的联名。他们没有公开投稿入口；这一页早先写的「面向在日艺术家开放投稿」是编出来的，既没有这条规则，也没有这扇门。",
+          "note_zh": "已核实：EDiT 系列确实为手账封面签约插画师——2026 年版做了 79 种封面，其中包括一次与画家的联名。他们没有公开投稿入口；这一页早先写的「面向在日艺术家开放投稿」是编出来的，既没有这条规则，也没有这扇门。",
           "tier": "medium_term"
         }
       ]
@@ -69,7 +69,7 @@ export const LICENSING_LANDSCAPE = {
           "name": "Book cover art (装画)",
           "name_zh": "书籍封面（装画）",
           "note": "Publishers commission cover art rather than license existing paintings. The Japan Illustrators' Association publishes a rate grid, and its figures are floors, not ceilings — covers run from ¥30,000 to ¥150,000 and up. Watercolour sits in its D rank, where a book cover starts at ¥70,000 and a magazine or catalogue cover at ¥100,000, so the bottom of that grid is not your row. It is dated January 2020 and says itself that prices will have moved since. There are named, dated ways in, which is what this entry used to be missing: ザ・チョイス, the quarterly competition run by illustration magazine, judged by a single rotating judge; and 装画コンペ at GALLERY HOUSE MAYA, judged by working book designers, open to all nationalities (資格：不問), grand prize a solo show — check its current status first, it was on hiatus in 2024.",
-          "note_zh": "出版社是「委托」封面画，而不是买断你已经画好的作品。日本插画家协会公开了一张报价表，上面的数字是起价，不是上限——封面从 3 万日元到 15 万日元以上都有。水彩在它的 D 级，书籍封面从 7 万日元起，杂志或画册封面从 10 万日元起，所以表格最低的那一档并不是你这一行。表格标的是 2020 年 1 月，它自己也写了价格之后会变。而且是有具名、有日期的入口的——这正是这一条以前缺的：《ザ・チョイス》，illustration 杂志办的季度赛，每期由一位评委轮流评选；以及 GALLERY HOUSE MAYA 的「装画コンペ」，由在职的装帧设计师评审，不限国籍（資格：不問），大奖是一个个展——先确认它现在的状态，2024 年曾经停办过一届。",
+          "note_zh": "出版社是来「约」封面画的，不会买断你已经画好的画。日本插画家协会公开过一张报价表，上面写的是起价，不是上限——封面从 3 万日元到 15 万日元以上都有。水彩属于表上的 D 级：书籍封面 7 万日元起，杂志或画册封面 10 万日元起，所以最低那一档不是你这一类。表标的日期是 2020 年 1 月，它自己也写了价格以后会变。而且是有具名、有日期的入口的——这正是这一条以前缺的：《ザ・チョイス》，illustration 杂志办的季度赛，每期由一位评委轮流评选；以及 GALLERY HOUSE MAYA 的「装画コンペ」，由在职的装帧设计师评审，不限国籍（資格：不問），大奖是一个个展——先确认它现在的状态，2024 年曾经停办过一届。",
           "tier": "medium_term"
         },
         {
@@ -103,7 +103,7 @@ export const LICENSING_LANDSCAPE = {
           "name": "What an audience is worth here",
           "name_zh": "受众在这件事里值多少",
           "note": "A following is a real asset in these conversations — a brand is buying reach as well as a picture, and yours runs to about 168,000 across four accounts. What nobody publishes is how often that converts into a deal, or what it adds to a fee. Anyone who tells you a number for that is guessing.",
-          "note_zh": "在这类洽谈里，受众是实打实的资产——品牌买的既是一张画，也是触达，而你四个账号合计大约有 168,000 人。没有人公开过的是：这有多大概率真的换来一份合约，或者能让报价多出多少。谁给你一个数字，谁就是在猜。",
+          "note_zh": "在这类洽谈里，受众是实打实的资产——品牌买的是一张画，也是这张画能被多少人看见，而你四个账号加起来大约有 16.8 万人。至于这有多大可能真换来一份合约、能让报价多出多少，没有人公开过。谁给你数字，谁就是在猜。",
           "tier": "now"
         }
       ]
@@ -115,7 +115,7 @@ export const PRESS_PITCH_MAP = {
   "titleKey": "sf.press.title",
   "summaryKey": "sf.press.summary",
   "where_to_start": "Press comes from being found, not applying — so tag your strongest work where editors look (#美術手帖, #illustration) and keep a one-page press kit ready (bio, statement, 10 images) for when they reach out. The one exception you can pitch directly: It's Nice That — a daily watercolor practice is exactly their thing.",
-  "where_to_start_zh": "媒体报道来自被发现，而非主动投稿——所以把你最好的作品打上编辑会看的标签（#美術手帖、#illustration），并随时备好一页纸的新闻资料包（简介、创作陈述、10 张图），以便对方联系时立刻可发。唯一可以直接投稿的例外是 It's Nice That——每日水彩创作正是他们钟爱的那一类。",
+  "where_to_start_zh": "媒体报道多半是编辑自己发现的，不是投稿投来的——所以把你最好的作品打上编辑会看的标签（#美術手帖、#illustration），并随时备好一页纸的新闻资料包（简介、创作陈述、10 张图），以便对方联系时立刻可发。唯一可以直接投稿的例外是 It's Nice That——每日水彩创作正是他们钟爱的那一类。",
   "items": [
     {
       "name": "美術手帖 (Bijutsu Techo)",
@@ -299,7 +299,7 @@ export const GRANT_LANDSCAPE = {
       "country": "China",
       "amount": "Up to ¥100,000 RMB",
       "eligibility": "Chinese nationals; it tests 户籍. Needs either a work-unit letter or three mainland experts at 副高级 or above to recommend you. Watercolour is a named category (水彩（粉）画).",
-      "eligibility_zh": "面向中国公民，考户籍。需要单位推荐函，或三位副高级以上的内地专家推荐。水彩（粉）画是列明的类别。",
+      "eligibility_zh": "面向中国公民，以户籍为准。需要单位推荐函，或三位副高级以上的内地专家推荐。水彩（粉）画是列明的类别。",
       "deadline": "The 2027 cycle closed 15 June 2026",
       "deadline_zh": "2027 年度已于 2026 年 6 月 15 日截止",
       "why_apply": "The only Chinese-national route on this page that could be verified as real. It is here with its weight stated rather than left out.",
@@ -405,369 +405,6 @@ export const REVENUE_STREAMS = {
   ]
 };
 
-export const CAREER_DEPENDENCY_MAP = {
-  "titleKey": "sf.depmap.title",
-  "summaryKey": "sf.depmap.summary",
-  "milestones": [
-    {
-      "id": "now",
-      "label": "Where You Stand Now — Established (built, not pending)",
-      "status": "current",
-      "items": [
-        {
-          "complete": "✓ You're an established artist — solo, institutional and international shows behind you",
-          "unlocks": [
-            "Gallery representation conversations are within reach now, not years away",
-            "Higher-tier open calls, societies and grants are appropriate to apply to"
-          ],
-          "complete_zh": "✓ 你已是一位成熟的艺术家——身后有个展、机构展与海外展的履历",
-          "complete_ja": "✓ あなたは確立されたアーティストです——個展・機関展・海外展を重ねてきました",
-          "unlocks_zh": [
-            "画廊代理的洽谈现在就在触手可及之处，而非数年之后",
-            "更高层级的公开征集、协会与资助，现在都适合去申请"
-          ],
-          "unlocks_ja": [
-            "ギャラリー代理の話は、何年も先ではなく、今、手の届く範囲にある",
-            "より上位の公募展・団体・助成金に、いま応募するのがふさわしい"
-          ]
-        },
-        {
-          "complete": "✓ Group shows — a real exhibition record, in Tokyo and beyond",
-          "unlocks": [
-            "A documented CV that grant and gallery conversations can lean on",
-            "Curators and peers already know your work in person, not just online"
-          ],
-          "complete_zh": "✓ 多次联展——在东京及其他地方都有真实的展览履历",
-          "complete_ja": "✓ グループ展——東京内外での確かな展示実績",
-          "unlocks_zh": [
-            "一份扎实的简历，资助与画廊洽谈都可以以此为依托",
-            "策展人与同行已在线下认识你的作品，而不只是在网上"
-          ],
-          "unlocks_ja": [
-            "助成金やギャラリーとの相談の土台になる、記録された経歴",
-            "キュレーターや同業者が、オンラインだけでなく実際にあなたの作品を知っている"
-          ]
-        },
-        {
-          "complete": "✓ Solo shows — you've carried whole rooms on your own work",
-          "unlocks": [
-            "Proof you can sustain a full exhibition, which gallery representation looks for",
-            "A stronger 'why now' for institutional and grant applications"
-          ],
-          "complete_zh": "✓ 个展——你已经能独自撑起整个展厅",
-          "complete_ja": "✓ 個展——あなた自身の作品だけで展示空間をまるごと成立させてきた",
-          "unlocks_zh": [
-            "证明你能独立支撑一场完整的展览——这正是画廊代理所看重的",
-            "为机构与资助申请提供更有力的「为何是现在」"
-          ],
-          "unlocks_ja": [
-            "一つの展覧会を最後までやり遂げられる証明——ギャラリー代理が重視する点",
-            "公的機関や助成金の申請における、より強い「なぜ今か」"
-          ]
-        },
-        {
-          "complete": "✓ Institutional / museum showings — your work has hung in serious spaces",
-          "unlocks": [
-            "Institutional credibility most emerging artists don't have yet",
-            "Eligibility and standing for higher-tier open calls and societies"
-          ],
-          "complete_zh": "✓ 机构／美术馆展出——你的作品已进入正式的展示空间",
-          "complete_ja": "✓ 公的機関・美術館での展示——あなたの作品は本格的な場に掛けられてきた",
-          "unlocks_zh": [
-            "多数新晋艺术家尚不具备的机构层面公信力",
-            "更高层级的公开征集与协会的资格与地位"
-          ],
-          "unlocks_ja": [
-            "多くの新進アーティストがまだ持たない、機関レベルの信頼性",
-            "より上位の公募展や団体への応募資格と立場"
-          ]
-        },
-        {
-          "complete": "✓ Shown internationally (incl. London) — your reach already crosses borders",
-          "unlocks": [
-            "An international line on your CV that strengthens cross-border grants and fairs",
-            "A narrative that travels: a Chinese artist in Tokyo, already shown abroad"
-          ],
-          "complete_zh": "✓ 已在海外展出（含伦敦）——你的影响力已跨越国界",
-          "complete_ja": "✓ 海外での展示（ロンドンを含む）——あなたの活動はすでに国境を越えている",
-          "unlocks_zh": [
-            "简历上的国际履历，能强化跨境资助与艺术博览会的申请",
-            "一个可以走向世界的叙事：旅居东京的中国艺术家，已在海外展出"
-          ],
-          "unlocks_ja": [
-            "国境を越えた助成金やフェアの申請を後押しする、国際的な経歴",
-            "世界に通じる物語——すでに海外で展示してきた、東京在住の中国人アーティスト"
-          ]
-        },
-        {
-          "complete": "✓ Work is easy to find and follow, with an established, growing audience",
-          "unlocks": [
-            "People who love your work can reach it",
-            "Brand, press and collaboration conversations can find their way to you"
-          ],
-          "complete_zh": "✓ 作品容易被找到、被关注，并拥有一群稳定且持续增长的受众",
-          "complete_ja": "✓ 作品が見つけやすくフォローしやすい状態で、確立された、伸び続けるオーディエンスがいる",
-          "unlocks_zh": [
-            "喜爱你作品的人能够找到它",
-            "品牌、媒体与合作的洽谈有路径找到你"
-          ],
-          "unlocks_ja": [
-            "あなたの作品を好きな人が、それにたどり着ける",
-            "ブランド・メディア・コラボの相談が、あなたのもとへ届きやすくなる"
-          ]
-        },
-        {
-          "complete": "Your practice and audience give the next steps a real foundation",
-          "unlocks": [
-            "Press discovery (Bijutsu Techo, It's Nice That) keyed to a body of work, not a start",
-            "Licensing inquiries from brands who already know the work"
-          ],
-          "complete_zh": "你的日常创作与受众，为接下来的每一步打下了真实的基础",
-          "complete_ja": "日々の制作とオーディエンスが、次の一歩に確かな土台を与えています",
-          "unlocks_zh": [
-            "媒体报道（Bijutsu Techo、It's Nice That）建立在成熟的作品体系之上，而非从零开始",
-            "来自早已熟悉你作品的品牌的授权咨询"
-          ],
-          "unlocks_ja": [
-            "メディア掲載（Bijutsu Techo、It's Nice That）が、出発点ではなく作品の蓄積に基づく",
-            "すでに作品を知っているブランドからのライセンスの問い合わせ"
-          ]
-        }
-      ],
-      "label_zh": "你现在所处的位置（第三阶段——成熟）",
-      "label_ja": "いまの立ち位置（ティア3——確立）"
-    },
-    {
-      "id": "near_term",
-      "label": "Open Doors Next — whenever you want them",
-      "status": "next",
-      "items": [
-        {
-          "complete": "Gallery representation, if a gallery feels like the right home",
-          "unlocks": [
-            "A gallery introducing your work to its collecting network",
-            "Art-fair access (Art Fair Tokyo, Tokyo Gendai) through the gallery",
-            "Someone else handling sales logistics so you can stay with the work"
-          ],
-          "complete_zh": "画廊代理——如果某家画廊让你觉得是对的归属",
-          "complete_ja": "ギャラリー代理——あるギャラリーが「ここだ」と感じられたら",
-          "unlocks_zh": [
-            "画廊把你的作品引荐给它的藏家网络",
-            "通过画廊获得艺术博览会的参展机会（Art Fair Tokyo、Tokyo Gendai）",
-            "由他人处理销售事务，你可以专注于创作本身"
-          ],
-          "unlocks_ja": [
-            "ギャラリーがあなたの作品をコレクターネットワークに紹介",
-            "ギャラリー経由でのアートフェア参加（Art Fair Tokyo、Tokyo Gendai）",
-            "販売の実務を任せられ、あなたは制作に専念できる"
-          ]
-        },
-        {
-          "complete": "A residency, if a stretch of focused time somewhere new appeals",
-          "unlocks": [
-            "TOKAS and similar residencies are appropriate to apply to at your stage",
-            "Time and space to make a new body of work without daily logistics",
-            "New networks in a different city or country"
-          ],
-          "complete_zh": "驻留项目——如果你想去一个新地方、专注创作一段时间",
-          "complete_ja": "レジデンシー——どこか新しい場所で集中して制作する時間に惹かれたら",
-          "unlocks_zh": [
-            "以你现在的阶段，TOKAS 等驻留项目都适合去申请",
-            "拥有时间与空间去创作一组新作品，不必操心日常琐事",
-            "在另一座城市或国家建立新的人脉"
-          ],
-          "unlocks_ja": [
-            "あなたの段階なら、TOKASなどのレジデンシーに応募するのがふさわしい",
-            "日々の雑事から離れ、新作に取り組む時間と空間",
-            "別の都市や国での新しいネットワーク"
-          ]
-        },
-        {
-          "complete": "A grant, when a specific project is worth funding",
-          "unlocks": [
-            "Japan Foundation / TOKAS / ACC applications are well within reach now",
-            "Funding for a named project ('documenting the changing face of Tokyo')",
-            "Breathing room to take on ambitious, time-intensive work"
-          ],
-          "complete_zh": "资助——当有一个具体项目值得被资助时",
-          "complete_ja": "助成金——資金を充てる価値のある具体的なプロジェクトがあるとき",
-          "unlocks_zh": [
-            "日本国际交流基金／TOKAS／ACC 的申请，现在都在你触手可及的范围内",
-            "为一个有名称的项目（如「记录东京变迁的面貌」）争取资金",
-            "有余裕去承接更具雄心、更耗时的创作"
-          ],
-          "unlocks_ja": [
-            "国際交流基金／TOKAS／ACCの申請は、いま十分に手の届く範囲にある",
-            "名前のあるプロジェクト（「東京の移りゆく姿を記録する」など）への資金",
-            "意欲的で時間のかかる仕事に取り組むゆとり"
-          ]
-        },
-        {
-          "complete": "Society membership (e.g. Japan Watercolor Society), if it appeals",
-          "unlocks": [
-            "Your exhibition record already supports applying",
-            "A peer community of watercolorists and juried-show access",
-            "Another credibility marker for press and grants"
-          ],
-          "complete_zh": "协会会员资格（如日本水彩画会）——如果你有兴趣",
-          "complete_ja": "団体への入会（日本水彩画会など）——気が向けば",
-          "unlocks_zh": [
-            "你现有的展览履历已足以支持申请",
-            "一个由水彩画家组成的同行社群，以及评审展的参展机会",
-            "为媒体报道与资助再添一项公信力背书"
-          ],
-          "unlocks_ja": [
-            "現在の展示実績で、すでに応募できる",
-            "水彩画家の仲間のコミュニティと、公募・審査展への参加",
-            "メディアや助成金に向けた、もう一つの信頼の裏づけ"
-          ]
-        }
-      ],
-      "label_zh": "接下来敞开的门——你想要时随时可推",
-      "label_ja": "次に開いている扉——欲しくなったときに、いつでも"
-    },
-    {
-      "id": "mid_term",
-      "label": "Further Out — deeper doors, no timeline",
-      "status": "future",
-      "items": [
-        {
-          "complete": "Institutional open calls and museum-context shows",
-          "unlocks": [
-            "Institutional open calls (Shoto Museum, BankART1929) on the strength of your record",
-            "Asian Cultural Council Fellowship application well-supported",
-            "A deepening museum-context presence"
-          ],
-          "complete_zh": "机构公开征集与美术馆语境下的展览",
-          "complete_ja": "公募展や美術館の文脈での展示",
-          "unlocks_zh": [
-            "凭借你的履历参与机构公开征集（Shoto Museum、BankART1929）",
-            "亚洲文化协会奖学金申请获得有力支撑",
-            "在美术馆语境中的存在感不断加深"
-          ],
-          "unlocks_ja": [
-            "あなたの実績を背景にした公募展への応募（Shoto Museum、BankART1929）",
-            "Asian Cultural Council フェローシップ申請の十分な裏づけ",
-            "美術館の文脈における存在感の深まり"
-          ]
-        },
-        {
-          "complete": "International residency (e.g. Cité Internationale des Arts)",
-          "unlocks": [
-            "A funded stretch of focused work abroad",
-            "An international exhibition network that keeps expanding",
-            "A career narrative that strengthens every future grant"
-          ],
-          "complete_zh": "国际驻留项目（如国际艺术城 Cité Internationale des Arts）",
-          "complete_ja": "海外レジデンシー（Cité Internationale des Arts など）",
-          "unlocks_zh": [
-            "一段有资助支持、专注创作的海外时光",
-            "持续拓展的国际展览网络",
-            "一份让今后每一次资助申请都更有力的职业叙事"
-          ],
-          "unlocks_ja": [
-            "資金に支えられた、海外での集中制作の期間",
-            "広がり続ける国際的な展覧会ネットワーク",
-            "今後のあらゆる助成金申請を強める経歴の物語"
-          ]
-        },
-        {
-          "complete": "A book project, if you ever want to make one",
-          "unlocks": [
-            "Printed Matter (NYC) relationship viable",
-            "Offprint Paris participant eligible",
-            "Book projects that attract publishing-house commissions"
-          ],
-          "complete_zh": "一个书籍项目——如果你哪天想做",
-          "complete_ja": "本のプロジェクト——いつか作りたくなれば",
-          "unlocks_zh": [
-            "Printed Matter（纽约）合作关系可期",
-            "符合 Offprint Paris 参展资格",
-            "书籍项目吸引出版社约稿"
-          ],
-          "unlocks_ja": [
-            "Printed Matter（NYC）との関係構築が見込める",
-            "Offprint Paris への参加資格あり",
-            "本のプロジェクトが出版社からの依頼につながる"
-          ]
-        }
-      ],
-      "label_zh": "更远处——更深的门，没有时间表",
-      "label_ja": "さらに先へ——より深い扉、時間表はなし"
-    },
-    {
-      "id": "long_term",
-      "label": "On the Horizon — far doors, only if you ever want them",
-      "status": "horizon",
-      "items": [
-        {
-          "complete": "International society membership (Royal / American Watercolour Society)",
-          "unlocks": [
-            "Royal Watercolour Society (Associate membership) within reach as your record grows",
-            "American Watercolor Society standing",
-            "An international peer community at the highest watercolor level"
-          ],
-          "complete_zh": "国际协会会员资格（英国／美国水彩画协会）",
-          "complete_ja": "国際的な団体への入会（英国・アメリカ水彩画協会）",
-          "unlocks_zh": [
-            "随着履历增长，英国皇家水彩画协会（准会员）触手可及",
-            "美国水彩画协会的会员地位",
-            "在水彩领域最高层级的国际同行社群"
-          ],
-          "unlocks_ja": [
-            "実績を重ねるにつれ、英国王立水彩画協会（準会員）が手の届く範囲に",
-            "アメリカ水彩画協会での地位",
-            "水彩の最高峰における国際的な仲間のコミュニティ"
-          ]
-        },
-        {
-          "complete": "Sustained licensing + edition income, if you build it",
-          "unlocks": [
-            "The freedom to take a focused, deep-work stretch whenever you want one",
-            "Choosing residencies and projects without income pressure"
-          ],
-          "complete_zh": "稳定的授权收入 + 限量版收入——如果你愿意去建立",
-          "complete_ja": "継続的なライセンス収入・エディション収入——あなたが築けば",
-          "unlocks_zh": [
-            "想要时，随时给自己一段专注的深度创作时光",
-            "无收入压力地挑选驻留项目与创作计划"
-          ],
-          "unlocks_ja": [
-            "望むときにいつでも、集中した深い制作の期間をとれる自由",
-            "収入のプレッシャーなく、レジデンシーやプロジェクトを選べる"
-          ]
-        },
-        {
-          "complete": "Major press features (multiple international outlets)",
-          "unlocks": [
-            "Keynote/talk invitations",
-            "Teaching residency invitations",
-            "Museum acquisition conversations begin"
-          ],
-          "complete_zh": "主流媒体报道（多家国际媒体）",
-          "complete_ja": "主要メディアへの掲載（複数の国際媒体）",
-          "unlocks_zh": [
-            "主题演讲／演讲邀请",
-            "驻留教学邀请",
-            "博物馆收藏洽谈启动"
-          ],
-          "unlocks_ja": [
-            "基調講演・トーク講演の依頼",
-            "レジデンシー指導の招聘",
-            "美術館収蔵に向けた交渉の開始"
-          ]
-        }
-      ],
-      "label_zh": "在地平线上——遥远的门，只在你想要时",
-      "label_ja": "地平線の先に——遠い扉、欲しくなったときだけ"
-    }
-  ]
-};
-
-// (Comparative Career Timeline constant removed — held an unfavorable peer
-//  comparison and 3rd-person "GEGYjiji" voice; intentionally not reintroduced.)
-
-// ── Pricing Intelligence ───────────────────────────────────────────────────
 export const PRICING_INTELLIGENCE = {
   titleKey:   "sf.sec.pricing",
   summaryKey: "sf.sum.pricing",
@@ -805,8 +442,8 @@ export const PRICING_INTELLIGENCE = {
   commission_note: "No published rate — negotiated per piece. For scale: a Western 8×10 watercolour house portrait runs ¥31,000–39,000, which brackets your originals floor almost exactly. Japanese commission platforms pay roughly half that before an 11–22% cut.", "commission_note_zh": "没有公开报价——按件商议。作为参照：欧美一张 8×10 英寸的水彩房屋肖像约 31,000–39,000 日元，几乎正好卡在你原作的起价线上。日本的约稿平台大约只有这个数的一半，还要再抽 11–22%。", "commission_note_ja": "公開料金はなく、案件ごとの相談です。目安として、欧米の8×10インチの水彩ハウスポートレートは31,000〜39,000円で、あなたの原画の下限とほぼ重なります。日本の依頼プラットフォームはその半分ほどで、さらに11〜22%が引かれます。",
   what_affects_price: [
     { factor: "Venue context", "factor_zh": "场地背景", "factor_ja": "会場の文脈", impact: "high",   note: "The same piece tends to sell for more at a gallery opening than at a zine fair — the setting carries part of the price. Just how the market reads context, nothing you need to act on.", "note_zh": "同一件作品在画廊开幕上往往比在独立刊物展会上卖得更高——场地本身也承载了一部分价格。这只是市场解读情境的方式，并不需要你为此做什么。", "note_ja": "同じ作品でも、ギャラリーのオープニングではzineフェアより高く売れる傾向があります——場が価格の一部を担うのです。市場が文脈を読み取る仕組みにすぎず、何かする必要はありません。" },
-    { factor: "Edition discipline", "factor_zh": "版数自律", "factor_ja": "エディションの規律", impact: "high",   note: "If you ever do editions, a fixed size (e.g. 30 or 50) keeps each print feeling intentional and protects its value over open-ended runs.", "note_zh": "如果你哪天做限量版，固定一个版数（如 30 或 50）能让每件版画都显得用心，也比无限量印刷更能保值。", "note_ja": "もしエディションを作るなら、数を固定する（例：30や50）と、一点一点に意図が感じられ、無制限の刷りよりも価値が保たれます。" },
-    { factor: "Audience", "factor_zh": "受众", "factor_ja": "オーディエンス", impact: "medium", note: "An engaged following is a genuine asset — collectors do respond to it. Yours runs across four places at once: about 89,300 on X, 44,000 on Xiaohongshu, 27,000 on the Instagram diary, and 7,500 on Bilibili for the painting videos — roughly 168,000 follows in total. All built without advertising, and already working in your favour.", "note_zh": "一群投入的受众是真实的资产——藏家确实会受其影响。你的受众同时分布在四个地方：X 约 89,300 人、小红书约 44,000 人、Instagram 日记约 27,000 人、B 站的作画影片约 7,500 人——合计大约 168,000 个关注。全都没有投过广告，而且已经在为你加分。", "note_ja": "熱心なフォロワーは確かな資産です——コレクターはそれに反応します。あなたの場合は四つの場所にまたがっています：Xに約89,300人、小紅書に約44,000人、Instagramの日記に約27,000人、制作動画を見るBilibiliに約7,500人——合計およそ168,000のフォロー。いずれも広告なしで築かれ、すでにあなたの強みとして働いています。" },
+    { factor: "Edition discipline", "factor_zh": "版数固定", "factor_ja": "エディションの規律", impact: "high",   note: "If you ever do editions, a fixed size (e.g. 30 or 50) keeps each print feeling intentional and protects its value over open-ended runs.", "note_zh": "如果你哪天做限量版，固定一个版数（如 30 或 50）能让每件版画都显得用心，也比无限量印刷更能保值。", "note_ja": "もしエディションを作るなら、数を固定する（例：30や50）と、一点一点に意図が感じられ、無制限の刷りよりも価値が保たれます。" },
+    { factor: "Audience", "factor_zh": "受众", "factor_ja": "オーディエンス", impact: "medium", note: "An engaged following is a genuine asset — collectors do respond to it. Yours runs across four places at once: about 89,300 on X, 44,000 on Xiaohongshu, 27,000 on the Instagram diary, and 7,500 on Bilibili for the painting videos — roughly 168,000 follows in total. All built without advertising, and already working in your favour.", "note_zh": "一群投入的受众是实打实的资产，藏家确实会看。你的受众分在四个地方：X 约 8.93 万、小红书约 4.4 万、Instagram 日记约 2.7 万、B 站的绘画视频约 7,500——合计大约 16.8 万。全都没投过广告，而且已经在替你说话。", "note_ja": "熱心なフォロワーは確かな資産です——コレクターはそれに反応します。あなたの場合は四つの場所にまたがっています：Xに約89,300人、小紅書に約44,000人、Instagramの日記に約27,000人、制作動画を見るBilibiliに約7,500人——合計およそ168,000のフォロー。いずれも広告なしで築かれ、すでにあなたの強みとして働いています。" },
     { factor: "Exhibition CV", "factor_zh": "展览履历", "factor_ja": "展示歴",       impact: "medium", note: "As exhibition credits accumulate, the market naturally supports a little more over time. No need to chase this — it follows the work you're already doing.", "note_zh": "随着展览履历的积累，市场自然会随时间逐渐支撑更高一些的价格。无需刻意追求——它会跟随你本就在做的创作自然而来。", "note_ja": "展示の実績が積み重なると、時間とともに市場が少しずつ高い価格を自然に支えるようになります。追い求める必要はありません——あなたが今している制作に、自然とついてきます。" },
     { factor: "Certificate of authenticity", "factor_zh": "作品真品证书", "factor_ja": "真作証明書", impact: "medium", note: "A simple, hand-signed certificate adds a sense of permanence buyers appreciate, and takes about two minutes. A small, optional nicety.", "note_zh": "一份简单的手签真品证书能带来一种买家所珍视的恒久感，只需约两分钟。一个可有可无的小用心。", "note_ja": "手書きサイン入りのシンプルな証明書は、買い手が大切にする「永続性」の感覚を添えてくれます。所要時間は約2分。あってもなくてもよい、ささやかな心づかいです。" },
     { factor: "Work size", "factor_zh": "作品尺幅", "factor_ja": "作品サイズ",           impact: "low",    note: "Smaller formats are often easiest for buyers to live with. The one gentle guard: small doesn't mean cheap — value small work fully.", "note_zh": "较小的尺幅往往最便于买家收纳与悬挂。唯一值得轻轻提醒的一点：小不等于廉价——别低估了小幅作品的价值。", "note_ja": "小判は買い手にとって取り入れやすいことが多いです。ひとつだけそっと添えるなら：小さいことは安いことではありません——小品の価値を十分に評価してください。" },
@@ -841,7 +478,7 @@ export const COLLABORATION_MAP = {
   summary_zh: "与你气味相投的真实创作者——以及和他们一起、低压力起步的小方式。",
   summary_ja: "あなたの作品と響き合う実在の人たち——そして、低圧力で一緒に始められる小さな方法。",
   lead: "These aren't cold contacts — they're a map of the world your work already belongs to. Start by being a real reader of their work; collaboration grows from staying in the room, not from a pitch.",
-  lead_zh: "这些不是陌生联系人——而是一张地图，标出你的作品本就属于的那个世界。先从真心做他们作品的读者开始；合作生长于留在房间里，而非一次推销。",
+  lead_zh: "这些不是陌生联系人——而是一张地图，标出你的作品本就属于的那个世界。先从真心做他们作品的读者开始；合作是待在同一个圈子里慢慢长出来的，不是靠一次推销。",
   groups: [
     {
       label: "The shape of your world: webcomic & daily-life illustrators",
@@ -890,7 +527,7 @@ export const COLLABORATION_MAP = {
         {
           name: "Puuung (퍼엉)",
           who: "Korean illustrator behind the Love Is series. The medium is not watercolour and is not stated publicly; the subject is the one you share — small everyday moments of love at home.",
-          who_zh: "韩国插画家，《Love Is》系列的作者。用什么画的没有公开说过，但不是水彩；画的却是你也在画的那件事——家里那些微小的爱意瞬间。",
+          who_zh: "韩国插画家，《Love Is》系列的作者。用的是什么材料，没有公开说过；画的却正是你也在画的东西——家里那些微小的爱意瞬间。",
           why_fit: "Domestic stillness, interior light, the tenderness of ordinary rooms — the closest thematic cousin to your work, just with figures where you have cats and quiet.",
           why_fit_zh: "居家的静谧、室内的光、平凡房间里的温柔——主题上离你最近的一位，只是那边画的是人，你画的是猫和安静。",
           link: "https://www.instagram.com/puuung1/",
@@ -1040,18 +677,18 @@ export const COLLECTOR_ECOSYSTEM = {
       what: "The biggest art-book and zine fair in Asia by its own description — more than 350 participants and over 20,000 visitors a year — at the Museum of Contemporary Art Tokyo. Its audience is your native ecosystem — people who collect zines, artist books, and printed matter and buy on the spot. Artists apply to exhibit, and the application window is the thing to watch, not the fair: applications for the 2026 edition closed on 7 June 2026, the fair itself runs across January 2027, and the next window opens around mid-2027. Application does not guarantee a booth — it is oversubscribed and selected — and you have to staff the booth yourself throughout.",
       what_zh: "亚洲最大的艺术书与 zine 书展，在东京都现代美术馆举办。来的正是你的读者——会收藏 zine、艺术书和印刷品，而且当场就买的人。艺术家申请参展，而真正要盯的是申请窗口，不是展期本身：2026 年这一届的申请已于 2026 年 6 月 7 日截止，展会在 2027 年 1 月举行，下一个申请窗口大约在 2027 年年中。申请不等于一定有摊位——报名人数超出时会做筛选——而且展期里摊位得你自己守着。",
       fit_for_her: "Very fitting in spirit — your zines are made for exactly this room, and you already exhibit in Tokyo. It's a bigger commitment than an online listing, so it's a someday-if-you-want rather than a today thing.",
-      fit_for_her_zh: "在精神上非常契合——你的画册就是为这样的场合而做的，而你本就在东京参展。它比线上上架投入更多，所以是某天如果你想，而不是今天的事。",
+      fit_for_her_zh: "气质上很合——你的画册本来就是为这种场合做的，而你人就在东京。只是它比在网上上架费力得多，所以这是哪天你想做时的事，不是今天的事。",
     },
     {
       name: "Creema — Japanese handmade & art marketplace",
       fee: "10.67% including tax, charged on the whole settlement INCLUDING shipping — changed 5 Nov 2025 from 11% excluding shipping, so any older figure understates it. Transfer ¥176–275.",
-      fee_zh: "含税 10.67%，按含运费的总金额收——2025 年 11 月 5 日从「11%、不含运费」改成了现在这样，所以网上流传的旧数字偏低。提现费 176–275 日元。",
+      fee_zh: "含税 10.67%，按含运费的总金额收。2025 年 11 月 5 日之前是「11%、不含运费」，因为不算运费，实际扣得比现在少，所以网上流传的旧数字偏低。提现费 176–275 日元。",
       name_zh: "Creema — 日本手作与艺术市集",
       link: "https://www.creema.jp/",
       what: "One of Japan's largest creator marketplaces, skewing toward higher unit prices. (A buyer-age breakdown circulates widely online but Creema publishes none, so it is left out here.) You list work; the platform brings the audience.",
       what_zh: "日本规模最大的创作者市集之一，客单价偏高。（关于买家年龄层的说法在网上流传很广，但 Creema 自己从未公布过，所以这里不写。）你上架商品，平台带来观众。",
       fit_for_her: "A natural fit for zines, postcards, and prints, and reasonable for smaller originals. It reaches Japanese buyers who may never find your Instagram. Fully optional and low-effort.",
-      fit_for_her_zh: "很适合画册、明信片和版画，小幅原作也合理。它能触达可能从未发现你 Instagram 的日本买家。完全随意、几乎不费力。",
+      fit_for_her_zh: "很适合画册、明信片和版画，小幅原作也合理。它能被看见的人数可能从未发现你 Instagram 的日本买家。完全随意、几乎不费力。",
     },
     {
       name: "minne — Japan's largest handmade marketplace",
