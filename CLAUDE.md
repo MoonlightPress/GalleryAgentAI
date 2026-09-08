@@ -233,8 +233,32 @@ The full tier definitions live in `memory/artist_master_profile.json` under `car
 
 ## Artist Social Media
 
-- Instagram: @gegyjiji — https://www.instagram.com/gegyjiji/ (~26k followers, daily watercolor diary)
-- Twitter/X account exists (@GegYjiji, ~90k followers) but do NOT reference in outreach emails. Instagram only. (The ~90k figure is Twitter, NOT Instagram — a longstanding mix-up; Instagram is ~26k.)
+**All four counts, settled 2026-09-08.** Read them from
+`artist_master_profile.social_presence`; never hardcode.
+
+| Platform | Followers | |
+|---|---:|---|
+| **X / Twitter** @GegYjiji | **89,300** | her largest; audience reads English |
+| **Xiaohongshu** 小红书 | 44,000 | |
+| **Instagram** @gegyjiji | 27,000 | https://www.instagram.com/gegyjiji/ — daily watercolor diary |
+| **Bilibili** 不好意思挤一挤 | 7,514 | uid 36798889; painting videos |
+
+≈168k total, but that is a **ceiling on reach, not a headcount** — overlap has
+never been measured. An unqualified "her audience" is now meaningless: the four
+accounts differ by 12×, so always name the platform.
+
+The old "Instagram ~90k" error is closed: the 90k was always Twitter.
+
+**The "don't mention Twitter in outreach" line is NOT a deliberate policy — it is
+an accident, and it is under review.** `ibm_email_writer.py` says "Do NOT mention
+Twitter or X". Traced to `d102a401` (2026-06-08), whose real intent was cosmetic
+— *one* handle in a cold email instead of two — and which in the same edit moved
+Twitter's ~90,000 onto the Instagram line, creating the error the project then
+spent months undoing. The count got fixed; this clause never did. It survived a
+full engine rewrite and hardened into a house rule here. **Scott did not make it**
+(asked 2026-09-08, did not recognise it). Net effect: outreach cites 27k when her
+largest, English-speaking audience is 89.3k. Do not change the engine until Scott
+rules — but do not cite this as his decision either.
 
 ## Development Posture
 
