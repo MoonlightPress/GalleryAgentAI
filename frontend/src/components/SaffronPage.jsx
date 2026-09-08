@@ -2259,6 +2259,12 @@ function PressPitchMap({ t, lang }) {
                 <div className="sf-press-pitch-contact">
                   <span className="sf-press-pitch-meta-label">{t('sf.label.contactColon')}</span>
                   {locF(item, 'contact', lang)}
+                  {item.contact_url && (
+                    <>
+                      {' '}
+                      <a className="sf-ext-link" href={item.contact_url} target="_blank" rel="noreferrer">↗</a>
+                    </>
+                  )}
                 </div>
               )}
               {item.timeline && (
@@ -2450,18 +2456,21 @@ const TRAJECTORY_COLORS = {
   accelerating: '#5a7a30',
   steady:       '#3a6a80',
   stalling:     '#8a7563',
+  // Nothing measured in the window — the quiet grey of an unknown, not the
+  // colour of a decline.
+  unknown:      '#9a8a70',
 }
 
 const MOMENTUM_SUMMARY = {
-  en: 'Your outreach over time — submissions, venue contacts and replies, as you log them.',
-  zh: '你随时间的对外联系——提交、场馆联系与回复，随你记录而更新。',
-  ja: '時間に沿ったあなたの動き——応募・会場への連絡・返信が、記録するごとに反映されます。',
+  en: 'Your shows on record, plus submissions and venue conversations as you log them.',
+  zh: '你已确认的展览记录，加上你自己记下的投递与场馆往来。',
+  ja: '記録に残っているあなたの展示と、あなたが記録した応募・会場とのやりとり。',
 }
 function CareerMomentum({ data, t }) {
   const { lang } = useLanguage()
   const { totals, trajectory, monthly_chart } = data
   const [activity, setActivity] = useState(data.recent_activity || [])
-  const maxBar = Math.max(...monthly_chart.map(m => m.submissions + m.contacts), 1)
+  const maxBar = Math.max(...monthly_chart.map(m => m.submissions + m.contacts + m.events), 1)
 
   async function removeEvent(id) {
     setActivity(a => a.filter(x => x.id !== id))
@@ -2478,6 +2487,14 @@ function CareerMomentum({ data, t }) {
       defaultOpen={false}
     >
       <div className="sf-momentum-stats">
+        {/* Her record leads. It is the largest true number in this section and
+            the only one that was missing from it. */}
+        {totals.exhibitions > 0 && (
+          <div className="sf-momentum-stat">
+            <div className="sf-momentum-number">{totals.exhibitions}</div>
+            <div className="sf-momentum-label">{t('sf.mom.exhibitions')}</div>
+          </div>
+        )}
         <div className="sf-momentum-stat">
           <div className="sf-momentum-number">{totals.submissions}</div>
           <div className="sf-momentum-label">{t('sf.mom.totalSubmissions')}</div>
@@ -2501,7 +2518,7 @@ function CareerMomentum({ data, t }) {
       <div className="sf-block-label" style={{ marginTop: 24 }}>{t('sf.mom.activityChart')}</div>
       <div className="sf-mom-chart">
         {monthly_chart.map((m, i) => {
-          const total = m.submissions + m.contacts
+          const total = m.submissions + m.contacts + m.events
           return (
             <div key={i} className="sf-mom-bar-col">
               <div className="sf-mom-bar-track">
@@ -2509,6 +2526,11 @@ function CareerMomentum({ data, t }) {
                   style={{ height: `${Math.round((m.submissions / maxBar) * 100)}%` }} />
                 <div className="sf-mom-bar-contacts"
                   style={{ height: `${Math.round((m.contacts / maxBar) * 100)}%` }} />
+                {/* Shows. The API has always sent this band; nothing rendered
+                    it, so the two solo exhibitions in this window were invisible
+                    and the chart looked empty. */}
+                <div className="sf-mom-bar-events"
+                  style={{ height: `${Math.round((m.events / maxBar) * 100)}%` }} />
               </div>
               <div className="sf-mom-bar-label">{m.month.slice(5)}</div>
               <div className="sf-mom-bar-total">{total || ''}</div>
@@ -2517,6 +2539,7 @@ function CareerMomentum({ data, t }) {
         })}
       </div>
       <div className="sf-mom-legend">
+        <span className="sf-mom-legend-events">{t('sf.mom.shows')}</span>
         <span className="sf-mom-legend-subs">{t('sf.mom.submissions')}</span>
         <span className="sf-mom-legend-contacts">{t('sf.mom.contacts')}</span>
       </div>
@@ -2528,7 +2551,7 @@ function CareerMomentum({ data, t }) {
             {activity.map((item, i) => (
               <div key={item.id || i} className="sf-mom-activity-row">
                 <span className={`sf-mom-type sf-mom-type--${item.type}`}>
-                  {item.type === 'submission' ? '📤' : '📋'}
+                  {item.type === 'submission' ? '📤' : item.type === 'exhibition' ? '🖼' : '📋'}
                 </span>
                 <span className="sf-mom-activity-name">{item.name}</span>
                 <span className="sf-mom-activity-status">{actStatusLabel(item.status, t)}</span>
@@ -2542,7 +2565,10 @@ function CareerMomentum({ data, t }) {
         </div>
       )}
 
-      {totals.submissions === 0 && (
+      {/* Only when there is genuinely nothing to show. It used to fire on
+          submissions === 0 alone, so it said "nothing logged here yet" above a
+          feed listing her exhibitions. */}
+      {activity.length === 0 && (
         <div className="sf-insight-callout" style={{ marginTop: 20 }}>
           {t('sf.mom.noSubmissionsYet')}
         </div>
@@ -2556,15 +2582,26 @@ function CareerMomentum({ data, t }) {
 // A real reading of the timing, built from the live counts: how much of the
 // board is a fixed date vs. rolling/open, so she sees the calendar pressure is
 // concentrated and the rest is approachable any time (Scott: add real insight).
+// The counts have to reconcile against the total, which they did not while the
+// expired rows were being charted as application season and then dropped out of
+// the coverage panel without ever being named.
 const TIMING_READING = {
-  en: (dated, flexible) => `Of everything on your radar, ${dated} have a fixed date and ${flexible} are rolling or open — so most of the calendar pressure sits on a handful of dates, and the rest you can approach whenever you're ready.`,
-  zh: (dated, flexible) => `在你关注的机会里，${dated} 个有固定截止日期，${flexible} 个是常年开放或没有固定截止——也就是说，真正要盯日历的只有少数几天，其余的你随时准备好了再去都行。`,
-  ja: (dated, flexible) => `あなたが見ている中で、${dated} 件は締切が決まっていて、${flexible} 件は通年・随時です——つまりカレンダー上のプレッシャーはごく一部の日付に集中していて、残りは準備ができたときにいつでも動けます。`,
+  en: (dated, flexible) => `${dated} of these still have a date ahead of them, and ${flexible} are rolling or open with no date at all — so the calendar pressure sits on a handful of days, and the rest you can approach whenever you're ready.`,
+  zh: (dated, flexible) => `其中 ${dated} 个的截止日期还没到，另有 ${flexible} 个是常年开放或根本没有截止日期——也就是说，真正要盯日历的只有少数几天，其余的你随时准备好了再去都行。`,
+  ja: (dated, flexible) => `このうち ${dated} 件はまだ締切が先にあり、${flexible} 件は通年・随時で締切そのものがありません——つまりカレンダー上のプレッシャーはごく一部の日付に集中していて、残りは準備ができたときにいつでも動けます。`,
 }
 function TimingIntelligence({ data, t }) {
   const { lang } = useLanguage()
   const maxCount = Math.max(...data.monthly_counts.map(m => m.count), 1)
-  const summary  = t('sf.sum.timing', { peaks: data.peak_months.slice(0, 2).join(' · '), dated: data.with_parsed_deadline })
+  // Month names arrive from the API in English. They were being printed raw,
+  // so the whole histogram read "Jan Feb Mar" on a page she browses in Chinese.
+  // cal.months is the localized list the seasonal calendar already uses.
+  const calMonths = t('cal.months')
+  const monthLabel = (m) => {
+    const idx = SF_MONTHS_EN.indexOf(m)
+    return idx >= 0 && Array.isArray(calMonths) ? calMonths[idx] : m
+  }
+  const summary  = t('sf.sum.timing', { peaks: data.peak_months.slice(0, 2).map(monthLabel).join(' · '), dated: data.with_parsed_deadline })
   const dated    = data.with_parsed_deadline ?? 0
   const flexible = (data.rolling_count ?? 0) + (data.no_deadline_count ?? 0)
   const timingReading = (TIMING_READING[lang] || TIMING_READING.en)(dated, flexible)
@@ -2589,7 +2626,9 @@ function TimingIntelligence({ data, t }) {
                 style={{ height: `${Math.round((m.count / maxCount) * 100)}%` }}
               />
             </div>
-            <div className="sf-timing-month-name">{m.month.slice(0, 3)}</div>
+            <div className="sf-timing-month-name">
+              {lang === 'en' ? m.month.slice(0, 3) : monthLabel(m.month)}
+            </div>
           </div>
         ))}
       </div>
@@ -2600,7 +2639,7 @@ function TimingIntelligence({ data, t }) {
           {data.peak_months.map((m, i) => (
             <div key={i} className="sf-timing-peak-row">
               <span className="sf-timing-peak-dot" />
-              <span>{m}</span>
+              <span>{monthLabel(m)}</span>
               <span className="sf-timing-peak-count">{t('sf.timing.deadlineCount', { n: data.monthly_counts.find(x => x.month === m)?.count ?? 0 })}</span>
             </div>
           ))}
@@ -2608,7 +2647,7 @@ function TimingIntelligence({ data, t }) {
             <>
               <div className="sf-block-label" style={{ marginTop: 18 }}>{t('sf.timing.quietMonths')}</div>
               {data.quiet_months.map((m, i) => (
-                <div key={i} className="sf-timing-quiet-row">{m} — {t('sf.timing.quietNote')}</div>
+                <div key={i} className="sf-timing-quiet-row">{monthLabel(m)} — {t('sf.timing.quietNote')}</div>
               ))}
             </>
           )}
@@ -2628,6 +2667,14 @@ function TimingIntelligence({ data, t }) {
               <span>{t('sf.timing.noDeadline')}</span>
               <span className="sf-timing-stat-val">{data.no_deadline_count}</span>
             </div>
+            {/* Named so the four buckets add up to the total. These used to be
+                charted as peak season and then vanish from the coverage panel. */}
+            {data.expired_count > 0 && (
+              <div className="sf-timing-stat-row">
+                <span>{t('sf.timing.alreadyPassed')}</span>
+                <span className="sf-timing-stat-val">{data.expired_count}</span>
+              </div>
+            )}
           </div>
           <div className="sf-block-label" style={{ marginTop: 18 }}>{t('sf.timing.prepWindow')}</div>
           <p className="sf-info-text">{t('sf.timing.prepWindowNote')}</p>
@@ -2648,28 +2695,50 @@ function TimingIntelligence({ data, t }) {
 
 const IMPACT_COLORS = { high: '#5a7a30', medium: '#c47a35', low: '#9ca3af' }
 
-function PricingIntelligence({ t, lang }) {
+// Her prices, read live off the profile via /api/saffron. The hardcoded
+// "current_range" this used to render was a fabricated market band — see the
+// note on PRICING_INTELLIGENCE and the one in api.py. If the API has no bands,
+// this block renders nothing rather than falling back to invented numbers.
+function PricingIntelligence({ t, lang, priceData }) {
   const d = localizeDeep(PRICING_INTELLIGENCE, lang)
-  const { originals, prints, zines } = d.current_range
+  const bands = priceData?.bands || []
+  const bandCopy = d.band_notes || {}
   return (
     <SectionShell title={t(d.titleKey)} summary={t(d.summaryKey)}>
       <p className="sf-peers-caveat">{d.source_note}</p>
 
-      <div className="sf-block-label" style={{ marginTop: 16 }}>{t('sf.pricing.currentRanges')}</div>
-      <div className="sf-pricing-ranges">
-        {[originals, prints, zines].map((range, i) => (
-          <div key={i} className="sf-pricing-range-card">
-            <div className="sf-pricing-range-label">{range.label}</div>
-            <div className="sf-pricing-range-value">
-              ¥{range.low.toLocaleString()} – ¥{range.high.toLocaleString()}
-            </div>
-            <p className="sf-pricing-range-note">{range.note}</p>
-            {range.sweet_spot && (
-              <div className="sf-pricing-sweet-spot">{range.sweet_spot}</div>
-            )}
+      {bands.length > 0 && (
+        <>
+          <div className="sf-block-label" style={{ marginTop: 16 }}>{t('sf.pricing.currentRanges')}</div>
+          <div className="sf-pricing-ranges">
+            {bands.map((range, i) => (
+              <div key={i} className="sf-pricing-range-card">
+                <div className="sf-pricing-range-label">
+                  {bandCopy[range.note]?.label || range.label}
+                </div>
+                <div className="sf-pricing-range-value">
+                  {range.low === range.high
+                    ? `¥${range.low.toLocaleString()}`
+                    : `¥${range.low.toLocaleString()} – ¥${range.high.toLocaleString()}`}
+                </div>
+                <p className="sf-pricing-range-note">{bandCopy[range.note]?.note || ''}</p>
+                {range.count_listed > 0 && (
+                  <div className="sf-pricing-sweet-spot">
+                    {t('sf.pricing.listed', { n: range.count_listed })}
+                  </div>
+                )}
+              </div>
+            ))}
           </div>
-        ))}
-      </div>
+        </>
+      )}
+
+      {priceData?.has_commission_context && (
+        <div className="sf-insight-callout" style={{ marginTop: 18 }}>
+          <div className="sf-block-label">{t('sf.pricing.commissions')}</div>
+          <p className="sf-info-text">{d.commission_note}</p>
+        </div>
+      )}
 
       <div className="sf-block-label" style={{ marginTop: 24 }}>{t('sf.pricing.whatAffectsPrice')}</div>
       <div className="sf-pricing-factors">
@@ -3381,7 +3450,7 @@ export default function SaffronPage({ nav, tab: tabFromUrl, onTabChange }) {
                   <>
                     {SB('revenue', <RevenueStreams t={t} lang={lang} />)}
                     <SectionOpenContext.Provider value={false}>
-                      {SB('pricing',  <PricingIntelligence t={t} lang={lang} />)}
+                      {SB('pricing',  <PricingIntelligence t={t} lang={lang} priceData={data.price_points} />)}
                       {SB('grants',   <GrantLandscape t={t} lang={lang} />)}
                       {SB('licensing',<LicensingLandscape t={t} lang={lang} />)}
                       {SB('publand',  <PublicationLandscape data={data.publication_landscape} t={t} />)}

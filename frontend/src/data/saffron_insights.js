@@ -127,9 +127,16 @@ export const PRESS_PITCH_MAP = {
       "type": "Fine art magazine — Japan",
       "why_fits": "Japan's top fine art magazine. Features emerging Tokyo-based artists with a distinct voice. Urban watercolor + daily practice + Chinese perspective = editorial angle.",
       "how_discovered": "They discover via Instagram, gallery shows, and word of mouth from other featured artists.",
-      "how_to_pitch": "Email editorial team with press kit (bio, statement, 10 image attachments). Also: tag #美術手帖 on relevant work.",
-      "contact": "editorial@bijutsutecho.com — or DM @bijutsutecho on Instagram",
-      "contact_zh": "editorial@bijutsutecho.com — 或在 Instagram 私信 @bijutsutecho",
+      "how_to_pitch": "They take submissions through a form, not by email. Have the press kit ready (bio, statement, 10 images) to paste and link. Also: tag #美術手帖 on relevant work.",
+      // No editorial address is published anywhere — an earlier version of this
+      // file carried an invented "editorial@bijutsutecho.com", which would have
+      // bounced and cost her a first impression. Their contact page was read on
+      // 2026-09-08: it is a form with seven categories and no email at all.
+      // Never write a contact here that has not been read off the source.
+      "contact": "No editorial email is published. Their contact form is at bijutsutecho.com/contact — choose 「情報のご提供」(information submission). Checked 2026-09-08.",
+      "contact_zh": "他们没有公开编辑部邮箱。投稿入口是 bijutsutecho.com/contact 的表单，类别选「情報のご提供」（提供信息）。2026-09-08 核实。",
+      "contact_ja": "編集部のメールアドレスは公開されていません。窓口は bijutsutecho.com/contact のフォームで、種別は「情報のご提供」を選びます。2026-09-08 確認。",
+      "contact_url": "https://bijutsutecho.com/contact",
       "timeline": "6–12 months relationship-building. Having a gallery show helps.",
       "type_zh": "纯艺术杂志 — 日本",
       "type_ja": "美術雑誌 — 日本",
@@ -137,8 +144,8 @@ export const PRESS_PITCH_MAP = {
       "why_fits_ja": "日本を代表する美術専門誌。独自の視点を持つ東京在住の新進アーティストを特集。都市の水彩画＋日々の制作＋中国人としての視座＝編集上の切り口。",
       "how_discovered_zh": "他们通过 Instagram、画廊展览以及其他已刊登艺术家的口碑推荐来发现新人。",
       "how_discovered_ja": "Instagram、ギャラリー展示、既掲載アーティストからの口コミを通じて新たな作家を発掘している。",
-      "how_to_pitch_zh": "携带宣传资料包（个人简介、创作陈述、10张图片附件）发送邮件至编辑团队。同时：在相关作品上标注 #美術手帖。",
-      "how_to_pitch_ja": "プレスキット（プロフィール、ステートメント、画像10点）を添付して編集部にメールを送る。また、関連作品には #美術手帖 のタグをつける。",
+      "how_to_pitch_zh": "他们通过表单接收投稿，而非邮件。事先备好资料包（简介、创作陈述、10 张图），以便直接粘贴与附上链接。同时：在相关作品上标注 #美術手帖。",
+      "how_to_pitch_ja": "メールではなくフォームでの受付です。プレスキット（プロフィール、ステートメント、画像10点）を貼り付け・リンクできる形で用意しておく。また、関連作品には #美術手帖 のタグをつける。",
       "timeline_zh": "需要6至12个月的关系积累。有画廊展览经历会很有帮助。",
       "timeline_ja": "6〜12ヶ月かけた関係構築が必要。ギャラリーでの展示実績があると有利。"
     },
@@ -851,28 +858,42 @@ export const CAREER_DEPENDENCY_MAP = {
 export const PRICING_INTELLIGENCE = {
   titleKey:   "sf.sec.pricing",
   summaryKey: "sf.sum.pricing",
-  source_note: "General context from Tokyo emerging-illustrator market observation — offered as background, not as a verdict on your own prices, which read as well-judged for your work.", "source_note_zh": "以下是关于东京新晋插画师市场的一般性背景观察——仅作参考，并非对你自己定价的评判；你的定价本身就与作品和阶段相称。", "source_note_ja": "以下は東京の新進イラストレーター市場に関する一般的な背景観察です——あくまで参考であり、あなた自身の価格への評価ではありません。あなたの価格は作品と段階にふさわしく、よく考えられています。",
-  current_range: {
+  // WHAT WENT WRONG HERE (fixed 2026-09-08). This block used to carry a
+  // hardcoded band — ¥30,000-115,000 originals, ¥3,000-15,000 prints,
+  // ¥1,200-2,800 zines — under the line "General context from Tokyo
+  // emerging-illustrator market observation". There was no such observation.
+  // The originals figures were HER OWN published prices rounded off and handed
+  // back to her as though the market had said them, and the print and zine
+  // bands were invented ABOVE what she actually charges (¥2,200 and ¥1,980),
+  // so the page implied she was underpricing while claiming not to judge.
+  // The numbers now come from the profile via /api/saffron, sourced to her shop
+  // with a read date. Never put a price in this file again.
+  source_note: "These are your own prices, read off your shop — not a market estimate. Nothing here is a target and nothing needs changing; it's here so the rest of the page can do arithmetic in your actual numbers.", "source_note_zh": "这些是你自己的价格，取自你的店铺——不是市场估算。这里没有任何目标值，也没有需要改的地方；把它放在这儿，只是为了让这一页其余的计算能用你真实的数字。", "source_note_ja": "これはあなた自身の価格で、ショップから読み取ったものです——市場の推計ではありません。ここに目標値はなく、変えるべきものもありません。このページの他の計算を、あなたの実際の数字で行うために置いてあります。",
+  // Copy only. The figures live on the profile and arrive from the API; these
+  // are keyed by the band's `note` field.
+  band_notes: {
     originals: {
-      low: 30000, high: 115000, currency: "JPY",
-      label: "Original watercolors", "label_zh": "原作水彩", "label_ja": "水彩原画",
-      note: "A typical spread for emerging Tokyo watercolorists with solo and institutional exhibition credits — small daily-diary pieces at the lower end, larger studies higher. It's a broad band, not a target; where your own work sits within it is your call, and it reads as well-judged.", "note_zh": "这是拥有个展及机构展览履历的东京新晋水彩画家常见的价格区间——小幅每日日记作品偏低端，较大的作品偏高端。这只是一个宽泛的参考带，并非目标值；你自己的作品落在其中的哪个位置由你决定，而你的定价本身就拿捏得很好。", "note_ja": "個展や公的機関での展示歴を持つ東京の新進水彩画家によく見られる価格帯です——小判の日記作品は下限寄り、大きめの作品は上限寄り。これは目標値ではなく幅広い目安にすぎず、あなた自身の作品をその中のどこに置くかはあなた次第です。そしてあなたの価格はよく考えられています。",
+      label: "Original watercolours", "label_zh": "水彩原作", "label_ja": "水彩原画",
+      note: "The spread across what you have listed — smaller diary pieces at the lower end, larger work higher.", "note_zh": "你上架作品的价格跨度——小幅日记作品偏低，大幅作品偏高。", "note_ja": "出品中の作品の価格幅です——小判の日記作品は下限寄り、大きめの作品は上限寄り。",
     },
     prints: {
-      low: 3000, high: 15000, currency: "JPY",
-      label: "Edition prints", "label_zh": "限量版画", "label_ja": "エディションプリント",
-      note: "Giclee A4–A3, signed and numbered, is a common range if you ever make prints. Purely informational — there's no need to add a print line at all.", "note_zh": "若你哪天想做版画，签名编号的 Giclée 微喷（A4–A3）通常落在这个区间。仅供参考——其实完全不必非要开一条版画产品线。", "note_ja": "もしプリントを作るなら、サイン・ナンバリング入りのジクレー（A4〜A3）はこのあたりが一般的です。あくまで情報提供であり、プリントの展開をする必要はまったくありません。",
+      label: "Prints", "label_zh": "版画", "label_ja": "プリント",
+      note: "One price across the line.", "note_zh": "整条产品线统一定价。", "note_ja": "ライン全体で一律の価格です。",
     },
     zines: {
-      low: 1200, high: 2800, currency: "JPY",
-      label: "Self-published zines", "label_zh": "自出版独立刊物", "label_ja": "自主出版のzine",
-      note: "A5–A4, 20–40 pages, is the typical Tokyo zine-shop range. Shared as context only.", "note_zh": "A5–A4 开本、20–40 页，是东京独立刊物店常见的价格区间。仅作背景参考。", "note_ja": "A5〜A4判、20〜40ページが東京のzineショップの一般的な価格帯です。背景情報として共有するのみです。",
+      label: "Zines and art books", "label_zh": "Zine 与画集", "label_ja": "Zineとアートブック",
+      note: "One price across the line. This is the tier a book fair sells from.", "note_zh": "整条产品线统一定价。书展上卖的就是这一档。", "note_ja": "ライン全体で一律の価格です。ブックフェアで売れるのはこの価格帯です。",
+    },
+    postcards: {
+      label: "Postcards", "label_zh": "明信片", "label_ja": "ポストカード",
+      note: "Sold in packs of 6 and 10, so the cheapest thing anyone can buy from you is ¥1,100 rather than the price of one card.", "note_zh": "以 6 张、10 张成套出售，所以别人能从你这里买到的最便宜的东西是 1,100 日元，而不是单张的价格。", "note_ja": "6枚組・10枚組での販売なので、いちばん安く買えるものは1枚の値段ではなく1,100円になります。",
     },
   },
+  commission_note: "No published rate — negotiated per piece. For scale: a Western 8×10 watercolour house portrait runs ¥31,000–39,000, which brackets your originals floor almost exactly. Japanese commission platforms pay roughly half that before an 11–22% cut.", "commission_note_zh": "没有公开报价——按件商议。作为参照：欧美一张 8×10 英寸的水彩房屋肖像约 31,000–39,000 日元，几乎正好卡在你原作的起价线上。日本的约稿平台大约只有这个数的一半，还要再抽 11–22%。", "commission_note_ja": "公開料金はなく、案件ごとの相談です。目安として、欧米の8×10インチの水彩ハウスポートレートは31,000〜39,000円で、あなたの原画の下限とほぼ重なります。日本の依頼プラットフォームはその半分ほどで、さらに11〜22%が引かれます。",
   what_affects_price: [
     { factor: "Venue context", "factor_zh": "场地背景", "factor_ja": "会場の文脈", impact: "high",   note: "The same piece tends to sell for more at a gallery opening than at a zine fair — the setting carries part of the price. Just how the market reads context, nothing you need to act on.", "note_zh": "同一件作品在画廊开幕上往往比在独立刊物展会上卖得更高——场地本身也承载了一部分价格。这只是市场解读情境的方式，并不需要你为此做什么。", "note_ja": "同じ作品でも、ギャラリーのオープニングではzineフェアより高く売れる傾向があります——場が価格の一部を担うのです。市場が文脈を読み取る仕組みにすぎず、何かする必要はありません。" },
     { factor: "Edition discipline", "factor_zh": "版数自律", "factor_ja": "エディションの規律", impact: "high",   note: "If you ever do editions, a fixed size (e.g. 30 or 50) keeps each print feeling intentional and protects its value over open-ended runs.", "note_zh": "如果你哪天做限量版，固定一个版数（如 30 或 50）能让每件版画都显得用心，也比无限量印刷更能保值。", "note_ja": "もしエディションを作るなら、数を固定する（例：30や50）と、一点一点に意図が感じられ、無制限の刷りよりも価値が保たれます。" },
-    { factor: "Instagram audience", "factor_zh": "Instagram 受众", "factor_ja": "Instagramのオーディエンス", impact: "medium", note: "An engaged following is a genuine asset — collectors do respond to it. Yours is real and built honestly; that's already working in your favor.", "note_zh": "一群投入的受众是真实的资产——藏家确实会受其影响。你的受众是真实的、靠诚实积累的，这一点已经在为你加分。", "note_ja": "熱心なフォロワーは確かな資産です——コレクターはそれに反応します。あなたのフォロワーは本物で、誠実に築かれたもの。それはすでにあなたの強みとして働いています。" },
+    { factor: "Audience", "factor_zh": "受众", "factor_ja": "オーディエンス", impact: "medium", note: "An engaged following is a genuine asset — collectors do respond to it. Yours runs across three places at once: about 44,000 on Xiaohongshu, 27,000 on the Instagram diary, and 7,500 on Bilibili for the painting videos. All built without advertising, and already working in your favour.", "note_zh": "一群投入的受众是真实的资产——藏家确实会受其影响。你的受众同时分布在三个地方：小红书约 44,000 人、Instagram 日记约 27,000 人、B 站的作画影片约 7,500 人。全都没有投过广告，而且已经在为你加分。", "note_ja": "熱心なフォロワーは確かな資産です——コレクターはそれに反応します。あなたの場合は三つの場所にまたがっています：小紅書に約44,000人、Instagramの日記に約27,000人、制作動画を見るBilibiliに約7,500人。いずれも広告なしで築かれ、すでにあなたの強みとして働いています。" },
     { factor: "Exhibition CV", "factor_zh": "展览履历", "factor_ja": "展示歴",       impact: "medium", note: "As exhibition credits accumulate, the market naturally supports a little more over time. No need to chase this — it follows the work you're already doing.", "note_zh": "随着展览履历的积累，市场自然会随时间逐渐支撑更高一些的价格。无需刻意追求——它会跟随你本就在做的创作自然而来。", "note_ja": "展示の実績が積み重なると、時間とともに市場が少しずつ高い価格を自然に支えるようになります。追い求める必要はありません——あなたが今している制作に、自然とついてきます。" },
     { factor: "Certificate of authenticity", "factor_zh": "作品真品证书", "factor_ja": "真作証明書", impact: "medium", note: "A simple, hand-signed certificate adds a sense of permanence buyers appreciate, and takes about two minutes. A small, optional nicety.", "note_zh": "一份简单的手签真品证书能带来一种买家所珍视的恒久感，只需约两分钟。一个可有可无的小用心。", "note_ja": "手書きサイン入りのシンプルな証明書は、買い手が大切にする「永続性」の感覚を添えてくれます。所要時間は約2分。あってもなくてもよい、ささやかな心づかいです。" },
     { factor: "Work size", "factor_zh": "作品尺幅", "factor_ja": "作品サイズ",           impact: "low",    note: "Smaller formats are often easiest for buyers to live with. The one gentle guard: small doesn't mean cheap — value small work fully.", "note_zh": "较小的尺幅往往最便于买家收纳与悬挂。唯一值得轻轻提醒的一点：小不等于廉价——别低估了小幅作品的价值。", "note_ja": "小判は買い手にとって取り入れやすいことが多いです。ひとつだけそっと添えるなら：小さいことは安いことではありません——小品の価値を十分に評価してください。" },

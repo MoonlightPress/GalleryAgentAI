@@ -13,6 +13,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.middleware.gzip import GZipMiddleware
 from pydantic import BaseModel
 from recommendation_readiness import assess_actionability, RELATIONSHIP_CATEGORIES
+from engines.deadline_normaliser import parse_deadline_date
 from engines.profile_sync import apply_peppercorn_edits
 from engines.why_hook import why_line_problem
 from engines.recurring_calendar_engine import build as build_recurring_calendar
@@ -3172,6 +3173,51 @@ def get_saffron():
                 pass
         return s[:7] if len(s) >= 7 else ""
 
+    # Her actual exhibitions. Until 2026-09-08 this section knew nothing about
+    # them: submission_log, exhibition_log and career_events are all empty, so
+    # the only thing it had to chart was 51 venues the PIPELINE bulk-imported in
+    # June. It read those as her outreach, found none in the two months since,
+    # and told a painter with three solo shows that she was in "a quiet stretch"
+    # two days after one of them closed. Her record is the momentum; the CRM is
+    # a list of places the machine found.
+    _amp = _load_json(DATA_DIR / "artist_master_profile.json", {})
+    _MONTH_RE_CM = re.compile(
+        r'(january|february|march|april|may|june|july|august|september|october|november|december)',
+        re.IGNORECASE)
+
+    def _show_end_ym(dates_str):
+        """'YYYY-MM' a show CLOSED, from the profile's free-text date ranges.
+
+        Handles every shape on the profile: 'April 2026', 'February 4-13, 2023',
+        'August 25 - September 6, 2026', 'November 2024 - February 2025'. The
+        LAST month paired with the LAST year is the closing date in all of them.
+        """
+        s = str(dates_str or "")
+        months = _MONTH_RE_CM.findall(s)
+        years = re.findall(r'(20\d{2})', s)
+        if not months or not years:
+            return ""
+        mon = ["january", "february", "march", "april", "may", "june", "july",
+               "august", "september", "october", "november", "december"
+               ].index(months[-1].lower()) + 1
+        return f"{years[-1]}-{mon:02d}"
+
+    _exhibitions = []
+    for _ex in (_amp.get("career_history", {}) or {}).get("exhibitions", []) or []:
+        if not str(_ex.get("confidence", "")).startswith("confirmed"):
+            continue
+        _ym = _show_end_ym(_ex.get("dates"))
+        if not _ym:
+            continue
+        _exhibitions.append({
+            "ym": _ym,
+            "title": _ex.get("title", ""),
+            "venue": _ex.get("venue", ""),
+            "type": _ex.get("type", "exhibition"),
+            "dates": _ex.get("dates", ""),
+        })
+    _exhibitions.sort(key=lambda x: x["ym"], reverse=True)
+
     # Monthly activity buckets — last 6 months
     months_back = 6
     monthly = {}
@@ -3191,8 +3237,16 @@ def get_saffron():
         if ym in monthly:
             monthly[ym]["submissions"] += 1
 
+    # Only contacts she has actually engaged are HER activity. `date_added` is
+    # when the pipeline found the venue, which is a fact about the machine, not
+    # about her month. Same filter the activity feed below already used — it was
+    # simply never applied to the chart or the trajectory.
+    _ENGAGED_CM = {"in_contact", "sent_inquiry", "contacted", "responded",
+                   "ready_to_review", "relationship"}
     for c in raw_contacts:
-        ym = _parse_ym(c.get("date_added") or "")
+        if (c.get("status") or "cold") not in _ENGAGED_CM:
+            continue
+        ym = _parse_ym(c.get("last_contacted") or c.get("date_added") or "")
         if ym in monthly:
             monthly[ym]["contacts"] += 1
 
@@ -3200,6 +3254,10 @@ def get_saffron():
         ym = _parse_ym(ev.get("date") or ev.get("timestamp") or "")
         if ym in monthly:
             monthly[ym]["events"] += 1
+
+    for _ex in _exhibitions:
+        if _ex["ym"] in monthly:
+            monthly[_ex["ym"]]["events"] += 1
 
     this_month_subs = sum(1 for s in raw_submissions if _parse_ym(s.get("date") or s.get("submitted_at") or s.get("date_added") or "").startswith(_this_ym))
     this_month_contacts = monthly.get(_this_ym, {}).get("contacts", 0)
@@ -3209,14 +3267,20 @@ def get_saffron():
     contacted = sum(1 for c in raw_contacts if c.get("status") not in ("cold", None, ""))
     response_rate = round((responses / contacted * 100) if contacted else 0)
 
-    # Trajectory: simple heuristic on recent vs prior months
+    # Trajectory, over real evidence only: things she did or that happened to
+    # her, never the pipeline's import date.
     recent_acts = sum(monthly[k]["submissions"] + monthly[k]["contacts"] + monthly[k]["events"] for k in list(monthly)[-2:])
     prior_acts  = sum(monthly[k]["submissions"] + monthly[k]["contacts"] + monthly[k]["events"] for k in list(monthly)[:4])
-    if not raw_submissions and len(raw_contacts) < 5:
-        trajectory = "early"
+    if recent_acts + prior_acts == 0:
+        # Nothing measured in the window. That is the system not having looked,
+        # not her having stopped, and it must never be drawn as a decline.
+        trajectory = "unknown"
     elif recent_acts > prior_acts * 1.3:
         trajectory = "accelerating"
-    elif recent_acts < prior_acts * 0.5:
+    elif prior_acts >= 3 and recent_acts < prior_acts * 0.5:
+        # "A quiet stretch" needs a real baseline to be quiet against. Below
+        # three prior events the sample is too small to call a decline, and
+        # calling one anyway is how she got told she was stalling.
         trajectory = "stalling"
     else:
         trajectory = "steady"
@@ -3252,6 +3316,30 @@ def get_saffron():
             "date": ev.get("date") or (ev.get("timestamp") or "")[:10],
             "status": ev.get("type", "event"),
         })
+    # Her shows, newest first. These are confirmed and sourced on the profile,
+    # so they belong in the feed that claims to say what has been happening.
+    for _ex in _exhibitions[:8]:
+        # Two profile entries read "exhibition (group/solo not specified on
+        # source)". A naive `"solo" in type` matches that phrase and labels them
+        # solo, which is the system inventing a credential. Unspecified stays
+        # unspecified.
+        _t = _ex["type"].lower()
+        if "not specified" in _t:
+            _kind = "exhibition"
+        elif "solo" in _t:
+            _kind = "solo"
+        else:
+            _kind = "group"
+        activity_items.append({
+            "type": "exhibition",
+            "name": _ex["title"] + (f" — {_ex['venue']}" if _ex["venue"] and _ex["venue"] != "—" else ""),
+            # 'YYYY-MM'. Deliberately NOT the profile's free-text range
+            # ("August 25 - September 6, 2026") — that is English prose and this
+            # column renders on a page she reads in Chinese. A numeric date is
+            # the same in every language.
+            "date": _ex["ym"],
+            "status": _kind,
+        })
     activity_items.sort(key=lambda x: x["date"], reverse=True)
 
     career_momentum = {
@@ -3261,6 +3349,7 @@ def get_saffron():
             "venues_in_crm": len(raw_contacts),
             "career_events": len(raw_career_events),
             "responses_received": responses,
+            "exhibitions": len(_exhibitions),
         },
         "response_rate": response_rate,
         "trajectory": trajectory,
@@ -3273,54 +3362,69 @@ def get_saffron():
     }
 
     # ── Timing Intelligence ───────────────────────────────────────────────────
-    _MONTH_MAP_TI = {
-        "january": 1, "february": 2, "march": 3, "april": 4,
-        "may": 5, "june": 6, "july": 7, "august": 8,
-        "september": 9, "october": 10, "november": 11, "december": 12,
-        "jan": 1, "feb": 2, "mar": 3, "apr": 4,
-        "jun": 6, "jul": 7, "aug": 8, "sep": 9, "oct": 10, "nov": 11, "dec": 12,
-    }
+    # This section answers "when are the doors I can still walk through?", so it
+    # has to be FORWARD-looking. The version live until 2026-09-08 took the
+    # largest month NAME appearing anywhere in the deadline string and ignored
+    # the year entirely. Three consequences, all of them shipped:
+    #   * 729 of 1,395 rows had deadlines that had already passed, and every one
+    #     was charted as application season. The histogram was a graveyard.
+    #   * "October 31, 2025 or August 25, 2026" charted as October, not August —
+    #     max() picked the bigger month number rather than the real deadline.
+    #   * substring matching charted "decision by June" as December, off the
+    #     "dec" inside "decision".
+    # It named June (78) and April (59) "peak application season" on that basis.
+    # Read against real dates the live peaks are September, October and January.
+    #
+    # Dates are parsed with engines.deadline_normaliser.parse_deadline_date —
+    # the canonical parser the verification layer already uses (ISO, Month D Y,
+    # D Month Y, 2-digit years, 年月日, Reiwa). One parser, one answer.
     _MONTH_NAMES = ["January", "February", "March", "April", "May", "June",
                     "July", "August", "September", "October", "November", "December"]
+    _MONTH_NUM_TI = {m[:3].lower(): i + 1 for i, m in enumerate(_MONTH_NAMES)}
+    _MONTH_ZH_TI = [f"{i}月" for i in range(1, 13)]
+    _MONTH_JA_TI = [f"{i}月" for i in range(1, 13)]
     _ROLLING_TI = frozenset({"rolling", "ongoing", "year-round", "open submission", "anytime", "proposal-based"})
+    _EMPTY_TI = frozenset({"", "none", "null", "unknown", "tbd", "n/a", "check site", "varies"})
+    # A month named with no year anywhere in the string ("May 15th"). The month
+    # is real information; the year is not. Counted into its month — that is what
+    # the words mean to someone reading them today — but tallied separately so
+    # the softer confidence is disclosed rather than hidden.
+    _YEARLESS_TI = re.compile(
+        r'\b(january|february|march|april|may|june|july|august|september|october|november|december)\b',
+        re.IGNORECASE)
 
-    def _extract_deadline_months(dl_str):
-        s = str(dl_str or "").lower()
-        if any(t in s for t in _ROLLING_TI):
-            return None, True   # (month_num, is_rolling)
-        s_clean = re.sub(r'(\d+)(st|nd|rd|th)\b', r'\1', s)
-        found = []
-        # ISO / YYYY-MM-DD
-        for m in re.finditer(r'20\d{2}[-/](\d{1,2})[-/]\d{1,2}', s_clean):
-            try:
-                found.append(int(m.group(1)))
-            except ValueError:
-                pass
-        # "Month DD, YYYY" or "DD Month YYYY"
-        for word, num in _MONTH_MAP_TI.items():
-            if word in s_clean:
-                found.append(num)
-        if found:
-            return max(found), False
-        return None, False
-
+    _today_ti = _date.today()
     month_buckets = {i: [] for i in range(1, 13)}
     rolling_opps = []
     no_deadline = 0
+    expired_count = 0
+    yearless_count = 0
 
     for opp in opps:
-        dl = opp.get("deadline") or ""
-        if not dl or str(dl).strip().lower() in ("", "none", "null", "unknown", "tbd", "n/a"):
+        dl = str(opp.get("deadline") or "").strip()
+        entry = {
+            "name": (opp.get("name") or opp.get("title") or "")[:60],
+            "category": opp.get("category") or "",
+            "deadline": dl[:80],
+        }
+        if not dl or dl.lower() in _EMPTY_TI:
             no_deadline += 1
             continue
-        month_num, is_rolling = _extract_deadline_months(dl)
-        name = opp.get("name") or opp.get("title") or ""
-        cat = opp.get("category") or ""
-        entry = {"name": name[:60], "category": cat, "deadline": str(dl)[:80]}
-        if is_rolling:
+        if any(t in dl.lower() for t in _ROLLING_TI):
             rolling_opps.append(entry)
-        elif month_num:
-            month_buckets[month_num].append(entry)
+            continue
+        parsed = parse_deadline_date(dl)
+        if parsed is not None:
+            # Already gone. Not application season, and not charted as it.
+            if parsed < _today_ti:
+                expired_count += 1
+            else:
+                month_buckets[parsed.month].append(entry)
+            continue
+        m = _YEARLESS_TI.search(dl)
+        if m and not re.search(r'20\d{2}', dl):
+            yearless_count += 1
+            month_buckets[_MONTH_NUM_TI[m.group(1).lower()[:3]]].append(entry)
         else:
             no_deadline += 1
 
@@ -3330,24 +3434,109 @@ def get_saffron():
         for i in range(1, 13)
     ]
     sorted_by_count = sorted(monthly_counts, key=lambda x: x["count"], reverse=True)
-    peak_months   = [m["month"] for m in sorted_by_count[:3] if m["count"] > 0]
-    quiet_months  = [m["month"] for m in sorted_by_count if m["count"] == 0][:3]
+    peak_months = [m["month"] for m in sorted_by_count[:3] if m["count"] > 0]
 
+    # Quiet months are read from the NEXT FOUR MONTHS ONLY. Across a full
+    # forward year the far end is always empty, but that is discovery not having
+    # reached next spring yet — not a quiet season. Calling next April quiet
+    # would be rendering "never measured" as a fact about the world, which is the
+    # one thing this page must not do. Within four months coverage is dense
+    # enough for "lightest" to mean something.
+    _near = [((_today_ti.month - 1 + k) % 12) + 1 for k in range(4)]
+    _near_counts = [(i, len(month_buckets[i])) for i in _near]
+    _lightest = min(c for _, c in _near_counts)
+    quiet_months = (
+        [_MONTH_NAMES[i - 1] for i, c in _near_counts if c == _lightest][:2]
+        if any(c > 0 for _, c in _near_counts) else []
+    )
+
+    _dated_ahead = sum(len(v) for v in month_buckets.values())
     timing_intelligence = {
         "total_analyzed":       len(opps),
-        "with_parsed_deadline": sum(len(v) for v in month_buckets.values()),
+        "with_parsed_deadline": _dated_ahead,
         "rolling_count":        len(rolling_opps),
         "no_deadline_count":    no_deadline,
+        # Surfaced so the four buckets reconcile against the total. Without it
+        # the coverage panel silently lost 729 rows.
+        "expired_count":        expired_count,
+        "undated_year_count":   yearless_count,
         "monthly_counts":       monthly_counts,
         "rolling":              rolling_opps[:10],
         "peak_months":          peak_months,
         "quiet_months":         quiet_months,
-        "key_insight":          (
-            f"{', '.join(peak_months[:2])} {'are' if len(peak_months) >= 2 else 'is'} peak application season "
-            "in this pipeline. Prepare materials 4–6 weeks before deadlines cluster."
+        # Names every peak it found. The old version sliced [:2], which is why
+        # September never got mentioned even when it ranked third.
+        #
+        # Through _reg because this sentence is built from live month names and
+        # so can never be in the monthly translation cache — without it, her
+        # Chinese page renders this line in English.
+        "key_insight": (
+            _reg(
+                f"{', '.join(peak_months)} {'are' if len(peak_months) >= 2 else 'is'} where the "
+                "deadlines still ahead of you cluster. Materials tend to want 4–6 weeks.",
+                f"{'、'.join(_MONTH_ZH_TI[_MONTH_NAMES.index(m)] for m in peak_months)}"
+                "是接下来截止日期最集中的时候。材料一般需要提前 4–6 周准备。",
+                f"{'・'.join(_MONTH_JA_TI[_MONTH_NAMES.index(m)] for m in peak_months)}"
+                "に、これから先の締切が集中しています。準備には4〜6週間みておくとよさそうです。",
+            )
             if peak_months else
-            "Most opportunities have rolling or unspecified deadlines — check each one individually."
+            _reg(
+                "Nothing on the board has a future dated deadline right now — what's left is "
+                "rolling or open, so there's no date to race.",
+                "眼下板面上没有任何还没到期的固定截止日期——剩下的都是常年开放或随时可投，所以没有哪一天需要赶。",
+                "いま、締切が先にあるものはひとつもありません——残りは通年・随時なので、追いかけるべき日付はありません。",
+            )
         ),
+    }
+
+    # ── Her own price points ──────────────────────────────────────────────────
+    # Straight off the profile, which records them from gegyjiji.base.shop with a
+    # read date. Until 2026-09-08 this section showed a hardcoded ¥30,000–115,000
+    # originals / ¥3,000–15,000 prints / ¥1,200–2,800 zines band labelled
+    # "General context from Tokyo emerging-illustrator market observation". No
+    # such observation existed anywhere in this repo. The originals band was her
+    # own prices rounded and handed back to her as market data; the print and
+    # zine bands were invented ABOVE what she actually charges (¥2,200 and
+    # ¥1,980), which quietly told a painter she was underpricing.
+    # Her numbers, with their source, or nothing.
+    _pp = (_amp.get("market_presence", {}) or {}).get("price_points", {}) or {}
+
+    def _band(label, low, high, count, note):
+        """`note` is a COPY KEY into PRICING_INTELLIGENCE.band_notes (which
+        carries zh/ja); `label` is only the fallback if that key is ever missing.
+        If audit_zh flags these four labels, they are unrendered fallbacks, not
+        a leak."""
+        if not low:
+            return None
+        return {"label": label, "low": low, "high": high or low,
+                "count_listed": count, "note": note}
+
+    _originals = _pp.get("originals", {}) or {}
+    _zines = _pp.get("zines_artbooks", {}) or {}
+    _prints = _pp.get("prints", {}) or {}
+    _cards = _pp.get("postcards", {}) or {}
+    # Only the shop URL and the numbers cross the wire. The profile's English
+    # source note and commission note are NOT sent: the component renders its own
+    # localized copy for both, and English in the payload that never reaches the
+    # DOM is exactly what makes scripts/audit_zh.py cry wolf.
+    price_points = {
+        "shop":       (_amp.get("market_presence", {}) or {}).get("shop", ""),
+        "bands": [b for b in [
+            _band("Original watercolours", _originals.get("low_jpy"), _originals.get("high_jpy"),
+                  _originals.get("count_listed"), "originals"),
+            _band("Prints", _prints.get("jpy"), _prints.get("jpy"),
+                  _prints.get("count_listed"), "prints"),
+            _band("Zines and art books", _zines.get("jpy"), _zines.get("jpy"),
+                  _zines.get("count_listed"), "zines"),
+            _band("Postcards", _cards.get("pack_6_jpy"), _cards.get("pack_10_jpy"),
+                  None, "postcards"),
+        ] if b],
+        # A flag, not the text. The one researched commission comparison the
+        # profile holds a source for; the copy itself lives in saffron_insights
+        # with its zh and ja.
+        "has_commission_context": bool(
+            (_pp.get("commissions") or
+             (_amp.get("market_presence", {}) or {}).get("commissions", {}) or {}).get("_note")),
     }
 
     # ── Opportunity Gap Analysis ──────────────────────────────────────────────
@@ -3646,6 +3835,7 @@ def get_saffron():
         "open_questions":        open_questions,
         "career_momentum":       career_momentum,
         "timing_intelligence":   timing_intelligence,
+        "price_points":          price_points,
         "opportunity_gap":       opportunity_gap,
         "market_stats":          market_stats,
     }
