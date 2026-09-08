@@ -1,3 +1,30 @@
+        {/* Restored 2026-09-08. Removing it was my misreading: I took the pathway
+            for the gallery route wearing a crown, because its goal is gallery
+            representation. Scott's correction — the two are different axes, not
+            rivals. The five routes are practical overviews of a domain: what it
+            is, what it pays, what she'd be taking on. The pathway is an ORDER OF
+            ACTION. Not one-to-one: gallery representation, an international
+            record, licensing deals and a large audience draw on overlapping
+            requirements in different sequences.
+
+            What is still wrong, and is the real work: the order is hardcoded to
+            one destination, and the seven levers behind it are all institutional
+            (representation, solo venue quality, art fairs, residency, grant,
+            critical press, monograph). There is no lever for an audience, a price
+            ladder, a lookbook or a publisher relationship — so no reordering can
+            reach licensing or a large following. The pool needs to be
+            destination-neutral before the sequence can be destination-dependent. */}
+        {tab === 'forward' && (
+          <SectionOpenContext.Provider value={false}>
+            {SB('futures', <Futures data={data.futures} t={t} lang={lang}
+              components={{
+                book_economics: <BookEconomics data={data.book_economics} lang={lang} />,
+                publisher_fork: <PublisherFork data={data.book_economics} lang={lang} />,
+              }} />)}
+            {SB('pathway', <StrategicPathway data={data.pathway} t={t} />)}
+          </SectionOpenContext.Provider>
+        )}
+
 // SaffronV2 — the proposed restructure, live, at #observe2.
 //
 // Not linked from anywhere. It reads the same endpoints as the real page, so
@@ -24,7 +51,7 @@ import {
   saffronTx,
   RecurringDoors, GrantLandscape,
   CareerPosition, ComparableArtists, VenueTracker, PressFeatures,
-  Futures, BookEconomics, PublisherFork,
+  Futures, StrategicPathway, BookEconomics, PublisherFork,
   SectionOpenContext, SectionErrorBoundary,
 } from './SaffronPage'
 import { saffronHero, saffronHeroNight } from '../utils/heroImages'
