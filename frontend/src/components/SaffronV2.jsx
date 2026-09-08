@@ -26,7 +26,7 @@ import {
   RecurringDoors, GrantLandscape,
   CareerPosition, ComparableArtists, VenueTracker, PressFeatures,
   Futures, StrategicPathway, BookEconomics, PublisherFork,
-  SectionOpenContext, SectionErrorBoundary,
+  SectionOpenContext, SectionErrorBoundary, SectionShell,
 } from './SaffronPage'
 import { saffronHero, saffronHeroNight } from '../utils/heroImages'
 import { isNightNow } from '../utils/timeOfDay'
@@ -99,12 +99,12 @@ const MONTH_EN = ['January', 'February', 'March', 'April', 'May', 'June',
 
 const LADDER_COPY = {
   en: { title: 'Strategies', sub: 'Different goals, overlapping tasks, different orders',
-        done: (a, b) => `${a} of ${b} already true`, also: 'Also counts toward',
-        where: 'Where she stands —',
+        done: (a, b) => `${a} of ${b} already reached`, also: 'Also counts toward',
+        nextUp: 'Next:',
         proto: 'Prototype — the ladders are written by hand; the ticks are read from her record.' },
   zh: { title: '推进策略', sub: '不同的目标，重叠的事项，不同的顺序',
-        done: (a, b) => `${b} 项里已经成立 ${a} 项`, also: '同时也算进',
-        where: '目前的情况——',
+        done: (a, b) => `${b} 级里已经到了 ${a} 级`, also: '同时也算进',
+        nextUp: '下一级：',
         proto: '原型——阶梯是手写的，勾选是从她的记录里读出来的。' },
   ja: { title: '進め方', sub: '目標ごとに、重なる項目を、違う順番で',
         done: (a, b) => `${b} 件中 ${a} 件はすでに満たしている`, also: '次にも効く',
@@ -117,59 +117,75 @@ function Ladders({ data, careerData, lang }) {
   const pick = (o) => (o && (o[lang] || o.en)) || ''
   const done = evidence(data, careerData)
 
+  // One SectionShell holding three collapsible goals — the same shape Pathways
+  // uses directly above (a shell, then cards that open). The first version
+  // rendered bare divs with their own heading, so three ladders sat loose on the
+  // page next to sections that were all in boxes.
   return (
-    <div className="v2-ladders">
-      <h2 className="v2-h">{c.title}</h2>
-      <p className="v2-sub">{c.sub}</p>
-
-      {GOALS.map((g) => {
-        const hit = g.ladder.filter((t) => done[t]).length
-        const next = g.ladder.find((t) => !done[t])
-        return (
-          <div key={g.id} className="v2-ladder">
-            <div className="v2-ladder-head">
-              <h3 className="v2-ladder-name">{pick(g.name)}</h3>
-              <span className="v2-ladder-count">{c.done(hit, g.ladder.length)}</span>
-            </div>
-            {/* Same markup as the career pathway above — sf-step, sf-step-marker,
-                sf-step-body — rather than a lookalike, so the two read as one kind
-                of object instead of two things that nearly match. */}
-            <div className="sf-steps">
-              {g.ladder.map((t) => {
-                const st = STATES[t]
-                if (!st) return null
-                const isDone = done[t]
-                const isNext = t === next
-                const shared = alsoServes(t, g.id)
-                const cls = isDone ? 'sf-step--done' : isNext ? 'sf-step--blocking' : 'sf-step--pending'
-                return (
-                  <div key={t} className={`sf-step ${cls}`}>
-                    <div className="sf-step-marker">{isDone ? '✓' : isNext ? '▶' : '○'}</div>
-                    <div className="sf-step-body">
-                      <div className="sf-step-label">{pick(st.label)}</div>
-                      <div className="sf-step-detail">{pick(g.why?.[t]) || pick(st.detail)}</div>
-                      {st.treatment && <Treatment t={st.treatment} pick={pick} />}
-                      {shared.length > 0 && (
-                        <div className="v2-rung-also">
-                          {c.also} {shared.map((x) => pick(x.name)).join(' · ')}
-                        </div>
-                      )}
-                    </div>
-                  </div>
-                )
-              })}
-            </div>
-          </div>
-        )
-      })}
+    <SectionShell title={c.title} subtitle={c.sub} summary={c.sub} trackId="ladders" defaultOpen>
+      <div className="v2-ladders">
+        {GOALS.map((g) => (
+          <Ladder key={g.id} g={g} done={done} c={c} pick={pick} />
+        ))}
+      </div>
       <p className="v2-ladder-proto">{c.proto}</p>
+    </SectionShell>
+  )
+}
+
+// One goal: a closed card showing where she stands, opening onto the states.
+function Ladder({ g, done, c, pick }) {
+  const [open, setOpen] = useState(false)
+  const hit = g.ladder.filter((x) => done[x]).length
+  const next = g.ladder.find((x) => !done[x])
+  const nextLabel = next ? pick(STATES[next]?.label) : ''
+  return (
+    <div className={`sf-future${open ? ' sf-future--open' : ''}`}>
+      <button className="sf-future-head" onClick={() => setOpen((o) => !o)} aria-expanded={open}>
+        <div>
+          <div className="sf-future-name">{pick(g.name)}</div>
+          <div className="sf-future-tagline">{c.done(hit, g.ladder.length)}</div>
+          {/* Where she is on this ladder, readable without opening it — the same
+              job f.standing does on a Pathway card. */}
+          {nextLabel && <div className="sf-future-standing">{c.nextUp} {nextLabel}</div>}
+        </div>
+        <span className={`sf-chevron${open ? ' sf-chevron--open' : ''}`}>▾</span>
+      </button>
+      {open && (
+        <div className="sf-future-body">
+          <div className="sf-steps">
+            {g.ladder.map((x) => {
+              const st = STATES[x]
+              if (!st) return null
+              const isDone = done[x]
+              const isNext = x === next
+              const shared = alsoServes(x, g.id)
+              const cls = isDone ? 'sf-step--done' : isNext ? 'sf-step--blocking' : 'sf-step--pending'
+              return (
+                <div key={x} className={`sf-step ${cls}`}>
+                  <div className="sf-step-marker">{isDone ? '\u2713' : isNext ? '\u25b6' : '\u25cb'}</div>
+                  <div className="sf-step-body">
+                    <div className="sf-step-label">{pick(st.label)}</div>
+                    <div className="sf-step-detail">{pick(g.why?.[x]) || pick(st.detail)}</div>
+                    {st.treatment && <Treatment t={st.treatment} pick={pick} />}
+                    {shared.length > 0 && (
+                      <div className="v2-rung-also">
+                        {c.also} {shared.map((y) => pick(y.name)).join(' \u00b7 ')}
+                      </div>
+                    )}
+                  </div>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      )}
     </div>
   )
 }
 
-// A state that carries more than a paragraph opens into one. Closed by default —
-// a ladder should stay readable in one scroll, and the depth is for the rung she
-// stops on.
+// A state carrying more than a paragraph opens into one. Closed by default, so a
+// ladder still reads in one scroll and the depth is there for the rung she stops on.
 function Treatment({ t, pick }) {
   const [open, setOpen] = useState(false)
   return (
