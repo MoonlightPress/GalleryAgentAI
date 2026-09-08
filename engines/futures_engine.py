@@ -174,22 +174,24 @@ _OUTREACH = _build_outreach()
 # Nothing in the Strategy tab depends on the date, but `career_strategy_engine`
 # writes copy around "Colour Diary (2021)" that would be wrong if the profile is.
 
+# Two paragraphs, not four (Scott, 2026-09-08: "the first two lines can be one,
+# and you can get rid of the last one"). The opening inventory and the question
+# it sets up are one thought, and the old closing line — "the five routes below
+# do different versions of that" — only announced the cards that follow it.
 _FRAME = _t(
-    "You already have a working practice: six years of paintings, an audience, direct sales, "
-    "commissions and a record of exhibitions.\n\n"
-    "The useful question now is where another route gives you something the current one cannot.\n\n"
+    "You already have a working practice — six years of paintings, an audience, direct sales, "
+    "commissions and a record of exhibitions — so the useful question now is where another "
+    "route gives you something this one cannot.\n\n"
     "An original already earns ¥31,900–115,500. That is the benchmark. Anything added to the "
     "practice should earn from work you have already made, reach buyers you cannot reach "
     "yourself, increase what the rest of the work is worth, or create revenue without requiring "
-    "another original.\n\n"
-    "The five routes below do different versions of that.",
+    "another original.",
 
-    "你已经有一套跑起来的创作和生意：六年的画、一批固定的观众、直接销售、委托，还有一份展览履历。\n\n"
-    "现在值得问的是：换一条路，能拿到什么现在这条路上拿不到的东西。\n\n"
+    "你已经有一套跑起来的创作和生意——六年的画、一批固定的观众、直接销售、委托，还有一份展览履历——"
+    "所以现在值得问的是：换一条路，能拿到什么现在这条路上拿不到的东西。\n\n"
     "一张原作已经能卖到 31,900–115,500 日元，后面所有的账都拿这个数来比。往里面再加东西，"
     "至少要做到其中一件：让画完的作品再挣一次钱，卖给你自己够不着的买家，"
-    "把其余作品的价钱一起带上去，或者不必再画一张原作也能有收入。\n\n"
-    "下面五条路，做的都是这同一件事，只是做法不同。")
+    "把其余作品的价钱一起带上去，或者不必再画一张原作也能有收入。")
 
 
 _SELLING_DIRECT = [
@@ -252,7 +254,7 @@ _SELLING_DIRECT = [
         "audience of the set converted worst. Price is the lever instead: a Tokyo illustrator "
         "with 27,000 followers, about the same reach, published an art book at ¥11,000 and sold "
         "400 copies in four months, roughly ¥4 million. "
-        "Two smaller levers decide most of the rest. Where those 26,000 live changes the "
+        "Two smaller levers decide most of the rest. Where those 27,000 live changes the "
         "arithmetic more than how many they are, since air mail runs ¥2,720 a kilo to the US "
         "against ¥185 across Tokyo — and that split is one figure inside your own Instagram "
         "insights. And anything under three centimetres thick is worth ¥465 on every domestic "
@@ -261,7 +263,7 @@ _SELLING_DIRECT = [
         "粉丝数预测不了销量。在能查到具体数字的几个案例里，真正掏钱的人占观众的比例从 0.26% 到 15.8%，"
         "而其中观众最多的那一位转化率最低。真正起作用的是价格：一位东京插画师，两万七千粉丝，"
         "规模和你差不多，自出版的画集定价 11,000 日元，四个月卖了 400 本，约四百万日元。"
-        "剩下的大半，由另外两件小一点的事决定。这两万六千人住在哪里，比他们有多少人更能改变这笔账——"
+        "剩下的大半，由另外两件小一点的事决定。这两万七千人住在哪里，比他们有多少人更能改变这笔账——"
         "航空小包寄一公斤到美国 2,720 日元，寄到东京市内 185 日元——"
         "而这个比例，你自己的 Instagram 后台里就有。"
         "另外，厚度控制在三厘米以内，每件国内包裹省 465 日元；这是在设计阶段、开印之前就定下的。")},
@@ -1208,10 +1210,16 @@ def _standing(record: dict) -> dict:
     pubs = record.get("publications_confirmed", 0)
     zines = record.get("zines", 0)
     return {
+        # Was "about 26,000" — the Instagram figure, and stale even for that. On
+        # the route whose whole point is that nobody stands between her and a
+        # buyer, the number that matters is everyone she can reach without a
+        # gatekeeper: ~168,000 across four accounts (X 89.3k, Xiaohongshu 44k,
+        # Instagram 27k, Bilibili 7.5k). Quoting 26,000 here understated the one
+        # asset this pathway runs on by more than six times.
         "no_gatekeepers": _t(
-            "About 26,000 followers and a shop already running, with a price ladder that stops at "
-            "¥2,200 and starts again at ¥31,900.",
-            "大约两万六千人在看着，店铺已经在跑；价位到 2,200 日元就断了，再往上直接跳到 31,900。"),
+            "About 168,000 followers across four accounts and a shop already running, with a "
+            "price ladder that stops at ¥2,200 and starts again at ¥31,900.",
+            "四个账号合计约 16.8 万人在看着，店铺已经在跑；价位到 2,200 日元就断了，再往上直接跳到 31,900。"),
         # NOT "every room so far paid for from your side", which was here until
         # 2026-09-07. It graded her choices, and it graded them on a premise that
         # is probably wrong: Galerie LE MONDE is an illustration-world gallery
