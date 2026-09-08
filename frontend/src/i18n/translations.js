@@ -322,7 +322,7 @@ const zh = {
   'sf.sub.openQs':           '山楂还不知道、但会改变分析结果的事情。',
 
   'sf.sec.momentum':         '职业动能追踪',
-  'sf.sub.momentum':         '你记录下来的投递、场馆联系与回复——随你记录而更新。',
+  'sf.sub.momentum':         '你已确认的展览记录，加上你自己记下的投递与场馆往来。',
   'sf.mom.totalSubmissions': '投递总数',
   'sf.mom.venuesInCRM':      '场地名单',
   'sf.mom.responses':        '收到回复',
@@ -1263,7 +1263,7 @@ const ja = {
   'section.watch_list.desc':            'レジデンシー、機関、要調査の機会。',
 
   'sf.sec.momentum':         'キャリアの勢い',
-  'sf.sub.momentum':         '応募記録、会場連絡、返信率 — 実データから自動更新。',
+  'sf.sub.momentum':         '記録に残っているあなたの展示と、あなたが記録した応募・会場とのやりとり。',
   'sf.mom.totalSubmissions': '応募総数',
   'sf.mom.venuesInCRM':      'CRM会場数',
   'sf.mom.responses':        '返信あり',
@@ -2301,7 +2301,7 @@ const en = {
   'section.watch_list.desc':            'Residencies, institutions, and items needing more research before action.',
 
   'sf.sec.momentum':         'Career Momentum',
-  'sf.sub.momentum':         'Submissions, venue contacts, and response rate — auto-updated from live data.',
+  'sf.sub.momentum':         'Your shows on record, plus submissions and venue conversations as you log them.',
   'sf.mom.totalSubmissions': 'Total Submissions',
   'sf.mom.venuesInCRM':      'Venues tracked',
   'sf.mom.responses':        'Responses Received',

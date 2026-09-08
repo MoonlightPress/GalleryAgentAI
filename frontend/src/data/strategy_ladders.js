@@ -102,6 +102,39 @@ export const STATES = {
       ],
     },
   },
+  // Filming is necessary, not sufficient (Scott, 2026-09-08: "just because she
+  // does process videos isn't enough if she only does them on bilibili"). The
+  // rung above is a real 'yes' — she films, and 7,500 people on Bilibili follow
+  // her for it. This one is the distribution, and it is a real 'no': the two
+  // audiences that don't get them are the ones that would move a career.
+  a_weekly: {
+    label: T('The painting videos reaching the audiences that never see them',
+             '让作画影片抵达那些从没看过的人'),
+    detail: T('You already make these. About 7,500 people on Bilibili get them; the 27,000 on Instagram and the X account do not. One a week, posted where it stays — that is the whole of it, and it asks for nothing you are not already filming.',
+              '这些影片你本来就在做。B 站大约 7,500 人能看到；Instagram 上的 27,000 人和 X 上的账号看不到。每周一条，发在会留下来的地方——就这么多，而且不需要你多拍任何东西。'),
+    treatment: {
+      open: T('What "posted where it stays" means', '「发在会留下来的地方」是什么意思'),
+      hide: T('Close', '收起'),
+      blocks: [
+        { label: T('Not stories', '不要只发限时动态'),
+          text: T('A story is gone in 24 hours, so it reaches only whoever happened to open the app that day and leaves nothing behind for the curator who finds you in March. A feed post or a reel stays. If it has to be a story, save it to Highlights afterwards so it is still there.',
+                  '限时动态 24 小时就没了——它只触达那天刚好打开 App 的人，而三月份才找到你的策展人什么也看不到。发在主页或做成 Reels，它就会留下。如果只能发限时动态，事后请存进精选（Highlights），让它还在那儿。'),
+        },
+        { label: T('Once a week', '每周一条'),
+          text: T('Often enough to be a reason to come back, rare enough that it never becomes a second job. It is a floor, not a target — one a week is the point at which an account reads as active rather than dormant.',
+                  '频率高到足以让人有理由回来，又低到不会变成第二份工作。这是下限，不是指标——每周一条，正是一个账号从「沉寂」变成「在更新」的分界。'),
+        },
+        { label: T('Timelapse is fine', '延时摄影完全可以'),
+          text: T('Speed is not what makes it work. The thing that cannot be screenshotted is pigment moving into wet paper, and a timelapse shows that as well as real time does — often better, because the spread reads faster than the eye sees it.',
+                  '起作用的不是速度。没法被截图的，是颜料渗进湿纸的那个过程；延时拍出来一样成立——往往还更好，因为化开的过程被压缩得比肉眼看到的更清楚。'),
+        },
+        { label: T('Both places, not one', '两边都要，不是只选一边'),
+          text: T('The same file needs no re-editing and no translation to go up in all three places, because watching paint move needs no language. Posting it to one is the only reason it currently reaches one.',
+                  '同一个文件不用重剪、也不用翻译，就能同时发到三个地方——因为看颜料流动不需要语言。它现在只触达一边，唯一的原因就是只发了一边。'),
+        },
+      ],
+    },
+  },
   a_borrowed: {
     label: T('Appearing inside other audiences', '出现在别人的受众里'),
     detail: T('The fastest growth is borrowed rather than built — a shared zine, a two-person show, a trade of features. Twelve artists working in adjacent territory are already mapped; none approached.', '增长最快的方式是借来的，而不是攒出来的——一本合印的 zine、一个双人展、互相介绍。已经梳理出十二位在相邻领域创作的艺术家，尚未接触任何一位。'),
@@ -188,7 +221,7 @@ export const GOALS = [
     id: 'a_following',
     name: T('A following', '一群固定的读者'),
     ladder: ['a_cadence', 'a_look', 'a_found', 'a_series',
-             'a_motion', 'a_borrowed', 'a_second', 'a_inbound'],
+             'a_motion', 'a_weekly', 'a_borrowed', 'a_second', 'a_inbound'],
     why: {},
   },
   {
@@ -252,6 +285,12 @@ export function evidence(data, careerData) {
     // first was Xiaohongshu. When a state is 'unknown', ask before writing
     // anything that reads as "you could start".
     a_motion: 'yes',
+    // A real 'no', and the reason a_motion's 'yes' is not the end of it: Scott
+    // looked for these on Instagram and X before finding them on Bilibili, and
+    // they are not there ("just because she does process videos isn't enough if
+    // she only does them on bilibili"). Being a real 'no' is what lets this one
+    // be offered as the next step.
+    a_weekly: 'no',
     a_borrowed: 'unknown',
     // Reached. She has been on Xiaohongshu all along; the profile recorded
     // Instagram alone, so this rendered as a gap and the page advised her to
