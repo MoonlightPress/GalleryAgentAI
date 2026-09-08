@@ -124,10 +124,14 @@
 
 /* ── Section shell ──────────────────────────────────────────────────── */
 
+/* Cream cards on a cream ground: the gap is the only thing separating one
+   section from the next, so it has to be bigger than the eye expects from a
+   border alone. At 16px a run of collapsed sections read as one stack
+   (Scott, 2026-09-08: "they're touching each other"). */
 .sf-section {
   max-width: 820px;
   width: calc(100% - 36px);
-  margin: 0 auto 16px;
+  margin: 0 auto 28px;
   padding: 26px 30px;
   background: #fbf5e6;
   border: 1px solid #e6d4b4;
@@ -1826,9 +1830,11 @@ a.sf-readiness-col-name:hover { color: #c47a35; text-decoration: underline; }
 
 /* ── Career Momentum ───────────────────────────────────────────── */
 
+/* Auto-fit rather than a fixed 4, so the exhibitions count can join the row
+   without a fifth column overflowing on a phone. */
 .sf-momentum-stats {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(118px, 1fr));
   gap: 16px;
 }
 
@@ -1973,8 +1979,17 @@ a.sf-readiness-col-name:hover { color: #c47a35; text-decoration: underline; }
   border-radius: 3px 3px 0 0;
   min-height: 0;
 }
+.sf-mom-bar-events {
+  background: #9a6b8f;
+  border-radius: 3px 3px 0 0;
+  min-height: 0;
+}
 
-.sf-mom-bar-track .sf-mom-bar-subs:not(:last-child) {
+/* The track is column-reverse, so the LAST DOM child sits on top and is the
+   only segment that should keep a rounded cap. Written against every segment
+   rather than just .sf-mom-bar-subs, which left a rounded edge mid-stack once
+   the shows band made three. */
+.sf-mom-bar-track > *:not(:last-child) {
   border-radius: 0;
 }
 
@@ -1999,6 +2014,7 @@ a.sf-readiness-col-name:hover { color: #c47a35; text-decoration: underline; }
 }
 
 .sf-mom-legend-subs,
+.sf-mom-legend-events,
 .sf-mom-legend-contacts {
   font-family: Georgia, serif;
   font-size: 12px;
@@ -2009,6 +2025,7 @@ a.sf-readiness-col-name:hover { color: #c47a35; text-decoration: underline; }
 }
 
 .sf-mom-legend-subs::before,
+.sf-mom-legend-events::before,
 .sf-mom-legend-contacts::before {
   content: '';
   width: 11px;
@@ -2018,6 +2035,8 @@ a.sf-readiness-col-name:hover { color: #c47a35; text-decoration: underline; }
 
 .sf-mom-legend-subs::before     { background: #c47a35; }
 .sf-mom-legend-contacts::before { background: #8aa84a; }
+/* Shows. The deepest of the three — it is her record, not her admin. */
+.sf-mom-legend-events::before   { background: #9a6b8f; }
 
 .sf-mom-activity {
   display: flex;
