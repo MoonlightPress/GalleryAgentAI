@@ -4,7 +4,42 @@
 covers the volatile *what's true right now*. When the two disagree, this file wins —
 and whoever notices the drift should fix it here. Keep this file short.
 
-_Last updated: 2026-09-08_
+_Last updated: 2026-09-09_
+
+## DEPLOYED 2026-09-09 (overnight) — visual pass + the audit acted on
+
+Live and verified against the served bundle. **Not visually checked** — the Chrome
+extension would not connect for most of two sessions, so Scott is the first person
+to actually look at this.
+
+- **Nav texture + botanical accents.** `texture-plain-CHOSEN` (the leafless one)
+  sits behind the companion tabs; two of twelve botanical overlays run down the
+  Saffron page edges via `mix-blend-mode: multiply`, re-picked per visit, hidden
+  under 1100px, suppressed at night. Sources stay in `docs/design/`; shipped as
+  webp — 19KB nav, ~35KB per visit for accents.
+  **Trap found and fixed before deploy:** lifting `.saffron-page > *` to sit above
+  the accents silently rewrote the *sticky site nav*'s `position` (it is passed in
+  as the `nav` prop and rendered as a direct child). Accents are `z-index: -1`
+  instead, which needs `.saffron-page` to carry its own background — that cream is
+  what multiply blends against.
+- **The content audit was acted on** — see `_reviews/2026-09-08_saffron_content_audit.md`.
+- **Then the fixes were audited too, and that caught four new errors of mine.**
+  Worst: I said a Japanese 買い取り is worth 20–70% of the fee. It is a MULTIPLE —
+  the illustrators' association puts it at 2–3x. I also quoted the A-rank cover
+  floor (¥30,000) at a watercolour painter whose row is D rank (¥70,000+), and
+  asserted a medium and a gender for Puuung that nobody has published.
+- **467 lines of dead code deleted** (`CAREER_DEPENDENCY_MAP` + two unmounted
+  components). It was the source of the worst Chinese in the file precisely
+  because nothing rendered it.
+- **`SaffronPage.jsx` and `saffron_insights.js` now sit in `lint:changed`**, which
+  `npm test` runs first. `no-dupe-keys` there caught six stale `_zh` keys shadowing
+  corrected translations — the biggest file had not been covered.
+
+**Open:** the ~40% of Chinese the second cold read still calls stiff (mostly the
+collaboration block's English metaphors); `saffronTx` needs moving out of
+SaffronPage.jsx to clear its one scoped eslint-disable.
+
+
 
 ## DEPLOYED 2026-09-08 — Saffron defect pass (live, verified in the browser)
 
