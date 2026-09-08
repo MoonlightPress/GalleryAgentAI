@@ -1280,6 +1280,11 @@ function CollectorEcosystem({ lang }) {
           <div key={i} className="sf-collab-entry">
             <a className="sf-collab-link sf-ext-link" href={c.link} target="_blank" rel="noreferrer">{c.name} ↗</a>
             <p className="sf-collab-who">{c.what}</p>
+            {/* What the platform takes. This section recommended places to sell
+                without ever saying what selling there costs, so no arithmetic in
+                it could be checked — including that a fixed per-order fee makes
+                her ¥1,100 postcard pack her worst-margin item. */}
+            {c.fee && <p className="sf-collab-fee">{c.fee}</p>}
             <div className="sf-collab-try">
               <span className="sf-collab-try-label">{COLLECTOR_FIT_LABEL[lang] || COLLECTOR_FIT_LABEL.en}</span>
               {c.fit_for_her}

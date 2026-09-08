@@ -2954,3 +2954,15 @@ a.sf-readiness-col-name:hover { color: #c47a35; text-decoration: underline; }
   color: #4a3826; margin: 10px 0 0; padding-left: 20px;
 }
 .sf-ok-rules li { margin-bottom: 8px; }
+
+/* What a platform takes. Sits under the description, quieter than it — it is a
+   cost, not a pitch. Added 2026-09-08 with the fee figures themselves; the
+   section had recommended marketplaces for years without naming one. */
+.sf-collab-fee {
+  font-family: Georgia, serif;
+  font-size: 12.5px;
+  font-style: italic;
+  color: #8b6a3e;
+  margin: 6px 0 0;
+  line-height: 1.6;
+}
