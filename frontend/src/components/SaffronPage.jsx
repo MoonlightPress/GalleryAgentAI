@@ -1,5 +1,6 @@
 import { useState, useEffect, useMemo, Component, createContext, useContext } from 'react'
 import './SaffronPage.css'
+import PaperAccents from './PaperAccents'
 import { CalendarMonth } from './DeadlineCalendar'
 import { parseDeadline, keyOf } from '../utils/calendarDates'
 import './DeadlineCalendar.css'
@@ -3308,6 +3309,7 @@ export default function SaffronPage({ nav, tab: tabFromUrl, onTabChange }) {
 
   return (
     <div className="saffron-page">
+      <PaperAccents />
       <section className="saffron-hero">
         <img src={isNightNow() ? saffronHeroNight : saffronHero} alt="" draggable={false} className="saffron-hero-img" />
       </section>

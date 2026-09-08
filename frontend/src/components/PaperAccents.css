@@ -1,0 +1,51 @@
+/* Decorative botanical strips down the page edges.
+
+   mix-blend-mode: multiply is what makes these work without a cut-out — the
+   white ground the art was painted on multiplies to nothing against the cream
+   page, and only the pigment darkens. It also means they must never sit above
+   text: multiply would darken the glyphs too. z-index 0 against content at 1. */
+.paper-accents {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.paper-accent {
+  position: absolute;
+  width: 190px;
+  height: auto;
+  opacity: 0.42;
+  mix-blend-mode: multiply;
+  user-select: none;
+}
+
+.paper-accent--right { right: -18px; }
+
+/* The art hugs the right edge of its own canvas, so the left-hand copy is
+   mirrored rather than a different file. */
+.paper-accent--left {
+  left: -18px;
+  transform: scaleX(-1);
+}
+
+/* Below this the content column already fills the width, and an edge strip would
+   sit under the text instead of beside it. */
+@media (max-width: 1100px) {
+  .paper-accents { display: none; }
+}
+
+/* At night the page keeps its cream content but the palette around it cools;
+   multiply on a dark ground turns these into muddy smears, so they step back. */
+.app--night .paper-accent { opacity: 0.22; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .paper-accent {
+    animation: paper-accent-in 900ms ease-out both;
+  }
+}
+@keyframes paper-accent-in {
+  from { opacity: 0; }
+  to   { opacity: 0.42; }
+}

@@ -2,7 +2,12 @@
   position: sticky;
   top: 0;
   z-index: 40;
-  background: var(--parchment);
+  /* Paper wash behind the tabs (assets/texture/nav-paper.webp, 19KB). The colour
+     is listed after the image so it still renders if the image 404s, and it is
+     what shows through the wash's lighter areas. cover, not repeat: the file is
+     a single painted sheet and tiling it would show a seam. */
+  background: url('../assets/texture/nav-paper.webp') center / cover no-repeat,
+              var(--parchment);
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
   padding: 11px 28px;

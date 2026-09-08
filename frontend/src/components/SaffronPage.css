@@ -3,6 +3,18 @@
 .saffron-page {
   display: flex;
   flex-direction: column;
+  /* Positioning context for PaperAccents, which pins its strips to the page
+     edges. isolation keeps their mix-blend-mode:multiply from reaching past this
+     subtree and darkening the nav above it. */
+  position: relative;
+  isolation: isolate;
+}
+
+/* Content sits above the accents; the accents are z-index 0. Without this the
+   multiply blend would darken the text itself. */
+.saffron-page > *:not(.paper-accents) {
+  position: relative;
+  z-index: 1;
 }
 
 .saffron-hero {
