@@ -2320,7 +2320,10 @@ export function GrantLandscape({ t, lang }) {
               {grant.deadline && (
                 <div className="sf-grant-meta-row">
                   <span className="sf-grant-meta-label">{t('sf.label.deadlineColon')}</span>
-                  {grant.deadline}
+                  {/* locF, not the raw field: deadlines carry words ("closed",
+                      "next call ~June 2027") and were rendering English on a
+                      page she reads in Chinese. */}
+                  {locF(grant, 'deadline', lang)}
                 </div>
               )}
               {grant.competition && (

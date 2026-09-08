@@ -2,116 +2,111 @@
 // Translations (_zh, _ja) are baked in — do not edit manually, run scripts/translate_saffron_insights.py
 
 export const LICENSING_LANDSCAPE = {
+  // REWRITTEN 2026-09-08. This block audited worst of any in the file: ~24% of
+  // its claims were checkable and true, ~12% were wrong, and ~38% were
+  // unfalsifiable — 114 lines carrying zero URLs and zero dates.
+  //
+  // What was wrong: Stalogy was attributed to Nakabayashi (it is Nitoms, a Nitto
+  // Group company, art-directed by good design company) and named as a "natural
+  // partner" despite having no illustration line and no external design route —
+  // entry removed. Osaji was named as a brand that collabs with illustrators; it
+  // does not (its collaborators are makeup artists, chefs, musicians) — HACCI
+  // does, and now stands alone. Mark's carried an invented eligibility rule
+  // ("open to submissions from Japanese-resident artists") for a company that
+  // publishes no submissions route at all. Hobonichi's tag was #ほぼ日; the live
+  // one is #ほぼ日手帳.
+  //
+  // And Midori said "send a lookbook directly to the creative director (not
+  // info@)" — naming no director, at a company that publishes no individual
+  // address. That is the fabricated-Bijutsu-Techo failure repeated: an
+  // instruction to act, pointed at a contact that does not exist.
+  //
+  // Every yen figure that was unsourced has been removed or marked. The royalty
+  // band is kept because it is real, with the thing that actually matters
+  // attached: it is US/UK practice, and Japanese stationery deals are commonly
+  // flat-fee 買い取り instead.
+  //
+  // _ja omitted — LANGUAGES is ['zh','en'].
   "titleKey": "sf.licensing.title",
   "summaryKey": "sf.licensing.summary",
-  "where_to_start": "Most licensing starts as a DM from a brand that already follows you — so add 'licensing available' and a contact link to your Instagram bio. The one asset worth building when you have an afternoon: a licensing lookbook (10–20 works shown as product mockups, one PDF) you can send the moment someone asks.",
-  "where_to_start_zh": "大多数授权都始于一个已经关注你的品牌发来的私信——所以先在 Instagram 简介里加上「开放授权合作」和联系方式链接。有空的下午值得做的一件事：一份授权作品集（10–20 件作品以产品效果图呈现，整理成一个 PDF），有人问起时随时可发。",
-  "lead": "Your watercolor and stationery-leaning work suits calendars, postcards & greeting cards, washi tape & stickers, and notebook & planner covers. The natural partners are Japanese stationery houses (Hobonichi, Midori/Designphil, Mark's, Stalogy) and lifestyle brands. It's all optional — there's no pressure to chase any of it.",
-  "lead_zh": "你那带有水彩与文具气质的作品，天然适合日历、明信片与贺卡、和纸胶带与贴纸，以及笔记本与手帐封面。可以合作的对象，是日本的文具品牌（Hobonichi、Midori／Designphil、Mark's、Stalogy）与生活方式品牌。这些都是可选的——不必去追，毫无压力。",
-  "lead_ja": "水彩と文具的な世界観をもつあなたの作品は、カレンダー、ポストカードやグリーティングカード、マスキングテープやステッカー、ノートや手帳カバーによく合います。相性のよいパートナーは、日本の文具メーカー（ほぼ日、ミドリ／デザインフィル、マークス、Stalogy）やライフスタイルブランド。どれも任意で、追いかけるプレッシャーはありません。",
+  "where_to_start": "Two things cost nothing and can be done today: put \"licensing available\" and a contact link in your bio, and put 10–20 works into one PDF shown as product mock-ups. Neither is a guarantee of anything — nobody publishes how these deals actually originate — but they are what a brand needs to find and picture before a conversation can start at all.",
+  "where_to_start_zh": "有两件事不花钱、今天就能做：在简介里写上「接受授权合作」并放一个联系方式链接；把 10–20 件作品做成产品效果图，整理成一个 PDF。这两件事都不保证什么——没有人公开过这类合作到底是怎么开始的——但它们是品牌方能找到你、并想象得出成品的前提。",
+  "lead": "Your watercolor and stationery-leaning work suits calendars, postcards and greeting cards, washi tape and stickers, and notebook and planner covers. Two Japanese brands verifiably license illustrators for exactly this: Hobonichi, through its standing Artist Collection line, and Mark's, through EDiT.",
+  "lead_zh": "你的水彩、以及偏文具感的那一部分作品，适合日历、明信片与贺卡、和纸胶带与贴纸，以及笔记本和手帐封面。有两个日本品牌确实在为这类东西签约插画师：ほぼ日（通过常设的「アーティストコレクション」系列）和 Mark's（通过 EDiT）。",
   "items": [
     {
       "category": "Japanese Stationery Brands",
+      "category_zh": "日本文具品牌",
       "entries": [
         {
           "name": "Hobonichi",
-          "note": "Hand-picks illustrators for Techo covers and collab products. Selection is editorial — they approach artists whose Instagram work has a distinct voice. Fee range: ¥50k–500k per usage. Path: build Instagram presence, tag #ほぼ日, be findable.",
-          "tier": "medium_term",
-          "note_zh": "为Techo封面及联名产品手选插画师，遴选标准以编辑视角为主——他们主动寻找Instagram风格鲜明、具有独特表达的艺术家。授权费用：每次使用¥50k–500k。入选路径：建立Instagram主页，标记#ほぼ日，确保被发现。",
-          "note_ja": "Techo のカバーやコラボ商品のイラストレーターを編集部が独自に選定。Instagramで個性的な表現をもつ作家に声をかけるスタイル。費用目安：¥50k–500k／使用。アプローチ方法：Instagramを育て、#ほぼ日 をタグ付けし、見つけてもらえる状態をつくる。"
+          "name_zh": "ほぼ日",
+          "note": "Verified: they run a standing Artist Collection line for Techo covers, and the 2027 edition includes named illustrators. Not verified, and worth knowing before you spend time on it: they publish no submission or discovery route at all — their only public address is order support. The one real entry route was an open call that closed in 2010. If you tag, the live tag is #ほぼ日手帳.",
+          "note_zh": "已核实：他们有常设的「アーティストコレクション」手帐封面系列，2027 年版里有具名的插画师。没有核实、而且在投入时间前值得知道的是：他们完全没有公开任何投稿或选人的入口——唯一的公开邮箱是订单客服。真正存在过的入口是一次公开征集，2010 年就结束了。如果要打标签，现在在用的是 #ほぼ日手帳。",
+          "tier": "medium_term"
         },
         {
           "name": "Midori (Designphil)",
-          "note": "Open to pitches from illustrators with strong archive work. Send a licensing lookbook PDF directly to the creative director (not info@). Fee range: ¥30k–200k.",
-          "tier": "near_term",
-          "note_zh": "欢迎拥有丰富作品档案的插画师主动提案。请直接将授权作品集PDF发送给创意总监（请勿发送至info@邮箱）。费用范围：¥30k–200k。",
-          "note_ja": "作品ストックが充実しているイラストレーターからの売り込みを歓迎。ライセンス用のルックブックPDFをクリエイティブディレクター宛に直接送ること（info@ 宛は不可）。費用目安：¥30k–200k。"
-        },
-        {
-          "name": "Stalogy",
-          "note": "Minimalist stationery brand under Nakabayashi. Less illustrative but worth pitching for art print collabs if the aesthetic fits.",
-          "tier": "near_term",
-          "note_zh": "Nakabayashi旗下的简约风文具品牌。插画元素相对较少，但若风格契合，值得尝试提案参与艺术印刷品联名合作。",
-          "note_ja": "ナカバヤシ傘下のミニマルな文具ブランド。イラスト色は薄めだが、世界観が合えばアートプリントのコラボ提案をする価値はある。"
+          "name_zh": "Midori（デザインフィル）",
+          "note": "A real stationery publisher, but no submissions programme and no individual contact is published — only a general inquiry form and a recruitment page. An earlier version of this page told you to email their creative director instead of the general address; no such person is named anywhere, and that advice has been removed.",
+          "note_zh": "确实是一家真实的文具出版商，但没有投稿计划，也没有公开任何个人联系方式——只有一个通用咨询表单和招聘页。这一页早先的版本让你「别发通用邮箱，直接发给他们的创意总监」；那个人在任何地方都没有名字，那条建议已经删掉了。",
+          "tier": "medium_term"
         },
         {
           "name": "Mark's Inc.",
-          "note": "EDIT stationery line regularly licenses illustrators for planner covers. Open to submissions from Japanese-resident artists.",
-          "tier": "near_term",
-          "note_zh": "EDIT文具系列定期与插画师合作，为规划手册封面授权使用插画作品，欢迎居住在日本的艺术家提交作品。",
-          "note_ja": "EDIT の文具ラインは、手帳カバー用にイラストレーターとのライセンス契約を定期的に行っている。日本在住のアーティストからの応募を受け付けている。"
+          "name_zh": "Mark's Inc.",
+          "note": "Verified: the EDiT line licenses illustrators for planner covers — the 2026 edition ran 79 cover variants, including a collaboration with a painter. No submissions route is published, and an earlier claim here that they are \"open to submissions from Japanese-resident artists\" was invented; there is no such rule and no such door.",
+          "note_zh": "已核实：EDiT 系列确实为手帐封面签约插画师——2026 年版做了 79 种封面，其中包括一次与画家的联名。他们没有公开投稿入口；这一页早先写的「面向在日艺术家开放投稿」是编出来的，既没有这条规则，也没有这扇门。",
+          "tier": "medium_term"
         }
-      ],
-      "category_zh": "日本文具品牌",
-      "category_ja": "日本の文具ブランド"
+      ]
     },
     {
       "category": "Publishing & Editorial",
+      "category_zh": "出版与编辑",
       "entries": [
         {
-          "name": "Book cover art (Shueisha, Kadokawa, Bungei Shunju)",
-          "name_zh": "书籍封面插画（集英社、角川、文艺春秋）",
-          "name_ja": "書籍カバーアート（集英社・角川・文藝春秋）",
-          "note": "Major publishing houses license cover art. Fee: ¥30k–200k per cover. Watercolor fits literary fiction and essay covers extremely well. Path: get a press feature first, then publishers come to you.",
-          "tier": "medium_term",
-          "note_zh": "大型出版社授权封面插画。每个封面费用：¥30k–200k。水彩风格非常适合文学小说和散文类书籍封面。路径：先获得媒体报道，出版社自然会主动找上门。",
-          "note_ja": "大手出版社がカバーアートのライセンス契約を行います。費用：¥30k–200k（1点あたり）。水彩は文芸小説やエッセイの表紙と非常に相性が良いです。道筋：まずメディア掲載を獲得すると、出版社から声がかかるようになります。"
+          "name": "Book cover art (装画)",
+          "name_zh": "书籍封面（装画）",
+          "note": "Publishers commission cover art rather than license existing paintings. The Japan Illustrators' Association publishes a rate table putting cover illustration around ¥30,000–100,000. There are named, dated ways in, which is what this entry used to be missing: ザ・チョイス, the quarterly competition run by illustration magazine, judged by a single rotating judge; and 装画コンペ at GALLERY HOUSE MAYA, judged by working book designers, open to all nationalities (資格：不問), grand prize a solo show — check its current status first, it was on hiatus in 2024.",
+          "note_zh": "出版社是「委托」封面画，而不是买断你已经画好的作品。日本插画家协会公开的报价表里，封面插画大约在 30,000–100,000 日元。而且是有具名、有日期的入口的——这正是这一条以前缺的：《ザ・チョイス》，illustration 杂志办的季度赛，每期由一位评委轮流评选；以及 GALLERY HOUSE MAYA 的「装画コンペ」，由在职的装帧设计师评审，不限国籍（資格：不問），大奖是一个个展——先确认它现在的状态，2024 年曾经停办过一届。",
+          "tier": "medium_term"
         },
         {
-          "name": "Lifestyle brands (cosmetics, tea, wellness)",
-          "name_zh": "生活方式品牌（化妆品、茶饮、健康养生）",
-          "name_ja": "ライフスタイルブランド（化粧品・お茶・ウェルネス）",
-          "note": "Seasonal campaign art. Brands like Osaji, Hacci, and smaller artisan brands regularly collab with illustrators. Fee: ¥50k–300k per campaign. Path: pitch via email with product mockup showing your art applied.",
-          "tier": "near_term",
-          "note_zh": "季节性广告活动插画。Osaji、Hacci等小众工匠品牌会定期与插画师合作。每次活动费用：¥50k–300k。路径：通过邮件附上将你的作品应用于产品的效果图进行提案。",
-          "note_ja": "季節キャンペーンのアートワークです。Osaji、Hacciなどの小規模な職人ブランドは、イラストレーターと定期的にコラボしています。費用：¥50k–300k（キャンペーンあたり）。道筋：自分の作品をプロダクトに落とし込んだモックアップを添えて、メールで売り込みましょう。"
+          "name": "Agency representation",
+          "name_zh": "经纪代理",
+          "note": "CWC Tokyo has represented overseas illustrators into the Japanese market since 1991, and its contact form carries an illustrator category. Structurally this is the closest fit on the page to where you actually stand — a non-Japanese illustrator working in Japan — and it is the one route here with a published door.",
+          "note_zh": "CWC Tokyo 从 1991 年起就在把海外插画师引进日本市场，他们的联系表单里有「插画师应征」这一类。从结构上说，这是这一页上最贴近你真实处境的一条——一个在日本工作的非日籍插画师——也是这里唯一一条有公开入口的路。",
+          "tier": "medium_term"
+        },
+        {
+          "name": "Lifestyle brands",
+          "name_zh": "生活方式品牌",
+          "note": "HACCI has done limited collaboration packaging with an illustrator, plus seasonal artist packaging — so this does happen. Neither it nor comparable brands publishes a submissions address, and no reliable fee range exists for this kind of campaign work, so any number here would be invented.",
+          "note_zh": "HACCI 做过与插画师合作的限定包装，也做过季节性的艺术家包装——所以这类事确实会发生。但它和同类品牌都没有公开投稿邮箱，这类企划的报价也没有可靠的公开区间，所以这里写任何数字都会是编的。",
+          "tier": "medium_term"
         }
-      ],
-      "category_zh": "出版与编辑",
-      "category_ja": "出版・編集"
+      ]
     },
     {
-      "category": "Why your audience makes you licensable",
+      "category": "What the money actually looks like",
+      "category_zh": "这笔钱实际长什么样",
       "entries": [
         {
-          "name": "The audience threshold",
-          "name_zh": "受众门槛",
-          "name_ja": "オーディエンスの閾値",
-          "note": "Brand licensing decisions are partly marketing decisions. With an established, growing following you're a real distribution channel — niche collabs can justify the partnership as audience access, not just art acquisition. Most licensing relationships begin via DM — brands approach artists they already follow.",
-          "tier": "now",
-          "note_zh": "品牌授权决策在一定程度上也是营销决策。你拥有一群稳定且持续增长的受众，本身就是一个真实的传播渠道——利基品牌可以将合作定位为触达受众的方式，而不仅仅是购买艺术品。大多数授权合作始于私信——品牌主动联系他们已经关注的艺术家。",
-          "note_ja": "ブランドのライセンス判断は、マーケティング判断でもあります。確立された、伸び続けるフォロワーがいるあなたは、それ自体が確かな流通チャネルです——ニッチなブランドは、コラボを単なる作品取得ではなく、オーディエンスへのアクセスとして正当化できます。ライセンス関係のほとんどはDMから始まります——ブランドはすでにフォローしているアーティストに声をかけるのです。"
+          "name": "Royalty or buyout",
+          "name_zh": "分成，还是买断",
+          "note": "Published art-licensing guidance puts royalties around 4–8% of wholesale for stationery. Every source for that is US or UK, and it matters: in Japan, illustration商品化 is frequently a flat 買い取り — a one-off 二次使用料 commonly quoted at 20–70% of the original production fee — rather than a running royalty. Walking in expecting a percentage is the wrong opening posture here.",
+          "note_zh": "公开的艺术授权资料里，文具类的分成大约是批发价的 4–8%。但所有这些资料都来自欧美，而这一点很关键：在日本，插画商品化经常是一次性「買い取り」——二次使用料通常报到原稿费的 20–70%——而不是持续分成。抱着「按百分比抽成」的预期走进去，在这里是错的开场姿态。",
+          "tier": "now"
         },
         {
-          "name": "Revenue ranges (realistic)",
-          "name_zh": "收入区间（实际）",
-          "name_ja": "収益レンジ（現実的）",
-          "note": "Small collabs: ¥30–100k. Branded product line: ¥100k–1M+. Royalties: 3–8% of wholesale price. First license often leads to repeat work.",
-          "tier": "now",
-          "note_zh": "小型合作：¥30–100k。品牌联名产品线：¥100k–1M+。版税：批发价的3–8%。首次授权往往会带来后续的持续合作。",
-          "note_ja": "小規模なコラボ：¥30–100k。ブランドプロダクトライン：¥100k–1M+。ロイヤルティ：卸売価格の3〜8%。最初のライセンス契約が、継続的な仕事につながることが多い。"
-        },
-        {
-          "name": "How to get approached vs. how to pitch",
-          "name_zh": "如何被主动联系 vs. 如何主动提案",
-          "name_ja": "声をかけられる方法 vs. 自分から売り込む方法",
-          "note": "Getting approached: post consistently, add 'licensing available' to bio, include contact link. How to pitch: prepare a licensing lookbook (10–20 works shown as product mockups in PDF). Email brand's creative director directly, not generic contact.",
-          "tier": "now",
-          "note_zh": "如何被品牌发现：保持稳定更新，在简介中注明\"开放授权合作\"，并附上联系方式链接。如何主动出击：制作一份授权作品集（将10–20件作品以产品效果图形式呈现，整理成PDF）。直接发邮件给品牌的创意总监，而非通用联系邮箱。",
-          "note_ja": "アプローチされるために：定期的に投稿し、プロフィールに「ライセンス受付中」と明記して、連絡先リンクを載せる。売り込み方：ライセンス用のルックブック（10〜20点の作品をプロダクトモックアップとして見せるPDF）を用意する。一般的な問い合わせ窓口ではなく、ブランドのクリエイティブディレクターに直接メールを送ること。"
-        },
-        {
-          "name": "Realistic timeline",
-          "name_zh": "实际时间线",
-          "name_ja": "現実的なタイムライン",
-          "note": "Licensing tends to find artists who have a distinct, recognizable style and an established following — both of which you already have. With your work and audience, these conversations are realistically within reach whenever you'd like to put a little outreach behind them. There's no schedule here — it happens when it happens.",
-          "tier": "near_term",
-          "note_zh": "授权往往会找上那些风格鲜明、辨识度高、并拥有稳定受众的艺术家——而这两点你都已经具备。凭借你的作品与受众，只要你愿意稍加主动联系，这类洽谈在现实中随时都触手可及。这里没有时间表——该来的时候自然会来。",
-          "note_ja": "ライセンスは、独自で見分けのつくスタイルと、確立されたフォロワーを持つアーティストのもとに来やすいものです——そのどちらも、あなたはすでに備えています。あなたの作品とオーディエンスがあれば、少し働きかけてみたくなったときに、こうした話は現実的に手の届く範囲にあります。ここに時間表はありません——来るときに来ます。"
+          "name": "What an audience is worth here",
+          "name_zh": "受众在这件事里值多少",
+          "note": "A following is a real asset in these conversations — a brand is buying reach as well as a picture, and yours runs to about 168,000 across four accounts. What nobody publishes is how often that converts into a deal, or what it adds to a fee. Anyone who tells you a number for that is guessing.",
+          "note_zh": "在这类洽谈里，受众是实打实的资产——品牌买的既是一张画，也是触达，而你四个账号合计大约有 168,000 人。没有人公开过的是：这有多大概率真的换来一份合约，或者能让报价多出多少。谁给你一个数字，谁就是在猜。",
+          "tier": "now"
         }
-      ],
-      "category_zh": "为什么你的受众让你具备授权潜力",
-      "category_ja": "なぜあなたのオーディエンスがライセンスにつながり得るのか"
+      ]
     }
   ]
 };
@@ -137,7 +132,6 @@ export const PRESS_PITCH_MAP = {
       "contact_zh": "他们没有公开编辑部邮箱。投稿入口是 bijutsutecho.com/contact 的表单，类别选「情報のご提供」（提供信息）。2026-09-08 核实。",
       "contact_ja": "編集部のメールアドレスは公開されていません。窓口は bijutsutecho.com/contact のフォームで、種別は「情報のご提供」を選びます。2026-09-08 確認。",
       "contact_url": "https://bijutsutecho.com/contact",
-      "timeline": "6–12 months relationship-building. Having a gallery show helps.",
       "type_zh": "纯艺术杂志 — 日本",
       "type_ja": "美術雑誌 — 日本",
       "why_fits_zh": "日本顶级纯艺术杂志。专注报道在东京活跃、具有独特声音的新兴艺术家。都市水彩 + 日常创作 + 中国视角 = 编辑切入点。",
@@ -145,48 +139,43 @@ export const PRESS_PITCH_MAP = {
       "how_discovered_zh": "他们通过 Instagram、画廊展览以及其他已刊登艺术家的口碑推荐来发现新人。",
       "how_discovered_ja": "Instagram、ギャラリー展示、既掲載アーティストからの口コミを通じて新たな作家を発掘している。",
       "how_to_pitch_zh": "他们通过表单接收投稿，而非邮件。事先备好资料包（简介、创作陈述、10 张图），以便直接粘贴与附上链接。同时：在相关作品上标注 #美術手帖。",
-      "how_to_pitch_ja": "メールではなくフォームでの受付です。プレスキット（プロフィール、ステートメント、画像10点）を貼り付け・リンクできる形で用意しておく。また、関連作品には #美術手帖 のタグをつける。",
-      "timeline_zh": "需要6至12个月的关系积累。有画廊展览经历会很有帮助。",
-      "timeline_ja": "6〜12ヶ月かけた関係構築が必要。ギャラリーでの展示実績があると有利。"
+      "how_to_pitch_ja": "メールではなくフォームでの受付です。プレスキット（プロフィール、ステートメント、画像10点）を貼り付け・リンクできる形で用意しておく。また、関連作品には #美術手帖 のタグをつける。"
     },
     {
       "name": "Pen Magazine",
       "type": "Lifestyle/design — Japan",
       "why_fits": "Tokyo design/culture magazine. Covers artists with strong visual identity. Urban architecture watercolor is on-brand for their audience.",
       "how_discovered": "Instagram, recommendations from designers and architects they already feature.",
-      "how_to_pitch": "Via editorial contact page or cold email. Key: frame the story — not just 'I paint', but 'I document disappearing Tokyo'.",
-      "contact": "Via pen-online.jp contact form or editorial DM.",
-      "contact_zh": "通过 pen-online.jp 的联系表单或编辑私信。",
-      "timeline": "Medium-term. They prefer artists with some published work or show history.",
+      "how_to_pitch": "Through their inquiry form; no editorial email is published anywhere on either domain. Key: frame the story — not just 'I paint', but 'I document disappearing Tokyo'.",
+      "how_to_pitch_zh": "通过他们的咨询表单；两个域名上都没有公开任何编辑部邮箱。关键是把故事讲出来——不是「我画画」，而是「我在记录正在消失的东京」。",
+      "contact": "There is no form on pen-online.jp itself. The print edition's inquiry form is form.run/@cccmh-1668417933 (the web edition and the English site have separate ones). No editorial email is published. Checked 2026-09-08.",
+      "contact_zh": "pen-online.jp 本身没有表单。纸刊的咨询表单在 form.run/@cccmh-1668417933（网络版和英文站各有各的）。没有公开的编辑部邮箱。2026-09-08 核实。",
+      "contact_url": "https://form.run/@cccmh-1668417933",
       "type_zh": "生活方式／设计 — 日本",
       "type_ja": "ライフスタイル／デザイン — 日本",
       "why_fits_zh": "东京设计与文化杂志。关注具有鲜明视觉风格的艺术家。都市建筑水彩与其受众的品味高度契合。",
       "why_fits_ja": "東京のデザイン・文化誌。強いビジュアルアイデンティティを持つアーティストを取り上げる。都市建築の水彩画は読者層に合ったテーマ。",
       "how_discovered_zh": "Instagram，以及他们已合作的设计师和建筑师的推荐。",
       "how_discovered_ja": "Instagram、および既に取り上げているデザイナーや建築家からの推薦。",
-      "how_to_pitch_zh": "通过编辑联系页面或冷邮件发起联系。关键在于构建故事——不只是\"我在画画\"，而是\"我在记录正在消逝的东京\"。",
-      "how_to_pitch_ja": "編集部の問い合わせページやコールドメールで連絡する。重要なのはストーリーの組み立て方——「絵を描いている」ではなく、「消えゆく東京を記録している」という切り口で。",
-      "timeline_zh": "中期目标。他们更青睐有一定发表经历或展览记录的艺术家。",
-      "timeline_ja": "中期的な目標。掲載実績や展示経歴がある程度ある作家を好む傾向がある。"
+      "how_to_pitch_ja": "編集部の問い合わせページやコールドメールで連絡する。重要なのはストーリーの組み立て方——「絵を描いている」ではなく、「消えゆく東京を記録している」という切り口で。"
     },
     {
       "name": "It's Nice That",
       "type": "Illustration/design — UK (international reach)",
       "why_fits": "2M+ readers globally. Regularly features illustrators with a quiet, personal visual language. Your daily watercolor diary format is exactly the kind of practice they cover.",
       "how_discovered": "Almost entirely via Instagram and submissions. They actively scout.",
-      "how_to_pitch": "Submit via itsnicethat.com/submit. Lead with the daily practice angle — they love systematic creative disciplines.",
-      "contact": "itsnicethat.com/submit",
-      "timeline": "Can happen quickly if work resonates. Low barrier.",
+      "how_to_pitch": "Read the submissions guide at itsnicethat.com/submissions, then email submit@itsnicethat.com — bio, project description, and links rather than large attachments. Lead with the daily practice angle.",
+      "how_to_pitch_zh": "先看 itsnicethat.com/submissions 上的投稿指南，然后发邮件到 submit@itsnicethat.com——简介、项目说明，用链接而不是大附件。开门见山讲每日创作这件事。",
+      "contact": "submit@itsnicethat.com (submissions) — the old /submit URL now just redirects to their contact page. They read everything within about two weeks and only reply if they are running it. Checked 2026-09-08.",
+      "contact_zh": "submit@itsnicethat.com（投稿）——旧的 /submit 网址现在只是跳转到联系页。他们大约两周内会看完，只有决定刊登才会回复。2026-09-08 核实。",
+      "contact_url": "https://www.itsnicethat.com/submissions",
       "type_zh": "插画／设计 — 英国（国际影响力）",
       "type_ja": "イラストレーション／デザイン — イギリス（国際的な影響力）",
       "why_fits_zh": "全球读者超过200万。持续关注具有安静、个人化视觉语言的插画师。你的每日水彩日记形式正是他们所报道的那类创作实践。",
       "why_fits_ja": "世界で200万人以上の読者を持つ。静かで個人的なビジュアル言語を持つイラストレーターを継続的に特集。日々の水彩日記というフォーマットは、まさに彼らが取り上げる創作スタイル。",
       "how_discovered_zh": "几乎完全依赖 Instagram 和投稿。他们会主动发掘新人。",
       "how_discovered_ja": "ほぼ Instagram と投稿のみで発掘している。積極的にスカウトも行っている。",
-      "how_to_pitch_zh": "通过 itsnicethat.com/submit 提交。以日常创作为主要切入点——他们热爱系统性的创作习惯。",
-      "how_to_pitch_ja": "itsnicethat.com/submit から投稿する。日々の制作習慣を前面に出すこと——体系的な創作への取り組みを高く評価している。",
-      "timeline_zh": "如果作品引起共鸣，进展可能很快。门槛较低。",
-      "timeline_ja": "作品が響けば、掲載までが早い場合もある。ハードルは低め。"
+      "how_to_pitch_ja": "itsnicethat.com/submit から投稿する。日々の制作習慣を前面に出すこと——体系的な創作への取り組みを高く評価している。"
     },
     {
       "name": "Apartamento",
@@ -194,9 +183,9 @@ export const PRESS_PITCH_MAP = {
       "why_fits": "Warm, intimate, everyday life aesthetic. Your urban interior and atmospheric work fits perfectly. The 'foreigner observing Tokyo' angle is strong for their editorial.",
       "how_discovered": "Word of mouth, curator recommendations, Instagram. Not submission-based.",
       "how_to_pitch": "Not pitch-based. Build relationships with the people they already feature. Be at the right book fairs (Tokyo Art Book Fair, Offprint).",
-      "contact": "Via Instagram relationship-building.",
-      "contact_zh": "通过 Instagram 建立关系。",
-      "timeline": "Long-term. Being in the right spaces (art book fairs, book store events) is the path.",
+      "contact": "No editorial or submissions route exists — their contact page lists shop, general, wholesale and advertising addresses and nothing else. The account is @apartamentomagazine (not @apartamentostudios, which is their commercial arm). Checked 2026-09-08.",
+      "contact_zh": "没有编辑或投稿入口——他们的联系页只列了店铺、通用咨询、批发和广告四个邮箱，没有别的。账号是 @apartamentomagazine（不是 @apartamentostudios，那是他们的商业部门）。2026-09-08 核实。",
+      "contact_url": "https://www.instagram.com/apartamentomagazine/",
       "type_zh": "生活方式／室内／文化 — 西班牙（国际）",
       "type_ja": "ライフスタイル／インテリア／文化 — スペイン（国際的）",
       "why_fits_zh": "温暖、亲密、日常生活的美学。你的都市室内与氛围感作品与其风格完美契合。\"外来者观察东京\"的视角对他们的编辑内容极具吸引力。",
@@ -204,50 +193,32 @@ export const PRESS_PITCH_MAP = {
       "how_discovered_zh": "口碑传播、策展人推荐、Instagram。不接受主动投稿。",
       "how_discovered_ja": "口コミ、キュレーターからの推薦、Instagram。投稿による応募は受け付けていない。",
       "how_to_pitch_zh": "不适合主动投稿。与他们已合作的人建立关系。出现在合适的书展上（Tokyo Art Book Fair、Offprint）。",
-      "how_to_pitch_ja": "売り込み型のアプローチは向かない。既に取り上げられている人たちと関係を築くこと。適切なブックフェアに参加する（Tokyo Art Book Fair、Offprint）。",
-      "timeline_zh": "长期目标。出现在正确的场合（艺术书展、书店活动）才是正确路径。",
-      "timeline_ja": "長期的な目標。アートブックフェアや書店イベントなど、然るべき場に身を置くことが近道。"
+      "how_to_pitch_ja": "売り込み型のアプローチは向かない。既に取り上げられている人たちと関係を築くこと。適切なブックフェアに参加する（Tokyo Art Book Fair、Offprint）。"
     },
     {
       "name": "Casa Brutus",
       "type": "Architecture/design/lifestyle — Japan",
       "why_fits": "Architecture and space focus. Your urban watercolor work documenting Tokyo buildings is directly relevant.",
       "how_discovered": "Instagram, gallery shows, architect connections.",
-      "how_to_pitch": "Email editorial with a clear architectural angle — position work as architectural documentation, not just art.",
-      "contact": "Via magazine contact or Instagram DM @casabrutus",
-      "contact_zh": "通过杂志联系方式或在 Instagram 私信 @casabrutus",
-      "timeline": "Medium-term. Helps to have a gallery show or book project.",
+      "how_to_pitch": "By post, not email. Magazine House takes press material by mail only, addressed per title. Keep the architectural angle — position the work as documentation of a place, not just art.",
+      "how_to_pitch_zh": "寄信，不是发邮件。マガジンハウス只接受邮寄的新闻资料，并且要写明刊名。保留建筑这个切入点——把作品定位成对一个地方的记录，而不只是艺术。",
+      "contact": "No editorial email or form exists. Press goes by post: 〒104-8003 東京都中央区銀座3-13-10 株式会社マガジンハウス『Casa BRUTUS』情報掲載担当者 宛. @casabrutus on Instagram is genuine. Careful — the one Magazine House email that turns up in a search belongs to advertising sales, not the editors. Checked 2026-09-08.",
+      "contact_zh": "没有编辑部邮箱，也没有表单。新闻资料走邮寄：〒104-8003 東京都中央区銀座3-13-10 株式会社マガジンハウス『Casa BRUTUS』情報掲載担当者 宛。Instagram 上的 @casabrutus 是真的。注意：搜索能搜到的那个マガジンハウス邮箱属于广告部，不是编辑部。2026-09-08 核实。",
       "type_zh": "建筑/设计/生活方式 — 日本",
       "type_ja": "建築・デザイン・ライフスタイル — 日本",
       "why_fits_zh": "聚焦建筑与空间。你记录东京建筑的城市水彩作品与该方向高度契合。",
       "why_fits_ja": "建築と空間に特化した媒体。東京の建物を記録した都市水彩作品は、そのテーマと直接つながる。",
       "how_discovered_zh": "Instagram、画廊展览、建筑师人脉。",
       "how_discovered_ja": "Instagram、ギャラリー展示、建築家とのつながり。",
-      "how_to_pitch_zh": "以鲜明的建筑视角联系编辑，将作品定位为建筑记录，而非单纯的艺术创作。",
-      "how_to_pitch_ja": "建築的な切り口を明確にして編集者にメールを送る。作品を単なるアートではなく、建築ドキュメンテーションとして位置づけること。",
-      "timeline_zh": "中期目标。有画廊展览或书籍项目会更有助于推进。",
-      "timeline_ja": "中期的な目標。ギャラリー展示や書籍プロジェクトの実績があると有利。"
+      "how_to_pitch_ja": "建築的な切り口を明確にして編集者にメールを送る。作品を単なるアートではなく、建築ドキュメンテーションとして位置づけること。"
     },
-    {
-      "name": "ILOVETOYS / neuprint (Chinese illustration publications)",
-      "type": "Illustration — China",
-      "why_fits": "Chinese illustration publications with international reach. You're a Chinese artist with a Tokyo practice — a strong story for Chinese readers.",
-      "how_discovered": "Via WeChat channels, Chinese illustration community, Weibo.",
-      "how_to_pitch": "Direct DM via WeChat or Weibo. Chinese-language pitch focusing on the Beijing/Chinese-artist-in-Tokyo angle.",
-      "contact": "Via WeChat official accounts or Weibo DM.",
-      "contact_zh": "通过微信公众号或微博私信。",
-      "timeline": "Near-term. Chinese publications are actively looking for overseas Chinese artists.",
-      "type_zh": "插画 — 中国",
-      "type_ja": "イラストレーション — 中国",
-      "why_fits_zh": "具有国际影响力的中国插画媒体。你是在东京从事创作的中国艺术家，对中国读者来说是极具吸引力的故事。",
-      "why_fits_ja": "国際的な発信力を持つ中国のイラスト系媒体。東京で活動する中国人アーティストというストーリーは、中国の読者に強く響く。",
-      "how_discovered_zh": "通过微信频道、中国插画社群、微博。",
-      "how_discovered_ja": "WeChat チャンネル、中国のイラスト系コミュニティ、Weibo を通じて。",
-      "how_to_pitch_zh": "通过微信或微博直接私信，投稿方向聚焦北京/旅居东京的中国艺术家视角。",
-      "how_to_pitch_ja": "WeChat または Weibo でダイレクトメッセージを送る。北京出身・東京在住の中国人アーティストという切り口で、中国語でアプローチすること。",
-      "timeline_zh": "近期目标。中国媒体正在积极寻找海外华人艺术家。",
-      "timeline_ja": "近い将来の目標。中国の媒体は海外で活躍する中国人アーティストを積極的に求めている。"
-    },
+    // ILOVETOYS / neuprint removed 2026-09-08. Neither publication could be
+    // shown to exist: eight searches in English and Chinese surfaced only a UK
+    // toy retailer and a 2006 TV series. Its contact named no account, on a
+    // platform (Weibo) she does not use, while Xiaohongshu - where she has 44k -
+    // went unmentioned; and its _zh invented "Beijing" as her origin, which the
+    // English never said. The opposite failure to the fabricated Bijutsu Techo
+    // address: too vague for anything in it to be caught.
     {
       "category_note": "Being discovered vs. applying",
       "how_discovered": "Most press features happen via discovery, not application. Editors follow Instagram. They read other publications. They attend book fairs. The path to press coverage is: (1) be findable on Instagram with correct hashtags and language, (2) show up at physical events (art book fairs, gallery openings), (3) have a press kit ready when they reach out.",
@@ -261,145 +232,87 @@ export const PRESS_PITCH_MAP = {
 };
 
 export const GRANT_LANDSCAPE = {
+  // REWRITTEN 2026-09-08 after every claim was checked against the funders' own
+  // pages. Of the five programmes previously listed, TWO were closed to her in
+  // writing (Bunka-cho: Japanese nationality or PR; Japan Foundation: Japan or
+  // ASEAN nationality/PR), ONE could not be shown to exist at all ("China Arts
+  // Foundation International", with an invented embassy-attaché route), the only
+  // URL on the page (acc.org) was the American College of Cardiology, and ACC's
+  // award was understated by about half while its full-time-student bar and its
+  // refusal to fund production went unmentioned.
+  //
+  // Every `competition` field is gone: no funder here publishes acceptance
+  // rates, so all five were unfalsifiable.
+  //
+  // _ja omitted deliberately — LANGUAGES is ['zh','en'], so ja is unreachable
+  // UI. Same precedent as COLLABORATION_MAP below.
   "titleKey": "sf.grant.title",
   "summaryKey": "sf.grant.summary",
-  "where_to_start": "Pick the Tokyo (TOKAS) or Japan Foundation grants first — lowest competition, and living here already qualifies you. The whole game is one paragraph: name a specific project ('documenting the changing face of Tokyo in watercolor'), not 'developing my work'. Build proper applications around 3–4 months of lead time.",
-  "where_to_start_zh": "先看东京（TOKAS）和日本国际交流基金的资助——竞争最低，而你在日居住已符合资格。整件事的关键在一段话：写明一个具体项目（「用水彩记录东京变迁的面貌」），而不是「提升我的创作」。正式申请请预留 3–4 个月的准备时间。",
+  "where_to_start": "TOKAS-Emerging is the best fit, and the only one that asks nothing about your passport — it wants you living in Japan and born on or after 1 April 1991, and it gives a solo show at TOKAS Hongo plus ¥150,000 toward making the work. The next call opens around June 2027.",
+  "where_to_start_zh": "TOKAS-Emerging 是最合适的一个，也是唯一不问国籍的——只要你住在日本，且出生于 1991 年 4 月 1 日之后。它给的是 TOKAS 本乡的一个个展，再加 15 万日元的制作支持。下一轮大约在 2027 年 6 月开放。",
   "items": [
     {
-      "name": "Asian Cultural Council (ACC) Fellowship",
-      "country": "USA (for Asian artists)",
-      "country_zh": "美国（面向亚洲艺术家）",
-      "country_ja": "アメリカ（アジア人芸術家向け）",
-      "amount": "Travel + ~$3,000/month living stipend for 1–6 months",
-      "amount_zh": "差旅 + 约 $3,000/月生活津贴，为期 1–6 个月",
-      "amount_ja": "渡航費 + 月約$3,000の生活手当（1〜6ヶ月）",
-      "eligibility": "Asian artists at any career stage with a specific arts exchange project to the US. Chinese nationals qualify. No residency restriction.",
-      "deadline": "Typically March each year (check acc.org for 2027 cycle)",
-      "deadline_zh": "通常每年三月（2027 年度请查阅 acc.org）",
-      "deadline_ja": "通常毎年3月（2027年度はacc.orgで確認）",
-      "competition": "Lower than equivalent Western grants — fewer Asian artists know this exists.",
-      "why_apply": "You qualify by Chinese nationality. The 'artist studying American watercolor tradition' angle is fundable. ACC alumni list is a who's-who of Asian contemporary art.",
-      "apply": "acc.org — requires project proposal + portfolio + recommendation letters", "apply_zh": "acc.org —— 需要项目计划书 + 作品集 + 推荐信", "apply_ja": "acc.org —— 企画提案書＋ポートフォリオ＋推薦状が必要",
-      "tip": "Apply for the 'Arts and Culture' fellowship track. Frame the project as cross-cultural exchange, not tourism.",
-      "eligibility_zh": "任何职业阶段的亚洲艺术家，需有赴美具体艺术交流项目。中国公民符合申请资格。无居住地限制。",
-      "eligibility_ja": "キャリア段階を問わず、対米芸術交流の具体的なプロジェクトを持つアジア人芸術家が対象。中国国籍者も申請可能。居住地の制限なし。",
-      "competition_zh": "竞争低于同等西方基金——知道这个资助渠道的亚洲艺术家较少。",
-      "competition_ja": "同水準の欧米の助成金より競争率が低い——この制度を知るアジア人芸術家が少ないため。",
-      "why_apply_zh": "你符合中国国籍要求。'研习美国水彩传统的艺术家'这一定位具有资助可行性。ACC校友名单汇聚了亚洲当代艺术界的重要人物。",
-      "why_apply_ja": "中国国籍により申請資格あり。「アメリカの水彩画の伝統を学ぶ芸術家」という切り口は助成対象として有望。ACCの卒業生名簿はアジア現代美術界の重鎮が名を連ねる。",
-      "tip_zh": "申请'艺术与文化'研究员项目。将项目定位为跨文化交流，而非观光旅行。",
-      "tip_ja": "「芸術・文化」フェローシッププログラムに申請すること。プロジェクトは観光ではなく、異文化交流として位置づけること。"
+      "name": "TOKAS-Emerging (トーキョーアーツアンドスペース)",
+      "website": "https://www.tokyoartsandspace.jp/",
+      "country": "Japan (Tokyo)",
+      "amount": "Solo show at TOKAS Hongo + ¥150,000 production support",
+      "eligibility": "Living in Japan (日本在住) and born on or after 1 April 1991. No nationality requirement — checked 2026-09-08.",
+      "eligibility_zh": "住在日本（日本在住），且 1991 年 4 月 1 日以后出生。没有国籍要求——2026-09-08 核实。",
+      "deadline": "The FY2026 round has closed; the next call opens around June 2027",
+      "deadline_zh": "2026 年度这一轮已结束；下一轮约 2027 年 6 月开放",
+      "why_apply": "A solo exhibition at a public institution, with money toward making the work, and nothing in the criteria about where you are from.",
+      "why_apply_zh": "在一个公立机构做一个个展，带制作费，而且条件里没有一句话提到你来自哪里。",
+      "tip": "TOKAS and Arts Council Tokyo are two different organisations with separate portals and separate calls, despite sitting under the same foundation. There is no combined application.",
+      "tip_zh": "TOKAS 和东京艺术委员会是两个不同的机构，各有各的入口、各自开放，尽管同属一个基金会。没有「合并申请」这回事。"
     },
     {
-      "name": "Japan Foundation Cultural Exchange Grants",
-      "country": "Japan",
-      "country_zh": "日本",
-      "country_ja": "日本",
-      "amount": "¥500k–3M depending on program",
-      "amount_zh": "¥50万–300万，视项目而定",
-      "amount_ja": "¥50万〜300万（プログラムにより異なる）",
-      "eligibility": "Artists residing in Japan; some programs open to foreign residents. Multiple tracks including individual artists and collaborative projects.",
-      "deadline": "Typically September–October for the following year",
-      "deadline_zh": "通常为次年项目的九月至十月",
-      "deadline_ja": "通常、翌年度分は9〜10月",
-      "competition": "Moderate. Watercolor/painting has a strong track record in JF funding.",
-      "why_apply": "You're Japan-based. Urban documentation of Tokyo is a natural cultural exchange narrative.",
-      "apply": "jpf.go.jp — Japanese application form + project proposal required", "apply_zh": "jpf.go.jp —— 需提交日文申请表 + 项目计划书", "apply_ja": "jpf.go.jp —— 日本語の申請書＋企画提案書が必要",
-      "tip": "Frame the project as cultural documentation, not personal artistic development. 'Documenting the changing face of Tokyo through watercolor' is more fundable than 'improving my art'.",
-      "eligibility_zh": "居住在日本的艺术家；部分项目对外国居民开放。设有个人艺术家及合作项目等多个申请类别。",
-      "eligibility_ja": "日本在住の芸術家が対象。一部のプログラムは外国人居住者にも開放。個人芸術家や共同プロジェクトなど複数の部門あり。",
-      "competition_zh": "竞争程度适中。水彩/绘画类别在日本基金资助中有良好的申请记录。",
-      "competition_ja": "競争率は中程度。水彩・絵画分野はJFの助成実績が豊富。",
-      "why_apply_zh": "你常驻日本。对东京城市风貌的记录，是天然的文化交流叙事角度。",
-      "why_apply_ja": "日本を拠点としている点が強み。東京の都市記録は文化交流の文脈として自然に機能する。",
-      "tip_zh": "将项目定位为文化记录，而非个人艺术成长。'用水彩记录东京变迁的面貌'比'提升我的艺术技巧'更具资助说服力。",
-      "tip_ja": "プロジェクトは個人的な芸術的成長ではなく、文化記録として位置づけること。「水彩画で捉える東京の移りゆく姿」は「画力の向上」より審査で有利。"
-    },
-    {
-      "name": "Bunka-cho (文化庁) — 新進芸術家海外研修制度",
-      "country": "Japan",
-      "country_zh": "日本",
-      "country_ja": "日本",
-      "amount": "Monthly allowance + airfare for 6–12 months abroad",
-      "amount_zh": "每月津贴 + 机票，海外研修 6–12 个月",
-      "amount_ja": "月額手当 + 渡航費（6〜12ヶ月の海外研修）",
-      "eligibility": "Emerging artists resident in Japan. Painting/printmaking/craft categories apply. Foreign residents may apply if they meet career stage criteria.",
-      "deadline": "Varies by cycle — check bunka.go.jp",
-      "deadline_zh": "因年度而异——请查阅 bunka.go.jp",
-      "deadline_ja": "年度により異なる——bunka.go.jpで確認",
-      "competition": "Moderate. Watercolor/painting applicants have succeeded historically.",
-      "why_apply": "Overseas residency funding is rare. This funds a year abroad for artistic development.",
-      "apply": "bunka.go.jp — highly structured application; project plan required", "apply_zh": "bunka.go.jp —— 申请流程高度规范；需提交项目计划", "apply_ja": "bunka.go.jp —— 申請手続きは非常に体系的。事業計画が必要",
-      "tip": "Target the visual arts category. Applying for a residency at a specific institution (e.g., Cité Internationale des Arts) strengthens the application.",
-      "eligibility_zh": "在日本居住的新兴艺术家。绘画/版画/工艺类别均可申请。符合职业阶段标准的外国居民亦可申请。",
-      "eligibility_ja": "日本在住の新進芸術家が対象。絵画・版画・工芸の各部門に申請可能。キャリア段階の基準を満たす外国人居住者も申請できる。",
-      "competition_zh": "竞争程度适中。水彩/绘画申请者历史上有成功先例。",
-      "competition_ja": "競争率は中程度。水彩・絵画の申請者は過去にも採択実績あり。",
-      "why_apply_zh": "海外驻留资助十分稀少。此项目资助艺术家出国一年进行艺术创作。",
-      "why_apply_ja": "海外滞在型の助成は珍しい。芸術的な成長を目的とした一年間の海外活動を支援する制度。",
-      "tip_zh": "申请视觉艺术类别。向具体机构（如Cité Internationale des Arts）申请驻留项目，将有助于强化申请材料。",
-      "tip_ja": "視覚芸術部門を狙うこと。特定の機関（例：Cité Internationale des Arts）でのレジデンスを申請することで、審査での評価が高まる。"
-    },
-    {
-      "name": "Arts Council Tokyo / TOKAS (アーツカウンシル東京)",
+      "name": "Arts Council Tokyo — Startup Grant",
       "website": "https://www.artscouncil-tokyo.jp/",
       "country": "Japan (Tokyo)",
-      "country_zh": "日本（东京）",
-      "country_ja": "日本（東京）",
-      "amount": "¥100k–¥1M for individual artists",
-      "amount_zh": "个人艺术家 ¥10万–¥100万",
-      "amount_ja": "個人芸術家向け ¥10万〜¥100万",
-      "eligibility": "Tokyo resident or actively working in Tokyo arts scene",
-      "deadline": "Varies by grant cycle — check artscouncil-tokyo.jp and tokyoartsandspace.jp",
-      "deadline_zh": "因资助年度而异——请查阅 artscouncil-tokyo.jp 与 tokyoartsandspace.jp",
-      "deadline_ja": "助成サイクルにより異なる——artscouncil-tokyo.jpおよびtokyoartsandspace.jpで確認",
-      "competition": "Lower than national grants. Many artists don't know Tokyo has its own arts funding.",
-      "why_apply": "Being Tokyo-based is the primary qualifying factor. Low competition relative to funding amount.",
-      "apply": "Multiple programs under Tokyo Arts and Space (TOKAS) and Tokyo Metropolitan Government", "apply_zh": "由 Tokyo Arts and Space (TOKAS) 与东京都政府主办的多个项目", "apply_ja": "Tokyo Arts and Space（TOKAS）および東京都による複数のプログラム",
-      "tip": "TOKAS residency programs often come with attached funding. Apply for the residency and the grant simultaneously.",
-      "eligibility_zh": "东京居民，或活跃于东京艺术圈",
-      "eligibility_ja": "東京在住、または東京の芸術活動に積極的に関わっていること",
-      "competition_zh": "竞争低于全国性基金。许多艺术家不知道东京有自己的艺术资助项目。",
-      "competition_ja": "全国規模の助成金より競争率が低い。東京独自の芸術助成制度を知らない芸術家が多い。",
-      "why_apply_zh": "以东京为据点是主要申请资格条件。与资助金额相比，竞争相对较低。",
-      "why_apply_ja": "東京在住であることが主な資格要件。助成額に対して競争率は低め。",
-      "tip_zh": "TOKAS驻留项目通常附带资助资金。建议同步申请驻留项目与资助金。",
-      "tip_ja": "TOKASのレジデンスプログラムには助成金が付帯していることが多い。レジデンスと助成金を同時に申請すること。"
+      "amount": "¥300,000, matching — it covers up to half of what the project costs",
+      "eligibility": "An individual living in Tokyo (東京都内に居住する個人). No nationality clause. One thing nobody publishes: whether a student visa satisfies that residence test. Worth a phone call (03-6256-8431) before building anything around it.",
+      "eligibility_zh": "住在东京都内的个人。没有国籍条款。有一件事没有任何地方写明：留学签证算不算「居住」。在为它做任何准备之前，值得先打一通电话（03-6256-8431）。",
+      "deadline": "Second round closes 24 September 2026, 18:00 JST",
+      "deadline_zh": "第二轮截止：2026 年 9 月 24 日 18:00（日本时间）",
+      "why_apply": "It funds a project you organise yourself rather than an application into someone else's open call — a different shape from everything else here.",
+      "why_apply_zh": "它资助的是你自己组织的项目，而不是去投别人的征集——和这页上其他所有东西都不同。",
+      "tip": "Matching means a ¥300,000 award assumes roughly ¥600,000 of spend. Budget it before you want it.",
+      "tip_zh": "「配套」的意思是：拿到 30 万日元，意味着项目总花费大约得有 60 万。想要之前先算账。"
     },
     {
-      "name": "China Arts Foundation International",
-      "country": "China (for overseas Chinese artists)",
-      "country_zh": "中国（面向海外华人艺术家）",
-      "country_ja": "中国（在外中国人芸術家向け）",
-      "amount": "Varies — project-based",
-      "amount_zh": "金额不定——按项目而定",
-      "amount_ja": "金額は不定——プロジェクトごと",
-      "eligibility": "Chinese national identity required. For overseas Chinese artists doing cultural exchange work.",
-      "deadline": "Varies",
-      "deadline_zh": "时间不定",
-      "deadline_ja": "時期は不定",
-      "competition": "Low — most overseas Chinese artists aren't aware of this funding stream",
-      "why_apply": "You're Chinese. A 'Chinese artist documenting Tokyo for Chinese audiences' project is directly fundable.",
-      "apply": "Via Chinese embassy cultural attaché or China Arts Foundation directly", "apply_zh": "通过中国大使馆文化专员，或直接联系 China Arts Foundation", "apply_ja": "中国大使館の文化担当官を通じて、またはChina Arts Foundationへ直接",
-      "tip": "Availability varies by political climate. Monitor via Chinese artist communities in Tokyo.",
-      "eligibility_zh": "需具备中国国籍。面向从事文化交流工作的海外华人艺术家。",
-      "eligibility_ja": "中国国籍が必須条件。文化交流活動に取り組む在外中国人芸術家を対象とした制度。",
-      "competition_zh": "竞争较低——大多数海外华人艺术家不了解这一资助渠道。",
-      "competition_ja": "競争率は低い——この助成制度を知る在外中国人芸術家はほとんどいない。",
-      "why_apply_zh": "你是中国人。'中国艺术家为中国受众记录东京'的项目定位具有直接的资助可行性。",
-      "why_apply_ja": "中国人であることが強み。「中国の観客に向けて東京を記録する中国人芸術家」というプロジェクトは直接的に助成対象となりやすい。",
-      "tip_zh": "资助情况因政治气候而有所变化。建议通过在东京的华人艺术家社群持续关注相关动态。",
-      "tip_ja": "政治情勢によって状況が変わる場合がある。東京の中国人芸術家コミュニティを通じて継続的に情報を確認すること。"
+      "name": "Asian Cultural Council — Individual Fellowship",
+      "website": "https://www.asianculturalcouncil.org/grant-opportunities",
+      "country": "USA (for artists from Asia)",
+      "amount": "Up to US$35,000 as a lump sum you budget yourself, for 1–6 months",
+      "eligibility": "Nationality or permanent residency of one of 25 Asian countries — China (Mainland) is on the list, so you pass that test. Three things may still stop you: you must be 21 or over, have five years of professional experience, and not be a full-time student.",
+      "eligibility_zh": "需要属于 25 个亚洲国家地区之一的国籍或永住——中国大陆在列，这一关你过。但有三件事可能拦住你：须年满 21 岁、需要五年专业经历，以及——不能是全日制在读学生。",
+      "deadline": "2027 cycle: 1 October – 10 November 2026, 09:59 ET",
+      "deadline_zh": "2027 年度：2026 年 10 月 1 日 至 11 月 10 日 09:59（美东时间）",
+      "why_apply": "The one programme here you clear on nationality outright, and the largest sum on the page.",
+      "why_apply_zh": "这是这页上唯一一个你在国籍上直接过关的，金额也是最大的。",
+      "tip": "It funds looking, not making. ACC says outright that it does not fund producing work or mounting exhibitions — it supports open-ended research. A proposal built around a finished body of work is the shape they refuse.",
+      "tip_zh": "它资助的是「去看」，不是「去做」。ACC 明确说明不资助创作与办展，只支持开放式的考察研究。以「做出一批作品」为目标写的申请，正是他们会拒绝的那种。"
     },
     {
-      "category_note": "General grant strategy",
-      "note": "Grant applications take about 3–4 months to prepare properly. The strongest applications have: (1) a specific named project, not vague artistic development; (2) evidence of past work (your exhibition record and Instagram archive both count); (3) a clear 'why now' — what will this grant make possible that isn't possible without it. You have a natural narrative: a Chinese artist in Tokyo with an established audience, a solo and international exhibition record, and a steady watercolor practice — well-positioned for the next stage.",
-      "apply": "",
-      "category_note_zh": "资助申请总体策略",
-      "category_note_ja": "助成金申請の全体戦略",
-      "note_zh": "资助申请通常需要3至4个月来充分准备。最有竞争力的申请具备以下要素：(1) 一个具体、有名称的项目，而非模糊的艺术发展方向；(2) 过往作品的佐证（你的展览履历与 Instagram 档案都算）；(3) 清晰阐明\"为何是现在\"——这笔资助将如何实现没有它便无法实现的事情。你拥有天然的叙事优势：旅居东京、拥有稳定受众的中国艺术家，有个展与海外展的履历，以及持续的水彩创作——正适合迈向下一阶段。",
-      "note_ja": "助成金の申請には、適切な準備に3〜4ヶ月かかります。採択率の高い申請書には次の要素が備わっています：(1) 漠然とした芸術的成長ではなく、具体的な名称を持つプロジェクト；(2) 過去の作品実績の証明（あなたの展示歴も Instagram のアーカイブも有効）；(3) 「なぜ今なのか」の明確な説明——この助成金があって初めて可能になることは何か。あなたには自然なストーリーがあります：確立されたオーディエンスを持つ東京在住の中国人アーティストで、個展や海外展の実績があり、水彩の制作を続けている——次のステージへ進むのにふさわしい立ち位置です。"
+      "name": "国家艺术基金 (China National Arts Fund)",
+      "website": "https://www.cnaf.cn/",
+      "country": "China",
+      "amount": "Up to ¥100,000 RMB",
+      "eligibility": "Chinese nationals; it tests 户籍. Needs either a work-unit letter or three mainland experts at 副高级 or above to recommend you. Watercolour is a named category (水彩（粉）画).",
+      "eligibility_zh": "面向中国公民，考户籍。需要单位推荐函，或三位副高级以上的内地专家推荐。水彩（粉）画是列明的类别。",
+      "deadline": "The 2027 cycle closed 15 June 2026",
+      "deadline_zh": "2027 年度已于 2026 年 6 月 15 日截止",
+      "why_apply": "The only Chinese-national route on this page that could be verified as real. It is here with its weight stated rather than left out.",
+      "why_apply_zh": "这是这页上唯一一个能被核实为真实存在的中国国籍途径。把它的分量说清楚，而不是直接不写。",
+      "tip": "The requirements are heavy: finished works must be at least 1.5m × 1.5m, and on the 美术创作 route the painting is collected by a Chinese state museum. That is a different practice from the one you have.",
+      "tip_zh": "要求很重：成品尺寸至少 1.5 米 × 1.5 米，而且走美术创作这条线的话，作品由国内国有美术馆收藏。那和你现在的创作方式是两回事。"
+    },
+    {
+      "category_note": "Checked, and closed to you",
+      "category_note_zh": "已核实：这两扇门对你是关的",
+      "note": "Two doors that look open are not. Bunka-cho's overseas study programme (新進芸術家海外研修制度) requires Japanese nationality or permanent residency, and the form asks for documentary proof of it. The Japan Foundation's one individual arts fellowship requires nationality or permanent residency of Japan or an ASEAN country. Both were checked on 8 September 2026, and they are named here only so that nobody spends a month finding out.",
+      "note_zh": "有两扇看上去开着的门，其实不是。文化厅的「新进艺术家海外研修制度」要求日本国籍或永住资格，表格里还要求附证明文件。国际交流基金会唯一面向个人的艺术类项目，要求日本或东盟国家的国籍或永住。两项均于 2026 年 9 月 8 日核实。写在这里，只是为了别让人花一个月才发现。",
+      "apply": ""
     }
   ]
 };
@@ -1104,8 +1017,8 @@ export const COLLECTOR_ECOSYSTEM = {
       name: "Instagram — direct (DM to inquire)",
       name_zh: "Instagram — 私信咨询",
       link: "https://www.instagram.com/gegyjiji/",
-      what: "Realistically your single biggest collector channel already. The people who follow your daily watercolor diary are exactly the people who buy an original, a zine, or a postcard set. It works quietly: someone sees a piece they love, sends a DM, and you reply.",
-      what_zh: "现实地说，这已经是你最大的收藏渠道。关注你每日水彩日记的人，正是会买原作、画册或明信片的人。运作方式很安静：有人看到喜欢的作品，发私信，你回复即可。",
+      what: "Where people already meet the work, whatever they do next with it. Nothing here has ever measured how many of them buy, so this is a description of where the audience is, not a claim about what it converts to. The people who follow your daily watercolor diary are exactly the people who buy an original, a zine, or a postcard set. It works quietly: someone sees a piece they love, sends a DM, and you reply.",
+      what_zh: "人们最先遇见作品的地方，至于之后做什么，是另一回事。这里从来没有测量过其中有多少人会买，所以这是在描述受众在哪儿，不是在宣称它能转化成什么。关注你每日水彩日记的人，正是会买原作、画册或明信片的人。运作方式很安静：有人看到喜欢的作品，发私信，你回复即可。",
       fit_for_her: "Yes — more than any other channel here. Your audience is already present and engaged. The only gentle, optional addition is making it obvious that inquiries are welcome.",
       fit_for_her_zh: "是的——比这里任何渠道都更现实。你的观众已经在这里、已经在互动。唯一可加的、完全随意的一步，是让大家清楚知道欢迎咨询。",
     },
@@ -1115,8 +1028,8 @@ export const COLLECTOR_ECOSYSTEM = {
       link: "https://gegyjiji.base.shop/",
       what: "Your existing storefront on BASE, a free Japanese platform (you only pay a fee when something sells) with built-in Instagram linking. Your shop already handles originals, zines, postcards, and clear SOLD OUT marking well.",
       what_zh: "你在 BASE 上的现有店铺。BASE 是日本的免费开店平台（卖出才收费），并自带 Instagram 链接。你的店铺已经把原作、画册、明信片以及清晰的 SOLD OUT 标记都做得很好。",
-      fit_for_her: "Already real and already working — three originals at your top price have sold. It's your calm buy button so purchasing never depends only on catching you in DMs. Nothing needs to change.",
-      fit_for_her_zh: "已经真实存在并已在运作——三幅最高价的原作已售出。这是你平静的购买按钮，让购买不必只依赖于在私信里恰好找到你。无需改动。",
+      fit_for_her: "Already real and already working. It's your calm buy button so purchasing never depends only on catching you in DMs. Nothing needs to change.",
+      fit_for_her_zh: "已经真实存在并已在运作。这是你平静的购买按钮，让购买不必只依赖于在私信里恰好找到你。无需改动。",
     },
     {
       name: "Tokyo Art Book Fair (TABF)",
@@ -1131,8 +1044,8 @@ export const COLLECTOR_ECOSYSTEM = {
       name: "Creema — Japanese handmade & art marketplace",
       name_zh: "Creema — 日本手作与艺术市集",
       link: "https://www.creema.jp/",
-      what: "One of Japan's largest creator marketplaces, skewing toward higher unit prices and works for adults — buyers in their 20s–40s seeking quality original art and illustration. You list items; the platform brings the audience.",
-      what_zh: "日本最大的创作者市集之一，客单价偏高、偏向成年人的作品——20–40 岁、寻找高质量原创艺术与插画的买家。你上架商品，平台带来观众。",
+      what: "One of Japan's largest creator marketplaces, skewing toward higher unit prices. (A buyer-age breakdown circulates widely online but Creema publishes none, so it is left out here.) You list work; the platform brings the audience.",
+      what_zh: "日本规模最大的创作者市集之一，客单价偏高。（关于买家年龄层的说法在网上流传很广，但 Creema 自己从未公布过，所以这里不写。）你上架商品，平台带来观众。",
       fit_for_her: "A natural fit for zines, postcards, and prints, and reasonable for smaller originals. It reaches Japanese buyers who may never find your Instagram. Fully optional and low-effort.",
       fit_for_her_zh: "很适合画册、明信片和版画，小幅原作也合理。它能触达可能从未发现你 Instagram 的日本买家。完全随意、几乎不费力。",
     },
@@ -1168,7 +1081,7 @@ export const COLLECTOR_ECOSYSTEM = {
     { step: "Keep one link in your bio that goes to your shop. Just your gegyjiji.base.shop link in your Instagram bio, so anyone who loves a piece can find where to buy without asking. Highest value, lowest effort.", step_zh: "在简介里放一个指向店铺的链接。只需把 gegyjiji.base.shop 放进 Instagram 简介，让任何喜欢某幅作品的人不必开口就能找到购买入口。价值最高、最省力。" },
     { step: "Add one quiet line: 'DM to inquire about originals.' A single calm sentence in your bio or a pinned post tells people a message is welcome. No catalog, no prices needed — just that the door is open.", step_zh: "加一句安静的话：「原作请私信咨询」。简介或置顶里一句平静的话，就告诉大家欢迎来消息。不需要目录、不需要价格——只是表明门是开着的。" },
     { step: "Let 'sold' and 'available' be visible. You already mark SOLD OUT beautifully on BASE; carrying that same small note to a caption when something sells quietly signals that pieces are real, finite, and collectible — without any urgency.", step_zh: "让「已售」和「在售」可见。你在 BASE 上的 SOLD OUT 标记已经很好；卖出时在配文里加同样的小注脚，就安静地表明作品是真实、有限、可收藏的——毫无紧迫感。" },
-    { step: "(Optional) A simple price list, once. A single pinned post or highlight with three calm tiers — postcards, zines, originals — answers the most common question before it's asked. Easy to skip.", step_zh: "（可选）一份简单的价目表，做一次就好。一条置顶或精选，列出三个平静的档位——明信片、画册、原作——在被问到之前就答好了最常见的问题。跳过也没关系。" },
+    { step: "(Optional) A simple price list, once. A single pinned post or highlight with your four calm tiers — postcards, zines, prints, originals — answers the most common question before it's asked. Easy to skip.", step_zh: "（可选）一份简单的价目表，做一次就好。一条置顶或精选，列出三个平静的档位——明信片、画册、原作——在被问到之前就答好了最常见的问题。跳过也没关系。" },
     { step: "(Optional) A second storefront only if it feels easy. Creema or BOOTH can hold your zines and postcards for buyers who never see your Instagram. Set it up only on a day it feels light — no rush, and no penalty for never doing it.", step_zh: "（可选）只有在感觉轻松时再开第二家店。Creema 或 BOOTH 可以为没看过你 Instagram 的买家承载画册和明信片。只在感觉轻松的某天去做就好——不必着急，永远不做也没有任何损失。" },
   ],
 };
