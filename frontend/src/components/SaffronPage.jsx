@@ -1,6 +1,5 @@
 import { useState, useEffect, useMemo, Component, createContext, useContext } from 'react'
 import './SaffronPage.css'
-import PaperAccents from './PaperAccents'
 import { CalendarMonth } from './DeadlineCalendar'
 import { parseDeadline, keyOf } from '../utils/calendarDates'
 import './DeadlineCalendar.css'
@@ -301,7 +300,7 @@ const SF_ZH_PEERS = {
   "South Korea": "韩国",
   "China": "中国",
 
-  "Keeps a daily illustrated sketch journal of ordinary life — her home, her neighborhood, meals, small domestic moments — painted in watercolor and pen, the same daily-diary practice GEGYjiji has kept since 2020. Her journal grew directly into a series of published books (Draw Your Day), the publication path GEGYjiji is building toward.": "她坚持每天画一本描绘平凡生活的插画速写日记——自己的家、街区、餐食、细小的居家时刻——用水彩和钢笔记录，正是 GEGYjiji 自 2020 年起延续的那种每日日记式创作。她的日记直接发展成了一系列出版图书（《Draw Your Day》），也正是 GEGYjiji 正在努力走向的出版路径。",
+  "Keeps a daily illustrated sketch journal of ordinary life — her home, her neighborhood, meals, small domestic moments — painted in watercolor and pen, the same daily-diary practice GEGYjiji has kept since 2020. Her journal grew directly into a series of published books (Draw Your Day), the publication path GEGYjiji is building toward.": "她坚持每天在插画速写本中记录平凡生活——自己的家、街区、餐食和细微的居家片刻——使用水彩与钢笔，和你自 2020 年起持续至今的日记式创作很相似。她的日记直接发展成了一系列出版图书（《Draw Your Day》），也正是 GEGYjiji 正在努力走向的出版路径。",
   "Closest model for turning a daily watercolor diary into published books and a sustaining illustration career.": "把每日水彩日记转化为出版图书并维系插画事业的最贴近范本。",
   "daily illustrated diary practice": "每日插画日记的创作习惯",
   "domestic and everyday-life subjects": "居家与日常生活题材",
@@ -309,14 +308,14 @@ const SF_ZH_PEERS = {
   "diary that grew into published books": "由日记发展为出版图书",
   "audience built on Instagram": "在 Instagram 上积累的受众",
 
-  "A daily watercolor sketchbook artist from Sydney who paints her own life — her cat, teacups, the rooms she sits in, the buildings she passes — and has built a large following and a teaching practice around that habit. The everyday-domestic register and the cat as a recurring anchor closely echo GEGYjiji's diary.": "一位来自悉尼的每日水彩速写本画家，描绘自己的生活——她的猫、茶杯、所处的房间、路过的建筑——并围绕这一习惯建立起庞大的关注群体和教学事业。其日常居家的气质，以及作为反复出现之锚点的猫，都与 GEGYjiji 的日记十分呼应。",
+  "A daily watercolor sketchbook artist from Sydney who paints her own life — her cat, teacups, the rooms she sits in, the buildings she passes — and has built a large following and a teaching practice around that habit. The everyday-domestic register and the cat as a recurring anchor closely echo GEGYjiji's diary.": "一位来自悉尼的每日水彩速写本画家，描绘自己的生活——她的猫、茶杯、所处的房间、路过的建筑——并围绕这一习惯建立起庞大的关注群体和教学事业。她笔下日常而居家的气质，以及反复出现的猫，都与你的水彩日记十分呼应。",
   "Reference for sustaining a daily watercolor practice and turning the habit itself into a community and income.": "维系每日水彩创作、并把这一习惯本身转化为社群与收入的参照。",
   "daily watercolor sketchbook habit": "每日水彩速写本的习惯",
   "cats and domestic life as subjects": "以猫与居家生活为题材",
   "intimate everyday observation": "亲密的日常观察",
   "self-built audience and teaching career": "自我建立的受众与教学事业",
 
-  "A Burmese-British watercolorist who fills sketchbooks with domestic still life — coffee, food, the quiet objects of home — and shares them daily on Instagram, where she has built a large following and a self-published book. An Asian-heritage artist whose career rests on watercolor sketchbooks and an online audience, much like GEGYjiji's.": "一位缅甸裔英国水彩画家，用速写本描绘居家静物——咖啡、食物、家中安静的物件——并每天在 Instagram 上分享，由此积累了庞大的关注者，并出版了自费图书。一位以水彩速写本与线上受众为事业根基的亚裔背景艺术家，与 GEGYjiji 颇为相似。",
+  "A Burmese-British watercolorist who fills sketchbooks with domestic still life — coffee, food, the quiet objects of home — and shares them daily on Instagram, where she has built a large following and a self-published book. An Asian-heritage artist whose career rests on watercolor sketchbooks and an online audience, much like GEGYjiji's.": "一位缅甸裔英国水彩画家，在速写本中描绘咖啡、食物和家中静静摆放的物件，并每天分享到 Instagram，由此积累了大量关注者，也自费出版过作品。一位以水彩速写本与线上受众为事业根基的亚裔背景艺术家，与 GEGYjiji 颇为相似。",
   "Reference for building an illustration career on watercolor sketchbooks, an online following, and self-published books.": "以水彩速写本、线上关注与自费出版图书建立插画事业的参照。",
   "watercolor sketchbook practice": "水彩速写本的创作",
   "domestic still life and home objects": "居家静物与家中物件",
@@ -330,7 +329,7 @@ const SF_ZH_PEERS = {
   "Tokyo-based illustrator": "常驻东京的插画家",
   "atmosphere over incident": "重氛围而非情节",
 
-  "A Taiwanese-American illustrator who keeps a deeply personal sketchbook diary of interior, introspective domestic scenes and built an audience of hundreds of thousands from that practice alone — moving from a day job into a full illustration and gallery career. Her medium is marker rather than watercolor, so the kinship is the diary practice, the domestic-interior subject, and the online-built path, not the surface look.": "一位台湾裔美国插画家，坚持画一本极为私人的速写本日记，描绘室内、内省的居家场景，并仅凭这一创作就积累了数十万受众——从一份正职转向全职插画与画廊事业。她的媒介是马克笔而非水彩，因此这份亲缘在于日记式创作、居家室内题材，以及由线上建立的路径，而非表面的样貌。",
+  "A Taiwanese-American illustrator who keeps a deeply personal sketchbook diary of interior, introspective domestic scenes and built an audience of hundreds of thousands from that practice alone — moving from a day job into a full illustration and gallery career. Her medium is marker rather than watercolor, so the kinship is the diary practice, the domestic-interior subject, and the online-built path, not the surface look.": "一位台湾裔美国插画家，坚持画一本极为私人的速写本日记，描绘室内、内省的居家场景，并仅凭这一创作就积累了数十万受众——从一份正职转向全职插画与画廊事业。她用马克笔而不是水彩；你们真正相近的是日记式创作、室内生活题材，以及从线上积累受众的职业路径，而不是画面的外观。",
   "Reference for how a private daily sketchbook diary can grow into a full illustration and exhibition career; note medium is marker, not watercolor.": "参照一本私人的每日速写日记如何成长为全职插画与展览事业；请注意其媒介是马克笔，而非水彩。",
   "personal sketchbook diary practice": "私人速写本日记的创作",
   "domestic interior and introspective subjects": "居家室内与内省题材",
@@ -350,7 +349,7 @@ const SF_ZH_PEERS = {
   "Asian illustrator built from online audience": "由线上受众建立的亚洲插画家",
   "diary grown into published books": "由日记发展为出版图书",
 
-  "A Tokyo painter whose work centers on cats, rendered in watercolor and ink, and who has built a prolific publishing practice — art books, picture books, a gallery-shop of her own — alongside a large following. Her world is surreal and fantastical rather than quiet-domestic, so the kinship is the cat-centered subject and the art-book/publishing career, not the realist register.": "一位东京画家，其作品以猫为核心，以水彩与墨水绘成，并在庞大关注群体之外建立了高产的出版事业——画集、绘本，以及她自己的画廊兼店铺。她的世界超现实而奇幻，而非安静的居家，因此这份亲缘在于以猫为核心的题材与画集／出版事业，而非写实的气质。",
+  "A Tokyo painter whose work centers on cats, rendered in watercolor and ink, and who has built a prolific publishing practice — art books, picture books, a gallery-shop of her own — alongside a large following. Her world is surreal and fantastical rather than quiet-domestic, so the kinship is the cat-centered subject and the art-book/publishing career, not the realist register.": "一位东京画家，其作品以猫为核心，以水彩与墨水绘成，并在庞大关注群体之外建立了高产的出版事业——画集、绘本，以及她自己的画廊兼店铺。她的画面偏超现实和奇幻，并不是安静的居家写实；你们相近的是以猫为核心的题材，以及从画集延伸出的出版路径。",
   "Reference for a cats-centered Tokyo painter building a deep art-book and publishing career; note the style is surreal/fantasy, not realist domestic.": "参照一位以猫为核心的东京画家如何建立深厚的画集与出版事业；请注意其风格为超现实／奇幻，而非写实的居家。",
   "cats as central subject": "以猫为核心题材",
   "watercolor and ink medium": "水彩与墨水媒介",
@@ -548,7 +547,7 @@ const CAREER_SYNOPSIS = {
   // below, which correctly says 3. Counted clauses stale; this one doesn't
   // (prose review, 2026-09-04) — the live counts stay careerStatusLine's job.
   en: "You're an actively exhibiting artist — solo and group shows across China, Japan and abroad, including museum group shows and solos in Tokyo — with a first solo publication and an established, growing audience. The foundation is real. From here it's less about adding credits and more about depth: gallery relationships, a representation conversation if you ever want one, and the book practice your daily work already feeds.",
-  zh: "你是一位持续在办展的艺术家——个展与联展遍及中国、日本及海外，其中有美术馆群展，也有东京的个展——还有首部个人出版物，和一群稳定、持续增长的受众。根基是扎实的。接下来与其说是再添履历，不如说是往深处走：画廊关系、（如果你愿意）一次代理的洽谈，以及你的日常创作本就在滋养的那条出版之路。",
+  zh: "你一直在持续参展：在中国、日本及其他国家举办或参加过个展、联展和美术馆群展，也出版了首部个人作品集，并拥有稳定增长的受众。你的根基已经很扎实。接下来，比起继续堆叠履历，更重要的是加深画廊关系；如果你愿意，也可以开始了解代理合作，并继续发展由日常创作自然延伸出的出版方向。",
   ja: "あなたは継続的に発表を続けているアーティストです——中国・日本・海外での個展とグループ展、美術館でのグループ展、そして東京での個展まで——さらに初の個人作品集と、確立された、伸び続けるオーディエンスがあります。土台は確かです。ここから先は、実績を足すことよりも深さです——ギャラリーとの関係、望むなら専属の話、そして日々の制作がすでに育てている本の実践。",
 }
 const CAREER_SUMMARY = {
@@ -3205,7 +3204,6 @@ export default function SaffronPage({ nav, tab: tabFromUrl, onTabChange }) {
 
   return (
     <div className="saffron-page">
-      <PaperAccents />
       <section className="saffron-hero">
         <img src={isNightNow() ? saffronHeroNight : saffronHero} alt="" draggable={false} className="saffron-hero-img" />
       </section>
@@ -3221,7 +3219,12 @@ export default function SaffronPage({ nav, tab: tabFromUrl, onTabChange }) {
 
       {data && (
         <div className="sf-content">
-          <div className="sf-tabs">
+          {/* page-content-start: PaperAccents (App.jsx) anchors to the BOTTOM
+              of the LAST element carrying this class. Marked here, not on
+              .sf-content itself — .sf-content's own top includes this tabs bar,
+              which put the accents at the top of the chrome instead of the top
+              of the real body content below it. */}
+          <div className="sf-tabs page-content-start">
             {SF_TABS.map(([key, label]) => (
               <button
                 key={key}
