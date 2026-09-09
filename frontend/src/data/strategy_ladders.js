@@ -177,7 +177,7 @@ export const STATES = {
   },
   a_inbound: {
     label: T('An audience that arrives without being asked', '不用去找、自己会来的受众'),
-    detail: T('The state the rest of this ladder is for. At scale a print run stops being a gamble — your best route breaks even at 109 copies, which is one follower in 240 on the Instagram diary alone, and one in 1,500 across everything you already have.', '这条阶梯上其余的一切，都是为了到达这个状态。到了这个规模，印一版书不再是赌博——你最好的印制方案 109 本回本：只按 Instagram 日记算是 240 人里有 1 人；把你已经拥有的全部算进来，是 1,500 人里有 1 人。'),
+    detail: T('The state the rest of this ladder is for. At scale a print run stops being a gamble — your best route breaks even at 109 copies, which is one follower in 240 on the Instagram diary alone, and one in 2,100 across everything you already have.', '这条阶梯上其余的一切，都是为了到达这个状态。到了这个规模，印一版书不再是赌博——你最好的印制方案 109 本回本：只按 Instagram 日记算是 240 人里有 1 人；把你已经拥有的全部算进来，是 2,100 人里有 1 人。'),
   },
 
   // ── licensing ──────────────────────────────────────────────────────────────
@@ -207,7 +207,8 @@ export const STATES = {
   },
   l_inbound: {
     label: T('Brands arriving unprompted', '品牌自己找上门'),
-    detail: T('The state this ladder is for. Hobonichi hand-picks illustrators whose work has a distinct voice rather than reading submissions — at this end of the ladder you are found rather than pitching.'),
+    detail: T('The state this ladder is for. Hobonichi hand-picks illustrators whose work has a distinct voice rather than reading submissions — at this end of the ladder you are found rather than pitching.',
+              '这条阶梯就是为了到达这个状态。Hobonichi 挑插画师，看重的是独特的个人风格，而不是看投稿——到了阶梯的这一端，是别人找上你，而不是你去投稿。'),
   },
 }
 
