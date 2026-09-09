@@ -1,9 +1,13 @@
 /* Decorative botanical strips down the page edges.
 
-   mix-blend-mode: multiply is what makes these work without a cut-out — the
-   white ground the art was painted on multiplies to nothing against the cream
-   page, and only the pigment darkens. It also means they must never sit above
-   text: multiply would darken the glyphs too. z-index 0 against content at 1. */
+   The source art (docs/design/saffron_visual_pass_2026-09-08/overlays_vertical)
+   was painted on an opaque white canvas with no alpha channel — Scott cut the
+   white out by hand and the images shipped here now carry real transparency.
+   mix-blend-mode: multiply stays on top of that (soft-edges the pigment into the
+   page rather than sitting flatly on it) but is no longer load-bearing for
+   hiding a background the way it was against the old opaque canvas. It also
+   means these must never sit above text: multiply would darken the glyphs too.
+   z-index 0 against content at 1. */
 /* z-index -1, not 0. A positioned element at z-index:0 paints ABOVE in-flow
    text, which would put the accents over her words and multiply the glyphs
    darker. At -1 they paint above .saffron-page's own background and below every
@@ -21,19 +25,35 @@
   position: absolute;
   width: 190px;
   height: auto;
-  opacity: 0.42;
-  mix-blend-mode: multiply;
+  /* 0.42, then 0.75, were both chased trying to fade the OLD opaque-canvas
+     image's white rectangle into the page. There's real alpha now — nothing
+     left to hide — so full opacity. */
+  opacity: 1;
+  /* Tried screen, and it's the wrong tool for a light page: screen always
+     LIGHTENS toward white, so against this cream/tan texture it washed the
+     flowers' own light pigment (lavender, wisteria) toward white too — same
+     visual symptom as a missing background ("still showing as white"), but
+     the actual PNG alpha is fully correct (verified directly: wisteria.webp
+     is 69% transparent with clean opaque pigment elsewhere). Real alpha
+     already solves the "no visible box" problem on its own now, so blend mode
+     doesn't need to do anything — normal (true colour, plain compositing) is
+     the option that can't wash anything out in either direction. */
+  mix-blend-mode: normal;
   user-select: none;
 }
 
-.paper-accent--right { right: -18px; }
+/* Flush to the edge, not hanging -18px past it. The old overhang was there to
+   bleed a full opaque rectangle off-canvas; now that the image itself is the
+   art's true silhouette (no rectangle), overhanging past the container's own
+   overflow:hidden boundary just clips real pigment off-screen for no reason. */
+.paper-accent--right { right: 0; }
 
-/* The art hugs the right edge of its own canvas, so the left-hand copy is
-   mirrored rather than a different file. */
-.paper-accent--left {
-  left: -18px;
-  transform: scaleX(-1);
-}
+/* No mirroring: PaperAccents.jsx draws this side from a pool of images that
+   are natively drawn hugging the canvas's LEFT edge (measured, not assumed —
+   see the comment there). Mirroring a right-hugging image used to be applied
+   here unconditionally, which was correct for half the source set and put the
+   art on the wrong side of the frame for the other half. */
+.paper-accent--left { left: 0; }
 
 /* Below this the content column already fills the width, and an edge strip would
    sit under the text instead of beside it. */
@@ -43,7 +63,7 @@
 
 /* At night the page keeps its cream content but the palette around it cools;
    multiply on a dark ground turns these into muddy smears, so they step back. */
-.app--night .paper-accent { opacity: 0.22; }
+.app--night .paper-accent { opacity: 0.55; }
 
 @media (prefers-reduced-motion: no-preference) {
   .paper-accent {
@@ -52,5 +72,5 @@
 }
 @keyframes paper-accent-in {
   from { opacity: 0; }
-  to   { opacity: 0.42; }
+  to   { opacity: 1; }
 }

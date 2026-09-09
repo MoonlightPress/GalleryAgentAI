@@ -15,7 +15,7 @@ const THRESHOLDS = Array.from({ length: 21 }, (_, i) => i / 20)
 // half the screen, or half of itself if it's shorter, for the dwell time), so
 // scrolling past doesn't spam. Once per mount. Layout-neutral: a plain block
 // wrapper with no margin of its own.
-export default function TrackedSection({ page = 'discover', section, children }) {
+export default function TrackedSection({ page = 'discover', section, className = '', children }) {
   const ref = useRef(null)
   const firedRef = useRef(false)
   const timerRef = useRef(null)
@@ -55,5 +55,5 @@ export default function TrackedSection({ page = 'discover', section, children })
     }
   }, [page, section])
 
-  return <div ref={ref} className="tracked-section">{children}</div>
+  return <div ref={ref} className={`tracked-section${className ? ` ${className}` : ''}`}>{children}</div>
 }

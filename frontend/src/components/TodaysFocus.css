@@ -8,6 +8,10 @@
 
 .tf-header {
   margin-bottom: 15px;
+  /* Centered like the other section headers (.opp-section-title-row) — was
+     left-aligned, which put the title right where the left page-edge flower
+     accent now sits, covering it. */
+  text-align: center;
 }
 
 .tf-section-title {

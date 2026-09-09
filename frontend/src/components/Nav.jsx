@@ -46,7 +46,12 @@ export default function Nav({ activePage, onNav }) {
   ]
 
   return (
-    <nav className="site-nav" ref={navRef}>
+    // page-content-start: PaperAccents (App.jsx) anchors to the BOTTOM edge of
+    // the LAST element carrying this class, so every page has a fallback stable
+    // anchor even with no sub-nav of its own (Peppercorn). Pages with a sub-nav
+    // (Mochi's QuickNav, Saffron's .sf-tabs) mark that too, further down the
+    // DOM, which wins as "the last one" automatically.
+    <nav className="site-nav page-content-start" ref={navRef}>
       <div className="companion-row">
         {COMPANIONS.map(c => (
           <button
@@ -94,7 +99,7 @@ export function QuickNav() {
     { label: t('nav.quick.people'),       target: 'relationships'         },
   ]
   return (
-    <div className="quick-nav-bar">
+    <div className="quick-nav-bar page-content-start">
       {items.map((item, i) => (
         <span key={item.label} className="quick-nav-group">
           <button className="quick-nav-item" onClick={() => scrollTo(item.target)}>

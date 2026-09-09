@@ -2,11 +2,30 @@
   display: flex;
   flex-direction: column;
   min-height: 100svh;
-  background: var(--parchment);
   /* Contain any stray horizontal overflow on mobile WITHOUT breaking the sticky
      nav. overflow-x:hidden would force overflow-y to auto and kill position:sticky;
      overflow-x:clip does not, so the nav still follows on scroll. */
   overflow-x: clip;
+  /* Positioning context for PaperAccents (site-wide watercolor page texture +
+     botanical edge accents, moved here from being Saffron-only — see
+     PaperAccents.jsx/css). `isolation` scopes the accents' mix-blend-mode:multiply
+     to this subtree; `position:relative` makes .app the offset parent their
+     inset:0 / z-index:-1 resolve against. Only one companion page is ever
+     rendered inside .app at a time, so .app's box always matches whichever
+     page is active — no per-page texture/accent wiring needed. */
+  position: relative;
+  isolation: isolate;
+  /* Watercolor-stain texture (paper-stains.webp), stretched to the full page
+     width and repeating only vertically, so it reads as one continuous surface
+     with no visible tile grid. Went through two failed attempts first: a single
+     painted sheet (texture-plain-CHOSEN.png) tiled small at full opacity was
+     "way too busy"; faded down small it went the other way, "no texture at
+     all". This asset is an actual seamless stain texture, not a single wash. */
+  background-color: var(--parchment);
+  background-image: url('./assets/texture/paper-stains.webp');
+  background-repeat: repeat-y;
+  background-size: 100% auto;
+  background-position: top center;
 }
 
 /* ── Night theme ──────────────────────────────────────────────────

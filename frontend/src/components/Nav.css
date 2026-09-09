@@ -2,12 +2,12 @@
   position: sticky;
   top: 0;
   z-index: 40;
-  /* Paper wash behind the tabs (assets/texture/paper-wash.webp, 19KB — same tile
-     SaffronPage.css repeats for the page background). The colour is listed after
-     the image so it still renders if the image 404s, and it is what shows through
-     the wash's lighter areas. cover, not repeat: the strip is short enough to show
-     the whole painted sheet once without a visible seam. */
-  background: url('../assets/texture/paper-wash.webp') center / cover no-repeat,
+  /* Same texture the page body uses (App.css's paper-stains.webp), not the
+     separate paper-wash.webp — was a different, mismatched texture here.
+     The colour is listed after the image so it still renders if the image
+     404s. cover, not repeat: the strip is short enough to show the art once
+     without a visible seam. */
+  background: url('../assets/texture/paper-stains.webp') center / cover no-repeat,
               var(--parchment);
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);

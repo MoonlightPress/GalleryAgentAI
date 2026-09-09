@@ -303,7 +303,7 @@ export default function RelationshipTargets() {
 
   return (
     <section id="relationships" className="opp-section rt-section">
-      <SectionHeader title={t('people.title')} subtitle={t('people.intro')} />
+      <SectionHeader title={t('people.title')} subtitle={t('people.intro')} sectionId="relationships" />
 
       <div className="rt-groups">
         {groups.map((g, idx) => (

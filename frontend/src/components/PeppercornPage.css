@@ -11,7 +11,12 @@
 .peppercorn-page {
   display: flex;
   flex-direction: column;
-  background: var(--parchment);   /* track Mochi + Saffron, never drift */
+  /* No background here: this div is edge-to-edge full width with no margin, so
+     an opaque fill paints directly over .app's shared page texture + botanical
+     accents (z-index:-1, a sibling one level up) and hides them completely —
+     that was the "peppercorn has nothing" bug. Saffron had the identical trap
+     (fixed in SaffronPage.css) before texture/accents moved up to .app; Mochi
+     never had it because it has no single full-width wrapper div at all. */
   min-height: 100vh;
 }
 
@@ -208,7 +213,11 @@
 .pp-content {
   display: flex;
   flex-direction: column;
-  background: var(--parchment);   /* share the one page ground with Mochi + Saffron */
+  /* No background: full page width, so an opaque fill paints directly over
+     .app's shared page texture + botanical accents for the whole height of
+     every section list — the same bug as .peppercorn-page itself (fixed
+     above) and .opps-root on Mochi's page. Individual .pp-section /
+     .pp-card faces keep their own background for readability. */
 }
 
 .pp-intro {

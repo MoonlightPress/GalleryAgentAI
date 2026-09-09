@@ -8,6 +8,7 @@ import OpportunitiesSection from './components/OpportunitiesSection'
 import RelationshipTargets from './components/RelationshipTargets'
 import TrackerSection from './components/TrackerSection'
 import StatusBar from './components/StatusBar'
+import PaperAccents from './components/PaperAccents'
 import NewOpportunitiesBanner from './components/NewOpportunitiesBanner'
 import { markFreshSeen } from './utils/newOpportunities'
 import TrackedSection from './components/TrackedSection'
@@ -198,6 +199,11 @@ export default function App() {
           companion nav + each page's sub-nav). Page background and content stay in
           their daytime palette everywhere — the light-touch theme. */}
       <div className={`app${isNightNow() ? ' app--night' : ''}`}>
+        {/* Paper texture + botanical accents: site-wide (all three companion
+            pages), not Saffron-only — rendered once here so it doesn't need
+            reimplementing per page. Positions itself against .app and whichever
+            .page-content-start marker the active page provides. */}
+        <PaperAccents page={page} />
         {page === 'discover' && <HeroSection />}
         {page === 'discover' && nav}
         {page === 'discover' && <QuickNav />}
