@@ -19,7 +19,6 @@ import { isNightNow } from './utils/timeOfDay'
 import { prefetchCompanionHeroes } from './utils/heroImages'
 import { parseHash, formatHash, sameRoute } from './utils/route'
 
-const SaffronPage = lazy(() => import('./components/SaffronPage'))
 const PeppercornPage = lazy(() => import('./components/PeppercornPage'))
 // The Saffron restructure prototype, reachable only at #observe2 (or /mochi2,
 // which nginx redirects here). Lazy like the others so it costs nothing to
@@ -88,7 +87,7 @@ export default function App() {
   // refresh keeps her place, and back/forward walk the companions she visited.
   // No hash = discover, exactly as before; an unknown hash falls back to it too.
   const [route, setRoute] = useState(() => parseHash(window.location.hash))
-  const { page, tab } = route
+  const { page } = route
 
   // The browser owns the state: every navigation writes the hash, and we only
   // ever read it back out here. One path in, so a click and a back button do
@@ -178,7 +177,7 @@ export default function App() {
   // is what "3 seconds even when switching sections" actually was.
   useEffect(() => {
     const warm = () => {
-      import('./components/SaffronPage')
+      import('./components/SaffronV2')
       import('./components/PeppercornPage')
       prefetchCompanionHeroes(isNightNow())
       for (const url of ['/api/saffron', '/api/career_strategy', '/api/peppercorn']) {
@@ -226,15 +225,14 @@ export default function App() {
         {page === 'discover' && <AtelierFooter page="discover" />}
         {(page === 'observe' || page === 'observe2' || page === 'refine') && (
           <Suspense fallback={<PageFallback page={page} />}>
-            {page === 'observe' && (
-              <SaffronPage
-                nav={nav}
-                onNav={setPage}
-                tab={tab}
-                onTabChange={(key) => navigate('observe', key)}
-              />
-            )}
-            {page === 'observe2' && <SaffronV2 nav={nav} />}
+            {/* SaffronV2 (the #observe2 restructure prototype) is now the main
+                Saffron page too (Scott, 2026-09-09) — both hashes render it so
+                existing #observe/#observe2 links keep working. The old 5-tab
+                SaffronPage default export is no longer rendered here, but its
+                module still stays imported (SaffronV2 pulls its named exports
+                from it — see the top-of-file comment there), so nothing there
+                needs deleting. */}
+            {(page === 'observe' || page === 'observe2') && <SaffronV2 nav={nav} />}
             {page === 'refine'  && <PeppercornPage nav={nav} />}
             {/* Footer lives INSIDE Suspense so it stays hidden until the page
                 resolves — no footer floating on the blank fallback mid-switch.
