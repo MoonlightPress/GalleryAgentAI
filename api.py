@@ -2241,7 +2241,7 @@ def get_saffron():
             "field": "Illustration & design",
             "note": "Illustration & design background",
         },
-        "base": "Tokyo, Japan / Beijing, China",
+        "base": "Tokyo, Japan",
     }
 
     # ── Market landscape (computed from compact_opportunities.json) ───────────
@@ -2435,9 +2435,9 @@ def get_saffron():
                     "done": _has_residency or _has_grant,
                     "blocking": False,
                     "detail": _reg(
-                        "Genuine open doors on your CV: a residency suited to a Tokyo–Beijing practice, an arts grant your record now supports, and writers engaging critically with the work — plus more zines, or contributing to or curating an anthology.",
-                        "履历上真正待开的门：契合往返东京—北京创作的驻地、你的履历如今足以支撑的艺术奖助、真正以评论视角关注作品的写作者——以及更多独立刊物，或参与、策划一本合集。",
-                        "CV上の本当に開かれた扉：東京—北京の制作に合うレジデンシー、いまの実績が支える芸術助成、作品に批評的に向き合う書き手——さらに新しいzine、あるいはアンソロジーへの参加・編集。",
+                        "Genuine open doors on your CV: a residency suited to a Tokyo-based practice, an arts grant your record now supports, and writers engaging critically with the work — plus more zines, or contributing to or curating an anthology.",
+                        "履历上真正待开的门：契合东京创作实践的驻地、你的履历如今足以支撑的艺术奖助、真正以评论视角关注作品的写作者——以及更多独立刊物，或参与、策划一本合集。",
+                        "CV上の本当に開かれた扉：東京を拠点とする制作に合うレジデンシー、いまの実績が支える芸術助成、作品に批評的に向き合う書き手——さらに新しいzine、あるいはアンソロジーへの参加・編集。",
                     ),
                 },
             ],
@@ -2864,7 +2864,7 @@ def get_saffron():
     global_ct = country_counts.get("Global", 0)
 
     geographic_expansion = {
-        "current_base": "Tokyo, Japan / Beijing, China",
+        "current_base": "Tokyo, Japan",
         "pipeline_by_country": [
             {"country": k, "count": v}
             for k, v in sorted(country_counts.items(), key=lambda x: x[1], reverse=True)
