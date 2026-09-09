@@ -45,23 +45,6 @@
 
 .v2-tabs { margin-bottom: 22px; }
 
-.v2-block { margin-bottom: 30px; }
-.v2-h {
-  font-family: Georgia, serif;
-  font-size: 22px;
-  font-weight: bold;
-  color: #3d2b1a;
-  margin: 0 0 3px;
-  letter-spacing: 0.01em;
-}
-.v2-sub {
-  font-family: Georgia, serif;
-  font-size: 14px;
-  font-style: italic;
-  color: #8b6a3e;
-  margin: 0 0 20px;
-}
-
 /* ── the year: a wash, not a grid ──────────────────────────────────────────
    Each month is a column with no border at all. Its background is an amber
    wash rising from the baseline, its height set inline from that month's share

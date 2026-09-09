@@ -24,7 +24,7 @@ import {
   RecurringDoors, GrantLandscape,
   CareerPosition, ComparableArtists, VenueTracker, PressFeatures,
   Futures, BookEconomics, PublisherFork,
-  SectionOpenContext, SectionErrorBoundary,
+  SectionOpenContext, SectionErrorBoundary, SectionShell,
   Ladders,
 } from './SaffronPage'
 import { saffronHero, saffronHeroNight } from '../utils/heroImages'
@@ -335,10 +335,14 @@ export default function SaffronV2({ nav }) {
 
         {tab === 'moving' && (
           <>
-            <div className="v2-block">
-              <h2 className="v2-h">{c.year}</h2>
+            {/* Was a bare .v2-block sitting straight on the page texture — no
+                card, no edge, "loose on the background" (Scott, 2026-09-09).
+                SectionShell is the card every other section on this page
+                already uses (Ladders, Career Position, Grants…); giving the
+                year strip the same shell makes it read as a section instead
+                of stray content. */}
+            <SectionShell title={c.year} subtitle={c.yearSub} summary={c.yearSub} trackId="year" defaultOpen>
               <Pulse pulse={pulse} lang={lang} />
-              <p className="v2-sub">{c.yearSub}</p>
               <YearStrip
                 slots={slots}
                 selected={selectedKey}
@@ -347,7 +351,7 @@ export default function SaffronV2({ nav }) {
                 calMonths={calMonths}
               />
               <MonthPanel key={slot?.key} slot={slot} lang={lang} calMonths={calMonths} />
-            </div>
+            </SectionShell>
 
             {slot?.doors.length > 0 && SB('doors', <RecurringDoors data={monthDoors} lang={lang} />)}
 
