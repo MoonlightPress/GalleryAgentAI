@@ -290,10 +290,19 @@
       "note": "HER LARGEST AUDIENCE BY A WIDE MARGIN - 3.3x Instagram. This confirms the long-standing '~90k' figure was always Twitter, never Instagram; that mix-up is now settled.",
       "outreach": "ALLOWED in outreach emails since 2026-09-08 (Scott: 'you can mention x, i don't know why that would be a rule'). The previous exclusion was never a policy: it came from commit d102a401 (2026-06-08), whose actual goal was cosmetic - 'Instagram link only', one handle in a cold email instead of two. The SAME commit moved Twitter's ~90,000 onto the Instagram line, which is the origin of the 90k-Instagram error the project then spent months correcting. The count was fixed; the clause was not, survived a full engine rewrite (9eb44957), and hardened into a house rule cited for three months as Scott's decision. ibm_email_writer.py now picks ONE handle per email by audience - X for English-language/international venues, Instagram for Japanese ones."
     },
+    "weibo": {
+      "platform": "微博 / Weibo",
+      "handle": null,
+      "followers": "65k",
+      "followers_approx": 65000,
+      "_source": "Scott, 2026-09-09 — had a Chinese-speaking person check the account directly (not an API read like Bilibili, not self-reported like Xiaohongshu/X/Instagram).",
+      "note": "Fifth platform found; same pattern as Xiaohongshu and Bilibili — recorded here because it turned out to exist, not because she started it now. Handle/URL not yet recorded. Not yet reasoned about in any Saffron copy — a sweep of the site's 'four platforms' / follower-total language is needed to bring it in.",
+      "verified": "2026-09-09 (Scott, via third-party check)"
+    },
     "_totals": {
-      "sum_of_followers": 167814,
-      "_caution": "A CEILING ON REACH, NOT A HEADCOUNT. Overlap between the four accounts has never been measured, so this number must never be presented as 'people'.",
-      "ranking": "X 89.3k > Xiaohongshu 44k > Instagram 27k > Bilibili 7.5k"
+      "sum_of_followers": 232814,
+      "_caution": "A CEILING ON REACH, NOT A HEADCOUNT. Overlap between the five accounts has never been measured, so this number must never be presented as 'people'.",
+      "ranking": "X 89.3k > Weibo 65k > Xiaohongshu 44k > Instagram 27k > Bilibili 7.5k"
     },
     "_note": "Instagram is still the only platform referenced in OUTREACH. This list is for reasoning about audience, not for what goes in an email."
   },
