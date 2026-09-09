@@ -64,6 +64,39 @@ CONFIRM_PATTERNS = [
     (re.compile(r'\bzines?\b|\bzine\s+fair\b|\bzine\s+shop\b|\bzine\s+fest\b', re.I), 'zine'),
 ]
 
+# ── Hard exclusion: opportunities exclusive to a non-watercolor medium ─────
+# A shallow keyword-bucket search can surface real opportunities that are open
+# to MULTIPLE media including watercolor ("accepting watercolor, acrylic, and
+# colored pencil work") — those must stay. But an opportunity can also be
+# category-stamped "watercolor_competition" purely because the JP/CN discovery
+# engine's search bucket (e.g. jp_watercolor_competition) is what found it, not
+# because the venue is actually open to watercolor. Caught 2026-09-09:
+# 第10回アキーラコンテスト, an AQYLA-brand ACRYLIC paint competition. Its
+# category was stamped from the search bucket that found it, native_medium was
+# then forced to "painting" downstream because source_medium_classifier.py
+# trusts that same stamped category as text evidence — and its own
+# one_sentence, generated from the real source, said "specifically for AQYLA
+# acrylic paint" the entire time; nothing downstream ever read it. This check
+# reads that sentence and overrides every upstream signal: an opportunity that
+# names itself exclusive to another medium is rejected outright, not merely
+# rerouted to research_needed — that bucket still serves through the API's
+# load_opportunities() gate, so it would not have caught this (that gate only
+# excludes 'reject' and 'low_priority').
+EXCLUSIVE_OTHER_MEDIUM_PATTERN = re.compile(
+    r'specifically for\s+(?:[\w\-]+\s+){0,4}?(acrylic|oil paint|pastel|charcoal|ink|sculpture|ceramic|photograph\w*)\b',
+    re.I,
+)
+
+
+def _hard_exclude(opp: dict) -> tuple[bool, str | None]:
+    """Return (excluded, reason). Checked before anything else in _check."""
+    blob = _text_blob(opp)
+    m = EXCLUSIVE_OTHER_MEDIUM_PATTERN.search(blob)
+    if m:
+        return True, f'exclusive to {m.group(1).lower()}, not watercolor'
+    return False, None
+
+
 # ── Category-level bypass ──────────────────────────────────────────────────
 # These category slugs encode medium confirmation in their name — no text
 # search needed.
@@ -120,10 +153,25 @@ def main():
     confirmed      = 0
     rerouted       = 0
     skipped        = 0   # already in excluded buckets
+    excluded       = 0   # hard-excluded: named exclusive to another medium
 
     rerouted_lines = []
+    excluded_lines = []
 
     for opp in opps:
+        is_excluded, exclude_reason = _hard_exclude(opp)
+        if is_excluded:
+            opp['confirmation_gate_status'] = 'excluded_other_medium'
+            opp['confirmation_gate_signal'] = None
+            opp['confirmation_gate_note'] = exclude_reason
+            opp.pop('pre_gate_bucket', None)
+            if opp.get('exclusive_primary_bucket') != 'reject':
+                opp['exclusive_primary_bucket'] = 'reject'
+            excluded += 1
+            name = opp.get('title') or opp.get('name') or '?'
+            excluded_lines.append(f"- **{name}** — {exclude_reason}")
+            continue
+
         passed, signal = _check(opp)
 
         if passed:
@@ -179,8 +227,13 @@ def main():
         "",
         f"- **Confirmed:** {confirmed}",
         f"- **Rerouted to research_needed:** {rerouted}",
+        f"- **Hard-excluded (named exclusive to another medium):** {excluded}",
         f"- **Skipped (already reject/low_priority):** {skipped}",
         f"- **Total:** {len(opps)}",
+        "",
+        "## Hard-excluded entries",
+        "",
+    ] + (excluded_lines if excluded_lines else ["_(none)_"]) + [
         "",
         "## Rerouted entries",
         "",
@@ -189,7 +242,7 @@ def main():
     Path(REPORT_PATH).parent.mkdir(parents=True, exist_ok=True)
     Path(REPORT_PATH).write_text('\n'.join(report), encoding='utf-8')
 
-    print(f"Confirmed: {confirmed} | Rerouted: {rerouted} | Skipped (excluded): {skipped}")
+    print(f"Confirmed: {confirmed} | Rerouted: {rerouted} | Hard-excluded: {excluded} | Skipped (excluded): {skipped}")
     print(f"Report: {REPORT_PATH}")
 
 
