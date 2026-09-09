@@ -25,16 +25,30 @@ const PeppercornPage = lazy(() => import('./components/PeppercornPage'))
 // anyone who never opens it.
 const SaffronV2 = lazy(() => import('./components/SaffronV2'))
 
-function PageFallback({ page }) {
+// Scott, 2026-09-10: "i hate that it's fully blank instead of the footer and
+// the flowers then it all pops in." Before this, the fallback was a bare
+// centered line of italic text — nav, footer and (since neither mounts until
+// SaffronV2/PeppercornPage themselves do) even PaperAccents' anchor marker
+// were all missing until the lazy chunk resolved, so a slow load really was a
+// blank page. nav and the footer are cheap, code-split-free, and the same
+// element either way, so rendering them here too means the chrome is already
+// in place — and PaperAccents (which anchors to nav's .page-content-start)
+// has something to anchor to from the very first paint — and only the middle
+// (the part that actually depends on the lazy chunk + her data) pops in later.
+function PageFallback({ page, nav }) {
   const { t } = useLanguage()
   // Each companion gets its own loading line: bird's-eye view (Saffron),
   // looking for crumbs (Peppercorn), find something good (Mochi).
   const key = (page === 'observe' || page === 'observe2') ? 'sf.loading'
     : page === 'refine' ? 'loading.peppercorn' : 'opps.loading'
   return (
-    <p className="page-loading" style={{ minHeight: '80vh', display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center', fontStyle: 'italic', padding: '3rem 1rem', color: 'var(--muted)' }}>
-      {t(key)}
-    </p>
+    <>
+      {nav}
+      <p className="page-loading" style={{ minHeight: '60vh', display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center', fontStyle: 'italic', padding: '3rem 1rem', color: 'var(--muted)' }}>
+        {t(key)}
+      </p>
+      <AtelierFooter page={page} />
+    </>
   )
 }
 
@@ -224,7 +238,7 @@ export default function App() {
         {page === 'discover' && <TrackedSection section="tracker"><TrackerSection /></TrackedSection>}
         {page === 'discover' && <AtelierFooter page="discover" />}
         {(page === 'observe' || page === 'observe2' || page === 'refine') && (
-          <Suspense fallback={<PageFallback page={page} />}>
+          <Suspense fallback={<PageFallback page={page} nav={nav} />}>
             {/* SaffronV2 (the #observe2 restructure prototype) is now the main
                 Saffron page too (Scott, 2026-09-09) — both hashes render it so
                 existing #observe/#observe2 links keep working. The old 5-tab

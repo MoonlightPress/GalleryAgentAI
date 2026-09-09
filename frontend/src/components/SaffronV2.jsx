@@ -19,6 +19,7 @@
 import { useState, useEffect, useMemo } from 'react'
 import { useLanguage } from '../i18n/LanguageContext'
 import { track, visitorId } from '../utils/track'
+import { getCache, setCache } from '../utils/apiCache'
 import {
   saffronTx,
   RecurringDoors, GrantLandscape,
@@ -228,9 +229,21 @@ function MonthPanel({ slot, lang, calMonths }) {
 
 export default function SaffronV2({ nav }) {
   const { t, lang } = useLanguage()
-  const [raw, setRaw] = useState(null)
-  const [rawCareer, setRawCareer] = useState(null)
-  const [pulse, setPulse] = useState(null)
+  // Seeded from the shared module-level cache (App.jsx's idle warm-up already
+  // fetches /api/saffron and /api/career_strategy before she ever clicks over,
+  // and this page itself keeps populating it) — so a return visit renders her
+  // last-known data on the very first frame instead of going blank and
+  // re-fetching from zero every time (Scott, 2026-09-10: "every time i click
+  // in from a different section saffron loads fully from scratch. it doesn't
+  // need to do that"). The fetches below still run every mount and silently
+  // replace the seeded data once they resolve, so it's never stale for long.
+  const [raw, setRaw] = useState(() => getCache('/api/saffron') ?? null)
+  const [rawCareer, setRawCareer] = useState(() => getCache('/api/career_strategy') ?? null)
+  const [pulseUrl] = useState(() => {
+    const vid = visitorId()
+    return `/api/saffron_pulse${vid ? `?visitor_id=${encodeURIComponent(vid)}` : ''}`
+  })
+  const [pulse, setPulse] = useState(() => getCache(pulseUrl) ?? null)
   const [error, setError] = useState(null)
   // Futures leads. It contradicts Bible08, which says Saffron does not advise —
   // but it is the only section she has ever deliberately opened, four separate
@@ -241,13 +254,14 @@ export default function SaffronV2({ nav }) {
   useEffect(() => {
     fetch('/api/saffron')
       .then(r => { if (!r.ok) throw new Error(r.status); return r.json() })
-      .then(setRaw)
+      .then(d => { setCache('/api/saffron', d); setRaw(d) })
       .catch(e => setError(String(e.message)))
-    fetch('/api/career_strategy').then(r => r.ok ? r.json() : null).then(setRawCareer).catch(() => {})
-    const vid = visitorId()
-    fetch(`/api/saffron_pulse${vid ? `?visitor_id=${encodeURIComponent(vid)}` : ''}`)
-      .then(r => r.ok ? r.json() : null).then(setPulse).catch(() => {})
-  }, [])
+    fetch('/api/career_strategy').then(r => r.ok ? r.json() : null)
+      .then(d => { if (d) setCache('/api/career_strategy', d); setRawCareer(d) }).catch(() => {})
+    fetch(pulseUrl)
+      .then(r => r.ok ? r.json() : null)
+      .then(d => { if (d) setCache(pulseUrl, d); setPulse(d) }).catch(() => {})
+  }, [pulseUrl])
 
   const data = useMemo(() => saffronTx(raw, lang), [raw, lang])
   const careerData = useMemo(() => saffronTx(rawCareer, lang), [rawCareer, lang])
@@ -323,7 +337,13 @@ export default function SaffronV2({ nav }) {
       {nav}
 
       <div className="sf-content">
-        <div className="sf-tabs v2-tabs">
+        {/* page-content-start: PaperAccents (App.jsx) anchors to the BOTTOM
+            edge of the LAST element carrying this class. The old SaffronPage
+            marked its own .sf-tabs the same way; this one didn't, which left
+            only the shared Nav marked once V2 became the main page — the
+            accents anchored just below the nav instead of below Saffron's own
+            tab bar, the "flowers in weird places" Scott flagged 2026-09-10. */}
+        <div className="sf-tabs v2-tabs page-content-start">
           {TABS.map(([key, label]) => (
             <button
               key={key}
