@@ -276,7 +276,14 @@
   );
 }
 .app--night .companion-btn--active::after {
-  background: rgba(216, 178, 90, 0.50);
+  background: rgba(216, 178, 90, 0.45);
+  /* Wider + more blurred than the day version's 2px. The day wash sits on
+     cream, low-contrast enough that a lightly-blurred pill reads as a soft
+     brush stroke; the same pill on night's dark navy is high-contrast enough
+     that its edge showed as a hard-edged bar instead of a glow ("an obvious
+     seam", Scott 2026-09-09). More blur + a hair less opacity brings it back
+     to a glow at that contrast level. */
+  filter: blur(5px);
 }
 
 /* Discover section / quick-nav bar */

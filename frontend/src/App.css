@@ -20,7 +20,12 @@
      with no visible tile grid. Went through two failed attempts first: a single
      painted sheet (texture-plain-CHOSEN.png) tiled small at full opacity was
      "way too busy"; faded down small it went the other way, "no texture at
-     all". This asset is an actual seamless stain texture, not a single wash. */
+     all". The asset itself is now a mirror-tile: the original stain scan on
+     top, a vertically-flipped copy stacked under it. repeat-y then alternates
+     original/flipped/original/…, and every join lines up exactly because each
+     new copy starts with the same row the previous one ended on — a plain
+     (non-mirrored) scan repeated this way showed an obvious seam at every
+     tile boundary (Scott, 2026-09-09). */
   background-color: var(--parchment);
   background-image: url('./assets/texture/paper-stains.webp');
   background-repeat: repeat-y;
