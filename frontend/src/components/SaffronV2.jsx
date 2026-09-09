@@ -1,10 +1,9 @@
-// SaffronV2 — the proposed restructure, live, at #observe2.
+// SaffronV2 — the Saffron page. Promoted from #observe2 prototype to the main
+// #observe route 2026-09-09 (Scott: "i want mochi 2 to be the main site now").
+// SaffronPage.jsx's default export is no longer mounted anywhere; this file
+// still imports its named exports (see below), so that module stays live.
 //
-// Not linked from anywhere. It reads the same endpoints as the real page, so
-// everything on it is her actual data; it exists to be looked at and argued
-// with before any of it replaces `SaffronPage.jsx`.
-//
-// The three changes it is here to demonstrate:
+// The three changes this restructure made over the old 5-tab SaffronPage:
 //   1. A PULSE — what changed since she last looked. Bible08's tone examples for
 //      Saffron are all deltas and no surface computes one. `/api/saffron_pulse`.
 //   2. A YEAR STRIP instead of a pageable month grid stacked on an 80-row list.
@@ -324,10 +323,6 @@ export default function SaffronV2({ nav }) {
       {nav}
 
       <div className="sf-content">
-        <p className="v2-flag">
-          Prototype · <code>#observe2</code> · not linked from anywhere
-        </p>
-
         <div className="sf-tabs v2-tabs">
           {TABS.map(([key, label]) => (
             <button
