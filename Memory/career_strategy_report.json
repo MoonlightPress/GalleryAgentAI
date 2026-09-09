@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-09-07T00:39:42.289547+00:00",
+  "_generated_at": "2026-09-09T11:11:16.021408+00:00",
   "_engine_version": "2.1",
   "current_phase": "Tier 3 established — building toward representation & prestige",
   "phase_note": "An active multi-country exhibiting artist: solo shows, museum-group exhibitions, and an international showing are on record, alongside a first solo publication and an established, growing Instagram following. The foundation is built. The next levers are structural — gallery representation, stronger solo venues, art fairs, residencies, grants, critical press, and a second book — not more entry-level group shows.",
@@ -126,16 +126,6 @@
   ],
   "build_toward": [
     {
-      "title": "本店・本屋の実験室",
-      "tier": 3,
-      "score": 10.0,
-      "category": "zine_print",
-      "city": "Koenji, Tokyo",
-      "deadline": "August 31, 2026",
-      "summary": "Koenji bookstore/lab that runs zine events and experimental printed work — submission via Google Form, ¥500, deadline Aug 31, 2026.",
-      "website": "https://honnonagaya-honten.com/"
-    },
-    {
       "title": "水性繪畫展覽 (Watercolor Exhibition)",
       "tier": 3,
       "score": 10.0,
@@ -154,6 +144,16 @@
       "deadline": "作品搬入5月9日・10日（直接）、5月7日～9日（委託）",
       "summary": "International watercolor and painting competition with Tokyo Museum exhibition",
       "website": "https://compe.japandesign.ne.jp/sekaido-kaiga-2026"
+    },
+    {
+      "title": "絵の現在 選抜展（Ienoima Selection Exhibition）",
+      "tier": 3,
+      "score": 9.68,
+      "category": "watercolor_competition",
+      "city": "Tokyo",
+      "deadline": "2026年9月30日（審査料入金期限）",
+      "summary": "Open call for watercolor artists (油彩・日本画・水彩) with recognition in art magazines and gallery/department store exhibitions, supporting artists seeking to expand their practice.",
+      "website": "https://ichimainoe.co.jp/senbatsuten"
     }
   ],
   "watch_list": [
@@ -190,7 +190,7 @@
     {
       "title": "Cité internationale des arts - Art, Society and Clinical Psychology Residency 2027",
       "tier": 4,
-      "score": 7.0,
+      "score": 7.1,
       "category": "grant",
       "city": "Paris",
       "deadline": "",
@@ -200,7 +200,7 @@
     {
       "title": "2027年蕭壠文化園區國際藝術進駐計畫",
       "tier": 4,
-      "score": 6.3,
+      "score": 6.5,
       "category": "global_residency",
       "city": "International",
       "deadline": "2026.11.15",
@@ -208,14 +208,14 @@
       "website": "https://www.threads.com/@_res.hub/post/DbufRYUE3xI"
     },
     {
-      "title": "2026 國內外藝術家交流計畫｜海外駐村徵件",
+      "title": "班夫藝術中心 跨文化音樂駐村計畫 - 聲音編織2027",
       "tier": 4,
       "score": 6.2,
       "category": "global_residency",
-      "city": "Taipei",
-      "deadline": "2026年8月31日止",
-      "summary": "International artist residency program selecting 2 Taiwan-based young visual artists for 14-21 day overseas residency exchange; covers travel, living expenses, and materials.",
-      "website": "https://youth.gov.taipei/announcement/latest-announcement/1cf451a8-d69c-4e13-8b8e-473d8cab02cc"
+      "city": "Banff",
+      "deadline": "2026.09.30",
+      "summary": "International residency accepting artists from diverse backgrounds; while music-focused, open to cross-disciplinary practices.",
+      "website": "https://artres.moc.gov.tw/zh/calls/list"
     }
   ],
   "blocking_gaps": [
@@ -278,8 +278,8 @@
           "why": "¥150,000 production grant plus install/PR/catalogue, nationality-open — two 2026 picks were Chinese artists.",
           "why_zh": "15万日元制作经费，含布展/宣传/画册，不限国籍——2026年入选者中有两位是中国艺术家。",
           "url": "https://www.tokyoartsandspace.jp/en/archive/exhibition/2026/20260404-7535.html",
-          "window": "Next call expected June–July 2027",
-          "window_zh": "下一轮征集预计在2027年6-7月"
+          "window": "The 2027 call closed July 31, 2026; the following call is not yet announced",
+          "window_zh": "2027年度征集已于2026年7月31日截止；下一轮尚未公布"
         },
         {
           "name": "TOKAS OPEN SITE",
@@ -383,16 +383,16 @@
       "gap_id": "grant",
       "gap": "Grants and fellowships add institutional standing",
       "gap_zh": "奖助与奖学金，为你增添机构层面的分量",
-      "detail": "Your record can carry a grant application now. Two doors are open this minute: Arts Council Tokyo's grant for emerging artists, which closes on September 24, 16 days from today, and Canada's Elizabeth Greenshields Foundation, which funds representational painters at exactly your stage, students included, any time of year. Three more open in October — Nomura, Asahi Shimbun, and the Asian Cultural Council, whose Mainland China track you qualify for by citizenship, Tokyo address and all.",
-      "detail_zh": "你的履历现在已经撑得起申请奖助了。两扇门此刻开着：东京艺术委员会（Arts Council Tokyo）面向新锐艺术家的扶持金，9月24日截止，从今天算起还有 16 天；加拿大的 Elizabeth Greenshields 基金会专门资助你这个阶段的具象绘画者，学生也可以，随时可投。10月还有三扇会开——野村财团、朝日新闻文化财团，以及亚洲文化协会：凭你的中国国籍就能走它的中国大陆通道，住在东京也没关系。",
+      "detail": "Your record can carry a grant application now. Two doors are open this minute: Arts Council Tokyo's grant for emerging artists, which closes on September 24, and Canada's Elizabeth Greenshields Foundation, which funds representational painters at exactly your stage, students included, any time of year. Three more open in October — Nomura, Asahi Shimbun, and the Asian Cultural Council, whose Mainland China track you qualify for by citizenship, Tokyo address and all. Tokyo residence may satisfy the funder, but executing a funded independent project on a student visa may require 資格外活動許可; whether you hold the needed permission is not confirmed on file. Confirm immigration authorization before committing to the project.",
+      "detail_zh": "你的履历现在已经撑得起申请奖助了。两扇门此刻开着：东京艺术委员会（Arts Council Tokyo）面向新锐艺术家的扶持金，9月24日截止；加拿大的 Elizabeth Greenshields 基金会专门资助你这个阶段的具象绘画者，学生也可以，随时可投。10月还有三扇会开——野村财团、朝日新闻文化财团，以及亚洲文化协会：凭你的中国国籍就能走它的中国大陆通道，住在东京也没关系。居住在东京可能符合资助方条件，但以留学签证执行受资助的独立项目可能需要「资格外活动许可」；现有资料无法确认你是否持有所需许可。承诺执行项目前，请先确认入管方面的授权。",
       "priority": "high",
-      "action": "The Arts Council Tokyo form has 16 days left — fill it in this week, and send Greenshields the same images afterwards; theirs has no deadline at all.",
-      "action_zh": "东京艺术委员会的申请只剩 16 天——这周把表格填掉；同一批图片随后寄给 Greenshields 就行，那边根本没有截止日期。",
+      "action": "The Arts Council Tokyo form closes September 24 — first confirm the grant's student-status rules and your immigration work authorization, then apply if both are clear. Send Greenshields the same images afterwards; theirs has no deadline.",
+      "action_zh": "东京艺术委员会的申请9月24日截止——先确认资助方对留学身份的规定及你的入管工作许可；两项都明确后再申请。同一批图片随后可寄给 Greenshields，那边没有截止日期。",
       "targets": [
         {
           "name": "Arts Council Tokyo Startup Grant",
-          "why": "Up to ¥300,000, no nationality clause — funds exactly the kind of activity you're already doing.",
-          "why_zh": "最高30万日元，无国籍限制——资助的正是你目前已经在做的事。",
+          "why": "Up to ¥300,000 with no nationality clause; funder eligibility is separate from immigration authorization for the project.",
+          "why_zh": "最高30万日元，无国籍限制；资助方资格与项目所需的入管授权是两回事。",
           "url": "https://www.artscouncil-tokyo.jp/grants/startup-grant-program/",
           "window": "Closes September 24, 2026",
           "window_zh": "截止于2026年9月24日"
@@ -482,10 +482,10 @@
   "next_milestone_zh": "朝画廊代理迈进——一家替你销售、带你进入博览会、并培育藏家群体的画廊。你已有个展与美术馆联展的履历，这是当下杠杆最高的下一步。",
   "months_to_tier3": null,
   "pipeline_summary": {
-    "total_active": 558,
+    "total_active": 529,
     "tier_1_count": 41,
-    "tier_2_count": 111,
-    "tier_3_count": 397,
+    "tier_2_count": 110,
+    "tier_3_count": 369,
     "tier_4_count": 9
   }
 }

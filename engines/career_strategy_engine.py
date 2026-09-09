@@ -168,6 +168,27 @@ def _opp_card(opp: dict, tier: int) -> dict:
     }
 
 
+def _eligible_for_build_toward(opp: dict, profile: dict) -> bool:
+    """Exclude opportunities whose hard status gate the artist cannot meet."""
+    title = _opp_title(opp).lower()
+    visual_profile = profile.get("visual_profile", {}) or {}
+    nationality = str(visual_profile.get("nationality")
+                      or profile.get("nationality") or "").lower()
+    residence_status = str(visual_profile.get("residence_status")
+                           or profile.get("residence_status") or "").lower()
+    bunka_cho_overseas_training = (
+        "emerging artists overseas training program" in title
+        or "新進芸術家海外研修制度" in title
+    )
+    has_japanese_status = (
+        "japanese" in nationality
+        or "permanent resident" in residence_status
+        or "permanent residency" in residence_status
+        or "永住" in residence_status
+    )
+    return not (bunka_cho_overseas_training and not has_japanese_status)
+
+
 # ── Career history helpers ────────────────────────────────────────────────────
 
 def _load_json(path: Path, fallback):
@@ -471,10 +492,8 @@ def _months_to_tier3(group_shows: int, has_institutional: bool, *,
 
 
 # Arts Council Tokyo's emerging-artist grant is the one hard, near date in the
-# whole ladder. A near date has to *sound* near — read flat, it lands in the same
-# register as a 2027 call and the one moment of urgency on the page is lost
-# (prose review, 2026-09-04). Recomputed on every regeneration so it can't stale
-# into claiming urgency after the date has gone by.
+# whole ladder. Keep the durable report copy tied to the calendar date rather
+# than baking in a relative day count that becomes false after generation.
 _ACT_GRANT_CLOSE = datetime(2026, 9, 24, tzinfo=timezone.utc)
 
 
@@ -487,9 +506,9 @@ def _act_grant_urgency() -> dict:
         return {"en": "closes this week, on September 24", "zh": "这周就截止了，9月24日",
                 "en_short": "closes this week", "zh_short": "这周就截止了"}
     if days <= 31:
-        return {"en": f"closes on September 24, {days} days from today",
-                "zh": f"9月24日截止，从今天算起还有 {days} 天",
-                "en_short": f"has {days} days left", "zh_short": f"只剩 {days} 天"}
+        return {"en": "closes on September 24",
+                "zh": "9月24日截止",
+                "en_short": "closes September 24", "zh_short": "9月24日截止"}
     return {"en": "closes on September 24", "zh": "9月24日截止",
             "en_short": "closes September 24", "zh_short": "9月24日截止"}
 
@@ -622,8 +641,8 @@ def _next_tier_levers(solo_shows: int, has_international: bool, has_jws: bool,
                 "why": "¥150,000 production grant plus install/PR/catalogue, nationality-open — two 2026 picks were Chinese artists.",
                 "why_zh": "15万日元制作经费，含布展/宣传/画册，不限国籍——2026年入选者中有两位是中国艺术家。",
                 "url": "https://www.tokyoartsandspace.jp/en/archive/exhibition/2026/20260404-7535.html",
-                "window": "Next call expected June–July 2027",
-                "window_zh": "下一轮征集预计在2027年6-7月",
+                "window": "The 2027 call closed July 31, 2026; the following call is not yet announced",
+                "window_zh": "2027年度征集已于2026年7月31日截止；下一轮尚未公布",
             },
             {
                 "name": "TOKAS OPEN SITE",
@@ -765,16 +784,27 @@ def _next_tier_levers(solo_shows: int, has_international: bool, has_jws: bool,
             f"东京艺术委员会（Arts Council Tokyo）面向新锐艺术家的扶持金，{_act['zh']}；"
             if _act else ""
         )
+        _immigration_caveat_en = (
+            "Tokyo residence may satisfy the funder, but executing a funded independent "
+            "project on a student visa may require 資格外活動許可; whether you hold the "
+            "needed permission is not confirmed on file. Confirm immigration authorization "
+            "before committing to the project."
+        )
+        _immigration_caveat_zh = (
+            "居住在东京可能符合资助方条件，但以留学签证执行受资助的独立项目可能需要「资格外活动许可」；"
+            "现有资料无法确认你是否持有所需许可。承诺执行项目前，请先确认入管方面的授权。"
+        )
         _act_action_en = (
-            f"The Arts Council Tokyo form {_act['en_short']} — fill it in this week, and "
-            "send Greenshields the same images afterwards; theirs has no deadline at all."
+            f"The Arts Council Tokyo form {_act['en_short']} — first confirm the grant's "
+            "student-status rules and your immigration work authorization, then apply if both "
+            "are clear. Send Greenshields the same images afterwards; theirs has no deadline."
             if _act else
             "Send the Elizabeth Greenshields Foundation ten diary paintings this week — "
             "their application is open all year and takes an afternoon."
         )
         _act_action_zh = (
-            f"东京艺术委员会的申请{_act['zh_short']}——这周把表格填掉；"
-            "同一批图片随后寄给 Greenshields 就行，那边根本没有截止日期。"
+            f"东京艺术委员会的申请{_act['zh_short']}——先确认资助方对留学身份的规定及你的入管工作许可；"
+            "两项都明确后再申请。同一批图片随后可寄给 Greenshields，那边没有截止日期。"
             if _act else
             "这周把十张日记寄给 Elizabeth Greenshields 基金会——他们常年开放，一个下午就能投完。"
         )
@@ -793,7 +823,7 @@ def _next_tier_levers(solo_shows: int, has_international: bool, has_jws: bool,
                 "representational painters at exactly your stage, students included, any time "
                 "of year. Three more open in October — Nomura, Asahi Shimbun, and the Asian "
                 "Cultural Council, whose Mainland China track you qualify for by citizenship, "
-                "Tokyo address and all."
+                f"Tokyo address and all. {_immigration_caveat_en}"
             ),
             "detail_zh": (
                 "你的履历现在已经撑得起申请奖助了。"
@@ -801,6 +831,7 @@ def _next_tier_levers(solo_shows: int, has_international: bool, has_jws: bool,
                 f"{_act_line_zh}加拿大的 Elizabeth Greenshields 基金会专门资助你这个阶段的具象绘画者，"
                 "学生也可以，随时可投。10月还有三扇会开——野村财团、朝日新闻文化财团，"
                 "以及亚洲文化协会：凭你的中国国籍就能走它的中国大陆通道，住在东京也没关系。"
+                f"{_immigration_caveat_zh}"
             ),
             "priority": "high",
             "action":    _act_action_en,
@@ -808,8 +839,8 @@ def _next_tier_levers(solo_shows: int, has_international: bool, has_jws: bool,
             "targets": [
                 {
                     "name": "Arts Council Tokyo Startup Grant",
-                    "why": "Up to ¥300,000, no nationality clause — funds exactly the kind of activity you're already doing.",
-                    "why_zh": "最高30万日元，无国籍限制——资助的正是你目前已经在做的事。",
+                    "why": "Up to ¥300,000 with no nationality clause; funder eligibility is separate from immigration authorization for the project.",
+                    "why_zh": "最高30万日元，无国籍限制；资助方资格与项目所需的入管授权是两回事。",
                     "url": "https://www.artscouncil-tokyo.jp/grants/startup-grant-program/",
                     "window": "Closes September 24, 2026",
                     "window_zh": "截止于2026年9月24日",
@@ -1179,7 +1210,11 @@ def build_career_strategy_report():
     immediate_priorities = [_opp_card(o, t) for _, o, t in combined_12[:5]]
 
     # ── Build toward: top 3 Tier 3 opps (6–18 month horizon) ────────────────
-    build_toward = [_opp_card(o, 3) for _, o, _ in tier3_opps[:3]]
+    build_toward = [
+        _opp_card(o, 3)
+        for _, o, _ in tier3_opps
+        if _eligible_for_build_toward(o, profile)
+    ][:3]
 
     # ── Watch list: top Tier 4 opps (2–5 year horizon, track only) ──────────
     watch_list = [_opp_card(o, 4) for _, o, _ in tier4_opps[:6]]
@@ -1208,12 +1243,15 @@ def build_career_strategy_report():
             "争取一次个展——书店画廊展览（UTRECHT、Book and Sons）是最可行、也最顺理成章的下一步。"
         )
     elif not foundation_complete and not has_institutional:
+        # Youkobo's residency program is discontinued and BankART Station/KAIKO
+        # closed March 2025 (Fable research, 2026-09-04) — same correction as the
+        # institutional_show gap above; this branch had drifted out of sync with it.
         next_milestone = (
-            "Apply to a Tier 3 institutional open call (TOKAS, Youkobo, BankART1929) "
+            "Apply to a Tier 3 institutional open call (TOKAS-Emerging, OPEN SITE) "
             "to establish the first institutional exhibition credit."
         )
         next_milestone_zh = (
-            "投递一次第三级机构公开征集（TOKAS、Youkobo、BankART1929），建立首个机构展览履历。"
+            "投递一次第三级机构公开征集（TOKAS-Emerging、OPEN SITE），建立首个机构展览履历。"
         )
     elif not has_representation:
         # Foundation is complete (solo + institutional + multiple group shows).
