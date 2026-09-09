@@ -2294,7 +2294,7 @@ const en = {
   'section.relationship_targets.label': 'Relationship Targets',
   'section.relationship_targets.desc':  'Galleries and spaces worth approaching. Attend openings, build presence over time.',
   'section.publication_editorial.label': 'Publications & Editorial',
-  'section.publication_editorial.desc':  'Magazine illustration calls, book cover submissions, and editorial commissions. Build print presence alongside gallery work.',
+  'section.publication_editorial.desc':  'Magazine illustration calls, book cover submissions, and editorial commissions.',
   'section.competitions_awards.label':   'Competitions & Awards',
   'section.competitions_awards.desc':    'Watercolor competitions, illustration prizes, and emerging artist awards. Win records strengthen your CV and raise your profile.',
   'section.watch_list.label':           'Watch List',
