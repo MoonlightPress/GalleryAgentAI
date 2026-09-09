@@ -4,6 +4,7 @@ import OppDetailPanel from './OppDetailPanel'
 import { cardsPerBatch } from '../utils/layout'
 import { getCache, setCache } from '../utils/apiCache'
 import { freshToHer } from '../utils/newOpportunities'
+import paperTexture from '../assets/texture/paper-stains.webp'
 import './OpportunitiesSection.css'
 import { useLanguage } from '../i18n/LanguageContext'
 import {
@@ -26,6 +27,30 @@ const SECTION_ORDER = [
 const ICON_BASE = `${import.meta.env.BASE_URL}icons/`
 const iconUrl = (name) => `${ICON_BASE}${name}.webp`
 
+// Section header banners (public/headers/*.webp), same BASE_URL pattern as
+// icons above. This used to be a hardcoded '/mochi/headers/...' CSS url() —
+// which ignores Vite's configured base entirely, so a build made with a
+// different base (e.g. --base=/mochi2/ for the staging deploy) still loaded
+// images from production's /mochi/headers/, not its own. BASE_URL resolves to
+// whatever base the CURRENT build was made with, so each build is self-contained.
+const HEADER_BASE = `${import.meta.env.BASE_URL}headers/`
+const headerUrl = (name) => `${HEADER_BASE}${name}.webp`
+
+// Which painted banner each section id gets. Mirrors the old #id CSS overrides
+// (OpportunitiesSection.css) — kept here now because the image is chosen in JS,
+// not CSS, so it can be base-path-aware.
+const SECTION_HEADER_IMAGE = {
+  open_calls: 'J',
+  publication_editorial: 'HFix',
+  relationship_targets: 'E',
+  competitions_awards: 'C',
+  zines_and_print: 'D',
+  watch_list: 'I',
+  press_visibility: 'K',
+  relationships: 'people_reward',
+}
+const DEFAULT_HEADER_IMAGE = 'header_section'   // Strongest Picks keeps the default Mochi cat.
+
 const PAGE_SIZE = cardsPerBatch()   // 6 on desktop (3 cols), 4 on smaller screens (2/1 cols)
 
 function isPressTarget(opp) {
@@ -39,10 +64,27 @@ function isPressTarget(opp) {
 // ONE shared section header (banner + centered title + subheader), used by EVERY
 // section — opportunities, People, Press, Strongest Picks — so the header format
 // can never drift between components again. Change it here, it changes everywhere.
-export function SectionHeader({ title, subtitle }) {
+// `sectionId` picks the painted banner (see SECTION_HEADER_IMAGE above).
+export function SectionHeader({ title, subtitle, sectionId }) {
+  const image = SECTION_HEADER_IMAGE[sectionId] ?? DEFAULT_HEADER_IMAGE
   return (
     <div className="opp-section-header">
-      <div className="opp-section-title-row">
+      {/* Two things went wrong here in turn: a flat-colour background made the
+          band a mismatched solid box ("still has a tan background"), and then
+          NO background at all left the art's off-white canvas wash sitting at
+          raw opacity with nothing to melt it into the page ("I'd have to
+          delete the off-white values for these to fit" / "a little too
+          bright"). Multiply against the real page texture (not a flat colour)
+          fixes both: it darkens the raw pigment down to the page's own tone,
+          and any off-white/wash pixel — not just pure white — blends into
+          whatever's actually behind it instead of sitting there as a patch. */}
+      <div
+        className="opp-section-title-row"
+        style={{
+          backgroundImage: `url(${headerUrl(image)}), url(${paperTexture})`,
+          backgroundBlendMode: 'multiply',
+        }}
+      >
         <h2 className="opp-section-title">{title}</h2>
         {subtitle && <p className="opp-section-desc">{subtitle}</p>}
       </div>
@@ -153,7 +195,7 @@ function StrongestPicksSection({ items, feedbackSignals, onFeedback }) {
 
   return (
     <section id="mochi_strongest_picks" className="opp-section opp-section--strongest">
-      <SectionHeader title={t('opps.strongest.title')} subtitle={t('opps.strongest.desc')} />
+      <SectionHeader title={t('opps.strongest.title')} subtitle={t('opps.strongest.desc')} sectionId="mochi_strongest_picks" />
 
       <div className="opp-grid opp-grid--strongest">
         {visible.map(opp => (
@@ -301,7 +343,7 @@ function PressSection({ items }) {
 
   return (
     <section id="press_visibility" className="opp-section press-section">
-      <SectionHeader title={t('press.section.title')} subtitle={t('press.section.desc')} />
+      <SectionHeader title={t('press.section.title')} subtitle={t('press.section.desc')} sectionId="press_visibility" />
 
       {items.length === 0 ? (
         <p className="press-empty">{t('press.empty')}</p>
@@ -369,7 +411,7 @@ function OppSection({ sectionKey, label, description, items, feedbackSignals, on
 
   return (
     <section id={sectionKey} className={`opp-section opp-section--secondary${remaining > 0 || shown > PAGE_SIZE ? ' opp-section--has-more' : ''}`}>
-      <SectionHeader title={sectionLabel} subtitle={sectionDesc} />
+      <SectionHeader title={sectionLabel} subtitle={sectionDesc} sectionId={sectionKey} />
 
       <div className="opp-section-brief">
         {suppressed.size > 0 && (

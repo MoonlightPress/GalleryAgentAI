@@ -1,5 +1,10 @@
 .opps-root {
-  background: var(--parchment);
+  /* No background: this wrapper spans the full page width, and an opaque fill
+     here paints directly over .app's shared page texture + botanical accents
+     (z-index:-1) for the entire height of the opportunity list and the People
+     view — the "middle sections still have the regular tan" bug. Individual
+     card faces (.opp-card etc.) keep their own background for readability;
+     only the wrapper around them needs to be transparent. */
   padding: 0 28px 24px;
   animation: opps-fade-in 0.55s ease both;   /* fade the content in, never pop */
 }
@@ -107,23 +112,22 @@
   min-height: clamp(72px, 7.2vw, 96px);  /* shorter -> less headspace */
   padding: 3px 24px;
   position: relative;
-  /* White-bg art + multiply = the white melts to the page cream (no box, any
-     page color); the painting blends on top. Same trick as the icon set. */
-  background: var(--parchment) url('/mochi/headers/header_section.webp') center / contain no-repeat;
-  background-blend-mode: multiply;
+  /* The images (illustration + page texture, two layers) are set via inline
+     style in JSX (OpportunitiesSection.jsx, SectionHeader) rather than a CSS
+     url() — a hardcoded '/mochi/headers/...' path here ignored Vite's
+     configured build base entirely, so the /mochi2 staging build was silently
+     loading images from production's /mochi/headers/ instead of its own; JS
+     uses import.meta.env.BASE_URL, which is correct per-build.
+
+     Two comma-separated values below: first applies to the illustration
+     layer, second to the texture layer (per-layer background-blend-mode is
+     set inline, matching this same 2-layer order). contain/center keeps the
+     illustration's own composition intact; cover/center on the texture avoids
+     a visible tiled seam across a band this short. */
+  background-position: center, center;
+  background-size: contain, cover;
+  background-repeat: no-repeat, no-repeat;
 }
-/* Per-section painted header banners. The #id selector overrides only the image;
-   the parchment base + center/contain + multiply blend carry over from above. */
-/* Strongest Picks intentionally keeps the default Mochi cat (header_section.webp). */
-#open_calls             .opp-section-title-row { background-image: url('/mochi/headers/J.webp'); }
-#publication_editorial  .opp-section-title-row { background-image: url('/mochi/headers/HFix.webp'); }
-#relationship_targets   .opp-section-title-row { background-image: url('/mochi/headers/E.webp'); }
-#competitions_awards    .opp-section-title-row { background-image: url('/mochi/headers/C.webp'); }
-#zines_and_print        .opp-section-title-row { background-image: url('/mochi/headers/D.webp'); }
-#watch_list             .opp-section-title-row { background-image: url('/mochi/headers/I.webp'); }
-#press_visibility       .opp-section-title-row { background-image: url('/mochi/headers/K.webp'); }
-/* People header = the favorites/toys piece (was the reward). Teaset (E) cut: too small. */
-#relationships          .opp-section-title-row { background-image: url('/mochi/headers/people_reward.webp'); }
 
 /* A little reward at the very end of People (the last section on the page): her
    favorites painted in, if she scrolls this far. White bg melts into the
@@ -222,8 +226,8 @@
      width so the subheader wraps to a new line instead of running under the art. */
   .opp-section-title-row {
     min-height: 92px;
-    background-size: cover;
-    background-position: right center;
+    background-size: cover, cover;
+    background-position: right center, center;
     align-items: flex-start;
     justify-content: center;
     text-align: left;
