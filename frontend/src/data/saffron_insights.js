@@ -69,7 +69,7 @@ export const LICENSING_LANDSCAPE = {
           "name": "Book cover art (装画)",
           "name_zh": "书籍封面（装画）",
           "note": "Publishers commission cover art rather than license existing paintings. The Japan Illustrators' Association publishes a rate grid, and its figures are floors, not ceilings — covers run from ¥30,000 to ¥150,000 and up. Watercolour sits in its D rank, where a book cover starts at ¥70,000 and a magazine or catalogue cover at ¥100,000, so the bottom of that grid is not your row. It is dated January 2020 and says itself that prices will have moved since. There are named, dated ways in, which is what this entry used to be missing: ザ・チョイス, the quarterly competition run by illustration magazine, judged by a single rotating judge; and 装画コンペ at GALLERY HOUSE MAYA, judged by working book designers, open to all nationalities (資格：不問), grand prize a solo show — check its current status first, it was on hiatus in 2024.",
-          "note_zh": "出版社是来「约」封面画的，不会买断你已经画好的画。日本插画家协会公开过一张报价表，上面写的是起价，不是上限——封面从 3 万日元到 15 万日元以上都有。水彩属于表上的 D 级：书籍封面 7 万日元起，杂志或画册封面 10 万日元起，所以最低那一档不是你这一类。表标的日期是 2020 年 1 月，它自己也写了价格以后会变。而且是有具名、有日期的入口的——这正是这一条以前缺的：《ザ・チョイス》，illustration 杂志办的季度赛，每期由一位评委轮流评选；以及 GALLERY HOUSE MAYA 的「装画コンペ」，由在职的装帧设计师评审，不限国籍（資格：不問），大奖是一个个展——先确认它现在的状态，2024 年曾经停办过一届。",
+          "note_zh": "出版社是来「约」封面画的，不会买断你已经画好的画。日本插画家协会公开过一张报价表，上面写的是起价，不是上限——封面从 3 万日元到 15 万日元以上都有。水彩属于表上的 D 级：书籍封面 7 万日元起，杂志或画册封面 10 万日元起，所以最低那一档不是你这一类。表标的日期是 2020 年 1 月，它自己也写了价格以后会变。而这里确实有指名道姓、写明时间的入口——这正是这一条以前缺的：《ザ・チョイス》，illustration 杂志办的季度赛，每期由一位评委轮流评选；以及 GALLERY HOUSE MAYA 的「装画コンペ」，由在职的装帧设计师评审，不限国籍（資格：不問），大奖是一个个展——先确认它现在的状态，2024 年曾经停办过一届。",
           "tier": "medium_term"
         },
         {
@@ -96,7 +96,7 @@ export const LICENSING_LANDSCAPE = {
           "name": "Royalty or buyout",
           "name_zh": "分成，还是买断",
           "note": "Published guidance puts art-licensing royalties at roughly 3–10%, with greeting cards and stationery at the low end — one widely cited US source gives 2–5% — and it is usually figured on NET sales, after returns, discounts and freight, not on the sticker price. Japan prices it differently again, and the difference is worth knowing before a first conversation: reusing an existing illustration is a 二次使用料, a percentage of the original fee, which the illustrators' association sets at 70% for a second use and the market runs at 20–80%. A full buyout (買い取り / 著作権譲渡) is not a fraction of your fee but a MULTIPLE of it — the same association puts it at two to three times. Running royalties do exist for merchandise, at roughly 4–6% of the retail price.",
-          "note_zh": "公开资料里，艺术授权的分成大约在 3–10%，贺卡和文具在低的那一端——有一份常被引用的美国资料写的是 2–5%——而且通常是按净销售额算的，扣掉退货、折扣和运费之后，不是按标价。日本又是另一套，在谈之前值得先弄清楚：把已有的插画再用一次，叫二次使用料，按原稿费的一个比例收——插画家协会定的是第二次 70%，市场上则在 20–80% 之间。而完全买断（買い取り／著作権譲渡）不是你稿费的一部分，而是它的倍数——同一个协会给的是两到三倍。商品化也确实有长期分成，大约是零售价的 4–6%。",
+          "note_zh": "公开资料里，艺术授权的分成大约在 3–10%，贺卡和文具在低的那一端——有一份常被引用的美国资料写的是 2–5%——而且通常是按净销售额算的，扣掉退货、折扣和运费之后，不是按标价。日本又是另一套，在谈之前值得先弄清楚：把已有的插画再用一次，叫二次使用料，按原稿费的某个比例收取——插画家协会定的是第二次 70%，市场上则在 20–80% 之间。而完全买断（買い取り／著作権譲渡）不是你稿费的一部分，而是它的倍数——同一个协会给的是两到三倍。商品化也确实有长期分成，大约是零售价的 4–6%。",
           "tier": "now"
         },
         {
@@ -188,7 +188,7 @@ export const PRESS_PITCH_MAP = {
       "contact_url": "https://www.instagram.com/apartamentomagazine/",
       "type_zh": "生活方式／室内／文化 — 西班牙（国际）",
       "type_ja": "ライフスタイル／インテリア／文化 — スペイン（国際的）",
-      "why_fits_zh": "温暖、亲密、日常生活的美学。你的都市室内与氛围感作品与其风格完美契合。\"外来者观察东京\"的视角对他们的编辑内容极具吸引力。",
+      "why_fits_zh": "温暖、亲密、日常生活的美学。你的都市室内与氛围感作品与其风格完美契合。「外来者观察东京」的视角对他们的编辑内容极具吸引力。",
       "why_fits_ja": "温かく、親密で、日常の美しさを大切にした美学。都市の室内や空気感を捉えた作品は完璧に合っている。「外国人として東京を観察する」という視点は、彼らの編集方針にとって非常に魅力的。",
       "how_discovered_zh": "口碑传播、策展人推荐、Instagram。不接受主动投稿。",
       "how_discovered_ja": "口コミ、キュレーターからの推薦、Instagram。投稿による応募は受け付けていない。",
@@ -356,7 +356,7 @@ export const REVENUE_STREAMS = {
       "leaving_on_table": false,
       "stream_zh": "想分享时再分享原作",
       "stream_ja": "気が向いたときに原画をシェアする",
-      "description_zh": "对很多拥有活跃受众的艺术家来说，直接让大家知道（一句安静的\"私信咨询\"，或一个链接）往往是作品找到归属最自然的方式。你不欠任何人一个时间表——想分享某幅作品时再分享就好。",
+      "description_zh": "对很多拥有活跃受众的艺术家来说，直接让大家知道（一句安静的「私信咨询」，或一个链接）往往是作品找到归属最自然的方式。你不欠任何人一个时间表——想分享某幅作品时再分享就好。",
       "description_ja": "熱心なフォロワーがいる多くのアーティストにとって、ただ直接知らせること（「購入希望の方はDMへ」という静かな一言や、リンク）が、作品が居場所を見つけるいちばん自然な方法であることが多いです。誰に対しても予定を負う必要はありません——気が向いたときに作品をシェアすれば十分です。",
       "why_now_zh": "一群喜爱你日常作品的受众，本身就是温和而真实的基础。这里的一切都无需赶时间。",
       "why_now_ja": "あなたの日々の作品を愛してくれるオーディエンスの存在は、穏やかで確かな土台です。ここにあることは、何ひとつ急ぐ必要はありません。"
@@ -380,7 +380,7 @@ export const REVENUE_STREAMS = {
       "leaving_on_table": false,
       "stream_zh": "如果有人来约稿",
       "stream_ja": "依頼が来たときのコミッション",
-      "description_zh": "如果有人来约稿、而你也乐意去做，这与你的创作方向很契合。唯一值得轻轻记住的一点是：艺术家常因为\"觉得应该\"而压低价格——你的作品值多少就是多少，别让任何人把你说低。接不接约稿，完全由你决定。",
+      "description_zh": "如果有人来约稿、而你也乐意去做，这与你的创作方向很契合。唯一值得轻轻记住的一点是：艺术家常因为「觉得应该」而压低价格——你的作品值多少就是多少，别让任何人把你说低。接不接约稿，完全由你决定。",
       "description_ja": "もしコミッションの依頼が舞い込み、それを楽しめそうなら、あなたの作風にとても合っています。一つだけ、そっと心に留めておきたいこと：アーティストは「そうすべき」という思い込みから値段を低くしがちです——あなたの作品の価値は、その価値のままです。誰かに安く言いくるめられないでください。受けるかどうかは、あなた次第です。"
     },
     {
@@ -399,7 +399,7 @@ export const REVENUE_STREAMS = {
       "leaving_on_table": false,
       "stream_zh": "一点温柔的话",
       "stream_ja": "そっと一言",
-      "description_zh": "以上这些都不是待办清单，这里也没有任何\"没做完\"的事。你每天的创作，以及喜爱它的人们，本身就已经是基础——这一页上的一切，都只是一扇开着的门，等你想要的时候再进去。最健康的节奏，是属于你自己的节奏。",
+      "description_zh": "以上这些都不是待办清单，这里也没有任何「没做完」的事。你每天的创作，以及喜爱它的人们，本身就已经是基础——这一页上的一切，都只是一扇开着的门，等你想要的时候再进去。最健康的节奏，是属于你自己的节奏。",
       "description_ja": "上に書いたことは、どれもやることリストではありませんし、ここに「やり残し」は一つもありません。あなたの日々の制作と、それを愛してくれる人たちが、すでに土台になっています——このページにあるものはすべて、開いている扉にすぎず、欲しくなったときにくぐればいいのです。いちばん健やかなペースは、あなた自身のペースです。"
     }
   ]
@@ -475,10 +475,10 @@ export const COLLABORATION_MAP = {
   title_zh: "合作地图",
   title_ja: "コラボレーション・マップ",
   summary: "Real people whose work rhymes with yours — and small, low-pressure ways to build with them.",
-  summary_zh: "与你气味相投的真实创作者——以及和他们一起、低压力起步的小方式。",
+  summary_zh: "与你气味相投的创作者——以及几种和他们轻松开启合作的小方式。",
   summary_ja: "あなたの作品と響き合う実在の人たち——そして、低圧力で一緒に始められる小さな方法。",
   lead: "These aren't cold contacts — they're a map of the world your work already belongs to. Start by being a real reader of their work; collaboration grows from staying in the room, not from a pitch.",
-  lead_zh: "这些不是陌生联系人——而是一张地图，标出你的作品本就属于的那个世界。先从真心做他们作品的读者开始；合作是待在同一个圈子里慢慢长出来的，不是靠一次推销。",
+  lead_zh: "这不是一份陌生人名单，而是一张地图，标出你的作品原本就属于的世界。先真心关注和欣赏他们的作品；合作往往是在同一个圈子里相处久了自然发生的，不是一次自我推销换来的。",
   groups: [
     {
       label: "The shape of your world: webcomic & daily-life illustrators",
@@ -489,10 +489,10 @@ export const COLLABORATION_MAP = {
           who: "American cartoonist behind Sarah's Scribbles, one of the best-known daily relatable webcomics.",
           who_zh: "美国漫画家，《Sarah's Scribbles》作者，最知名的日常共鸣网络漫画之一。",
           why_fit: "You've already shown in the same exhibition context as her (London, Dec 2025). She's living proof your world is the webcomic / illustration community, not the watercolor society.",
-          why_fit_zh: "你已经和她处于同一展览语境（伦敦，2025年12月）。她证明了你的世界属于网络漫画／插画社群，而非水彩学会。",
+          why_fit_zh: "你已经和她在同一个展览中出现过（伦敦，2025 年 12 月）。这也说明，你的作品更自然地属于网络漫画与插画社群，而不是水彩协会的体系。",
           link: "https://www.instagram.com/sarahandersencomics/",
           collab_form: "Contribute to a daily-life / 'feelings' comics anthology or charity zine in that orbit; keep building presence in the curatorial circles that already placed you near her.",
-          collab_form_zh: "在那个圈子里为日常生活或「心情」主题的漫画合志／公益zine供稿；继续在已把你放在她身边的策展圈里积累存在感。",
+          collab_form_zh: "在那个圈子里为日常生活或「心情」主题的漫画合志／公益zine供稿；继续留在那个已经让你与她同台过的策展圈子里，慢慢积累存在感。",
         },
         {
           name: "War and Peas (Elizabeth Pich & Jonathan Kunz)",
@@ -509,7 +509,7 @@ export const COLLABORATION_MAP = {
           who: "Cartoonist and former Simpsons artist whose gentle animal comics find humor and tenderness in everyday moments.",
           who_zh: "漫画家、前《辛普森一家》画师，用温柔的动物漫画在日常瞬间里捕捉幽默与柔情。",
           why_fit: "Small, kind, everyday moments drawn with animals — bears and dinosaurs have whole books to themselves — and the same warmth that runs through your interiors. Her readers would recognise yours instantly.",
-          why_fit_zh: "她用动物讲那些微小又善意的日常瞬间——熊和恐龙都有自己整本的书——那份温暖，和你室内画里的是同一种。她的读者一眼就能认出你。",
+          why_fit_zh: "她借动物描绘日常里细小而温柔的瞬间——熊和恐龙甚至各自有一本书——那份温暖与你的室内画很相近。她的读者也很可能会喜欢你的作品。",
           link: "https://www.instagram.com/lizclimo/",
           collab_form: "A 'cats and quiet days' themed anthology contribution, or a print collaboration with proceeds to an animal shelter.",
           collab_form_zh: "为「猫与安静的日子」主题合志供稿，或做一次版画联名、收益捐给动物收容所。",
@@ -519,10 +519,10 @@ export const COLLABORATION_MAP = {
           who: "Writer-illustrator who built her name on one watercolor diary entry a day about ordinary city life.",
           who_zh: "作家兼插画家，凭借每天一张关于城市日常的水彩手账成名。",
           why_fit: "Her practice is your practice — a daily watercolor diary. You've kept yours since 2020; that consistency is rare and instantly legible to someone who's done the same.",
-          why_fit_zh: "她的创作方式就是你的——每日水彩手账。你从2020年坚持至今；这种持续在同样做过的人眼里一眼可辨，且十分罕见。",
+          why_fit_zh: "她的创作方式就是你的——每日水彩手账。你从2020年坚持至今；这种坚持，同样做过的人一眼就能认出来，也十分难得。",
           link: "https://www.instagram.com/bymariandrew/",
           collab_form: "A daily-diary group zine, or a swapped 'a week in my city' Instagram diary takeover (your Tokyo for her city).",
-          collab_form_zh: "一本每日手账合志，或互换一次「我城市里的一周」Instagram手账接力（你的东京换她的城市）。",
+          collab_form_zh: "一本每日手账合志，或者跟她互换一次「我城市里的一周」Instagram手账更新（你写东京，她写她的城市）。",
         },
         {
           name: "Puuung (퍼엉)",
@@ -555,7 +555,7 @@ export const COLLABORATION_MAP = {
           who: "Tokyo illustrator whose quiet work makes the ordinary feel extraordinary — book jackets, editorial and advertising, including the New York Times and Penguin. He works without an agent; commissions come to him directly.",
           who_zh: "东京插画家，让平凡显得不凡——做书籍封面、编辑与广告插画，包括《纽约时报》和企鹅出版社。他没有经纪人，约稿直接找上门。",
           why_fit: "'Making the ordinary extraordinary' is almost your own artist statement; his calm works-on-paper sensibility sits right next to yours, and he's rooted in the exact Tokyo bookshop circles you want to be in.",
-          why_fit_zh: "「让平凡变得不凡」几乎就是你的艺术家自述；他平静的纸上作品气质就在你旁边，且深深扎根于你想进入的东京书店圈。",
+          why_fit_zh: "「让平凡变得不凡」几乎就是你的艺术家自述；他那种平静的纸上作品气质与你非常相近，且深深扎根于你想进入的东京书店圈。",
           link: "https://www.instagram.com/tatsurokiuchi/",
           collab_form: "A quiet-life works-on-paper two-person show, or a shared risograph zine of small daily scenes.",
           collab_form_zh: "一场「安静生活」的纸上作品双人展，或一本以日常小场景为主题的合作riso zine。",
@@ -565,7 +565,7 @@ export const COLLABORATION_MAP = {
           who: "Chinese illustrator and animator who self-publishes personal art books about people and nature.",
           who_zh: "中国插画家、动画师，自出版关于人与自然的个人画册。",
           why_fit: "A peer from your own home scene — Chinese illustration, art-book culture, a steady personal practice. A natural bridge between your Beijing and Tokyo sides, already in the self-publishing world you're building toward.",
-          why_fit_zh: "来自你自己家乡那一脉的同辈——中国插画、画册文化、稳定的个人创作。连接你北京一侧与东京一侧的天然桥梁，也已身处你正靠近的自出版世界。",
+          why_fit_zh: "她与你有相近的中国插画与画册文化背景，也一直稳定地进行个人创作。她既能连接你在中国与东京的创作经验，也已经身处你想进一步进入的自出版领域。",
           link: "https://www.instagram.com/oamul/",
           collab_form: "A China–Japan illustration art-book or risograph zine swap — two cities, one small book.",
           collab_form_zh: "一本中日插画画册，或一次riso zine互换——两座城市，一本小书。",
@@ -574,7 +574,7 @@ export const COLLABORATION_MAP = {
     },
     {
       label: "Your existing seeds: a warm-intro network, not strangers",
-      label_zh: "你已有的种子：一张可暖场介绍的关系网，而非陌生人",
+      label_zh: "已有的合作种子：可以请熟人引荐的关系网，而不是一群陌生人",
       entries: [
         {
           name: "富大貴 (kuribulb)",
@@ -611,7 +611,7 @@ export const COLLABORATION_MAP = {
           who: "Co-exhibitor; illustrator based in Chengdu (also active on Weibo as doakmoon).",
           who_zh: "同展者；成都插画家（亦活跃于微博 doakmoon）。",
           why_fit: "Same first-show cohort; a relationship that already exists and just needs a friendly note to stay warm.",
-          why_fit_zh: "同一批首展同期生；这段关系已存在，只需一条友好的消息让它保持温度。",
+          why_fit_zh: "你们曾参加同一场日本首展，这段联系已经存在；发一条友好的消息，就能自然地保持往来。",
           link: "https://www.instagram.com/doakdoakyu/",
           collab_form: "A two-city diary zine (Chengdu / Tokyo).",
           collab_form_zh: "一本双城手账zine（成都／东京）。",
@@ -627,11 +627,11 @@ export const COLLABORATION_MAP = {
     "Let it be slow, and let some fade. Some threads become a show; some quietly don't, and that's completely fine. Collaboration grows from staying in the room, not from closing a deal.",
   ],
   how_to_zh: [
-    "从你已经在的地方开始。先花一段时间，只是真心做他们作品的读者——一句真诚的评论、一次收藏、一次转发。在开口前，先让你的名字变得熟悉。",
+    "从你已经在的地方开始。先花一段时间，只是真心做他们作品的读者——一句真诚的评论、一次收藏、一次转发。在开口提任何请求之前，先让对方对你的名字熟悉起来。",
     "发一条简短而具体的消息。不是推销：只用一句真心话说出你喜欢他们的哪一幅，并说明你是一位在东京坚持每日手账的水彩插画家。先不要附带任何请求。",
-    "提出尽可能小的事。一次版画互换、一条共同发布、合志里的一页。小才容易被答应——而它正是一切更大事情的种子。",
+    "先提一个尽可能轻量的合作：互换一张版画、共同发一篇帖子，或各为合志画一页。事情越小，对方越容易答应，也更可能成为日后合作的起点。",
     "以你的每日手账开场。六年的坚持是你最独特的礼物，而不是一个请求。「我坚持画每日水彩手账」比任何作品集都更能打开门。",
-    "让它慢下来，也允许有些淡去。有些线会长成一场展览，有些会安静地无果，这都没关系。合作生长于留在房间里，而非谈成一笔交易。",
+    "不妨慢慢来，也接受有些联系会自然淡去。有些往来最终会促成展览，有些不会，这都没关系。合作来自长期留在圈子里、持续与人来往，而不是急着谈成一笔交易。",
   ],
 };
 
@@ -688,7 +688,7 @@ export const COLLECTOR_ECOSYSTEM = {
       what: "One of Japan's largest creator marketplaces, skewing toward higher unit prices. (A buyer-age breakdown circulates widely online but Creema publishes none, so it is left out here.) You list work; the platform brings the audience.",
       what_zh: "日本规模最大的创作者市集之一，客单价偏高。（关于买家年龄层的说法在网上流传很广，但 Creema 自己从未公布过，所以这里不写。）你上架商品，平台带来观众。",
       fit_for_her: "A natural fit for zines, postcards, and prints, and reasonable for smaller originals. It reaches Japanese buyers who may never find your Instagram. Fully optional and low-effort.",
-      fit_for_her_zh: "很适合画册、明信片和版画，小幅原作也合理。它能被看见的人数可能从未发现你 Instagram 的日本买家。完全随意、几乎不费力。",
+      fit_for_her_zh: "很适合销售画册、明信片和版画，小幅原作也可以尝试。它能让你接触到一些从未在 Instagram 上发现你的日本买家。是否开店完全由你决定，维护成本也不高。",
     },
     {
       name: "minne — Japan's largest handmade marketplace",
@@ -710,7 +710,7 @@ export const COLLECTOR_ECOSYSTEM = {
       what: "pixiv's creator marketplace — the heart of the illustration community you came up in. Free to open a shop, English interface available, handles both physical goods (zines, prints, postcards) and digital. The audience is illustration-native and used to buying directly from artists.",
       what_zh: "pixiv 的创作者市集——你成长所在的插画社区的核心。免费开店，有英文界面，既能卖实体（画册、版画、明信片）也能卖数字内容。受众本就是插画圈、习惯直接向艺术家购买。",
       fit_for_her: "A good cultural fit given your illustration-community roots. Best for zines, prints, and postcards; most shipping is within Japan. Optional, but it speaks your first language as an artist.",
-      fit_for_her_zh: "鉴于你的插画社区根基，文化上很契合。最适合画册、版画和明信片；多数运送仅限日本国内。可选，但它说的是你作为艺术家的母语。",
+      fit_for_her_zh: "你本就来自插画社群，因此这里的文化氛围与你很契合。最适合销售画册、版画和明信片；多数配送仅限日本国内。它不是必选项，但很贴近你熟悉的创作语境。",
     },
     {
       name: "Bookshop-gallery consignment (e.g. UTRECHT)",
@@ -726,8 +726,8 @@ export const COLLECTOR_ECOSYSTEM = {
     { step: "Keep one link in your bio that goes to your shop. Just your gegyjiji.base.shop link in your Instagram bio, so anyone who loves a piece can find where to buy without asking. Highest value, lowest effort.", step_zh: "在简介里放一个指向店铺的链接。只需把 gegyjiji.base.shop 放进 Instagram 简介，让任何喜欢某幅作品的人不必开口就能找到购买入口。价值最高、最省力。" },
     { step: "Add one quiet line: 'DM to inquire about originals.' A single calm sentence in your bio or a pinned post tells people a message is welcome. No catalog, no prices needed — just that the door is open.", step_zh: "加一句安静的话：「原作请私信咨询」。简介或置顶里一句平静的话，就告诉大家欢迎来消息。不需要目录、不需要价格——只是表明门是开着的。" },
     { step: "Let 'sold' and 'available' be visible. You already mark SOLD OUT beautifully on BASE; carrying that same small note to a caption when something sells quietly signals that pieces are real, finite, and collectible — without any urgency.", step_zh: "让「已售」和「在售」可见。你在 BASE 上的 SOLD OUT 标记已经很好；卖出时在配文里加同样的小注脚，就安静地表明作品是真实、有限、可收藏的——毫无紧迫感。" },
-    { step: "(Optional) A simple price list, once. A single pinned post or highlight with your four calm tiers — postcards, zines, prints, originals — answers the most common question before it's asked. Easy to skip.", step_zh: "（可选）一份简单的价目表，做一次就好。一条置顶或精选，列出三个平静的档位——明信片、画册、原作——在被问到之前就答好了最常见的问题。跳过也没关系。" },
-    { step: "(Optional) A second storefront only if it feels easy. Creema or BOOTH can hold your zines and postcards for buyers who never see your Instagram. Set it up only on a day it feels light — no rush, and no penalty for never doing it.", step_zh: "（可选）只有在感觉轻松时再开第二家店。Creema 或 BOOTH 可以为没看过你 Instagram 的买家承载画册和明信片。只在感觉轻松的某天去做就好——不必着急，永远不做也没有任何损失。" },
+    { step: "(Optional) A simple price list, once. A single pinned post or highlight with your four calm tiers — postcards, zines, prints, originals — answers the most common question before it's asked. Easy to skip.", step_zh: "（可选）一份简单的价目表，做一次就好。一条置顶或精选，列出四个平静的档位——明信片、画册、版画、原作——在被问到之前就答好了最常见的问题。跳过也没关系。" },
+    { step: "(Optional) A second storefront only if it feels easy. Creema or BOOTH can hold your zines and postcards for buyers who never see your Instagram. Set it up only on a day it feels light — no rush, and no penalty for never doing it.", step_zh: "（可选）只有觉得不费力时，再考虑开第二家店。Creema 或 BOOTH 能让没在 Instagram 上见过你的买家找到你的画册和明信片。哪天有余力再做就好——不用着急，不做也没关系。" },
   ],
 };
 
@@ -742,22 +742,22 @@ export const PRESS_KIT = {
   intro: { en: "Press, galleries, and brands often ask: 'Do you have a press kit?' It's just a small folder you build once — a bio, an artist statement, a few images, your links — so you can answer in one reply. Below is a ready-to-use draft made entirely from your real details. Copy what's useful; change anything that doesn't sound like you.", zh: "媒体、画廊和品牌常会问：「你有新闻资料包吗？」它其实只是一份做一次就好的小文件夹——简介、艺术家自述、几张图片、你的链接——这样你一条回复就能答上。下面是一份完全用你真实信息生成、可直接使用的草稿。有用的就拿去用；任何不像你的地方，改掉就好。" },
   one_line: {
     en: "GEGYjiji is a Chinese watercolor artist based in Tokyo, painting quiet, atmospheric daily life.",
-    zh: "GEGYjiji，往返于东京与北京之间的中国水彩画家，描绘安静而充满氛围的日常。",
-    ja: "GEGYjiji（ゲギジジ）は、東京と北京を拠点に活動する中国出身の水彩画家。静けさと空気感に満ちた日常を描く。",
+    zh: "GEGYjiji，常驻东京的中国水彩画家，描绘安静而充满氛围的日常。",
+    ja: "GEGYjiji（ゲギジジ）は、東京を拠点に活動する中国出身の水彩画家。静けさと空気感に満ちた日常を描く。",
   },
   short_bio: {
     en: "GEGYjiji is a Chinese watercolor painter based in Tokyo. Originally from Hunan Province, she studied illustration and design at the Beijing Institute of Fashion Technology. Since 2020 she has kept a daily watercolor diary, painting interior light, cats, city corners, and the quiet texture of ordinary life across two countries. Her first solo collection, Colour Diary, appeared in 2021. She has exhibited in China, Japan, and the United Kingdom — including solo shows in Shanghai and Tokyo — and shares her work with an established, growing following on Instagram (@gegyjiji).",
-    zh: "GEGYjiji 是一位往返于东京与北京之间的中国水彩画家。她出生于长沙，在北京服装学院学习插画与设计。自2020年起，她坚持每日水彩日记，描绘室内光线、猫、街角，以及横跨两国的平凡生活肌理。2021年，她出版了首部个人作品集《色彩日記》（Colour Diary）。她曾在中国、日本与英国参展——包括在上海与东京举办的个展——并在 Instagram（@gegyjiji）上与稳定增长的关注者分享作品。",
-    ja: "GEGYjijiは、東京と北京を拠点に活動する中国の水彩画家です。湖南省・長沙の出身で、北京服装学院でイラストレーションとデザインを学びました。2020年から毎日の水彩日記を描き続け、室内に差し込む光、猫、街角、二つの国にまたがる何気ない日常の質感を題材としています。2021年には初の個人作品集『Colour Diary（色彩日記）』を刊行。中国・日本・イギリスで作品を発表し、上海と東京では個展も開催しています。Instagram（@gegyjiji）には着実に広がるフォロワーがいます。",
+    zh: "GEGYjiji 是一位常驻东京的中国水彩画家。她出生于长沙，在北京服装学院学习插画与设计。自2020年起，她坚持每日水彩日记，描绘室内光线、猫、街角，以及横跨两国的平凡生活肌理。2021年，她出版了首部个人作品集《色彩日記》（Colour Diary）。她曾在中国、日本与英国参展——包括在上海与东京举办的个展——并在 Instagram（@gegyjiji）上与稳定增长的关注者分享作品。",
+    ja: "GEGYjijiは、東京を拠点に活動する中国の水彩画家です。湖南省・長沙の出身で、北京服装学院でイラストレーションとデザインを学びました。2020年から毎日の水彩日記を描き続け、室内に差し込む光、猫、街角、二つの国にまたがる何気ない日常の質感を題材としています。2021年には初の個人作品集『Colour Diary（色彩日記）』を刊行。中国・日本・イギリスで作品を発表し、上海と東京では個展も開催しています。Instagram（@gegyjiji）には着実に広がるフォロワーがいます。",
   },
   long_bio: {
     en: "GEGYjiji is a Chinese watercolor artist based in Tokyo. She is from Hunan Province, and she studied illustration and design at the Beijing Institute of Fashion Technology (BIFT), and her practice remains rooted in the illustration and artist-book community as much as in the gallery. Since 2020 she has maintained a daily watercolor diary — a continuous series simply called diary — from which her first solo collection, Colour Diary (2021), grew directly. She paints the ordinary and the overlooked: a street after rain, interior light moving across a room, the particular grey-green of a Tokyo afternoon, and — often — a cat settled in a warm corner. Architecture and the spaces between buildings are where the work is strongest. Working between two cities, her paintings hold China and Japan at once, with watercolor's transparency letting atmosphere and memory accumulate in layers. She has exhibited across China, Japan, and the United Kingdom since 2021, including two museum group exhibitions and three solo shows: Light, Shadow, Cats (Shanghai, 2025), The Eternal Yesterday (Tsuki Gallery, Tokyo, 2026), and Light and Shadows and Cats (Galerie LE MONDE, Harajuku, 2026). She shares the daily practice with about 168,000 people across X, Xiaohongshu, Instagram and Bilibili.",
-    zh: "GEGYjiji 是一位常驻东京的中国水彩画家。她来自湖南，毕业于北京服装学院（BIFT），主修插画与设计；她的创作既扎根于画廊，也同样扎根于插画与艺术书的社群。自2020年起，她持续描绘每日水彩日记——一个名为「diary」的连续系列——2021年的首部个人作品集《色彩日記》（Colour Diary）便由此生长而来。她画寻常而易被忽略的事物：在房间里游移的光、蜷在暖角的猫、雨后的街道、东京午后特有的灰绿色。往返于两座城市之间，她的画同时承载着中国与日本，水彩的透明让氛围与记忆层层累积。自2021年以来，她在中国、日本与英国举办与参加展览，包括两场美术馆群展、上海的首次个展《和光和影和猫》（2025年），以及东京月画廊的个展《永遠の昨日》（2026年）。她的作品两次被 Bored Panda 报道，并在 Instagram 上与稳定增长的关注者分享每日水彩创作。",
-    ja: "GEGYjijiは、東京を拠点に活動する中国の水彩画家です。湖南省の出身で、北京服装学院（BIFT）でイラストレーションとデザインを学びました。その制作は、ギャラリーと同じくらい、イラストレーションやアートブックのコミュニティに根ざしています。2020年から、彼女は「diary」と名づけた毎日の水彩日記を描き続けており、2021年の初個人作品集『Colour Diary（色彩日記）』はそこから直接生まれました。描くのは、ありふれた、見過ごされがちな情景です。部屋を移ろう光、暖かな隅でくつろぐ猫、雨上がりの通り、東京の午後特有の灰みがかった緑。二つの都市を行き来しながら、その絵は中国と日本を同時に抱きとめ、水彩の透明感が空気と記憶を幾層にも重ねていきます。2021年以降、中国・日本・イギリスで作品を発表してきました。二つの美術館でのグループ展、上海での初個展『和光和影和猫』（2025年）、東京・月画廊での個展『永遠の昨日』（2026年）などがあります。作品はBored Pandaに二度取り上げられ、Instagramでは毎日の水彩制作を、着実に広がるフォロワーと分かち合っています。",
+    zh: "GEGYjiji 是一位常驻东京的中国水彩画家，来自湖南，毕业于北京服装学院（BIFT）插画与设计专业。她的创作既进入画廊，也扎根于插画与艺术书社群。自 2020 年起，她每天以水彩记录生活，并将这个持续至今的系列命名为「diary」；2021 年出版的首部个人作品集《色彩日記》（Colour Diary）也源自这一系列。她描绘寻常而容易被忽略的事物：在房间里移动的光、蜷在温暖角落的猫、雨后的街道，以及东京午后特有的灰绿色。生活往返于两座城市之间，她的画也同时容纳中国与日本的经验；透明的水彩让氛围与记忆一层层沉淀。自 2021 年以来，她在中国、日本与英国举办或参加多场展览，包括两场美术馆群展和三次个展：上海 77ART 的首次个展《和光和影和猫》（2025 年）、东京月画廊的《永遠の昨日》（2026 年），以及东京原宿 Galerie LE MONDE 的《Light and Shadows and Cats》（2026 年）。她的作品曾两次获 Bored Panda 报道；她也持续在 Instagram 上分享每日水彩创作，受众稳步增长。",
+    ja: "GEGYjijiは、東京を拠点に活動する中国の水彩画家です。湖南省の出身で、北京服装学院（BIFT）でイラストレーションとデザインを学びました。その制作は、ギャラリーと同じくらい、イラストレーションやアートブックのコミュニティに根ざしています。2020年から、彼女は「diary」と名づけた毎日の水彩日記を描き続けており、2021年の初個人作品集『Colour Diary（色彩日記）』はそこから直接生まれました。描くのは、ありふれた、見過ごされがちな情景です。部屋を移ろう光、暖かな隅でくつろぐ猫、雨上がりの通り、東京の午後特有の灰みがかった緑。二つの都市を行き来しながら、その絵は中国と日本を同時に抱きとめ、水彩の透明感が空気と記憶を幾層にも重ねていきます。2021年以降、中国・日本・イギリスで作品を発表してきました。二つの美術館でのグループ展のほか、三度の個展があります——上海での初個展『和光和影和猫』（2025年）、東京・月画廊での個展『永遠の昨日』（2026年）、そして東京・原宿の Galerie LE MONDE での個展『Light and Shadows and Cats』（2026年）。作品はBored Pandaに二度取り上げられ、Instagramでは毎日の水彩制作を、着実に広がるフォロワーと分かち合っています。",
   },
   statement: {
     en: "I paint the ordinary. Since 2020 I have kept a daily watercolor diary — small studies of the places I move through, made the way you might write a single sentence at the end of a day. My subjects are quiet ones: light falling through a window, a cat asleep on a warm floor, a street corner after rain, the grey-green hour particular to Tokyo. I am Chinese, and I live between Beijing and Tokyo, so my work holds two cities at once — red walls and alleyways, pools and green ponds, rooms I half-remember. Watercolor suits this slow looking; its transparency lets atmosphere accumulate in layers, the way memory does. Like a train traveling through the north, the paintings carry all four seasons. I want the viewer to feel they are walking through somewhere familiar — to find an ordinary day turned, for a moment, into something worth keeping.",
-    zh: "我画寻常之物。自2020年起，我每天画一幅小小的水彩，像写日记一样持续着——就像在一天结束时写下一句话。我的题材都很安静：穿过窗子的光、睡在暖和地板上的猫、雨后的街角、东京特有的那种灰绿色的时刻。我是中国人，往返于北京与东京之间，所以我的画同时容纳着两座城市——红墙与巷弄，水池与绿塘，我依稀记得的房间。水彩适合这种缓慢的观看：它的透明让氛围像记忆一样层层累积。像一列穿行于北国的火车，画里装着春夏秋冬。我希望观者觉得自己正走过一个熟悉的地方——让一个平凡的日子，在某个瞬间，变成值得珍藏的什么。",
+    zh: "我画寻常之物。自2020年起，我每天画一幅小小的水彩，像写日记一样持续着——就像在一天结束时写下一句话。我的题材都很安静：穿过窗子的光、睡在暖和地板上的猫、雨后的街角、东京特有的那种灰绿色的时刻。我是中国人，往返于北京与东京之间，所以我的画同时容纳着两座城市——红墙与巷弄，水池与绿塘，我依稀记得的房间。水彩适合这种缓慢的观看：它的透明让氛围像记忆一样层层累积。像一列穿行于北国的火车，画里装着春夏秋冬。我希望观者觉得自己正走过一个熟悉的地方——也希望一个平凡的日子，能在某个瞬间成为值得珍藏的记忆。",
     ja: "わたしは、ありふれたものを描いています。2020年から、毎日小さな水彩を描き、日記のように続けてきました。一日の終わりに一文を書きとめるように。題材は静かなものばかりです。窓から差し込む光、暖かな床で眠る猫、雨上がりの街角、東京特有の灰みがかった緑の時間。わたしは中国の人間で、北京と東京のあいだで暮らしています。だから絵は、二つの街を同時に抱いています。赤い壁と路地、プールと緑の池、半ば憶えている部屋。水彩は、このゆっくりとした観察によく合います。その透明感が、記憶のように、空気を幾層にも積み重ねていくからです。北国を旅する列車のように、絵は春夏秋冬を運びます。見る人に、見覚えのある場所を歩いているように感じてほしい。ありふれた一日が、ほんの一瞬、とっておきの何かに変わる——その瞬間を。",
   },
   fact_sheet: {
@@ -789,14 +789,14 @@ export const PRESS_KIT = {
     ],
     ja: [
       "名前 / アカウント：GEGYjiji（GEGY挤挤）· Instagram @gegyjiji",
-      "拠点：日本・東京と中国・北京を行き来",
+      "拠点：日本・東京",
       "出身：中国湖南省",
       "媒体：水彩（主）／ときに墨",
       "学歴：北京服装学院（BIFT）── イラストレーション・デザイン",
       "言語：中国語（母語）· 日本語（JLPT N2）",
-      "主な展覧会：『永遠の昨日』（個展、月画廊、東京、2026）；『MiniArt, GrandStar』（グループ展、月画廊、東京、2026）；ロンドン（イギリス、2025、初の海外発表）；『和光和影和猫』（個展、77ART、上海、2025、初個展）；『PiPa 生长的声音』（グループ展、横渡美術館、台州、2024–25）；『生活在别处』（グループ展、棉美術館、天津、2024–25）；『Tide from China Part 1』（グループ展、ACG_Labo、東京、2023、日本での初発表）；『被记录的旅行』（グループ展、鲸字号本屋、上海、2021）",
+      "主な展覧会：『Light and Shadows and Cats』（個展、Galerie LE MONDE、東京・原宿、2026年8〜9月）；『永遠の昨日』（個展、月画廊、東京、2026）；『MiniArt, GrandStar』（グループ展、月画廊、東京、2026）；ロンドン（イギリス、2025、初の海外発表）；『和光和影和猫』（個展、77ART、上海、2025、初個展）；『PiPa 生长的声音』（グループ展、横渡美術館、台州、2024–25）；『生活在别处』（グループ展、棉美術館、天津、2024–25）；『Tide from China Part 1』（グループ展、ACG_Labo、東京、2023、日本での初発表）；『被记录的旅行』（グループ展、鲸字号本屋、上海、2021）",
       "刊行物：『Colour Diary（色彩日記）』初の個人作品集、2021；『defined Definition 02: A Documented Journey』に参加",
-      "オーディエンス：Instagram（@gegyjiji）に着実に広がるフォロワー",
+      "オーディエンス：4つのアカウント合計で約168,000フォロー——X @GegYjiji（8.93万）、小紅書（4.4万）、Instagram @gegyjiji（2.7万）、Bilibili（7,500）",
       "メディア掲載：Bored Panda（2回）と Design You Trust に作品が取り上げられた（インタビューではなく画像特集）",
       "リンク / 連絡先：Instagram @gegyjiji（連絡はこちらが希望）· ショップ gegyjiji.base.shop",
     ],
@@ -808,7 +808,7 @@ export const PRESS_KIT = {
       "Memory and Distance — Work that holds both China (Changsha, her origin) and Japan (Tokyo, her present) — the feeling of living between two cities, two languages, and two versions of ordinary life.",
     ],
     zh: [
-      "东京静物（Tokyo Still Life）—— 室内、猫、穿窗而入的光：东京公寓与街区里日常的安静建筑。以「静」本身为题。",
+      "东京静物（Tokyo Still Life）——室内、猫与穿窗而入的光：从东京公寓和街区的日常空间中，描绘生活安静的结构。以「静」本身为题。",
       "都市氛围（Urban Atmosphere）—— 街景、街角、雨湿的路面，以及东京特有的灰绿色光。把「地点」当作情感主体，而非背景。",
       "记忆与距离（Memory and Distance）—— 同时承载中国（长沙，原乡）与日本（东京，当下）的作品——身处两座城市、两种语言、两种平凡生活之间的感受。",
     ],
@@ -834,7 +834,7 @@ export const PRESS_KIT = {
       "目标是 8–10 张能展现广度、彼此不重复的图片。",
       "1 张本人照片 —— 工作中的你或一张安静的肖像（可选，但有温度；如有摄影师请署名）。",
       "三大系列各一张代表作 —— 各取一张《东京静物》《都市氛围》《记忆与距离》。",
-      "若干幅画作 —— 例如一张猫的室内、一张窗光室内、一张雨街；让情绪与色调有变化。",
+      "选几幅不同的画作——例如猫所在的室内、窗边光影和雨后街道；让情绪与色调有所变化。",
       "1 张展览 / 布展照片 —— 近期展览的一面墙（例如月画廊《永遠の昨日》），若有的话。",
       "《色彩日記》或每日 diary 的一页 / 跨页 —— 展现作品背后的日常实践。",
       "1 张细节图 —— 显示水彩肌理与边缘的近景特写，对印刷很有用。",
@@ -881,7 +881,7 @@ export const PRESS_KIT = {
       "Re-export the PDF whenever you change something, and keep one master file so there's only ever one true version.",
     ],
     zh: [
-      "每办一次展或出一次刊，就在「精选展览 / 出版物」里加一行（最新的放最前）。两分钟。",
+      "每办一次展或出版一部作品，就在「精选展览／出版物」中补上一行，并把最新的放在最前面；两分钟就能完成。",
       "艺术家自述只在创作真正转向时更新——不必按时间表来。",
       "有更强的新作就替换新图，悄悄淘汰旧的。",
       "受众那行随时可以更新，也可以整行删掉——那是给对方看的参考，不是你要去追的指标。",
