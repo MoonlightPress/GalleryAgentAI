@@ -3,31 +3,12 @@
 .saffron-page {
   display: flex;
   flex-direction: column;
-  /* Positioning context for PaperAccents.
-
-     `isolation` does two jobs: it stops the accents' mix-blend-mode:multiply
-     reaching past this subtree to darken the nav, AND it creates the stacking
-     context that keeps their z-index:-1 from escaping behind .app's own
-     background, where they would be invisible.
-
-     The explicit background is required, not cosmetic: a negative-z child paints
-     above its parent's background but below in-flow content, so this cream is
-     what the accents actually multiply against. Without it they would blend
-     against nothing and their white ground would stay white.
-
-     NB: do NOT lift the children with `.saffron-page > * { position: relative }`
-     to get them above the accents. `nav` is passed in as a prop and rendered
-     here as a direct child — it is the sticky site nav, and that rule silently
-     turns its `position: sticky` into `relative` and drops z-index 40 to 1. */
+  /* No longer the host for PaperAccents or the page texture — both moved up to
+     .app (App.css / App.jsx) so they're site-wide instead of Saffron-only. Kept
+     relative in case anything below relies on it as a positioning ancestor;
+     nothing currently requires isolation now that the blend-mode accents live
+     elsewhere. */
   position: relative;
-  isolation: isolate;
-  /* The page background the visual pass was actually for (docs/NEXT_PHASE_
-     saffron_visual_pass.md): texture-plain-CHOSEN, tiled — it was picked over the
-     floral wash specifically because it repeats without an obvious seam. The
-     colour token stays as the fallback/blend base beneath it, same pattern as
-     the nav's wash in Nav.css. Card/section fills are untouched for now — whether
-     they get textured too is still an open question, not decided here. */
-  background: url('../assets/texture/paper-wash.webp') repeat, var(--parchment);
 }
 
 .saffron-hero {
@@ -2648,6 +2629,85 @@ a.sf-readiness-col-name:hover { color: #c47a35; text-decoration: underline; }
 }
 
 .sf-future-body { padding: 0 15px 15px; }
+
+/* ── Strategy ladders (Ladders/Ladder/LadderTreatment) ──────────────────────
+   Ported from SaffronV2.css along with the components themselves, 2026-09-09.
+   Ladder() reuses the .sf-future/.sf-step idiom above (Pathways), so only the
+   classes genuinely new to the ladders need their own rules here. */
+.v2-ladders {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.v2-ladder-proto {
+  font-family: Georgia, serif;
+  font-size: 12px;
+  font-style: italic;
+  color: #9a8a70;
+  margin: 0;
+  padding-top: 12px;
+  border-top: 1px solid #efe3cb;
+}
+.v2-rung-also {
+  display: block;
+  font-family: Georgia, serif;
+  font-size: 12px;
+  font-style: italic;
+  color: #9a8a70;
+  margin-top: 3px;
+}
+.v2-unknown-count { color: #9a8a70; }
+
+/* An unmeasured state. Not a gap — the marker is a question mark, the row is
+   quiet, and the label says so outright, so nothing here reads as something she
+   has failed to do. */
+.v2-step--unknown .sf-step-marker { background: #f2ece2; color: #b3a695; }
+.v2-unknown-tag {
+  font-family: Georgia, serif;
+  font-size: 11.5px;
+  font-style: italic;
+  color: #9a8a70;
+  margin: 2px 0 4px;
+}
+
+/* A state that opens into a treatment. Sits inside sf-step-body, so it inherits
+   the pathway's indent and reads as part of the rung rather than a new object. */
+.v2-treatment { margin-top: 8px; }
+.v2-treatment-toggle {
+  background: none;
+  border: 0;
+  padding: 0;
+  font-family: Georgia, serif;
+  font-size: 12.5px;
+  font-style: italic;
+  color: #b5701f;
+  cursor: pointer;
+  border-bottom: 1px solid #e6d4b8;
+}
+.v2-treatment-toggle:hover { border-bottom-color: #b5701f; }
+.v2-treatment-body {
+  margin-top: 12px;
+  padding-left: 13px;
+  border-left: 2px solid #eadcb8;
+}
+.v2-treat-block { margin-bottom: 13px; }
+.v2-treat-block:last-child { margin-bottom: 0; }
+.v2-treat-label {
+  font-family: Georgia, serif;
+  font-size: 11px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #8b6a3e;
+  margin-bottom: 3px;
+}
+.v2-treat-text {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  line-height: 1.7;
+  color: #4a3826;
+  margin: 0;
+}
 
 /* ── Disclosures ─────────────────────────────────────────────────────────────────────────
    A lid rather than a heading, because what is under it answers a question only

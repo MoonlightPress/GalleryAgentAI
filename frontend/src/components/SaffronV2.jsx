@@ -20,13 +20,13 @@
 import { useState, useEffect, useMemo } from 'react'
 import { useLanguage } from '../i18n/LanguageContext'
 import { track, visitorId } from '../utils/track'
-import { STATES, GOALS, alsoServes, evidence } from '../data/strategy_ladders'
 import {
   saffronTx,
   RecurringDoors, GrantLandscape,
   CareerPosition, ComparableArtists, VenueTracker, PressFeatures,
   Futures, BookEconomics, PublisherFork,
-  SectionOpenContext, SectionErrorBoundary, SectionShell,
+  SectionOpenContext, SectionErrorBoundary,
+  Ladders,
 } from './SaffronPage'
 import { saffronHero, saffronHeroNight } from '../utils/heroImages'
 import { isNightNow } from '../utils/timeOfDay'
@@ -97,133 +97,9 @@ const pc = (lang) => PULSE_COPY[lang] || PULSE_COPY.en
 const MONTH_EN = ['January', 'February', 'March', 'April', 'May', 'June',
   'July', 'August', 'September', 'October', 'November', 'December']
 
-const LADDER_COPY = {
-  en: { title: 'Strategies', sub: 'Different goals, overlapping tasks, different orders',
-        done: (a, b) => `${a} of ${b} already reached`, also: 'Also counts toward',
-        nextUp: 'Next:',
-        unknown: (n) => `${n} not measured`,
-        notMeasured: 'The system has never checked this',
-        proto: 'Prototype — the ladders are written by hand; the ticks are read from your record.' },
-  zh: { title: '推进策略', sub: '不同的目标，重叠的事项，不同的顺序',
-        done: (a, b) => `${b} 级里已经到了 ${a} 级`, also: '同时也算进',
-        nextUp: '下一级：',
-        unknown: (n) => `${n} 级没有查过`,
-        notMeasured: '系统从来没有核实过这一项',
-        proto: '原型——阶梯是手写的，勾选是从你的记录里读出来的。' },
-  ja: { title: '進め方', sub: '目標ごとに、重なる項目を、違う順番で',
-        done: (a, b) => `${b} 件中 ${a} 件はすでに満たしている`, also: '次にも効く',
-        where: '現状——',
-        proto: 'プロトタイプ——梯子は手書き、チェックは記録から読んでいます。' },
-}
-
-function Ladders({ data, careerData, lang }) {
-  const c = LADDER_COPY[lang] || LADDER_COPY.en
-  const pick = (o) => (o && (o[lang] || o.en)) || ''
-  const done = evidence(data, careerData)
-
-  // One SectionShell holding three collapsible goals — the same shape Pathways
-  // uses directly above (a shell, then cards that open). The first version
-  // rendered bare divs with their own heading, so three ladders sat loose on the
-  // page next to sections that were all in boxes.
-  return (
-    <SectionShell title={c.title} subtitle={c.sub} summary={c.sub} trackId="ladders" defaultOpen>
-      <div className="v2-ladders">
-        {GOALS.map((g) => (
-          <Ladder key={g.id} g={g} done={done} c={c} pick={pick} />
-        ))}
-      </div>
-      <p className="v2-ladder-proto">{c.proto}</p>
-    </SectionShell>
-  )
-}
-
-// One goal: a closed card showing where she stands, opening onto the states.
-function Ladder({ g, done, c, pick }) {
-  const [open, setOpen] = useState(false)
-  const hit = g.ladder.filter((x) => done[x] === 'yes').length
-  const unknown = g.ladder.filter((x) => done[x] === 'unknown').length
-  // "Next" is the first REAL absence. An unmeasured state is not a next step —
-  // pointing at one is how the page ended up telling her to start a Xiaohongshu
-  // account she already had.
-  const next = g.ladder.find((x) => done[x] === 'no')
-  const nextLabel = next ? pick(STATES[next]?.label) : ''
-  return (
-    <div className={`sf-future${open ? ' sf-future--open' : ''}`}>
-      <button className="sf-future-head" onClick={() => setOpen((o) => !o)} aria-expanded={open}>
-        <div>
-          <div className="sf-future-name">{pick(g.name)}</div>
-          <div className="sf-future-tagline">
-            {c.done(hit, g.ladder.length)}
-            {unknown > 0 && <span className="v2-unknown-count"> · {c.unknown(unknown)}</span>}
-          </div>
-          {/* Where she is, readable without opening it. Only a real absence is
-              offered as next; unmeasured states are counted, not pointed at. */}
-          {nextLabel && <div className="sf-future-standing">{c.nextUp} {nextLabel}</div>}
-        </div>
-        <span className={`sf-chevron${open ? ' sf-chevron--open' : ''}`}>▾</span>
-      </button>
-      {open && (
-        <div className="sf-future-body">
-          <div className="sf-steps">
-            {g.ladder.map((x) => {
-              const st = STATES[x]
-              if (!st) return null
-              const state = done[x]
-              const isNext = x === next
-              const shared = alsoServes(x, g.id)
-              const cls = state === 'yes' ? 'sf-step--done'
-                : state === 'unknown' ? 'sf-step--pending v2-step--unknown'
-                  : isNext ? 'sf-step--blocking' : 'sf-step--pending'
-              return (
-                <div key={x} className={`sf-step ${cls}`}>
-                  <div className="sf-step-marker">
-                    {state === 'yes' ? '\u2713' : state === 'unknown' ? '?' : isNext ? '\u25b6' : '\u25cb'}
-                  </div>
-                  <div className="sf-step-body">
-                    <div className="sf-step-label">{pick(st.label)}</div>
-                    {/* An unmeasured state says so before it says anything else,
-                        so nothing below it reads as a thing she has not done. */}
-                    {state === 'unknown' && <div className="v2-unknown-tag">{c.notMeasured}</div>}
-                    <div className="sf-step-detail">{pick(g.why?.[x]) || pick(st.detail)}</div>
-                    {st.treatment && <Treatment t={st.treatment} pick={pick} />}
-                    {shared.length > 0 && (
-                      <div className="v2-rung-also">
-                        {c.also} {shared.map((y) => pick(y.name)).join(' \u00b7 ')}
-                      </div>
-                    )}
-                  </div>
-                </div>
-              )
-            })}
-          </div>
-        </div>
-      )}
-    </div>
-  )
-}
-
-// A state carrying more than a paragraph opens into one. Closed by default, so a
-// ladder still reads in one scroll and the depth is there for the rung she stops on.
-function Treatment({ t, pick }) {
-  const [open, setOpen] = useState(false)
-  return (
-    <div className="v2-treatment">
-      <button className="v2-treatment-toggle" onClick={() => setOpen((v) => !v)}>
-        {pick(open ? t.hide : t.open)}
-      </button>
-      {open && (
-        <div className="v2-treatment-body">
-          {t.blocks.map((b, i) => (
-            <div key={i} className="v2-treat-block">
-              {b.label && <div className="v2-treat-label">{pick(b.label)}</div>}
-              <p className="v2-treat-text">{pick(b.text)}</p>
-            </div>
-          ))}
-        </div>
-      )}
-    </div>
-  )
-}
+// Ladders (three named strategy tracks) is now defined in SaffronPage.jsx and
+// imported above -- 2026-09-09 it was ported to the main page (it had been
+// live only here since 2026-09-08), so this file no longer needs its own copy.
 
 // ── Pulse: one line, and it names things rather than counting them ──────────
 function Pulse({ pulse, lang }) {
@@ -520,11 +396,11 @@ export default function SaffronV2({ nav }) {
                 book_economics: <BookEconomics data={data.book_economics} lang={lang} />,
                 publisher_fork: <PublisherFork data={data.book_economics} lang={lang} />,
               }} />)}
-            {/* StrategicPathway is not rendered here: it is titled "Strategies"
-                and so is Ladders, so the tab carried the section twice. The
-                ladders supersede it — its eight steps ARE the gallery_success
-                ladder, and two more sit beside them. It still renders on the live
-                Saffron page, untouched. */}
+            {/* StrategicPathway (the old single "gallery representation" tracker,
+                also titled "Strategies") was ported OUT of the main Saffron page
+                2026-09-09 and replaced there too — its eight steps ARE the
+                gallery_success ladder below, and two more sit beside them. No
+                more duplicate-titled section on either page. */}
             {SB('ladders', <Ladders data={data} careerData={careerData} lang={lang} />)}
           </SectionOpenContext.Provider>
         )}

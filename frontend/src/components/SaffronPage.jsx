@@ -10,6 +10,7 @@ import { track } from '../utils/track'
 import TrackedSection from './TrackedSection'
 import { useLanguage } from '../i18n/LanguageContext'
 import { tfb } from '../i18n/translations'
+import { STATES, GOALS, alsoServes, evidence } from '../data/strategy_ladders'
 import {
   LICENSING_LANDSCAPE,
   PRESS_PITCH_MAP,
@@ -770,78 +771,147 @@ export function ComparableArtists({ artists, t }) {
   )
 }
 
-// "more / 具体怎么做" toggle labels for the shy-friendly concrete-tactics
-// disclosure on the strategy steps. Permission-framed, never a script.
-const SHY_TIPS_MORE = { zh: '具体怎么做 ▾', ja: '具体的にどうする ▾', en: 'More — what this looks like ▾' }
-const SHY_TIPS_HIDE = { zh: '收起', ja: '閉じる', en: 'Hide' }
+// ShyTips (the shy-friendly concrete-tactics disclosure) and its
+// SHY_TIPS_MORE/HIDE labels were removed 2026-09-09 — its only caller was
+// StrategicPathway, removed in the same change (see below). If a future
+// section wants "more — what this looks like" style optional detail, it's
+// preserved in git history rather than left here unused.
 
-// Render the multi-line tips string as an intro line + bullet list (lines that
-// start with "•"). Keeps the warm, optional register; no markdown artifacts.
-function ShyTips({ text, lang }) {
-  const [open, setOpen] = useState(false)
-  if (!text) return null
-  const lines = String(text).split('\n').map(l => l.trim()).filter(Boolean)
-  const intro = lines.filter(l => !l.startsWith('•'))
-  const bullets = lines.filter(l => l.startsWith('•')).map(l => l.replace(/^•\s*/, ''))
+// StrategicPathway (a single "gallery representation, N/8" tracker) was removed
+// 2026-09-09 and replaced by Ladders below — three named strategy tracks, not
+// one. It was built and shipped to the #observe2 prototype on 2026-09-08
+// (docs/NEXT_PHASE_strategies.md) but the swap was never ported to this, the
+// actual live page, so "Strategies" (necessarily plural — see LADDER_COPY)
+// kept heading a section with exactly one item in it. Ported verbatim from
+// SaffronV2.jsx; that file now imports Ladders from here instead of keeping
+// its own copy.
+const LADDER_COPY = {
+  en: { title: 'Strategies', sub: 'Different goals, overlapping tasks, different orders',
+        done: (a, b) => `${a} of ${b} already reached`, also: 'Also counts toward',
+        nextUp: 'Next:',
+        unknown: (n) => `${n} not measured`,
+        notMeasured: 'The system has never checked this',
+        proto: 'The ladders are written by hand; the ticks are read from your record.' },
+  zh: { title: '推进策略', sub: '不同的目标，重叠的事项，不同的顺序',
+        done: (a, b) => `${b} 级里已经到了 ${a} 级`, also: '同时也算进',
+        nextUp: '下一级：',
+        unknown: (n) => `${n} 级没有查过`,
+        notMeasured: '系统从来没有核实过这一项',
+        proto: '阶梯是手写的，勾选是从你的记录里读出来的。' },
+  ja: { title: '進め方', sub: '目標ごとに、重なる項目を、違う順番で',
+        done: (a, b) => `${b} 件中 ${a} 件はすでに満たしている`, also: '次にも効く',
+        nextUp: '次：',
+        unknown: (n) => `${n} 件は未確認`,
+        notMeasured: 'このシステムはまだ確認していません',
+        proto: '梯子は手書き、チェックは記録から読んでいます。' },
+}
+
+export function Ladders({ data, careerData, lang }) {
+  const c = LADDER_COPY[lang] || LADDER_COPY.en
+  const pick = (o) => (o && (o[lang] || o.en)) || ''
+  const done = evidence(data, careerData)
+
+  // One SectionShell holding three collapsible goals — the same shape Pathways
+  // (Futures) uses directly above (a shell, then cards that open).
   return (
-    <div className="sf-shy-tips">
-      <button className="sf-shy-tips-toggle" onClick={() => setOpen(o => !o)}>
-        {open ? (SHY_TIPS_HIDE[lang] || SHY_TIPS_HIDE.en) : (SHY_TIPS_MORE[lang] || SHY_TIPS_MORE.en)}
+    <SectionShell title={c.title} subtitle={c.sub} summary={c.sub} trackId="ladders" defaultOpen>
+      <div className="v2-ladders">
+        {GOALS.map((g) => (
+          <Ladder key={g.id} g={g} done={done} c={c} pick={pick} />
+        ))}
+      </div>
+      <p className="v2-ladder-proto">{c.proto}</p>
+    </SectionShell>
+  )
+}
+
+// One goal: a closed card showing where she stands, opening onto the states.
+function Ladder({ g, done, c, pick }) {
+  const [open, setOpen] = useState(false)
+  const hit = g.ladder.filter((x) => done[x] === 'yes').length
+  const unknown = g.ladder.filter((x) => done[x] === 'unknown').length
+  // "Next" is the first REAL absence. An unmeasured state is not a next step —
+  // pointing at one is how the page ended up telling her to start a Xiaohongshu
+  // account she already had.
+  const next = g.ladder.find((x) => done[x] === 'no')
+  const nextLabel = next ? pick(STATES[next]?.label) : ''
+  return (
+    <div className={`sf-future${open ? ' sf-future--open' : ''}`}>
+      <button className="sf-future-head" onClick={() => setOpen((o) => !o)} aria-expanded={open}>
+        <div>
+          <div className="sf-future-name">{pick(g.name)}</div>
+          <div className="sf-future-tagline">
+            {c.done(hit, g.ladder.length)}
+            {unknown > 0 && <span className="v2-unknown-count"> · {c.unknown(unknown)}</span>}
+          </div>
+          {/* Where she is, readable without opening it. Only a real absence is
+              offered as next; unmeasured states are counted, not pointed at. */}
+          {nextLabel && <div className="sf-future-standing">{c.nextUp} {nextLabel}</div>}
+        </div>
+        <span className={`sf-chevron${open ? ' sf-chevron--open' : ''}`}>▾</span>
       </button>
       {open && (
-        <div className="sf-shy-tips-body">
-          {intro[0] && <p className="sf-shy-tips-intro">{intro[0]}</p>}
-          {bullets.length > 0 && (
-            <ul className="sf-shy-tips-list">
-              {bullets.map((b, i) => <li key={i}>{b}</li>)}
-            </ul>
-          )}
-          {intro.slice(1).map((p, i) => <p key={i} className="sf-shy-tips-outro">{p}</p>)}
+        <div className="sf-future-body">
+          <div className="sf-steps">
+            {g.ladder.map((x) => {
+              const st = STATES[x]
+              if (!st) return null
+              const state = done[x]
+              const isNext = x === next
+              const shared = alsoServes(x, g.id)
+              const cls = state === 'yes' ? 'sf-step--done'
+                : state === 'unknown' ? 'sf-step--pending v2-step--unknown'
+                  : isNext ? 'sf-step--blocking' : 'sf-step--pending'
+              return (
+                <div key={x} className={`sf-step ${cls}`}>
+                  <div className="sf-step-marker">
+                    {state === 'yes' ? '✓' : state === 'unknown' ? '?' : isNext ? '▶' : '○'}
+                  </div>
+                  <div className="sf-step-body">
+                    <div className="sf-step-label">{pick(st.label)}</div>
+                    {/* An unmeasured state says so before it says anything else,
+                        so nothing below it reads as a thing she has not done. */}
+                    {state === 'unknown' && <div className="v2-unknown-tag">{c.notMeasured}</div>}
+                    <div className="sf-step-detail">{pick(g.why?.[x]) || pick(st.detail)}</div>
+                    {st.treatment && <LadderTreatment t={st.treatment} pick={pick} />}
+                    {shared.length > 0 && (
+                      <div className="v2-rung-also">
+                        {c.also} {shared.map((y) => pick(y.name)).join(' · ')}
+                      </div>
+                    )}
+                  </div>
+                </div>
+              )
+            })}
+          </div>
         </div>
       )}
     </div>
   )
 }
 
-export function StrategicPathway({ data, t }) {
-  const { lang } = useLanguage()
-  const done    = data.steps.filter(s => s.done).length
-  const summary = `${data.goal} · ${done} / ${data.steps.length}`
-  // The title used to be "Pathway: {goal}", which read as one named route from a
-  // catalogue of them — inviting "Pathway: Internet famous" as a sibling that does
-  // not exist. But the first fix ("The steps from here") overcorrected into
-  // claiming to be THE path, and it is not: it is the one route her current record
-  // points at, and she is free to take another — the five futures sitting directly
-  // above it are exactly those alternatives. "One way from here" says both: a real
-  // sequence, and not the only one. The destination moves to the subtitle, where
-  // the timeline already lives.
+// A state carrying more than a paragraph opens into one. Closed by default, so a
+// ladder still reads in one scroll and the depth is there for the rung she stops on.
+// Named LadderTreatment (not Treatment) to avoid colliding with any other
+// generically-named local component in this already-large file.
+function LadderTreatment({ t, pick }) {
+  const [open, setOpen] = useState(false)
   return (
-    <SectionShell
-      title={t('sf.sec.pathway')}
-      subtitle={t('sf.sub.pathway', { goal: data.goal, timeline: data.timeline_estimate })}
-      summary={summary}
-    >
-      <div className="sf-steps">
-        {data.steps.map((step) => (
-          <div key={step.n} className={`sf-step ${step.done ? 'sf-step--done' : step.blocking ? 'sf-step--blocking' : 'sf-step--pending'}`}>
-            <div className="sf-step-marker">{step.done ? '✓' : step.blocking ? '▶' : '○'}</div>
-            <div className="sf-step-body">
-              <div className="sf-step-label">{step.label}</div>
-              <div className="sf-step-detail">{step.detail}</div>
+    <div className="v2-treatment">
+      <button className="v2-treatment-toggle" onClick={() => setOpen((v) => !v)}>
+        {pick(open ? t.hide : t.open)}
+      </button>
+      {open && (
+        <div className="v2-treatment-body">
+          {t.blocks.map((b, i) => (
+            <div key={i} className="v2-treat-block">
+              {b.label && <div className="v2-treat-label">{pick(b.label)}</div>}
+              <p className="v2-treat-text">{pick(b.text)}</p>
             </div>
-          </div>
-        ))}
-      </div>
-      <div className="sf-pathway-callout sf-pathway-blocking">
-        <div className="sf-callout-label">{t('sf.label.whatBlocking')}</div>
-        <p className="sf-callout-text">{data.blocking_now}</p>
-      </div>
-      <div className="sf-pathway-callout sf-pathway-next">
-        <div className="sf-callout-label">{t('sf.label.nextMove')}</div>
-        <p className="sf-callout-text">{data.next_move}</p>
-        {data.shy_tips && <ShyTips text={data.shy_tips} lang={lang} />}
-      </div>
-    </SectionShell>
+          ))}
+        </div>
+      )}
+    </div>
   )
 }
 
@@ -3270,7 +3340,14 @@ export default function SaffronPage({ nav, tab: tabFromUrl, onTabChange }) {
                           book_economics: <BookEconomics data={data.book_economics} lang={lang} />,
                           publisher_fork: <PublisherFork data={data.book_economics} lang={lang} />,
                         }} />)}
-                      {SB('pathway', <StrategicPathway data={data.pathway} t={t} />)}
+                      {/* StrategicPathway (a single "gallery representation" tracker) was
+                          replaced 2026-09-09 by Ladders, three named strategy tracks
+                          (gallery success, a following, international licensing) — this was
+                          built and shipped to the #observe2 prototype on 2026-09-08 but never
+                          ported to the main page, so the live "Strategies" heading kept
+                          showing just one item under a plural title. See
+                          docs/NEXT_PHASE_strategies.md for the original spec. */}
+                      {SB('ladders', <Ladders data={data} careerData={careerData} lang={lang} />)}
                       {/* "What a book costs" moved INSIDE the Publishing route on
                           2026-09-07. It was a standalone section about the same subject
                           two routes already covered, and its purpose was not legible
