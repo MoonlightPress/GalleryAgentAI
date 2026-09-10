@@ -133,6 +133,13 @@ ssh $SSH_OPTS "$SERVER" bash <<'REMOTE'
   # set), not her interaction data — force-update it too, or --ignore-existing keeps
   # the stale old peer list live (Pip, 2026-06-26).
   sudo rsync -a /tmp/mochi-app-stage/memory/peer_artists.json /opt/mochi/memory/
+  # translation_cache.json is MACHINE OUTPUT (translation engine -> cache ->
+  # api._i18n), not her data — there is no user edit here to protect, so
+  # --ignore-existing was simply pinning the server to whatever Chinese shipped
+  # first. Found 2026-09-11: 31 register fixes to the venue-tracker templates
+  # deployed green and did not change the live page, because the server already
+  # had the file. Anything that edits cached Chinese needs this line to land.
+  sudo rsync -a /tmp/mochi-app-stage/memory/translation_cache.json /opt/mochi/memory/
   # suppressed_opportunities.json: UNION-merge local (curated suppressions we
   # maintain, e.g. Scott's "no overseas relocation" pulls) with the server's
   # copy (which the in-app "not for me" button also writes to). --ignore-existing
