@@ -1593,6 +1593,25 @@ def load_opportunities() -> list:
     # "Past deadline" badge on venues you can pitch anytime, without a pipeline run.
     for x in items:
         x["deadline_past"] = _deadline_passed(x)
+        # An evergreen relationship venue's "deadline" field is usually a
+        # scrape artifact (an event date noticed on the site, not a binding
+        # cutoff) — _deadline_passed already exempts these from ever reading
+        # as "past" for filtering, but the raw date was still rendered on her
+        # card verbatim underneath a 📅 icon, so a scraped date from days ago
+        # read as a dead recommendation even though the venue (ongoing
+        # consignment, visit any time) is not. Scott, 2026-09-10, on B&B
+        # (Book & Beer) — an evergreen Shimokitazawa consignment shop whose
+        # quick_action says "visit in person... ask about consignment terms"
+        # — showing up with a two-days-past deadline in Today's Focus: "this
+        # site is falling apart." Clear the date under the exact same
+        # condition _deadline_passed uses to exempt the entry, so an
+        # evergreen venue never displays a date that reads as a missed one.
+        if x.get("category") in RELATIONSHIP_CATEGORIES:
+            _name = str(x.get("name") or x.get("title") or "").lower()
+            if not _DATED_CALL_RE.search(_name):
+                for _f in ("deadline", "deadline_zh", "deadline_ja"):
+                    if x.get(_f):
+                        x[_f] = ""
 
     # Backfill a missing category from the legacy "source_type" field at serve
     # time. A batch of older entries (added_by is unset — predates the current
