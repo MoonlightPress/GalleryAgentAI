@@ -53,7 +53,7 @@ export const STATES = {
   },
   g_representation: {
     label: T('A gallery that sells on your behalf', '一家代理你销售的画廊'),
-    detail: T('The largest structural step available now, and it grows from the shows already on record. Representation moves the price of a single painting, not only the number sold, because a gallery introduces collectors it intends to keep.', '目前可走的最大一步，而且是从已有的展览记录里长出来的。代理抬的是单张画的价格，不只是卖出的张数——因为画廊把作品介绍给的，是它打算长期留住的藏家。'),
+    detail: T('The largest structural step available now, and it grows from the shows already on record. Representation moves the price of a single painting, not only the number sold, because a gallery introduces collectors it intends to keep.', '目前可走的最大一步，而且是从已有的展览记录里长出来的。代理抬的是单张画的价格，不只是卖出的张数——因为画廊会把作品介绍给它打算长期留住的藏家。'),
   },
   g_fairs: {
     label: T('Stronger solo venues and art fairs', '更强的个展场地与艺博会'),
@@ -165,7 +165,7 @@ export const STATES = {
       blocks: [
         { label: T('Why Xiaohongshu suits this work', '为什么小红书适合这些画'),
           text: T('City scenes, interiors, daily life and Japan are among the most-read things on it, and the captions are in your first language rather than a second one. A Chinese artist living in Tokyo painting the city is a genre people already follow there — it needs no explaining.',
-                  '城市街景、室内、日常生活、日本，本来就是那上面阅读量最高的几类，而且配文用的是你的母语，不是第二语言。一个住在东京、画这座城市的中国画家，在那边本身就是有人追着看的内容——不需要解释。'),
+                  '城市街景、室内、日常生活、日本，本来就是那上面很受欢迎的几类，而且配文用的是你的母语，不是第二语言。一个住在东京、画这座城市的中国画家，在那边本身就是有人追着看的内容——不需要解释。'),
         },
         { label: T('What two audiences give that one does not', '两群读者比一群多出什么'),
           text: T('They buy in different currencies, are found by different algorithms, and do not disappear together when one platform changes how it shows work. A print run priced for one market can be sold into the other without making anything new.',

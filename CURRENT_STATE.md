@@ -4,7 +4,47 @@
 covers the volatile *what's true right now*. When the two disagree, this file wins —
 and whoever notices the drift should fix it here. Keep this file short.
 
-_Last updated: 2026-09-09_
+_Last updated: 2026-09-10_
+
+## DEPLOYED 2026-09-10 — Chinese cold read + a breakeven that double-counted
+
+Two passes, both verified on the rendered zh page rather than the data files.
+
+- **`book_economics_engine` was overstating every breakeven by ~36%.**
+  `outlay/(price-unit)`, but `outlay IS run*unit` — a prepaid run has already
+  bought every copy, so the unit cost came off twice. China 300: **109 → 80**,
+  "191 净赚" → **220**, consignment 183 → 114, fair appearances 5-6 → 4. The same
+  bug sat in `high_price_case`, which claimed a ¥4,950 run of 100 "cannot pay
+  for itself at all" — it breaks even at 65. `CONSIGNMENT_UNIT_CEILING` was a
+  magic `1500` derived from the bug; it is computed from her 70% share now
+  (3465). Route *ranking* was unaffected. `strategy_ladders.js` had the old 109
+  hardcoded with two ratios off it.
+- **The Chinese cold read** (`_reviews/2026-09-10_chinese_cold_read.md`): 11
+  sentences that did not parse, the `影片/短片/长片 → 视频/短视频/长视频` sweep
+  (they mean *motion picture* and *feature film* in mainland usage), `洗染` →
+  `水色` (textile dyeing, not a watercolour wash), kana glosses, and `「」 → “”`
+  inside Chinese only. Worst single item: `有的是` is a fixed idiom meaning
+  "there is no shortage of", so that sentence had been saying the opposite of
+  its point.
+- **`LETTER_JA` had no closing.** No `何卒よろしくお願い申し上げます`, politeness
+  flipping mid-paragraph, an exhibition count that read as 1+3=4, and a
+  question for a subject line. This is the letter she actually sends.
+
+**On the `_reviews/saffron_2026-09-10/` review** (another agent, open-ended
+"see if you find anything"): the book bug is its find and it is a good one.
+The 310 copy rewrites are **not** applied and should not be applied wholesale —
+191KB of review that never opens CLAUDE.md, CURRENT_STATE.md or the Bible, so
+it optimises for defensible claims and adds `你可以…` chores, against the
+no-chiding rule and the "Saffron describes, does not advise" spec. Every
+objection I could check (3) was a misreading. Three of its claim objections
+were real and are fixed — each a case where the zh overstated its own English.
+
+**Two traps worth knowing:** `_refresh_career_strategy()` runs only when she
+logs a career event, not at startup, and is wrapped in a bare `except: pass` —
+so `memory/career_strategy_report.json` can silently lag its engine locally.
+`deploy.sh:160` regenerates it server-side, so deploys are fine. And the live
+API is at `/api/*`, NOT `/mochi/api/*` — the latter returns the SPA HTML with a
+200, which will quietly pass a naive verification check.
 
 ## DEPLOYED 2026-09-09 (overnight) — visual pass + the audit acted on
 

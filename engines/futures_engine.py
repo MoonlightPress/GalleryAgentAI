@@ -301,7 +301,7 @@ _SELLING_DIRECT = [
 
         "粉丝数预测不了销量。在能查到具体数字的几个案例里，真正掏钱的人占观众的比例从 0.26% 到 15.8%，"
         "而其中观众最多的那一位转化率最低。真正起作用的是价格：一位东京插画师，粉丝两万七千"
-        "（不到你的零头），自出版的画集定价 11,000 日元，四个月卖了 400 本，约四百万日元。"
+        "（不到你全部触达的八分之一），自出版的画集定价 11,000 日元，四个月卖了 400 本，约四百万日元。"
         "剩下的大半，由另外两件小一点的事决定。你的读者住在哪里，比他们有多少人更能改变这笔账——"
         "航空小包寄一公斤到美国 2,720 日元，寄到东京市内 185 日元——"
         "而这个比例，你自己的 Instagram 后台里就有。"
@@ -1268,7 +1268,7 @@ def _standing(record: dict) -> dict:
         "no_gatekeepers": _t(
             "About 233,000 followers across five accounts and a shop already running, with a "
             "price ladder that stops at ¥2,200 and starts again at ¥31,900.",
-            "五个账号合计约 23.3 万人在看着，店铺也已经开着；价位到 2,200 日元就断了，再往上直接跳到 31,900。"),
+            "五个账号合计约 23.3 万人在关注，店铺也已经开着；价位到 2,200 日元就断了，再往上直接跳到 31,900。"),
         # NOT "every room so far paid for from your side", which was here until
         # 2026-09-07. It graded her choices, and it graded them on a premise that
         # is probably wrong: Galerie LE MONDE is an illustration-world gallery
@@ -1295,7 +1295,7 @@ def _standing(record: dict) -> dict:
         "on_assignment": _t(
             "Six years of delivering to a daily schedule, and a subject Japanese literary "
             "publishers buy covers in.",
-            "六年每天按时把画交出来，以及一个题材——日本的文学出版社会买来做封面。"),
+            "六年每天按时把画交出来，以及一个题材——会被日本的文学类出版社买去做封面。"),
     }
 
 

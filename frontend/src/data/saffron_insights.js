@@ -69,7 +69,7 @@ export const LICENSING_LANDSCAPE = {
           "name": "Book cover art (装画)",
           "name_zh": "书籍封面（装画）",
           "note": "Publishers commission cover art rather than license existing paintings. The Japan Illustrators' Association publishes a rate grid, and its figures are floors, not ceilings — covers run from ¥30,000 to ¥150,000 and up. Watercolour sits in its D rank, where a book cover starts at ¥70,000 and a magazine or catalogue cover at ¥100,000, so the bottom of that grid is not your row. It is dated January 2020 and says itself that prices will have moved since. There are named, dated ways in, which is what this entry used to be missing: ザ・チョイス, the quarterly competition run by illustration magazine, judged by a single rotating judge; and 装画コンペ at GALLERY HOUSE MAYA, judged by working book designers, open to all nationalities (資格：不問), grand prize a solo show — check its current status first, it was on hiatus in 2024.",
-          "note_zh": "出版社是来「约」封面画的，不会买断你已经画好的画。日本插画家协会公开过一张报价表，上面写的是起价，不是上限——封面从 3 万日元到 15 万日元以上都有。水彩属于表上的 D 级：书籍封面 7 万日元起，杂志或画册封面 10 万日元起，所以最低那一档不是你这一类。表标的日期是 2020 年 1 月，它自己也写了价格以后会变。而这里确实有指名道姓、写明时间的入口——这正是这一条以前缺的：《ザ・チョイス》（The Choice），illustration 杂志办的季度赛，每期由一位评委轮流评选；以及 GALLERY HOUSE MAYA 的「装画コンペ」（书籍封面画比赛），由在职的装帧设计师评审，不限国籍（原文写的是「資格：不問」），大奖是一个个展——先确认它现在的状态，2024 年曾经停办过一届。",
+          "note_zh": "出版社是来“约”封面画的，不会买断你已经画好的画。日本插画家协会公开过一张报价表，上面写的是起价，不是上限——封面从 3 万日元到 15 万日元以上都有。水彩属于表上的 D 级：书籍封面 7 万日元起，杂志或画册封面 10 万日元起，所以最低那一档不是你这一类。表标的日期是 2020 年 1 月，它自己也写了价格以后会变。而这里确实有指名道姓、写明时间的入口——这正是这一条以前缺的：《ザ・チョイス》（The Choice），illustration 杂志办的季度赛，每期由一位评委轮流评选；以及 GALLERY HOUSE MAYA 的「装画コンペ」（书籍封面画比赛），由在职的装帧设计师评审，不限国籍（原文写的是「資格：不問」），大奖是一个个展——先确认它现在的状态，2024 年曾经停办过一届。",
           "tier": "medium_term"
         },
         {

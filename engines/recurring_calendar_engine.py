@@ -131,7 +131,7 @@ DOORS = [
             "審査制・作家直接応募、年齢国籍不問。ブースは48,400円から。うち一名がグランプリ——Spiralアトリウムでの個展と50万円。"),
         "prepare": _t(
             "Work that reads from across a room — the booth is seen at a distance first.",
-            "要能从远处一眼看住的作品——展位首先是被远远看见的。",
+            "要能从远处一眼看到的作品——展位首先是被远远看见的。",
             "遠くからでも成立する作品——ブースはまず遠目に見られる。"),
     },
     {
@@ -143,7 +143,7 @@ DOORS = [
         "url": "https://www.tagboat.com/artevent/",
         "gives": _t(
             "Screened by the organiser, with 20–30 gallerists judging on the floor — one of the recognised routes galleries use to find new artists. A booth runs from about ¥45,000.",
-            "由主办方筛选，现场有 20–30 位画廊主担任评审——这是画廊发掘新人的公认渠道之一。展位费约 45,000 日元起。",
+            "由主办方筛选，现场有 20–30 位画廊主担任评审——这是画廊发掘新人的常见场合之一。展位费约 45,000 日元起。",
             "主催者による選考、当日は20〜30名のギャラリストが審査——ギャラリーが新しい作家を見つける定番の場のひとつ。ブースは約45,000円から。"),
         "prepare": _t(
             "One coherent wall, and a short answer to the question every gallerist on the floor asks — what is being made at the moment.",
@@ -307,7 +307,7 @@ DOORS = [
             "zine、アーティストブック、それを買う人たちの中に置くブース——印刷物の側の場。いちばん安い机で16,500円、売上に手数料はかからない。"),
         "status_note": _t(
             "The January 2027 edition is already full — applications closed in June 2026 — so the next way in is the edition after it. The call tends to open in spring.",
-            "2027 年 1 月这一届已经满了——报名在 2026 年六月就截止了——能进的是再下一届。征集通常在春天开始。",
+            "2027 年 1 月这一届的报名已经在 2026 年六月截止了——能赶上的是再下一届。征集通常在春天开始。",
             "2027年1月の回はすでに満員——応募は2026年6月に締め切られた——入れるのはその次の回。募集はおおむね春に始まる。"),
         "prepare": _t(
             "Something printed and finished. Three months is production time; the paperwork is an afternoon.",

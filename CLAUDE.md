@@ -207,7 +207,7 @@ Warm watercolor atelier overall. The CSS design tokens from `mochi_app.py` (arch
 
 ## Career Strategy Framework
 
-GEGYjiji's career is structured in four tiers. **Her current phase is computed dynamically** from her real record and lives in `memory/career_strategy_report.json` (`current_phase`, `readiness_scores`) — as of 2026-07-06 that is **Tier 3 established, building toward Tier 4** (evidence: 8 confirmed group shows, 2 solo shows, an institutional show, an international show, 2 publications; tier_3_readiness = 1.0, tier_4_readiness = 0.85). **Do not hardcode her tier** — engines that surface "what to do today" should read the report so scoring tracks her real progress. (This corrects an earlier hardcoded "Tier 1-2" that predated her exhibition record being entered.)
+GEGYjiji's career is structured in four tiers. **Her current phase is computed dynamically** from her real record and lives in `memory/career_strategy_report.json` (`current_phase`, `readiness_scores`) — as of 2026-07-06 that is **Tier 3 established, building toward Tier 4** (evidence: 8 confirmed group shows, 3 solo shows, an institutional show, an international show, 2 publications; tier_3_readiness = 1.0, tier_4_readiness = 0.85). **Do not hardcode her tier** — engines that surface "what to do today" should read the report so scoring tracks her real progress. (This corrects an earlier hardcoded "Tier 1-2" that predated her exhibition record being entered.)
 
 | Tier | Label | What It Is | Status (computed) |
 |---|---|---|---|
@@ -233,19 +233,27 @@ The full tier definitions live in `memory/artist_master_profile.json` under `car
 
 ## Artist Social Media
 
-**All four counts, settled 2026-09-08.** Read them from
-`artist_master_profile.social_presence`; never hardcode.
+**All five counts.** Read them from `artist_master_profile.social_presence`;
+never hardcode. (This table said "all four, settled 2026-09-08" and ≈168k until
+Weibo was added as a fifth tracked platform in `3f13c4e0` — the doc went stale
+against the profile the same week it was written, which is the argument for
+reading the profile rather than this table.)
 
 | Platform | Followers | |
 |---|---:|---|
 | **X / Twitter** @GegYjiji | **89,300** | her largest; audience reads English |
+| **Weibo** 微博 | 65,000 | |
 | **Xiaohongshu** 小红书 | 44,000 | |
 | **Instagram** @gegyjiji | 27,000 | https://www.instagram.com/gegyjiji/ — daily watercolor diary |
 | **Bilibili** 不好意思挤一挤 | 7,514 | uid 36798889; painting videos |
 
-≈168k total, but that is a **ceiling on reach, not a headcount** — overlap has
-never been measured. An unqualified "her audience" is now meaningless: the four
+≈233k total, but that is a **ceiling on reach, not a headcount** — overlap has
+never been measured. An unqualified "her audience" is now meaningless: the five
 accounts differ by 12×, so always name the platform.
+
+Weibo also changes the language split, which used to be ~2:1 English: ≈116,500
+read her in Chinese (Weibo, Xiaohongshu, Bilibili) against ≈116,300 in English
+(X, Instagram). Those are near-level now.
 
 The old "Instagram ~90k" error is closed: the 90k was always Twitter.
 
