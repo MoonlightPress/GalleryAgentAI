@@ -307,7 +307,7 @@ DOORS = [
             "zine、アーティストブック、それを買う人たちの中に置くブース——印刷物の側の場。いちばん安い机で16,500円、売上に手数料はかからない。"),
         "status_note": _t(
             "The January 2027 edition is already full — applications closed in June 2026 — so the next way in is the edition after it. The call tends to open in spring.",
-            "2027 年 1 月这一届的报名已经在 2026 年六月截止了——能赶上的是再下一届。征集通常在春天开始。",
+            "2027 年 1 月这一届的报名已经在 2026 年 6 月截止了——能赶上的是再下一届。征集通常在春天开始。",
             "2027年1月の回はすでに満員——応募は2026年6月に締め切られた——入れるのはその次の回。募集はおおむね春に始まる。"),
         "prepare": _t(
             "Something printed and finished. Three months is production time; the paperwork is an afternoon.",
