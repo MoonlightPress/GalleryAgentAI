@@ -123,11 +123,38 @@ export default function PaperAccents({ page }) {
     // toolbar animation, several ResizeObserver callbacks in one frame) only
     // triggers one recalculation instead of one per event.
     const ro = new ResizeObserver(measureDebounced)
-    document.querySelectorAll('.page-content-start').forEach((el) => ro.observe(el))
+    const observed = new Set()
+    const attachNewMarkers = () => {
+      let added = false
+      document.querySelectorAll('.page-content-start').forEach((el) => {
+        if (!observed.has(el)) {
+          observed.add(el)
+          ro.observe(el)
+          added = true
+        }
+      })
+      if (added) measureDebounced()
+    }
+    attachNewMarkers()
+    // A ResizeObserver only reacts to SIZE CHANGES of elements it is already
+    // watching — it has no way to notice a brand-new marker appearing. That
+    // was the actual bug behind "it's still popping up under the hero"
+    // (Scott, 2026-09-10): PaperAccents mounts and measures while Saffron is
+    // still showing App.jsx's Suspense fallback, when the shared Nav is the
+    // ONLY marker in the DOM; once the lazy chunk resolves and SaffronV2 mounts
+    // its own .sf-tabs marker, the accents had already locked onto the nav's
+    // position and nothing told them a lower, more specific marker had shown
+    // up. A MutationObserver on the marker's own root — not document.body,
+    // for the same jank reason as above — catches exactly that: a page
+    // finishing its lazy load and adding its subnav to the DOM.
+    const mo = new MutationObserver(attachNewMarkers)
+    const root = document.querySelector('.app')
+    if (root) mo.observe(root, { childList: true, subtree: true })
     window.addEventListener('resize', measureDebounced)
     return () => {
       if (debounceId) clearTimeout(debounceId)
       ro.disconnect()
+      mo.disconnect()
       window.removeEventListener('resize', measureDebounced)
     }
   }, [page])
