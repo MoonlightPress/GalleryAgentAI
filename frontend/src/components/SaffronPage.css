@@ -82,7 +82,12 @@
   margin-left: calc(50% - 50vw);
   margin-bottom: 8px;
   background: #FAF4E6;   /* match the opportunity cards (Scott) */
-  border-bottom: 1px solid #e8d5a8;
+  /* Thickened + coloured per Scott, 2026-09-10 — the same request as Mochi's
+     QuickNav (Nav.css) and Peppercorn's .pp-subnav, "on saffron the red
+     color we use on that page". #d4897a is --rose (index.css), already this
+     page's accent — the door-marker dots and counts on the year-strip
+     calendar grid (.cal-grid-mark-dot/-n, DeadlineCalendar.css) use it. */
+  border-bottom: 6px solid var(--rose, #d4897a);
   box-shadow: 0 3px 8px rgba(120, 90, 30, 0.06);
 }
 .sf-tab {

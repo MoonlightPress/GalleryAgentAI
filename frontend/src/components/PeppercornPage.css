@@ -59,19 +59,23 @@
 
 /* ── Subnav buffer ──────────────────────────────────────────────────────────
    A plain, opaque bar between nav's own cropped texture and the page's tiled
-   one below it — Peppercorn has no sub-nav (QuickNav/.sf-tabs) to sit at that
+   one below it — Peppercorn had no sub-nav (QuickNav/.sf-tabs) to sit at that
    seam the way Mochi and Saffron do, so the two crops met directly and read
-   as clashing. Went white -> a page-generic dark brown (10px) -> this: Scott,
-   2026-09-10, "make it a little thinner and green like the text on the page."
-   #2e3a2e is literally that — this page's own body-text colour (pp-card-
-   values, pp-card-current, etc.), not a new one, so the bar now reads as
-   Peppercorn's own rather than a borrowed neutral. */
+   as clashing (each of the three now carries its own accent bar in this same
+   spot — see .quick-nav-accent in Nav.css and .sf-tabs-accent in
+   SaffronPage.css). Went white -> a page-generic dark brown (10px) -> dark
+   green (#2e3a2e, this page's body-text colour) -> this: Scott, 2026-09-10,
+   "it should more green, maybe a little lighter." #6a8a5a is this page's
+   actual accent green (the palette comment at the top of this file, and
+   already the colour of pp-status-bar--saved, .pp-toggle:hover etc.) —
+   brighter and lighter than the near-black body-text green it was standing
+   in for. */
 .pp-subnav {
   position: sticky;
   top: calc(var(--nav-height, 54px) - 1px);
   z-index: 30;
   height: 6px;
-  background: #2e3a2e;
+  background: #6a8a5a;
   border-bottom: 1px solid var(--border);
 }
 .app--night .pp-subnav {

@@ -116,7 +116,15 @@
   padding: 12px 16px;
   margin-bottom: 8px;
   background: #FAF4E6;   /* match the opportunity cards (Scott) */
-  border-bottom: 1px solid #e8d5a8;
+  /* Thickened + coloured per Scott, 2026-09-10: after building Peppercorn's
+     accent bar under its own subnav (a separate element, since it had no
+     subnav to begin with — see .pp-subnav in PeppercornPage.css), "i think
+     maybe mochi should have one under the subnav too ... a purple." Mochi's
+     QuickNav already had a hairline border in this exact spot, so the accent
+     lives on it directly rather than as a new element. #8a6a7a is this app's
+     existing "stretch goal" purple (ROLE_CONFIG in TodaysFocus.jsx) — reused,
+     not invented, so the accent means the same thing anywhere else it's used. */
+  border-bottom: 6px solid #8a6a7a;
   box-shadow: 0 3px 8px rgba(120, 90, 30, 0.06);
 }
 @media (max-width: 640px) {
