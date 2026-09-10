@@ -4,7 +4,6 @@ import OppDetailPanel from './OppDetailPanel'
 import { cardsPerBatch } from '../utils/layout'
 import { getCache, setCache } from '../utils/apiCache'
 import { freshToHer } from '../utils/newOpportunities'
-import paperTexture from '../assets/texture/paper-stains.webp'
 import './OpportunitiesSection.css'
 import { useLanguage } from '../i18n/LanguageContext'
 import {
@@ -69,19 +68,28 @@ export function SectionHeader({ title, subtitle, sectionId }) {
   const image = SECTION_HEADER_IMAGE[sectionId] ?? DEFAULT_HEADER_IMAGE
   return (
     <div className="opp-section-header">
-      {/* Two things went wrong here in turn: a flat-colour background made the
-          band a mismatched solid box ("still has a tan background"), and then
-          NO background at all left the art's off-white canvas wash sitting at
-          raw opacity with nothing to melt it into the page ("I'd have to
-          delete the off-white values for these to fit" / "a little too
-          bright"). Multiply against the real page texture (not a flat colour)
-          fixes both: it darkens the raw pigment down to the page's own tone,
-          and any off-white/wash pixel — not just pure white — blends into
-          whatever's actually behind it instead of sitting there as a patch. */}
+      {/* Three things went wrong here in turn: a flat-colour background made
+          the band a mismatched solid box ("still has a tan background"); NO
+          background left the art's off-white canvas wash sitting at raw
+          opacity with nothing to melt it into the page ("I'd have to delete
+          the off-white values for these to fit" / "a little too bright");
+          then multiplying against the real page texture image regressed the
+          same way flat-colour did ("the section headers have a background
+          texture again", Scott 2026-09-10) the moment that texture asset
+          changed shape (doubled in height for the page's own seamless-tiling
+          fix) — background-size:cover on a box this wide/short crops a
+          totally different, differently-SCALED slice of it than whatever the
+          page itself is showing at that scroll position, so the two never
+          actually matched; they'd coincidentally looked close before by luck
+          of the old crop, not because the technique made them match. A flat
+          colour can't go out of sync like that — nothing to mis-crop — so
+          back to flat, but keeping the multiply blend this time (that part
+          of the second attempt was right: multiply, not opacity, is what
+          melts an off-white wash instead of leaving it sitting on top). */}
       <div
         className="opp-section-title-row"
         style={{
-          backgroundImage: `url(${headerUrl(image)}), url(${paperTexture})`,
+          backgroundImage: `url(${headerUrl(image)}), linear-gradient(var(--parchment), var(--parchment))`,
           backgroundBlendMode: 'multiply',
         }}
       >

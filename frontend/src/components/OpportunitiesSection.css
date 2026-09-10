@@ -120,10 +120,18 @@
      uses import.meta.env.BASE_URL, which is correct per-build.
 
      Two comma-separated values below: first applies to the illustration
-     layer, second to the texture layer (per-layer background-blend-mode is
-     set inline, matching this same 2-layer order). contain/center keeps the
-     illustration's own composition intact; cover/center on the texture avoids
-     a visible tiled seam across a band this short. */
+     layer, second to a flat linear-gradient(parchment, parchment) standing in
+     for a plain colour (background-blend-mode needs an image, not a bare
+     colour, to blend per-layer — this is the usual CSS trick for that). Used
+     to be the real page texture image instead of a flat colour, multiplied
+     the same way — regressed ("the section headers have a background texture
+     again", Scott 2026-09-10) the moment that texture asset changed shape,
+     because background-size:cover on a box this wide/short crops a
+     differently-SCALED slice of it than whatever the page itself shows at
+     that scroll position; they only ever looked matched by coincidence. A
+     flat colour can't drift out of sync like that. contain/center keeps the
+     illustration's own composition intact; the second value's sizing doesn't
+     matter now (a uniform-colour gradient looks identical at any size). */
   background-position: center, center;
   background-size: contain, cover;
   background-repeat: no-repeat, no-repeat;
