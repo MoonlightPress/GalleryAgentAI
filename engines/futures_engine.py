@@ -796,7 +796,7 @@ _PUBLISHING = [
         # book but states no route, so its line says what is true instead of
         # implying a door.
         {"name": _t("マール社——「いつでも、どなたでも」, and no publishing record required. If a proposal is taken they publish at their own expense, with nationwide bookshop distribution. A reply comes inside a month; nothing is returned.",
-                    "マール社——「いつでも、どなたでも」，也不要求你出过书。方案一旦被采用，由他们出钱出版，并进入全国书店。一个月内回复；寄去的东西不退。"),
+                    "マール社（Maar 社）——投稿页写着「いつでも、どなたでも」（随时，任何人），也不要求你出过书。方案一旦被采用，由他们出钱出版，并进入全国书店。一个月内回复；寄去的东西不退。"),
          "url": "https://www.maar.com/plan"},
         {"name": _t("青幻舎——a form for proposals only: a portfolio showing the work, your history and profile, plus a plan and image files, attachments up to 10MB",
                     "青幻舎——只走方案投递专用表单：作品集（作品、活动经历、简介）、方案、图像数据，附件上限 10MB"),
@@ -850,7 +850,7 @@ _COMMISSIONS = [
 
         "建筑与氛围类的画在封面上有明确需求：文学小说的封面，大量依赖的正是这一类图像。"
         "那份费率表的五个媒介档次里，手绘水彩排在第二高。"
-        ""
+        "所以一张 70,000 日元的封面，价钱和你自己的一张原作差不多。"
         "当授权范围扩大、图像被再次使用，或者这次发表把作品带到下一个客户面前时，"
         "商业委托才变得更有吸引力。"
         "同一张图反复被用时，二次使用可以按原稿费再付一笔，公开的比例依次是 70%、50%、50%、20%。"
