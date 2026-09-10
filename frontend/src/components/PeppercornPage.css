@@ -61,19 +61,17 @@
    A plain, opaque bar between nav's own cropped texture and the page's tiled
    one below it — Peppercorn has no sub-nav (QuickNav/.sf-tabs) to sit at that
    seam the way Mochi and Saffron do, so the two crops met directly and read
-   as clashing. First pass was solid white; Scott, 2026-09-10: "that white bar
-   ... is the wrong color... that sort of darker brown color. just so it's a
-   little bit of a contrast between the two sections. maybe like 10 pixels
-   tall?" — a dark, short DIVIDER rather than a section trying to blend in.
-   #8a6f4a is already this page's tagline/muted-text brown (sf-future-tagline
-   etc. in SaffronPage.css), reused here for the same "warm dark brown" the
-   rest of the palette already means by it, not a new colour. */
+   as clashing. Went white -> a page-generic dark brown (10px) -> this: Scott,
+   2026-09-10, "make it a little thinner and green like the text on the page."
+   #2e3a2e is literally that — this page's own body-text colour (pp-card-
+   values, pp-card-current, etc.), not a new one, so the bar now reads as
+   Peppercorn's own rather than a borrowed neutral. */
 .pp-subnav {
   position: sticky;
   top: calc(var(--nav-height, 54px) - 1px);
   z-index: 30;
-  height: 10px;
-  background: #8a6f4a;
+  height: 6px;
+  background: #2e3a2e;
   border-bottom: 1px solid var(--border);
 }
 .app--night .pp-subnav {
