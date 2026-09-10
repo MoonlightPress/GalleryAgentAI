@@ -307,6 +307,13 @@ export const GRANT_LANDSCAPE = {
       "tip": "The requirements are heavy: finished works must be at least 1.5m × 1.5m, and on the 美术创作 route the painting is collected by a Chinese state museum. That is a different practice from the one you have.",
       "tip_zh": "门槛不低：成品尺寸至少 1.5 米 × 1.5 米；走美术创作这条线的话，作品要交给国内国有美术馆收藏。这和你现在的画法是两回事。"
     },
+    // This item is intentionally NOT rendered — GrantLandscape (SaffronPage.jsx)
+    // skips any item with category_note. It used to show as a callout at the end
+    // of the Grant Landscape section; Scott, 2026-09-10: "there is a section that
+    // says one opportunity doesn't apply. then why are you showing it to her?"
+    // Kept here so nobody re-adds Bunka-cho or the Japan Foundation as a live
+    // option without re-checking eligibility first — it's the record of why they
+    // were removed, not something meant for her to read.
     {
       "category_note": "Checked, and closed to you",
       "category_note_zh": "已核实：这两扇门对你是关的",

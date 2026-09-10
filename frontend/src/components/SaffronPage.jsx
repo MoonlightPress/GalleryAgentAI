@@ -2311,7 +2311,16 @@ function PressPitchMap({ t, lang }) {
 export function GrantLandscape({ t, lang }) {
   const d = localizeDeep(GRANT_LANDSCAPE, lang)
   const grants = d.items.filter(item => item.name)
-  const strategyNote = d.items.find(item => item.category_note)
+  // The data's category_note item (GRANT_LANDSCAPE, saffron_insights.js) records
+  // two grants checked and confirmed closed to her (Bunka-cho, Japan Foundation —
+  // both require Japanese/ASEAN nationality or PR). It used to render as a
+  // callout at the end of this section. Scott, 2026-09-10, on seeing it: "there
+  // is a section that says one opportunity doesn't apply. then why are you
+  // showing it to her?" — right question. It answered "is this closed door real"
+  // for whoever last verified the data, not "what should she do next"
+  // (CLAUDE.md: actionability is the product), so it stopped earning a section
+  // on her page. Left in the data file, unrendered, so the research survives and
+  // nobody re-adds either grant as a live option without re-checking first.
   return (
     <SectionShell title={t(d.titleKey)} summary={t(d.summaryKey)}>
       <WhereToStart d={d} t={t} lang={lang} />
@@ -2358,12 +2367,6 @@ export function GrantLandscape({ t, lang }) {
           </div>
         ))}
       </div>
-      {strategyNote && (
-        <div className="sf-insight-callout" style={{ marginTop: 24 }}>
-          <div className="sf-block-label">{locF(strategyNote, 'category_note', lang)}</div>
-          <p className="sf-info-text">{locF(strategyNote, 'note', lang)}</p>
-        </div>
-      )}
     </SectionShell>
   )
 }
