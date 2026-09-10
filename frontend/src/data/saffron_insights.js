@@ -103,7 +103,7 @@ export const LICENSING_LANDSCAPE = {
           "name": "What an audience is worth here",
           "name_zh": "受众在这件事里值多少",
           "note": "A following is a real asset in these conversations — a brand is buying reach as well as a picture, and yours runs to about 232,800 across five accounts. What nobody publishes is how often that converts into a deal, or what it adds to a fee. Anyone who tells you a number for that is guessing.",
-          "note_zh": "在这类洽谈里，受众是实打实的资产——品牌买的是一张画，也是这张画能被多少人看见，而你五个账号加起来大约有 23.28 万人。至于这有多大可能真换来一份合约、能让报价多出多少，没有人公开过。谁给你数字，谁就是在猜。",
+          "note_zh": "在这类洽谈里，受众是实打实的资产——品牌买的是一张画，也是这张画能被多少人看见，而你五个账号加起来大约有 23.3 万人。至于这有多大可能真换来一份合约、能让报价多出多少，没有人公开过。谁给你数字，谁就是在猜。",
           "tier": "now"
         }
       ]
