@@ -292,11 +292,11 @@
     },
     "weibo": {
       "platform": "微博 / Weibo",
-      "handle": null,
+      "handle": "GEGY挤挤 (weibo.com/u/5738959306)",
       "followers": "65k",
       "followers_approx": 65000,
       "_source": "Scott, 2026-09-09 — had a Chinese-speaking person check the account directly (not an API read like Bilibili, not self-reported like Xiaohongshu/X/Instagram).",
-      "note": "Fifth platform found; same pattern as Xiaohongshu and Bilibili — recorded here because it turned out to exist, not because she started it now. Handle/URL not yet recorded. Not yet reasoned about in any Saffron copy — a sweep of the site's 'four platforms' / follower-total language is needed to bring it in.",
+      "note": "Fifth platform found; same pattern as Xiaohongshu and Bilibili — recorded here because it turned out to exist, not because she started it now. Handle recorded 2026-09-10 from online_handles.weibo, which had it all along while this entry said it was unknown. The site-wide sweep off 'four platforms' / the old ~168k total is done: strategy_ladders.js and saffron_insights.js now carry five platforms and ~233k.",
       "verified": "2026-09-09 (Scott, via third-party check)"
     },
     "_totals": {

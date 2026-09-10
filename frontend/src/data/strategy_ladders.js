@@ -130,7 +130,7 @@ export const STATES = {
                   '你最近的短片没有重现那个结果——去年八月那条 0:36 的只有 139 播放。2023 年那一轮有的是一个「钩子」：一本画完的 365 天日记、编好号的集数、每周一条。人们是回来看下一集的。值得保留的是这件事，而它跟拍摄技巧无关。'),
         },
         { label: T('This is how the follower number actually moves', '粉丝数是怎么涨起来的'),
-          text: T('An audience grows when something reaches people who are not following you yet — otherwise you are showing the same work to the same room. On the one channel where the numbers are public, 9 of your 33 videos got more views than you have followers there; 8 of those 9 were under two and a half minutes, and the best did 7.3x. Those six weeks went out one a week, straight. The cadence is not something to learn — it is something to repeat.',
+          text: T('An audience grows when something reaches people who are not following you yet — otherwise you are showing the same work to the same room. On the one channel where the numbers are public, 9 of your 33 videos have more views than you have followers there today; 8 of those 9 were under two and a half minutes, and the best did 7.3x. Those six weeks went out one a week, straight. The cadence is not something to learn — it is something to repeat.',
                   '受众会涨，是因为有东西触到了还没关注你的人；否则就是把同样的作品，反复放给同一屋子人看。在唯一能看到数字的那个频道上，你 33 条影片里有 9 条的播放量超过了你在那边的粉丝数，其中 8 条都在两分半以内，最好的一条是 7.3 倍。那六周是连续每周一条发出去的。这个节奏不需要学，只需要再做一次。'),
         },
         { label: T('Not stories', '不要只发限时动态'),
@@ -236,8 +236,13 @@ export const STATES = {
   },
   l_inbound: {
     label: T('Brands arriving unprompted', '品牌自己找上门'),
-    detail: T('The state this ladder is for. Hobonichi hand-picks illustrators whose work has a distinct voice rather than reading submissions — at this end of the ladder you are found rather than pitching.',
-              '这条阶梯就是为了到达这个状态。Hobonichi 挑插画师，看重的是独特的个人风格，而不是看投稿——到了阶梯的这一端，是别人找上你，而不是你去投稿。'),
+    // "hand-picks illustrators whose work has a distinct voice" was invented —
+    // the sourced note (LICENSING_LANDSCAPE, saffron_insights.js) says only
+    // that Hobonichi runs the Artist Collection line and publishes no
+    // submission route, last open call 2010. Replaced with what was actually
+    // verified, 2026-09-10; it makes the point better than the gloss did.
+    detail: T('The state this ladder is for. Hobonichi runs a standing Artist Collection line of Techo covers with named illustrators, and publishes no submission route at all — the last open call closed in 2010. A door like that only opens from the other side.',
+              '这条阶梯就是为了到达这个状态。ほぼ日有常设的「アーティストコレクション」手账封面系列，上面写着插画师的名字；而他们完全没有公开任何投稿入口——最后一次公开征集是 2010 年。这样的门，只会从另一边打开。'),
   },
 }
 

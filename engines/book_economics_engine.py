@@ -181,7 +181,9 @@ def build(price_jpy: int = DEFAULT_PRICE) -> dict:
 
     # A small run is not rescued by selling harder — it is rescued by pricing
     # higher. The clearest comparable is a Tokyo illustrator with 27k followers
-    # (she has ~26k) who priced a self-published art book at ¥11,000 and sold
+    # (she has ~27k on Instagram alone, ~233k across five platforms — this is a
+    # comparable for PRICING, not for reach) who priced a self-published art book
+    # at ¥11,000 and sold
     # 400 copies in four months. At that price a 100-copy run pays for itself at
     # 41 copies; at ¥4,950 it cannot pay for itself at all. Worth showing,
     # because "print a small run" is the intuitive move and the arithmetic

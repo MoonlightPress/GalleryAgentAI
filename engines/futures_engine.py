@@ -109,7 +109,7 @@ lacks under a heading about what she has.
 
 from typing import Optional
 
-from .book_economics_engine import DEFAULT_PRICE as _BOOK_PRICE, reference_run
+from .book_economics_engine import DEFAULT_PRICE as _BOOK_PRICE, ROYALTY_BAND as _ROYALTY_BAND, reference_run
 from .outreach_kit_engine import build as _build_outreach
 
 
@@ -124,6 +124,45 @@ def _t(en: str, zh: str) -> dict:
 # which is exactly the two-sections-of-one-page-disagreeing failure the Data
 # Patch Rule is about.
 _BOOK = reference_run()
+
+# The publisher row of the economics table, same rule: derived, not typed. A
+# publisher royalty is a percentage of COVER price, so both figures fall out of
+# book_economics_engine's own ROYALTY_BAND and DEFAULT_PRICE and cannot drift
+# away from what that engine tells her two sections further down the page.
+_ROY_LO = round(_BOOK_PRICE * _ROYALTY_BAND[0])
+_ROY_HI = round(_BOOK_PRICE * _ROYALTY_BAND[1])
+_ROY_PER_COPY = f"¥{_ROY_LO:,}–{_ROY_HI:,}"
+_ROY_PER_COPY_ZH = f"{_ROY_LO:,}–{_ROY_HI:,} 日元"
+_ROY_300 = f"¥{_ROY_LO * 300:,}–{_ROY_HI * 300:,}"
+_ROY_300_ZH = f"{_ROY_LO * 300:,}–{_ROY_HI * 300:,} 日元"
+
+# Her originals sell for ¥31,900–115,500 (artist_master_profile.json
+# pricing.originals low_jpy/high_jpy). "How many paintings does this room cost"
+# was being answered three different ways in the same section: Moon's "about one
+# painting" only holds at her TOP price, KAZE's "four originals" only at her
+# FLOOR, and LE MONDE's "about six" at neither (Fable audit, 2026-09-10). A room
+# costs a RANGE of paintings because her paintings are a range of prices, so
+# that is what it says now — the same convention RecurringDoors already uses.
+_ORIGINAL_LO, _ORIGINAL_HI = 31_900, 115_500
+
+
+def _paintings_for(cost_jpy: int, commission: float = 0.0) -> tuple:
+    """(fewest, most) originals needed to cover a venue cost, at her price band.
+
+    With a commission the gallery keeps a share of each sale, so she has to sell
+    gross enough for her share to clear the fee.
+    """
+    gross = cost_jpy / (1 - commission)
+    fewest = -(-int(gross) // _ORIGINAL_HI)   # ceil, at her top price
+    most = -(-int(gross) // _ORIGINAL_LO)     # ceil, at her floor
+    return fewest, most
+
+
+def _paintings_phrase(cost_jpy: int, commission: float = 0.0, zh: bool = False) -> str:
+    lo, hi = _paintings_for(cost_jpy, commission)
+    if lo == hi:
+        return f"{lo} 张画" if zh else (f"{lo} painting" if lo == 1 else f"{lo} paintings")
+    return f"{lo}–{hi} 张画" if zh else f"{lo}–{hi} paintings"
 
 # Same rule for the letter. `outreach_kit_engine` owns it, including the fix
 # that matters: the line naming the show she attended is a placeholder, because
@@ -252,9 +291,9 @@ _SELLING_DIRECT = [
         "A follower count does not predict sales. Across the paired cases that could be checked, "
         "the share of an audience that actually bought ran from 0.26% to 15.8%, and the largest "
         "audience of the set converted worst. Price is the lever instead: a Tokyo illustrator "
-        "with 27,000 followers, about the same reach, published an art book at ¥11,000 and sold "
+        "with 27,000 followers — a fraction of your reach — published an art book at ¥11,000 and sold "
         "400 copies in four months, roughly ¥4 million. "
-        "Two smaller levers decide most of the rest. Where those 27,000 live changes the "
+        "Two smaller levers decide most of the rest. Where your readers live changes the "
         "arithmetic more than how many they are, since air mail runs ¥2,720 a kilo to the US "
         "against ¥185 across Tokyo — and that split is one figure inside your own Instagram "
         "insights. And anything under three centimetres thick is worth ¥465 on every domestic "
@@ -262,8 +301,8 @@ _SELLING_DIRECT = [
 
         "粉丝数预测不了销量。在能查到具体数字的几个案例里，真正掏钱的人占观众的比例从 0.26% 到 15.8%，"
         "而其中观众最多的那一位转化率最低。真正起作用的是价格：一位东京插画师，两万七千粉丝，"
-        "规模和你差不多，自出版的画集定价 11,000 日元，四个月卖了 400 本，约四百万日元。"
-        "剩下的大半，由另外两件小一点的事决定。这两万七千人住在哪里，比他们有多少人更能改变这笔账——"
+        "只是你影响力的一小部分，自出版的画集定价 11,000 日元，四个月卖了 400 本，约四百万日元。"
+        "剩下的大半，由另外两件小一点的事决定。你的读者住在哪里，比他们有多少人更能改变这笔账——"
         "航空小包寄一公斤到美国 2,720 日元，寄到东京市内 185 日元——"
         "而这个比例，你自己的 Instagram 后台里就有。"
         "另外，厚度控制在三厘米以内，每件国内包裹省 465 日元；这是在设计阶段、开印之前就定下的。")},
@@ -358,7 +397,8 @@ _GALLERIES = [
         {"cells": [_t("Representing gallery", "代理画廊"), _t("¥0", "0"), _t("about 50%", "约 50%"),
                    _t("¥0", "0")]},
         {"cells": [_t("Moon Gallery rental", "Moon Gallery 租赁"), _t("¥100,000 / 5 days", "10 万 / 5 天"),
-                   _t("0%", "0%"), _t("about one painting", "约一张画")]},
+                   _t("0%", "0%"),
+                   _t(_paintings_phrase(100_000), _paintings_phrase(100_000, zh=True))]},
         # NOT "rental". The gallery states plainly that it is 「場所貸し」ではない
         # — the director picks who shows, from the work and from recommendations
         # by illustrators already showing there. Filing her show under "rental"
@@ -366,7 +406,8 @@ _GALLERIES = [
         # galerielemonde.com/about and in the 2023 GENSEKI interview).
         {"cells": [_t("Galerie LE MONDE, 12-day solo", "Galerie LE MONDE，12 天个展"),
                    _t("¥374,000 / 12 days", "37.4 万 / 12 天"), _t("30%", "30%"),
-                   _t("about six paintings", "约六张画")]},
+                   _t(_paintings_phrase(374_000, 0.30),
+                      _paintings_phrase(374_000, 0.30, zh=True))]},
      ]},
 
        # NOT a description of what LE MONDE is. "i do think you're leaning too hard
@@ -489,8 +530,8 @@ _GALLERIES = [
         "concept, so it takes a proposal by email rather than a booking.\n\n"
         "Gallery KAZE in Kichijoji is ¥110,000 for six days with no commission on sales, in 40m² "
         "with twenty metres of wall. It has a watercolour solo booked this October——青山一樹, "
-        "「水彩でえがく情景」——and its 2027 calendar is still mostly open. Four originals at your "
-        "prices cover the room.\n\n"
+        "「水彩でえがく情景」——and its 2027 calendar is still mostly open. At your prices "
+        f"that room costs {_paintings_phrase(110_000)}.\n\n"
         "Moon Gallery you already know: ¥100,000 for five days, no commission, and nobody has to "
         "sit the room.",
 
@@ -499,7 +540,7 @@ _GALLERIES = [
         "整个项目靠楼下的咖啡店养着。它按方案选人，所以要发邮件提方案，不是订档期。\n\n"
         "吉祥寺的 Gallery KAZE，六天 11 万日元，销售不抽成，40 平方米、20 米挂画墙。"
         "今年十月那里有一场水彩个展——青山一树，《水彩でえがく情景》——2027 年的档期大半还空着。"
-        "按你的价格，卖出四张原作就能覆盖场地费。\n\n"
+        f"按你的价格，这个空间相当于卖出 {_paintings_phrase(110_000, zh=True)}。\n\n"
         "Moon Gallery 你已经熟悉了：五天 10 万日元，不抽成，也不需要人守场。")},
 
     {"kind": "links",
@@ -712,8 +753,15 @@ _PUBLISHING = [
     {"kind": "table",
      "headers": [_t("", ""), _t("You keep per copy", "每本你拿到"), _t("300 copies", "300 本")],
      "rows": [
-        {"cells": [_t("Publisher", "出版社出版"), _t("¥115–240", "115–240 日元"),
-                   _t("¥34,500–72,000", "34,500–72,000 日元")]},
+        # Computed from book_economics_engine's ROYALTY_BAND × DEFAULT_PRICE
+        # rather than typed. The typed figure was ¥115–240 — 3–6% of cover,
+        # against the 8–10% that book_economics documents as the Japanese
+        # convention and computes everything else from. Two sections of one tab
+        # therefore quoted different royalties for the same book (Fable audit,
+        # 2026-09-10). Line 122's comment already says the print-run arithmetic
+        # has one home; this row simply had not been moved into it yet.
+        {"cells": [_t("Publisher", "出版社出版"), _t(_ROY_PER_COPY, _ROY_PER_COPY_ZH),
+                   _t(_ROY_300, _ROY_300_ZH)]},
         {"cells": [_t("Self-published hardcover", "自己出版的精装本"), _t("¥3,635", "3,635 日元"),
                    _t("¥1,090,500", "1,090,500 日元")]},
      ]},
@@ -967,7 +1015,7 @@ _OPENERS = {
         # The other four routes' upsides blocks are genuinely comparative; this
         # was the odd one out, and it is the first route she opens.
         _t("You keep the whole margin. A gallery takes about half of a sale, a publisher leaves "
-           "¥115–240 of a ¥4,400 book, and a licence pays once for a use somebody else has "
+           f"{_ROY_PER_COPY} of a ¥{_BOOK_PRICE:,} book, and a licence pays once for a use somebody else has "
            "defined — here everything above cost stays on your side. You set the price rather "
            "than arguing for it, and nothing waits on an application, a jury or somebody's "
            "programme, so a decision made on Monday can be earning by Friday. None of the other "
@@ -976,8 +1024,8 @@ _OPENERS = {
            "there and already looking, so a new product reaches it the same afternoon, with no "
            "introduction to arrange and nobody's permission to wait for.",
 
-           "整个毛利都归你。每卖一张，画廊抽走大约一半；一本 4,400 日元的书，出版社分给你 "
-           "115–240 日元，授权那边，是别人按定好的用途一次性付你一笔钱——在这条路上，成本以外的钱全是你的。"
+           f"整个毛利都归你。每卖一张，画廊抽走大约一半；一本 {_BOOK_PRICE:,} 日元的书，出版社分给你 "
+           f"{_ROY_PER_COPY_ZH}，授权那边，是别人按定好的用途一次性付你一笔钱——在这条路上，成本以外的钱全是你的。"
            "价格是你定的，不需要替它争取；也没有任何一件事要等申请、等评审、等别人的排期，"
            "所以周一做的决定，周五就可能在挣钱。其他四条路没有一条做得到。\n\n"
            "别的路要先把观众攒起来，这条路一开始就有。观众已经在了，而且已经在看，"
@@ -1085,7 +1133,7 @@ _OPENERS = {
            "这一点这份清单上别处完全没有。"),
 
         # The per-copy figures live in the economics table two blocks down; this
-        # block gave the same ¥115-240 against ¥3,635 and the two read as one
+        # block gave the same royalty figure against ¥3,635 and the two read as one
         # paragraph printed twice. The cost that is not in the table is the
         # waiting, so that is what this says.
         _t("With a publisher, the variable is their consent, and it moves on a timescale nobody "
