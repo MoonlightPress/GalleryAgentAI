@@ -226,7 +226,7 @@ _FRAME = _t(
     "yourself, increase what the rest of the work is worth, or create revenue without requiring "
     "another original.",
 
-    "你已经有一套跑起来的创作和生意——六年的画、一批固定的观众、直接销售、委托，还有一份展览履历——"
+    "你已经有一套运转起来的创作和生意——六年的画、一批固定的观众、直接销售、委托，还有一份展览履历——"
     "所以现在值得问的是：换一条路，能拿到什么现在这条路上拿不到的东西。\n\n"
     "一张原作已经能卖到 31,900–115,500 日元，后面所有的账都拿这个数来比。往里面再加东西，"
     "至少要做到其中一件：让画完的作品再挣一次钱，卖给你自己够不着的买家，"
@@ -300,8 +300,8 @@ _SELLING_DIRECT = [
         "parcel, decided at the design stage, before anything is printed.",
 
         "粉丝数预测不了销量。在能查到具体数字的几个案例里，真正掏钱的人占观众的比例从 0.26% 到 15.8%，"
-        "而其中观众最多的那一位转化率最低。真正起作用的是价格：一位东京插画师，两万七千粉丝，"
-        "只是你影响力的一小部分，自出版的画集定价 11,000 日元，四个月卖了 400 本，约四百万日元。"
+        "而其中观众最多的那一位转化率最低。真正起作用的是价格：一位东京插画师，粉丝两万七千"
+        "（不到你的零头），自出版的画集定价 11,000 日元，四个月卖了 400 本，约四百万日元。"
         "剩下的大半，由另外两件小一点的事决定。你的读者住在哪里，比他们有多少人更能改变这笔账——"
         "航空小包寄一公斤到美国 2,720 日元，寄到东京市内 185 日元——"
         "而这个比例，你自己的 Instagram 后台里就有。"
@@ -540,7 +540,7 @@ _GALLERIES = [
         "整个项目靠楼下的咖啡店养着。它按方案选人，所以要发邮件提方案，不是订档期。\n\n"
         "吉祥寺的 Gallery KAZE，六天 11 万日元，销售不抽成，40 平方米、20 米挂画墙。"
         "今年十月那里有一场水彩个展——青山一树，《水彩でえがく情景》——2027 年的档期大半还空着。"
-        f"按你的价格，这个空间相当于卖出 {_paintings_phrase(110_000, zh=True)}。\n\n"
+        f"按你的价格，租下这个空间等于要卖出 {_paintings_phrase(110_000, zh=True)}。\n\n"
         "Moon Gallery 你已经熟悉了：五天 10 万日元，不抽成，也不需要人守场。")},
 
     {"kind": "links",
@@ -1268,7 +1268,7 @@ def _standing(record: dict) -> dict:
         "no_gatekeepers": _t(
             "About 233,000 followers across five accounts and a shop already running, with a "
             "price ladder that stops at ¥2,200 and starts again at ¥31,900.",
-            "五个账号合计约 23.3 万人在看着，店铺已经在跑；价位到 2,200 日元就断了，再往上直接跳到 31,900。"),
+            "五个账号合计约 23.3 万人在看着，店铺也已经开着；价位到 2,200 日元就断了，再往上直接跳到 31,900。"),
         # NOT "every room so far paid for from your side", which was here until
         # 2026-09-07. It graded her choices, and it graded them on a premise that
         # is probably wrong: Galerie LE MONDE is an illustration-world gallery
@@ -1295,7 +1295,7 @@ def _standing(record: dict) -> dict:
         "on_assignment": _t(
             "Six years of delivering to a daily schedule, and a subject Japanese literary "
             "publishers buy covers in.",
-            "六年每天按时把画交出来，以及一个日本文学出版社会买来做封面的题材。"),
+            "六年每天按时把画交出来，以及一个题材——日本的文学出版社会买来做封面。"),
     }
 
 

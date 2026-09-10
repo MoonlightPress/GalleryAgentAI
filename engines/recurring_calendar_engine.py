@@ -34,7 +34,7 @@ third person, which reads as a case file to the person it is about. The five
 strings it corrected were genuinely wrong — they ASSIGNED work — but the fix for
 an imperative is to describe, not to switch person. Five strings addressed her directly ("A show you
 were going to do anyway", "You qualify for the Mainland China track", "the
-printed-matter world you already come from", 「为你这种情况设的」, and the
+printed-matter world you already come from", “为你这种情况设的”, and the
 "paintings you don't have to sell" label in `SaffronPage.jsx`) and were rewritten
 2026-09-06. The page describes; it does not talk to anyone.
 """
@@ -94,7 +94,7 @@ DOORS = [
             "展示に40万円、年齢制限なし、個展の企画も可。"),
         "prepare": _t(
             "The same body of work, plus a written plan for how it fills a room.",
-            "同一批作品，外加一份「它如何撑起一个空间」的书面构想。",
+            "同一批作品，外加一份“它如何撑起一个空间”的书面构想。",
             "同じ作品群と、それが空間をどう満たすかを書いた構想。"),
     },
     {
@@ -114,7 +114,7 @@ DOORS = [
             "墨田で60〜90日・制作費付き、または台北・ソウル・ヘルシンキへ約3か月の全額助成。国籍不問。"),
         "prepare": _t(
             "A reason to be somewhere — what the place would change about the work.",
-            "一个「为什么要去那里」的理由——那个地方会让作品发生什么变化。",
+            "一个“为什么要去那里”的理由——那个地方会让作品发生什么变化。",
             "「なぜそこへ行くのか」——その土地が作品に何をもたらすか。"),
     },
     {
@@ -147,7 +147,7 @@ DOORS = [
             "主催者による選考、当日は20〜30名のギャラリストが審査——ギャラリーが新しい作家を見つける定番の場のひとつ。ブースは約45,000円から。"),
         "prepare": _t(
             "One coherent wall, and a short answer to the question every gallerist on the floor asks — what is being made at the moment.",
-            "一面完整连贯的墙，和一句能回答「最近在做什么」的简短说明——现场每一位画廊主都会问这句。",
+            "一面完整连贯的墙，和一句能回答“最近在做什么”的简短说明——现场每一位画廊主都会问这句。",
             "一面ぶんのまとまりと、会場のギャラリストが必ず訊く「いま何を作っているか」への短い答え。"),
     },
     {
@@ -258,11 +258,11 @@ DOORS = [
             "最大35,000米ドル。資格は国籍で決まるので、中国籍であれば居住地を問わない——日本の留学ビザ単体では対象にならない。5年の活動歴が条件で、フェロー期間中は大学の課程から一時的に離れることになる。"),
         "status_note": _t(
             "The leave-of-absence clause is the one to check first, since a 留学 residence status depends on being enrolled. The Immigration Information Centre answers this kind of question for free.",
-            "先要弄清楚的是「休学」这一条，因为留学在留资格本身以在学为前提。外国人在留综合信息中心可以免费咨询这类问题。",
+            "先要弄清楚的是“休学”这一条，因为留学在留资格本身以在学为前提。外国人在留综合信息中心可以免费咨询这类问题。",
             "まず確かめるべきは休学の条項。留学の在留資格は在学が前提になっている。外国人在留総合インフォメーションセンターで無料で相談できる。"),
         "prepare": _t(
             "References, and a plan measured in months rather than weeks. Three months is the realistic run-up — this is the longest form on the list.",
-            "推荐人，以及一份以「月」而不是「周」为单位的计划。三个月是实际需要的准备期——这是清单上最长的一份申请。",
+            "推荐人，以及一份以“月”而不是“周”为单位的计划。三个月是实际需要的准备期——这是清单上最长的一份申请。",
             "推薦者と、週単位ではなく月単位の計画。準備には実際に3か月かかる——このリストで最も重い書類。"),
     },
     {

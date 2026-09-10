@@ -788,7 +788,10 @@ export function ComparableArtists({ artists, t }) {
 const LADDER_COPY = {
   en: { title: 'Strategies', sub: 'Different goals, overlapping tasks, different orders',
         done: (a, b) => `${a} of ${b} already reached`, also: 'Also counts toward',
-        nextUp: 'Next:',
+        // Trailing space lives in the label, not the JSX, because a fullwidth
+        // colon already carries its own spacing — '下一级： 被评论' rendered
+        // with a visible gap the Chinese should not have.
+        nextUp: 'Next: ',
         unknown: (n) => `${n} not measured`,
         notMeasured: 'The system has never checked this',
         proto: 'The ladders are written by hand; the ticks are read from your record.' },
@@ -846,7 +849,7 @@ function Ladder({ g, done, c, pick }) {
           </div>
           {/* Where she is, readable without opening it. Only a real absence is
               offered as next; unmeasured states are counted, not pointed at. */}
-          {nextLabel && <div className="sf-future-standing">{c.nextUp} {nextLabel}</div>}
+          {nextLabel && <div className="sf-future-standing">{c.nextUp}{nextLabel}</div>}
         </div>
         <span className={`sf-chevron${open ? ' sf-chevron--open' : ''}`}>▾</span>
       </button>
@@ -1163,7 +1166,10 @@ export function RecurringDoors({ data, lang }) {
       {d.entry_fee_jpy && <p className="sf-door-fee">{rcL('fee', lang)(yen(d.entry_fee_jpy))}</p>}
       {/* always_open entries dropped this entirely, so the one door with no
           barrier at all was the only card with nothing to have ready. */}
-      {d.prepare && <p className="sf-door-prep"><strong>{rcL('ready', lang)}:</strong> {pick(d.prepare)}</p>}
+      {/* Fullwidth colon in zh/ja, ASCII + space in en. A hardcoded ':' put a
+          Latin colon inside a Chinese sentence — 要准备好的: — a few hundred
+          pixels from 资格要求：, which had the right one. */}
+      {d.prepare && <p className="sf-door-prep"><strong>{rcL('ready', lang)}{lang === 'en' ? ': ' : '：'}</strong>{pick(d.prepare)}</p>}
     </div>
   )
 

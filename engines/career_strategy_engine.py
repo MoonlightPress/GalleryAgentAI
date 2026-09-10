@@ -576,7 +576,7 @@ def _next_tier_levers(solo_shows: int, has_international: bool, has_jws: bool,
             # kept sending her there anyway. HAGI ART is the verified
             # replacement from the same research pass.
             "action":   "One thing this week is enough: a short note to HAGI ART (info@hagiso.com) with three diary paintings attached.",
-            "action_zh": "这周做一件事就够：给 HAGI ART 写一封短信（info@hagiso.com），附三张日记系列。",
+            "action_zh": "这周做一件事就够：给 HAGI ART 写一封短信（info@hagiso.com），附上日记系列里的三张。",
             "targets": [
                 {
                     "name": "HAGI ART",
@@ -660,7 +660,7 @@ def _next_tier_levers(solo_shows: int, has_international: bool, has_jws: bool,
             {
                 "name": "Kyoto Art Center Co-program",
                 "why": "The best-funded open call found — up to ¥1,000,000 for a solo, plus 6 weeks' studio.",
-                "why_zh": "目前找到经费最充裕的公开征集——最高可为个展提供100万日元经费，外加6周工作室使用。",
+                "why_zh": "目前找到经费最充裕的公开征集——最高可为个展提供100万日元经费，外加6周的工作室使用权。",
                 "url": "https://www.kac.or.jp/open_call/",
                 "window": "Expect a call each October",
                 "window_zh": "预计每年10月开放征集",
@@ -668,7 +668,7 @@ def _next_tier_levers(solo_shows: int, has_international: bool, has_jws: bool,
             {
                 "name": "Shibuya Hikarie 8/CUBE",
                 "why": "Committee-screened with station-direct footfall — a real step up from a rental space.",
-                "why_zh": "由委员会评审，位于车站直连的高人流地段——比租赁场地更进一步。",
+                "why_zh": "由委员会评审，位于紧邻车站的高人流地段——比租赁场地更进一步。",
                 "url": "https://www.hikarie8.com/cube/",
                 "window": "Next call planned for autumn 2026",
                 "window_zh": "下一轮征集预计在2026年秋季",
@@ -745,7 +745,7 @@ def _next_tier_levers(solo_shows: int, has_international: bool, has_jws: bool,
             "detail_zh": (
                 "驻地是少数你还没试过的事——而最适合你的几个，就在日本。"
                 "东京都现代美术空间（Tokyo Arts and Space）有两个，只要住在日本就能申请、不问国籍："
-                "在墨田连着几个月的工作室时间，或者全额资助去一座合作城市住上一阵。"
+                "在墨田连着用上几个月的工作室，或者全额资助去一座合作城市住上一阵。"
                 "福冈亚洲美术馆还有第三个，专为在亚洲各地往返创作的人而设。"
             ),
             "priority": "high",
@@ -766,7 +766,7 @@ def _next_tier_levers(solo_shows: int, has_international: bool, has_jws: bool,
                     "why_zh": "全额资助，约3个月，驻留于台北、首尔、赫尔辛基等合作城市。",
                     "url": "https://www.tokyoartsandspace.jp/application/index.html",
                     "window": "Same call, expected mid-September 2026",
-                    "window_zh": "与上者同批征集，预计2026年9月中旬开放",
+                    "window_zh": "与上面那个同批征集，预计2026年9月中旬开放",
                 },
                 {
                     "name": "Fukuoka Asian Art Museum Residency",
@@ -796,8 +796,8 @@ def _next_tier_levers(solo_shows: int, has_international: bool, has_jws: bool,
             "before committing to the project."
         )
         _immigration_caveat_zh = (
-            "居住在东京可能符合资助方条件，但以留学签证执行受资助的独立项目可能需要「资格外活动许可」；"
-            "现有资料无法确认你是否持有所需许可。承诺执行项目前，请先确认入管方面的授权。"
+            "居住在东京可能符合资助方条件，但以留学签证执行受资助的独立项目可能需要“资格外活动许可”（資格外活動許可）；"
+            "现有资料无法确认你是否持有所需许可。承诺执行项目前，请先向入国管理局确认你是否有相应许可。"
         )
         _act_action_en = (
             f"The Arts Council Tokyo form {_act['en_short']} — first confirm the grant's "
@@ -808,7 +808,7 @@ def _next_tier_levers(solo_shows: int, has_international: bool, has_jws: bool,
             "their application is open all year and takes an afternoon."
         )
         _act_action_zh = (
-            f"东京艺术委员会的申请{_act['zh_short']}——先确认资助方对留学身份的规定及你的入管工作许可；"
+            f"东京艺术委员会的申请{_act['zh_short']}——先确认资助方对留学身份的规定，以及你在留资格允许的活动范围；"
             "两项都明确后再申请。同一批图片随后可寄给 Greenshields，那边没有截止日期。"
             if _act else
             "这周把十张日记寄给 Elizabeth Greenshields 基金会——他们常年开放，一个下午就能投完。"
@@ -833,7 +833,7 @@ def _next_tier_levers(solo_shows: int, has_international: bool, has_jws: bool,
             "detail_zh": (
                 "你的履历现在已经撑得起申请奖助了。"
                 f"{'两扇门' if _act_line_zh else '有一扇门'}此刻开着："
-                f"{_act_line_zh}加拿大的 Elizabeth Greenshields 基金会专门资助你这个阶段的具象绘画者，"
+                f"{_act_line_zh}加拿大的 Elizabeth Greenshields 基金会专门资助你这个阶段的具象画家，"
                 "学生也可以，随时可投。10月还有三扇会开——野村财团、朝日新闻文化财团，"
                 "以及亚洲文化协会：凭你的中国国籍就能走它的中国大陆通道，住在东京也没关系。"
                 f"{_immigration_caveat_zh}"

@@ -43,13 +43,15 @@ Three findings shape the model:
    system had been treating her cross-border position as biography; here it is
    money.
 
-2. **Consignment only works below roughly ¥1,500 a unit.** At the standard 70/30
-   split every route except China-at-300-or-more loses money on every copy a
-   shop sells. Run size and sales channel are therefore a single decision, not
-   two — which is the thing a prose paragraph cannot convey and a chart can.
+2. **Consignment only works below ¥3,465 a unit** — her 70% of the cover price.
+   Above that a shop sale loses money on every copy. Run size and sales channel
+   are therefore a single decision, not two — which is the thing a prose
+   paragraph cannot convey and a chart can. (This read "roughly ¥1,500, every
+   route except China-at-300-or-more" until 2026-09-10; that threshold was an
+   artefact of the breakeven double-count fixed in `_options`.)
 
 3. **The break-even is reached early in the run, not late.** 300 copies from
-   China is back at ~109 and the remaining ~191 are profit. "Loss leader" is the
+   China is back at 80 and the remaining 220 are profit. "Loss leader" is the
    wrong word; "slow" is the right one, and a fair moving 20-25 copies at the
    median is what makes it slow.
 
@@ -104,7 +106,12 @@ FAIR_SELL_THROUGH = (20, 25)      # median from 26 real Japanese exhibitor repor
 
 
 FAIR_MEDIAN_LOW, FAIR_MEDIAN_HIGH = FAIR_SELL_THROUGH
-CONSIGNMENT_UNIT_CEILING = 1500   # landed cost above which 70/30 stops clearing
+# Landed cost above which 70/30 stops clearing — i.e. above her consignment
+# share, where each copy sold loses money. Derived, not typed: the old literal
+# 1500 was a rounded artefact of the breakeven double-count (it solved
+# unit <= price - unit), and it survived as a magic number saying something its
+# own comment did not. Her share is the real ceiling.
+CONSIGNMENT_UNIT_CEILING = round(DEFAULT_PRICE * CONSIGNMENT_SHARE)
 
 # A publisher pays a royalty on cover price rather than a margin per copy. 8-10%
 # is the Japanese convention and nobody has quoted her anything, so the band is
@@ -117,10 +124,24 @@ def _options(price_jpy: int) -> list:
     for r in ROUTES:
         for run, unit in sorted(r["runs"].items()):
             outlay = run * unit
+            # Per-copy PROFIT, once the whole run is accounted for. Still the
+            # right number to set against a publisher's royalty per copy.
             direct = price_jpy - unit
             consign = round(price_jpy * CONSIGNMENT_SHARE) - unit
-            be_direct = (outlay / direct) if direct > 0 else None
-            be_consign = (outlay / consign) if consign > 0 else None
+            # Per-copy CASH IN. This, not the margin above, is what recovers a
+            # prepaid print run: `outlay` is `run * unit`, so the printing is
+            # already bought for every copy before the first one sells.
+            # Dividing by the margin subtracted that same unit cost a second
+            # time and overstated the bar by ~36% — the China 300 run read as
+            # 109 copies to break even when it is 80, left "191 净赚" when 220
+            # is right, and marked routes impossible (China 100, japan_digital)
+            # that in fact clear comfortably. Found by the 2026-09-10 Saffron
+            # review; the arithmetic is in _reviews/saffron_2026-09-10.
+            cash_direct = price_jpy
+            cash_consign = round(price_jpy * CONSIGNMENT_SHARE)
+            # ceil, not round: at 74 of a 74.4 breakeven she is still short.
+            be_direct = -(-outlay // cash_direct) if cash_direct > 0 else None
+            be_consign = -(-outlay // cash_consign) if cash_consign > 0 else None
             options.append({
                 "route": r["id"],
                 "route_name": r["name"],
@@ -130,8 +151,8 @@ def _options(price_jpy: int) -> list:
                 "outlay_jpy": outlay,
                 "margin_direct_jpy": direct,
                 "margin_consignment_jpy": consign,
-                "breakeven_direct": round(be_direct) if be_direct else None,
-                "breakeven_consignment": round(be_consign) if be_consign else None,
+                "breakeven_direct": be_direct,
+                "breakeven_consignment": be_consign,
                 # Cannot pay for itself at any sell-through: the bar overshoots
                 # the run in the chart, which is the whole point of drawing it.
                 "impossible": not be_direct or be_direct > run,
@@ -166,40 +187,77 @@ def build(price_jpy: int = DEFAULT_PRICE) -> dict:
 
     `impossible` is the finding a table hides and the chart exists for: at some
     combinations the copies needed to break even exceed the copies printed, so
-    no sell-through whatsoever recovers the outlay. Printing 100 in Japan at a
-    normal cover price is that case — the intuitive choice, and arithmetically
-    hopeless. It lives in the disclosure now, because it is evidence for the
-    claim rather than the claim itself.
+    no sell-through whatsoever recovers the outlay. Japanese OFFSET printing is
+    that case at every run — the outlay is several times what the whole run can
+    ever sell for. Japanese digital at 100 used to be named here too, and is
+    not: that was the double-count, which put its bar at 184 copies of a
+    100-copy run. It really breaks even at 65, which is tight, not hopeless.
     """
     options = _options(price_jpy)
     ref = reference_run(price_jpy)
     left = ref["run"] - ref["breakeven_direct"]
     roy_lo, roy_hi = (round(price_jpy * r / 10) * 10 for r in ROYALTY_BAND)
-    booth_copies = -(-FAIR_BOOTH_JPY // ref["margin_direct_jpy"])          # ceil
+    # Cash, not margin, for the same reason as the breakevens above: the books
+    # are printed and paid for either way, so the booth is a fresh ¥16,500 that
+    # fresh sales cover at the full cover price. Costing it against the margin
+    # was the mixed frame this file has just been cleared of.
+    booth_copies = -(-FAIR_BOOTH_JPY // price_jpy)                          # ceil
     fairs_lo = -(-ref["breakeven_direct"] // FAIR_MEDIAN_HIGH)
     fairs_hi = -(-ref["breakeven_direct"] // FAIR_MEDIAN_LOW)
+    # With the bar at 80 rather than 109 the two ends now land on the same
+    # number, and "4–4 次摊" is not a range anyone writes.
+    fairs_range = f"{fairs_lo}" if fairs_lo == fairs_hi else f"{fairs_lo}–{fairs_hi}"
+    # Which routes actually clear 70/30, rather than a hardcoded "China at 300+"
+    # that was only true under the old ceiling.
+    # Grouped by route, because two of the route names contain their own comma
+    # ("Printed in Japan, digital") and a flat join made the list unreadable in
+    # both languages.
+    _clears = {}
+    for o in options:
+        if o["consignment_viable"]:
+            _clears.setdefault(o["route"], (o["route_name"], []))[1].append(o["run"])
+
+    def _clears_list(lang, joiner, runs_joiner, connector, unit):
+        parts = [f"{name.get(lang, '')}{connector}{runs_joiner.join(str(r) for r in runs)}{unit}"
+                 for name, runs in _clears.values()]
+        return joiner.join(parts)
+
+    _clears_en = _clears_list("en", "; ", "/", " at ", " copies")
+    _clears_zh = _clears_list("zh", "；", "、", "的 ", " 本")
 
     # A small run is not rescued by selling harder — it is rescued by pricing
     # higher. The clearest comparable is a Tokyo illustrator with 27k followers
     # (she has ~27k on Instagram alone, ~233k across five platforms — this is a
     # comparable for PRICING, not for reach) who priced a self-published art book
-    # at ¥11,000 and sold
-    # 400 copies in four months. At that price a 100-copy run pays for itself at
-    # 41 copies; at ¥4,950 it cannot pay for itself at all. Worth showing,
-    # because "print a small run" is the intuitive move and the arithmetic
-    # only works with the price attached.
+    # at ¥11,000 and sold 400 copies in four months.
+    #
+    # This case carried the same double-count as _options() and said "41 copies,
+    # and at ¥4,950 it cannot pay for itself at all". Both halves were wrong: the
+    # real figures are 30 copies at ¥11,000 and 65 at ¥4,950, so the ¥4,950 run
+    # is tight rather than hopeless. The point survives in its true and weaker
+    # form — price moves the required sell-through from 65% to 30% — and it is
+    # stated that way now instead of as a possible/impossible flip.
     high = 11000
     small = next((o for o in options if o["route"] == "japan_digital" and o["run"] == 100), None)
     high_price_case = None
     if small:
-        margin = high - small["unit_jpy"]
+        be_high = -(-small["outlay_jpy"] // high)
+        be_base = small["breakeven_direct"]
         high_price_case = {
             "price_jpy": high,
             "run": small["run"],
-            "breakeven": round(small["outlay_jpy"] / margin) if margin > 0 else None,
+            "breakeven": be_high,
             "note": _t(
-                "The same 100-copy run priced at ¥11,000 pays for itself at 41 copies. A small run is not rescued by selling harder; it is rescued by the price on the cover.",
-                "同样是印 100 本，如果定价 11,000 日元，卖 41 本就能回本。小批量不是靠多卖救回来的，是靠封底那个价格。"),
+                f"The same {small['run']}-copy run pays for itself at {be_base} copies at "
+                f"{_fen(price_jpy)}, and at {be_high} priced at {_fen(high)} — "
+                f"{round(100 * be_base / small['run'])}% of the run against "
+                f"{round(100 * be_high / small['run'])}%. A small run is not rescued by selling "
+                f"harder; it is rescued by the price on the cover.",
+                f"同样是印 {small['run']} 本，定价 {_fen(price_jpy)} 要卖 {be_base} 本回本，"
+                f"定价 {_fen(high)} 只要 {be_high} 本——是这批书的 "
+                f"{round(100 * be_base / small['run'])}% 和 "
+                f"{round(100 * be_high / small['run'])}%。小批量不是靠多卖救回来的，"
+                f"是靠封面上那个价格。"),
         }
 
     viable = [o for o in options if not o["impossible"]]
@@ -218,7 +276,7 @@ def build(price_jpy: int = DEFAULT_PRICE) -> dict:
         "而把这个落差接过去，正是出版社的作用。")
 
     # The loss-leader question, answered outright rather than left to inference.
-    # Opened "It is not a loss" / 「它不是亏本生意」 until 2026-09-07 — the
+    # Opened "It is not a loss" / “它不是亏本生意” until 2026-09-07 — the
     # negation pattern the copy rules keep catching, and it plants the word
     # "loss" in the reader's head to argue with it. The money is the same; it
     # now says what the outlay buys and calls the thing by its real name, which
@@ -229,7 +287,7 @@ def build(price_jpy: int = DEFAULT_PRICE) -> dict:
         f"profit. Slow is the accurate word for it, and the pace below is what makes it slow.",
         f"钱是能回来的，只是周期长。{_fen(ref['outlay_jpy'])} 换来 {ref['run']} 本；"
         f"卖到第 {ref['breakeven_direct']} 本这批印量就付清了，剩下的 {left} 本是净赚。"
-        f"准确的说法是「慢」——下面的数字说明的正是它为什么慢。")
+        f"准确的说法是“慢”——下面的数字说明的正是它为什么慢。")
 
     # ── the fork: who carries the outlay ─────────────────────────────────────
     # Same six rows on both sides so the comparison reads across, not down.
@@ -296,18 +354,20 @@ def build(price_jpy: int = DEFAULT_PRICE) -> dict:
         "label": _t("How fast copies actually move", "书实际上卖得有多快"),
         "facts": [
             _t(f"The median at a Japanese art book fair is {FAIR_MEDIAN_LOW}–{FAIR_MEDIAN_HIGH} copies. "
-               f"On fairs alone, {ref['breakeven_direct']} copies is {fairs_lo}–{fairs_hi} of them.",
+               f"On fairs alone, {ref['breakeven_direct']} copies is {fairs_range} of them.",
                f"日本艺术书展的中位数是 {FAIR_MEDIAN_LOW}–{FAIR_MEDIAN_HIGH} 本。只靠书展的话，"
-               f"{ref['breakeven_direct']} 本要摆 {fairs_lo}–{fairs_hi} 次摊。"),
+               f"{ref['breakeven_direct']} 本要摆 {fairs_range} 次摊。"),
             _t(f"The cheapest Tokyo Art Book Fair booth is {_fen(FAIR_BOOTH_JPY)}, with no commission on "
                f"sales. At these costs it pays for itself in {booth_copies} copies — inside the first hour.",
                f"东京艺术书展最便宜的展位是 {_fen(FAIR_BOOTH_JPY)}，销售不抽成。按这里的成本，"
                f"卖 {booth_copies} 本就回本了——第一个小时之内。"),
-            _t(f"Consignment at the standard 70/30 only clears when the landed cost is under roughly "
-               f"{_fen(CONSIGNMENT_UNIT_CEILING)} a copy, which among these routes means China at {ref['run']} or more. Run size and "
-               f"sales channel are therefore one decision, not two.",
-               f"按 70/30 的标准寄售分成，落地成本要低于大约 {_fen(CONSIGNMENT_UNIT_CEILING)} 才有得赚，"
-               f"在这几条路里就是中国印 {ref['run']} 本以上。所以印多少和在哪里卖是同一个决定，不是两个。"),
+            _t(f"Consignment at the standard 70/30 only clears when the landed cost is under "
+               f"{_fen(CONSIGNMENT_UNIT_CEILING)} a copy — her share of the cover price. Among these "
+               f"routes that is {_clears_en}. Run size and sales channel are therefore one decision, "
+               f"not two.",
+               f"按 70/30 的标准寄售分成，落地成本要低于 {_fen(CONSIGNMENT_UNIT_CEILING)}，"
+               f"也就是你自己拿到的那一份，才有得赚。这几条路里能满足的是{_clears_zh}。"
+               f"所以印多少和在哪里卖是同一个决定，不是两个。"),
         ],
     }
 

@@ -30,7 +30,7 @@ export const LICENSING_LANDSCAPE = {
   "titleKey": "sf.licensing.title",
   "summaryKey": "sf.licensing.summary",
   "where_to_start": "Two things cost nothing and can be done today: put \"licensing available\" and a contact link in your bio, and put 10–20 works into one PDF shown as product mock-ups. Neither is a guarantee of anything — nobody publishes how these deals actually originate — but they are what a brand needs to find and picture before a conversation can start at all.",
-  "where_to_start_zh": "有两件事不花钱、今天就能做：在简介里写上「接受授权合作」并放一个联系方式链接；把 10–20 件作品做成产品效果图，整理成一个 PDF。这两件事都不保证什么——没有人公开过这类合作到底是怎么开始的——但它们是品牌方能找到你、并想象得出成品的前提。",
+  "where_to_start_zh": "有两件事不花钱、今天就能做：在简介里写上“接受授权合作”并放一个联系方式链接；把 10–20 件作品做成产品效果图，整理成一个 PDF。这两件事都不保证什么——没有人公开过这类合作到底是怎么开始的——但它们是品牌方能找到你、并想象得出成品的前提。",
   "lead": "Your watercolor and stationery-leaning work suits calendars, postcards and greeting cards, washi tape and stickers, and notebook and planner covers. Two Japanese brands verifiably license illustrators for exactly this: Hobonichi, through its standing Artist Collection line, and Mark's, through EDiT.",
   "lead_zh": "你的水彩，尤其偏文具感的那一部分，适合日历、明信片和贺卡、和纸胶带和贴纸，还有笔记本和手账封面。有两个日本品牌确实在为这类东西签约插画师：ほぼ日（通过常设的「アーティストコレクション」系列）和 Mark's（通过 EDiT）。",
   "items": [
@@ -49,14 +49,14 @@ export const LICENSING_LANDSCAPE = {
           "name": "Midori (Designphil)",
           "name_zh": "Midori（デザインフィル）",
           "note": "A real stationery publisher, but no submissions programme and no individual contact is published — only a general inquiry form and a recruitment page. An earlier version of this page told you to email their creative director instead of the general address; no such person is named anywhere, and that advice has been removed.",
-          "note_zh": "确实是一家真实的文具出版商，但没有投稿计划，也没有公开任何个人联系方式——只有一个通用咨询表单和招聘页。这一页早先的版本让你「别发通用邮箱，直接发给他们的创意总监」；那个人在任何地方都没有名字，那条建议已经删掉了。",
+          "note_zh": "确实是一家真实的文具出版商，但没有投稿计划，也没有公开任何个人联系方式——只有一个通用咨询表单和招聘页。这一页早先的版本让你“别发通用邮箱，直接发给他们的创意总监”；这个人的名字哪里都查不到，那条建议已经删掉了。",
           "tier": "medium_term"
         },
         {
           "name": "Mark's Inc.",
           "name_zh": "Mark's Inc.",
           "note": "Verified: the EDiT line licenses illustrators for planner covers — the 2026 edition ran 79 cover variants, including a collaboration with a painter. No submissions route is published, and an earlier claim here that they are \"open to submissions from Japanese-resident artists\" was invented; there is no such rule and no such door.",
-          "note_zh": "已核实：EDiT 系列确实为手账封面签约插画师——2026 年版做了 79 种封面，其中包括一次与画家的联名。他们没有公开投稿入口；这一页早先写的「面向在日艺术家开放投稿」是编出来的，既没有这条规则，也没有这扇门。",
+          "note_zh": "已核实：EDiT 系列确实为手账封面签约插画师——2026 年版做了 79 种封面，其中包括一次与画家的联名。他们没有公开投稿入口；这一页早先写的“面向在日艺术家开放投稿”是编出来的，既没有这条规则，也没有这扇门。",
           "tier": "medium_term"
         }
       ]
@@ -69,14 +69,14 @@ export const LICENSING_LANDSCAPE = {
           "name": "Book cover art (装画)",
           "name_zh": "书籍封面（装画）",
           "note": "Publishers commission cover art rather than license existing paintings. The Japan Illustrators' Association publishes a rate grid, and its figures are floors, not ceilings — covers run from ¥30,000 to ¥150,000 and up. Watercolour sits in its D rank, where a book cover starts at ¥70,000 and a magazine or catalogue cover at ¥100,000, so the bottom of that grid is not your row. It is dated January 2020 and says itself that prices will have moved since. There are named, dated ways in, which is what this entry used to be missing: ザ・チョイス, the quarterly competition run by illustration magazine, judged by a single rotating judge; and 装画コンペ at GALLERY HOUSE MAYA, judged by working book designers, open to all nationalities (資格：不問), grand prize a solo show — check its current status first, it was on hiatus in 2024.",
-          "note_zh": "出版社是来「约」封面画的，不会买断你已经画好的画。日本插画家协会公开过一张报价表，上面写的是起价，不是上限——封面从 3 万日元到 15 万日元以上都有。水彩属于表上的 D 级：书籍封面 7 万日元起，杂志或画册封面 10 万日元起，所以最低那一档不是你这一类。表标的日期是 2020 年 1 月，它自己也写了价格以后会变。而这里确实有指名道姓、写明时间的入口——这正是这一条以前缺的：《ザ・チョイス》，illustration 杂志办的季度赛，每期由一位评委轮流评选；以及 GALLERY HOUSE MAYA 的「装画コンペ」，由在职的装帧设计师评审，不限国籍（資格：不問），大奖是一个个展——先确认它现在的状态，2024 年曾经停办过一届。",
+          "note_zh": "出版社是来「约」封面画的，不会买断你已经画好的画。日本插画家协会公开过一张报价表，上面写的是起价，不是上限——封面从 3 万日元到 15 万日元以上都有。水彩属于表上的 D 级：书籍封面 7 万日元起，杂志或画册封面 10 万日元起，所以最低那一档不是你这一类。表标的日期是 2020 年 1 月，它自己也写了价格以后会变。而这里确实有指名道姓、写明时间的入口——这正是这一条以前缺的：《ザ・チョイス》（The Choice），illustration 杂志办的季度赛，每期由一位评委轮流评选；以及 GALLERY HOUSE MAYA 的「装画コンペ」（书籍封面画比赛），由在职的装帧设计师评审，不限国籍（原文写的是「資格：不問」），大奖是一个个展——先确认它现在的状态，2024 年曾经停办过一届。",
           "tier": "medium_term"
         },
         {
           "name": "Agency representation",
           "name_zh": "经纪代理",
           "note": "CWC Tokyo has represented overseas illustrators into the Japanese market since 1991, and its contact form carries an illustrator category. Structurally this is the closest fit on the page to where you actually stand — a non-Japanese illustrator working in Japan — and it is the one route here with a published door.",
-          "note_zh": "CWC Tokyo 从 1991 年起就在把海外插画师引进日本市场，他们的联系表单里有「插画师应征」这一类。从结构上说，这是这一页上最贴近你真实处境的一条——一个在日本工作的非日籍插画师——也是这里唯一一条有公开入口的路。",
+          "note_zh": "CWC Tokyo 从 1991 年起就在把海外插画师引进日本市场，他们的联系表单里有“插画师应征”这一类。这是这一页上最贴近你真实处境的一条——一个在日本工作的非日籍插画师——也是这里唯一一条有公开入口的路。",
           "tier": "medium_term"
         },
         {
@@ -96,7 +96,7 @@ export const LICENSING_LANDSCAPE = {
           "name": "Royalty or buyout",
           "name_zh": "分成，还是买断",
           "note": "Published guidance puts art-licensing royalties at roughly 3–10%, with greeting cards and stationery at the low end — one widely cited US source gives 2–5% — and it is usually figured on NET sales, after returns, discounts and freight, not on the sticker price. Japan prices it differently again, and the difference is worth knowing before a first conversation: reusing an existing illustration is a 二次使用料, a percentage of the original fee, which the illustrators' association sets at 70% for a second use and the market runs at 20–80%. A full buyout (買い取り / 著作権譲渡) is not a fraction of your fee but a MULTIPLE of it — the same association puts it at two to three times. Running royalties do exist for merchandise, at roughly 4–6% of the retail price.",
-          "note_zh": "公开资料里，艺术授权的分成大约在 3–10%，贺卡和文具在低的那一端——有一份常被引用的美国资料写的是 2–5%——而且通常是按净销售额算的，扣掉退货、折扣和运费之后，不是按标价。日本又是另一套，在谈之前值得先弄清楚：把已有的插画再用一次，叫二次使用料，按原稿费的某个比例收取——插画家协会定的是第二次 70%，市场上则在 20–80% 之间。而完全买断（買い取り／著作権譲渡）不是你稿费的一部分，而是它的倍数——同一个协会给的是两到三倍。商品化也确实有长期分成，大约是零售价的 4–6%。",
+          "note_zh": "公开资料里，艺术授权的分成大约在 3–10%，贺卡和文具在低的那一端——有一份常被引用的美国资料写的是 2–5%——而且通常是按净销售额算的，扣掉退货、折扣和运费之后，不是按标价。日本又是另一套，在谈之前值得先弄清楚：把已有的插画再用一次，日本叫「二次使用料」（二次使用费），按原稿费的某个比例收取——插画家协会定的是第二次 70%，市场上则在 20–80% 之间。而完全买断（買い取り／著作権譲渡，即买断／著作权转让）不是你稿费的一部分，而是它的倍数——同一个协会给的是两到三倍。商品化也确实有长期分成，大约是零售价的 4–6%。",
           "tier": "now"
         },
         {
@@ -115,7 +115,7 @@ export const PRESS_PITCH_MAP = {
   "titleKey": "sf.press.title",
   "summaryKey": "sf.press.summary",
   "where_to_start": "Press comes from being found, not applying — so tag your strongest work where editors look (#美術手帖, #illustration) and keep a one-page press kit ready (bio, statement, 10 images) for when they reach out. The one exception you can pitch directly: It's Nice That — a daily watercolor practice is exactly their thing.",
-  "where_to_start_zh": "媒体报道多半是编辑自己发现的，不是投稿投来的——所以把你最好的作品打上编辑会看的标签（#美術手帖、#illustration），并随时备好一页纸的新闻资料包（简介、创作陈述、10 张图），以便对方联系时立刻可发。唯一可以直接投稿的例外是 It's Nice That——每日水彩创作正是他们钟爱的那一类。",
+  "where_to_start_zh": "媒体报道多半是编辑自己发现的，不是靠投稿投出来的——所以把你最好的作品打上编辑会看的标签（#美術手帖、#illustration），并随时备好一页纸的新闻资料包（简介、创作陈述、10 张图），以便对方联系时立刻可发。唯一可以直接投稿的例外是 It's Nice That——每日水彩创作正是他们钟爱的那一类。",
   "items": [
     {
       "name": "美術手帖 (Bijutsu Techo)",
@@ -134,7 +134,7 @@ export const PRESS_PITCH_MAP = {
       "contact_url": "https://bijutsutecho.com/contact",
       "type_zh": "纯艺术杂志 — 日本",
       "type_ja": "美術雑誌 — 日本",
-      "why_fits_zh": "日本顶级纯艺术杂志。专注报道在东京活跃、具有独特声音的新兴艺术家。都市水彩 + 日常创作 + 中国视角 = 编辑切入点。",
+      "why_fits_zh": "日本顶级纯艺术杂志。专注报道在东京活跃、有自己一套视觉语言的新兴艺术家。都市水彩 + 日常创作 + 中国视角 = 编辑切入点。",
       "why_fits_ja": "日本を代表する美術専門誌。独自の視点を持つ東京在住の新進アーティストを特集。都市の水彩画＋日々の制作＋中国人としての視座＝編集上の切り口。",
       "how_discovered_zh": "他们通过 Instagram、画廊展览以及其他已刊登艺术家的口碑推荐来发现新人。",
       "how_discovered_ja": "Instagram、ギャラリー展示、既掲載アーティストからの口コミを通じて新たな作家を発掘している。",
@@ -147,7 +147,7 @@ export const PRESS_PITCH_MAP = {
       "why_fits": "Tokyo design/culture magazine. Covers artists with strong visual identity. Urban architecture watercolor is on-brand for their audience.",
       "how_discovered": "Instagram, recommendations from designers and architects they already feature.",
       "how_to_pitch": "Through their inquiry form; no editorial email is published anywhere on either domain. Key: frame the story — not just 'I paint', but 'I document disappearing Tokyo'.",
-      "how_to_pitch_zh": "通过他们的咨询表单；两个域名上都没有公开任何编辑部邮箱。关键是把故事讲出来——不是「我画画」，而是「我在记录正在消失的东京」。",
+      "how_to_pitch_zh": "通过他们的咨询表单；两个域名上都没有公开任何编辑部邮箱。关键是把故事讲出来——不是“我画画”，而是“我在记录正在消失的东京”。",
       "contact": "There is no form on pen-online.jp itself. The print edition's inquiry form is form.run/@cccmh-1668417933 (the web edition and the English site have separate ones). No editorial email is published. Checked 2026-09-08.",
       "contact_zh": "pen-online.jp 本身没有表单。纸刊的咨询表单在 form.run/@cccmh-1668417933（网络版和英文站各有各的）。没有公开的编辑部邮箱。2026 年 9 月 8 日核实。",
       "contact_url": "https://form.run/@cccmh-1668417933",
@@ -188,7 +188,7 @@ export const PRESS_PITCH_MAP = {
       "contact_url": "https://www.instagram.com/apartamentomagazine/",
       "type_zh": "生活方式／室内／文化 — 西班牙（国际）",
       "type_ja": "ライフスタイル／インテリア／文化 — スペイン（国際的）",
-      "why_fits_zh": "温暖、亲密、日常生活的美学。你的都市室内与氛围感作品与其风格完美契合。「外来者观察东京」的视角对他们的编辑内容极具吸引力。",
+      "why_fits_zh": "温暖、亲密、日常生活的美学。你的都市室内与氛围感作品与其风格完美契合。“外来者观察东京”这个视角，很合他们的编辑方向。",
       "why_fits_ja": "温かく、親密で、日常の美しさを大切にした美学。都市の室内や空気感を捉えた作品は完璧に合っている。「外国人として東京を観察する」という視点は、彼らの編集方針にとって非常に魅力的。",
       "how_discovered_zh": "口碑传播、策展人推荐、Instagram。不接受主动投稿。",
       "how_discovered_ja": "口コミ、キュレーターからの推薦、Instagram。投稿による応募は受け付けていない。",
@@ -201,7 +201,7 @@ export const PRESS_PITCH_MAP = {
       "why_fits": "Architecture and space focus. Your urban watercolor work documenting Tokyo buildings is directly relevant.",
       "how_discovered": "Instagram, gallery shows, architect connections.",
       "how_to_pitch": "By post, not email. Magazine House takes press material by mail only, addressed per title. Keep the architectural angle — position the work as documentation of a place, not just art.",
-      "how_to_pitch_zh": "寄信，不是发邮件。マガジンハウス只接受邮寄的新闻资料，并且要写明刊名。保留建筑这个切入点——把作品定位成对一个地方的记录，而不只是艺术。",
+      "how_to_pitch_zh": "寄信，不是发邮件。マガジンハウス（Magazine House）只接受邮寄的新闻资料，并且要写明刊名。保留建筑这个切入点——把作品定位成对一个地方的记录，而不只是艺术。",
       "contact": "No editorial email or form exists. Press goes by post: 〒104-8003 東京都中央区銀座3-13-10 株式会社マガジンハウス『Casa BRUTUS』情報掲載担当者 宛. @casabrutus on Instagram is genuine. Careful — the one Magazine House email that turns up in a search belongs to advertising sales, not the editors. Checked 2026-09-08.",
       "contact_zh": "没有编辑部邮箱，也没有表单。新闻资料走邮寄：〒104-8003 東京都中央区銀座3-13-10 株式会社マガジンハウス『Casa BRUTUS』情報掲載担当者 宛。Instagram 上的 @casabrutus 是真的。注意：搜索能搜到的那个マガジンハウス邮箱属于广告部，不是编辑部。2026 年 9 月 8 日核实。",
       "type_zh": "建筑/设计/生活方式 — 日本",
@@ -223,9 +223,9 @@ export const PRESS_PITCH_MAP = {
       "category_note": "Being discovered vs. applying",
       "how_discovered": "Most press features happen via discovery, not application. Editors follow Instagram. They read other publications. They attend book fairs. The path to press coverage is: (1) be findable on Instagram with correct hashtags and language, (2) show up at physical events (art book fairs, gallery openings), (3) have a press kit ready when they reach out.",
       "contact": "",
-      "category_note_zh": "被发现 vs. 主动申请",
+      "category_note_zh": "被发现，还是主动投稿",
       "category_note_ja": "発見されること vs. 自ら売り込むこと",
-      "how_discovered_zh": "大多数媒体报道源于被发现，而非主动申请。编辑会关注 Instagram，阅读其他刊物，参加书展。获得媒体报道的路径是：(1) 在 Instagram 上使用正确的标签和语言，确保被搜索到；(2) 出现在线下活动中（艺术书展、画廊开幕式）；(3) 当对方主动联系时，备好完整的新闻资料包。",
+      "how_discovered_zh": "大多数媒体报道来自被编辑发现，而不是自己投稿。编辑会关注 Instagram，阅读其他刊物，参加书展。获得媒体报道的路径是：(1) 在 Instagram 上使用正确的标签和语言，确保被搜索到；(2) 出现在线下活动中（艺术书展、画廊开幕式）；(3) 当对方主动联系时，备好完整的新闻资料包。",
       "how_discovered_ja": "メディアへの掲載は、自ら売り込むよりも発見されることで実現する場合がほとんどだ。編集者は Instagram をフォローし、他の媒体を読み、ブックフェアに足を運ぶ。メディア掲載への道は次の通り：(1) 適切なハッシュタグと言語で Instagram 上で見つけてもらえる状態にする、(2) リアルなイベント（アートブックフェア、ギャラリーのオープニング）に顔を出す、(3) 問い合わせが来たときにすぐ渡せるプレスキットを用意しておく。"
     }
   ]
@@ -268,7 +268,7 @@ export const GRANT_LANDSCAPE = {
       "why_apply": "A solo exhibition at a public institution, with money toward making the work, and nothing in the criteria about where you are from.",
       "why_apply_zh": "在一个公立机构做一个个展，带制作费，而且条件里没有一句话提到你来自哪里。",
       "tip": "TOKAS and Arts Council Tokyo are two different organisations with separate portals and separate calls, despite sitting under the same foundation. There is no combined application.",
-      "tip_zh": "TOKAS 和东京艺术委员会是两个不同的机构，各有各的入口、各自开放，尽管同属一个基金会。没有「合并申请」这回事。"
+      "tip_zh": "TOKAS 和东京艺术委员会是两个不同的机构，各有各的入口、各自开放，尽管同属一个基金会。没有“合并申请”这回事。"
     },
     {
       "name": "Arts Council Tokyo — Startup Grant",
@@ -276,15 +276,15 @@ export const GRANT_LANDSCAPE = {
       "country": "Japan (Tokyo)",
       "country_zh": "日本（东京）",
       "amount": "Up to ¥300,000 for an individual, within eligible subsidized expenses",
-      "amount_zh": "个人最高 30 万日元，且须在符合条件的补助经费范围内",
+      "amount_zh": "个人最高 30 万日元，且不超过项目本身的合规支出",
       "eligibility": "An individual living in Tokyo (東京都内に居住する個人). No nationality clause. One thing nobody publishes: whether a student visa satisfies that residence test. Worth a phone call (03-6256-8431) before building anything around it.",
-      "eligibility_zh": "住在东京都内的个人。没有国籍条款。有一件事没有任何地方写明：留学签证算不算「居住」。在为它做任何准备之前，值得先打一通电话（03-6256-8431）。",
+      "eligibility_zh": "住在东京都内的个人。没有国籍条款。有一件事没有任何地方写明：留学签证算不算“居住”。在为它做任何准备之前，值得先打一通电话（03-6256-8431）。",
       "deadline": "Second round closes 24 September 2026, 18:00 JST",
       "deadline_zh": "第二轮截止：2026 年 9 月 24 日 18:00（日本时间）",
       "why_apply": "It funds a project you organise yourself rather than an application into someone else's open call — a different shape from everything else here.",
       "why_apply_zh": "它资助的是你自己组织的项目，而不是去投别人的征集——和这页上其他所有东西都不同。",
       "tip": "The award is capped at ¥300,000 for an individual and must stay within eligible subsidized expenses. Check the detailed guidelines before budgeting.",
-      "tip_zh": "个人申请的资助上限为 30 万日元，且不得超过符合条件的补助对象经费。编制预算前请核对详细指南。"
+      "tip_zh": "个人申请的资助上限为 30 万日元，实际金额还不能超过项目里算得上合规支出的那部分。做预算前先对一遍详细指南。"
     },
     {
       "name": "Asian Cultural Council — Individual Fellowship",
@@ -292,7 +292,7 @@ export const GRANT_LANDSCAPE = {
       "country": "USA (for artists from Asia)",
       "country_zh": "美国（面向亚洲艺术家）",
       "amount": "Up to US$35,000 as a lump sum you budget yourself, for 1–6 months",
-      "amount_zh": "最高 35,000 美元，一笔发放、预算由你自己安排，为期 1–6 个月",
+      "amount_zh": "最高 35,000 美元，一次性发放、预算由你自己安排，为期 1–6 个月",
       "eligibility": "Nationality or permanent residency of one of 26 listed locations, including the U.S. — China (Mainland) is on the list, so you pass that test. Applicants must be 21 or over and have five years of professional experience. You may apply while enrolled, but during the funded fellowship you must arrange a leave of absence and do no university coursework or teaching.",
       "eligibility_zh": "需要属于官方列出的 26 个国家或地区（包括美国）之一的国籍或永久居留权——中国大陆在列，这一关你过。申请人须年满 21 岁，并有五年专业经历。在读期间可以申请，但在受资助的奖学金期间必须办理休学，且不得修读大学课程或从事教学。",
       "deadline": "2027 cycle: 1 October – 10 November 2026, 09:59 ET",
@@ -300,7 +300,7 @@ export const GRANT_LANDSCAPE = {
       "why_apply": "The one programme here you clear on nationality outright, and the largest sum on the page.",
       "why_apply_zh": "这是这页上唯一一个你在国籍上直接过关的，金额也是最大的。",
       "tip": "It funds looking, not making. ACC says outright that it does not fund producing work or mounting exhibitions — it supports open-ended research. A proposal built around a finished body of work is the shape they refuse.",
-      "tip_zh": "它资助的是「去看」，不是「去做」。ACC 明确说明不资助创作与办展，只支持开放式的考察研究。以「做出一批作品」为目标写的申请，正是他们会拒绝的那种。"
+      "tip_zh": "它资助的是“去看”，不是“去做”。ACC 明确说明不资助创作与办展，只支持开放式的考察研究。以“做出一批作品”为目标写的申请，正是他们会拒绝的那种。"
     },
     {
       "name": "国家艺术基金 (China National Arts Fund)",
@@ -318,7 +318,7 @@ export const GRANT_LANDSCAPE = {
       "why_apply": "The only Chinese-national route on this page that could be verified as real. It is here with its weight stated rather than left out.",
       "why_apply_zh": "这是这页上唯一一条核实过、确实存在的中国国籍途径。",
       "tip": "The requirements are heavy: finished works must be at least 1.5m × 1.5m, and on the 美术创作 route the painting is collected by a Chinese state museum. That is a different practice from the one you have.",
-      "tip_zh": "门槛不低：成品尺寸至少 1.5 米 × 1.5 米；走美术创作这条线的话，作品要交给国内国有美术馆收藏。这和你现在的画法是两回事。"
+      "tip_zh": "门槛不低：成品尺寸至少 1.5 米 × 1.5 米；走美术创作这条线的话，作品要交给国内国有美术馆收藏。这和你现在做的事是两回事。"
     },
     // This item is intentionally NOT rendered — GrantLandscape (SaffronPage.jsx)
     // skips any item with category_note. It used to show as a callout at the end
@@ -329,9 +329,9 @@ export const GRANT_LANDSCAPE = {
     // were removed, not something meant for her to read.
     {
       "category_note": "Checked, and closed to you",
-      "category_note_zh": "已核实：这两扇门对你是关的",
+      "category_note_zh": "已核实：这两扇门对你是关着的",
       "note": "Two doors that look open are not. Bunka-cho's overseas study programme (新進芸術家海外研修制度) requires Japanese nationality or permanent residency, and the form asks for documentary proof of it. The Japan Foundation's one individual arts fellowship requires nationality or permanent residency of Japan or an ASEAN country. Both were checked on 8 September 2026, and they are named here only so that nobody spends a month finding out.",
-      "note_zh": "有两扇门看上去开着，其实并没有开。文化厅的「新进艺术家海外研修制度」要求日本国籍或永久居留资格，表格里还要求附证明文件。国际交流基金会唯一面向个人的艺术类项目，要求日本或东盟国家的国籍或永久居留权。两项均于 2026 年 9 月 8 日核实。写在这里，是免得你白花一个月才发现。",
+      "note_zh": "有两扇门看上去开着，其实并没有开。文化厅的“新进艺术家海外研修制度”要求日本国籍或永久居留资格，表格里还要求附证明文件。国际交流基金会唯一面向个人的艺术类项目，要求日本或东盟国家的国籍或永久居留权。两项均于 2026 年 9 月 8 日核实。写在这里，是免得你白花一个月才发现。",
       "apply": ""
     }
   ]
@@ -341,7 +341,7 @@ export const REVENUE_STREAMS = {
   "titleKey": "sf.revenue.title",
   "summaryKey": "sf.revenue.summary",
   "where_to_start": "There's no single right way to earn from your work, and none of this is urgent. If you ever want a gentle place to begin, the lowest-effort step is simply linking wherever your work can be found in your Instagram bio, so people who already love it can find it. Everything below is optional — pick only what feels good.",
-  "where_to_start_zh": "靠作品赚钱没有唯一正确的方式，而且这些都不急。如果哪天你想轻松地起个头，最省力的一步就是把能找到你作品的地方放进 Instagram 简介里，让已经喜欢你作品的人能找到它。以下内容都是可选的——只挑让你觉得舒服的去做就好。",
+  "where_to_start_zh": "靠作品赚钱没有唯一正确的方式，而且这些都不急。如果哪天你想轻松地起个头，最省力的一步，是在 Instagram 简介里放一个链接，指向能看到、能买到你作品的地方，让已经喜欢你画的人找得到。以下内容都是可选的——只挑让你觉得舒服的去做就好。",
   "where_to_start_ja": "作品で収入を得る「正解」は一つではありませんし、どれも急ぐ必要はありません。もし気軽に始めたくなったら、いちばん手間のかからない一歩は、あなたの作品を見られる場所を Instagram のプロフィールにリンクしておくこと。すでに作品を好きでいてくれる人が見つけやすくなります。以下はすべて任意です——心地よいと感じるものだけを選んでください。",
   "items": [
     {
@@ -376,7 +376,7 @@ export const REVENUE_STREAMS = {
       "leaving_on_table": false,
       "stream_zh": "想分享时再分享原作",
       "stream_ja": "気が向いたときに原画をシェアする",
-      "description_zh": "对很多拥有活跃受众的艺术家来说，直接让大家知道（一句安静的「私信咨询」，或一个链接）往往是作品找到归属最自然的方式。你不欠任何人一个时间表——想分享某幅作品时再分享就好。",
+      "description_zh": "对很多拥有活跃受众的艺术家来说，直接让大家知道（一句安静的“私信咨询”，或一个链接）往往是作品找到归属最自然的方式。你不欠任何人一个时间表——想分享某幅作品时再分享就好。",
       "description_ja": "熱心なフォロワーがいる多くのアーティストにとって、ただ直接知らせること（「購入希望の方はDMへ」という静かな一言や、リンク）が、作品が居場所を見つけるいちばん自然な方法であることが多いです。誰に対しても予定を負う必要はありません——気が向いたときに作品をシェアすれば十分です。",
       "why_now_zh": "一群喜爱你日常作品的受众，本身就是温和而真实的基础。这里的一切都无需赶时间。",
       "why_now_ja": "あなたの日々の作品を愛してくれるオーディエンスの存在は、穏やかで確かな土台です。ここにあることは、何ひとつ急ぐ必要はありません。"
@@ -400,7 +400,7 @@ export const REVENUE_STREAMS = {
       "leaving_on_table": false,
       "stream_zh": "如果有人来约稿",
       "stream_ja": "依頼が来たときのコミッション",
-      "description_zh": "如果有人来约稿、而你也乐意去做，这与你的创作方向很契合。唯一值得轻轻记住的一点是：艺术家常因为「觉得应该」而压低价格——你的作品值多少就是多少，别让任何人把你说低。接不接约稿，完全由你决定。",
+      "description_zh": "如果有人来约稿、而你也乐意去做，这与你的创作方向很契合。唯一值得轻轻记住的一点是：艺术家常因为“觉得应该”而压低价格——你的作品值多少就是多少，别让任何人把你说低。接不接约稿，完全由你决定。",
       "description_ja": "もしコミッションの依頼が舞い込み、それを楽しめそうなら、あなたの作風にとても合っています。一つだけ、そっと心に留めておきたいこと：アーティストは「そうすべき」という思い込みから値段を低くしがちです——あなたの作品の価値は、その価値のままです。誰かに安く言いくるめられないでください。受けるかどうかは、あなた次第です。"
     },
     {
@@ -419,7 +419,7 @@ export const REVENUE_STREAMS = {
       "leaving_on_table": false,
       "stream_zh": "一点温柔的话",
       "stream_ja": "そっと一言",
-      "description_zh": "以上这些都不是待办清单，这里也没有任何「没做完」的事。你每天的创作，以及喜爱它的人们，本身就已经是基础——这一页上的一切，都只是一扇开着的门，等你想要的时候再进去。最健康的节奏，是属于你自己的节奏。",
+      "description_zh": "以上这些都不是待办清单，这里也没有任何“没做完”的事。你每天的创作，以及喜爱它的人们，本身就已经是基础——这一页上的一切，都只是一扇开着的门，等你想要的时候再进去。最健康的节奏，是属于你自己的节奏。",
       "description_ja": "上に書いたことは、どれもやることリストではありませんし、ここに「やり残し」は一つもありません。あなたの日々の制作と、それを愛してくれる人たちが、すでに土台になっています——このページにあるものはすべて、開いている扉にすぎず、欲しくなったときにくぐればいいのです。いちばん健やかなペースは、あなた自身のペースです。"
     }
   ]
@@ -512,14 +512,14 @@ export const COLLABORATION_MAP = {
           why_fit_zh: "你已经和她在同一个展览中出现过（伦敦，2025 年 12 月）。这也说明，你的作品更自然地属于网络漫画与插画社群，而不是水彩协会的体系。",
           link: "https://www.instagram.com/sarahandersencomics/",
           collab_form: "Contribute to a daily-life / 'feelings' comics anthology or charity zine in that orbit; keep building presence in the curatorial circles that already placed you near her.",
-          collab_form_zh: "在那个圈子里为日常生活或「心情」主题的漫画合志／公益zine供稿；继续留在那个已经让你与她同台过的策展圈子里，慢慢积累存在感。",
+          collab_form_zh: "在那个圈子里为日常生活或“心情”主题的漫画合志／公益zine供稿；继续留在那个已经让你与她同台过的策展圈子里，慢慢积累存在感。",
         },
         {
           name: "War and Peas (Elizabeth Pich & Jonathan Kunz)",
           who: "A two-person webcomic duo who post once a week and exhibit together.",
           who_zh: "双人网络漫画组合，每周更新一次，一起办展。",
           why_fit: "The clearest working model of the small, repeatable two-person collaboration that suits a quiet maker like you — built on consistency and showing up together, the strength your six-year diary already has.",
-          why_fit_zh: "最清晰的「小而可重复的双人合作」范本，正适合像你这样安静的创作者——靠的是持续与共同露面，而这正是你六年手账的力量。",
+          why_fit_zh: "最清晰的“小而可重复的双人合作”范本，正适合像你这样安静的创作者——靠的是持续与共同露面，而这正是你六年手账的力量。",
           link: "https://www.instagram.com/war.and.peas/",
           collab_form: "Borrow the format, not the fame — a two-person mini-zine or a single shared post with one peer, repeated until it's a habit.",
           collab_form_zh: "借用的是形式而非名气——和一位同辈做一本双人小zine，或一次共同发布，重复到成为习惯。",
@@ -532,7 +532,7 @@ export const COLLABORATION_MAP = {
           why_fit_zh: "她借动物描绘日常里细小而温柔的瞬间——熊和恐龙甚至各自有一本书——那份温暖与你的室内画很相近。她的读者也很可能会喜欢你的作品。",
           link: "https://www.instagram.com/lizclimo/",
           collab_form: "A 'cats and quiet days' themed anthology contribution, or a print collaboration with proceeds to an animal shelter.",
-          collab_form_zh: "为「猫与安静的日子」主题合志供稿，或做一次版画联名、收益捐给动物收容所。",
+          collab_form_zh: "为“猫与安静的日子”主题合志供稿，或做一次版画联名、收益捐给动物收容所。",
         },
         {
           name: "Mari Andrew",
@@ -542,7 +542,7 @@ export const COLLABORATION_MAP = {
           why_fit_zh: "她的创作方式就是你的——每日水彩手账。你从2020年坚持至今；这种坚持，同样做过的人一眼就能认出来，也十分难得。",
           link: "https://www.instagram.com/bymariandrew/",
           collab_form: "A daily-diary group zine, or a swapped 'a week in my city' Instagram diary takeover (your Tokyo for her city).",
-          collab_form_zh: "一本每日手账合志，或者跟她互换一次「我城市里的一周」Instagram手账更新（你写东京，她写她的城市）。",
+          collab_form_zh: "一本每日手账合志，或者跟她互换一次“我城市里的一周”Instagram手账更新（你写东京，她写她的城市）。",
         },
         {
           name: "Puuung (퍼엉)",
@@ -552,7 +552,7 @@ export const COLLABORATION_MAP = {
           why_fit_zh: "居家的静谧、室内的光、平凡房间里的温柔——主题上离你最近的一位，只是那边画的是人，你画的是猫和安静。",
           link: "https://www.instagram.com/puuung1/",
           collab_form: "A 'small moments of home' print or anthology collaboration pairing those figures with your interiors.",
-          collab_form_zh: "一次「家中微小瞬间」的版画或合志联名，把那些人物与你的室内场景并置。",
+          collab_form_zh: "一次“家中微小瞬间”的版画或合志联名，把那些人物与你的室内场景并置。",
         },
       ],
     },
@@ -568,17 +568,17 @@ export const COLLABORATION_MAP = {
           why_fit_zh: "同样的媒介（水彩）、城市（东京）、题材（普通城市氛围）、生态（自办展览＋书展）。他是整张地图上最自然的双人展搭档。",
           link: "https://www.instagram.com/mateusz_urbanowicz/",
           collab_form: "A two-person Tokyo bookshop-gallery show on 'Tokyo in watercolor', or tabling side by side at an art-book fair.",
-          collab_form_zh: "在东京书店画廊办一场「水彩里的东京」双人展，或在艺术书展上并排摆桌。",
+          collab_form_zh: "在东京书店画廊办一场“水彩里的东京”双人展，或在艺术书展上并排摆桌。",
         },
         {
           name: "Tatsuro Kiuchi (木内達朗)",
           who: "Tokyo illustrator whose quiet work makes the ordinary feel extraordinary — book jackets, editorial and advertising, including the New York Times and Penguin. He works without an agent; commissions come to him directly.",
           who_zh: "东京插画家，让平凡显得不凡——做书籍封面、编辑与广告插画，包括《纽约时报》和企鹅出版社。他没有经纪人，约稿直接找上门。",
           why_fit: "'Making the ordinary extraordinary' is almost your own artist statement; his calm works-on-paper sensibility sits right next to yours, and he's rooted in the exact Tokyo bookshop circles you want to be in.",
-          why_fit_zh: "「让平凡变得不凡」几乎就是你的艺术家自述；他那种平静的纸上作品气质与你非常相近，且深深扎根于你想进入的东京书店圈。",
+          why_fit_zh: "“让平凡变得不凡”几乎就是你的艺术家自述；他那种平静的纸上作品气质与你非常相近，且深深扎根于你想进入的东京书店圈。",
           link: "https://www.instagram.com/tatsurokiuchi/",
           collab_form: "A quiet-life works-on-paper two-person show, or a shared risograph zine of small daily scenes.",
-          collab_form_zh: "一场「安静生活」的纸上作品双人展，或一本以日常小场景为主题的合作riso zine。",
+          collab_form_zh: "一场“安静生活”的纸上作品双人展，或一本以日常小场景为主题的合作riso zine。",
         },
         {
           name: "卤猫 Oamul (Oamul Lu)",
@@ -604,7 +604,7 @@ export const COLLABORATION_MAP = {
           why_fit_zh: "这些人里最暖、最贴近的一个——同城、同媒介，而且你们真的一起展出过。若其中有谁能变成真正的合作，最可能就是他。",
           link: "https://x.com/kuribulb",
           collab_form: "A small two- or three-person cats-and-watercolor show in Tokyo.",
-          collab_form_zh: "在东京办一场小型的「猫与水彩」双人或三人展。",
+          collab_form_zh: "在东京办一场小型的“猫与水彩”双人或三人展。",
         },
         {
           name: "邦乔彦 (Bang Joy)",
@@ -650,7 +650,7 @@ export const COLLABORATION_MAP = {
     "从你已经在的地方开始。先花一段时间，只是真心做他们作品的读者——一句真诚的评论、一次收藏、一次转发。在开口提任何请求之前，先让对方对你的名字熟悉起来。",
     "发一条简短而具体的消息。不是推销：只用一句真心话说出你喜欢他们的哪一幅，并说明你是一位在东京坚持每日手账的水彩插画家。先不要附带任何请求。",
     "先提一个尽可能轻量的合作：互换一张版画、共同发一篇帖子，或各为合志画一页。事情越小，对方越容易答应，也更可能成为日后合作的起点。",
-    "以你的每日手账开场。六年的坚持是你最独特的礼物，而不是一个请求。「我坚持画每日水彩手账」比任何作品集都更能打开门。",
+    "以你的每日手账开场。六年的坚持是你最独特的礼物，而不是一个请求。“我坚持画每日水彩手账”比任何作品集都更能打开门。",
     "不妨慢慢来，也接受有些联系会自然淡去。有些往来最终会促成展览，有些不会，这都没关系。合作来自长期留在圈子里、持续与人来往，而不是急着谈成一笔交易。",
   ],
 };
@@ -702,7 +702,7 @@ export const COLLECTOR_ECOSYSTEM = {
     {
       name: "Creema — Japanese handmade & art marketplace",
       fee: "10.67% including tax, charged on the whole settlement INCLUDING shipping — changed 5 Nov 2025 from 11% excluding shipping, so any older figure understates it. Transfer ¥176–275.",
-      fee_zh: "含税 10.67%，按含运费的总金额收。2025 年 11 月 5 日之前是「11%、不含运费」，因为不算运费，实际扣得比现在少，所以网上流传的旧数字偏低。提现费 176–275 日元。",
+      fee_zh: "含税 10.67%，按含运费的总金额收。2025 年 11 月 5 日之前是“11%、不含运费”，因为不算运费，实际扣得比现在少，所以网上流传的旧数字偏低。提现费 176–275 日元。",
       name_zh: "Creema — 日本手作与艺术市集",
       link: "https://www.creema.jp/",
       what: "One of Japan's largest creator marketplaces, skewing toward higher unit prices. (A buyer-age breakdown circulates widely online but Creema publishes none, so it is left out here.) You list work; the platform brings the audience.",
@@ -744,8 +744,8 @@ export const COLLECTOR_ECOSYSTEM = {
   ],
   how_to: [
     { step: "Keep one link in your bio that goes to your shop. Just your gegyjiji.base.shop link in your Instagram bio, so anyone who loves a piece can find where to buy without asking. Highest value, lowest effort.", step_zh: "在简介里放一个指向店铺的链接。只需把 gegyjiji.base.shop 放进 Instagram 简介，让任何喜欢某幅作品的人不必开口就能找到购买入口。价值最高、最省力。" },
-    { step: "Add one quiet line: 'DM to inquire about originals.' A single calm sentence in your bio or a pinned post tells people a message is welcome. No catalog, no prices needed — just that the door is open.", step_zh: "加一句安静的话：「原作请私信咨询」。简介或置顶里一句平静的话，就告诉大家欢迎来消息。不需要目录、不需要价格——只是表明门是开着的。" },
-    { step: "Let 'sold' and 'available' be visible. You already mark SOLD OUT beautifully on BASE; carrying that same small note to a caption when something sells quietly signals that pieces are real, finite, and collectible — without any urgency.", step_zh: "让「已售」和「在售」可见。你在 BASE 上的 SOLD OUT 标记已经很好；卖出时在配文里加同样的小注脚，就安静地表明作品是真实、有限、可收藏的——毫无紧迫感。" },
+    { step: "Add one quiet line: 'DM to inquire about originals.' A single calm sentence in your bio or a pinned post tells people a message is welcome. No catalog, no prices needed — just that the door is open.", step_zh: "加一句安静的话：“原作请私信咨询”。简介或置顶里一句平静的话，就告诉大家欢迎来消息。不需要目录、不需要价格——只是表明门是开着的。" },
+    { step: "Let 'sold' and 'available' be visible. You already mark SOLD OUT beautifully on BASE; carrying that same small note to a caption when something sells quietly signals that pieces are real, finite, and collectible — without any urgency.", step_zh: "让“已售”和“在售”可见。你在 BASE 上的 SOLD OUT 标记已经很好；卖出时在配文里加同样的小注脚，就安静地表明作品是真实、有限、可收藏的——毫无紧迫感。" },
     { step: "(Optional) A simple price list, once. A single pinned post or highlight with your four calm tiers — postcards, zines, prints, originals — answers the most common question before it's asked. Easy to skip.", step_zh: "（可选）一份简单的价目表，做一次就好。一条置顶或精选，列出四个平静的档位——明信片、画册、版画、原作——在被问到之前就答好了最常见的问题。跳过也没关系。" },
     { step: "(Optional) A second storefront only if it feels easy. Creema or BOOTH can hold your zines and postcards for buyers who never see your Instagram. Set it up only on a day it feels light — no rush, and no penalty for never doing it.", step_zh: "（可选）只有觉得不费力时，再考虑开第二家店。Creema 或 BOOTH 能让没在 Instagram 上见过你的买家找到你的画册和明信片。哪天有余力再做就好——不用着急，不做也没关系。" },
   ],
@@ -759,7 +759,7 @@ export const COLLECTOR_ECOSYSTEM = {
 export const PRESS_KIT = {
   title: { en: "Your Press Kit", zh: "你的新闻资料包", ja: "あなたのプレスキット" },
   summary: { en: "How to make a press kit — and a ready-to-use draft built from your real details.", zh: "如何做一份新闻资料包——以及一份用你真实信息生成、可直接使用的草稿。", ja: "プレスキットの作り方——そして、あなたの実際の情報から作った、すぐ使える下書き。" },
-  intro: { en: "Press, galleries, and brands often ask: 'Do you have a press kit?' It's just a small folder you build once — a bio, an artist statement, a few images, your links — so you can answer in one reply. Below is a ready-to-use draft made entirely from your real details. Copy what's useful; change anything that doesn't sound like you.", zh: "媒体、画廊和品牌常会问：「你有新闻资料包吗？」它其实只是一份做一次就好的小文件夹——简介、艺术家自述、几张图片、你的链接——这样你一条回复就能答上。下面是一份完全用你真实信息生成、可直接使用的草稿。有用的就拿去用；任何不像你的地方，改掉就好。" },
+  intro: { en: "Press, galleries, and brands often ask: 'Do you have a press kit?' It's just a small folder you build once — a bio, an artist statement, a few images, your links — so you can answer in one reply. Below is a ready-to-use draft made entirely from your real details. Copy what's useful; change anything that doesn't sound like you.", zh: "媒体、画廊和品牌常会问：“你有新闻资料包吗？”它其实只是一份做一次就好的小文件夹——简介、艺术家自述、几张图片、你的链接——这样你一条回复就能答上。下面是一份完全用你真实信息生成、可直接使用的草稿。有用的就拿去用；任何不像你的地方，改掉就好。" },
   one_line: {
     en: "GEGYjiji is a Chinese watercolor artist based in Tokyo, painting quiet, atmospheric daily life.",
     zh: "GEGYjiji，常驻东京的中国水彩画家，描绘安静而充满氛围的日常。",
@@ -828,8 +828,8 @@ export const PRESS_KIT = {
       "Memory and Distance — Work that holds both China (Changsha, her origin) and Japan (Tokyo, her present) — the feeling of living between two cities, two languages, and two versions of ordinary life.",
     ],
     zh: [
-      "东京静物（Tokyo Still Life）——室内、猫与穿窗而入的光：从东京公寓和街区的日常空间中，描绘生活安静的结构。以「静」本身为题。",
-      "都市氛围（Urban Atmosphere）—— 街景、街角、雨湿的路面，以及东京特有的灰绿色光。把「地点」当作情感主体，而非背景。",
+      "东京静物（Tokyo Still Life）——室内、猫与穿窗而入的光：从东京公寓和街区的日常空间中，描绘生活安静的结构。以“静”本身为题。",
+      "都市氛围（Urban Atmosphere）—— 街景、街角、雨湿的路面，以及东京特有的灰绿色光。把“地点”当作情感主体，而非背景。",
       "记忆与距离（Memory and Distance）—— 同时承载中国（长沙，原乡）与日本（东京，当下）的作品——身处两座城市、两种语言、两种平凡生活之间的感受。",
     ],
     ja: [
@@ -886,10 +886,10 @@ export const PRESS_KIT = {
       "Add one warm line of your own. A single personal sentence — 'I loved your recent feature on ___ and thought my work might suit it' — makes it human. Then send.",
     ],
     zh: [
-      "随时备好。把它存成 PDF（并保留可编辑源文件）。当对方问「你有新闻资料包吗？」时，你回复并附上即可，当下无需再写。",
+      "随时备好。把它存成 PDF（并保留可编辑源文件）。当对方问“你有新闻资料包吗？”时，你回复并附上即可，当下无需再写。",
       "选择语言与篇幅。日文版发给日本媒体与画廊，中文版作为默认，英文版用于海外。多数人只需要短简介 + 资料速览 + 几张图片。",
       "附 3–5 张图，而非整个作品集。为对方挑选最合适的作品（猫与室内 → 东京静物；城市/建筑 → 都市氛围）。使用图注格式，让署名随文件传递。",
-      "加一句你自己的暖心话。一句私人化的话——「我很喜欢你们最近关于 ___ 的报道，觉得我的作品也许合适」——会让它有人情味。然后发送即可。",
+      "加一句你自己的暖心话。一句私人化的话——“我很喜欢你们最近关于 ___ 的报道，觉得我的作品也许合适”——会让它有人情味。然后发送即可。",
     ],
   },
   how_to_update: {
@@ -901,7 +901,7 @@ export const PRESS_KIT = {
       "Re-export the PDF whenever you change something, and keep one master file so there's only ever one true version.",
     ],
     zh: [
-      "每办一次展或出版一部作品，就在「精选展览／出版物」中补上一行，并把最新的放在最前面；两分钟就能完成。",
+      "每办一次展或出版一部作品，就在“精选展览／出版物”中补上一行，并把最新的放在最前面；两分钟就能完成。",
       "艺术家自述只在创作真正转向时更新——不必按时间表来。",
       "有更强的新作就替换新图，悄悄淘汰旧的。",
       "受众那行随时可以更新，也可以整行删掉——那是给对方看的参考，不是你要去追的指标。",
