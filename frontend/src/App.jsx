@@ -16,7 +16,11 @@ import { track } from './utils/track'
 import { createVisibilityTracker } from './utils/dwell'
 import { setCache, getCache } from './utils/apiCache'
 import { isNightNow } from './utils/timeOfDay'
-import { prefetchCompanionHeroes } from './utils/heroImages'
+import {
+  prefetchCompanionHeroes,
+  saffronHero, saffronHeroNight,
+  peppercornHero, peppercornHeroNight,
+} from './utils/heroImages'
 import { parseHash, formatHash, sameRoute } from './utils/route'
 
 const PeppercornPage = lazy(() => import('./components/PeppercornPage'))
@@ -41,10 +45,25 @@ function PageFallback({ page, nav }) {
   // looking for crumbs (Peppercorn), find something good (Mochi).
   const key = (page === 'observe' || page === 'observe2') ? 'sf.loading'
     : page === 'refine' ? 'loading.peppercorn' : 'opps.loading'
+  // The SAME hero the page itself will mount — these are module-level constants
+  // picked once per load, so the fallback's hero and the real one are literally
+  // the same file. It doesn't swap or re-fetch when the page arrives; it just
+  // stays on screen, and only the middle of the page changes.
+  const night = isNightNow()
+  const hero = (page === 'observe' || page === 'observe2')
+    ? { src: night ? saffronHeroNight : saffronHero, pos: 'left center' }
+    : page === 'refine'
+      ? { src: night ? peppercornHeroNight : peppercornHero, pos: 'center center' }
+      : null
   return (
     <>
+      {hero?.src && (
+        <section className="page-hero-fallback">
+          <img src={hero.src} alt="" draggable={false} style={{ objectPosition: hero.pos }} />
+        </section>
+      )}
       {nav}
-      <p className="page-loading" style={{ minHeight: '60vh', display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center', fontStyle: 'italic', padding: '3rem 1rem', color: 'var(--muted)' }}>
+      <p className="page-loading" style={{ minHeight: '30vh', display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center', fontStyle: 'italic', padding: '3rem 1rem', color: 'var(--muted)' }}>
         {t(key)}
       </p>
       <AtelierFooter page={page} />

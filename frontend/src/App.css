@@ -33,6 +33,41 @@
   background-position: top center;
 }
 
+/* Hero placeholder for a lazy page's Suspense fallback (App.jsx, PageFallback).
+   Each companion's hero lives inside its own lazy chunk, so during the load it
+   was the one piece of chrome that couldn't stay on screen: nav and footer held
+   still while the hero vanished and a gap opened, then everything popped back
+   (Scott, 2026-09-10: "saffron just hangs and the hero disapears"). It also
+   explains the earlier "peppercorn hero on the saffron page" — mid-swap, the
+   old page's hero is what's still painted.
+
+   Geometry is duplicated from .saffron-hero / .pp-mouse-ambient deliberately:
+   those rules live in the lazy CSS chunks, which by definition have not loaded
+   yet at fallback time. Kept here in the always-loaded bundle so the box is the
+   right size on the first frame and nothing reflows when the real page mounts.
+   If either page's hero geometry changes, change it here too. */
+.page-hero-fallback {
+  position: relative;
+  width: 100%;
+  height: 56vh;
+  min-height: 340px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 41;
+  box-shadow: 0 5px 14px rgba(80, 55, 30, 0.12);
+  border-bottom: 2px solid rgba(150, 112, 56, 0.55);
+}
+.page-hero-fallback img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+@media (max-width: 640px) {
+  .page-hero-fallback { height: auto; min-height: 0; }
+  .page-hero-fallback img { height: 190px; }
+}
+
 /* ── Night theme ──────────────────────────────────────────────────
    Deliberately light-touch: at night, only the NAVIGATION goes blue — the shared
    companion nav and each page's sub-nav (Mochi's QuickNav, Saffron's sf-tabs). The
