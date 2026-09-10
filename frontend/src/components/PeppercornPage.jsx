@@ -2068,6 +2068,19 @@ export default function PeppercornPage({ nav }) {
 
       {nav}
 
+      {/* Nav's own background is a cropped snapshot of the page texture
+          (paper-stains.webp, cover/no-repeat); directly below it sits the
+          page's own repeat-y tiling of the same asset, showing through the
+          transparent .pp-intro/.pp-content above the first opaque card — two
+          different crops of the same texture meeting with no buffer between
+          them. Mochi and Saffron don't show this because their sticky subnav
+          bars (QuickNav / .sf-tabs) sit right at that seam; Peppercorn has no
+          subnav at all. Scott, 2026-09-10: "it has two textures clashing...
+          maybe just a blank white bar for now." Also doubles as this page's
+          first .page-content-start marker — PaperAccents' fallback comment
+          already names Peppercorn as the one page without one. */}
+      <div className="pp-subnav page-content-start" />
+
       {/* Status bar */}
       {statusMsg && (
         <div className={`pp-status-bar${isSaved ? ' pp-status-bar--saved' : ''}`}>

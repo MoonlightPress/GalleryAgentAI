@@ -57,6 +57,25 @@
   }
 }
 
+/* ── Subnav buffer ──────────────────────────────────────────────────────────
+   A plain, opaque bar between nav's own cropped texture and the page's tiled
+   one below it — Peppercorn has no sub-nav (QuickNav/.sf-tabs) to sit at that
+   seam the way Mochi and Saffron do, so the two crops met directly and read
+   as clashing. Solid white "for now" (Scott, 2026-09-10); can grow content
+   later, same as the other two pages' bars did. */
+.pp-subnav {
+  position: sticky;
+  top: calc(var(--nav-height, 54px) - 1px);
+  z-index: 30;
+  height: 14px;
+  background: #fff;
+  border-bottom: 1px solid var(--border);
+}
+.app--night .pp-subnav {
+  background: var(--n-surface);
+  border-bottom-color: var(--n-border);
+}
+
 /* ── Status bar ─────────────────────────────────────────────────────────── */
 
 .pp-status-bar {
