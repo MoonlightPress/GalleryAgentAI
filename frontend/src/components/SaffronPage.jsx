@@ -2334,9 +2334,15 @@ export function GrantLandscape({ t, lang }) {
                 target="_blank"
                 rel="noreferrer"
               >{grant.name} ↗</a>
-              <span className="sf-grant-country">{grant.country}</span>
+              {/* locF, not the raw fields: country and amount were the last
+                  two strings in this block rendered verbatim, so "Japan
+                  (Tokyo)" and "Up to US$35,000 as a lump sum you budget
+                  yourself" sat in English on a page whose default language is
+                  Chinese (2026-09-10). Every other string here already went
+                  through locF; these two were simply missed. */}
+              <span className="sf-grant-country">{locF(grant, 'country', lang)}</span>
             </div>
-            <div className="sf-grant-amount">{grant.amount}</div>
+            <div className="sf-grant-amount">{locF(grant, 'amount', lang)}</div>
             <p className="sf-grant-why">{locF(grant, 'why_apply', lang)}</p>
             <div className="sf-grant-meta">
               {grant.eligibility && (

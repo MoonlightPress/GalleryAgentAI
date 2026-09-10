@@ -37,7 +37,7 @@ export const STATES = {
   },
   g_institutional: {
     label: T('Museum and institutional exhibitions', '美术馆与机构展览'),
-    detail: T('Mian Art Museum in Tianjin and Hengdu Art Museum in Taizhou. Institutions vouch in a way a commercial room cannot — they have no stock to sell.', '天津的缅艺术馆与台州的横渡美术馆。机构的背书是商业空间给不了的：它们没有货要卖。'),
+    detail: T('Mian Art Museum in Tianjin and Hengdu Art Museum in Taizhou. Institutions vouch in a way a commercial room cannot — they have no stock to sell.', '天津的棉美术馆与台州的横渡美术馆。机构的背书是商业空间给不了的：它们没有货要卖。'),
   },
   g_solo: {
     label: T('Solo shows, including in Tokyo', '个展，包括在东京'),
@@ -110,8 +110,13 @@ export const STATES = {
   a_weekly: {
     label: T('The painting videos reaching the audiences that never see them',
              '让作画影片抵达那些从没看过的人'),
-    detail: T('You have already done this once and it worked better than anything else on your record: six weekly flip-throughs in 2023 that reached 55,000, 49,000 and 16,000 people. None of the 38 files is on X or Instagram — where 89,300 and 27,000 people have never seen any of it.',
-              '这件事你已经做成过一次，而且成绩比你记录里的任何东西都好：2023 年连续六周的翻翻乐，触达了 55,000、49,000、16,000 人。这 38 条一条都没有发到 X 或 Instagram——那边的 89,300 人和 27,000 人从来没看过。'),
+    // Two corrections, 2026-09-10. (1) Those are Bilibili VIEW counts, not
+    // people — the profile's own _totals caution forbids turning reach numbers
+    // into headcounts, and it applies here too. (2) "the 38 files" overstated
+    // it: the 38 uploads include vlogs, which are spoken Chinese and do need
+    // translating. The claim only holds for the painting videos.
+    detail: T('You have already done this once and it worked better than anything else on your record: six weekly flip-throughs in 2023 that drew 55,000, 49,000 and 16,000 views. None of the painting videos is on X or Instagram — where 89,300 and 27,000 followers have never seen any of it.',
+              '这件事你已经做成过一次，而且成绩比你记录里的任何东西都好：2023 年连续六周的翻翻乐，播放量分别是 55,000、49,000、16,000。那些作画影片一条都没有发到 X 或 Instagram——那边的 89,300 和 27,000 位关注者从来没看过。'),
     treatment: {
       open: T('What your own channel already proved', '你自己的频道已经证明了什么'),
       hide: T('Close', '收起'),
@@ -133,15 +138,21 @@ export const STATES = {
                   '等这些真的发到 Instagram 时：限时动态 24 小时就没了，只触达那天打开 App 的人，三月份才找到你的策展人什么也看不到。发在主页或做成 Reels，它会留下；如果只能发限时动态，事后存进精选。延时完全可以——颜料化开的过程，压缩过往往比实时更好看。'),
         },
         { label: T('The files already exist', '这些文件本来就有'),
-          text: T('Thirty-eight of them. They need no re-editing and no translation to go up in the other two places, because watching paint move needs no language. Posting them to one place is the only reason they reach one place.',
-                  '三十八条。它们不用重剪、也不用翻译就能发到另外两个地方——因为看颜料流动不需要语言。它们现在只触达一边，唯一的原因就是只发了一边。'),
+          // "Thirty-eight of them" was the whole channel, vlogs included —
+          // and a vlog is spoken Chinese, so "no translation needed" was only
+          // ever true of the painting footage. Corrected 2026-09-10.
+          text: T('The painting footage is already shot and cut — years of it. It needs no re-editing and no translation to go up in the other two places, because watching paint move needs no language. Posting it to one place is the only reason it reaches one place.',
+                  '作画的素材早就拍好、剪好了——积了好几年。它们不用重剪、也不用翻译就能发到另外两个地方——因为看颜料流动不需要语言。它们现在只触达一边，唯一的原因就是只发了一边。'),
         },
       ],
     },
   },
   a_borrowed: {
     label: T('Appearing inside other audiences', '出现在别人的受众里'),
-    detail: T('The fastest growth is borrowed rather than built — a shared zine, a two-person show, a trade of features. Twelve artists working in adjacent territory are already mapped; none approached.', '增长最快的方式是借来的，而不是攒出来的——一本合印的 zine、一个双人展、互相介绍。已经梳理出十二位在相邻领域创作的艺术家，尚未接触任何一位。'),
+    // "; none approached" removed 2026-09-10: the state is 'unknown' — nobody
+    // tracks who she has contacted — and it is probably false besides, since
+    // several of the twelve are artists she has actually exhibited alongside.
+    detail: T('The fastest growth is borrowed rather than built — a shared zine, a two-person show, a trade of features. Twelve artists working in adjacent territory are already mapped.', '增长最快的方式是借来的，而不是攒出来的——一本合印的 zine、一个双人展、互相介绍。已经梳理出十二位在相邻领域创作的艺术家。'),
   },
   a_second: {
     label: T('An audience in Chinese as well as on Instagram',
@@ -164,9 +175,16 @@ export const STATES = {
           text: T('You already film the painting, and about 7,500 people follow those recordings on Bilibili. The same file needs no re-editing and no translation to play on the other accounts — watching paint move needs no language at all, which is why it is the one thing that crosses the Chinese and English sides unchanged.',
                   '你已经在拍作画过程了，B 站上大约有 7,500 人是为这些影片关注你的。同一个文件不用重剪、也不用翻译，就能同样发到其他账号——看颜料流动完全不需要语言，所以它是唯一一样能在中文和英文两边原样成立的东西。'),
         },
+        // The closing clause used to say "every outreach email this system
+        // writes names Instagram and only Instagram, so galleries are being
+        // shown roughly an eighth of your reach". Stale since 2026-09-08:
+        // ibm_email_writer.py now picks the account by audience — X for
+        // English-language and international venues, Instagram for Japanese
+        // ones. It was also a complaint about this system's own plumbing,
+        // surfaced to her as if it were a fact about her career.
         { label: T('Which account is actually the biggest', '究竟哪个账号最大'),
-          text: T('Not Instagram, and not Xiaohongshu — it is X, at about 89,300, more than three times the Instagram diary. Weibo is second at 65,000, then Xiaohongshu at 44,000. Worth knowing because every outreach email this system writes names Instagram and only Instagram, so galleries are being shown roughly an eighth of your reach.',
-                  '既不是 Instagram，也不是小红书——是 X，大约 89,300 人，是 Instagram 日记的三倍多。微博第二，65,000 人，然后是小红书，44,000 人。值得知道，是因为这个系统写的每一封对外邮件都只提 Instagram；也就是说，摆到画廊面前的，大约只有你影响力的八分之一。'),
+          text: T('Not Instagram, and not Xiaohongshu — it is X, at about 89,300, more than three times the Instagram diary. Weibo is second at 65,000, then Xiaohongshu at 44,000. Worth knowing because it decides which handle belongs in an introduction: the largest room you have is the English-language one.',
+                  '既不是 Instagram，也不是小红书——是 X，大约 89,300 人，是 Instagram 日记的三倍多。微博第二，65,000 人，然后是小红书，44,000 人。值得知道，是因为它决定了自我介绍里该放哪个账号：你最大的那间屋子，是英文的那一间。'),
         },
         { label: T('What is still not known', '还不知道的部分'),
           text: T('How much the five overlap, so the ~233,000 total is a ceiling on reach rather than a count of people. The split by language is clearer, and Weibo changes it: about 116,500 read you in Chinese (Weibo, Xiaohongshu, Bilibili), now roughly matching the ~116,300 who read you in English (X, Instagram) — this was a 2-to-1 English lean before Weibo was counted.',
@@ -177,7 +195,7 @@ export const STATES = {
   },
   a_inbound: {
     label: T('An audience that arrives without being asked', '不用去找、自己会来的受众'),
-    detail: T('The state the rest of this ladder is for. At scale a print run stops being a gamble — your best route breaks even at 109 copies, which is one follower in 240 on the Instagram diary alone, and one in 2,100 across everything you already have.', '这条阶梯上其余的一切，都是为了到达这个状态。到了这个规模，印一版书不再是赌博——你最好的印制方案 109 本回本：只按 Instagram 日记算是 240 人里有 1 人；把你已经拥有的全部算进来，是 2,100 人里有 1 人。'),
+    detail: T('The state the rest of this ladder is for. At scale a print run stops being a gamble — your best route breaks even at 109 copies, which is one follower in 250 on the Instagram diary alone, and one in 2,100 across everything you already have.', '这条阶梯上其余的一切，都是为了到达这个状态。到了这个规模，印一版书不再是赌博——你最好的印制方案 109 本回本：只按 Instagram 日记算是 250 人里有 1 人；把你已经拥有的全部算进来，是 2,100 人里有 1 人。'),
   },
 
   // ── licensing ──────────────────────────────────────────────────────────────
@@ -191,11 +209,22 @@ export const STATES = {
   },
   l_lookbook: {
     label: T('A portfolio that can be sent the same day', '当天就能发出去的作品集'),
-    detail: T('Ten to twenty works shown as product mockups, one PDF. An art director cannot picture a painting on a notebook cover; a mockup does it for them. Nothing in your record is one.', '十到二十件作品做成产品效果图，一份 PDF。美术总监没法凭空想象一张画印在笔记本封面上是什么样，效果图替他想。你的记录里还没有这样一份东西。'),
+    // "Nothing in your record is one" removed 2026-09-10. The state is
+    // 'unknown', not 'no' — and the profile says outright that she HAS a
+    // portfolio PDF, it is simply "not available to this system"
+    // (artist_master_profile.json portfolio_pdf / _correction). The rung was
+    // asserting an absence twice over: against its own state, and against a
+    // profile note that exists specifically to stop this system inventing
+    // replacements for materials she already owns.
+    detail: T('Ten to twenty works shown as product mockups, one PDF. An art director cannot picture a painting on a notebook cover; a mockup does it for them.', '十到二十件作品做成产品效果图，一份 PDF。美术总监没法凭空想象一张画印在笔记本封面上是什么样，效果图替他想。'),
   },
   l_findable: {
     label: T('Listed where commissioners search', '出现在委托方检索的地方'),
-    detail: T('Licensing is mostly inbound, so being on the files and libraries art directors search is the difference between pitching and being found. Not listed on any of the four routes the app has verified.', '授权大多是对方找上门，所以出现在美术总监会检索的档案库和图库里，就是「主动去投」和「被找到」之间的差别。应用已核实的四条渠道里，都还没有登记。'),
+    // Was "Not listed on any of the four routes the app has verified" — but
+    // what was verified is that the four routes EXIST, not that she is absent
+    // from them; nobody has checked. State is 'unknown', so the copy says what
+    // is known and leaves the rest to the UI's own "never checked" tag.
+    detail: T('Licensing is mostly inbound, so being on the files and libraries art directors search is the difference between pitching and being found. Four such routes have been checked and are real; whether your name is on any of them is not something this system has looked at.', '授权大多是对方找上门，所以出现在美术总监会检索的档案库和图库里，就是「主动去投」和「被找到」之间的差别。已经核实过四条这样的渠道确实存在；至于你的名字在不在上面，这个系统没有查过。'),
   },
   l_first: {
     label: T('A first paid usage', '第一笔付费授权'),

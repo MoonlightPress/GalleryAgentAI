@@ -29,16 +29,21 @@ def _t(en: str, zh: str) -> dict:
     return {"en": en, "zh": zh}
 
 
-# Addressed to Gallery Kogure because it was the closest roster match found in
-# the 2026-09-04 research and it takes cold email; the body works for any of
-# them with the first paragraph changed.
+# Addressed to HAGI ART (Yanaka). Was Gallery Kogure, chosen in the 2026-09-04
+# research as the closest roster match — but the 2026-09-07 pass checked that
+# roster venue by venue and ruled Kogure out in writing (~35 artists in
+# lacquer, mixed media, photography and sculpture, no watercolour or
+# architectural specialism). The letter went on pointing there for three more
+# days, so she was being handed a ready-to-send email to a gallery this system
+# had already decided was wrong. Retargeted 2026-09-10. The body still works
+# for any of them with the first paragraph changed.
 LETTER_JA = """件名：作品を見ていただけますでしょうか — 水彩・GEGYjiji
 
-ギャラリー小暮 ご担当者様
+HAGI ART ご担当者様
 
 はじめまして。東京で水彩を描いております GEGYjiji と申します。
 先日、貴廊の「［拝見した展覧会名］」を拝見し、
-紙の小品を丁寧に扱っていらっしゃる場だと感じ、ご連絡いたしました。
+若い作家の仕事を丁寧に紹介していらっしゃる場だと感じ、ご連絡いたしました。
 
 2020年から毎日一枚の水彩を描き続けており、東京の街角や室内、
 建築とそこに射す光を主題にしています。今年、原宿の Galerie LE MONDE で
@@ -87,8 +92,8 @@ def build() -> dict:
             "信里没有任何请求，所以没有什么可以被拒绝；而任何一句回复，本身就是一份要求说明。"),
         "letter_ja": LETTER_JA,
         "letter_note": _t(
-            "Addressed to Gallery Kogure, the closest roster match found. The body holds for any of them with the first paragraph changed.",
-            "这封写给 Gallery Kogure——目前找到的、代理风格最接近的一家。换掉第一段，正文对任何一家都成立。"),
+            "Addressed to HAGI ART, whose own remit is young artists' solo and group shows and which charges no venue fee. The body holds for any of them with the first paragraph changed.",
+            "这封写给 HAGI ART——它自己写明的方向就是年轻创作者的个展与联展，而且不收场地费。换掉第一段，正文对任何一家都成立。"),
         "rules": RULES,
         "rules_label": _t("Six things that are true in Tokyo specifically",
                           "在东京，这六件事是真的"),

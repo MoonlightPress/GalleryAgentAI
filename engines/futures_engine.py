@@ -566,11 +566,11 @@ _GALLERIES = [
         "The first contact only has to make the work easy to look at. "
         "Use one link, five paintings from one series and one specific sentence showing why that "
         "gallery was chosen. "
-        "For Gallery Kogure:",
+        "For HAGI ART:",
 
         "第一次联系，只需要让人容易看到作品。"
         "一个链接，同一个系列的五张画，还有一句具体的话，说明为什么选了这一家。"
-        "给 GALLERY KOGURE 的例子：")},
+        "给 HAGI ART 的例子：")},
 
     # The letter is not retyped here. `outreach_kit_engine` owns it, including
     # the fix that matters: the show-attended line is a placeholder, because a
@@ -1213,13 +1213,14 @@ def _standing(record: dict) -> dict:
         # Was "about 26,000" — the Instagram figure, and stale even for that. On
         # the route whose whole point is that nobody stands between her and a
         # buyer, the number that matters is everyone she can reach without a
-        # gatekeeper: ~168,000 across four accounts (X 89.3k, Xiaohongshu 44k,
-        # Instagram 27k, Bilibili 7.5k). Quoting 26,000 here understated the one
-        # asset this pathway runs on by more than six times.
+        # gatekeeper: ~233,000 across five accounts (X 89.3k, Weibo 65k,
+        # Xiaohongshu 44k, Instagram 27k, Bilibili 7.5k) — Weibo added
+        # 2026-09-09. Quoting 26,000 here understated the one asset this
+        # pathway runs on by nearly nine times.
         "no_gatekeepers": _t(
-            "About 168,000 followers across four accounts and a shop already running, with a "
+            "About 233,000 followers across five accounts and a shop already running, with a "
             "price ladder that stops at ¥2,200 and starts again at ¥31,900.",
-            "四个账号合计约 16.8 万人在看着，店铺已经在跑；价位到 2,200 日元就断了，再往上直接跳到 31,900。"),
+            "五个账号合计约 23.3 万人在看着，店铺已经在跑；价位到 2,200 日元就断了，再往上直接跳到 31,900。"),
         # NOT "every room so far paid for from your side", which was here until
         # 2026-09-07. It graded her choices, and it graded them on a premise that
         # is probably wrong: Galerie LE MONDE is an illustration-world gallery

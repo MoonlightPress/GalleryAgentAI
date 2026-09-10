@@ -248,14 +248,19 @@ export const GRANT_LANDSCAPE = {
   // UI. Same precedent as COLLABORATION_MAP below.
   "titleKey": "sf.grant.title",
   "summaryKey": "sf.grant.summary",
-  "where_to_start": "TOKAS-Emerging is the best fit, and the only one that asks nothing about your passport — it wants you living in Japan and born on or after 1 April 1990, and it gives a solo show at TOKAS Hongo plus ¥150,000 toward making the work. The 2027 call closed on 31 July 2026; timing for the following call has not been announced.",
-  "where_to_start_zh": "TOKAS-Emerging 是最合适的一个，也是唯一不问国籍的——只要你住在日本，且出生于 1990 年 4 月 1 日或之后。它给的是 TOKAS 本乡的一个个展，再加 15 万日元的制作支持。2027 年度征集已于 2026 年 7 月 31 日截止；下一轮时间尚未公布。",
+  // "the only one that asks nothing about your passport" was false on this
+  // block's own evidence — Arts Council Tokyo, two entries down, says "No
+  // nationality clause" in its own eligibility line. Corrected 2026-09-10.
+  "where_to_start": "TOKAS-Emerging is the best fit, and it asks nothing about your passport — it wants you living in Japan and born on or after 1 April 1990, and it gives a solo show at TOKAS Hongo plus ¥150,000 toward making the work. The 2027 call closed on 31 July 2026; timing for the following call has not been announced.",
+  "where_to_start_zh": "TOKAS-Emerging 是最合适的一个，而且不问国籍——只要你住在日本，且出生于 1990 年 4 月 1 日或之后。它给的是 TOKAS 本乡的一个个展，再加 15 万日元的制作支持。2027 年度征集已于 2026 年 7 月 31 日截止；下一轮时间尚未公布。",
   "items": [
     {
       "name": "TOKAS-Emerging (トーキョーアーツアンドスペース)",
       "website": "https://www.tokyoartsandspace.jp/",
       "country": "Japan (Tokyo)",
+      "country_zh": "日本（东京）",
       "amount": "Solo show at TOKAS Hongo + ¥150,000 production support",
+      "amount_zh": "TOKAS 本乡的个展 ＋ 15 万日元制作支持",
       "eligibility": "Living in Japan (日本在住) and born on or after 1 April 1990. No nationality requirement — checked 2026-09-08.",
       "eligibility_zh": "住在日本（日本在住），且 1990 年 4 月 1 日或之后出生。没有国籍要求——2026 年 9 月 8 日核实。",
       "deadline": "The 2027 call ran 26 June–31 July 2026 and is closed; the following call has not been announced",
@@ -269,7 +274,9 @@ export const GRANT_LANDSCAPE = {
       "name": "Arts Council Tokyo — Startup Grant",
       "website": "https://www.artscouncil-tokyo.jp/",
       "country": "Japan (Tokyo)",
+      "country_zh": "日本（东京）",
       "amount": "Up to ¥300,000 for an individual, within eligible subsidized expenses",
+      "amount_zh": "个人最高 30 万日元，且须在符合条件的补助经费范围内",
       "eligibility": "An individual living in Tokyo (東京都内に居住する個人). No nationality clause. One thing nobody publishes: whether a student visa satisfies that residence test. Worth a phone call (03-6256-8431) before building anything around it.",
       "eligibility_zh": "住在东京都内的个人。没有国籍条款。有一件事没有任何地方写明：留学签证算不算「居住」。在为它做任何准备之前，值得先打一通电话（03-6256-8431）。",
       "deadline": "Second round closes 24 September 2026, 18:00 JST",
@@ -283,7 +290,9 @@ export const GRANT_LANDSCAPE = {
       "name": "Asian Cultural Council — Individual Fellowship",
       "website": "https://www.asianculturalcouncil.org/grant-opportunities",
       "country": "USA (for artists from Asia)",
+      "country_zh": "美国（面向亚洲艺术家）",
       "amount": "Up to US$35,000 as a lump sum you budget yourself, for 1–6 months",
+      "amount_zh": "最高 35,000 美元，一笔发放、预算由你自己安排，为期 1–6 个月",
       "eligibility": "Nationality or permanent residency of one of 26 listed locations, including the U.S. — China (Mainland) is on the list, so you pass that test. Applicants must be 21 or over and have five years of professional experience. You may apply while enrolled, but during the funded fellowship you must arrange a leave of absence and do no university coursework or teaching.",
       "eligibility_zh": "需要属于官方列出的 26 个国家或地区（包括美国）之一的国籍或永久居留权——中国大陆在列，这一关你过。申请人须年满 21 岁，并有五年专业经历。在读期间可以申请，但在受资助的奖学金期间必须办理休学，且不得修读大学课程或从事教学。",
       "deadline": "2027 cycle: 1 October – 10 November 2026, 09:59 ET",
@@ -297,7 +306,11 @@ export const GRANT_LANDSCAPE = {
       "name": "国家艺术基金 (China National Arts Fund)",
       "website": "https://www.cnaf.cn/",
       "country": "China",
-      "amount": "Up to ¥100,000 RMB",
+      "country_zh": "中国",
+      // Was "¥100,000 RMB" — ¥ means JPY everywhere else on this page, so the
+      // one RMB figure read as a Japanese-yen amount twenty times too small.
+      "amount": "Up to RMB 100,000",
+      "amount_zh": "最高 10 万元人民币",
       "eligibility": "Chinese nationals; it tests 户籍. Needs either a work-unit letter or three mainland experts at 副高级 or above to recommend you. Watercolour is a named category (水彩（粉）画).",
       "eligibility_zh": "面向中国公民，以户籍为准。需要单位推荐函，或三位副高级以上的内地专家推荐。水彩（粉）画是列明的类别。",
       "deadline": "The 2027 cycle closed 15 June 2026",

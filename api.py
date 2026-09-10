@@ -2471,10 +2471,22 @@ def get_saffron():
             # boxes; the researched route is showing up, then writing. Named
             # targets rather than "build relationships with galleries", which is
             # advice she has already read and cannot act on.
+            # Target swapped off Gallery Kogure 2026-09-10. This line called it
+            # "the closest match to your work on any Tokyo roster" while
+            # futures_engine.py's own 2026-09-07 check said the opposite in
+            # writing — a roster of ~35 in lacquer, mixed media, photography
+            # and sculpture, "no architectural or watercolour specialism
+            # visible at all" — and dropped it for exactly that reason. The
+            # recommendation to write to them survived the venue being ruled
+            # out, so the system was spending her one real action of the week
+            # on a door its own research had already closed. HAGI ART is the
+            # verified replacement from the same pass: no venue fee, remit
+            # written as young artists' solo and group shows, takes proposals
+            # by email.
             "next_move": _reg(
-                "Start with one email, not an application. Gallery Kogure (works@gallerykogure.com) is the closest match to your work on any Tokyo roster and takes direct contact; biscuit gallery's free \"grid next\" open call has taken a winner straight into a solo show. The first message introduces you and asks what they'd want to see — it doesn't ask for a show.",
-                "先发一封邮件，而不是一份申请。Gallery Kogure（works@gallerykogure.com）是目前在东京找到的、与你作品最契合的画廊，接受直接来信；biscuit gallery 的免费公开征集「grid next」曾让获奖者直接获得个展。第一封信只是自我介绍，并问问他们希望看到什么——不必开口要展览。",
-                "まずは応募ではなく、一通のメールから。Gallery Kogure（works@gallerykogure.com）は東京で見つかった中であなたの作品に最も近く、直接の連絡を受け付けています。biscuit gallery の無料公募「grid next」は、受賞者がそのまま個展に繋がっています。最初の一通は自己紹介と「何を見たいですか」の問いで十分——展示をお願いする必要はありません。",
+                "Start with one email, not an application. HAGI ART in Yanaka (info@hagiso.com) writes its remit as young artists' solo and group shows and charges no venue fee; biscuit gallery's free \"grid next\" open call has taken a winner straight into a solo show. HAGI asks for two A4 PDFs — a portfolio, and a concept written for that particular space — so the first message introduces you and asks what they'd want to see, rather than asking for a show.",
+                "先发一封邮件，而不是一份申请。谷中的 HAGI ART（info@hagiso.com）把方向写得很清楚：年轻创作者的个展与联展，而且不收场地费；biscuit gallery 的免费公开征集「grid next」曾让获奖者直接获得个展。HAGI 要的是两份 A4 PDF——一份作品集，一份专为那个空间写的展览构想——所以第一封信只是自我介绍，并问问他们希望看到什么，而不是开口要展览。",
+                "まずは応募ではなく、一通のメールから。谷中の HAGI ART（info@hagiso.com）は「若手作家の個展・グループ展」を掲げ、会場費もかかりません。biscuit gallery の無料公募「grid next」は、受賞者がそのまま個展に繋がっています。HAGI が求めるのは A4 の PDF 二点——ポートフォリオと、その空間のために書いた展示構想。最初の一通は自己紹介と「何を見たいですか」の問いで十分です。",
             ),
             "shy_tips": _reg(SHY_TIPS_EN, SHY_TIPS_ZH, SHY_TIPS_JA),
         }

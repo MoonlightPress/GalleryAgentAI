@@ -570,16 +570,21 @@ def _next_tier_levers(solo_shows: int, has_international: bool, has_jws: bool,
                 "两个曾把获奖者直接送进个展的公开征集。"
             ),
             "priority": "high",
-            "action":   "One thing this week is enough: a short note to Gallery Kogure (works@gallerykogure.com) with three diary paintings attached.",
-            "action_zh": "这周做一件事就够：给 Gallery Kogure 写一封短信（works@gallerykogure.com），附三张日记系列。",
+            # Retargeted 2026-09-10: futures_engine.py ruled Gallery Kogure out on
+            # 2026-09-07 (roster is lacquer, mixed media, photography and
+            # sculpture, no watercolour or architectural work) and this action
+            # kept sending her there anyway. HAGI ART is the verified
+            # replacement from the same research pass.
+            "action":   "One thing this week is enough: a short note to HAGI ART (info@hagiso.com) with three diary paintings attached.",
+            "action_zh": "这周做一件事就够：给 HAGI ART 写一封短信（info@hagiso.com），附三张日记系列。",
             "targets": [
                 {
-                    "name": "Gallery Kogure",
-                    "why": "The closest roster match found — works-on-paper and illustration-to-fine-art artists close to your format.",
-                    "why_zh": "目前找到与你风格最契合的画廊——展出的纸上作品与插画转纯艺术创作者，与你的形式相近。",
-                    "url": "https://gallerykogure.com/artists/",
-                    "window": "Cold approach any time — works@gallerykogure.com",
-                    "window_zh": "随时可主动联系——works@gallerykogure.com",
+                    "name": "HAGI ART",
+                    "why": "Writes its own remit as young artists' solo and group shows plus art-book fairs, and charges no venue fee — the closest verified fit to your format.",
+                    "why_zh": "自己写明的方向就是年轻创作者的个展、联展和艺术书市集，而且不收场地费——目前核实过的、与你形式最契合的一家。",
+                    "url": "https://hagiso.com/hagiart-concept/",
+                    "window": "Open to proposals any time — two A4 PDFs to info@hagiso.com",
+                    "window_zh": "随时接受方案——两份 A4 PDF 寄到 info@hagiso.com",
                 },
                 {
                     "name": "biscuit gallery — \"grid next\"",

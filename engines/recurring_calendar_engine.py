@@ -60,9 +60,16 @@ DOORS = [
         "opens": (6, 1), "closes": (7, 31), "prepare_lead": 2, "certain": True,
         "url": "https://www.tokyoartsandspace.jp/application/schedule.html",
         "gives": _t(
-            "Free venue, ¥150,000 production grant, install and PR handled. Japan-resident, any nationality, under 35.",
-            "免费场地、15 万日元制作经费，布展与宣传都由他们负责。在日本居住即可，不限国籍，35 岁以下。",
-            "会場費なし、制作費15万円、設営と広報も先方持ち。日本在住であれば国籍不問、35歳以下。"),
+            # Age rule restated 2026-09-10 to match Grant Landscape's entry
+            # (saffron_insights.js, checked 2026-09-08), which carries the
+            # programme's own fiscal-year wording. "Under 35" was a lossy
+            # paraphrase of it and the two surfaces sit on the same tab, so a
+            # reader saw two different age bars for one programme. Both clear
+            # her comfortably at 26; this is about the page not contradicting
+            # itself.
+            "Free venue, ¥150,000 production grant, install and PR handled. Japan-resident, any nationality, born on or after 1 April 1990.",
+            "免费场地、15 万日元制作经费，布展与宣传都由他们负责。在日本居住即可，不限国籍，1990 年 4 月 1 日或之后出生。",
+            "会場費なし、制作費15万円、設営と広報も先方持ち。日本在住であれば国籍不問、1990年4月1日以降生まれ。"),
         "prepare": _t(
             "A proposal and ten paintings that hang together as one body.",
             "一份展览提案，和十张能作为一个整体挂在一起的画。",
