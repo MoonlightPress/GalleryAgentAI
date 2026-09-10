@@ -68,31 +68,37 @@ export function SectionHeader({ title, subtitle, sectionId }) {
   const image = SECTION_HEADER_IMAGE[sectionId] ?? DEFAULT_HEADER_IMAGE
   return (
     <div className="opp-section-header">
-      {/* Three things went wrong here in turn: a flat-colour background made
-          the band a mismatched solid box ("still has a tan background"); NO
-          background left the art's off-white canvas wash sitting at raw
-          opacity with nothing to melt it into the page ("I'd have to delete
-          the off-white values for these to fit" / "a little too bright");
-          then multiplying against the real page texture image regressed the
-          same way flat-colour did ("the section headers have a background
-          texture again", Scott 2026-09-10) the moment that texture asset
-          changed shape (doubled in height for the page's own seamless-tiling
-          fix) — background-size:cover on a box this wide/short crops a
-          totally different, differently-SCALED slice of it than whatever the
-          page itself is showing at that scroll position, so the two never
-          actually matched; they'd coincidentally looked close before by luck
-          of the old crop, not because the technique made them match. A flat
-          colour can't go out of sync like that — nothing to mis-crop — so
-          back to flat, but keeping the multiply blend this time (that part
-          of the second attempt was right: multiply, not opacity, is what
-          melts an off-white wash instead of leaving it sitting on top). */}
-      <div
-        className="opp-section-title-row"
-        style={{
-          backgroundImage: `url(${headerUrl(image)}), linear-gradient(var(--parchment), var(--parchment))`,
-          backgroundBlendMode: 'multiply',
-        }}
-      >
+      {/* FOUR things went wrong here in turn, and the last two were the SAME
+          mistake in the same order as the first two (Scott, 2026-09-10: "we
+          went over this yesterday, you're making the same mistakes in the
+          same order again" — right call):
+            1. flat-colour background -> a mismatched solid box ("still has a
+               tan background")
+            2. no background at all -> the art's off-white wash sat at raw
+               opacity, nothing to melt it into the page
+            3. multiply against a COPY of the page texture as a second
+               background-image layer -> looked right by luck of the old
+               crop, then regressed the day that texture asset changed shape,
+               because background-size:cover on a box this wide/short crops a
+               differently-scaled slice than whatever the page is actually
+               showing at that scroll position — never truly in sync
+            4. "fix" was reverting to a flat linear-gradient layer -> #1
+               again, wearing a different name. Still a mismatched box,
+               just a flat one instead of a mis-textured one.
+          The actual fix: stop faking the page texture as a copy inside this
+          element's OWN background, and blend the art against the REAL page
+          background instead — mix-blend-mode on the <img> itself, exactly
+          like PaperAccents' flowers and .rt-reward-img already do. That
+          blends against whatever is truly rendered behind it in the page at
+          its real scroll position, so it is physically incapable of drifting
+          out of sync with a texture asset that changes shape. */}
+      <div className="opp-section-title-row">
+        <img
+          className="opp-section-art"
+          src={headerUrl(image)}
+          alt=""
+          draggable={false}
+        />
         <h2 className="opp-section-title">{title}</h2>
         {subtitle && <p className="opp-section-desc">{subtitle}</p>}
       </div>

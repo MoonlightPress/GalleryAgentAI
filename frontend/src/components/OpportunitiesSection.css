@@ -97,9 +97,20 @@
   margin-bottom: 6px;
 }
 
-/* Painted watercolor header banner: thin ~10:1 art (like the footers), recolored
-   to the page cream so it blends with NO box. Detail at the edges, open center,
-   title centered over the middle. Band height tracks the 10:1 art at content width. */
+/* Painted watercolor header banner: thin ~10:1 art (like the footers), melted
+   into the REAL page background via mix-blend-mode on the art <img> itself
+   (OpportunitiesSection.jsx) — not a background-image trick. Four attempts
+   before this one, the last two repeating the first two (Scott, 2026-09-10,
+   "you're making the same mistakes in the same order again" — correctly):
+   flat-colour background (visible mismatched box) -> no background (raw
+   off-white wash sitting on top) -> multiply against a COPIED texture image
+   as a second background layer (looked right by luck of the old crop, broke
+   the day that asset changed shape — cover-cropping a box this wide/short
+   can never guarantee the same slice the page itself shows at that scroll
+   position) -> a flat gradient layer (the FIRST mistake again, just renamed).
+   mix-blend-mode on the image blends against whatever the page is ACTUALLY
+   rendering behind it, so there's no copy to fall out of sync with — the same
+   technique PaperAccents' flowers and .rt-reward-img already use. */
 .opp-section-title-row {
   display: flex;
   flex-direction: column;             /* title + subheader stacked together */
@@ -112,29 +123,26 @@
   min-height: clamp(72px, 7.2vw, 96px);  /* shorter -> less headspace */
   padding: 3px 24px;
   position: relative;
-  /* The images (illustration + page texture, two layers) are set via inline
-     style in JSX (OpportunitiesSection.jsx, SectionHeader) rather than a CSS
-     url() — a hardcoded '/mochi/headers/...' path here ignored Vite's
-     configured build base entirely, so the /mochi2 staging build was silently
-     loading images from production's /mochi/headers/ instead of its own; JS
-     uses import.meta.env.BASE_URL, which is correct per-build.
-
-     Two comma-separated values below: first applies to the illustration
-     layer, second to a flat linear-gradient(parchment, parchment) standing in
-     for a plain colour (background-blend-mode needs an image, not a bare
-     colour, to blend per-layer — this is the usual CSS trick for that). Used
-     to be the real page texture image instead of a flat colour, multiplied
-     the same way — regressed ("the section headers have a background texture
-     again", Scott 2026-09-10) the moment that texture asset changed shape,
-     because background-size:cover on a box this wide/short crops a
-     differently-SCALED slice of it than whatever the page itself shows at
-     that scroll position; they only ever looked matched by coincidence. A
-     flat colour can't drift out of sync like that. contain/center keeps the
-     illustration's own composition intact; the second value's sizing doesn't
-     matter now (a uniform-colour gradient looks identical at any size). */
-  background-position: center, center;
-  background-size: contain, cover;
-  background-repeat: no-repeat, no-repeat;
+  overflow: hidden;   /* clip the art image to the band's own box */
+}
+/* The art sits behind the title/subheader — z-index:0 here, z-index:1 on the
+   text below — and fills the band the way background-size:contain used to,
+   but as a real element blended against whatever is truly behind it. */
+.opp-section-art {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  mix-blend-mode: multiply;
+  pointer-events: none;
+  z-index: 0;
+}
+.opp-section-title-row > h2,
+.opp-section-title-row > p {
+  position: relative;
+  z-index: 1;
 }
 
 /* A little reward at the very end of People (the last section on the page): her
@@ -234,13 +242,15 @@
      width so the subheader wraps to a new line instead of running under the art. */
   .opp-section-title-row {
     min-height: 92px;
-    background-size: cover, cover;
-    background-position: right center, center;
     align-items: flex-start;
     justify-content: center;
     text-align: left;
     padding: 10px 16px;
     gap: 3px;
+  }
+  .opp-section-art {
+    object-fit: cover;
+    object-position: right center;
   }
   .opp-section-title,
   .opp-section-desc { max-width: 60%; }   /* keep the text clear of the right-side art */
