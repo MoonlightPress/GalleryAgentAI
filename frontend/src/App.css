@@ -31,6 +31,15 @@
   background-repeat: repeat-y;
   background-size: 100% auto;
   background-position: top center;
+  /* multiply, not the default normal. The scan is RGB with NO alpha channel —
+     100% opaque, mean luminance 239 — so composited normally it does not stain
+     the parchment, it REPLACES it: the page ground becomes the scan's own
+     near-white and --parchment only ever showed if the image 404'd. Against a
+     warm ground that is visually indistinguishable from a screen blend, which
+     is what it looked like (Scott, 2026-09-10). Multiplying puts #EEE0C2 back
+     underneath and lets the stains darken it (~6% at the mean), which is the
+     same thing every <img> on a cream backdrop in this app already does. */
+  background-blend-mode: multiply;
 }
 
 /* Hero placeholder for a lazy page's Suspense fallback (App.jsx, PageFallback).
