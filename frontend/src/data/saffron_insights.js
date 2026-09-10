@@ -266,7 +266,7 @@ export const GRANT_LANDSCAPE = {
       "deadline": "The 2027 call ran 26 June–31 July 2026 and is closed; the following call has not been announced",
       "deadline_zh": "2027 年度征集于 2026 年 6 月 26 日至 7 月 31 日开放，现已截止；下一轮尚未公布",
       "why_apply": "A solo exhibition at a public institution, with money toward making the work, and nothing in the criteria about where you are from.",
-      "why_apply_zh": "在一个公立机构做一个个展，带制作费，而且条件里没有一句话提到你来自哪里。",
+      "why_apply_zh": "在一家公立机构办一场个展，带制作费，而且条件里没有一句话提到你来自哪里。",
       "tip": "TOKAS and Arts Council Tokyo are two different organisations with separate portals and separate calls, despite sitting under the same foundation. There is no combined application.",
       "tip_zh": "TOKAS 和东京艺术委员会是两个不同的机构，各有各的入口、各自开放，尽管同属一个基金会。没有“合并申请”这回事。"
     },
@@ -284,7 +284,7 @@ export const GRANT_LANDSCAPE = {
       "why_apply": "It funds a project you organise yourself rather than an application into someone else's open call — a different shape from everything else here.",
       "why_apply_zh": "它资助的是你自己组织的项目，而不是去投别人的征集——和这页上其他所有东西都不同。",
       "tip": "The award is capped at ¥300,000 for an individual and must stay within eligible subsidized expenses. Check the detailed guidelines before budgeting.",
-      "tip_zh": "个人申请的资助上限为 30 万日元，实际金额还不能超过项目里算得上合规支出的那部分。做预算前先对一遍详细指南。"
+      "tip_zh": "个人申请的资助上限为 30 万日元，实际金额还不能超过项目中符合规定的那部分支出。做预算前先对一遍详细指南。"
     },
     {
       "name": "Asian Cultural Council — Individual Fellowship",
@@ -294,7 +294,7 @@ export const GRANT_LANDSCAPE = {
       "amount": "Up to US$35,000 as a lump sum you budget yourself, for 1–6 months",
       "amount_zh": "最高 35,000 美元，一次性发放、预算由你自己安排，为期 1–6 个月",
       "eligibility": "Nationality or permanent residency of one of 26 listed locations, including the U.S. — China (Mainland) is on the list, so you pass that test. Applicants must be 21 or over and have five years of professional experience. You may apply while enrolled, but during the funded fellowship you must arrange a leave of absence and do no university coursework or teaching.",
-      "eligibility_zh": "需要属于官方列出的 26 个国家或地区（包括美国）之一的国籍或永久居留权——中国大陆在列，这一关你过。申请人须年满 21 岁，并有五年专业经历。在读期间可以申请，但在受资助的奖学金期间必须办理休学，且不得修读大学课程或从事教学。",
+      "eligibility_zh": "需要拥有官方列出的 26 个国家或地区（包括美国）之一的国籍或永久居留权——中国大陆在列，这一关你过。申请人须年满 21 岁，并有五年专业经历。在读期间可以申请，但在奖学金资助期间必须办理休学，且不得修读大学课程或从事教学。",
       "deadline": "2027 cycle: 1 October – 10 November 2026, 09:59 ET",
       "deadline_zh": "2027 年度：2026 年 10 月 1 日 至 11 月 10 日 09:59（美东时间）",
       "why_apply": "The one programme here you clear on nationality outright, and the largest sum on the page.",
@@ -316,7 +316,7 @@ export const GRANT_LANDSCAPE = {
       "deadline": "The 2027 cycle closed 15 June 2026",
       "deadline_zh": "2027 年度已于 2026 年 6 月 15 日截止",
       "why_apply": "The only Chinese-national route on this page that could be verified as real. It is here with its weight stated rather than left out.",
-      "why_apply_zh": "这是这页上唯一一条核实过、确实存在的中国国籍途径。",
+      "why_apply_zh": "这是这页上唯一一条核实过、确实存在、面向中国公民的申请途径。",
       "tip": "The requirements are heavy: finished works must be at least 1.5m × 1.5m, and on the 美术创作 route the painting is collected by a Chinese state museum. That is a different practice from the one you have.",
       "tip_zh": "门槛不低：成品尺寸至少 1.5 米 × 1.5 米；走美术创作这条线的话，作品要交给国内国有美术馆收藏。这和你现在做的事是两回事。"
     },

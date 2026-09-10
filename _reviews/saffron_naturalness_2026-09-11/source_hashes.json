@@ -1,0 +1,6 @@
+{
+  "engines/futures_engine.py": "e64ee4d57c06251e6e67baa5135808da0311393063a9802210f178820ecfe510",
+  "engines/book_economics_engine.py": "5624d627a0e07bac3883f51aeb901ebebfbf208b691e7a303b47900e6548a50b",
+  "engines/recurring_calendar_engine.py": "450bab0524ee9d976ac7c9b4f7bbae2aaf7d47cb1045b794166d3648fed05f6e",
+  "engines/outreach_kit_engine.py": "e6be4ec8f98351fd8975d1cd9ab89cae2ecf6dae582a2318062d473ed3832876"
+}

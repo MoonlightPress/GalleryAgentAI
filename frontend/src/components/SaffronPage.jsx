@@ -107,7 +107,7 @@ const SF_ZH = {
 
   // ── Press / collaboration / audience / collector ──
   "Domestic interiors and everyday life — directly aligned with your subject matter": "家居室内与日常生活——与你的题材直接契合",
-  "Large illustration/photography community; annual book prize you could enter": "庞大的插画／摄影社群；有可投递的年度书籍奖项",
+  "Large illustration/photography community; annual book prize you could enter": "庞大的插画／摄影社群；有可报名的年度书籍奖项",
   "The 5 co-exhibitors from Tide from China are your strongest existing collaboration seeds. Their current Tokyo presence and active practice is unconfirmed — tell Saffron whether you've stayed in contact with any of them.": "「潮自中国」联展的 5 位共同参展者，是你现有最强的合作种子。他们目前是否在东京、是否仍活跃尚未确认——请告诉山楂你是否还和其中任何人保持联系。",
   "Whether your established Instagram following is concentrated in China, Japan, or distributed internationally determines which geographic markets to prioritise — for exhibitions, fairs, and publishers. A primarily Chinese audience suggests a different expansion path than a globally distributed one.": "你那稳固的 Instagram 受众究竟集中在中国、日本，还是分布于全球，决定了该优先经营哪些地域市场——展览、博览会与出版社皆然。以中文受众为主，意味着与全球分布截然不同的拓展路径。",
   "Knowing who buys illustration and watercolor work at your price point determines which fairs, platforms, and venues are commercially worthwhile — not just aesthetically aligned.": "了解在你的价位上谁会购买插画与水彩作品，决定了哪些博览会、平台与场地在商业上值得投入——而不仅仅是审美上契合。",
@@ -115,11 +115,11 @@ const SF_ZH = {
   // ── Comparable artists ──
   "Taiwan": "台湾", "Japan / USA": "日本／美国", "USA": "美国", "UK": "英国",
   "USA (Chinese-American)": "美国（华裔）", "Japan": "日本", "Uruguay / Australia": "乌拉圭／澳大利亚",
-  "atmospheric urban and interior watercolor, quiet scenes, strong tonal control. Built international credibility from a Taiwan base through IWS competitions.": "氛围感的城市与室内水彩，安静的场景，扎实的色调掌控。从台湾出发，通过 IWS 赛事建立了国际信誉。",
+  "atmospheric urban and interior watercolor, quiet scenes, strong tonal control. Built international credibility from a Taiwan base through IWS competitions.": "富有富有氛围感的城市与室内水彩，安静的场景，扎实的色调掌控。从台湾出发，通过 IWS 赛事建立了国际信誉。",
   "Primary career-path reference for building international watercolor credibility from an Asian base.": "从亚洲根基出发建立国际水彩信誉的首要事业路径参照。",
-  "Japanese watercolor painter, urban and travel subjects, light and understated atmosphere. Has exhibited with AWS and NWS — Japan-rooted identity with international visibility.": "日本水彩画家，城市与旅行题材，轻盈而含蓄的氛围。曾参与 AWS 与 NWS 展览——扎根日本而具国际能见度的身份。",
-  "Reference for Japan-origin watercolor career with international reach.": "以日本为出身、具国际影响力的水彩事业参照。",
-  "Architectural watercolor — buildings, urban light, atmosphere, quiet structural observation. Large-format architectural studies with dramatic mood.": "建筑水彩——楼宇、城市光线、氛围、安静的结构观察。富戏剧性情绪的大尺幅建筑习作。",
+  "Japanese watercolor painter, urban and travel subjects, light and understated atmosphere. Has exhibited with AWS and NWS — Japan-rooted identity with international visibility.": "日本水彩画家，城市与旅行题材，轻盈而含蓄的氛围。曾参与 AWS 与 NWS 展览——扎根日本、同时在国际上受到关注。",
+  "Reference for Japan-origin watercolor career with international reach.": "从日本出发、具国际影响力的水彩事业参照。",
+  "Architectural watercolor — buildings, urban light, atmosphere, quiet structural observation. Large-format architectural studies with dramatic mood.": "建筑水彩——楼宇、城市光线、氛围、安静的结构观察。大尺幅的建筑习作，画面情绪富有戏剧性。",
   "Primary reference for architectural watercolor practice and aesthetic.": "建筑水彩实践与美学的首要参照。",
   "British architectural watercolorist known for Edinburgh and UK urban scenes. Has exhibited in London and internationally.": "英国建筑水彩画家，以爱丁堡及英国城市场景著称。曾在伦敦及国际展出。",
   "Reference for building an architectural watercolor career with direct-to-collector sales.": "以直接面向藏家销售来建立建筑水彩事业的参照。",
@@ -127,9 +127,9 @@ const SF_ZH = {
   "Reference for cross-cultural watercolor identity — Chinese training meeting international exhibition contexts.": "跨文化水彩身份的参照——中国训练背景与国际展览语境的交汇。",
   "Annual national exhibition — Tier 3 credibility target. Contemporary Japanese watercolor practitioners working at the level she is building toward.": "年度全国性展览——第三层级的信誉目标。当代日本水彩从业者所处的水平，正是你正在努力达到的。",
   "Reference ecosystem for Japan active watercolor exhibition community.": "日本活跃水彩展览社群的参照生态。",
-  "Urban watercolor with loose, atmospheric style; strong international exhibition record built from a non-Western base. AWS signature member.": "城市水彩，风格松动而富氛围；从非西方根基建立了扎实的国际展览记录。AWS 签名会员。",
+  "Urban watercolor with loose, atmospheric style; strong international exhibition record built from a non-Western base. AWS signature member.": "城市水彩，风格松弛，富有氛围感；从非西方根基建立了扎实的国际展览记录。AWS 签名会员。",
   "Reference for building international watercolor exhibition record through society competitions.": "通过协会赛事建立国际水彩展览记录的参照。",
-  "Prominent UK watercolor practitioner and author. Style is loose and expressive — very different from GEGYjiji's quiet urban register. Community reference only.": "英国知名水彩从业者与作者。风格松动而富表现力——与你安静的城市气质截然不同。仅作社群参照。",
+  "Prominent UK watercolor practitioner and author. Style is loose and expressive — very different from GEGYjiji's quiet urban register. Community reference only.": "英国知名水彩从业者与作者。风格松弛，富有表现力——与你安静的城市气质截然不同。仅作社群参照。",
   "Community reference only. Do NOT use as stylistic reference or aesthetic comparison.": "仅作社群参照。请勿用作风格参照或审美比较。",
   "atmospheric watercolor": "氛围水彩", "quiet observation": "安静的观察", "Asia-based career": "立足亚洲的事业", "architectural subjects": "建筑题材",
   "Japan-connected identity": "与日本相连的身份", "urban and travel watercolor": "城市与旅行水彩", "quiet atmospheric palette": "安静的氛围色调", "watercolor societies": "水彩协会",
@@ -137,7 +137,7 @@ const SF_ZH = {
   "architecture and urban buildings": "建筑与城市楼宇", "observation-based practice": "基于观察的实践", "structural and atmospheric balance": "结构与氛围的平衡",
   "Chinese artistic formation": "中国艺术训练背景", "Western watercolor practice": "西方水彩实践", "cross-cultural career": "跨文化的事业",
   "Japan-based": "立足日本", "annual exhibition culture": "年度展览文化", "national institutional credibility": "国家机构层面的信誉",
-  "urban scenes": "城市场景", "atmospheric loose watercolor": "氛围松动的水彩", "international career from non-Western base": "从非西方根基发展的国际事业",
+  "urban scenes": "城市场景", "atmospheric loose watercolor": "松弛、有氛围感的水彩", "international career from non-Western base": "从非西方根基发展的国际事业",
   "international watercolor community": "国际水彩社群", "publishing and teaching path": "出版与教学路径",
 
   // ── Your record (career position) ──
@@ -145,7 +145,7 @@ const SF_ZH = {
   "Group show — 6 Chinese illustrators": "联展——6 位中国插画师",
   "First Japan exhibition": "首次日本展览",
   "Solo illustration collection": "个人插画作品集",
-  "Group publication, contributor": "群体出版物，供稿者",
+  "Group publication, contributor": "合作出版物，参与供稿",
   "Beijing Fashion Institute": "北京服装学院",
   "Illustration & design": "插画与设计",
   "Illustration & design background": "插画与设计背景",
@@ -263,7 +263,7 @@ const SF_ZH = {
 
   // ── Press features ──
   "Work feature": "作品报道", "Work feature (part 2)": "作品报道（第二部分）",
-  "Visual feature of watercolor work — large general audience, no biographical depth": "水彩作品的视觉报道——受众广泛，但无人物深度",
+  "Visual feature of watercolor work — large general audience, no biographical depth": "以水彩作品展示为主的报道——受众广泛，但没有深入介绍创作者本人",
   "Follow-up feature of the same body of work": "对同一批作品的后续报道",
   "Japan's most significant contemporary art publication": "日本最重要的当代艺术刊物",
   "Design and art, illustration-friendly, Tokyo readership": "设计与艺术，对插画友好，东京读者群",
@@ -1087,8 +1087,8 @@ const RC_LABELS = {
   // The zh was 「该开始准备了」 — the "it's time you did X" construction, a nudge
   // aimed at her where the English only observes. Neutral now.
   prepare:  { zh: '现在着手正合适', ja: '準備を始める頃', en: 'Worth starting now' },
-  ready:    { zh: '要准备好的', ja: '用意しておくもの', en: 'Have ready' },
-  approx:   { zh: '时间为估计', ja: '時期は推定', en: 'timing approximate' },
+  ready:    { zh: '需要准备什么', ja: '用意しておくもの', en: 'Have ready' },
+  approx:   { zh: '预计时间', ja: '時期は推定', en: 'timing approximate' },
   always:   { zh: '常年开着', ja: '通年', en: 'Always open' },
   fee:      { zh: (n) => `展位费 ${n} 起`, ja: (n) => `ブース ${n} から`, en: (n) => `Booth from ${n}` },
   months:   { zh: ['一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'],
@@ -1167,7 +1167,7 @@ export function RecurringDoors({ data, lang }) {
       {/* always_open entries dropped this entirely, so the one door with no
           barrier at all was the only card with nothing to have ready. */}
       {/* Fullwidth colon in zh/ja, ASCII + space in en. A hardcoded ':' put a
-          Latin colon inside a Chinese sentence — 要准备好的: — a few hundred
+          Latin colon inside a Chinese sentence — 需要准备什么: — a few hundred
           pixels from 资格要求：, which had the right one. */}
       {d.prepare && <p className="sf-door-prep"><strong>{rcL('ready', lang)}{lang === 'en' ? ': ' : '：'}</strong>{pick(d.prepare)}</p>}
     </div>
@@ -1643,7 +1643,7 @@ const BE_LABELS = {
   // "selling out still is not enough" was the negation pattern again (rule 5 in
   // futures_engine's docstring). Same arithmetic, said positively: the run sells
   // out and money is still owed.
-  chartNote:{ zh: '整条＝那一种印法印出来的数量；填色的部分＝要卖掉多少才回本。填色漫出右边，表示整批卖光之后成本仍有缺口。',
+  chartNote:{ zh: '整条表示按这种印法印出的总数；填色部分表示要卖掉多少本才能回本。填色超出右边，表示整批卖光后仍有成本没收回来。',
               en: 'The whole bar is the copies printed; the filled part is how many must sell to get the money back. A fill running past the right edge means the run sells out and the cost is still owed.' },
 }
 const beL = (k, lang) => BE_LABELS[k][lang] || BE_LABELS[k].en

@@ -271,9 +271,9 @@ def build(price_jpy: int = DEFAULT_PRICE) -> dict:
         "How fast the copies sell cannot be worked out at all. That gap — a fixed "
         "price against an open-ended sell-through — is the whole of the decision, "
         "and carrying it is what a publisher is.",
-        "做一本书要花多少钱，可以在开始之前精确到日元算出来；能卖多快，则完全算不出来。"
-        "一头是固定的价钱，另一头是没有底的销售速度——要决定的全部就是这个落差，"
-        "而把这个落差接过去，正是出版社的作用。")
+        "做一本书要花多少钱，在开始之前就能算出来，精确到日元；能卖多快，则完全算不出来。"
+        "一边是确定的费用，另一边是没法确定的销售速度——做决定时要考虑的，就是这个落差。"
+        "而承担这份不确定性，正是出版社的作用。")
 
     # The loss-leader question, answered outright rather than left to inference.
     # Opened "It is not a loss" / “它不是亏本生意” until 2026-09-07 — the
@@ -286,7 +286,7 @@ def build(price_jpy: int = DEFAULT_PRICE) -> dict:
         f"copies; the run is paid off at {ref['breakeven_direct']} sold and the other {left} are "
         f"profit. Slow is the accurate word for it, and the pace below is what makes it slow.",
         f"钱是能回来的，只是周期长。{_fen(ref['outlay_jpy'])} 换来 {ref['run']} 本；"
-        f"卖到第 {ref['breakeven_direct']} 本这批印量就付清了，剩下的 {left} 本是净赚。"
+        f"卖到第 {ref['breakeven_direct']} 本这批书的印制成本就收回来了，剩下的 {left} 本是净赚。"
         f"准确的说法是“慢”——下面的数字说明的正是它为什么慢。")
 
     # ── the fork: who carries the outlay ─────────────────────────────────────
@@ -366,7 +366,7 @@ def build(price_jpy: int = DEFAULT_PRICE) -> dict:
                f"routes that is {_clears_en}. Run size and sales channel are therefore one decision, "
                f"not two.",
                f"按 70/30 的标准寄售分成，落地成本要低于 {_fen(CONSIGNMENT_UNIT_CEILING)}，"
-               f"也就是你自己拿到的那一份，才有得赚。这几条路里能满足的是{_clears_zh}。"
+               f"也就是你自己拿到的那一份，才有得赚。这几条路里，能满足这一条件的有{_clears_zh}。"
                f"所以印多少和在哪里卖是同一个决定，不是两个。"),
         ],
     }

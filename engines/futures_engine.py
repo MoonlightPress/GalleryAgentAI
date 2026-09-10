@@ -226,8 +226,8 @@ _FRAME = _t(
     "yourself, increase what the rest of the work is worth, or create revenue without requiring "
     "another original.",
 
-    "你已经有一套运转起来的创作和生意——六年的画、一批固定的观众、直接销售、委托，还有一份展览履历——"
-    "所以现在值得问的是：换一条路，能拿到什么现在这条路上拿不到的东西。\n\n"
+    "你的创作和生意都已经运转起来了：六年的画、一批固定的观众、直接销售、委托，还有一份展览履历。"
+    "所以现在值得问的是：换一条路，能得到什么现在这条路上得不到的东西。\n\n"
     "一张原作已经能卖到 31,900–115,500 日元，后面所有的账都拿这个数来比。往里面再加东西，"
     "至少要做到其中一件：让画完的作品再挣一次钱，卖给你自己够不着的买家，"
     "把其余作品的价钱一起带上去，或者不必再画一张原作也能有收入。")
@@ -280,7 +280,7 @@ _SELLING_DIRECT = [
 
         "已经卖得稳的东西，还是你现在的做法划算。一套十张的明信片，印一百套时一套约 170 日元，"
         "按需印刷要 1,835 日元。这些继续自己印。"
-        "新形态里哪一样开始稳定出货，再转批量生产，那是第二步。")},
+        "哪种新产品开始稳定出货了，再转成批量生产，那是第二步。")},
 
     # Every figure in this paragraph and in the "Hardcover, China" row below is
     # read from book_economics_engine rather than typed. It was typed once and
@@ -307,7 +307,7 @@ _SELLING_DIRECT = [
         "而这个比例，你自己的 Instagram 后台里就有。"
         "另外，厚度控制在三厘米以内，每件国内包裹省 465 日元；这是在设计阶段、开印之前就定下的。")},
 
-    {"kind": "prose", "label": _t("The book is a different decision", "书是另一个层面的决定"),
+    {"kind": "prose", "label": _t("The book is a different decision", "做书，是另一个层面的决定"),
      "text": _t(
         f"A 128-page hardcover printed in China costs ¥{_BOOK['outlay_jpy']:,} for "
         f"{_BOOK['run']} copies. At ¥{_BOOK_PRICE:,} each, the production cost is recovered after "
@@ -344,7 +344,7 @@ _SELLING_DIRECT = [
         "For a book intended to open another door, make three copies instead. Three Blurb copies "
         "cost about ¥31,000 and can go directly to a publisher, gallery or shop buyer.",
 
-        "如果这本书是当商品卖，在查过的几种做法里，中国印的精装本账最划算。"
+        "如果这本书是当商品卖，在查过的几种做法里，算下来还是在中国印精装本最划算。"
         "如果这本书是用来敲另一扇门的，那就只做三本。Blurb 三本约 31,000 日元，"
         "可以直接拿给出版社、画廊或者书店买手。")},
 
@@ -354,7 +354,7 @@ _SELLING_DIRECT = [
     # this route. Publishing keeps the half that is about a publisher.
     {"kind": "component", "id": "book_economics",
      "label": _t("Whether a print run can pay for itself",
-                 "一批印量能不能把钱赚回来")},
+                 "印一批书，能不能把钱赚回来")},
 
     {"kind": "links", "label": _t("Where", "去哪里做"),
      "items": [
@@ -510,7 +510,7 @@ _GALLERIES = [
         "FACE 2027 的收件期是 9 月 7 日到 10 月 8 日，入选作品明年三月在西新宿的 SOMPO 美术馆展出。"
         "接受的媒介里明确写着水彩，和油画、丙烯、岩彩、版画、染色、摄影并列。"
         "没有国籍限制，也没有居住地限制——实际上要过的只有一关：把作品送到，"
-        "10 月下旬用快递，或者11 月 7、8 日本人送去。报名费 7,000 日元。"
+        "10 月下旬用快递，或者在 11 月 7 日、8 日亲自送去。报名费 7,000 日元。"
         "尺寸上限 200 × 170 厘米，没有下限，所以小幅作品也可以投。"
         "除了主要奖项，还有一个 30 万日元的 U30 Frontier 奖，面向 1997 年 4 月 1 日之后出生的人。")},
 
@@ -677,7 +677,7 @@ _LICENSING = [
         "值得专门去应对的，是构图上的要求。"
         "封面要放得下字，也要经得起裁切。画一小组竖构图，特意留出安静的区域——"
         "天空、雾、水面、墙、阴影，或者上三分之一整片留白。"
-        "这样艺术总监手上就有了能围着它做封面的图，而作品看上去还是一眼就认得出是你的。"
+        "这样艺术总监手上就有了能用来设计封面的图，而作品看上去还是一眼就认得出是你的。"
         "五到十张，一个授权作品集的开头就有了。"
         "然后把它们放到艺术总监本来就会去看的地方：")},
 
@@ -732,7 +732,7 @@ _PUBLISHING = [
      "items": [
         _t("the idea of the book", "这本书的构想"),
         _t("why the paintings belong together", "这些画为什么属于同一本书"),
-        _t("a sample sequence", "一段排好顺序的样张"),
+        _t("a sample sequence", "一组排好顺序的样张"),
         _t("several finished works showing the visual language", "几张完成的作品，用来呈现视觉语言"),
         _t("what remains to be painted", "还有哪些要画"),
         _t("the intended reader", "预设的读者"),
@@ -748,7 +748,7 @@ _PUBLISHING = [
     {"kind": "prose", "label": _t("The economics", "这笔账"),
      "text": _t(
         "Publishing is weak as a per-copy revenue stream and strong as distribution.",
-        "论每本能拿多少，出版是弱的；论发行，它是强的。")},
+        "论每本能拿多少钱，出版社出版不占优势；论发行，它有优势。")},
 
     {"kind": "table",
      "headers": [_t("", ""), _t("You keep per copy", "每本你拿到"), _t("300 copies", "300 本")],
@@ -777,7 +777,7 @@ _PUBLISHING = [
         "出版社真正给的是版税之外的那一整套：出印刷的钱、进全国书店、一个 ISBN、制作、库存，"
         "还有一条会一直挂在你名字上的出版记录。"
         "当这本书除了卖出去，还要带动你手上其他的事时，这些好处才最值。"
-        "岔口的另一边——自己付钱给印厂，以及一批印量要卖掉多少才回得来——算在“直接卖”那一条里。")},
+        "岔口的另一边——自己付钱给印厂，以及一批书要卖掉多少本才能回本——算在“直接卖”那一条里。")},
 
     # Who carries the outlay — the one real publisher-vs-self comparison in the
     # book material, and the only part of it that belongs on this side. The
@@ -833,7 +833,7 @@ _COMMISSIONS = [
         {"cells": [_t("Book cover", "书籍封面"), _t("¥70,000", "70,000 日元")]},
         {"cells": [_t("Magazine cover", "杂志封面"), _t("¥100,000", "100,000 日元")]},
         {"cells": [_t("Small internal illustration", "内页小图"), _t("¥5,000", "5,000 日元")]},
-        {"cells": [_t("Average coordinated job", "经手工作的平均值"), _t("¥71,327", "71,327 日元")]},
+        {"cells": [_t("Average coordinated job", "经手项目的平均费用"), _t("¥71,327", "71,327 日元")]},
      ]},
 
     {"kind": "prose", "text": _t(
@@ -885,7 +885,7 @@ _COMMISSIONS = [
         "That turns an ambiguous “How much for a painting?” into something you can price "
         "consistently.",
 
-        "这样一来，“画一张多少钱”这种含糊的问题，就变成了一个你能稳定报价的问题。")},
+        "这样一来，“画一张多少钱”这种含糊的问题，就变成了一个你能给出稳定报价的问题。")},
 
     {"kind": "links", "label": _t("Two useful doors now", "现在就有两扇有用的门"),
      "items": [
@@ -930,16 +930,16 @@ _FIRST_STEPS = {
                     "FACE 2027——7,000 日元，接受的媒介里写明水彩，尺寸没有下限。")},
         {"route": _t("Selling Direct", "直接卖"),
          "step": _t("An afternoon: list an A2 poster, an A1 poster and a framed A4 print on demand.",
-                    "一个下午：用按需印刷上架一张 A2 海报、一张 A1 海报和一张装裱的 A4 印刷。")},
+                    "一个下午：用按需印刷上架一张 A2 海报、一张 A1 海报和一张装裱好的 A4 印刷品。")},
         {"route": _t("Galleries", "画廊"),
          "step": _t("An afternoon: pick one show to go and see, and get a five-image series link ready.",
-                    "一个下午：挑一场展去看，把一个五张同系列作品的链接准备好。")},
+                    "一个下午：挑一场展去看，准备好一个包含五张同系列作品的链接。")},
         {"route": _t("Licensing", "图像授权"),
          "step": _t("A piece of work: the first five vertical, cover-ready paintings.",
                     "要动手做的：头五张竖构图、可以直接当封面用的画。")},
         {"route": _t("Publishing", "出版"),
          "step": _t("A piece of work: one existing body of work written up as a one-page book idea.",
-                    "要动手做的：把已有的一组作品，写成一页纸的书的构想。")},
+                    "要动手做的：把已有的一组作品，整理成一页纸的出书构想。")},
         {"route": _t("Commissions", "委托"),
          "step": _t("A piece of work: a reusable fee-and-licence template, written before the next enquiry.",
                     "要动手做的：一份可以反复用的“费用＋授权”模板，趁还没有人来问先写好。")},
@@ -1002,7 +1002,7 @@ _OPENERS = {
            "pack — and the money arrives per sale, as it sells. Postcards, zines, prints and "
            "originals all already run this way, alongside commissions taken directly.",
 
-           "作品通过你自己的店铺出去——文案你写、价格你定、包裹你打——"
+           "作品通过你自己的店铺卖出去——文案你写、价格你定、包裹你打——"
            "钱是一笔一笔进来的，卖一件收一件。"
            "明信片、zine、印刷品和原作现在都是这样在走，直接接的委托也是。"),
 
@@ -1024,9 +1024,9 @@ _OPENERS = {
            "there and already looking, so a new product reaches it the same afternoon, with no "
            "introduction to arrange and nobody's permission to wait for.",
 
-           f"整个毛利都归你。每卖一张，画廊抽走大约一半；一本 {_BOOK_PRICE:,} 日元的书，出版社分给你 "
+           f"全部毛利都归你。每卖一张，画廊抽走大约一半；一本 {_BOOK_PRICE:,} 日元的书，出版社分给你 "
            f"{_ROY_PER_COPY_ZH}，授权那边，是别人按定好的用途一次性付你一笔钱——在这条路上，成本以外的钱全是你的。"
-           "价格是你定的，不需要替它争取；也没有任何一件事要等申请、等评审、等别人的排期，"
+           "价格是你定的，不用再跟谁争取；也没有任何一件事要等申请、等评审、等别人的排期，"
            "所以周一做的决定，周五就可能在挣钱。其他四条路没有一条做得到。\n\n"
            "别的路要先把观众攒起来，这条路一开始就有。观众已经在了，而且已经在看，"
            "所以一件新东西当天下午就能到他们眼前，不用安排引荐，也不用等谁点头。"),
@@ -1172,7 +1172,7 @@ _OPENERS = {
            "And rates vary enormously between clients, which is the mechanism by which the "
            "portfolio you show decides which clients arrive.",
 
-           "题材、进度和最终画面不再完全是你的。"
+           "题材、进度和最终画面，不再完全由你决定。"
            "一张 70,000 日元的封面，和你自己一张原作挣到的差不多，而原作没有附带任何要求。"
            "另外，不同客户之间价差极大——所以才有那句话：你拿什么作品集，就接到什么活。")),
 }
@@ -1197,7 +1197,7 @@ FUTURES = [
         # inside her own shop because it is the part that isn't there.
         "blocks": _OPENERS["no_gatekeepers"] + _SELLING_DIRECT,
         "tagline": _t("Your own shop, your own prices, everything above cost.",
-                      "自己的店，自己定价，成本之上全归你。"),
+                      "自己的店，自己定价，扣掉成本，剩下的全归你。"),
     },
     {
         "id": "someone_else_sells",
@@ -1295,7 +1295,7 @@ def _standing(record: dict) -> dict:
         "on_assignment": _t(
             "Six years of delivering to a daily schedule, and a subject Japanese literary "
             "publishers buy covers in.",
-            "六年每天按时把画交出来，以及一个题材——会被日本的文学类出版社买去做封面。"),
+            "六年来，你每天都按时把画交出来；你的题材也会被日本的文学类出版社买去做封面。"),
     }
 
 

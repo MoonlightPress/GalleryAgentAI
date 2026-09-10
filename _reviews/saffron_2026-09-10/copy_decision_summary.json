@@ -1,0 +1,15 @@
+{
+  "engine_units": 320,
+  "engine_decisions": {
+    "Rewrite": 178,
+    "Retain wording": 100,
+    "Hold for model correction": 15,
+    "Delete": 3,
+    "Rewrite with verified source": 2,
+    "Move / correct scope": 2,
+    "Hold for source": 11,
+    "Out of current UI": 9
+  },
+  "ladder_units": 89,
+  "ladder_rewrites": 81
+}

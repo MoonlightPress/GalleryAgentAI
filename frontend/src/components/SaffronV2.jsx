@@ -49,10 +49,10 @@ const PULSE_COPY = {
       `${ahead} of ${served} entries carry a date we can read; the rest are undated or already past.`,
   },
   zh: {
-    quiet: (d) => `自 ${d} 起没有新的。检索大约每月一次。`,
+    quiet: (d) => `自 ${d} 起暂无新增。检索大约每月一次。`,
     some: (n, d) => `自 ${d} 起，新增 ${n} 条。`,
     coverage: (ahead, served) =>
-      `${served} 条中有 ${ahead} 条带着可读的日期，其余的没有日期，或已经过去。`,
+      `${served} 条中有 ${ahead} 条带有可识别的日期，其余的没有日期，或日期已经过去。`,
   },
   ja: {
     quiet: (d) => `${d} 以降、新しいものはありません。検索は月に一度ほどです。`,
@@ -75,10 +75,10 @@ const V2_COPY = {
   zh: {
     year: '未来一年', yearSub: '有日期的条目 · 圆点表示当月开放的门',
     keyDoor: '有门开放', keyNone: '— 暂无日期',
-    dated: (n) => `${n} 条有日期`, nothingDated: '暂无有日期的条目',
+    dated: (n) => `${n} 条有日期`, nothingDated: '暂无带日期的条目',
     doorsHere: (n) => `本月有 ${n} 扇门开放`,
     more: (n) => `显示其余 ${n} 条`, less: '收起',
-    empty: '本月暂无有日期的条目。下面的门仍会轮到。',
+    empty: '本月暂无带日期的条目。下面这些门还会依次打开。',
     loading: 'Saffron 正在观察…',
   },
   ja: {

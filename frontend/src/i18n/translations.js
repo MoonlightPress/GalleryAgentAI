@@ -442,7 +442,7 @@ const zh = {
   'sf.oq.placeholder':       '告诉山楂……',
   'sf.oq.save':              '保存',
   'sf.oq.saved':             '已保存 ✓ — 山楂会据此更新分析。',
-  'sf.label.peersCaveat':    '这些是与你气味相投的同行，依据真实的重合挑选——每日水彩、日常生活、由线上走向出版的路径——而不是一份排名。有的在风格上与你相近，有的是事业路径上的参照；每条说明都会注明是哪一种。',
+  'sf.label.peersCaveat':    '这些是与你气味相投的同行，按你们确实相通的地方挑选——每日水彩、日常生活、由线上走向出版的路径——而不是一份排名。有的在风格上与你相近，有的是事业路径上的参照；每条说明都会注明是哪一种。',
 
   'sf.empty.calendar':       '这个月没有定了日子的截止。多数机会常年开放——一旦有了确定的日期，山楂会放到这里。',
   'sf.empty.venues':         '还没有在联系中的场地。你在胡椒粒那里记下的第一家，会出现在这里。',
@@ -488,7 +488,7 @@ const zh = {
   'sf.label.assessmentTitle':  '综合评估',
   'sf.label.gapTag':           '机会',
   'sf.label.coExhibCount':     '{n}位共同参展者',
-  'sf.label.onlineFeatures':   '{n}个线上报道',
+  'sf.label.onlineFeatures':   '{n}篇线上报道',
   'sf.label.unknownDeadlines': '{n}个截止日期未知',
   'sf.label.primaryBase':      '主要：东京 / 北京',
 
@@ -1175,7 +1175,7 @@ const zh = {
   'sf.cr.peerStrengths':    '在同阶段的艺术家中，你已经稳稳立足的地方。',
 
   // ── SaffronPage — summary strings ─────────────────────────────────────────
-  'sf.sum.pressFeatures':     '{n}个线上报道',
+  'sf.sum.pressFeatures':     '{n}篇线上报道',
   'sf.sum.coExhibitors':      '{n}位共同参展者',
   'sf.sum.calendarUnknown':   '{known}个 · {n}个截止日期待确认',
   'sf.sum.momentum':          '{submissions}次投递 · {venues}个场馆 · {rate}% 回复率',

@@ -1,0 +1,1922 @@
+[
+  {
+    "file": "engines/book_economics_engine.py",
+    "line": 77,
+    "en": "Printed in China",
+    "zh": "在中国印"
+  },
+  {
+    "file": "engines/book_economics_engine.py",
+    "line": 78,
+    "en": "Landed in Tokyo, freight included. These are the prices quoted to an English speaker; the same specification asked for in Chinese is a different price.",
+    "zh": "运抵东京、含运费。这些是报给英语使用者的价格；同一份规格用中文去问，是另一个价格。"
+  },
+  {
+    "file": "engines/book_economics_engine.py",
+    "line": 84,
+    "en": "Printed in Japan, digital",
+    "zh": "在日本印，数码印刷"
+  },
+  {
+    "file": "engines/book_economics_engine.py",
+    "line": 85,
+    "en": "Two-week turnaround, no customs — but capped at B5 and about 96 pages.",
+    "zh": "两周交货，不用过海关——但尺寸上限是 B5，页数约 96 页。"
+  },
+  {
+    "file": "engines/book_economics_engine.py",
+    "line": 91,
+    "en": "Printed in Japan, offset A4",
+    "zh": "在日本印，A4 胶印"
+  },
+  {
+    "file": "engines/book_economics_engine.py",
+    "line": 92,
+    "en": "The full-size hardcover route domestically. Included because it is what most people assume they have to do.",
+    "zh": "在日本做全尺寸精装的做法。列在这里，是因为多数人以为只能这样做。"
+  },
+  {
+    "file": "engines/book_economics_engine.py",
+    "line": 250,
+    "en": "The same {small['run']}-copy run pays for itself at {be_base} copies at {_fen(price_jpy)}, and at {be_high} priced at {_fen(high)} — {round(100 * be_base / small['run'])}% of the run against {round(100 * be_high / small['run'])}%. A small run is not rescued by selling harder; it is rescued by the price on the cover.",
+    "zh": "同样是印 {small['run']} 本，定价 {_fen(price_jpy)} 要卖 {be_base} 本回本，定价 {_fen(high)} 只要 {be_high} 本——是这批书的 {round(100 * be_base / small['run'])}% 和 {round(100 * be_high / small['run'])}%。小批量不是靠多卖救回来的，是靠封面上那个价格。"
+  },
+  {
+    "file": "engines/book_economics_engine.py",
+    "line": 269,
+    "en": "What a book costs can be worked out to the yen before anything starts. How fast the copies sell cannot be worked out at all. That gap — a fixed price against an open-ended sell-through — is the whole of the decision, and carrying it is what a publisher is.",
+    "zh": "做一本书要花多少钱，可以在开始之前精确到日元算出来；能卖多快，则完全算不出来。一头是固定的价钱，另一头是没有底的销售速度——要决定的全部就是这个落差，而把这个落差接过去，正是出版社的作用。"
+  },
+  {
+    "file": "engines/book_economics_engine.py",
+    "line": 284,
+    "en": "The money comes back, on a long timescale. {_fen(ref['outlay_jpy'])} buys {ref['run']} copies; the run is paid off at {ref['breakeven_direct']} sold and the other {left} are profit. Slow is the accurate word for it, and the pace below is what makes it slow.",
+    "zh": "钱是能回来的，只是周期长。{_fen(ref['outlay_jpy'])} 换来 {ref['run']} 本；卖到第 {ref['breakeven_direct']} 本这批印量就付清了，剩下的 {left} 本是净赚。准确的说法是“慢”——下面的数字说明的正是它为什么慢。"
+  },
+  {
+    "file": "engines/book_economics_engine.py",
+    "line": 295,
+    "en": "Who carries the {_fen(ref['outlay_jpy'])}",
+    "zh": "这 {_fen(ref['outlay_jpy'])} 由谁来出"
+  },
+  {
+    "file": "engines/book_economics_engine.py",
+    "line": 298,
+    "en": "Up front",
+    "zh": "先要付的钱"
+  },
+  {
+    "file": "engines/book_economics_engine.py",
+    "line": 299,
+    "en": "Back at",
+    "zh": "回本点"
+  },
+  {
+    "file": "engines/book_economics_engine.py",
+    "line": 300,
+    "en": "Per copy",
+    "zh": "每卖一本"
+  },
+  {
+    "file": "engines/book_economics_engine.py",
+    "line": 301,
+    "en": "Reach",
+    "zh": "能到达的地方"
+  },
+  {
+    "file": "engines/book_economics_engine.py",
+    "line": 302,
+    "en": "Where the copies sit",
+    "zh": "书放在哪里"
+  },
+  {
+    "file": "engines/book_economics_engine.py",
+    "line": 303,
+    "en": "The variable",
+    "zh": "不确定的那一项"
+  },
+  {
+    "file": "engines/book_economics_engine.py",
+    "line": 308,
+    "en": "Self-published",
+    "zh": "自己出版"
+  },
+  {
+    "file": "engines/book_economics_engine.py",
+    "line": 310,
+    "en": "{_fen(ref['outlay_jpy'])} — {ref['run']} copies, printed in China, landed in Tokyo",
+    "zh": "{_fen(ref['outlay_jpy'])}——{ref['run']} 本，在中国印，运抵东京"
+  },
+  {
+    "file": "engines/book_economics_engine.py",
+    "line": 312,
+    "en": "{ref['breakeven_direct']} copies of {ref['run']}; the other {left} are profit",
+    "zh": "{ref['run']} 本里的第 {ref['breakeven_direct']} 本；剩下 {left} 本是净赚"
+  },
+  {
+    "file": "engines/book_economics_engine.py",
+    "line": 314,
+    "en": "{_fen(ref['margin_direct_jpy'])} on a direct sale",
+    "zh": "直接卖出，{_fen(ref['margin_direct_jpy'])}"
+  },
+  {
+    "file": "engines/book_economics_engine.py",
+    "line": 316,
+    "en": "Own shop, a few consignment shops, one fair booth at a time",
+    "zh": "自己的店铺、几家寄售的书店、一次一个展位"
+  },
+  {
+    "file": "engines/book_economics_engine.py",
+    "line": 318,
+    "en": "{ref['run']} hardcovers in a room until they move",
+    "zh": "{ref['run']} 本精装书堆在房间里，直到卖完"
+  },
+  {
+    "file": "engines/book_economics_engine.py",
+    "line": 320,
+    "en": "How long {ref['breakeven_direct']} copies takes",
+    "zh": "卖到第 {ref['breakeven_direct']} 本要多久"
+  },
+  {
+    "file": "engines/book_economics_engine.py",
+    "line": 326,
+    "en": "With a publisher",
+    "zh": "有出版社"
+  },
+  {
+    "file": "engines/book_economics_engine.py",
+    "line": 328,
+    "en": "Nothing",
+    "zh": "不用付"
+  },
+  {
+    "file": "engines/book_economics_engine.py",
+    "line": 329,
+    "en": "Nothing to get back",
+    "zh": "没有要收回的钱"
+  },
+  {
+    "file": "engines/book_economics_engine.py",
+    "line": 330,
+    "en": "A royalty. {int(ROYALTY_BAND[0] * 100)}–{int(ROYALTY_BAND[1] * 100)}% of cover is the Japanese convention — around {_fen(roy_lo)}–{_fen(roy_hi)} here, against {_fen(ref['margin_direct_jpy'])} direct. Convention, not an offer: nobody has quoted a rate.",
+    "zh": "版税。日本的惯例是定价的 {int(ROYALTY_BAND[0] * 100)}–{int(ROYALTY_BAND[1] * 100)}%，在这里大约 {_fen(roy_lo)}–{_fen(roy_hi)}，对比自己直接卖的 {_fen(ref['margin_direct_jpy'])}。这是行业惯例，不是谁开出的条件——目前没有任何出版社报过价。"
+  },
+  {
+    "file": "engines/book_economics_engine.py",
+    "line": 336,
+    "en": "Bookshops nationally",
+    "zh": "全国的书店"
+  },
+  {
+    "file": "engines/book_economics_engine.py",
+    "line": 337,
+    "en": "The publisher's warehouse",
+    "zh": "出版社的仓库"
+  },
+  {
+    "file": "engines/book_economics_engine.py",
+    "line": 338,
+    "en": "Their consent",
+    "zh": "对方同不同意"
+  },
+  {
+    "file": "engines/book_economics_engine.py",
+    "line": 342,
+    "en": "Mateusz Urbanowicz's Tokyo books — Tokyo Storefronts, Tokyo at Night — are published by MdN rather than self-published, and the series has passed 100,000 copies in Japan. Self-publishing has no route to that number; equally, no self-published run waits for anyone's permission. That is the whole of the trade.",
+    "zh": "Mateusz Urbanowicz 画东京的那两本书——《东京店构え》《东京夜行》——由 MdN 出版，不是自出版，这个系列在日本卖过十万册。自出版没有任何途径能到那个数字；反过来，自出版也不需要等谁点头。这就是这笔交易的全部内容。"
+  },
+  {
+    "file": "engines/book_economics_engine.py",
+    "line": 354,
+    "en": "How fast copies actually move",
+    "zh": "书实际上卖得有多快"
+  },
+  {
+    "file": "engines/book_economics_engine.py",
+    "line": 356,
+    "en": "The median at a Japanese art book fair is {FAIR_MEDIAN_LOW}–{FAIR_MEDIAN_HIGH} copies. On fairs alone, {ref['breakeven_direct']} copies is {fairs_range} of them.",
+    "zh": "日本艺术书展的中位数是 {FAIR_MEDIAN_LOW}–{FAIR_MEDIAN_HIGH} 本。只靠书展的话，{ref['breakeven_direct']} 本要摆 {fairs_range} 次摊。"
+  },
+  {
+    "file": "engines/book_economics_engine.py",
+    "line": 360,
+    "en": "The cheapest Tokyo Art Book Fair booth is {_fen(FAIR_BOOTH_JPY)}, with no commission on sales. At these costs it pays for itself in {booth_copies} copies — inside the first hour.",
+    "zh": "东京艺术书展最便宜的展位是 {_fen(FAIR_BOOTH_JPY)}，销售不抽成。按这里的成本，卖 {booth_copies} 本就回本了——第一个小时之内。"
+  },
+  {
+    "file": "engines/book_economics_engine.py",
+    "line": 364,
+    "en": "Consignment at the standard 70/30 only clears when the landed cost is under {_fen(CONSIGNMENT_UNIT_CEILING)} a copy — her share of the cover price. Among these routes that is {_clears_en}. Run size and sales channel are therefore one decision, not two.",
+    "zh": "按 70/30 的标准寄售分成，落地成本要低于 {_fen(CONSIGNMENT_UNIT_CEILING)}，也就是你自己拿到的那一份，才有得赚。这几条路里能满足的是{_clears_zh}。所以印多少和在哪里卖是同一个决定，不是两个。"
+  },
+  {
+    "file": "engines/book_economics_engine.py",
+    "line": 389,
+    "en": "The arithmetic, route by route",
+    "zh": "每一条路的算法"
+  },
+  {
+    "file": "engines/book_economics_engine.py",
+    "line": 390,
+    "en": "A print run is the only item on this list with a price that can be known in advance. Everything else is an application and a wait.",
+    "zh": "在这份清单上，印一本书是唯一一件事先就能知道价钱的事。其余每一样，都是先申请，然后等。"
+  },
+  {
+    "file": "engines/book_economics_engine.py",
+    "line": 393,
+    "en": "Break-even is knowable; how many copies sell is not. Every figure here is sourced; the sell-through numbers are medians from other people's fairs, not a forecast.",
+    "zh": "回本的数字可以算出来，能卖多少本却算不出来。这里每一个数字都有出处；而销售数字是别人书展的中位数，不是预测。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 220,
+    "en": "You already have a working practice — six years of paintings, an audience, direct sales, commissions and a record of exhibitions — so the useful question now is where another route gives you something this one cannot.\n\nAn original already earns ¥31,900–115,500. That is the benchmark. Anything added to the practice should earn from work you have already made, reach buyers you cannot reach yourself, increase what the rest of the work is worth, or create revenue without requiring another original.",
+    "zh": "你已经有一套运转起来的创作和生意——六年的画、一批固定的观众、直接销售、委托，还有一份展览履历——所以现在值得问的是：换一条路，能拿到什么现在这条路上拿不到的东西。\n\n一张原作已经能卖到 31,900–115,500 日元，后面所有的账都拿这个数来比。往里面再加东西，至少要做到其中一件：让画完的作品再挣一次钱，卖给你自己够不着的买家，把其余作品的价钱一起带上去，或者不必再画一张原作也能有收入。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 237,
+    "en": "The gap between ¥2,200 and ¥31,900",
+    "zh": "2,200 到 31,900 日元之间的空档"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 239,
+    "en": "You already sell successfully at both ends: postcards, zines and prints at ¥1,100–2,200, then originals beginning at ¥31,900. The missing part is the middle. Someone who has bought a zine and a print has no way to spend ¥5,000, ¥10,000 or ¥20,000 with you. The next purchase available is an original. The easiest test is to add that middle without buying inventory first.",
+    "zh": "两头你都卖得动：明信片、zine、印刷品在 1,100–2,200 日元，原作从 31,900 日元起。断掉的是中间那一段。一个买过 zine、买过印刷品的人，在你这里花不掉 5,000、10,000 或者 20,000 日元——再往上就直接是原作了。最省事的办法，是先把中间那段补上，而且不用先囤货。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 253,
+    "en": "Three products to start with",
+    "zh": "可以先做的三样东西"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 254,
+    "en": "",
+    "zh": ""
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 254,
+    "en": "Sells for",
+    "zh": "售价"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 254,
+    "en": "You keep",
+    "zh": "你拿到"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 254,
+    "en": "Margin",
+    "zh": "毛利率"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 256,
+    "en": "A2 poster",
+    "zh": "A2 海报"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 256,
+    "en": "¥3,000",
+    "zh": "3,000 日元"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 257,
+    "en": "¥1,465",
+    "zh": "1,465 日元"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 257,
+    "en": "44%",
+    "zh": "44%"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 258,
+    "en": "A1 poster",
+    "zh": "A1 海报"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 258,
+    "en": "¥5,000",
+    "zh": "5,000 日元"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 259,
+    "en": "¥2,268",
+    "zh": "2,268 日元"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 259,
+    "en": "43%",
+    "zh": "43%"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 260,
+    "en": "Framed giclée, A4",
+    "zh": "装裱微喷，A4"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 260,
+    "en": "¥20,000",
+    "zh": "20,000 日元"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 261,
+    "en": "¥7,507",
+    "zh": "7,507 日元"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 261,
+    "en": "38%",
+    "zh": "38%"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 264,
+    "en": "List them through on-demand production first. Each copy is made only when somebody orders it, so the test requires no print run and no storage. The margin is lower than printing yourself. That is useful at this stage: the printer is carrying the inventory risk while you find out whether the product has a market.",
+    "zh": "先用按需印刷上架。有人下单才做一件，所以这一轮试验没有起印量，也不占地方堆货。毛利率比自己印低，但现阶段这样更稳妥：库存的风险压在印厂那边，你只要弄清楚这件东西有没有人买。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 274,
+    "en": "For products that already sell reliably, your existing model is better. A ten-pack of postcards costs about ¥170 when printed in a run of one hundred, against ¥1,835 on demand. Keep those in-house. If one of the new formats begins selling consistently, batch production becomes the second step.",
+    "zh": "已经卖得稳的东西，还是你现在的做法划算。一套十张的明信片，印一百套时一套约 170 日元，按需印刷要 1,835 日元。这些继续自己印。新形态里哪一样开始稳定出货，再转批量生产，那是第二步。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 289,
+    "en": "What decides whether it sells",
+    "zh": "什么决定卖不卖得动"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 290,
+    "en": "A follower count does not predict sales. Across the paired cases that could be checked, the share of an audience that actually bought ran from 0.26% to 15.8%, and the largest audience of the set converted worst. Price is the lever instead: a Tokyo illustrator with 27,000 followers — a fraction of your reach — published an art book at ¥11,000 and sold 400 copies in four months, roughly ¥4 million. Two smaller levers decide most of the rest. Where your readers live changes the arithmetic more than how many they are, since air mail runs ¥2,720 a kilo to the US against ¥185 across Tokyo — and that split is one figure inside your own Instagram insights. And anything under three centimetres thick is worth ¥465 on every domestic parcel, decided at the design stage, before anything is printed.",
+    "zh": "粉丝数预测不了销量。在能查到具体数字的几个案例里，真正掏钱的人占观众的比例从 0.26% 到 15.8%，而其中观众最多的那一位转化率最低。真正起作用的是价格：一位东京插画师，粉丝两万七千（只是你全部触达里的一小部分），自出版的画集定价 11,000 日元，四个月卖了 400 本，约四百万日元。剩下的大半，由另外两件小一点的事决定。你的读者住在哪里，比他们有多少人更能改变这笔账——航空小包寄一公斤到美国 2,720 日元，寄到东京市内 185 日元——而这个比例，你自己的 Instagram 后台里就有。另外，厚度控制在三厘米以内，每件国内包裹省 465 日元；这是在设计阶段、开印之前就定下的。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 310,
+    "en": "The book is a different decision",
+    "zh": "书是另一个层面的决定"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 311,
+    "en": "A 128-page hardcover printed in China costs ¥{_BOOK['outlay_jpy']:,} for {_BOOK['run']} copies. At ¥{_BOOK_PRICE:,} each, the production cost is recovered after {_BOOK['breakeven_direct']} sales. That leaves {_BOOK['run'] - _BOOK['breakeven_direct']} copies after break-even. The question is therefore demand and speed, rather than margin.",
+    "zh": "128 页的精装本，在中国印 {_BOOK['run']} 本要 {_BOOK['outlay_jpy']:,} 日元。定价 {_BOOK_PRICE:,} 日元，卖出 {_BOOK['breakeven_direct']} 本收回制作成本。回本之后还剩 {_BOOK['run'] - _BOOK['breakeven_direct']} 本。所以要判断的是需求和速度，利润率反倒是次要的。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 324,
+    "en": "",
+    "zh": ""
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 324,
+    "en": "Each",
+    "zh": "每本"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 324,
+    "en": "Up front",
+    "zh": "先要付"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 325,
+    "en": "Sells for",
+    "zh": "售价"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 325,
+    "en": "Production cost recovered at",
+    "zh": "回本所需册数"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 327,
+    "en": "Current B5 zine, 24pp",
+    "zh": "现在的 B5 zine，24 页"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 327,
+    "en": "¥498",
+    "zh": "498 日元"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 328,
+    "en": "¥49,800 / 100",
+    "zh": "49,800 / 100 本"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 328,
+    "en": "¥1,980",
+    "zh": "1,980 日元"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 328,
+    "en": "34",
+    "zh": "34"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 329,
+    "en": "210mm square softcover, 128pp",
+    "zh": "210mm 方形平装，128 页"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 329,
+    "en": "¥1,609",
+    "zh": "1,609 日元"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 330,
+    "en": "¥482,700 / 300",
+    "zh": "482,700 / 300 本"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 330,
+    "en": "¥4,400",
+    "zh": "4,400 日元"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 330,
+    "en": "173",
+    "zh": "173"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 331,
+    "en": "A4 softcover, 128pp",
+    "zh": "A4 平装，128 页"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 331,
+    "en": "¥1,306",
+    "zh": "1,306 日元"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 332,
+    "en": "¥653,000 / 500",
+    "zh": "653,000 / 500 本"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 332,
+    "en": "¥4,400",
+    "zh": "4,400 日元"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 332,
+    "en": "212",
+    "zh": "212"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 333,
+    "en": "Hardcover, 128pp, China",
+    "zh": "精装，128 页，中国印"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 334,
+    "en": "¥{_BOOK['unit_jpy']:,}",
+    "zh": "{_BOOK['unit_jpy']:,} 日元"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 335,
+    "en": "¥{_BOOK['outlay_jpy']:,} / {_BOOK['run']}",
+    "zh": "{_BOOK['outlay_jpy']:,} / {_BOOK['run']} 本"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 337,
+    "en": "¥{_BOOK_PRICE:,}",
+    "zh": "{_BOOK_PRICE:,} 日元"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 338,
+    "en": "str(_BOOK['breakeven_direct'])",
+    "zh": "str(_BOOK['breakeven_direct'])"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 341,
+    "en": "For a book intended as a product, the Chinese hardcover has the strongest economics of the formats checked. For a book intended to open another door, make three copies instead. Three Blurb copies cost about ¥31,000 and can go directly to a publisher, gallery or shop buyer.",
+    "zh": "如果这本书是当商品卖，在查过的几种做法里，中国印的精装本账最划算。如果这本书是用来敲另一扇门的，那就只做三本。Blurb 三本约 31,000 日元，可以直接拿给出版社、画廊或者书店买手。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 356,
+    "en": "Whether a print run can pay for itself",
+    "zh": "一批印量能不能把钱赚回来"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 359,
+    "en": "Where",
+    "zh": "去哪里做"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 361,
+    "en": "pixivFACTORY / BOOTH — first test for posters, canvas and framed prints",
+    "zh": "pixivFACTORY / BOOTH——海报、画布、装裱印刷的第一次试水"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 364,
+    "en": "SUZURI — useful for smaller paper goods and low-risk experiments",
+    "zh": "SUZURI——小件纸制品，低风险的尝试"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 372,
+    "en": "INPRNT — the useful addition for buyers outside Japan. Artists there choose who joins, so it takes three images and a vote; the answer comes by email in about 48 hours.",
+    "zh": "INPRNT——面向日本以外的买家时，值得加上这一家。谁能进，是由站内已有的创作者投票决定的，所以要投三张图；结果大约 48 小时内邮件通知。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 380,
+    "en": "A gallery that carries the exhibition risk",
+    "zh": "愿意承担办展风险的画廊"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 382,
+    "en": "You already know how to organise a solo show. You have done it three times. The next useful gallery relationship is one that contributes something you currently supply yourself: the room, staffing, collectors, sales work and financial risk. The economics are unusually clear.",
+    "zh": "办个展你已经会了，办过三次。下一段值得建立的画廊关系，要能接过你现在自己扛的那几样：场地、守场的人手、藏家、销售的活，还有资金上的风险。这笔账算得特别清楚。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 394,
+    "en": "",
+    "zh": ""
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 394,
+    "en": "You pay",
+    "zh": "你付"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 394,
+    "en": "They take",
+    "zh": "他们抽"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 395,
+    "en": "Sales needed before you are even",
+    "zh": "打平前要卖掉"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 397,
+    "en": "Representing gallery",
+    "zh": "代理画廊"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 397,
+    "en": "¥0",
+    "zh": "0"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 397,
+    "en": "about 50%",
+    "zh": "约 50%"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 398,
+    "en": "¥0",
+    "zh": "0"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 399,
+    "en": "Moon Gallery rental",
+    "zh": "Moon Gallery 租赁"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 399,
+    "en": "¥100,000 / 5 days",
+    "zh": "10 万 / 5 天"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 400,
+    "en": "0%",
+    "zh": "0%"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 401,
+    "en": "_paintings_phrase(100000)",
+    "zh": "_paintings_phrase(100000, zh=True)"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 407,
+    "en": "Galerie LE MONDE, 12-day solo",
+    "zh": "Galerie LE MONDE，12 天个展"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 408,
+    "en": "¥374,000 / 12 days",
+    "zh": "37.4 万 / 12 天"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 408,
+    "en": "30%",
+    "zh": "30%"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 409,
+    "en": "_paintings_phrase(374000, 0.3)",
+    "zh": "_paintings_phrase(374000, 0.3, zh=True)"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 431,
+    "en": "What the August show leaves you holding",
+    "zh": "八月那场展给你留下了什么"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 433,
+    "en": "The show at Galerie LE MONDE is the newest thing on your record, and the newest credit is what a first letter is built around — every gallery below reads it before it reads anything else.\n\nThat room is not for hire, so what it carries is more than a date. The director selects, from the work and from recommendations by illustrators already showing there, so the credit reads as having been chosen — and it keeps saying that for as long as it is recent. Which is the argument for spending it now rather than next year.\n\nThere is a documented next step attached to it, too: every illustrator on the agency's roster showed at the gallery first. They are closed to new artists at the moment, so staying in contact is the whole of the move — and the riso studio in the same building is a reason to go back, with the zines rather than the paintings.",
+    "zh": "在 Galerie LE MONDE 的那场个展，是你履历上最新的一项；而最新的这一项，正是第一封信要围着写的内容——下面每一家画廊，都会先读它，再读别的。\n\n那个空间不对外出租，所以它带来的不只是一个日期。主理人是看作品本身、以及已经在那里办展的插画家的推荐来选人的，所以这一项读起来是“被选中过”，而且只要还新，它就一直在说这句话。这也正是趁现在用上它、而不是等到明年的理由。\n\n后面还接着一个明确的下一步：经纪公司名单上的每一位，都是先在画廊办过展的。他们目前不接新人，所以现在能做的就是保持联系——而同一栋楼里的孔版印刷工作室，本身就是一个再去一趟的由头，带 zine 去，不是带画。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 456,
+    "en": "Same building",
+    "zh": "同一栋楼里"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 458,
+    "en": "Studio LE MONDE — risograph, Tuesday to Sunday 12:00–19:00, booked as a session with staff. contact@studiolemonde.com",
+    "zh": "Studio LE MONDE——孔版印刷，周二至周日 12:00–19:00，只在有工作人员在场的时段接受预约。contact@studiolemonde.com"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 461,
+    "en": "Agence LE MONDE — the roster it draws from, and who that roster works for: McDonald's, Asahi, Mizuho, ANNA SUI, GUCCI, Quarto, Pokémon. Not taking anyone on as of September 2026.",
+    "zh": "Agence LE MONDE——它就是从这里选人的；名单上的插画师在为这些客户做事：麦当劳、朝日啤酒、瑞穗银行、ANNA SUI、GUCCI、Quarto、宝可梦。截至 2026 年 9 月不接新人。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 466,
+    "en": "Against that, the arithmetic of representation. A 50% commission can look large in isolation; against a ¥374,000 fee plus 30%, representation is cheaper until an exhibition reaches about ¥1.87 million in sales. The more important difference is who brings the buyers. So far, people buying your work have found you. Representation adds a collector base belonging to somebody else.",
+    "zh": "另一边是代理的账。单看 50% 的抽成会觉得高；拿 374,000 日元的场地费再加 30% 抽成来比，只要那场展卖不到约 187 万日元，代理都更划算。更要紧的区别在于：买家是谁带来的。到现在为止，买你画的人是自己找到你的。代理带来的，是一份原本属于别人的藏家名单。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 478,
+    "en": "The next move",
+    "zh": "下一步"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 479,
+    "en": "Choose a small number of galleries where the work genuinely fits the programme. Visit first. Then send five paintings from one coherent series and ask whether they would be interested in seeing the work in person.",
+    "zh": "挑几家展览方向确实合得上的画廊，数量不用多。先去看展。之后寄五张同一个系列的画，问他们有没有兴趣看看实物。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 498,
+    "en": "Open now, and closing on 8 October",
+    "zh": "现在开放，10 月 8 日截止"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 500,
+    "en": "FACE 2027 takes submissions from 7 September to 8 October, and shows the selected work at SOMPO Museum in Nishi-Shinjuku next March. Watercolour is named in the accepted media, alongside oil, acrylic, mineral pigment, printmaking, dyeing and photography. There is no nationality clause and no residency clause — the only practical requirement is getting the work there, by courier in late October or by hand on the 7th or 8th of November. Entry is ¥7,000. Works can be up to 200 × 170cm and there is no minimum size, so a small painting is eligible. Alongside the main prizes there is a U30 Frontier Award of ¥300,000 for anyone born on or after 1 April 1997.",
+    "zh": "FACE 2027 的收件期是 9 月 7 日到 10 月 8 日，入选作品明年三月在西新宿的 SOMPO 美术馆展出。接受的媒介里明确写着水彩，和油画、丙烯、岩彩、版画、染色、摄影并列。没有国籍限制，也没有居住地限制——实际上要过的只有一关：把作品送到，10 月下旬用快递，或者11 月 7、8 日本人送去。报名费 7,000 日元。尺寸上限 200 × 170 厘米，没有下限，所以小幅作品也可以投。除了主要奖项，还有一个 30 万日元的 U30 Frontier 奖，面向 1997 年 4 月 1 日之后出生的人。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 519,
+    "en": "FACE 2027 — the call, the delivery dates and the entry form",
+    "zh": "FACE 2027——征集要项、送件日期与报名表"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 524,
+    "en": "Three rooms in Tokyo that take the work as it is",
+    "zh": "东京有三个空间，接受这样的作品"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 526,
+    "en": "HAGI ART in Yanaka writes its remit as young artists' solo and group shows, art-book markets, and exhibitions about architecture, culture and daily life — and charges no venue fee at all, running the programme on the café below it. It selects on a written concept, so it takes a proposal by email rather than a booking.\n\nGallery KAZE in Kichijoji is ¥110,000 for six days with no commission on sales, in 40m² with twenty metres of wall. It has a watercolour solo booked this October——青山一樹, 「水彩でえがく情景」——and its 2027 calendar is still mostly open. At your prices that room costs {_paintings_phrase(110000)}.\n\nMoon Gallery you already know: ¥100,000 for five days, no commission, and nobody has to sit the room.",
+    "zh": "谷中的 HAGI ART 把自己的方向写得很清楚：年轻创作者的个展与联展、艺术书市集，以及关于建筑、文化与日常生活的展览——而且完全不收场地费，整个项目靠楼下的咖啡店养着。它按方案选人，所以要发邮件提方案，不是订档期。\n\n吉祥寺的 Gallery KAZE，六天 11 万日元，销售不抽成，40 平方米、20 米挂画墙。今年十月那里有一场水彩个展——青山一树，《水彩でえがく情景》——2027 年的档期大半还空着。按你的价格，租下这个空间等于要卖出 {_paintings_phrase(110000, zh=True)}。\n\nMoon Gallery 你已经熟悉了：五天 10 万日元，不抽成，也不需要人守场。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 548,
+    "en": "HAGI ART, Yanaka — no venue fee; proposals go to info@hagiso.com as two A4 PDFs, a portfolio and a concept written for the space",
+    "zh": "HAGI ART，谷中——不收场地费；方案寄到 info@hagiso.com，两份 A4 PDF：作品集，以及一份专为这个空间写的展览构想"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 551,
+    "en": "Gallery KAZE, Kichijoji — ¥110,000 for six days, no sales commission, equipment included",
+    "zh": "Gallery KAZE，吉祥寺——六天 11 万日元，销售不抽成，设备可借"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 556,
+    "en": "And the open call that comes round again",
+    "zh": "以及每年都会再来一次的公开征集"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 559,
+    "en": "biscuit gallery — its grid next open call has run every year since 2024. No application fee and no display fee, open to students and to artists under about forty who have not shown there before. The 2026 round took applications from late December to 30 April for an August show, so the next window opens around December.",
+    "zh": "biscuit gallery——它的 grid next 公开征集从 2024 年起每年都办。不收报名费，也不收展位费，面向学生以及大约四十岁以下、此前没有在那里展过的创作者。2026 那一轮的申请是12 月底到 4 月 30 日，展览在八月，所以下一个窗口大约在 12 月打开。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 564,
+    "en": "Where this work sits higher up the same market",
+    "zh": "同一个市场再往上，这类作品在哪里"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 566,
+    "en": "Tokyo Gallery + BTAP has been running since 1950 and keeps six Chinese artists on its roster, several of them working in ink and watercolour on paper — the same materials, shown at the top of this market. Xu Bing is on that roster too, which places the gallery several stages further along than a first letter reaches. It is worth knowing as the shape of the ceiling.",
+    "zh": "Tokyo Gallery + BTAP 从 1950 年开到现在，代理名单上有六位中国艺术家，其中几位用的就是纸上水墨与水彩——同样的材料，出现在这个市场的顶端。徐冰也在这份名单上——这家画廊不是一封陌生来信能够得着的。把它记住，是为了知道天花板长什么样。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 578,
+    "en": "A third arrangement, worth more than either",
+    "zh": "还有第三种安排，比前面两种都划算"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 580,
+    "en": "Between renting a room and being represented sits an open call that pays the artist to exhibit. TOKAS gives ¥150,000 toward the work and charges nothing for the venue, and its open calls run on a fixed yearly cycle, so they can be planned for rather than waited on.",
+    "zh": "在租场地和被代理之间，还有一种安排：反过来付钱给艺术家办展的公开征集。TOKAS 提供 15 万日元制作经费，场地不收费；它的公开征集按固定的年度周期走，所以这是可以提前安排的事，不用干等。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 592,
+    "en": "TOKAS — open calls and application dates for all its programmes",
+    "zh": "TOKAS——各项目的公开征集与申请时间"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 597,
+    "en": "This is a narrower list than a directory of Tokyo galleries. That is useful. Gallery outreach works better as a relationship with ten plausible rooms than as mail sent to a hundred implausible ones.",
+    "zh": "这份名单比一本东京画廊名录短得多，短正是它的用处。和十个真正对得上的空间建立关系，比给一百个不对路的空间发信管用。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 605,
+    "en": "The first letter",
+    "zh": "第一封信"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 606,
+    "en": "The first contact only has to make the work easy to look at. Use one link, five paintings from one series and one specific sentence showing why that gallery was chosen. For HAGI ART:",
+    "zh": "第一次联系，只需要让人容易看到作品。一个链接，同一个系列的五张画，还有一句具体的话，说明为什么选了这一家。给 HAGI ART 的例子："
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 633,
+    "en": "The archive, earning a second time",
+    "zh": "已经画完的作品，再挣一次钱"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 634,
+    "en": "Licensing has one unusual advantage for you: the inventory already exists. Six years of daily painting is thousands of images that can potentially produce income while the originals remain yours. The value depends primarily on where and how an image is used:",
+    "zh": "授权对你有一个别处没有的优势：你手上已经有的画就是现成的。六年每天画下来是好几千张图，原作还是你的，同时还能挣钱。值多少钱，主要看一张图被用在哪里、怎么用："
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 645,
+    "en": "Use",
+    "zh": "用途"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 645,
+    "en": "Published rate",
+    "zh": "公开费率"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 647,
+    "en": "Small magazine illustration",
+    "zh": "杂志内页小图"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 647,
+    "en": "¥5,000",
+    "zh": "5,000 日元"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 648,
+    "en": "Book cover",
+    "zh": "书籍封面"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 648,
+    "en": "¥70,000",
+    "zh": "70,000 日元"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 649,
+    "en": "Magazine cover",
+    "zh": "杂志封面"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 649,
+    "en": "¥100,000",
+    "zh": "100,000 日元"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 650,
+    "en": "Calendar",
+    "zh": "挂历"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 650,
+    "en": "¥800,000",
+    "zh": "800,000 日元"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 653,
+    "en": "That makes the licence terms as important as the fee: format, territory, duration, exclusivity and reuse. Copyright transfer is priced at roughly two to three times a normal licence in the published Japanese rate card. Keep that distinction explicit whenever a buyer asks for permanent rights.",
+    "zh": "所以授权条款和费用一样要紧：形式、地域、期限、是否独家、能不能再次使用。在日本公开的费率表上，著作权转让的定价大约是普通授权的两到三倍。只要对方要的是永久权利，就把这一条摆到明面上。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 664,
+    "en": "A small cover-ready series",
+    "zh": "一小组能直接当封面用的画"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 665,
+    "en": "Your subject matter already fits the book market: architecture, atmosphere, interiors, weather, light and quiet urban scenes. The compositional requirement is the part worth designing for. Covers need room for typography and cropping. Paint a small group vertically, with intentional quiet areas — sky, fog, water, wall, shadow or an open upper third. That gives art directors images they can actually build a cover around while keeping the work recognisably yours. Five to ten paintings would be enough to create the beginning of a licensing portfolio. Then place them where art directors already look:",
+    "zh": "你的题材本来就贴合图书市场：建筑、氛围、室内、天气、光，还有安静的城市场景。值得专门去应对的，是构图上的要求。封面要放得下字，也要经得起裁切。画一小组竖构图，特意留出安静的区域——天空、雾、水面、墙、阴影，或者上三分之一整片留白。这样艺术总监手上就有了能围着它做封面的图，而作品看上去还是一眼就认得出是你的。五到十张，一个授权作品集的开头就有了。然后把它们放到艺术总监本来就会去看的地方："
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 686,
+    "en": "イラストレーションファイルWeb — where Japanese art directors and book designers look for illustrators, and the form for being listed in it",
+    "zh": "イラストレーションファイルWeb——日本的艺术总监和装帧设计师找插画师的地方，以及申请收录的表格"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 689,
+    "en": "amanaimages — Japanese stock licensing; published cover licences are ¥33,000–79,200",
+    "zh": "amanaimages——日本的图像授权；公开的封面授权价为 33,000–79,200 日元"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 692,
+    "en": "Arcangel — specialised in book-cover imagery, accepts illustration and pays contributors 50% of net",
+    "zh": "Arcangel——专做书封图像，收插画，付给供稿人净额的 50%"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 699,
+    "en": "Bridgeman Studio — open to illustration; apply with three to five images and they review those alongside your online presence. Both exclusive and non-exclusive contracts exist, and non-exclusive leaves you free to license elsewhere.",
+    "zh": "Bridgeman Studio——接受插画；投三到五张图申请，他们会连同你现在网上的作品一起看。合同分独家与非独家两种，非独家可以同时在别处授权。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 704,
+    "en": "This route can begin with work you already own and expand through paintings designed specifically for commercial use.",
+    "zh": "这条路可以从你已经有的作品开始，再靠专门为商业用途画的作品往外扩。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 713,
+    "en": "A book that still needs to be made",
+    "zh": "一本还没做出来的书"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 715,
+    "en": "The strongest publishing opportunity is a book concept with enough identity that a publisher can imagine selling it. Your existing paintings establish that you can execute it. The proposal establishes what the book is. That distinction matters because the publishers checked ask for projects and proposals. In the comparable Tokyo architecture title, forty of the fifty paintings were made after the deal was agreed. A strong proposal therefore needs:",
+    "zh": "出版这条路上最有力的，是一个清楚到出版社一听就知道怎么卖的选题构想。你已有的画证明你做得出来；方案说明的是这本书到底是什么。这个区别之所以要紧，是因为查过的这几家出版社要的是方案和构想。拿来对照的那本东京建筑画集，五十张画里有四十张是在合同谈定之后才画的。所以一份有力的方案要有："
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 733,
+    "en": "the idea of the book",
+    "zh": "这本书的构想"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 734,
+    "en": "why the paintings belong together",
+    "zh": "这些画为什么属于同一本书"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 735,
+    "en": "a sample sequence",
+    "zh": "一段排好顺序的样张"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 736,
+    "en": "several finished works showing the visual language",
+    "zh": "几张完成的作品，用来呈现视觉语言"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 737,
+    "en": "what remains to be painted",
+    "zh": "还有哪些要画"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 738,
+    "en": "the intended reader",
+    "zh": "预设的读者"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 739,
+    "en": "a rough scale and format",
+    "zh": "大致的规模与开本"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 742,
+    "en": "Your six-year archive gives you unusually strong material for that proposal even if the final book contains new work.",
+    "zh": "即使最后成书用的是新画的作品，你这六年的积累也让这份方案有特别扎实的底子。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 748,
+    "en": "The economics",
+    "zh": "这笔账"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 749,
+    "en": "Publishing is weak as a per-copy revenue stream and strong as distribution.",
+    "zh": "论每本能拿多少，出版是弱的；论发行，它是强的。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 754,
+    "en": "",
+    "zh": ""
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 754,
+    "en": "You keep per copy",
+    "zh": "每本你拿到"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 754,
+    "en": "300 copies",
+    "zh": "300 本"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 763,
+    "en": "Publisher",
+    "zh": "出版社出版"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 763,
+    "en": "_ROY_PER_COPY",
+    "zh": "_ROY_PER_COPY_ZH"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 764,
+    "en": "_ROY_300",
+    "zh": "_ROY_300_ZH"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 765,
+    "en": "Self-published hardcover",
+    "zh": "自己出版的精装本"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 765,
+    "en": "¥3,635",
+    "zh": "3,635 日元"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 766,
+    "en": "¥1,090,500",
+    "zh": "1,090,500 日元"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 769,
+    "en": "The publisher's contribution is everything surrounding those royalties: financing the print run, national bookshop distribution, ISBN, production, inventory and a publication record that remains attached to your name. Those benefits make the most sense when the book is expected to strengthen the rest of the practice as well as sell copies. The other side of the fork — paying a printer yourself, and what a run has to sell to come back — is worked out under Selling Direct.",
+    "zh": "出版社真正给的是版税之外的那一整套：出印刷的钱、进全国书店、一个 ISBN、制作、库存，还有一条会一直挂在你名字上的出版记录。当这本书除了卖出去，还要带动你手上其他的事时，这些好处才最值。岔口的另一边——自己付钱给印厂，以及一批印量要卖掉多少才回得来——算在“直接卖”那一条里。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 788,
+    "en": "Who carries the ¥394,500",
+    "zh": "394,500 日元由谁来出"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 790,
+    "en": "Three publishers with a published route in",
+    "zh": "三家把入口写出来的出版社"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 798,
+    "en": "マール社——「いつでも、どなたでも」, and no publishing record required. If a proposal is taken they publish at their own expense, with nationwide bookshop distribution. A reply comes inside a month; nothing is returned.",
+    "zh": "マール社（Maar-sha）——投稿页写着「いつでも、どなたでも」（随时，任何人），也不要求你出过书。方案一旦被采用，由他们出钱出版，并进入全国书店。一个月内回复；寄去的东西不退。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 801,
+    "en": "青幻舎——a form for proposals only: a portfolio showing the work, your history and profile, plus a plan and image files, attachments up to 10MB",
+    "zh": "青幻舎——只走方案投递专用表单：作品集（作品、活动经历、简介）、方案、图像数据，附件上限 10MB"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 804,
+    "en": "MdN — publisher of the Tokyo Storefronts books, so this exact kind of book is already on their list. They publish no submission route, so an approach goes through their general enquiry form.",
+    "zh": "MdN——《东京店构え》系列就是他们出的，所以这一类书本来就在他们的书目里。他们没有公开投稿通道，要从一般咨询表单去问。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 809,
+    "en": "The next useful piece of work here is therefore one book proposal, built well enough to send to all three with small changes.",
+    "zh": "所以这条路上接下来真正有用的一件事，是把一份书的方案做扎实，扎实到只要小改一下就能同时递给这三家。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 819,
+    "en": "The painting and the usage, priced separately",
+    "zh": "画和用途，分开计价"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 821,
+    "en": "Either the fee compensates for what a brief takes, or the commission creates value somewhere else. The national rate card gives a useful floor:",
+    "zh": "一次委托拿走的东西，要么由费用补回来，要么得在别处产生价值。全国费率表给了一个有用的底线："
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 831,
+    "en": "Use",
+    "zh": "用途"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 831,
+    "en": "Published rate",
+    "zh": "公开费率"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 833,
+    "en": "Book cover",
+    "zh": "书籍封面"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 833,
+    "en": "¥70,000",
+    "zh": "70,000 日元"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 834,
+    "en": "Magazine cover",
+    "zh": "杂志封面"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 834,
+    "en": "¥100,000",
+    "zh": "100,000 日元"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 835,
+    "en": "Small internal illustration",
+    "zh": "内页小图"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 835,
+    "en": "¥5,000",
+    "zh": "5,000 日元"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 836,
+    "en": "Average coordinated job",
+    "zh": "经手工作的平均值"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 836,
+    "en": "¥71,327",
+    "zh": "71,327 日元"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 839,
+    "en": "Architecture and atmosphere are in specific demand for covers: literary fiction leans heavily on exactly this kind of image. Hand-painted watercolour sits in the second-highest of the five medium categories in that rate card. A ¥70,000 cover is therefore close to the price of one of your existing originals. The commercial job becomes more attractive when the licence expands, the image is reused, or the publication brings the work to the next client. Secondary use can pay 70%, 50%, 50% and 20% of the original fee as the same image is reused. That is the part worth protecting.",
+    "zh": "建筑与氛围类的画在封面上有明确需求：文学小说的封面，大量依赖的正是这一类图像。那份费率表的五个媒介档次里，手绘水彩排在第二高。所以一张 70,000 日元的封面，价钱和你自己的一张原作差不多。当授权范围扩大、图像被再次使用，或者这次发表把作品带到下一个客户面前时，商业委托才变得更有吸引力。同一张图反复被用时，二次使用可以按原稿费再付一笔，公开的比例依次是 70%、50%、50%、20%。要护住的正是这一部分。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 859,
+    "en": "The terms, ready before the enquiry",
+    "zh": "在询问到来之前就备好的条款"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 861,
+    "en": "For every commercial commission, quote these separately:",
+    "zh": "每一次商业委托，这四项分开报价："
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 867,
+    "en": "Painting fee",
+    "zh": "绘制费"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 868,
+    "en": "The work required to make the image.",
+    "zh": "做出这张图所需要的工作。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 869,
+    "en": "Licence",
+    "zh": "授权"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 870,
+    "en": "Where it may appear, for how long, in which countries and for which use.",
+    "zh": "可以出现在哪里、用多久、在哪些国家、作什么用途。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 872,
+    "en": "Additional use",
+    "zh": "追加使用"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 873,
+    "en": "A new fee when the same image is reused elsewhere.",
+    "zh": "同一张图被用到别处时，另计一笔费用。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 875,
+    "en": "Copyright transfer",
+    "zh": "著作权转让"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 876,
+    "en": "A separate, substantially higher price when the client wants permanent ownership of the rights.",
+    "zh": "客户想永久拥有这些权利时，单独计价，而且高出许多。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 884,
+    "en": "That turns an ambiguous “How much for a painting?” into something you can price consistently.",
+    "zh": "这样一来，“画一张多少钱”这种含糊的问题，就变成了一个你能稳定报价的问题。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 890,
+    "en": "Two useful doors now",
+    "zh": "现在就有两扇有用的门"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 896,
+    "en": "ザ・チョイス — ¥1,500 flat, whether you enter one work or five. It runs four times a year with a different judge each round, and every selected work goes forward to the annual prize. Age, nationality and professional or amateur status are all explicitly unrestricted. Pay through Peatix before the postal deadline, which falls a day earlier than the deadline for the work itself.",
+    "zh": "ザ・チョイス——统一 1,500 日元，投一张和投五张一个价。一年办四次，每次换一位评审，入选作品都会进入年度奖。年龄、国籍、职业或业余，全都明确不设限。报名费通过 Peatix 预付，缴费截止在寄件截止的前一天。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 899,
+    "en": "HB FILE — ¥7,000, currently vol.37, and previously published work is accepted, so six years of finished paintings is already the portfolio. Every entrant's file stays available to designers and publishers in the gallery for a year; the top prizes are a week's solo show at HB Gallery in Omotesando.",
+    "zh": "HB FILE——7,000 日元，目前是第 37 届，接受已经发表过的作品，所以六年画完的东西本身就是作品集。每位投稿者的档案会在画廊向设计师和出版社开放一年；最高奖是在表参道 HB Gallery 办一周个展。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 904,
+    "en": "Both are inexpensive ways to place the work in front of people who commission illustration.",
+    "zh": "这两条都很便宜，都是把作品放到“会下委托的人”眼前的方式。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 914,
+    "en": "Good places to start",
+    "zh": "几个不错的起点"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 923,
+    "en": "One of these has a date on it. The rest keep, and they are not the same size — two are an afternoon, three are a piece of work.",
+    "zh": "其中一件有截止日期。其余的都不着急，而且它们大小不一样——两件是一个下午的事，三件是要动手做的活。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 928,
+    "en": "Before 8 October",
+    "zh": "10 月 8 日之前"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 929,
+    "en": "FACE 2027 — ¥7,000, watercolour named in the accepted media, no minimum size.",
+    "zh": "FACE 2027——7,000 日元，接受的媒介里写明水彩，尺寸没有下限。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 931,
+    "en": "Selling Direct",
+    "zh": "直接卖"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 932,
+    "en": "An afternoon: list an A2 poster, an A1 poster and a framed A4 print on demand.",
+    "zh": "一个下午：用按需印刷上架一张 A2 海报、一张 A1 海报和一张装裱的 A4 印刷。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 934,
+    "en": "Galleries",
+    "zh": "画廊"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 935,
+    "en": "An afternoon: pick one show to go and see, and get a five-image series link ready.",
+    "zh": "一个下午：挑一场展去看，把一个五张同系列作品的链接准备好。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 937,
+    "en": "Licensing",
+    "zh": "图像授权"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 938,
+    "en": "A piece of work: the first five vertical, cover-ready paintings.",
+    "zh": "要动手做的：头五张竖构图、可以直接当封面用的画。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 940,
+    "en": "Publishing",
+    "zh": "出版"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 941,
+    "en": "A piece of work: one existing body of work written up as a one-page book idea.",
+    "zh": "要动手做的：把已有的一组作品，写成一页纸的书的构想。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 943,
+    "en": "Commissions",
+    "zh": "委托"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 944,
+    "en": "A piece of work: a reusable fee-and-licence template, written before the next enquiry.",
+    "zh": "要动手做的：一份可以反复用的“费用＋授权”模板，趁还没有人来问先写好。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 947,
+    "en": "Five experiments. What they turn up is worth more than choosing between the five from here.",
+    "zh": "五个实验做下来，会比现在凭空挑选清楚得多。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 979,
+    "en": "What this is",
+    "zh": "这是什么样的一条路"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 980,
+    "en": "What it gives you that the others don't",
+    "zh": "这条路有、别的路没有的"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 981,
+    "en": "What you'd be taking on",
+    "zh": "你要承担的是什么"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 1001,
+    "en": "Work goes out through your own shop — listings you write, prices you set, parcels you pack — and the money arrives per sale, as it sells. Postcards, zines, prints and originals all already run this way, alongside commissions taken directly.",
+    "zh": "作品通过你自己的店铺出去——文案你写、价格你定、包裹你打——钱是一笔一笔进来的，卖一件收一件。明信片、zine、印刷品和原作现在都是这样在走，直接接的委托也是。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 1017,
+    "en": "You keep the whole margin. A gallery takes about half of a sale, a publisher leaves {_ROY_PER_COPY} of a ¥{_BOOK_PRICE:,} book, and a licence pays once for a use somebody else has defined — here everything above cost stays on your side. You set the price rather than arguing for it, and nothing waits on an application, a jury or somebody's programme, so a decision made on Monday can be earning by Friday. None of the other four can do that.\n\nIt also starts from something the others have to build first. The audience is already there and already looking, so a new product reaches it the same afternoon, with no introduction to arrange and nobody's permission to wait for.",
+    "zh": "整个毛利都归你。每卖一张，画廊抽走大约一半；一本 {_BOOK_PRICE:,} 日元的书，出版社分给你 {_ROY_PER_COPY_ZH}，授权那边，是别人按定好的用途一次性付你一笔钱——在这条路上，成本以外的钱全是你的。价格是你定的，不需要替它争取；也没有任何一件事要等申请、等评审、等别人的排期，所以周一做的决定，周五就可能在挣钱。其他四条路没有一条做得到。\n\n别的路要先把观众攒起来，这条路一开始就有。观众已经在了，而且已经在看，所以一件新东西当天下午就能到他们眼前，不用安排引荐，也不用等谁点头。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 1034,
+    "en": "All of it stays yours: the listing, the photography, the packing, the postage, the customer emails, and the stock in the room. Volume comes from your own audience and from nowhere else, so a quiet month is quiet everywhere at once. A print run buys the better margin by taking on the risk — the copies that do not sell were paid for in advance.",
+    "zh": "所有环节都还在你手上：上架、拍照、打包、寄件、回客户邮件，还有堆在房间里的货。销量只来自你自己的观众，没有第二个来源，所以一淡就是全线一起淡。批量印刷毛利更高，代价是风险你自己扛——卖不掉的那些，钱是先付掉的。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 1045,
+    "en": "A gallery funds the show, takes a commission and finds the buyers. Its own income depends on collectors who come back, so the people it introduces you to are people it expects to keep — which is why representation tends to raise what a single painting sells for rather than only how many sell.",
+    "zh": "画廊出钱办展、抽佣金，并且负责找买家。它自己的收入取决于会回头再买的藏家，所以它介绍给你的人，是它打算长期留住的人——所以代理往往抬的是单张画的价，而不只是多卖几张。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 1054,
+    "en": "The difference that matters is the direction the money runs: in a rental you pay for the room, and here the gallery pays for the show. Prices rise for a structural reason as well, since the person arguing for yours makes their own living from it.\n\nAnd standing on this route carries into the other four: an exhibition record is the one credential a publisher, an art director and a licensing buyer all read the same way, which is true of nothing else on this list.",
+    "zh": "真正的区别在于钱的流向：租场地是你付场地费，这条路上是画廊出钱办展。价格会上去还有一层原因——帮你抬价的那个人，自己也靠这个吃饭。\n\n另外，你在这条路上站到的位置，会跟着你走到另外四条路上——出版社、艺术总监、授权买家读展览履历的方式是一样的，这份清单上没有第二样东西有这个作用。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 1067,
+    "en": "Roughly half of each sale, and a say in what shows and when. Representation is also slow to start: the route in is attendance, then a letter, then months. And a gallery's attention follows its own programme, so a quiet year on their side is a quiet year on yours.",
+    "zh": "每一笔销售的大约一半，以及展什么、什么时候展的部分决定权。代理这件事起步也慢：路径是先去看展，再写信，然后等上几个月。而且画廊的注意力跟着它自己的展览计划走，所以它清淡的一年，也是你清淡的一年。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 1077,
+    "en": "Quiet money. An image is licensed for a defined use — stationery, homeware, packaging, book covers, brands — and the company licensing it handles manufacture, distribution and sale. The originals stay yours throughout; what changes hands is permission, for a stated place and a stated length of time.",
+    "zh": "安静的钱。一张图按约定的用途授权出去——文具、家居、包装、书封、品牌——生产、铺货、销售都由拿到授权的公司负责。原作自始至终还是你的；交出去的是许可，限定在说好的场合和说好的期限之内。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 1086,
+    "en": "It is the only one of the five that pays more than once for the same image; everywhere else a thing is made and then sold once. Nothing here asks for new painting, and public recognition is not part of the arrangement, so it suits a practice that wants to keep painting and manage as little else as possible.\n\nIt is also the route least affected by where you live or what your visa says, since the buyer is a company anywhere and the goods are files — the only one of the five that would survive a move to another country unchanged.",
+    "zh": "五条路里，只有这一条能为同一张图反复收钱；其他每一条都是做一件、卖一次。它不要求你另外画新东西，也不会带来公众知名度，所以你要是只想一直画下去、别的事尽量少管，这条路合适。\n\n住在哪里、签证是什么，对这条路的影响也最小——买家可以是任何地方的公司，交付的是文件；五条路里，只有这一条在你搬到另一个国家之后还能原样继续。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 1100,
+    "en": "The money arrives on somebody else's schedule and in somebody else's volumes. The one illustrator publishing her actual income split has a twenty-year licensing practice with M&S, John Lewis and Unilever, and licensing is 3% of what she earns. The terms are where the value sits, and an unlimited buyout signed across a body of work removes the ability to license it again — the one mistake on this route that costs years rather than yen.",
+    "zh": "钱按别人的时间表、别人的销量到账。查到的插画师里，只有一位公开过自己的收入构成：做了二十年授权，客户包括 M&S、John Lewis、联合利华——授权只占她收入的 3%。价值在条款里，而对一批作品签下无限期买断，就等于放弃了日后再次授权它的可能；这是这条路上唯一一种代价以年计、而不是以钱计的错误。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 1114,
+    "en": "Books as the object — bought because they are books, sitting in shops and on shelves with an ISBN and a distributor behind them. With a publisher, they finance the print run and carry the inventory; you supply the work and the idea of the book.",
+    "zh": "书本身就是一件商品——别人是冲着它是一本书才买的，摆在店里、架子上，背后有 ISBN 和发行商。有出版社参与时，印刷的钱和库存由他们承担；你出的是作品，和这本书的构想。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 1122,
+    "en": "This is the only route whose price is knowable before anything starts; every other door on the list is an application and a wait. The object also works on all four of the others — a finished book is what a gallery, a publisher and an art director are each shown — and a book on a shelf finds strangers, reaching people who will never see a post. With a publisher there is no outlay and no inventory either, and distribution reaches bookshops nationally, which nothing else here offers at all.",
+    "zh": "这是五条路里唯一一条在开始之前就知道价钱的；清单上其他每一扇门，都是先申请，然后等。做出来的东西在其他四条路上也都用得上——画廊、出版社、艺术总监，拿给他们看的是同一本成品书——而书摆在架子上，陌生人会拿起来翻——这些人永远刷不到你的帖子。有出版社参与时，同样不用出钱、家里不堆书，而且发行能进入全国书店；这一点这份清单上别处完全没有。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 1139,
+    "en": "With a publisher, the variable is their consent, and it moves on a timescale nobody controls — a proposal can sit for months and come back as nothing. Their share of each copy is the other half of that trade, and the economics below put a number on it. Self-publishing removes the waiting by asking for the money up front, and leaves a room full of copies until they move.",
+    "zh": "有出版社参与时，不确定的只有一件事：对方点不点头，而这件事的时间表没有人能控制——一份方案可能压上几个月，最后石沉大海。他们从每本书里抽走的那部分，是这笔交易的另一半，下面的账里有具体数字。自己出版没有等待这回事，代价是钱要先掏，而且在书卖动之前家里一直堆着。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 1151,
+    "en": "Editorial illustration, book covers, commissioned work. A brief arrives, the work is delivered, payment follows a schedule, and the fee is set against how widely the image will be used rather than how long it took.",
+    "zh": "杂志插画、书籍封面、委托创作。对方提需求，你交稿，按约定时间付款；费用是按这张图会被用到多广来定的，而不是按你画了多久。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 1158,
+    "en": "It is the only one of the five with a predictable monthly number, and it is the least romantic of them — those two facts are the same fact. The work is paid for before it exists, where everywhere else the painting is made first and sold afterwards, if at all, and there is no inventory and no unsold stock waiting in a room. It is the only route here where the work is commissioned before it is made, so whether anybody wants it is answered before the first mark.",
+    "zh": "五条路里只有这一条每月收入可以预期，也是最不浪漫的一条——这两件事其实是同一件事。这里是先付钱、后有作品；其他每一条都是先把画画出来，之后才谈卖不卖得掉。没有库存，也没有卖不掉的存货堆在房间里。这也是这里唯一一条“先被委托、后动笔”的路——有没有人要，在落第一笔之前就有答案了。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 1170,
+    "en": "The subject, the schedule and the finished image stop being entirely yours. A ¥70,000 cover is close to what one of your own originals earns with no brief attached to it. And rates vary enormously between clients, which is the mechanism by which the portfolio you show decides which clients arrive.",
+    "zh": "题材、进度和最终画面不再完全是你的。一张 70,000 日元的封面，和你自己一张原作挣到的差不多，而原作没有附带任何要求。另外，不同客户之间价差极大——所以才有那句话：你拿什么作品集，就接到什么活。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 1189,
+    "en": "Selling Direct",
+    "zh": "直接卖"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 1199,
+    "en": "Your own shop, your own prices, everything above cost.",
+    "zh": "自己的店，自己定价，成本之上全归你。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 1205,
+    "en": "Galleries",
+    "zh": "画廊"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 1206,
+    "en": "A gallery sells your originals and finds the buyers.",
+    "zh": "画廊卖你的原作，并且负责找买家。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 1212,
+    "en": "Licensing",
+    "zh": "图像授权"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 1213,
+    "en": "Someone pays to use a painting you have already made.",
+    "zh": "有人付钱，使用你已经画好的一张画。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 1219,
+    "en": "Publishing",
+    "zh": "出版"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 1220,
+    "en": "A publisher makes a book of your work, and pays for it.",
+    "zh": "由出版社把你的作品做成一本书，钱也由他们出。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 1226,
+    "en": "Commissions",
+    "zh": "委托"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 1227,
+    "en": "Someone pays you to paint something new, to a brief.",
+    "zh": "有人付钱请你按要求画一张新的。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 1268,
+    "en": "About 233,000 followers across five accounts and a shop already running, with a price ladder that stops at ¥2,200 and starts again at ¥31,900.",
+    "zh": "五个账号合计约 23.3 万人在关注，店铺也已经开着；价位到 2,200 日元就断了，再往上直接跳到 31,900。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 1279,
+    "en": "{solos} solo shows and {groups} group shows, the most recent at Galerie LE MONDE in Harajuku.",
+    "zh": "{solos} 场个展、{groups} 场联展，最近的一场在原宿的 Galerie LE MONDE。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 1287,
+    "en": "A subject that sells into interiors, hospitality, stationery and publishing — categories character work never reaches.",
+    "zh": "一个能卖进室内、酒店餐饮、文具和出版的题材——角色类作品到不了的那些品类。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 1291,
+    "en": "{zines} zines, {pubs} publications, and six years of daily work to build a book from.",
+    "zh": "{zines} 本 zine、{pubs} 本出版物，还有六年每天画下来的画，够从里面做出一本书。"
+  },
+  {
+    "file": "engines/futures_engine.py",
+    "line": 1295,
+    "en": "Six years of delivering to a daily schedule, and a subject Japanese literary publishers buy covers in.",
+    "zh": "六年每天按时把画交出来，以及一个题材——会被日本的文学类出版社买去做封面。"
+  },
+  {
+    "file": "engines/outreach_kit_engine.py",
+    "line": 87,
+    "en": "One link — Instagram, or a single web album. Attachments from an unknown sender routinely go unopened.",
+    "zh": "一个链接——Instagram，或者一个网页相册。陌生人发来的附件，通常不会被打开。"
+  },
+  {
+    "file": "engines/outreach_kit_engine.py",
+    "line": 89,
+    "en": "Five images from one series, rather than a selection across the practice. The judgement being made is whether the work holds a wall, not how many kinds of thing it can be.",
+    "zh": "五张，来自同一个系列，而不是从整个创作里东挑一张西挑一张。对方要判断的是这批作品能不能撑起一面墙，而不是它能有多少种面貌。"
+  },
+  {
+    "file": "engines/outreach_kit_engine.py",
+    "line": 91,
+    "en": "The sentence naming which of their shows was attended is the one part of the letter that cannot be fabricated, and the part that gets read twice.",
+    "zh": "写明去看过他们哪一场展的那句话，是整封信里唯一无法伪造的部分，也是会被读两遍的部分。"
+  },
+  {
+    "file": "engines/outreach_kit_engine.py",
+    "line": 93,
+    "en": "The first letter asks for a viewing, not a show. A request for a show is a proposal, and a proposal is something that can be declined.",
+    "zh": "第一封信请求的是“看一下”，不是一次展览。请求展览就成了提案，而提案是可以被回绝的。"
+  },
+  {
+    "file": "engines/outreach_kit_engine.py",
+    "line": 95,
+    "en": "Silence at ten days indicates the letter was not seen rather than refused. A second letter three months later, at the next opening, comes from someone who has by then been twice.",
+    "zh": "十天没有回音，通常意味着信没有被看到，而不是被拒绝。三个月后下一场展开幕时写第二封，寄信人已经是“来过两次的人”。"
+  },
+  {
+    "file": "engines/outreach_kit_engine.py",
+    "line": 97,
+    "en": "Sizes and prices are left out until they are asked for. Included unprompted, the letter becomes a quote sheet.",
+    "zh": "尺寸和价格在对方问起之前不写。没被问就写上，信就变成了一份报价单。"
+  },
+  {
+    "file": "engines/outreach_kit_engine.py",
+    "line": 104,
+    "en": "The first letter",
+    "zh": "第一封信"
+  },
+  {
+    "file": "engines/outreach_kit_engine.py",
+    "line": 105,
+    "en": "Tokyo galleries do not run submission boxes; the route in is attendance and then a letter. A first letter that works is short — the show attended, three sentences of introduction, one link, five paintings. It contains no request, so there is nothing in it to refuse, and a reply of any kind is already the conversation.",
+    "zh": "东京的画廊不设投稿箱；进入的方式是先到场，然后写信。有效的第一封信很短——去看过的那场展、三句话的自我介绍、一个链接、五张画。信里没有任何请求，所以没有什么可以被拒绝；而对方只要回一句话，就已经是在往下谈了。"
+  },
+  {
+    "file": "engines/outreach_kit_engine.py",
+    "line": 114,
+    "en": "Addressed to HAGI ART, whose own remit is young artists' solo and group shows and which charges no venue fee. The body holds for any of them with the first paragraph changed.",
+    "zh": "这封写给 HAGI ART——它自己写明的方向就是年轻创作者的个展与联展，而且不收场地费。换掉第一段，其余的内容对任何一家都适用。"
+  },
+  {
+    "file": "engines/outreach_kit_engine.py",
+    "line": 118,
+    "en": "Six things that are true in Tokyo specifically",
+    "zh": "在东京，这六件事是真的"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 59,
+    "en": "TOKAS-Emerging",
+    "zh": "TOKAS-Emerging（东京都现代美术空间）"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 62,
+    "en": "Free venue, ¥150,000 production grant, install and PR handled. Japan-resident, any nationality, born on or after 1 April 1990.",
+    "zh": "免费场地、15 万日元制作经费，布展与宣传都由他们负责。在日本居住即可，不限国籍，1990 年 4 月 1 日或之后出生。"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 73,
+    "en": "A proposal and ten paintings that hang together as one body.",
+    "zh": "一份展览提案，和十张能作为一个整体挂在一起的画。"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 84,
+    "en": "TOKAS OPEN SITE",
+    "zh": "TOKAS OPEN SITE"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 87,
+    "en": "Paused. TOKAS Hongo is under maintenance and the next call is for fiscal 2027 onward, so there is no February round this time.",
+    "zh": "暂停中。TOKAS 本乡馆正在施工，下一次征集要到 2027 年度以后，所以今年二月这一轮不会有。"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 91,
+    "en": "¥400,000 towards the exhibition, no age limit, solo proposals accepted.",
+    "zh": "40 万日元展览经费，不限年龄，接受个展提案。"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 95,
+    "en": "The same body of work, plus a written plan for how it fills a room.",
+    "zh": "同一批作品，外加一份“它如何撑起一个空间”的书面构想。"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 107,
+    "en": "TOKAS residencies (local + exchange)",
+    "zh": "TOKAS 驻地（国内・交流）"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 111,
+    "en": "60–90 days in Sumida with a production fee, or ~3 fully funded months in Taipei, Seoul or Helsinki. Nationality unrestricted.",
+    "zh": "在墨田驻留 60–90 天并有制作费，或全额资助约 3 个月，前往台北、首尔或赫尔辛基。不限国籍。"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 115,
+    "en": "A reason to be somewhere — what the place would change about the work.",
+    "zh": "一个“为什么要去那里”的理由——那个地方会让作品发生什么变化。"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 125,
+    "en": "SICF (Spiral, Aoyama)",
+    "zh": "SICF（青山 Spiral）"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 128,
+    "en": "Juried, artist-direct, no age or nationality limit. A booth costs from ¥48,400. One entrant takes the Grand Prize — a solo show in Spiral's Atrium and ¥500,000.",
+    "zh": "评审制，艺术家可直接报名，不限年龄与国籍。展位费从 48,400 日元起。其中一位拿到大奖——在 Spiral 中庭办个展，外加 50 万日元。"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 132,
+    "en": "Work that reads from across a room — the booth is seen at a distance first.",
+    "zh": "要能从远处一眼看到的作品——展位首先是被远远看见的。"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 141,
+    "en": "Independent Tokyo",
+    "zh": "Independent Tokyo"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 144,
+    "en": "Screened by the organiser, with 20–30 gallerists judging on the floor — one of the recognised routes galleries use to find new artists. A booth runs from about ¥45,000.",
+    "zh": "由主办方筛选，现场有 20–30 位画廊主担任评审——这是画廊发掘新人的常见场合之一。展位费约 45,000 日元起。"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 148,
+    "en": "One coherent wall, and a short answer to the question every gallerist on the floor asks — what is being made at the moment.",
+    "zh": "一面完整连贯的墙，和一句能回答“最近在做什么”的简短说明——现场每一位画廊主都会问这句。"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 160,
+    "en": "HB Gallery FILE competition",
+    "zh": "HB Gallery FILE 大赛"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 164,
+    "en": "No eligibility restriction of any kind — nationality, age, residence or student status. Ten special-award winners, and grand-prize winners each get a one-week solo in Omotesando.",
+    "zh": "没有任何资格限制——国籍、年龄、居住地、学生身份都不设门槛。十位特别奖得主，大奖得主各获得表参道的一周个展。"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 168,
+    "en": "15–20 works chosen as a set — this one is judged by art directors, not curators.",
+    "zh": "15–20 张作为一组来选的作品——评审是艺术总监，不是策展人。"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 179,
+    "en": "biscuit gallery — \"grid next\"",
+    "zh": "biscuit gallery「grid next」"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 183,
+    "en": "Free to enter, free to exhibit, students welcome — and one entrant is given a solo show. Roughly 40 and under.",
+    "zh": "免费报名、免费参展，接受学生——其中一位可获得个展。年龄大致在 40 岁以下。"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 187,
+    "en": "One new painting kept off Instagram until the show — the call takes unpublished work only.",
+    "zh": "一张新画，并且在展览之前不发到 Instagram——这个征集只收未发表的作品。"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 194,
+    "en": "Kyoto Art Center Co-program",
+    "zh": "京都艺术中心 Co-program"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 197,
+    "en": "The best-funded open call found anywhere in Japan — up to ¥1,000,000 for a solo, plus six weeks of studio.",
+    "zh": "目前在日本找到的经费最充裕的公开征集——个展最高 100 万日元，外加六周工作室。"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 201,
+    "en": "A project, not a portfolio — they fund something being made, not something finished.",
+    "zh": "要的是一个项目，而不是作品集——他们资助的是正在发生的创作，不是已完成的东西。"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 212,
+    "en": "Arts Council Tokyo Startup Grant",
+    "zh": "东京艺术委员会 创业期扶持金"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 216,
+    "en": "Up to ¥300,000 towards a public activity in Tokyo — a budget for putting something on, rather than income. No nationality clause; it asks for residence in Tokyo. Two rounds a year, so a missed one comes round again.",
+    "zh": "在东京举办公开活动最高 30 万日元——这是一笔办事的预算，不是收入。无国籍限制，但要求在东京居住。一年两轮，错过一轮还有下一轮。"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 220,
+    "en": "A show that was already going to happen — this funds the thing, not a new idea.",
+    "zh": "一个本来就打算做的展览——它资助的是这件事本身，不是一个新点子。"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 231,
+    "en": "Nomura Foundation",
+    "zh": "野村财团 艺术文化助成"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 234,
+    "en": "Up to ¥1,000,000 towards the activity itself. No nationality, residency or age clause. The domestic grant covers work carried out in Japan, so a China–Japan exchange fits on its Japanese leg.",
+    "zh": "最高 100 万日元，用于活动本身。无国籍、居住地或年龄限制。国内这一项资助的是在日本进行的活动，所以中日交流展是以日本这一边的部分符合条件。"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 238,
+    "en": "A partner on the other side — this one is built around two places.",
+    "zh": "另一边要有个合作方——这个项目的结构就是两个地方。"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 251,
+    "en": "Asian Cultural Council fellowship",
+    "zh": "亚洲文化协会 个人奖助"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 255,
+    "en": "Up to US$35,000. Eligibility runs on citizenship, so a Chinese passport counts wherever its holder lives — a Japanese student visa does not, on its own. It asks for five years of practice, and fellows step away from university coursework for the duration.",
+    "zh": "最高 3.5 万美元。资格看的是国籍，所以中国护照在哪里都算数——单靠日本的留学签证则不算。它要求五年的创作经历，并且奖助期间要从课业中暂时抽身。"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 259,
+    "en": "The leave-of-absence clause is the one to check first, since a 留学 residence status depends on being enrolled. The Immigration Information Centre answers this kind of question for free.",
+    "zh": "先要弄清楚的是“休学”这一条，因为留学在留资格本身以在学为前提。外国人在留综合信息中心可以免费咨询这类问题。"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 263,
+    "en": "References, and a plan measured in months rather than weeks. Three months is the realistic run-up — this is the longest form on the list.",
+    "zh": "推荐人，以及一份以“月”而不是“周”为单位的计划。三个月是实际需要的准备期——这是清单上最长的一份申请。"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 270,
+    "en": "Holbein Scholarship",
+    "zh": "好乐门（Holbein）奖学金"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 273,
+    "en": "¥300,000 of materials over a year, from a watercolor manufacturer. Residence in Japan, no nationality clause.",
+    "zh": "一年内价值 30 万日元的画材，来自一家水彩颜料厂商。在日本居住即可，无国籍限制。"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 277,
+    "en": "Almost nothing — the medium match is already the argument.",
+    "zh": "几乎不需要准备——媒介本身就是最好的理由。"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 284,
+    "en": "Fukuoka Asian Art Museum residency",
+    "zh": "福冈亚洲美术馆 驻地"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 287,
+    "en": "A museum-hosted residency ending in an exhibition. Built for artists working across Asia — neither residence nor nationality restricted.",
+    "zh": "由美术馆主办、以展览收尾的驻地项目。专为在亚洲各地创作的艺术家而设——不限居住地与国籍。"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 291,
+    "en": "The two-city practice is the application — what the moving between them does to the work.",
+    "zh": "往返两座城市的创作本身就是申请内容——在两地之间移动对作品做了什么。"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 301,
+    "en": "Tokyo Art Book Fair",
+    "zh": "东京艺术书展 TABF"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 304,
+    "en": "A booth among zines, artist books, and the people who buy them — the printed-matter circuit. The cheapest table is ¥16,500 and the fair takes no commission on sales.",
+    "zh": "在 zine、艺术家书和买这些东西的人当中占一个展位——这是印刷品的圈子。最便宜的桌子 16,500 日元，销售不抽成。"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 308,
+    "en": "The January 2027 edition is already full — applications closed in June 2026 — so the next way in is the edition after it. The call tends to open in spring.",
+    "zh": "2027 年 1 月这一届的报名已经在 2026 年 6 月截止了——能赶上的是再下一届。征集通常在春天开始。"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 312,
+    "en": "Something printed and finished. Three months is production time; the paperwork is an afternoon.",
+    "zh": "一件印好、做完的东西。三个月说的是制作时间；填表只要一个下午。"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 329,
+    "en": "Elizabeth Greenshields Foundation",
+    "zh": "Elizabeth Greenshields 基金会"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 331,
+    "en": "A first grant of roughly CAD 18,000 for representational painting. Ages 18–41, students explicitly eligible, and no citizenship or residency requirement at all.",
+    "zh": "具象绘画的首次资助约 1.8 万加元。18–41 岁，明确接受学生申请，且完全没有国籍或居住地要求。"
+  },
+  {
+    "file": "engines/recurring_calendar_engine.py",
+    "line": 335,
+    "en": "Rolling — there is no date to miss. Images of recent work and a short account of what is being painted.",
+    "zh": "常年接受申请——没有会错过的截止日期。近期作品的图片，加一段简短的说明：现在在画什么。"
+  }
+]

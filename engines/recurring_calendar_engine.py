@@ -131,7 +131,7 @@ DOORS = [
             "審査制・作家直接応募、年齢国籍不問。ブースは48,400円から。うち一名がグランプリ——Spiralアトリウムでの個展と50万円。"),
         "prepare": _t(
             "Work that reads from across a room — the booth is seen at a distance first.",
-            "要能从远处一眼看到的作品——展位首先是被远远看见的。",
+            "作品要让人从远处一眼就能看到——展位首先是被远远看见的。",
             "遠くからでも成立する作品——ブースはまず遠目に見られる。"),
     },
     {
@@ -147,7 +147,7 @@ DOORS = [
             "主催者による選考、当日は20〜30名のギャラリストが審査——ギャラリーが新しい作家を見つける定番の場のひとつ。ブースは約45,000円から。"),
         "prepare": _t(
             "One coherent wall, and a short answer to the question every gallerist on the floor asks — what is being made at the moment.",
-            "一面完整连贯的墙，和一句能回答“最近在做什么”的简短说明——现场每一位画廊主都会问这句。",
+            "一面作品完整、连贯的展示墙，和一句能回答“最近在做什么”的简短说明——现场每一位画廊主都会问这句。",
             "一面ぶんのまとまりと、会場のギャラリストが必ず訊く「いま何を作っているか」への短い答え。"),
     },
     {
@@ -196,7 +196,7 @@ DOORS = [
         "url": "https://www.kac.or.jp/open_call/",
         "gives": _t(
             "The best-funded open call found anywhere in Japan — up to ¥1,000,000 for a solo, plus six weeks of studio.",
-            "目前在日本找到的经费最充裕的公开征集——个展最高 100 万日元，外加六周工作室。",
+            "目前在日本找到的经费最充裕的公开征集——个展最高 100 万日元，外加六周的工作室使用时间。",
             "日本で見つかった中で最も手厚い公募——個展に最大100万円、加えて6週間のスタジオ。"),
         "prepare": _t(
             "A project, not a portfolio — they fund something being made, not something finished.",
@@ -233,11 +233,11 @@ DOORS = [
         "url": "https://www.nomurafoundation.or.jp/culture/art_ov01.html",
         "gives": _t(
             "Up to ¥1,000,000 towards the activity itself. No nationality, residency or age clause. The domestic grant covers work carried out in Japan, so a China–Japan exchange fits on its Japanese leg.",
-            "最高 100 万日元，用于活动本身。无国籍、居住地或年龄限制。国内这一项资助的是在日本进行的活动，所以中日交流展是以日本这一边的部分符合条件。",
+            "最高 100 万日元，用于活动本身。无国籍、居住地或年龄限制。国内这一项资助的是在日本进行的活动，所以中日交流展中，在日本开展的那部分符合条件。",
             "活動そのものに最大100万円。国籍・居住・年齢の条項なし。国内枠は日本国内で行う活動が対象なので、中日をまたぐ企画は日本側の部分で合う。"),
         "prepare": _t(
             "A partner on the other side — this one is built around two places.",
-            "另一边要有个合作方——这个项目的结构就是两个地方。",
+            "另一边要有个合作方——这个项目本身就涉及两地。",
             "向こう側の相手が要る——二つの場所を結ぶ形の企画。"),
     },
     {
@@ -290,7 +290,7 @@ DOORS = [
             "美術館主催、展示で締めくくるレジデンス。アジアを横断して制作する作家のための枠——居住地も国籍も不問。"),
         "prepare": _t(
             "The two-city practice is the application — what the moving between them does to the work.",
-            "往返两座城市的创作本身就是申请内容——在两地之间移动对作品做了什么。",
+            "往返两座城市的创作本身就是申请内容——往返两地给作品带来了什么变化。",
             "二都市をまたぐ制作そのものが申請内容——行き来が作品に何をしているか。"),
     },
     {

@@ -1,0 +1,45 @@
+{
+  "unused_engine_edit_selectors": [],
+  "unused_ladder_edit_selectors": [],
+  "broken_local_document_links": [],
+  "unicode_replacement_character_files": [],
+  "arithmetic_diagnostics": [
+    {
+      "price_jpy": 4950,
+      "route": "china",
+      "run": 300,
+      "unit_jpy": 1315,
+      "prepaid_print_jpy": 394500,
+      "existing_model_copies": 109,
+      "simplified_cash_recovery_copies_excluding_all_selling_costs": 80
+    },
+    {
+      "price_jpy": 4950,
+      "route": "japan_digital",
+      "run": 100,
+      "unit_jpy": 3204,
+      "prepaid_print_jpy": 320400,
+      "existing_model_copies": 184,
+      "simplified_cash_recovery_copies_excluding_all_selling_costs": 65
+    },
+    {
+      "price_jpy": 11000,
+      "route": "japan_digital",
+      "run": 100,
+      "unit_jpy": 3204,
+      "prepaid_print_jpy": 320400,
+      "existing_model_copies": 41,
+      "simplified_cash_recovery_copies_excluding_all_selling_costs": 30
+    }
+  ],
+  "arithmetic_scope": "Comparison of the existing pure calculation against simplified prepaid-cash recovery. Excludes all selling costs; not a production quote, forecast or recommended target.",
+  "markdown_files_checked": [
+    "01-Saffron-improvement-brief.md",
+    "02-Chinese-engine-copy.md",
+    "03-Chinese-strategy-ladders.md",
+    "04-Chinese-grants.md",
+    "05-Chinese-interface-and-overview.md",
+    "06-Chinese-venue-rows.md",
+    "README.md"
+  ]
+}

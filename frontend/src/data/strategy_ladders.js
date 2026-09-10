@@ -40,7 +40,7 @@ export const STATES = {
     detail: T('Mian Art Museum in Tianjin and Hengdu Art Museum in Taizhou. Institutions vouch in a way a commercial room cannot — they have no stock to sell.', '天津的棉美术馆与台州的横渡美术馆。机构的背书是商业空间给不了的：它们没有东西要卖。'),
   },
   g_solo: {
-    label: T('Solo shows, including in Tokyo', '个展，包括在东京'),
+    label: T('Solo shows, including in Tokyo', '个展，也包括在东京办的'),
     detail: T('Three on record, most recently Light and Shadows and Cats at Galerie LE MONDE in Harajuku, closed 6 September 2026. The work has carried a room alone.', '已经有三场，最近一次是原宿 Galerie LE MONDE 的《光与影与猫》，2026 年 9 月 6 日结束。作品已经能独自撑起一个空间。'),
   },
   g_international: {
@@ -66,12 +66,12 @@ export const STATES = {
     detail: T('A watercolour diary kept daily since 2020. Everything further up this ladder assumes a steady supply of work, and this is the rung most practices never clear.', '自 2020 年起从未间断的每日水彩日记。这条阶梯往上的一切都建立在稳定的作品产出之上，而这一级是多数创作者始终没跨过的。'),
   },
   a_look: {
-    label: T('A look recognisable at thumbnail size', '缩略图大小也认得出的面貌'),
-    detail: T('Urban architecture, interior light, watercolour transparency — consistent for six years. In a feed, recognition happens before the name is read, so the look has to work alone.', '城市建筑、室内光线、水彩的透明感——已经稳定了六年。在信息流里，人是先认出画，才看到名字的，所以那种面貌必须自己立得住。'),
+    label: T('A look recognisable at thumbnail size', '缩成缩略图也认得出的画风'),
+    detail: T('Urban architecture, interior light, watercolour transparency — consistent for six years. In a feed, recognition happens before the name is read, so the look has to work alone.', '城市建筑、室内光线、水彩的透明感——已经稳定了六年。在信息流里，人是先认出画，才看到名字的，所以那种画风必须自己立得住。'),
   },
   a_found: {
     label: T('An audience that found you', '一群自己找上来的读者'),
-    detail: T('About 89,300 on X, 65,000 on Weibo, 44,000 on Xiaohongshu, 27,000 on the Instagram diary and 7,500 on Bilibili — roughly 233,000 follows in total, none of them advertised for. That is an audience, and it is the base the rest of this ladder multiplies.', 'X 上大约 89,300 人，微博 65,000 人，小红书 44,000 人，Instagram 日记 27,000 人，B 站 7,500 人——合计大约 233,000 个关注者，没有一个是买来的。这已经是一群受众，也是这条阶梯往上乘算的基数。'),
+    detail: T('About 89,300 on X, 65,000 on Weibo, 44,000 on Xiaohongshu, 27,000 on the Instagram diary and 7,500 on Bilibili — roughly 233,000 follows in total, none of them advertised for. That is an audience, and it is the base the rest of this ladder multiplies.', 'X 上大约 89,300 人，微博 65,000 人，小红书 44,000 人，Instagram 日记 27,000 人，B 站 7,500 人——合计大约 233,000 个关注者，没有一个是买来的。这已经是一群受众，也是后面各级计算增长时的基数。'),
   },
   a_series: {
     label: T('Work that continues rather than accumulates', '会延续的作品，而不是堆积的作品'),
@@ -88,7 +88,7 @@ export const STATES = {
           text: T('A finished painting competes with every other finished painting. A painting being made competes with almost nothing, because the moment pigment hits wet paper cannot be screenshotted, described, or reproduced by anyone else. It is the one thing in your practice that is structurally yours.', '一张画完的画，要和所有画完的画竞争。一张正在画的画几乎没有对手——颜料落在湿纸上的那一瞬间，没法截图、没法转述，也没有别人能复制。这是你的实践里，从根本上唯一属于你自己的东西。'),
         },
         { label: T('What it already cost you', '你已经付出的成本'),
-          text: T('Nothing extra, which is the point. Every other state on this ladder asks for something new — a series to invent, a platform to learn, a person to write to. This one is a by-product of a desk you already sit at daily, and you have been generating it for a while.', '没有额外成本，而这正是关键。这条阶梯上其他每一级都需要你多做一件新的事——想一个系列、学一个平台、给一个人写信。这一级只是你每天都要坐的那张桌子的副产品，而且你已经这样积累了一阵子了。'),
+          text: T('Nothing extra, which is the point. Every other state on this ladder asks for something new — a series to invent, a platform to learn, a person to write to. This one is a by-product of a desk you already sit at daily, and you have been generating it for a while.', '没有额外成本，而这正是关键。这条阶梯上其他每一级都需要你多做一件新的事——想一个系列、学一个平台、给一个人写信。这一级只是你每天坐在那张桌前画画时，顺带留下的东西，而且你已经这样积累了一阵子了。'),
         },
         { label: T('What is worth filming', '值得拍的是什么'),
           text: T('Not the whole painting. The moments where the medium does something a viewer cannot predict — a wash spreading into damp paper, salt or a dry brush breaking a flat area, the first dark going into a pale one, lifting colour back out with a clean brush. Architecture gives you hard edges to cut against soft ones, which is the contrast that holds attention.', '不是整张画。是那些瞬间：媒介做出了观众预料不到的事——一片水色在潮纸上化开、盐或干笔破开一块平涂、第一笔重色落进浅色里、用干净笔把颜色再吸出来。建筑给了你硬边，正好和软边形成对比——留住注意力的正是这种反差。'),
@@ -97,7 +97,7 @@ export const STATES = {
           text: T('Bilibili has them. The same file needs no re-editing and no translation to sit on the Instagram side too, because nobody needs language to watch paint move — so the one thing that already crosses both your audiences unchanged is currently only being shown to one of them.', 'B 站上已经有了。同一个文件不用重剪、也不用翻译，就能同样放在 Instagram 那边——颜料怎么流动，不用翻译也看得懂。也就是说，唯一一样在你两群读者之间原样通用的东西，眼下只给其中一边看。'),
         },
         { label: T('Where this sits', '它在什么位置'),
-          text: T('It is not only an audience state. A named series becomes far easier to sustain when each entry has a second life as a recording, and a brand deciding whether to license a look is reassured by seeing it made by hand.', '它不只属于受众这一条。当每一张画都还有“一段视频”这第二次生命时，一个有名字的系列会容易维持得多；而正在考虑授权的品牌，看到这种面貌是手工做出来的，会更放心。'),
+          text: T('It is not only an audience state. A named series becomes far easier to sustain when each entry has a second life as a recording, and a brand deciding whether to license a look is reassured by seeing it made by hand.', '它不只属于受众这一条。当每一张画都还有“一段视频”这第二次生命时，一个有名字的系列会容易维持得多；而正在考虑授权的品牌，看到这种画风是手工画出来的，会更放心。'),
         },
       ],
     },
@@ -109,7 +109,7 @@ export const STATES = {
   // audiences that don't get them are the ones that would move a career.
   a_weekly: {
     label: T('The painting videos reaching the audiences that never see them',
-             '让作画视频抵达那些从没看过的人'),
+             '让从没看过的人也能看到你的作画视频'),
     // Two corrections, 2026-09-10. (1) Those are Bilibili VIEW counts, not
     // people — the profile's own _totals caution forbids turning reach numbers
     // into headcounts, and it applies here too. (2) "the 38 files" overstated
@@ -121,9 +121,9 @@ export const STATES = {
       open: T('What your own channel already proved', '你自己的频道已经证明了什么'),
       hide: T('Close', '收起'),
       blocks: [
-        { label: T('Short beats long by 8.5x — on your channel, not in general', '短视频是长视频的 8.5 倍——这是你自己频道的数字，不是普遍规律'),
+        { label: T('Short beats long by 8.5x — on your channel, not in general', '短视频的播放量是长视频的 8.5 倍——这是你自己频道的数字，不是普遍规律'),
           text: T('Of your 33 measurable videos, the ones under two and a half minutes have a median of about 9,975 views. The ones over it: about 1,172. Eight of your top nine are short. The long real-time sessions — the 14 to 21 minute ones — sit around 1,200 to 5,400 for far more work.',
-                  '你有 33 条能看到数据的视频：两分半以内的，播放中位数约 9,975；超过两分半的，约 1,172。你最好的九条里有八条是短视频。那些 14 到 21 分钟的实时录制，播放量大多在 1,200 到 5,400 之间——付出多得多，回报少得多。'),
+                  '你有 33 条能看到数据的视频：两分半以内的，播放量的中位数约 9,975；超过两分半的，约 1,172。你最好的九条里有八条是短视频。那些 14 到 21 分钟的实时录制，播放量大多在 1,200 到 5,400 之间——付出多得多，回报少得多。'),
         },
         { label: T('But it was never just the length', '但起作用的从来不只是长度'),
           text: T('Your recent short ones did not repeat it — 0:36 last August got 139. What the 2023 run had was a hook: a finished 365-day book, numbered episodes, released one a week. People came back for the next one. That is the part worth keeping, and it is not a filming technique.',
@@ -131,7 +131,7 @@ export const STATES = {
         },
         { label: T('This is how the follower number actually moves', '粉丝数是怎么涨起来的'),
           text: T('An audience grows when something reaches people who are not following you yet — otherwise you are showing the same work to the same room. On the one channel where the numbers are public, 9 of your 33 videos have more views than you have followers there today; 8 of those 9 were under two and a half minutes, and the best did 7.3x. Those six weeks went out one a week, straight. The cadence is not something to learn — it is something to repeat.',
-                  '受众会涨，是因为有东西触达了还没关注你的人；否则就是把同样的作品，反复放给同一屋子的人看。在唯一能看到数字的那个频道上，你 33 条视频里有 9 条的播放量超过了你在那边的粉丝数，其中 8 条都在两分半以内，最好的一条是 7.3 倍。那六周是连续每周一条发出去的。这个节奏不需要学，只需要再做一次。'),
+                  '受众会增加，是因为有东西触达了还没关注你的人；否则就是把同样的作品，反复放给同一屋子的人看。在唯一能看到数字的那个频道上，你 33 条视频里有 9 条的播放量超过了你在那边的粉丝数，其中 8 条都在两分半以内，最好的一条是 7.3 倍。那六周是连续每周一条发出去的。这个节奏不需要学，只需要再做一次。'),
         },
         { label: T('Not stories', '不要只发限时动态'),
           text: T('When these do go to Instagram: a story is gone in 24 hours, so it reaches whoever opened the app that day and leaves nothing for the curator who finds you in March. A feed post or a reel stays. If it has to be a story, save it to Highlights afterwards. Timelapse is fine — the spread of pigment often reads better sped up than in real time.',
@@ -148,7 +148,7 @@ export const STATES = {
     },
   },
   a_borrowed: {
-    label: T('Appearing inside other audiences', '出现在别人的受众里'),
+    label: T('Appearing inside other audiences', '出现在别人的受众面前'),
     // "; none approached" removed 2026-09-10: the state is 'unknown' — nobody
     // tracks who she has contacted.
     //
@@ -179,7 +179,7 @@ export const STATES = {
           text: T('They buy in different currencies, are found by different algorithms, and do not disappear together when one platform changes how it shows work. A print run priced for one market can be sold into the other without making anything new.',
                   '他们用不同的货币买东西、被不同的算法找到，而且不会因为某一个平台改了推荐方式就一起消失。为一个市场印出来、定好价的东西，不用重做，就能卖到另一个市场。'),
         },
-        { label: T('Where the video fits', '视频放在这里的位置'),
+        { label: T('Where the video fits', '视频在这里起什么作用'),
           text: T('You already film the painting, and about 7,500 people follow those recordings on Bilibili. The same file needs no re-editing and no translation to play on the other accounts — watching paint move needs no language at all, which is why it is the one thing that crosses the Chinese and English sides unchanged.',
                   '你已经在拍作画过程了，B 站上大约有 7,500 人是为这些视频关注你的。同一个文件不用重剪、也不用翻译，就能同样发到其他账号——看颜料流动完全不需要语言，所以它是唯一一样能在中文和英文两边原样通用的东西。'),
         },
@@ -196,7 +196,7 @@ export const STATES = {
         },
         { label: T('What is still not known', '还不知道的部分'),
           text: T('How much the five overlap, so the ~233,000 total is a ceiling on reach rather than a count of people. The split by language is clearer, and Weibo changes it: about 116,500 read you in Chinese (Weibo, Xiaohongshu, Bilibili), now roughly matching the ~116,300 who read you in English (X, Instagram) — this was a 2-to-1 English lean before Weibo was counted.',
-                  '五个账号之间有多少是同一批人，没有量过——所以大约 233,000 这个总数是触达的上限，而不是真实人数。按语言分倒是清楚的，而微博改变了这个格局：大约 116,500 人用中文看你的作品（微博、小红书、B 站），现在几乎追平了大约 116,300 人用英文看你的作品（X、Instagram）——在算上微博之前，英文那边是中文那边的两倍。'),
+                  '五个账号之间有多少人是重复关注的，还没有统计过——所以大约 233,000 这个总数是触达的上限，而不是真实人数。按语言分倒是清楚的，而微博改变了这个格局：大约 116,500 人用中文看你的作品（微博、小红书、B 站），现在几乎追平了大约 116,300 人用英文看你的作品（X、Instagram）——在算上微博之前，英文那边是中文那边的两倍。'),
         },
       ],
     },
@@ -217,7 +217,7 @@ export const STATES = {
   // ── licensing ──────────────────────────────────────────────────────────────
   l_reproduces: {
     label: T('A subject that survives reproduction', '经得起复制的题材'),
-    detail: T('Watercolour architecture and interior light hold up printed small and in quantity, and they suit the categories licensing actually buys — stationery, calendars, covers, interiors.', '水彩的建筑与室内光线，缩小、批量印出来依然好看，也正好落在授权真正会买的品类里——文具、日历、书封、家居。'),
+    detail: T('Watercolour architecture and interior light hold up printed small and in quantity, and they suit the categories licensing actually buys — stationery, calendars, covers, interiors.', '水彩的建筑与室内光线，缩小、批量印出来依然好看，也正好落在授权客户真正会买的品类里——文具、日历、书封、家居。'),
   },
   l_inprint: {
     label: T('Work already in print', '已经印出来的作品'),
@@ -258,7 +258,7 @@ export const STATES = {
     // submission route, last open call 2010. Replaced with what was actually
     // verified, 2026-09-10; it makes the point better than the gloss did.
     detail: T('The state this ladder is for. Hobonichi runs a standing Artist Collection line of Techo covers with named illustrators, and publishes no submission route at all — the last open call closed in 2010. A door like that only opens from the other side.',
-              '这条阶梯就是为了到达这个状态。ほぼ日（Hobonichi）有常设的“艺术家系列”（アーティストコレクション）手账封面系列，上面写着插画师的名字；而他们完全没有公开任何投稿入口——最后一次公开征集是 2010 年。这样的门，只会从另一边打开。'),
+              '这条阶梯就是为了到达这个状态。ほぼ日（Hobonichi）有常设的“艺术家系列”（アーティストコレクション）手账封面，上面写着插画师的名字；而他们完全没有公开任何投稿入口——最后一次公开征集是 2010 年。这样的门，只会从另一边打开。'),
   },
 }
 
@@ -285,7 +285,7 @@ export const GOALS = [
     ladder: ['l_reproduces', 'a_look', 'l_inprint', 'a_series',
              'l_lookbook', 'l_findable', 'l_first', 'l_repeat', 'l_inbound'],
     why: {
-      a_look: T('Brands license a look they can put across a product line, so it has to survive being reproduced small and in quantity — the same consistency that earns recognition in a feed.', '品牌买的是一种能铺开成一整条产品线的面貌，所以它必须经得起被缩小、被大量复制——这和在信息流里被认出来，靠的是同一种稳定。'),
+      a_look: T('Brands license a look they can put across a product line, so it has to survive being reproduced small and in quantity — the same consistency that earns recognition in a feed.', '品牌买的是一种能延展成一整条产品线的画风，所以它必须经得起被缩小、被大量复制——这和在信息流里被认出来，靠的是同一种稳定。'),
       a_series: T('A range needs several related pieces at once, so a named series licenses more easily than a strong single image.', '一个产品系列一次要用好几件相关的作品，所以有名字的系列，比一张出色的单幅作品更容易授权。'),
     },
   },
