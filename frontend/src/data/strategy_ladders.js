@@ -150,9 +150,17 @@ export const STATES = {
   a_borrowed: {
     label: T('Appearing inside other audiences', '出现在别人的受众里'),
     // "; none approached" removed 2026-09-10: the state is 'unknown' — nobody
-    // tracks who she has contacted — and it is probably false besides, since
-    // several of the twelve are artists she has actually exhibited alongside.
-    detail: T('The fastest growth is borrowed rather than built — a shared zine, a two-person show, a trade of features. Twelve artists working in adjacent territory are already mapped.', '增长最快的方式是借力，而不是自己一点点攒——一本合印的 zine、一个双人展、互相介绍。已经梳理出十二位在相邻领域创作的艺术家。'),
+    // tracks who she has contacted.
+    //
+    // The count is TEN, from memory/peer_artists.json. It said twelve until
+    // 2026-09-11 and nothing ever held twelve of anything. The same edit had
+    // claimed "several of the twelve are artists she has actually exhibited
+    // alongside" — that conflated two different sets. The ten are established
+    // international watercolourists (Castagnet, Haines, Schaller, Kiuchi…);
+    // her actual co-exhibitors are the five from Tide from China, named
+    // separately in saffron_insights.js. If that file changes length, change
+    // this number with it.
+    detail: T('The fastest growth is borrowed rather than built — a shared zine, a two-person show, a trade of features. Ten artists working in adjacent territory are already mapped.', '增长最快的方式是借力，而不是自己一点点攒——一本合印的 zine、一个双人展、互相介绍。已经梳理出十位在相邻领域创作的艺术家。'),
   },
   a_second: {
     label: T('An audience in Chinese as well as on Instagram',
