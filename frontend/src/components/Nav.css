@@ -9,11 +9,8 @@
      without a visible seam. */
   background: url('../assets/texture/paper-stains.webp') center / cover no-repeat,
               var(--parchment);
-  /* Same reason as .app in App.css: the scan is opaque near-white with no alpha,
-     so normal compositing hides the parchment behind it instead of staining it.
-     background-blend-mode is not a `background` shorthand sub-property, so the
-     line above does not reset this one. */
-  background-blend-mode: multiply;
+  /* NOT background-blend-mode: multiply — see App.css's .app rule. Same
+     2026-09-10 attempt, same 2026-09-11 revert: too dark. */
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
   padding: 11px 28px;
