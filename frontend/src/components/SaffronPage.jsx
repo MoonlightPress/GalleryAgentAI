@@ -1990,7 +1990,7 @@ function Future({ f, lang, components }) {
   const [open, setOpen] = useState(false)
   const pick = (o) => (o && (o[lang] || o.en)) || ''
   return (
-    <div className={`sf-future${open ? ' sf-future--open' : ''}`}>
+    <div className={`sf-future sf-future--route-${f.id}${open ? ' sf-future--open' : ''}`}>
       <button className="sf-future-head" onClick={() => setOpen(o => !o)} aria-expanded={open}>
         <div>
           <div className="sf-future-name">{pick(f.name)}</div>
