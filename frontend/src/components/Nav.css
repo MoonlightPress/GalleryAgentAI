@@ -9,8 +9,9 @@
      without a visible seam. */
   background: url('../assets/texture/paper-stains.webp') center / cover no-repeat,
               var(--parchment);
-  /* NOT background-blend-mode: multiply — see App.css's .app rule. Same
-     2026-09-10 attempt, same 2026-09-11 revert: too dark. */
+  /* background-blend-mode: multiply — see App.css's .app rule for why this
+     was restored 2026-09-11 after a same-day revert-then-re-revert. */
+  background-blend-mode: multiply;
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
   padding: 11px 28px;

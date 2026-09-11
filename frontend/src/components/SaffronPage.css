@@ -2609,7 +2609,13 @@ a.sf-readiness-col-name:hover { color: #c47a35; text-decoration: underline; }
   background: #fffdf7;
   overflow: hidden;
 }
-.sf-future--open { background: #fffaf0; border-color: #d8c79a; }
+/* No .sf-future--open background/border-color swap (Scott, 2026-09-11:
+   "when i hit a dropdown section, it changes background colors, i don't
+   like that") — removed rather than tuned down, since the card's colour
+   should read the same whether it's open or closed. Also avoids a second-
+   order problem: the route accent strips below are mix-blend-mode:multiply
+   against this card's own background, so a background swap on open would
+   have shifted their rendered colour along with it. */
 
 /* Pathways only (the five routes in Futures()) — a colour per route so the
    list reads as five different doors, not one repeated card five times.

@@ -31,12 +31,18 @@
   background-repeat: repeat-y;
   background-size: 100% auto;
   background-position: top center;
-  /* NOT background-blend-mode: multiply. That was tried 2026-09-10 (the scan
-     is opaque with no alpha, so normal compositing lets it stand in for the
-     parchment rather than staining it) but Scott called it too dark the next
-     day and asked to go back to this — reverted 2026-09-11. If revisiting,
-     the washed-out-vs-too-dark tradeoff needs a real side-by-side, not
-     another single-direction swap. */
+  /* background-blend-mode: multiply, restored 2026-09-11 after a same-day
+     revert-then-re-revert. The scan is opaque with no alpha, so normal
+     compositing lets it stand in for the parchment instead of staining it —
+     the page ground becomes the scan's own near-white, which every <img> on
+     this page that ALSO multiplies (section art, icons, the Pathways accents)
+     then has almost nothing warm left to stain, reading as washed-out/
+     screen-like. Reverting this to "fix" a "too dark" complaint just moves
+     that same washed-out bug from one layer to every layer that blends
+     against it. The measured effect of multiply here is mild (~6% darker at
+     the mean, per f8d1ad2f) — if something reads as too dark, look at the
+     specific element first, not this shared base layer. */
+  background-blend-mode: multiply;
 }
 
 /* Hero placeholder for a lazy page's Suspense fallback (App.jsx, PageFallback).
