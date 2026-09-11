@@ -4,7 +4,43 @@
 covers the volatile *what's true right now*. When the two disagree, this file wins —
 and whoever notices the drift should fix it here. Keep this file short.
 
-_Last updated: 2026-09-10_
+_Last updated: 2026-09-11_
+
+## DEPLOYED 2026-09-11 — the naturalness pass, a fact-check catch, and the deploy bug that was hiding both
+
+Verified against the live bundle/API, not just the commit — see "how" below each item.
+
+- **The Sep 10 cold read's "still ~40% stiff" note is closed.** A second review
+  scoped to naturalness only (`_reviews/saffron_naturalness_2026-09-11/`) opened
+  with a "what should stay" list protecting the voice, then found 89 issues, 79
+  required. All 79 applied across 9 files (`futures_engine.py`,
+  `book_economics_engine.py`, `recurring_calendar_engine.py`,
+  `strategy_ladders.js`, `saffron_insights.js`, `SaffronPage.jsx`,
+  `SaffronV2.jsx`, `translations.js`, `translation_cache.json`) — confirmed by
+  diffing every required edit against current source (two looked missing at
+  first pass; false alarm from Python's adjacent-string-literal line splits).
+  Worst catch: `或者11 月 7、8 日本人送去` reads as "a Japanese person" before
+  backtracking to "8日+本人" — on a page written for a Chinese artist living in
+  Japan. Confirmed live: the fixed sentence is in the deployed `SaffronV2`
+  chunk and the `/api/saffron` response.
+- **Ten peers, not twelve.** `memory/peer_artists.json` holds ten established
+  watercolourists (Castagnet, Haines, Schaller, Kiuchi, Urbanowicz...); a
+  ladder claimed twelve in both languages and justified it with a code comment
+  conflating them with her five actual *Tide from China* co-exhibitors — two
+  different sets merged into an assumption, then written into the code as the
+  reason for a copy edit. Found by checking authored claims against the data
+  they cite, after Scott pushed back on a vague "do a fact pass" with "like
+  what?". Of the claims re-checked this pass — exhibition record, artist
+  statement, prices, follower counts — this was the one that didn't hold.
+- **The deploy bug that would have hidden all of it.** `deploy.sh` seeds
+  `memory/` with `--ignore-existing` to protect the artist's own edits, but
+  `translation_cache.json` is machine output (translation engine → cache →
+  `api._i18n`), not her data — so the server stayed pinned to whichever
+  Chinese shipped first and no later cache fix could ever land. Caught by
+  checking the *live page* after a deploy reported green (31 earlier fixes
+  committed, deployed, 200 on both checks — and the API still served
+  `具名联系人`). Fixed in `deploy.sh`; confirmed the corrected phrase
+  (`有明确姓名的联系人`) is now served on `/api/saffron`.
 
 ## DEPLOYED 2026-09-10 — Chinese cold read + a breakeven that double-counted
 
