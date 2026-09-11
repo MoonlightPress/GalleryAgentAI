@@ -31,18 +31,18 @@
   background-repeat: repeat-y;
   background-size: 100% auto;
   background-position: top center;
-  /* background-blend-mode: multiply, restored 2026-09-11 after a same-day
-     revert-then-re-revert. The scan is opaque with no alpha, so normal
-     compositing lets it stand in for the parchment instead of staining it —
-     the page ground becomes the scan's own near-white, which every <img> on
-     this page that ALSO multiplies (section art, icons, the Pathways accents)
-     then has almost nothing warm left to stain, reading as washed-out/
-     screen-like. Reverting this to "fix" a "too dark" complaint just moves
-     that same washed-out bug from one layer to every layer that blends
-     against it. The measured effect of multiply here is mild (~6% darker at
-     the mean, per f8d1ad2f) — if something reads as too dark, look at the
-     specific element first, not this shared base layer. */
-  background-blend-mode: multiply;
+  /* NOT background-blend-mode: multiply — settled 2026-09-11, for real this
+     time. paper-stains.webp IS the intended background, shown as its own
+     colour (Scott, holding up the file directly: "the background is
+     actually supposed to be this one"). The header/icon/accent images that
+     sit on top (opp-section-art, opp-card-icon, the Pathways route strips,
+     PaperAccents) are the ones that multiply — against THIS surface. Adding
+     multiply here too was tried twice today (f8d1ad2f, then re-added same
+     day) and both times it double-darkened the ground those images blend
+     against, which is what actually caused them to look pale/mismatched —
+     not a problem with their own blend mode, which was correct all along.
+     If the ground ever looks off again, check what the header art was
+     designed against before changing this line. */
 }
 
 /* Hero placeholder for a lazy page's Suspense fallback (App.jsx, PageFallback).
