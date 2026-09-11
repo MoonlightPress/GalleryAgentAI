@@ -6,7 +6,6 @@ import Nav, { QuickNav } from './components/Nav'
 import TodaysFocus from './components/TodaysFocus'
 import OpportunitiesSection from './components/OpportunitiesSection'
 import RelationshipTargets from './components/RelationshipTargets'
-import TrackerSection from './components/TrackerSection'
 import StatusBar from './components/StatusBar'
 import PaperAccents from './components/PaperAccents'
 import NewOpportunitiesBanner from './components/NewOpportunitiesBanner'
@@ -254,7 +253,6 @@ export default function App() {
             </div>
           </TrackedSection>
         )}
-        {page === 'discover' && <TrackedSection section="tracker"><TrackerSection /></TrackedSection>}
         {page === 'discover' && <AtelierFooter page="discover" />}
         {(page === 'observe' || page === 'observe2' || page === 'refine') && (
           <Suspense fallback={<PageFallback page={page} nav={nav} />}>
