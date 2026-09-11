@@ -2614,14 +2614,40 @@ a.sf-readiness-col-name:hover { color: #c47a35; text-decoration: underline; }
 /* Pathways only (the five routes in Futures()) — a colour per route so the
    list reads as five different doors, not one repeated card five times.
    Ladder() reuses this same .sf-future markup for the strategy ladders but
-   never sets a --route-* modifier, so it is unaffected. Thickened border-left
-   rather than a new element, same idiom as the subnav accent bars (Scott,
-   2026-09-10, ad03e101) — warm, muted tones, no cold blue/grey. */
-.sf-future--route-no_gatekeepers     { border-left: 6px solid var(--leaf, #7a9e7e); }  /* Selling Direct */
-.sf-future--route-someone_else_sells { border-left: 6px solid #4a6b4a; }               /* Galleries */
-.sf-future--route-work_goes_out      { border-left: 6px solid #9a6f7a; }               /* Licensing */
-.sf-future--route-between_covers     { border-left: 6px solid #c17a3f; }               /* Publishing */
-.sf-future--route-on_assignment      { border-left: 6px solid #a08a3a; }               /* Commissions */
+   never sets a --route-* modifier, so it is unaffected. warm, muted tones,
+   no cold blue/grey.
+
+   The strip is a ::before, not border-left, so mix-blend-mode: multiply
+   only touches the 6px strip — putting it on the card itself (or on
+   border-left directly, which cannot carry its own blend mode apart from
+   the box it belongs to) would multiply the whole card, cream fill and
+   text included, against whatever sits behind it (Scott, 2026-09-11:
+   "put the side accents on multiply", same idiom as every other painted
+   accent in this app). .sf-future already has overflow:hidden + the 9px
+   radius, so the strip is clipped to follow the rounded corners. */
+.sf-future--route-no_gatekeepers,
+.sf-future--route-someone_else_sells,
+.sf-future--route-work_goes_out,
+.sf-future--route-between_covers,
+.sf-future--route-on_assignment {
+  position: relative;
+}
+.sf-future--route-no_gatekeepers::before,
+.sf-future--route-someone_else_sells::before,
+.sf-future--route-work_goes_out::before,
+.sf-future--route-between_covers::before,
+.sf-future--route-on_assignment::before {
+  content: '';
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 6px;
+  mix-blend-mode: multiply;
+}
+.sf-future--route-no_gatekeepers::before     { background: var(--leaf, #7a9e7e); }  /* Selling Direct */
+.sf-future--route-someone_else_sells::before { background: #4a6b4a; }               /* Galleries */
+.sf-future--route-work_goes_out::before      { background: #9a6f7a; }               /* Licensing */
+.sf-future--route-between_covers::before     { background: #c17a3f; }               /* Publishing */
+.sf-future--route-on_assignment::before      { background: #a08a3a; }               /* Commissions */
 
 .sf-future-head {
   width: 100%;
