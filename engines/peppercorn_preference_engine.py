@@ -20,6 +20,22 @@ sys.stdout.reconfigure(encoding='utf-8')
 
 OPP_PATH = Path("deploy_data/compact_opportunities.json")
 PROFILE_PATH = Path("memory/peppercorn_profile.json")
+CAREER_REPORT_PATH = Path("memory/career_strategy_report.json")
+
+
+def _default_active_tiers() -> list:
+    """Same rule as api.py's _default_active_tiers: a profile with no explicit
+    active_tiers should default to whatever tiers she has actually reached, not
+    a fixed [1, 2] baked in at account creation. Tier 4 never appears here —
+    IBM excludes it regardless (CLAUDE.md)."""
+    tiers = [1, 2]
+    try:
+        rep = json.loads(CAREER_REPORT_PATH.read_text(encoding="utf-8"))
+        if float(rep.get("readiness_scores", {}).get("tier_3_readiness") or 0.0) >= 0.5:
+            tiers.append(3)
+    except Exception:
+        pass
+    return tiers
 
 PUBLICATION_CATS = {
     "zine", "book_fair", "bookshop_consignment", "fair_popup",
@@ -92,7 +108,7 @@ def build_pref_context(profile: dict) -> dict | None:
     preferences = profile.get("preferences", {})
     ctx = {
         "primary_track":  priorities.get("primary_track", "hybrid"),
-        "active_tiers":   [int(t) for t in (priorities.get("active_tiers") or [1, 2])],
+        "active_tiers":   [int(t) for t in (priorities.get("active_tiers") or _default_active_tiers())],
         "avoid":          set(priorities.get("avoid") or []),
         "surface_more":   set(preferences.get("surface_more") or []),
         "surface_less":   set(preferences.get("surface_less") or []),

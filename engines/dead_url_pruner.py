@@ -1,7 +1,8 @@
 """
 dead_url_pruner.py
 
-Pipeline step: marks entries with confirmed dead URLs (HTTP 404, url_verification_status=bad)
+Pipeline step: marks entries with confirmed dead URLs (HTTP 404/410 via either
+url_status_code or site_http_code, or url_verification_status=bad)
 as recommendation_visibility=hidden so they don't surface in the UI.
 
 Replaces the previous pattern of manually setting recommendation_visibility on individual entries.
@@ -27,7 +28,15 @@ def main():
     restored = 0
 
     for opp in opps:
-        status_code = opp.get("url_status_code")
+        # targeted_verification_agent.py (the later, more accurate live check)
+        # writes the HTTP code to site_http_code, not url_status_code — that
+        # field belongs to the earlier url_verification_engine.py pass. Prefer
+        # the fresher field; fall back to the older one for entries the later
+        # pass hasn't touched yet. Before this fix, any 404/410 found only by
+        # targeted_verification_agent was invisible here.
+        status_code = opp.get("site_http_code")
+        if status_code is None:
+            status_code = opp.get("url_status_code")
         url_status  = opp.get("url_verification_status", "")
         current_vis = opp.get("recommendation_visibility", "show")
 

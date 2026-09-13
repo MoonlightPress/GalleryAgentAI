@@ -104,10 +104,14 @@ PIPELINE = [
     "why_it_fits_engine.py",              # audit fix: moved before final guard
     "tier_scoring_engine.py",             # audit fix: must run before final_score_guard
     "final_score_guard.py",               # audit fix: now runs after tier adjustment
-    "targeted_verification_agent.py",     # systemic fix 2026-06-13: real URL/deadline
+    "targeted_verification_agent.py --all",  # systemic fix 2026-06-13: real URL/deadline
                                           # verification was never in the pipeline —
                                           # Verification > ranking (CLAUDE.md). Pure
-                                          # HTTP, no API cost.
+                                          # HTTP, no API cost. --all added 2026-09-12: the
+                                          # default --limit 50 meant ~1,345/1,395 opps never
+                                          # got the live closed-call-phrase check, only the
+                                          # earlier crude reachability pass (see dead_url_pruner
+                                          # fix same day).
     "recommendation_trust_cleaner.py",
     "dead_url_pruner.py",
     "prerequisite_detection_engine.py",   # audit fix: moved before bucket engine

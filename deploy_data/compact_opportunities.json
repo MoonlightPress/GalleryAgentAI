@@ -84329,7 +84329,7 @@
     "source_purity_score": 9.68,
     "verification_bucket": "research_needed",
     "verification_status": "verified",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "watercolor_fit_hits": [
       "watercolor",
       "works on paper",
@@ -174935,7 +174935,7 @@
     "source_purity_score": 7.1,
     "verification_bucket": "research_needed",
     "verification_status": "partial",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "watercolor_fit_hits": [
       "watercolor",
       "works on paper",
@@ -216556,7 +216556,7 @@
     },
     "dominant_curator_personality": "quiet_poetic",
     "curator_patterns": [],
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "exclusive_primary_bucket": "low_priority",
     "uncapped_score": 8.6,
     "score_sanity_note": "Score capped at 8.0 because source/verification strength is limited.",

@@ -766,7 +766,7 @@ const SHOW_OUTCOME_COLORS = {
   cancelled: { bg: '#f5f5f5', border: '#ccc',    text: '#555' },
 }
 
-function ExhibitionLogSection({ isOpen, onToggle, sectionRef, liveGroupShows, onCountsChanged }) {
+function ExhibitionLogSection({ isOpen, onToggle, sectionRef, liveGroupShows, careerExhibitions, onCountsChanged }) {
   const { t, lang } = useLanguage()
   const [shows, setShows] = useState([])
   const [filter, setFilter] = useState('all')
@@ -831,7 +831,13 @@ function ExhibitionLogSection({ isOpen, onToggle, sectionRef, liveGroupShows, on
     } catch { /* leave the row in place on network failure */ }
   }
 
-  const sorted = [...shows].sort((a, b) => (b.date || '').localeCompare(a.date || ''))
+  // Researched history (career_exhibitions, read-only) + what she's logged herself,
+  // merged into one list. Previously only one hand-typed row ("Tide from China
+  // Part 1") stood in for the researched side, so the visible list stayed at 1
+  // row while the header count (from the same profile data) said 8+.
+  const manual = shows.map(s => ({ ...s, source: s.source || 'logged' }))
+  const combined = [...(careerExhibitions || []), ...manual]
+  const sorted = [...combined].sort((a, b) => (b.date || '').localeCompare(a.date || ''))
   const visible = filter === 'all' ? sorted : sorted.filter(s => s.type === filter)
   // T0.6 — show THE canonical app-wide group-show count (the same number Saffron
   // uses), supplied by the server via /api/peppercorn live_counts. Never recompute
@@ -923,38 +929,33 @@ function ExhibitionLogSection({ isOpen, onToggle, sectionRef, liveGroupShows, on
         </div>
       </div>
 
-      <LogFilterTabs rows={[{ type: 'group' }, ...sorted]} field="type" labelFor={v => tfb(t, 'pp.showType.' + v, v)} active={filter} onChange={setFilter} lang={lang} />
+      <LogFilterTabs rows={sorted} field="type" labelFor={v => tfb(t, 'pp.showType.' + v, v)} active={filter} onChange={setFilter} lang={lang} />
       <div className="pp-sub-list">
-        {/* The pinned first Japan exhibition (always a group show). */}
-        {(filter === 'all' || filter === 'group') && (
-        <div className="pp-sub-row pp-sub-row--system" style={{ borderLeft: '3px solid #8fc98a' }}>
-          <div className="pp-sub-row-header">
-            <span className="pp-sub-venue">Tide from China Part 1</span>
-            <span className="pp-sub-outcome" style={{ background: '#f0fbee', color: '#2e6626', border: '1px solid #8fc98a' }}>
-              {t('pp.showOutcome.shown')}
-            </span>
-            <span className="pp-sub-date">2023-02</span>
-          </div>
-          <div className="pp-sub-what">ACG_Labo, Harajuku, Tokyo · {t('pp.showType.group')}</div>
-          <div className="pp-sub-notes">{t('pp.exlog.systemEntry')}</div>
-        </div>
-        )}
-
         {visible.map(s => {
           const colors = SHOW_OUTCOME_COLORS[s.outcome] || SHOW_OUTCOME_COLORS.shown
+          const isProfile = s.source === 'profile'
           return (
-            <div key={s.id} className="pp-sub-row" style={{ borderLeft: `3px solid ${colors.border}` }}>
+            <div key={s.id} className={`pp-sub-row${isProfile ? ' pp-sub-row--system' : ''}`} style={{ borderLeft: `3px solid ${colors.border}` }}>
               <div className="pp-sub-row-header">
                 <span className="pp-sub-venue">{s.name || s.venue}</span>
                 <span className="pp-sub-outcome" style={{ background: colors.bg, color: colors.text, border: `1px solid ${colors.border}` }}>
                   {s.outcome ? t('pp.showOutcome.' + s.outcome) : ''}
                 </span>
-                {s.date && <span className="pp-sub-date">{s.date}</span>}
-                <button className="pp-edit-btn" onClick={() => startEdit(s)} title={t('pp.exlog.edit')}>✎</button>
-                <button className="pp-edit-btn" onClick={() => deleteShow(s.id)} title={t('pp.exlog.delete')}>×</button>
+                {(s.date_display || s.date) && <span className="pp-sub-date">{s.date_display || s.date}</span>}
+                {!isProfile && (
+                  <>
+                    <button className="pp-edit-btn" onClick={() => startEdit(s)} title={t('pp.exlog.edit')}>✎</button>
+                    <button className="pp-edit-btn" onClick={() => deleteShow(s.id)} title={t('pp.exlog.delete')}>×</button>
+                  </>
+                )}
               </div>
-              {s.venue && s.name && <div className="pp-sub-what">{s.venue} · {tfb(t, 'pp.showType.' + s.type, s.type)}</div>}
+              {s.venue && s.name && (
+                <div className="pp-sub-what">
+                  {s.venue}{s.city ? `, ${s.city}` : ''} · {tfb(t, 'pp.showType.' + s.type, s.type)}
+                </div>
+              )}
               {s.notes && <div className="pp-sub-notes">{s.notes}</div>}
+              {isProfile && <div className="pp-sub-notes">{t('pp.exlog.systemEntry')}</div>}
             </div>
           )
         })}
@@ -2015,6 +2016,7 @@ export default function PeppercornPage({ nav }) {
       <ExhibitionLogSection
         key="exhibition-log"
         liveGroupShows={profile?.live_counts?.group_shows}
+        careerExhibitions={profile?.career_exhibitions}
         onCountsChanged={refreshLiveCounts}
         isOpen={openSections.has('exhibition-log')}
         onToggle={() => toggleSection('exhibition-log')}

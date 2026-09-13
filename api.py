@@ -1160,6 +1160,21 @@ def _career_readiness() -> dict:
     return _CAREER_REPORT_CACHE
 
 
+def _default_active_tiers() -> list:
+    """Peppercorn's Immediate-Best-Moves tier filter defaults to whatever tiers
+    she has actually reached, not a fixed [1, 2] — a profile that never touches
+    this preference must not be permanently pinned to the level she started at.
+    Found 2026-09-12: her stored profile still had [1, 2] though tier_3_readiness
+    is 1.0, silently suppressing 8 immediate_best_moves-scored opportunities
+    (one a perfect 10.0, one due in a week) with no UI trace of why. Tier 4 is
+    deliberately never added here — CLAUDE.md: it must never appear in IBM
+    regardless of this preference."""
+    tiers = [1, 2]
+    if _career_readiness().get("tier_3", 0.0) >= 0.5:
+        tiers.append(3)
+    return tiers
+
+
 def _opp_tier(opp: dict) -> int:
     """Career tier (1–4) of an opportunity, via the same classifier the career
     engine uses, so the live re-rank and the readiness report never disagree."""
@@ -2162,6 +2177,34 @@ def get_saffron():
     # To update it weekly, edit ONE place: Memory/artist_master_profile.json →
     # social_presence.instagram.followers. Everything below reads from here.
     _ig_followers = ((_amp.get("social_presence", {}) or {}).get("instagram", {}) or {}).get("followers") or "27k"
+
+    def _career_social_rows(master: dict) -> list:
+        """All five tracked platforms, largest first — not Instagram alone.
+
+        CLAUDE.md: 'All five counts... never hardcode.' Found 2026-09-13: this
+        Career Position block (the one she actually reads on Saffron's profile
+        tab) still hardcoded a single-entry Instagram-only list from before
+        Xiaohongshu/Bilibili/Weibo/X were added to the profile — the exact
+        failure the rule was written to stop, just never applied here."""
+        sp = (master or {}).get("social_presence") or {}
+        names = {
+            "twitter_x": "X / Twitter", "weibo": "微博 / Weibo",
+            "xiaohongshu": "小红书 / Xiaohongshu (RED)",
+            "instagram": "Instagram", "bilibili": "哔哩哔哩 / Bilibili",
+        }
+        rows = []
+        for key, entry in sp.items():
+            if key.startswith("_") or not isinstance(entry, dict):
+                continue
+            rows.append({
+                "platform": names.get(key, entry.get("platform") or key),
+                "handle": entry.get("handle"),
+                "followers": entry.get("followers"),
+                "followers_approx": entry.get("followers_approx") or 0,
+                "posts": entry.get("uploads"),
+            })
+        rows.sort(key=lambda r: r["followers_approx"], reverse=True)
+        return rows
     try:
         from engines.career_strategy_engine import (
             _has_solo_show, _has_institutional_show, _has_international_show,
@@ -2252,9 +2295,7 @@ def get_saffron():
                 "type": "Group publication, contributor",
             },
         ],
-        "social": [
-            {"platform": "Instagram",   "handle": "@gegyjiji",  "followers": _ig_followers, "posts": None},
-        ],
+        "social": _career_social_rows(_amp),
         "education": {
             "institution": "Beijing Fashion Institute",
             "field": "Illustration & design",
@@ -3955,6 +3996,57 @@ def _localized_statement_siblings(prof: dict) -> None:
             prof["artist_statement_ja"] = ja
 
 
+_EX_MONTH_RE = re.compile(
+    r'(january|february|march|april|may|june|july|august|september|october|'
+    r'november|december)', re.IGNORECASE)
+_EX_MONTH_NUM = {m: i + 1 for i, m in enumerate(
+    ['january', 'february', 'march', 'april', 'may', 'june', 'july',
+     'august', 'september', 'october', 'november', 'december'])}
+
+
+def _ex_start_ym(dates_str: str) -> str:
+    """'YYYY-MM' for the FIRST month/year mentioned in a career_history date
+    range ('February 4-13, 2023' -> '2023-02'). Best-effort; '' if unparsable."""
+    s = str(dates_str or "")
+    months = _EX_MONTH_RE.findall(s)
+    years = re.findall(r'(20\d{2})', s)
+    if not months or not years:
+        return ""
+    return f"{years[0]}-{_EX_MONTH_NUM[months[0].lower()]:02d}"
+
+
+def _career_exhibition_rows() -> list:
+    """Her researched, sourced exhibition history (career_history.exhibitions),
+    shaped like an exhibition_log row so Peppercorn's log can show it as
+    read-only reference rows instead of a single hardcoded pinned entry.
+
+    Found 2026-09-12: the log's count came from here (via _live_career_counts)
+    but the visible LIST only ever rendered one hand-typed row ("Tide from
+    China Part 1") — she opened her own exhibition history and saw 1 row under
+    a header that said 8. This is the fix: render all of them, not one."""
+    try:
+        from engines.career_strategy_engine import _is_solo_type
+    except Exception:
+        _is_solo_type = lambda t: "solo" in (t or "").lower()  # noqa: E731
+    master = _load_json(DATA_DIR / "artist_master_profile.json", {})
+    rows = []
+    for i, ex in enumerate(master.get("career_history", {}).get("exhibitions", [])):
+        rows.append({
+            "id": f"profile:{i}",
+            "source": "profile",
+            "name": ex.get("title", ""),
+            "venue": ex.get("venue", ""),
+            "city": ex.get("city", ""),
+            "date": _ex_start_ym(ex.get("dates", "")),
+            "date_display": ex.get("dates", ""),
+            "type": "solo" if _is_solo_type(ex.get("type", "")) else "group",
+            "outcome": "shown",
+            "notes": ex.get("significance") or "",
+            "confidence": ex.get("confidence", ""),
+        })
+    return rows
+
+
 @app.get("/api/peppercorn")
 def get_peppercorn():
     ppath = DATA_DIR / "peppercorn_profile.json"
@@ -3962,6 +4054,7 @@ def get_peppercorn():
         prof = _load_json(ppath, {})
         _localized_statement_siblings(prof)
         prof["live_counts"] = _live_career_counts()
+        prof["career_exhibitions"] = _career_exhibition_rows()
         return prof
     # Build defaults from artist_master_profile
     mpath = DATA_DIR / "artist_master_profile.json"
@@ -3970,8 +4063,9 @@ def get_peppercorn():
     return {
         "last_updated": None,
         "live_counts": _live_career_counts(),
+        "career_exhibitions": _career_exhibition_rows(),
         "priorities": {
-            "active_tiers": [1, 2],
+            "active_tiers": _default_active_tiers(),
             "primary_track": "hybrid",
             "avoid": [],
         },
