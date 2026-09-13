@@ -2322,27 +2322,35 @@ def _build_saffron_payload():
         if _norm_title(e.get("title", "")) not in _profile_titles
     ]
 
+    # Same anti-pattern as social/exhibitions/press, found in the same sweep
+    # 2026-09-13: a hardcoded snapshot of career_history.publications, plus a
+    # SECOND independent hardcoded copy in publication_landscape below — two
+    # duplicates of the same fact that could silently disagree the moment
+    # either went stale. Both now read the one source.
+    def _career_publication_rows(master: dict) -> list:
+        rows = []
+        for p in master.get("career_history", {}).get("publications", []):
+            ym = re.search(r"(19|20)\d{2}", p.get("date", "") or "")
+            rows.append({
+                "title": p.get("title", ""),
+                "year": ym.group(0) if ym else None,
+                "type": (p.get("type", "") or "").capitalize(),
+                "note": p.get("notes", ""),
+            })
+        return rows
+
     career_position = {
         "exhibitions": _profile_exhibitions + _extra_logged,
-        "publications": [
-            {
-                "title": "Colour Diary",
-                "year": "2021",
-                "type": "Solo illustration collection",
-            },
-            {
-                "title": "defined Definition 02: A Documented Journey",
-                "year": None,
-                "type": "Group publication, contributor",
-            },
-        ],
+        "publications": _career_publication_rows(_amp),
         "social": _career_social_rows(_amp),
         "education": {
             "institution": "Beijing Fashion Institute",
             "field": "Illustration & design",
             "note": "Illustration & design background",
         },
-        "base": "Tokyo, Japan",
+        # Was hardcoded "Tokyo, Japan" — her own profile has said "Between Tokyo
+        # and Beijing (not exclusively Tokyo)" since 2026-06-02.
+        "base": _amp.get("career_history", {}).get("base", "Tokyo, Japan"),
     }
 
     # ── Market landscape (computed from compact_opportunities.json) ───────────
@@ -2899,20 +2907,30 @@ def _build_saffron_payload():
     }
 
     # ── Press & features ──────────────────────────────────────────────────────
+    # Read from career_history.press rather than a hardcoded pair. Found
+    # 2026-09-13: Design You Trust (a real, verified feature — confirmed by
+    # fetching the actual article) has sat in the profile since 2024 while this
+    # list only ever named the two Bored Panda pieces. She noticed the gap
+    # herself. Verified 2026-09-13: it's a two-paragraph captioned gallery post,
+    # no byline, no real analysis — same character as the Bored Panda pieces,
+    # not the "editorial/journalist-authored" the profile field calls it.
+    _PRESS_NOTES = {
+        ("Bored Panda", "https://www.boredpanda.com/watercolor-paintings-cats-nature-city-gegyjiji/"):
+            "Visual feature of watercolor work — large general audience, no biographical depth",
+        ("Bored Panda", "https://www.boredpanda.com/watercolor-paintings-cats-nature-city-gegyjiji-part-2/"):
+            "Follow-up feature of the same body of work",
+        ("Design You Trust", "https://designyoutrust.com/2024/08/chinese-artist-captures-the-quiet-solitude-of-modern-life-through-delicate-watercolor-art/"):
+            "Two-paragraph captioned gallery post naming her — no byline, no real analysis, same character as the Bored Panda pieces rather than criticism.",
+    }
     press_features = {
         "confirmed": [
             {
-                "outlet": "Bored Panda",
-                "type": "Work feature",
-                "url": "https://www.boredpanda.com/watercolor-paintings-cats-nature-city-gegyjiji/",
-                "note": "Visual feature of watercolor work — large general audience, no biographical depth",
-            },
-            {
-                "outlet": "Bored Panda",
-                "type": "Work feature (part 2)",
-                "url": "https://www.boredpanda.com/watercolor-paintings-cats-nature-city-gegyjiji-part-2/",
-                "note": "Follow-up feature of the same body of work",
-            },
+                "outlet": p.get("outlet", ""),
+                "type": p.get("type", ""),
+                "url": p.get("url", ""),
+                "note": _PRESS_NOTES.get((p.get("outlet", ""), p.get("url", "")), ""),
+            }
+            for p in _amp.get("career_history", {}).get("press", [])
         ],
         "art_press": {
             "available": False,
@@ -3034,20 +3052,10 @@ def _build_saffron_payload():
     ]
 
     publication_landscape = {
-        "artist_publications": [
-            {
-                "title": "Colour Diary (色彩日記)",
-                "year": "2021",
-                "type": "Solo illustration collection",
-                "note": "First solo published work, grew from daily diary practice",
-            },
-            {
-                "title": "defined Definition 02: A Documented Journey",
-                "year": "unknown",
-                "type": "Group publication, contributor",
-                "note": "Participation confirmed, publication details unverified",
-            },
-        ],
+        # Was a second, independently hardcoded copy of career_position's
+        # publications list — two duplicates of one fact that could disagree
+        # the moment either went stale. Same source now.
+        "artist_publications": _career_publication_rows(_amp),
         "pipeline_count": len(pub_opps),
         "top_targets": pub_sample,
         "tiers": [
