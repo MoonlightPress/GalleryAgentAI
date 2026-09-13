@@ -314,8 +314,13 @@ export default function SaffronV2({ nav }) {
     track({ type: 'nav', page: 'observe2', section: key })
   }
 
-  if (error) return <div className="sf-error">{t('sf.error')}</div>
-  if (!data) return <div className="sf-loading">{c.loading}</div>
+  // The hero image and nav used to be gated behind `data` (an early return
+  // above them), so a cold visit — no seeded cache, e.g. her first open from
+  // an Instagram link — sat on a blank screen for however long /api/saffron
+  // took (measured ~2.2s backend alone, before network). Found 2026-09-13:
+  // "the hero image doesn't load at all for the same period... it just sits
+  // on a blank screen." Both now render immediately; only the tab content
+  // below waits on data.
 
   // The three surviving tabs keep the names the app already uses. Renaming them
   // was scope creep on my part: `sf.cat.*` are established, already translated
@@ -337,6 +342,10 @@ export default function SaffronV2({ nav }) {
       {nav}
 
       <div className="sf-content">
+        {error && <div className="sf-error page-content-start">{t('sf.error')}</div>}
+        {!error && !data && <div className="sf-loading page-content-start">{c.loading}</div>}
+        {!error && data && (
+        <>
         {/* page-content-start: PaperAccents (App.jsx) anchors to the BOTTOM
             edge of the LAST element carrying this class. The old SaffronPage
             marked its own .sf-tabs the same way; this one didn't, which left
@@ -422,6 +431,8 @@ export default function SaffronV2({ nav }) {
                 more duplicate-titled section on either page. */}
             {SB('ladders', <Ladders data={data} careerData={careerData} lang={lang} />)}
           </SectionOpenContext.Provider>
+        )}
+        </>
         )}
       </div>
     </div>

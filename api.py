@@ -2133,8 +2133,49 @@ def lookup_contact(name: str):
     return None
 
 
+_SAFFRON_CACHE = None
+_SAFFRON_CACHE_KEY = None
+
+# Every file get_saffron's ~1,700 lines of aggregation touch, so the cache
+# below invalidates the moment any of them changes (a deploy, a pipeline run,
+# a save from Peppercorn) rather than staying stale until a restart.
+_SAFFRON_DEPENDENCY_FILES = [
+    DATA_DIR / "peppercorn_profile.json",
+    DATA_DIR / "exhibition_log.json",
+    DEPLOY_DIR / "compact_opportunities.json",
+    DATA_DIR / "artist_master_profile.json",
+    DATA_DIR / "contact_memory.json",
+    DATA_DIR / "peer_artists.json",
+    DATA_DIR / "translation_cache.json",
+    DATA_DIR / "career_events.json",
+    DATA_DIR / "career_strategy_report.json",
+    DATA_DIR / "submission_log.json",
+]
+
+
+def _saffron_cache_key():
+    return tuple(p.stat().st_mtime if p.exists() else 0 for p in _SAFFRON_DEPENDENCY_FILES)
+
+
 @app.get("/api/saffron")
 def get_saffron():
+    """Cached. Found 2026-09-13: this endpoint recomputed its full ~1,700-line
+    aggregation (and re-read 10 JSON files) from scratch on every request —
+    measured ~2.2s of pure backend latency, on top of which the hero image was
+    gated behind the fetch completing, so the page sat on a blank screen for
+    the whole stretch. Nothing here needs to be per-request: the underlying
+    data only changes on a deploy, a pipeline run, or a Peppercorn save, all of
+    which touch a file in _SAFFRON_DEPENDENCY_FILES and invalidate the cache
+    immediately."""
+    global _SAFFRON_CACHE, _SAFFRON_CACHE_KEY
+    key = _saffron_cache_key()
+    if _SAFFRON_CACHE is None or key != _SAFFRON_CACHE_KEY:
+        _SAFFRON_CACHE = _build_saffron_payload()
+        _SAFFRON_CACHE_KEY = key
+    return _SAFFRON_CACHE
+
+
+def _build_saffron_payload():
     # ── Peppercorn answers (live data from artist) ────────────────────────────
     _pp_path = DATA_DIR / "peppercorn_profile.json"
     _pp = _load_json(_pp_path, {})
