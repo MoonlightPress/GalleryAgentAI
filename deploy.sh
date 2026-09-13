@@ -159,6 +159,62 @@ with open(srv, "w") as f: json.dump(merged, f, indent=2)
 print(f"  suppressed_opportunities: merged -> {len(merged)} ids")
 PYMERGE
   fi
+
+  # contact_memory.json: field-level patch, not a force-update like peer_artists.json.
+  # This file is BOTH our research (why_relevant, notes_zh/ja — never written by
+  # the API) AND her data (status/notes/last_contacted, written by POST/PATCH
+  # /api/contacts) mixed in the same entries, so neither --ignore-existing nor a
+  # blanket overwrite is safe. Research-only fields always sync from local.
+  # "notes" (plain English) is shared with her real edit UI, so it only gets an
+  # exact-match-guarded one-time fix (NOTES_EXACT_FIXES below) — a no-op the
+  # moment she's actually touched it. Found 2026-09-13: SUZURI's follower count
+  # was wrong 3 different ways across languages; fixed locally but
+  # --ignore-existing meant the deploy never shipped it.
+  if [ -f /tmp/mochi-app-stage/memory/contact_memory.json ]; then
+    sudo python3 - <<'PYMERGE2'
+import json
+srv = "/opt/mochi/memory/contact_memory.json"
+inc = "/tmp/mochi-app-stage/memory/contact_memory.json"
+RESEARCH_FIELDS = ("why_relevant", "why_relevant_zh", "why_relevant_ja",
+                    "notes_zh", "notes_ja")
+# "notes" (plain English) is the one field this set shares with her real
+# editing UI (PATCH /api/contacts/update, used by VenueTracker's own Edit
+# button) — never force it. Instead, exact-match-guarded one-time fixes: only
+# applies if her copy still reads exactly the known-stale text, so a real edit
+# of hers is never overwritten, and each entry fires at most once ever.
+NOTES_EXACT_FIXES = {
+    "suzuri": (
+        "POD platform - Tshirts, totes, postcards. Setup target: 2-3 hours. Passive income from 26k Twitter following.",
+        "POD platform - Tshirts, totes, postcards. Setup target: 2-3 hours. Passive income from 27k Instagram following.",
+    ),
+}
+def load(p):
+    try:
+        with open(p, encoding="utf-8") as f: return json.load(f)
+    except Exception: return None
+srv_data, inc_data = load(srv), load(inc)
+if srv_data is not None and inc_data is not None:
+    srv_list = srv_data.get("contacts", []) if isinstance(srv_data, dict) else srv_data
+    inc_list = inc_data.get("contacts", []) if isinstance(inc_data, dict) else inc_data
+    by_name = {(c.get("name") or "").strip().lower(): c for c in srv_list}
+    patched = 0
+    for inc_c in inc_list:
+        srv_c = by_name.get((inc_c.get("name") or "").strip().lower())
+        if not srv_c:
+            continue
+        for field in RESEARCH_FIELDS:
+            if field in inc_c and inc_c[field] != srv_c.get(field):
+                srv_c[field] = inc_c[field]
+                patched += 1
+        fix = NOTES_EXACT_FIXES.get((inc_c.get("name") or "").strip().lower())
+        if fix and srv_c.get("notes") == fix[0]:
+            srv_c["notes"] = fix[1]
+            patched += 1
+    with open(srv, "w", encoding="utf-8") as f:
+        json.dump(srv_data, f, ensure_ascii=False, indent=2)
+    print(f"  contact_memory: patched {patched} research field(s), her data untouched")
+PYMERGE2
+  fi
   sudo chown -R ubuntu:ubuntu /opt/mochi/api.py /opt/mochi/deploy_data /opt/mochi/memory /opt/mochi/engines
   # Regenerate the career-strategy report with the freshly-deployed engine code.
   # deploy preserves her memory (--ignore-existing), so the report file itself is
