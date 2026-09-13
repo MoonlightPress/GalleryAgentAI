@@ -693,13 +693,28 @@ export function CareerPosition({ data, t, onChanged }) {
             </div>
           ))}
         </div>
-        {/* Social handles, education, and home base removed — she already knows
-            her own handles, where she studied, and where she lives. Instagram is
-            stated ONCE here, as the audience fact ("an established, growing
-            following"), not repeated as a handle row / benchmark / geo line. */}
+        {/* Education and home base stay removed — she already knows where she
+            studied and where she lives. The five-platform breakdown does NOT
+            duplicate that reasoning: the page said "an established, growing
+            following across five platforms" with no numbers, which hid the one
+            fact in this whole section she couldn't already recite herself —
+            that her real reach is 233k, not the 27k the milestone marker above
+            shows alone, and that more of it reads her in Chinese than English.
+            Found 2026-09-13: the data has carried all five since this session's
+            social-platforms fix; the UI just never rendered them. */}
         <div className="sf-career-block">
           <div className="sf-block-label">{t('sf.label.audience')}</div>
           <div className="sf-row-title">{t('sf.audience.fact')}</div>
+          {data.social.map((s, i) => (
+            <div key={i} className="sf-career-row sf-career-row--compact">
+              <span className="sf-check">✓</span>
+              <div className="sf-career-row-body">
+                <div className="sf-row-title">{s.platform}</div>
+                <div className="sf-row-sub">{s.followers}</div>
+              </div>
+            </div>
+          ))}
+          <div className="sf-row-meta sf-audience-caveat">{t('sf.audience.ceiling')}</div>
         </div>
       </div>
     </SectionShell>
@@ -2059,7 +2074,13 @@ export function Futures({ data, t, lang, components }) {
 // surfaces stay in sync. Status set matches Peppercorn's CRM values.
 const VENUE_STATUS_OPTS = [
   { value: 'cold',            color: '#9a8a70', zh: '尚未联系',   ja: '未連絡',       en: 'Not yet contacted' },
-  { value: 'researching',     color: '#c47a35', zh: '了解中',     ja: '調べている',   en: 'Looking into it' },
+  // Was "Looking into it" / "了解中" / "調べている" — all three present-tense,
+  // implying an ongoing personal action. Found 2026-09-13: this status is set
+  // by the pipeline's own research pass (10 of 52 contacts), never by her —
+  // nothing in the app has ever recorded her touching a single one (active: 0
+  // across all 52). It flags what the system found promising, not what she's
+  // doing. Reworded to describe the venue, not claim an action for her.
+  { value: 'researching',     color: '#c47a35', zh: '值得了解',   ja: '調べる価値あり', en: 'Worth looking into' },
   { value: 'ready_to_review', color: '#c47a35', zh: '可以联系了', ja: '連絡してよい', en: 'Ready to reach out' },
   { value: 'in_contact',      color: '#c4a03a', zh: '联系中',     ja: 'やり取り中',   en: 'In contact' },
   { value: 'contacted',       color: '#5a7a30', zh: '已联系',     ja: '連絡した',     en: 'Reached out' },
