@@ -260,6 +260,31 @@ export const STATES = {
     detail: T('The state this ladder is for. Hobonichi runs a standing Artist Collection line of Techo covers with named illustrators, and publishes no submission route at all — the last open call closed in 2010. A door like that only opens from the other side.',
               '这条阶梯就是为了到达这个状态。ほぼ日（Hobonichi）有常设的“艺术家系列”（アーティストコレクション）手账封面，上面写着插画师的名字；而他们完全没有公开任何投稿入口——最后一次公开征集是 2010 年。这样的门，只会从另一边打开。'),
   },
+
+  // ── commissions ────────────────────────────────────────────────────────────
+  // 2026-09-13. Built per docs/NEXT_PHASE_strategies.md, which names "commissions
+  // that find her" as a candidate fourth goal never built. futures_engine.py's
+  // "on_assignment" Pathway (Commissions) is a separate, already-correct layer —
+  // left untouched — but its researched rate-card facts and doors (ザ・チョイス,
+  // HB FILE) are real source material reused here as evidence, not invented.
+  // Most of this ladder reuses licensing states outright: a client briefing a
+  // painting and a brand licensing one already ask for the same look, the same
+  // sendable portfolio, and the same published doors — the overlap is real, not
+  // forced.
+  c_terms: {
+    label: T("A price that doesn't have to be invented mid-enquiry", '不用等询价上门才现编的报价'),
+    // Real, sourced fact, not an absence assumed from silence: profile records
+    // pricing as "negotiated per piece" with no published rate (Scott,
+    // 2026-09-06) — a direct observation, the same evidentiary standard as
+    // g_press and a_weekly's real 'no's, not a gap inferred from missing data.
+    detail: T("Commission pricing is currently negotiated per piece, with no published rate — the closest researched comparable, a Western 8x10 watercolour house portrait, runs ¥31,000–39,000, close to your own originals floor of ¥31,900. The national illustration rate card separates the same enquiry into four things that can each be quoted on their own — the painting fee, the licence, additional use if the image runs again, and copyright transfer priced two to three times higher — a structure already there to reuse before the next enquiry arrives.",
+              '委托的定价目前是按件单独商议，没有公开价目——查到的最接近的参照，是一幅西方 8x10 英寸水彩肖像画，报价 31,000–39,000 日元，和你自己原作的价格下限 31,900 日元很接近。全国插画费率表把同一次询价拆成四项，可以分开报价——绘制费、授权、追加使用（图像再次被使用时另计一笔），以及买断版权（定价是普通授权的两到三倍）——这套框架已经现成，下一次询价到来之前就能直接拿来用。'),
+  },
+  c_inbound: {
+    label: T('Commissions that arrive without a pitch', '不用主动接洽、自己找上门的委托'),
+    detail: T("The state this ladder is for. CWC Tokyo's published contact door and HB FILE's year of visibility to designers and publishers are both real routes by which someone with a brief could reach you first — whether either has, or how often, is not something this system has counted.",
+              '这条阶梯就是为了到达这个状态。CWC Tokyo 公开的联系入口，以及 HB FILE 让作品在一年内持续向设计师与出版社开放，都是真实存在、能让一个带着稿件的人先找到你的渠道——至于有没有人这样找过、找过几次，这套系统还没有统计过。'),
+  },
 }
 
 // A goal is a name plus an ORDER of states. `why` overrides the detail where a
@@ -287,6 +312,18 @@ export const GOALS = [
     why: {
       a_look: T('Brands license a look they can put across a product line, so it has to survive being reproduced small and in quantity — the same consistency that earns recognition in a feed.', '品牌买的是一种能延展成一整条产品线的画风，所以它必须经得起被缩小、被大量复制——这和在信息流里被认出来，靠的是同一种稳定。'),
       a_series: T('A range needs several related pieces at once, so a named series licenses more easily than a strong single image.', '一个产品系列一次要用好几件相关的作品，所以有名字的系列，比一张出色的单幅作品更容易授权。'),
+    },
+  },
+  {
+    id: 'commissions',
+    name: T('Commissions that find you', '会主动找上门的委托'),
+    ladder: ['a_look', 'c_terms', 'l_lookbook', 'l_findable', 'l_first', 'l_repeat', 'c_inbound'],
+    why: {
+      a_look: T("A commissioner briefs you because they already know the look they're asking for — urban architecture, interior light, watercolour transparency, consistent for six years — so the same recognisability that reads at thumbnail size is what lets a stranger choose you for a job before it exists.", '委托方会来找你，是因为在开口之前就已经认得你的画风——城市建筑、室内光线、水彩的透明感，六年来一直很稳定——正是这种一眼能认出来的辨识度，让一个陌生人愿意在稿子还不存在的时候，就选定由你来画。'),
+      l_lookbook: T('A commissioner asks to see work before agreeing to a brief for the same reason a brand does — the same PDF of ten to twenty mock-ups does both jobs at once.', '委托方在答应一份稿件之前，也会想先看看作品——原因和品牌方一样；同一份十到二十件的效果图 PDF，两边都能用。'),
+      l_findable: T("For a commission, findable means somewhere a client picks an illustrator for a brief, not a directory of images to license. CWC Tokyo has represented overseas illustrators into the Japanese market since 1991, and its contact form carries an illustrator category — a real, published door for exactly this. ザ・チョイス (¥1,500, quarterly, no restriction on nationality or professional status) and HB FILE (¥7,000, entrant files kept visible to designers and publishers for a year) are two more.", '对委托来说，“被找到”指的是有人在为一份具体的稿件挑插画师，而不是一个供人挑图授权的图库。CWC Tokyo 从 1991 年起就在把海外插画师引进日本市场，他们的联系表单里专门有“插画师应征”这一类——这是一扇真实存在、公开可用的门。另外还有两条：ザ・チョイス（1,500 日元，一年四次，不限国籍与职业／业余身份）和 HB FILE（7,000 日元，入选者的档案会在一年内持续向设计师与出版社开放）。'),
+      l_first: T('Here it is a first paid commission rather than a first stock licence, but the same rate card sets the floor either way: a small internal illustration starts around ¥5,000, a book cover around ¥70,000, and the average coordinated job across the whole grid runs ¥71,327.', '在这里，指的是第一笔付费委托，而不是第一笔图库授权，但报价的底线来自同一张费率表：内页小图大约从 5,000 日元起，书籍封面大约 70,000 日元起，整张表里经手项目的平均费用是 71,327 日元。'),
+      l_repeat: T('A repeat client here is someone with a brief who comes back, not a brand relicensing an old image — the same published figures still set the ceiling: up to ¥100,000 for a magazine cover, ¥800,000 for a calendar, with copyright transfer priced two to three times higher.', '这里的回头客，是一位带着新稿件回来找你的委托方，而不是把旧图再授权一次的品牌——价格上限来自同一份公开数据：杂志封面可到 100,000 日元，日历可到 800,000 日元，买断版权的定价是普通授权的两到三倍。'),
     },
   },
 ]
@@ -366,5 +403,13 @@ export function evidence(data, careerData) {
     l_first: 'unknown',
     l_repeat: 'unknown',
     l_inbound: 'unknown',
+
+    // Commissions — career_evidence has no field for pricing structure or
+    // inbound enquiries, so only c_terms is a real 'no' (a direct sourced fact:
+    // the profile records pricing as negotiated per piece with no published
+    // rate). c_inbound stays 'unknown' rather than a guessed 'no' — nobody
+    // tracks whether or how often an unprompted commission enquiry has arrived.
+    c_terms: 'no',
+    c_inbound: 'unknown',
   }
 }
